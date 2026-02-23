@@ -24,6 +24,32 @@ pm2 start dist/index.js --name max-moderation-bot
 pm2 save
 ```
 
+## Быстрые команды (локалка и VPS)
+
+### 1) Локальный коммит + push
+
+```bash
+npm run local:push -- "Initial commit"
+```
+
+Что делает:
+- `git add -A`
+- `git commit -m "..."`
+- `git push origin <current-branch>`
+
+### 2) VPS pull + install + build + restart
+
+```bash
+npm run vps:deploy
+```
+
+Что делает:
+- `git fetch` + `git pull --ff-only`
+- `npm ci` (или `npm install`, если нет lock-файла)
+- `npm run build`
+- `pm2 restart max-moderation-bot` (или старт, если процесса нет)
+- `pm2 save`
+
 ## Админ-команды
 
 - `/mod_status`

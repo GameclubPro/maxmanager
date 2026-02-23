@@ -9,7 +9,9 @@
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "local:push": "bash scripts/local-commit-push.sh",
+    "vps:deploy": "bash scripts/vps-deploy.sh"
   },
   "engines": {
     "node": ">=22"
