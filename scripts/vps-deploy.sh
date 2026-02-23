@@ -29,12 +29,24 @@ fi
 echo "[vps] build"
 npm run build
 
+if [ ! -f .env ]; then
+  echo "[vps] .env not found in $ROOT_DIR"
+  echo "[vps] create it first: cp .env.example .env"
+  exit 1
+fi
+
+BOT_TOKEN_LINE="$(grep '^BOT_TOKEN=' .env || true)"
+if [ -z "$BOT_TOKEN_LINE" ] || [ "$BOT_TOKEN_LINE" = "BOT_TOKEN=" ] || [ "$BOT_TOKEN_LINE" = "BOT_TOKEN=replace_me" ]; then
+  echo "[vps] BOT_TOKEN is missing in .env"
+  exit 1
+fi
+
 echo "[vps] restart service"
 if command -v pm2 >/dev/null 2>&1; then
   if pm2 describe max-moderation-bot >/dev/null 2>&1; then
-    pm2 restart max-moderation-bot
+    pm2 restart max-moderation-bot --update-env
   else
-    pm2 start dist/index.js --name max-moderation-bot
+    pm2 start dist/index.js --name max-moderation-bot --cwd "$ROOT_DIR"
   fi
   pm2 save
 else

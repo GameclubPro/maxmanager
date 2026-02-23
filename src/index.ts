@@ -1,12 +1,32 @@
-import 'dotenv/config';
+import fs from 'node:fs';
+import path from 'node:path';
+import dotenv from 'dotenv';
 import { loadConfig } from './config';
 import { createRuntime } from './bot';
+
+function loadEnv(): void {
+  const candidatePaths = [
+    path.resolve(process.cwd(), '.env'),
+    path.resolve(__dirname, '../.env'),
+  ];
+
+  const seen = new Set<string>();
+  for (const envPath of candidatePaths) {
+    if (seen.has(envPath)) continue;
+    seen.add(envPath);
+
+    if (fs.existsSync(envPath)) {
+      dotenv.config({ path: envPath, override: false });
+    }
+  }
+}
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function main(): Promise<void> {
+  loadEnv();
   const config = loadConfig();
   const runtime = await createRuntime(config);
 
