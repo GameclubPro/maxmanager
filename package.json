@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "local:push": "bash scripts/local-commit-push.sh",
-    "vps:deploy": "bash scripts/vps-deploy.sh"
+    "vps:deploy": "bash scripts/vps-deploy.sh",
+    "commands:install": "bash scripts/install-global-commands.sh"
   },
   "engines": {
     "node": ">=22"

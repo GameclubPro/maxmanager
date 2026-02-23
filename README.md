@@ -50,6 +50,23 @@ npm run vps:deploy
 - `pm2 restart max-moderation-bot` (или старт, если процесса нет)
 - `pm2 save`
 
+## Две короткие команды без npm
+
+Один раз на машине установите команды в `/usr/local/bin`:
+
+```bash
+sudo bash scripts/install-global-commands.sh
+```
+
+После этого используйте только:
+
+```bash
+maxpush "ваш commit message"
+maxdeploy
+```
+
+Важно: запускать команды нужно внутри папки git-репозитория проекта.
+
 ## Админ-команды
 
 - `/mod_status`

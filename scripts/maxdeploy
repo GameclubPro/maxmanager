@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(git rev-parse --show-toplevel 2>/dev/null || true)"
+if [ -z "$ROOT_DIR" ]; then
+  echo "Error: run maxdeploy inside your git repository"
+  exit 1
+fi
+
+SCRIPT="$ROOT_DIR/scripts/vps-deploy.sh"
+if [ ! -x "$SCRIPT" ]; then
+  echo "Error: $SCRIPT not found or not executable"
+  exit 1
+fi
+
+exec "$SCRIPT" "$@"
