@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "method": "parallel_m1_turbo_single",
+  "concurrency": 220,
+  "attempted": 1017,
+  "success_responses": 0,
+  "action_failed": 973,
+  "api_errors": 44,
+  "failed_by_code": {
+    "action_failed": 973,
+    "unknown_error": 44
+  },
+  "elapsed_ms": 13214,
+  "generated_at_iso": "2026-02-24T21:42:47.603Z"
+}

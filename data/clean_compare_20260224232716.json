@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "generated_at_iso": "2026-02-24T23:27:16.935Z",
+  "source_file": "/home/MaxManager/data/avtorynok_volgogradskaya_oblast_member_ids.json",
+  "target_chat_id": -71313986483690,
+  "source_total": 3754,
+  "target_members_count": 3345,
+  "remaining_count": 1408,
+  "pages": 34,
+  "remaining_file": "/home/MaxManager/data/remaining_avtorynok_vs_volgograd_news_clean_20260224232716.txt",
+  "remaining_shuffled_file": "/home/MaxManager/data/remaining_avtorynok_vs_volgograd_news_clean_20260224232716_shuffled.txt"
+}

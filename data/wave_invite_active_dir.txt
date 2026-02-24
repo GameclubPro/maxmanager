@@ -1,0 +1,1 @@
+/home/MaxManager/data/wave_invite_daemon.log

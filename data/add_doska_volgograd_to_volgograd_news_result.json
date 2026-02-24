@@ -1,0 +1,2249 @@
+{
+  "ok": true,
+  "mode": "with_limits_and_response_validation",
+  "request_timeout_ms": 12000,
+  "source_chat": {
+    "chat_id": -69345990497608,
+    "title": "Доска объявлений ВОЛГОГРАД (Купи-продай-отдай и т. д.😉)",
+    "ids_count": 948,
+    "file": "data/doska_obyavleniy_volgograd_member_ids.json"
+  },
+  "target_chat": {
+    "chat_id": -71313986483690,
+    "title": "Волгоград Объявления | Новости",
+    "type": "chat",
+    "before_participants_count": 1136,
+    "after_participants_count": 1136
+  },
+  "already_in_target_count": 409,
+  "attempted_invite_count": 539,
+  "success_by_response_count": 0,
+  "verified_added_count": 0,
+  "still_not_in_target_count": 539,
+  "pause_ms": 150,
+  "burst_every": 30,
+  "burst_pause_ms": 900,
+  "retry_count": 0,
+  "failed_by_code": {
+    "add.participant.not.found": 9,
+    "add.participant.privacy": 80,
+    "unknown_reject": 450
+  },
+  "sample_success_by_response_ids": [],
+  "sample_verified_added_ids": [],
+  "sample_still_missing_ids": [
+    172127712,
+    170383833,
+    170365602,
+    164689221,
+    154519582,
+    148525767,
+    142025929,
+    140410789,
+    138498525,
+    136971904,
+    135265963,
+    134963042,
+    132169239,
+    131324120,
+    130954998,
+    129252324,
+    126869673,
+    126752601,
+    125819506,
+    121038197,
+    119079144,
+    117735773,
+    117498699,
+    115159130,
+    114887586,
+    111741848,
+    111501822,
+    111278687,
+    107706022,
+    107481171,
+    104259587,
+    104099966,
+    103642045,
+    103317103,
+    103103473,
+    103052572,
+    102933096,
+    101997695,
+    101679314,
+    101541558,
+    101458244,
+    101448348,
+    101250821,
+    99922654,
+    99748744,
+    99259033,
+    98959827,
+    98438497,
+    98022989,
+    97618627,
+    97575488,
+    96939272,
+    96904485,
+    96799073,
+    96772897,
+    96581784,
+    96197664,
+    96099024,
+    96081499,
+    95580451,
+    95140743,
+    95059618,
+    94932888,
+    94575045,
+    94111935,
+    94049269,
+    93894301,
+    93888929,
+    93863905,
+    93445849,
+    93288510,
+    92751778,
+    92639258,
+    92601570,
+    92399201,
+    92356688,
+    92209120,
+    92071121,
+    91895723,
+    91886017,
+    91465635,
+    91422306,
+    91387138,
+    91189259,
+    90950980,
+    90913762,
+    90905274,
+    90690110,
+    90602812,
+    90344708,
+    90304488,
+    90287298,
+    90180350,
+    90129195,
+    90022915,
+    89922681,
+    89920897,
+    89878965,
+    89775072,
+    89728183
+  ],
+  "failed_detailed_sample": [
+    {
+      "user_id": 172127712,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          172127712
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              172127712
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 170383833,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          170383833
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              170383833
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 170365602,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          170365602
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              170365602
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 164689221,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          164689221
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              164689221
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 154519582,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          154519582
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              154519582
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 148525767,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          148525767
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              148525767
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 142025929,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          142025929
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              142025929
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 140410789,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          140410789
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              140410789
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 138498525,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          138498525
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              138498525
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 136971904,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          136971904
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              136971904
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 135265963,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          135265963
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              135265963
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 134963042,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          134963042
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              134963042
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 132169239,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          132169239
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              132169239
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 131324120,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          131324120
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              131324120
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 130954998,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          130954998
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              130954998
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 129252324,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          129252324
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              129252324
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 126869673,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          126869673
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              126869673
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 126752601,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          126752601
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              126752601
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 125819506,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          125819506
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              125819506
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 121038197,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          121038197
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              121038197
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 119079144,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          119079144
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              119079144
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 117735773,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          117735773
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              117735773
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 117498699,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          117498699
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              117498699
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 115159130,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          115159130
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              115159130
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 114887586,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          114887586
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              114887586
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 111741848,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          111741848
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              111741848
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 111501822,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          111501822
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              111501822
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 111278687,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          111278687
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              111278687
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 107706022,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          107706022
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              107706022
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 107481171,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          107481171
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              107481171
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 104259587,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 104099966,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          104099966
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              104099966
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 103642045,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 103317103,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 103103473,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 103052572,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 102933096,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 101997695,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 101679314,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 101541558,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 101458244,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 101448348,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          101448348
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              101448348
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 101250821,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 99922654,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          99922654
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              99922654
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 99748744,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 99259033,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 98959827,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 98438497,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 98022989,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 97618627,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 97575488,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96939272,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96904485,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96799073,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96772897,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96581784,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96197664,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96099024,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 96081499,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 95580451,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 95140743,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 95059618,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 94932888,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 94575045,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 94111935,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 94049269,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 93894301,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 93888929,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 93863905,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 93445849,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 93288510,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 92751778,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 92639258,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          92639258
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              92639258
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 92601570,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 92399201,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 92356688,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          92356688
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              92356688
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 92209120,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 92071121,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91895723,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91886017,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91465635,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91422306,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91387138,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 91189259,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90950980,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90913762,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90905274,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90690110,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90602812,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          90602812
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              90602812
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 90344708,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90304488,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90287298,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90180350,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90129195,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 90022915,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89922681,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89920897,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89878965,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89775072,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89728183,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89517890,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89508698,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89360516,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89212478,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          89212478
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              89212478
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 89193510,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 89100851,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88908861,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88837383,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88706942,
+      "code": "add.participant.not.found",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          88706942
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.not.found",
+            "user_ids": [
+              88706942
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 88694355,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88488684,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88228057,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88158342,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 88057761,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87774456,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87694713,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87642536,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87550372,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87473957,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          87473957
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              87473957
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 87316485,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87148449,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87132753,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87126179,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 87029754,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          87029754
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              87029754
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 86990012,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          86990012
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              86990012
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 86564231,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86408585,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86309657,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86285511,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86238036,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86221494,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86174374,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86103557,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 86088345,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85942732,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85590690,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85512289,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85379228,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85244229,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          85244229
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              85244229
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 85180634,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 85094697,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 84955649,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 84670281,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 84377492,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 84295541,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          84295541
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              84295541
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 84178020,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 84068537,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83837759,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83740786,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          83740786
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              83740786
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 83697015,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          83697015
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              83697015
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 83693184,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83681864,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83623656,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83610019,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          83610019
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              83610019
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 83607308,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83574764,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83491159,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83310281,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83262249,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83232955,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83151576,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83061824,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83052461,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83019224,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 83010735,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82928964,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82918868,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82816645,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82731908,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82711281,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82592420,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82552084,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          82552084
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              82552084
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 82494057,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82394867,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82393053,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82335644,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          82335644
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              82335644
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 82275082,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82273868,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 82123817,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81908875,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81858507,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81795122,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81641340,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          81641340
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              81641340
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 81493301,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81476133,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81284722,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 81241892,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 80962117,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          80962117
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              80962117
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 80821626,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 80458967,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 80251755,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 80125362,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 80093835,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 79769683,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 79693346,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 79692038,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 79372435,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 79369684,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    },
+    {
+      "user_id": 78961465,
+      "code": "add.participant.privacy",
+      "raw": {
+        "success": false,
+        "failed_user_ids": [
+          78961465
+        ],
+        "failed_user_details": [
+          {
+            "error_code": "add.participant.privacy",
+            "user_ids": [
+              78961465
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_id": 78703629,
+      "code": "unknown_reject",
+      "raw": {
+        "success": false,
+        "message": "Unable invite to chat"
+      }
+    }
+  ],
+  "ts": "2026-02-24T20:31:37.681Z"
+}

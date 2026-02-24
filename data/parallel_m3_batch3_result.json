@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "method": "parallel_m3_batch3",
+  "chunk_size": 3,
+  "concurrency": 180,
+  "attempted_groups": 339,
+  "attempted_users": 1016,
+  "success_groups": 0,
+  "success_users_estimated": 0,
+  "failed_groups": 338,
+  "api_errors": 1,
+  "failed_by_code": {
+    "action_failed": 338,
+    "unknown_error": 1
+  },
+  "elapsed_ms": 10624,
+  "generated_at_iso": "2026-02-24T21:42:45.682Z"
+}

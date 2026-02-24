@@ -3,6 +3,7 @@ import { isDomainAllowed, normalizeDomain, stripTrailingPunctuation } from '../u
 
 const TEXT_URL_REGEX = /\b((?:https?:\/\/|www\.)[^\s<>()]+|(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}(?:\/[^\s<>()]*)?)/gi;
 const HTML_HREF_REGEX = /href\s*=\s*["']([^"']+)["']/gi;
+const MEDIA_ATTACHMENT_TYPES = new Set(['image', 'video', 'audio', 'file', 'sticker']);
 
 function normalizeUrlCandidate(rawCandidate: string): string {
   return stripTrailingPunctuation(rawCandidate.trim());
@@ -27,27 +28,34 @@ function detectFromText(text: string): string[] {
   return [...out];
 }
 
-function detectFromAttachmentObject(value: unknown, out: Set<string>): void {
+function detectFromAttachmentObject(value: unknown, out: Set<string>, parentAttachmentType?: string): void {
   if (!value || typeof value !== 'object') {
     return;
   }
 
   if (Array.isArray(value)) {
     for (const item of value) {
-      detectFromAttachmentObject(item, out);
+      detectFromAttachmentObject(item, out, parentAttachmentType);
     }
     return;
   }
 
   const record = value as Record<string, unknown>;
+  const currentAttachmentType = typeof record.type === 'string' ? record.type : parentAttachmentType;
+  const isMediaAttachment = currentAttachmentType ? MEDIA_ATTACHMENT_TYPES.has(currentAttachmentType) : false;
+
   for (const [key, nested] of Object.entries(record)) {
     if (typeof nested === 'string' && (key === 'url' || key === 'image_url' || key === 'link')) {
+      if (isMediaAttachment && (key === 'url' || key === 'image_url')) {
+        continue;
+      }
+
       const candidate = normalizeUrlCandidate(nested);
       if (candidate) out.add(candidate);
       continue;
     }
 
-    detectFromAttachmentObject(nested, out);
+    detectFromAttachmentObject(nested, out, currentAttachmentType);
   }
 }
 

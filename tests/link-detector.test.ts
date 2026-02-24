@@ -40,6 +40,20 @@ describe('link detector', () => {
     expect(links.some((item) => item.domain === 'spam.example.org')).toBe(true);
   });
 
+  it('does not treat image attachment media url as forbidden link', () => {
+    const msg = makeMessage('photo only', [{
+      type: 'image',
+      payload: {
+        url: 'https://media.max.ru/photo/123',
+        token: 'abc',
+        photo_id: 1,
+      },
+    }]);
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
   it('allows whitelisted domains including subdomains', () => {
     const msg = makeMessage('https://blog.allowed.com/post');
     const links = getForbiddenLinks(msg, ['allowed.com']);

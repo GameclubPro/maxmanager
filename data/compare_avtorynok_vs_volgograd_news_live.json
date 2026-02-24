@@ -1,0 +1,11 @@
+{
+  "source_chat_id": -68236812389073,
+  "source_title": "Авторынок Волгоградская область",
+  "source_total": 3754,
+  "target_chat_id": -71313986483690,
+  "target_live_members_count": 1804,
+  "remaining_count": 2951,
+  "generated_at_iso": "2026-02-24T22:01:18.099Z",
+  "target_ids_file": "data/volgograd_news_member_ids_live.txt",
+  "remaining_file": "data/remaining_avtorynok_vs_volgograd_news_live.txt"
+}

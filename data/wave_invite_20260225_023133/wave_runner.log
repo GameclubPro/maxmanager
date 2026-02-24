@@ -1,0 +1,29 @@
+[2026-02-25 02:31:33] Wave invite started
+[2026-02-25 02:31:33] source_file=data/avtorynok_volgogradskaya_oblast_member_ids.json
+[2026-02-25 02:31:33] target_chat_id=-71313986483690
+[2026-02-25 02:31:33] wave_size=80 wave_pause_sec=180 invite_pause_ms=450 invite_batch_size=1 max_retries=2
+[2026-02-25 02:31:33] run_dir=/home/MaxManager/data/wave_invite_20260225_023133
+[dotenv@17.3.1] injecting env (11) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-25 02:31:42] wave=1 target_members=3346 remaining=1407
+[2026-02-25 02:31:42] wave=1 trying wave_count=80
+[dotenv@17.3.1] injecting env (11) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Inviting 80 users to chat -71313986483690 in batches of 1 (80 calls)...
+[run] Progress: 80/80 users
+[run] Verifying membership for 80 users...
+{
+  "ok": true,
+  "source_file": "data/wave_invite_20260225_023133/wave_1_remaining_shuffled.txt",
+  "target_chat_id": -71313986483690,
+  "processed_count": 80,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 80,
+  "invited_without_immediate_failure_count": 53,
+  "verified_added_count": 53,
+  "still_not_in_target_from_this_chunk_count": 27,
+  "before_participants_count": 3346,
+  "after_participants_count": 3399,
+  "result_file": "data/wave_invite_20260225_023133/wave_1_result.json",
+  "still_missing_file": "data/wave_invite_20260225_023133/wave_1_missing.txt"
+}
+[2026-02-25 02:32:38] wave=1 attempted=80 verified_added=53 still_missing_in_chunk=27
+[2026-02-25 02:32:38] wave=1 sleeping 180s

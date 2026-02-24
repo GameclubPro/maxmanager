@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "mode": "turbo_parallel_single_invites",
+  "concurrency": 180,
+  "target_chat_id": -71313986483690,
+  "source_total": 3754,
+  "remaining_at_start_count": 3050,
+  "attempted_count": 3050,
+  "api_success_responses_count": 0,
+  "api_action_failed_count": 3043,
+  "api_errors_count": 7,
+  "failed_by_code": {
+    "action_failed": 3043,
+    "unknown_error": 7
+  },
+  "before_participants_count": 1706,
+  "after_participants_count": 1706,
+  "participants_delta": 0,
+  "elapsed_ms": 12936,
+  "generated_at_iso": "2026-02-24T21:40:46.402Z",
+  "remaining_file_at_start": "data/remaining_avtorynok_to_volgograd_news_turbo_start.txt"
+}

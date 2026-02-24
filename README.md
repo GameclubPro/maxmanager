@@ -81,6 +81,31 @@ maxdeploy
 - `/set_spam <threshold> <windowSec>`
 - `/set_logchat <chatId>`
 
+## Массовое добавление участников (2026)
+
+Скрипт берёт `ids` из `.json`/`.txt`, добавляет в целевой чат через `BOT_TOKEN`,
+делает проверку фактического вступления и сохраняет 2 файла:
+- `result.json` с полной статистикой запуска
+- `still_missing.txt` со списком тех, кто не оказался в целевом чате
+
+Пример:
+
+```bash
+npm run members:add -- \
+  --source-file data/avtorynok_volgogradskaya_oblast_member_ids.json \
+  --target-chat-id -71313986483690 \
+  --start 0 \
+  --count 300 \
+  --pause-ms 180 \
+  --max-retries 1
+```
+
+Справка по всем параметрам:
+
+```bash
+npm run members:add -- --help
+```
+
 ## Разработка
 
 ```bash
