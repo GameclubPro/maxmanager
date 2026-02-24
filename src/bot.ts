@@ -41,7 +41,9 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
   const bot = new Bot(config.botToken);
 
   const logger = new BotLogger(bot.api, () => repos.appSettings.getLogChatId() ?? config.logChatId);
-  const adminResolver = new AdminResolver();
+  const adminResolver = new AdminResolver(60_000, (message, meta) => {
+    void logger.warn(message, meta);
+  });
   const idempotencyGuard = new InMemoryIdempotencyGuard();
   const enforcement = new EnforcementService(repos, config, logger);
   const moderationEngine = new ModerationEngine(

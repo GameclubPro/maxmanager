@@ -26,7 +26,7 @@ function getMessage(ctx: Context): IncomingMessage | undefined {
 }
 
 function parseAdminCommand(text: string): ParsedCommand | null {
-  const match = text.trim().match(/^\/([a-z0-9_]+)(?:@[a-z0-9_]+)?(?:\s+(.+))?$/i);
+  const match = text.trim().match(/^\/([a-z0-9_]+)(?:@[a-z0-9_]+)?(?:\s+([\s\S]+))?$/i);
   if (!match) return null;
 
   const command = match[1].toLowerCase();
@@ -64,9 +64,9 @@ export class AdminCommands {
 
     const isAdmin = await this.adminResolver.isAdmin(ctx, chatId, userId);
     if (!isAdmin) {
-      await this.replySafe(ctx, 'Команда доступна только администраторам чата.');
+      await this.replySafe(ctx, 'Команда доступна только администраторам чата. Если вы админ, проверьте права бота на чтение списка участников.');
       await this.logger.warn('Admin command denied', { chatId, userId, command: parsed.command });
-      return false;
+      return true;
     }
 
     try {
