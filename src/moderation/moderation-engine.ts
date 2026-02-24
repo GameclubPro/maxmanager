@@ -6,9 +6,12 @@ import { InMemoryIdempotencyGuard } from '../services/idempotency';
 import { BotLogger } from '../services/logger';
 import { toDayKey } from '../utils/time';
 import { getForbiddenLinks } from './link-detector';
+import { isPhotoMessage } from './photo-detector';
 import { EnforcementService } from './enforcement';
 import { isQuotaExceeded } from './quota';
 import { isSpamTriggered } from './spam';
+
+const PHOTO_LIMIT_WINDOW_MS = 60 * 60 * 1000;
 
 function getIncomingMessage(ctx: Context): IncomingMessage | undefined {
   const message = ctx.message as IncomingMessage | undefined;
@@ -76,6 +79,7 @@ export class ModerationEngine {
         chatId,
         enabled: true,
         dailyLimit: this.config.dailyMessageLimit,
+        photoLimitPerHour: this.config.photoLimitPerHour,
         spamThreshold: this.config.spamThreshold,
         spamWindowSec: this.config.spamWindowSec,
       };
@@ -136,6 +140,30 @@ export class ModerationEngine {
         forbiddenLinks,
       });
       return;
+    }
+
+    if (chatSettings.photoLimitPerHour > 0 && isPhotoMessage(message)) {
+      try {
+        const fromTs = nowTs - PHOTO_LIMIT_WINDOW_MS;
+        const photoCountInWindow = this.repos.photoEvents.countSince(chatId, userId, fromTs);
+        if (photoCountInWindow >= chatSettings.photoLimitPerHour) {
+          await this.enforcement.enforcePhotoQuotaViolation(
+            ctx,
+            { chatId, userId, userName, messageId },
+            photoCountInWindow + 1,
+            chatSettings.photoLimitPerHour,
+          );
+          return;
+        }
+
+        this.repos.photoEvents.add(chatId, userId, nowTs);
+      } catch (error) {
+        await this.logger.error('Photo quota check failed (fail-open)', {
+          chatId,
+          userId,
+          error: error instanceof Error ? error.message : String(error),
+        });
+      }
     }
 
     try {

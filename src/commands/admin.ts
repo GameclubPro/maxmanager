@@ -12,6 +12,7 @@ const ADMIN_COMMANDS = new Set([
   'allowdomain_del',
   'allowdomain_list',
   'set_limit',
+  'set_photo_limit',
   'set_spam',
   'set_logchat',
 ]);
@@ -108,6 +109,9 @@ export class AdminCommands {
         case 'set_limit':
           await this.handleSetLimit(ctx, chatId, userId, parsed.rawArgs);
           break;
+        case 'set_photo_limit':
+          await this.handleSetPhotoLimit(ctx, chatId, userId, parsed.rawArgs);
+          break;
         case 'set_spam':
           await this.handleSetSpam(ctx, chatId, userId, parsed.rawArgs);
           break;
@@ -139,6 +143,7 @@ export class AdminCommands {
       'Текущие настройки модерации:',
       `- status: ${settings.enabled ? 'on' : 'off'}`,
       `- daily_limit: ${settings.dailyLimit}`,
+      `- photo_limit_per_hour: ${settings.photoLimitPerHour}`,
       `- spam: ${settings.spamThreshold} сообщений / ${settings.spamWindowSec} сек`,
       `- whitelist: ${whitelist.length > 0 ? whitelist.join(', ') : '(пусто)'}`,
       `- log_chat_id: ${logChatId ?? '(не задан)'}`,
@@ -188,6 +193,18 @@ export class AdminCommands {
     this.repos.chatSettings.setDailyLimit(chatId, value);
     await this.replySafe(ctx, `Новый суточный лимит: ${value}`);
     this.auditConfigChange(chatId, userId, 'set_limit', { value });
+  }
+
+  private async handleSetPhotoLimit(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {
+    const value = Number.parseInt(rawArgs, 10);
+    if (!Number.isFinite(value) || value < 0 || value > 20) {
+      await this.replySafe(ctx, 'Использование: /set_photo_limit <0..20>');
+      return;
+    }
+
+    this.repos.chatSettings.setPhotoLimit(chatId, value);
+    await this.replySafe(ctx, `Новый лимит фото-сообщений в час: ${value}`);
+    this.auditConfigChange(chatId, userId, 'set_photo_limit', { value });
   }
 
   private async handleSetSpam(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {

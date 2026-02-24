@@ -17,6 +17,9 @@ function formatDate(ts: number): string {
 
 const LINK_VIOLATION_WINDOW_MS = 24 * 60 * 60 * 1000;
 const LINK_MUTE_HOURS = 3;
+const PHOTO_QUOTA_WINDOW_MS = 60 * 60 * 1000;
+const PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE = 5;
+const PHOTO_QUOTA_MUTE_HOURS = 3;
 const ACTIVE_MUTE_MAX_MESSAGES = 5;
 const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
 
@@ -167,6 +170,85 @@ export class EnforcementService {
     });
   }
 
+  async enforcePhotoQuotaViolation(
+    ctx: Context,
+    args: ViolationContext,
+    currentPhotoCountInWindow: number,
+    limitPerHour: number,
+  ): Promise<void> {
+    const nowTs = Date.now();
+    const sinceTs = nowTs - PHOTO_QUOTA_WINDOW_MS;
+    const photoViolationsCount = this.repos.moderationActions.countByActionAndReasonSince(
+      args.chatId,
+      args.userId,
+      'delete_message',
+      'photo_quota',
+      sinceTs,
+    ) + 1;
+    const warningCount = this.repos.moderationActions.countByActionAndReasonSince(
+      args.chatId,
+      args.userId,
+      'warn',
+      'photo_quota',
+      sinceTs,
+    );
+
+    await this.deleteMessageSafe(ctx, args.messageId);
+
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'photo_quota', {
+      currentPhotoCountInWindow,
+      limitPerHour,
+      photoViolationsCount,
+      windowMinutes: 60,
+    });
+
+    if (photoViolationsCount > PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE) {
+      const untilTs = nowTs + hoursToMs(PHOTO_QUOTA_MUTE_HOURS);
+      this.repos.restrictions.upsert(args.chatId, args.userId, 'mute', untilTs);
+
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            `вы продолжили отправку фото сверх лимита. Выдан мут на ${PHOTO_QUOTA_MUTE_HOURS} часа.`,
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'mute', 'photo_quota', {
+        currentPhotoCountInWindow,
+        limitPerHour,
+        photoViolationsCount,
+        untilTs,
+        muteHours: PHOTO_QUOTA_MUTE_HOURS,
+        windowMinutes: 60,
+      });
+      return;
+    }
+
+    if (warningCount === 0 && this.config.noticeInChat) {
+      await this.replySafe(
+        ctx,
+        this.withUserName(
+          `в этом чате можно отправлять не более ${limitPerHour} фото-сообщений в час. Это помогает не перегружать ленту. Следующее фото отправьте, пожалуйста, позже.`,
+          args.userName,
+          args.userId,
+        ),
+        { notify: false },
+      );
+
+      this.recordAndLog(args.chatId, args.userId, 'warn', 'photo_quota', {
+        currentPhotoCountInWindow,
+        limitPerHour,
+        photoViolationsCount,
+        windowMinutes: 60,
+      });
+    }
+  }
+
   async enforceSpamViolation(ctx: Context, args: ViolationContext, messageCountInWindow: number): Promise<void> {
     const level = this.repos.strikes.registerViolation(
       args.chatId,
@@ -293,9 +375,9 @@ export class EnforcementService {
     }
   }
 
-  private async replySafe(ctx: Context, text: string): Promise<void> {
+  private async replySafe(ctx: Context, text: string, extra?: unknown): Promise<void> {
     try {
-      await ctx.reply(text);
+      await ctx.reply(text, extra as never);
     } catch (error) {
       await this.logger.warn('Failed to send chat notice', {
         error: error instanceof Error ? error.message : String(error),

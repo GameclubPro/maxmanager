@@ -38,6 +38,21 @@ export class SqliteDatabase {
     const schemaPath = resolveSchemaPath();
     const schemaSql = fs.readFileSync(schemaPath, 'utf8');
     this.db.exec(schemaSql);
+    this.runPostMigrations();
+  }
+
+  private runPostMigrations(): void {
+    this.ensureChatSettingsPhotoLimitColumn();
+  }
+
+  private ensureChatSettingsPhotoLimitColumn(): void {
+    const columns = this.db.prepare("PRAGMA table_info('chat_settings')").all() as Array<{ name: string }>;
+    const hasPhotoLimitColumn = columns.some((column) => column.name === 'photo_limit_per_hour');
+    if (hasPhotoLimitColumn) {
+      return;
+    }
+
+    this.db.exec('ALTER TABLE chat_settings ADD COLUMN photo_limit_per_hour INTEGER NOT NULL DEFAULT 1');
   }
 
   close(): void {

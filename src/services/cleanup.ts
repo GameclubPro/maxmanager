@@ -7,6 +7,7 @@ import { BotLogger } from './logger';
 const REJOIN_BATCH_SIZE = 100;
 const REJOIN_RETRY_DELAY_MS = 10 * 60 * 1000;
 const REJOIN_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
+const PHOTO_WINDOW_MS = 60 * 60 * 1000;
 
 export class CleanupService {
   constructor(
@@ -20,10 +21,12 @@ export class CleanupService {
     const maxWindowMs = Math.max(
       hoursToMs(this.config.banHours),
       hoursToMs(this.config.strikeDecayHours),
+      PHOTO_WINDOW_MS,
       this.config.spamWindowSec * 1_000,
     );
 
     this.repos.messageEvents.purgeOlderThan(nowTs - Math.max(maxWindowMs, 24 * 60 * 60 * 1000));
+    this.repos.photoEvents.purgeOlderThan(nowTs - Math.max(maxWindowMs, 24 * 60 * 60 * 1000));
     this.repos.restrictions.purgeExpired(nowTs);
     this.repos.strikes.purgeOlderThan(nowTs - hoursToMs(this.config.strikeDecayHours));
     this.repos.processedMessages.purgeOlderThan(nowTs - 2 * 24 * 60 * 60 * 1000);

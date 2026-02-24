@@ -10,6 +10,7 @@ export interface BotConfig {
   botToken: string;
   timezone: 'Europe/Moscow';
   dailyMessageLimit: number;
+  photoLimitPerHour: number;
   spamWindowSec: number;
   spamThreshold: number;
   strikeDecayHours: number;
@@ -25,6 +26,7 @@ export interface ChatSetting {
   chatId: number;
   enabled: boolean;
   dailyLimit: number;
+  photoLimitPerHour: number;
   spamThreshold: number;
   spamWindowSec: number;
 }
@@ -66,6 +68,11 @@ export interface IncomingMessage {
   sender?: IncomingSender | null;
   recipient: IncomingRecipient;
   body: IncomingBody;
+  link?: {
+    message?: {
+      attachments?: unknown[] | null;
+    } | null;
+  } | null;
   url?: string | null;
 }
 

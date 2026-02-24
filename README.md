@@ -3,6 +3,7 @@
 Бот для MAX (`chat` + `channel`) с функциями:
 - удаление любых ссылок (с whitelist доменов)
 - лимит `3` сообщения в сутки на пользователя в чате (по `Europe/Moscow`)
+- лимит `1` фото-сообщение в час на пользователя с эскалацией в `mute 3h`
 - антиспам `3 сообщения / 10 сек` с эскалацией `warn -> mute 1h -> ban 24h`
 - админ-команды настройки без перезапуска
 - SQLite-хранилище
@@ -76,6 +77,7 @@ maxdeploy
 - `/allowdomain_del <domain>`
 - `/allowdomain_list`
 - `/set_limit <n>`
+- `/set_photo_limit <0..20>`
 - `/set_spam <threshold> <windowSec>`
 - `/set_logchat <chatId>`
 

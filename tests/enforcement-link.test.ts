@@ -1,5 +1,5 @@
 import { Context } from '@maxhub/max-bot-api';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { SqliteDatabase } from '../src/db/sqlite';
 import { EnforcementService } from '../src/moderation/enforcement';
 import { createRepositories } from '../src/repos';
@@ -9,6 +9,7 @@ const config: BotConfig = {
   botToken: 'test',
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
+  photoLimitPerHour: 1,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -21,12 +22,14 @@ const config: BotConfig = {
 
 function makeContext() {
   const replies: string[] = [];
+  const replyExtras: unknown[] = [];
   const deletedMessages: string[] = [];
   const kickedUserIds: number[] = [];
 
   const ctx = {
-    reply: async (text: string) => {
+    reply: async (text: string, extra?: unknown) => {
       replies.push(text);
+      replyExtras.push(extra);
     },
     deleteMessage: async (messageId: string) => {
       deletedMessages.push(messageId);
@@ -42,7 +45,7 @@ function makeContext() {
     },
   } as unknown as Context;
 
-  return { ctx, replies, deletedMessages, kickedUserIds };
+  return { ctx, replies, replyExtras, deletedMessages, kickedUserIds };
 }
 
 describe('enforcement link violations', () => {
@@ -157,6 +160,48 @@ describe('enforcement link violations', () => {
     const pending = repos.pendingRejoins.listDue(Date.now() + 4 * 60 * 60 * 1000, 10);
     expect(pending.some((entry) => entry.chatId === 10 && entry.userId === 20)).toBe(true);
 
+    db.close();
+  });
+
+  it('warns once per hour for photo limit and mutes on 6th photo violation', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras, deletedMessages } = makeContext();
+    const now = Date.now();
+    const dateNowSpy = vi.spyOn(Date, 'now').mockReturnValue(now);
+
+    for (let i = 0; i < 6; i += 1) {
+      await enforcement.enforcePhotoQuotaViolation(
+        ctx,
+        {
+          chatId: 10,
+          userId: 20,
+          userName: 'Иван',
+          messageId: `photo-${i + 1}`,
+        },
+        i + 2,
+        1,
+      );
+    }
+
+    expect(deletedMessages).toHaveLength(6);
+    expect(replies).toHaveLength(2);
+    expect(replies[0]).toContain('Иван, в этом чате можно отправлять не более 1 фото-сообщений в час.');
+    expect(replies[1]).toContain('Иван, вы продолжили отправку фото сверх лимита. Выдан мут на 3 часа.');
+    expect(replyExtras[0]).toEqual({ notify: false });
+    expect(replyExtras[1]).toEqual({ notify: false });
+
+    const activeRestriction = repos.restrictions.getActive(10, 20, now);
+    expect(activeRestriction?.type).toBe('mute');
+
+    dateNowSpy.mockRestore();
     db.close();
   });
 });

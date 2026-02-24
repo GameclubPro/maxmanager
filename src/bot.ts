@@ -26,6 +26,7 @@ const COMMANDS = [
   { name: 'allowdomain_del', description: 'Удалить домен из whitelist' },
   { name: 'allowdomain_list', description: 'Список whitelist доменов' },
   { name: 'set_limit', description: 'Сменить суточный лимит сообщений' },
+  { name: 'set_photo_limit', description: 'Сменить лимит фото-сообщений в час' },
   { name: 'set_spam', description: 'Сменить антиспам порог' },
   { name: 'set_logchat', description: 'Установить чат логов' },
 ];

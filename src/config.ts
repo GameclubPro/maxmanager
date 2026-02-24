@@ -10,6 +10,15 @@ function parsePositiveInt(value: string | undefined, fallback: number, key: stri
   return parsed;
 }
 
+function parseNonNegativeInt(value: string | undefined, fallback: number, key: string): number {
+  if (!value || value.trim() === '') return fallback;
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 0) {
+    throw new Error(`Environment variable ${key} must be a non-negative integer`);
+  }
+  return parsed;
+}
+
 function parseOptionalInt(value: string | undefined, key: string): number | undefined {
   if (!value || value.trim() === '') return undefined;
   const parsed = Number.parseInt(value, 10);
@@ -39,6 +48,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): BotConfig {
     botToken,
     timezone,
     dailyMessageLimit: parsePositiveInt(env.DAILY_MESSAGE_LIMIT, 3, 'DAILY_MESSAGE_LIMIT'),
+    photoLimitPerHour: parseNonNegativeInt(env.PHOTO_LIMIT_PER_HOUR, 1, 'PHOTO_LIMIT_PER_HOUR'),
     spamWindowSec: parsePositiveInt(env.SPAM_WINDOW_SEC, 10, 'SPAM_WINDOW_SEC'),
     spamThreshold: parsePositiveInt(env.SPAM_THRESHOLD, 3, 'SPAM_THRESHOLD'),
     strikeDecayHours: parsePositiveInt(env.STRIKE_DECAY_HOURS, 24, 'STRIKE_DECAY_HOURS'),

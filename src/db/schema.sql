@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS chat_settings (
   chat_id INTEGER PRIMARY KEY,
   enabled INTEGER NOT NULL DEFAULT 1,
   daily_limit INTEGER NOT NULL,
+  photo_limit_per_hour INTEGER NOT NULL DEFAULT 1,
   spam_threshold INTEGER NOT NULL,
   spam_window_sec INTEGER NOT NULL,
   updated_at INTEGER NOT NULL
@@ -39,6 +40,15 @@ CREATE TABLE IF NOT EXISTS message_events (
 
 CREATE INDEX IF NOT EXISTS idx_message_events_chat_user_ts
   ON message_events (chat_id, user_id, ts_ms);
+
+CREATE TABLE IF NOT EXISTS photo_events (
+  chat_id INTEGER NOT NULL,
+  user_id INTEGER NOT NULL,
+  ts_ms INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_photo_events_chat_user_ts
+  ON photo_events (chat_id, user_id, ts_ms);
 
 CREATE TABLE IF NOT EXISTS user_strikes (
   chat_id INTEGER NOT NULL,

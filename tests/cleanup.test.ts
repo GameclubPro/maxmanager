@@ -8,6 +8,7 @@ const config: BotConfig = {
   botToken: 'test',
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
+  photoLimitPerHour: 1,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,

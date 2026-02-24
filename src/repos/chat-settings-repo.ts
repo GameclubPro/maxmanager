@@ -3,6 +3,7 @@ import { ChatSetting } from '../types';
 
 interface ChatSettingsDefaults {
   dailyLimit: number;
+  photoLimitPerHour: number;
   spamThreshold: number;
   spamWindowSec: number;
 }
@@ -11,6 +12,7 @@ interface ChatSettingRow {
   chat_id: number;
   enabled: number;
   daily_limit: number;
+  photo_limit_per_hour: number;
   spam_threshold: number;
   spam_window_sec: number;
 }
@@ -24,12 +26,13 @@ export class ChatSettingsRepo {
   private ensure(chatId: number): void {
     const now = Date.now();
     this.db.prepare(`
-      INSERT INTO chat_settings (chat_id, enabled, daily_limit, spam_threshold, spam_window_sec, updated_at)
-      VALUES (@chat_id, 1, @daily_limit, @spam_threshold, @spam_window_sec, @updated_at)
+      INSERT INTO chat_settings (chat_id, enabled, daily_limit, photo_limit_per_hour, spam_threshold, spam_window_sec, updated_at)
+      VALUES (@chat_id, 1, @daily_limit, @photo_limit_per_hour, @spam_threshold, @spam_window_sec, @updated_at)
       ON CONFLICT(chat_id) DO NOTHING
     `).run({
       chat_id: chatId,
       daily_limit: this.defaults.dailyLimit,
+      photo_limit_per_hour: this.defaults.photoLimitPerHour,
       spam_threshold: this.defaults.spamThreshold,
       spam_window_sec: this.defaults.spamWindowSec,
       updated_at: now,
@@ -40,7 +43,7 @@ export class ChatSettingsRepo {
     this.ensure(chatId);
 
     const row = this.db.prepare(`
-      SELECT chat_id, enabled, daily_limit, spam_threshold, spam_window_sec
+      SELECT chat_id, enabled, daily_limit, photo_limit_per_hour, spam_threshold, spam_window_sec
       FROM chat_settings
       WHERE chat_id = ?
     `).get(chatId) as ChatSettingRow;
@@ -49,6 +52,7 @@ export class ChatSettingsRepo {
       chatId: row.chat_id,
       enabled: row.enabled === 1,
       dailyLimit: row.daily_limit,
+      photoLimitPerHour: row.photo_limit_per_hour,
       spamThreshold: row.spam_threshold,
       spamWindowSec: row.spam_window_sec,
     };
@@ -72,6 +76,16 @@ export class ChatSettingsRepo {
       SET daily_limit = ?, updated_at = ?
       WHERE chat_id = ?
     `).run(dailyLimit, Date.now(), chatId);
+  }
+
+  setPhotoLimit(chatId: number, photoLimitPerHour: number): void {
+    this.ensure(chatId);
+
+    this.db.prepare(`
+      UPDATE chat_settings
+      SET photo_limit_per_hour = ?, updated_at = ?
+      WHERE chat_id = ?
+    `).run(photoLimitPerHour, Date.now(), chatId);
   }
 
   setSpam(chatId: number, spamThreshold: number, spamWindowSec: number): void {

@@ -9,6 +9,7 @@ const config: BotConfig = {
   botToken: 'test',
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
+  photoLimitPerHour: 1,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -28,6 +29,25 @@ describe('repositories', () => {
     expect(repos.dailyCount.incrementAndGet(1, 2, day)).toBe(1);
     expect(repos.dailyCount.incrementAndGet(1, 2, day)).toBe(2);
     expect(repos.dailyCount.incrementAndGet(1, 2, day)).toBe(3);
+
+    db.close();
+  });
+
+  it('tracks photo events by rolling window', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const now = Date.now();
+    repos.photoEvents.add(1, 2, now - 2 * 60 * 60 * 1000);
+    repos.photoEvents.add(1, 2, now - 30 * 60 * 1000);
+    repos.photoEvents.add(1, 2, now - 10 * 60 * 1000);
+
+    const countInHour = repos.photoEvents.countSince(1, 2, now - 60 * 60 * 1000);
+    expect(countInHour).toBe(2);
+
+    repos.photoEvents.purgeOlderThan(now - 60 * 60 * 1000);
+    const countAfterPurge = repos.photoEvents.countSince(1, 2, now - 24 * 60 * 60 * 1000);
+    expect(countAfterPurge).toBe(2);
 
     db.close();
   });
@@ -61,6 +81,21 @@ describe('repositories', () => {
     repos.restrictions.purgeExpired(now + 15_000);
     const expired = repos.restrictions.getActive(55, 77, now + 15_000);
     expect(expired).toBeNull();
+
+    db.close();
+  });
+
+  it('stores per-chat photo limit', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    repos.chatSettings.setPhotoLimit(42, 0);
+    const settings = repos.chatSettings.get(42);
+    expect(settings.photoLimitPerHour).toBe(0);
+
+    repos.chatSettings.setPhotoLimit(42, 5);
+    const updated = repos.chatSettings.get(42);
+    expect(updated.photoLimitPerHour).toBe(5);
 
     db.close();
   });
