@@ -64,4 +64,40 @@ describe('repositories', () => {
 
     db.close();
   });
+
+  it('counts moderation actions by reason for time window', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const now = Date.now();
+    repos.moderationActions.record({
+      chatId: 1,
+      userId: 2,
+      action: 'delete_message',
+      reason: 'link',
+    });
+    repos.moderationActions.record({
+      chatId: 1,
+      userId: 2,
+      action: 'warn',
+      reason: 'link',
+    });
+    repos.moderationActions.record({
+      chatId: 1,
+      userId: 2,
+      action: 'mute',
+      reason: 'spam',
+    });
+
+    db.db.prepare(`
+      UPDATE moderation_actions
+      SET created_at = ?
+      WHERE chat_id = ? AND user_id = ? AND action = ? AND reason = ?
+    `).run(now - hoursToMs(25), 1, 2, 'delete_message', 'link');
+
+    const count = repos.moderationActions.countByReasonSince(1, 2, 'link', now - hoursToMs(24));
+    expect(count).toBe(1);
+
+    db.close();
+  });
 });

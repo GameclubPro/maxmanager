@@ -17,4 +17,14 @@ export class ModerationActionsRepo {
       Date.now(),
     );
   }
+
+  countByReasonSince(chatId: number, userId: number, reason: string, sinceTs: number): number {
+    const row = this.db.prepare(`
+      SELECT COUNT(*) AS count
+      FROM moderation_actions
+      WHERE chat_id = ? AND user_id = ? AND reason = ? AND created_at >= ?
+    `).get(chatId, userId, reason, sinceTs) as { count: number };
+
+    return row.count;
+  }
 }

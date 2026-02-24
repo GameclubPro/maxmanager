@@ -1,0 +1,50 @@
+{
+  "target_chat": {
+    "chat_id": -69049244448234,
+    "title": "Ростов-на-дону Барахолка | Объявления",
+    "before_participants_count": 280,
+    "after_participants_count": 467
+  },
+  "source_first_300_count": 300,
+  "already_in_target_count": 6,
+  "attempted_invite_count": 294,
+  "invited_without_immediate_failure_count": 187,
+  "verified_added_count": 187,
+  "batch_http_errors": 0,
+  "failed_by_code": {
+    "add.participant.not.found": 5,
+    "add.participant.privacy": 102
+  },
+  "sample_verified_added_ids": [
+    2752209,
+    3521685,
+    3594251,
+    4412305,
+    4610438,
+    4946252,
+    5049776,
+    5202100,
+    5445435,
+    5665985,
+    5670472,
+    6083655,
+    6085412,
+    6103281,
+    6119311,
+    6237502,
+    6551499,
+    6659654,
+    6671029,
+    6734165,
+    6802990,
+    6806652,
+    7172313,
+    7219866,
+    7242061,
+    7261232,
+    7489579,
+    7542334,
+    7571482,
+    7664960
+  ]
+}

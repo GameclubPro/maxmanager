@@ -35,6 +35,7 @@ export class ModerationEngine {
 
     const chatId = message.recipient.chat_id ?? ctx.chatId;
     const userId = message.sender?.user_id;
+    const userName = message.sender?.name;
     const messageId = message.body?.mid;
 
     if (!chatId || !userId || !messageId) {
@@ -95,6 +96,7 @@ export class ModerationEngine {
         await this.enforcement.enforceActiveRestriction(ctx, {
           chatId,
           userId,
+          userName,
           messageId,
           restrictionType: activeRestriction.type,
           untilTs: activeRestriction.untilTs,
@@ -123,13 +125,13 @@ export class ModerationEngine {
     }
 
     if (whitelistError) {
-      await this.enforcement.handleCriticalFailure(ctx, { chatId, userId, messageId }, 'link');
+      await this.enforcement.handleCriticalFailure(ctx, { chatId, userId, userName, messageId }, 'link');
       return;
     }
 
     const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
     if (forbiddenLinks.length > 0) {
-      await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, messageId }, {
+      await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
         forbiddenLinks,
       });
       return;
@@ -139,7 +141,12 @@ export class ModerationEngine {
       const dayKey = toDayKey(nowTs, this.config.timezone);
       const currentCount = this.repos.dailyCount.incrementAndGet(chatId, userId, dayKey);
       if (isQuotaExceeded(currentCount, chatSettings.dailyLimit)) {
-        await this.enforcement.enforceQuotaViolation(ctx, { chatId, userId, messageId }, currentCount, chatSettings.dailyLimit);
+        await this.enforcement.enforceQuotaViolation(
+          ctx,
+          { chatId, userId, userName, messageId },
+          currentCount,
+          chatSettings.dailyLimit,
+        );
         return;
       }
     } catch (error) {
@@ -156,7 +163,11 @@ export class ModerationEngine {
       const messageCountInWindow = this.repos.messageEvents.countSince(chatId, userId, fromTs);
 
       if (isSpamTriggered(messageCountInWindow, chatSettings.spamThreshold)) {
-        await this.enforcement.enforceSpamViolation(ctx, { chatId, userId, messageId }, messageCountInWindow);
+        await this.enforcement.enforceSpamViolation(
+          ctx,
+          { chatId, userId, userName, messageId },
+          messageCountInWindow,
+        );
       }
     } catch (error) {
       await this.logger.error('Spam check failed (fail-open)', {
