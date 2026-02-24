@@ -17,6 +17,8 @@ function formatDate(ts: number): string {
 
 const LINK_VIOLATION_WINDOW_MS = 24 * 60 * 60 * 1000;
 const LINK_MUTE_HOURS = 3;
+const ACTIVE_MUTE_MAX_MESSAGES = 5;
+const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
 
 export class EnforcementService {
   constructor(
@@ -25,10 +27,34 @@ export class EnforcementService {
     private readonly logger: BotLogger,
   ) {}
 
-  async enforceActiveRestriction(ctx: Context, args: ViolationContext & { restrictionType: RestrictionType; untilTs: number }): Promise<void> {
+  async enforceActiveRestriction(
+    ctx: Context,
+    args: ViolationContext & { restrictionType: RestrictionType; untilTs: number; createdAtTs: number },
+  ): Promise<void> {
     await this.deleteMessageSafe(ctx, args.messageId);
 
-    if (this.config.noticeInChat && args.restrictionType !== 'mute') {
+    if (args.restrictionType === 'mute') {
+      const messagesDuringMute = this.repos.moderationActions.countByActionAndReasonSince(
+        args.chatId,
+        args.userId,
+        'delete_message',
+        'active_mute',
+        args.createdAtTs,
+      ) + 1;
+
+      this.recordAndLog(args.chatId, args.userId, 'delete_message', 'active_mute', {
+        untilTs: args.untilTs,
+        createdAtTs: args.createdAtTs,
+        messagesDuringMute,
+      });
+
+      if (messagesDuringMute > ACTIVE_MUTE_MAX_MESSAGES) {
+        await this.kickForMuteEvasion(ctx, args, messagesDuringMute);
+      }
+      return;
+    }
+
+    if (this.config.noticeInChat) {
       const typeText = 'блокировка';
       await this.replySafe(
         ctx,
@@ -279,6 +305,45 @@ export class EnforcementService {
 
   private withUserName(text: string, userName: string | undefined, userId: number): string {
     return `${this.resolveDisplayName(userName, userId)}, ${text}`;
+  }
+
+  private async kickForMuteEvasion(
+    ctx: Context,
+    args: ViolationContext & { untilTs: number },
+    messagesDuringMute: number,
+  ): Promise<void> {
+    const rejoinAtTs = Date.now() + hoursToMs(ACTIVE_MUTE_TEMP_KICK_HOURS);
+
+    try {
+      await (ctx.api.raw.chats as {
+        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
+      }).removeChatMember({
+        chat_id: args.chatId,
+        user_id: args.userId,
+      });
+
+      this.repos.pendingRejoins.upsert(args.chatId, args.userId, rejoinAtTs);
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_temp', 'active_mute', {
+        messagesDuringMute,
+        threshold: ACTIVE_MUTE_MAX_MESSAGES,
+        rejoinAtTs,
+        kickHours: ACTIVE_MUTE_TEMP_KICK_HOURS,
+      });
+    } catch (error) {
+      await this.logger.warn('Failed to temporarily kick user for mute evasion', {
+        chatId: args.chatId,
+        userId: args.userId,
+        messagesDuringMute,
+        error: error instanceof Error ? error.message : String(error),
+      });
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_temp_failed', 'active_mute', {
+        messagesDuringMute,
+        threshold: ACTIVE_MUTE_MAX_MESSAGES,
+        error: error instanceof Error ? error.message : String(error),
+      });
+    }
   }
 
   private resolveDisplayName(userName: string | undefined, userId: number): string {

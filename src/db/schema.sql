@@ -64,6 +64,17 @@ CREATE TABLE IF NOT EXISTS user_restrictions (
 CREATE INDEX IF NOT EXISTS idx_user_restrictions_until
   ON user_restrictions (until_ts);
 
+CREATE TABLE IF NOT EXISTS pending_rejoins (
+  chat_id INTEGER NOT NULL,
+  user_id INTEGER NOT NULL,
+  rejoin_at_ts INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (chat_id, user_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_pending_rejoins_rejoin_at
+  ON pending_rejoins (rejoin_at_ts);
+
 CREATE TABLE IF NOT EXISTS moderation_actions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   chat_id INTEGER NOT NULL,

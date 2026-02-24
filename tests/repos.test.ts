@@ -97,6 +97,40 @@ describe('repositories', () => {
 
     const count = repos.moderationActions.countByReasonSince(1, 2, 'link', now - hoursToMs(24));
     expect(count).toBe(1);
+    const countByAction = repos.moderationActions.countByActionAndReasonSince(
+      1,
+      2,
+      'warn',
+      'link',
+      now - hoursToMs(24),
+    );
+    expect(countByAction).toBe(1);
+
+    db.close();
+  });
+
+  it('queues and resolves pending rejoins', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const now = Date.now();
+    repos.pendingRejoins.upsert(10, 20, now + 10_000);
+
+    const dueNow = repos.pendingRejoins.listDue(now, 10);
+    expect(dueNow).toHaveLength(0);
+
+    const dueLater = repos.pendingRejoins.listDue(now + 20_000, 10);
+    expect(dueLater).toHaveLength(1);
+    expect(dueLater[0].chatId).toBe(10);
+    expect(dueLater[0].userId).toBe(20);
+
+    repos.pendingRejoins.postpone(10, 20, now + 50_000);
+    const dueAfterPostpone = repos.pendingRejoins.listDue(now + 20_000, 10);
+    expect(dueAfterPostpone).toHaveLength(0);
+
+    repos.pendingRejoins.remove(10, 20);
+    const dueAfterRemove = repos.pendingRejoins.listDue(now + 60_000, 10);
+    expect(dueAfterRemove).toHaveLength(0);
 
     db.close();
   });

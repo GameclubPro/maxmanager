@@ -6,23 +6,27 @@ interface RestrictionRow {
   user_id: number;
   restriction_type: RestrictionType;
   until_ts: number;
+  created_at: number;
 }
 
 export class RestrictionsRepo {
   constructor(private readonly db: BetterSqliteDb) {}
 
   upsert(chatId: number, userId: number, type: RestrictionType, untilTs: number): void {
+    const nowTs = Date.now();
     this.db.prepare(`
       INSERT INTO user_restrictions (chat_id, user_id, restriction_type, until_ts, created_at)
       VALUES (?, ?, ?, ?, ?)
       ON CONFLICT(chat_id, user_id, restriction_type)
-      DO UPDATE SET until_ts = excluded.until_ts
-    `).run(chatId, userId, type, untilTs, Date.now());
+      DO UPDATE SET
+        until_ts = excluded.until_ts,
+        created_at = excluded.created_at
+    `).run(chatId, userId, type, untilTs, nowTs);
   }
 
   getActive(chatId: number, userId: number, nowTs: number): ActiveRestriction | null {
     const row = this.db.prepare(`
-      SELECT chat_id, user_id, restriction_type, until_ts
+      SELECT chat_id, user_id, restriction_type, until_ts, created_at
       FROM user_restrictions
       WHERE chat_id = ? AND user_id = ? AND until_ts > ?
       ORDER BY until_ts DESC
@@ -36,6 +40,7 @@ export class RestrictionsRepo {
       userId: row.user_id,
       type: row.restriction_type,
       untilTs: row.until_ts,
+      createdAtTs: row.created_at,
     };
   }
 

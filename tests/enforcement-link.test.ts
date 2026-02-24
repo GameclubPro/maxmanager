@@ -22,6 +22,7 @@ const config: BotConfig = {
 function makeContext() {
   const replies: string[] = [];
   const deletedMessages: string[] = [];
+  const kickedUserIds: number[] = [];
 
   const ctx = {
     reply: async (text: string) => {
@@ -32,12 +33,16 @@ function makeContext() {
     },
     api: {
       raw: {
-        chats: {},
+        chats: {
+          removeChatMember: async (payload: { user_id: number }) => {
+            kickedUserIds.push(payload.user_id);
+          },
+        },
       },
     },
   } as unknown as Context;
 
-  return { ctx, replies, deletedMessages };
+  return { ctx, replies, deletedMessages, kickedUserIds };
 }
 
 describe('enforcement link violations', () => {
@@ -107,10 +112,50 @@ describe('enforcement link violations', () => {
       messageId: 'm-mute',
       restrictionType: 'mute',
       untilTs: Date.now() + 60_000,
+      createdAtTs: Date.now() - 1_000,
     });
 
     expect(deletedMessages).toEqual(['m-mute']);
     expect(replies).toHaveLength(0);
+
+    db.close();
+  });
+
+  it('temporarily kicks user for 3 hours after more than 5 messages during mute', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.restrictions.upsert(10, 20, 'mute', Date.now() + 60 * 60 * 1000);
+
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, deletedMessages, kickedUserIds } = makeContext();
+
+    const activeRestriction = repos.restrictions.getActive(10, 20, Date.now());
+    expect(activeRestriction).not.toBeNull();
+
+    for (let i = 1; i <= 6; i += 1) {
+      await enforcement.enforceActiveRestriction(ctx, {
+        chatId: 10,
+        userId: 20,
+        userName: 'Иван',
+        messageId: `mute-${i}`,
+        restrictionType: 'mute',
+        untilTs: activeRestriction!.untilTs,
+        createdAtTs: activeRestriction!.createdAtTs,
+      });
+    }
+
+    expect(deletedMessages).toHaveLength(6);
+    expect(replies).toHaveLength(0);
+    expect(kickedUserIds).toEqual([20]);
+
+    const pending = repos.pendingRejoins.listDue(Date.now() + 4 * 60 * 60 * 1000, 10);
+    expect(pending.some((entry) => entry.chatId === 10 && entry.userId === 20)).toBe(true);
 
     db.close();
   });

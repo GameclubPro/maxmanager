@@ -30,16 +30,14 @@ async function main(): Promise<void> {
   const config = loadConfig();
   const runtime = await createRuntime(config);
 
-  runtime.cleanupService.run();
+  await runtime.cleanupService.run();
 
   const cleanupTimer = setInterval(() => {
-    try {
-      runtime.cleanupService.run();
-    } catch (error) {
+    void runtime.cleanupService.run().catch((error) => {
       void runtime.logger.error('Cleanup job failed', {
         error: error instanceof Error ? error.message : String(error),
       });
-    }
+    });
   }, config.cleanupIntervalSec * 1_000);
 
   cleanupTimer.unref();

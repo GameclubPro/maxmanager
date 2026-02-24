@@ -100,6 +100,7 @@ export class ModerationEngine {
           messageId,
           restrictionType: activeRestriction.type,
           untilTs: activeRestriction.untilTs,
+          createdAtTs: activeRestriction.createdAtTs,
         });
         return;
       }

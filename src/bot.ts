@@ -55,7 +55,7 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
     logger,
   );
   const adminCommands = new AdminCommands(repos, config, adminResolver, logger);
-  const cleanupService = new CleanupService(repos, config);
+  const cleanupService = new CleanupService(repos, config, bot.api, logger);
 
   bot.catch(async (error, ctx) => {
     await logger.error('Unhandled bot middleware error', {

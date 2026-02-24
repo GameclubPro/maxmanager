@@ -34,6 +34,14 @@ export interface ActiveRestriction {
   userId: number;
   type: RestrictionType;
   untilTs: number;
+  createdAtTs: number;
+}
+
+export interface PendingRejoin {
+  chatId: number;
+  userId: number;
+  rejoinAtTs: number;
+  createdAtTs: number;
 }
 
 export interface IncomingSender {

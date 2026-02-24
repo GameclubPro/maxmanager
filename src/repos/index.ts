@@ -9,6 +9,7 @@ import { ModerationActionsRepo } from './moderation-actions-repo';
 import { ProcessedMessagesRepo } from './processed-messages-repo';
 import { RestrictionsRepo } from './restrictions-repo';
 import { StrikesRepo } from './strikes-repo';
+import { PendingRejoinsRepo } from './pending-rejoins-repo';
 
 export interface Repositories {
   appSettings: AppSettingsRepo;
@@ -17,6 +18,7 @@ export interface Repositories {
   domainWhitelist: DomainWhitelistRepo;
   messageEvents: MessageEventsRepo;
   moderationActions: ModerationActionsRepo;
+  pendingRejoins: PendingRejoinsRepo;
   processedMessages: ProcessedMessagesRepo;
   restrictions: RestrictionsRepo;
   strikes: StrikesRepo;
@@ -34,6 +36,7 @@ export function createRepositories(db: BetterSqliteDb, config: BotConfig): Repos
     domainWhitelist: new DomainWhitelistRepo(db),
     messageEvents: new MessageEventsRepo(db),
     moderationActions: new ModerationActionsRepo(db),
+    pendingRejoins: new PendingRejoinsRepo(db),
     processedMessages: new ProcessedMessagesRepo(db),
     restrictions: new RestrictionsRepo(db),
     strikes: new StrikesRepo(db),
