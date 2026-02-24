@@ -26,17 +26,29 @@ function getMessage(ctx: Context): IncomingMessage | undefined {
 }
 
 function parseAdminCommand(text: string): ParsedCommand | null {
-  const match = text.trim().match(/^\/([a-z0-9_]+)(?:@[a-z0-9_]+)?(?:\s+([\s\S]+))?$/i);
-  if (!match) return null;
+  const normalized = text.trim();
+  const patterns = [
+    // /command arg1 arg2
+    /^\/([a-z0-9_]+)(?:@[a-z0-9_]+)?(?:\s+([\s\S]+))?$/i,
+    // @bot /command arg1 arg2
+    /^@[a-z0-9_]+(?:\s+|[:,;-]+\s*)\/([a-z0-9_]+)(?:@[a-z0-9_]+)?(?:\s+([\s\S]+))?$/i,
+  ];
 
-  const command = match[1].toLowerCase();
-  const rawArgs = (match[2] ?? '').trim();
+  for (const pattern of patterns) {
+    const match = normalized.match(pattern);
+    if (!match) continue;
 
-  if (!ADMIN_COMMANDS.has(command)) {
-    return null;
+    const command = match[1].toLowerCase();
+    const rawArgs = (match[2] ?? '').trim();
+
+    if (!ADMIN_COMMANDS.has(command)) {
+      return null;
+    }
+
+    return { command, rawArgs };
   }
 
-  return { command, rawArgs };
+  return null;
 }
 
 export class AdminCommands {
