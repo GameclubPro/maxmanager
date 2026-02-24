@@ -87,4 +87,31 @@ describe('enforcement link violations', () => {
 
     db.close();
   });
+
+  it('silently deletes messages for active mute restrictions', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, deletedMessages } = makeContext();
+
+    await enforcement.enforceActiveRestriction(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'm-mute',
+      restrictionType: 'mute',
+      untilTs: Date.now() + 60_000,
+    });
+
+    expect(deletedMessages).toEqual(['m-mute']);
+    expect(replies).toHaveLength(0);
+
+    db.close();
+  });
 });

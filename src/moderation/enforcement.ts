@@ -28,8 +28,8 @@ export class EnforcementService {
   async enforceActiveRestriction(ctx: Context, args: ViolationContext & { restrictionType: RestrictionType; untilTs: number }): Promise<void> {
     await this.deleteMessageSafe(ctx, args.messageId);
 
-    if (this.config.noticeInChat) {
-      const typeText = args.restrictionType === 'mute' ? 'мут' : 'блокировка';
+    if (this.config.noticeInChat && args.restrictionType !== 'mute') {
+      const typeText = 'блокировка';
       await this.replySafe(
         ctx,
         this.withUserName(
