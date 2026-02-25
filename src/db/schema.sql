@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS chat_settings (
   enabled INTEGER NOT NULL DEFAULT 1,
   daily_limit INTEGER NOT NULL,
   photo_limit_per_hour INTEGER NOT NULL DEFAULT 1,
-  max_text_length INTEGER NOT NULL DEFAULT 1200,
+  max_text_length INTEGER NOT NULL DEFAULT 1000,
   spam_threshold INTEGER NOT NULL,
   spam_window_sec INTEGER NOT NULL,
   updated_at INTEGER NOT NULL
