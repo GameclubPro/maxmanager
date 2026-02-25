@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 23,
+  "source_chats_count": 11,
+  "excluded_chat_id": -69067549505002,
+  "per_chat": [
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "pages": 10,
+      "ids_total_collected": 983,
+      "unique_ids": 983,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69642926347721_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69642926347721_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69642926347721_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69642926347721_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -69462975690164,
+      "title": "1. Объявления Краснодара",
+      "pages": 6,
+      "ids_total_collected": 564,
+      "unique_ids": 564,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69462975690164_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69462975690164_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69462975690164_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69462975690164_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -68089472827498,
+      "title": "Объявления Краснодарский край ЧАСТНОЕ",
+      "pages": 9,
+      "ids_total_collected": 820,
+      "unique_ids": 820,
+      "files": {
+        "stable_json": "data/krasnodar_chat_68089472827498_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_68089472827498_member_ids.txt",
+        "live_json": "data/krasnodar_chat_68089472827498_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_68089472827498_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -69428622557416,
+      "title": "АВИТО. Краснодарский  край.",
+      "pages": 5,
+      "ids_total_collected": 476,
+      "unique_ids": 476,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69428622557416_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69428622557416_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69428622557416_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69428622557416_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "pages": 10,
+      "ids_total_collected": 959,
+      "unique_ids": 959,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69543456850047_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69543456850047_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69543456850047_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69543456850047_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "pages": 13,
+      "ids_total_collected": 1243,
+      "unique_ids": 1243,
+      "files": {
+        "stable_json": "data/krasnodar_chat_68085382572711_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_68085382572711_member_ids.txt",
+        "live_json": "data/krasnodar_chat_68085382572711_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_68085382572711_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -69240023558784,
+      "title": "5 ✔Краснодар барахолка",
+      "pages": 9,
+      "ids_total_collected": 825,
+      "unique_ids": 825,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69240023558784_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69240023558784_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69240023558784_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69240023558784_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -69089338780315,
+      "title": "КРАСНОДАР. КУПИ",
+      "pages": 8,
+      "ids_total_collected": 720,
+      "unique_ids": 720,
+      "files": {
+        "stable_json": "data/krasnodar_chat_69089338780315_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_69089338780315_member_ids.txt",
+        "live_json": "data/krasnodar_chat_69089338780315_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_69089338780315_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -68556814142194,
+      "title": "Авито Краснодарский край",
+      "pages": 6,
+      "ids_total_collected": 552,
+      "unique_ids": 552,
+      "files": {
+        "stable_json": "data/krasnodar_chat_68556814142194_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_68556814142194_member_ids.txt",
+        "live_json": "data/krasnodar_chat_68556814142194_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_68556814142194_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -68841807727334,
+      "title": "Барахолка Краснодар-И Рядом",
+      "pages": 9,
+      "ids_total_collected": 896,
+      "unique_ids": 896,
+      "files": {
+        "stable_json": "data/krasnodar_chat_68841807727334_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_68841807727334_member_ids.txt",
+        "live_json": "data/krasnodar_chat_68841807727334_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_68841807727334_member_ids_live_20260225212355.txt"
+      }
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "pages": 6,
+      "ids_total_collected": 557,
+      "unique_ids": 557,
+      "files": {
+        "stable_json": "data/krasnodar_chat_70470873991928_member_ids.json",
+        "stable_txt": "data/krasnodar_chat_70470873991928_member_ids.txt",
+        "live_json": "data/krasnodar_chat_70470873991928_member_ids_live_20260225212355.json",
+        "live_txt": "data/krasnodar_chat_70470873991928_member_ids_live_20260225212355.txt"
+      }
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 5219,
+    "stable_json": "data/krasnodar_all_chats_except_krasnodar_obyavleniya_novosti_member_ids.json",
+    "stable_txt": "data/krasnodar_all_chats_except_krasnodar_obyavleniya_novosti_member_ids.txt",
+    "live_json": "data/krasnodar_all_chats_except_krasnodar_obyavleniya_novosti_member_ids_live_20260225212355.json",
+    "live_txt": "data/krasnodar_all_chats_except_krasnodar_obyavleniya_novosti_member_ids_live_20260225212355.txt"
+  }
+}

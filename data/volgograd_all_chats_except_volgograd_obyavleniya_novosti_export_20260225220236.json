@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "note": "No eligible Volgograd chats found for this bot after excluding target chat",
+  "scanned_chats": 23,
+  "excluded_chat_id": -71313986483690,
+  "source_chats_count": 0,
+  "files": {
+    "stable_json": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids.json",
+    "stable_txt": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids.txt",
+    "live_json": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids_live_20260225220236.json",
+    "live_txt": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids_live_20260225220236.txt"
+  }
+}

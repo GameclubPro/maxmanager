@@ -2,8 +2,9 @@ import { DetectedLink, IncomingMessage } from '../types';
 import { isDomainAllowed, normalizeDomain, stripTrailingPunctuation } from '../utils/domain';
 
 const SCHEME_URL_REGEX = /\b([a-z][a-z0-9+.-]{1,31}:\/\/[^\s<>()]+)/gi;
-const DOMAIN_WITH_PATH_REGEX = /(^|[^\p{L}\p{N}_-])((?:[\p{L}\p{N}](?:[\p{L}\p{N}-]{0,61}[\p{L}\p{N}])?\.)+(?:xn--[a-z0-9-]{2,59}|[\p{L}]{2,63})(?::\d{2,5})?(?:\/[^\s<>()]*)?)/giu;
-const IPV4_WITH_PATH_REGEX = /\b((?:\d{1,3}\.){3}\d{1,3}(?::\d{2,5})?(?:\/[^\s<>()]*)?)/g;
+const WWW_URL_REGEX = /\b(www\.[^\s<>()]+)/gi;
+const BARE_DOMAIN_REGEX = /(^|[^a-z0-9@_/-])((?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:xn--[a-z0-9-]{2,59}|[a-z]{2,63})(?::\d{2,5})?(?:\/[^\s<>()]*)?)/gi;
+const IPV4_WITH_PATH_REGEX = /\b((?:\d{1,3}\.){3}\d{1,3}(?::\d{2,5})?\/[^\s<>()]*)/g;
 const HTML_HREF_REGEX = /href\s*=\s*["']([^"']+)["']/gi;
 const MEDIA_ATTACHMENT_TYPES = new Set(['image', 'video', 'audio', 'file', 'sticker']);
 const MEDIA_ATTACHMENT_URL_KEYS = new Set([
@@ -16,6 +17,13 @@ const MEDIA_ATTACHMENT_URL_KEYS = new Set([
   'audio_url',
   'file_url',
   'src',
+]);
+const FILE_EXTENSION_LIKE_TLDS = new Set([
+  'txt', 'doc', 'docx', 'pdf', 'csv', 'xls', 'xlsx', 'ppt', 'pptx',
+  'jpg', 'jpeg', 'png', 'gif', 'bmp', 'svg', 'webp',
+  'mp3', 'wav', 'ogg', 'mp4', 'avi', 'mkv', 'mov',
+  'zip', 'rar', '7z', 'tar', 'gz',
+  'json', 'xml', 'yaml', 'yml', 'md',
 ]);
 
 function countChar(value: string, char: string): number {
@@ -66,6 +74,45 @@ function collectMatches(
   }
 }
 
+function collectBareDomainMatches(text: string, out: Set<string>): void {
+  BARE_DOMAIN_REGEX.lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = BARE_DOMAIN_REGEX.exec(text)) !== null) {
+    const boundary = match[1] ?? '';
+    const rawCandidate = match[2];
+    if (!rawCandidate) continue;
+
+    // Ignore local parts in emails and filename fragments.
+    if (boundary === '@' || boundary === '.') {
+      continue;
+    }
+
+    const candidate = normalizeUrlCandidate(rawCandidate);
+    if (!candidate) continue;
+
+    const startIndex = match.index + boundary.length;
+    const endIndex = startIndex + rawCandidate.length;
+    const nextChar = text[endIndex] ?? '';
+
+    // Ignore local-part candidate in "name.surname@example.com".
+    if (nextChar === '@') {
+      continue;
+    }
+
+    const normalizedDomain = normalizeDomain(candidate);
+    if (!normalizedDomain) continue;
+
+    const labels = normalizedDomain.split('.');
+    const tld = labels[labels.length - 1];
+    if (FILE_EXTENSION_LIKE_TLDS.has(tld)) {
+      continue;
+    }
+
+    out.add(candidate);
+  }
+}
+
 function getCandidateCanonicalKey(candidate: string): string {
   const domain = normalizeDomain(candidate);
   if (!domain) {
@@ -100,7 +147,8 @@ function detectFromText(text: string): string[] {
   if (!normalizedText) return [];
 
   collectMatches(normalizedText, SCHEME_URL_REGEX, out);
-  collectMatches(normalizedText, DOMAIN_WITH_PATH_REGEX, out, undefined, 2);
+  collectMatches(normalizedText, WWW_URL_REGEX, out);
+  collectBareDomainMatches(normalizedText, out);
   collectMatches(normalizedText, IPV4_WITH_PATH_REGEX, out, isValidIpv4Candidate);
   collectMatches(normalizedText, HTML_HREF_REGEX, out);
 

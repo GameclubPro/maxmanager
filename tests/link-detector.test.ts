@@ -39,12 +39,17 @@ describe('link detector', () => {
     expect(links.some((item) => item.raw.startsWith('tg://resolve?domain='))).toBe(true);
   });
 
-  it('detects IDN, punycode and ipv4 links without protocol', () => {
-    const msg = makeMessage('пример.рф, example.xn--p1ai, 192.168.10.15/admin');
+  it('detects punycode and ipv4 links with path without protocol', () => {
+    const msg = makeMessage('example.xn--p1ai, 192.168.10.15/admin');
     const links = getForbiddenLinks(msg, []);
-    expect(links.some((item) => item.domain === 'xn--e1afmkfd.xn--p1ai')).toBe(true);
     expect(links.some((item) => item.domain === 'example.xn--p1ai')).toBe(true);
     expect(links.some((item) => item.domain === '192.168.10.15')).toBe(true);
+  });
+
+  it('detects IDN with explicit protocol', () => {
+    const msg = makeMessage('https://пример.рф/страница');
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.domain === 'xn--e1afmkfd.xn--p1ai')).toBe(true);
   });
 
   it('detects links in attachments', () => {
@@ -105,6 +110,30 @@ describe('link detector', () => {
     const msg = makeMessage('<a href="https://max.ru/page">x</a>');
     const links = getForbiddenLinks(msg, []);
     expect(links.every((item) => item.domain === 'max.ru')).toBe(true);
+  });
+
+  it('does not treat email address as link', () => {
+    const msg = makeMessage('email: ivan.petrov@example.com');
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
+  it('does not treat russian abbreviations with dots as links', () => {
+    const msg = makeMessage('г.Москва, ул.Ленина');
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
+  it('does not treat file-like names as links', () => {
+    const msg = makeMessage('файл report.final.doc загружен');
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
+  it('does not treat bare ipv4 without path as link', () => {
+    const msg = makeMessage('локальный адрес 127.0.0.1');
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
   });
 
   it('allows whitelisted domains including subdomains', () => {
