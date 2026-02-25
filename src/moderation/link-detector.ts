@@ -276,8 +276,6 @@ export function extractLinks(message: IncomingMessage): DetectedLink[] {
     for (const markupElement of linkedMessage.markup ?? []) {
       detectFromAttachmentObject(markupElement, attachmentCandidates);
     }
-
-    detectFromAttachmentObject(linkedMessage, attachmentCandidates);
   }
 
   for (const candidate of attachmentCandidates) {

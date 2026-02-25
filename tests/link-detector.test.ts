@@ -149,6 +149,20 @@ describe('link detector', () => {
     expect(links).toHaveLength(0);
   });
 
+  it('does not flag forwarded message with technical linked message url', () => {
+    const msg = makeMessage('outer text', [], {
+      type: 'forward',
+      message: {
+        text: 'пересланный текст без ссылки',
+        attachments: null,
+        url: 'https://max.ru/messages/abc123',
+      } as unknown as IncomingMessage['link']['message'],
+    });
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
   it('normalizes wrapped links and does not keep trailing quotes', () => {
     const msg = makeMessage('<a href="https://max.ru/page">x</a>');
     const links = getForbiddenLinks(msg, []);
