@@ -23,6 +23,7 @@ const DEFAULTS = {
   skipExistingScan: false,
   dryRun: false,
   retryActionFailed: false,
+  splitActionFailedBatch: false,
   stopOnConsecutiveActionFailed: 2,
 };
 
@@ -52,6 +53,7 @@ Optional:
   --retry-delay-ms <n>         Base retry delay (default: 1200)
   --retry-backoff <n>          Retry delay multiplier (default: 2)
   --retry-action-failed        Retry when API returns success=false
+  --split-action-failed-batch  On action_failed for batch>1, retry users one-by-one
   --stop-on-action-failed <n>  Stop run after N consecutive action_failed (default: 2, 0=off)
   --skip-existing-scan         Skip full pre-scan of target members
   --progress-every <n>         Print progress every N attempts (default: 25)
@@ -106,6 +108,11 @@ function parseArgs(argv) {
 
     if (arg === '--retry-action-failed') {
       options.retryActionFailed = true;
+      continue;
+    }
+
+    if (arg === '--split-action-failed-batch') {
+      options.splitActionFailedBatch = true;
       continue;
     }
 
@@ -618,6 +625,45 @@ async function main() {
       if (inviteResult.ok) {
         invitedWithoutImmediateFailure.push(...batchUserIds);
         consecutiveActionFailed = 0;
+      } else if (
+        options.splitActionFailedBatch
+        && batchUserIds.length > 1
+        && inviteResult.code === 'action_failed'
+      ) {
+        let allFailedAsActionFailed = true;
+        let anyRecovered = false;
+
+        for (let j = 0; j < batchUserIds.length; j += 1) {
+          const userId = batchUserIds[j];
+          const singleInviteResult = await addMembersBatchWithRetry(bot.api, options.targetChatId, [userId], options);
+
+          if (singleInviteResult.ok) {
+            invitedWithoutImmediateFailure.push(userId);
+            anyRecovered = true;
+            allFailedAsActionFailed = false;
+          } else {
+            failures.push({
+              user_id: userId,
+              attempts: singleInviteResult.attempts,
+              status: singleInviteResult.status,
+              code: singleInviteResult.code,
+              message: singleInviteResult.message,
+            });
+            if (singleInviteResult.code !== 'action_failed') {
+              allFailedAsActionFailed = false;
+            }
+          }
+
+          if (options.pauseMs > 0 && j < batchUserIds.length - 1) {
+            await sleep(options.pauseMs);
+          }
+        }
+
+        if (anyRecovered || !allFailedAsActionFailed) {
+          consecutiveActionFailed = 0;
+        } else {
+          consecutiveActionFailed += 1;
+        }
       } else {
         if (inviteResult.code === 'action_failed') {
           consecutiveActionFailed += 1;
@@ -726,6 +772,7 @@ async function main() {
       retry_delay_ms: options.retryDelayMs,
       retry_backoff: options.retryBackoff,
       retry_action_failed: options.retryActionFailed,
+      split_action_failed_batch: options.splitActionFailedBatch,
       stop_on_consecutive_action_failed: options.stopOnConsecutiveActionFailed,
       skip_existing_scan: options.skipExistingScan,
       verify_chunk_size: options.verifyChunkSize,
