@@ -63,7 +63,7 @@ export class SqliteDatabase {
       return;
     }
 
-    this.db.exec('ALTER TABLE chat_settings ADD COLUMN max_text_length INTEGER NOT NULL DEFAULT 1000');
+    this.db.exec('ALTER TABLE chat_settings ADD COLUMN max_text_length INTEGER NOT NULL DEFAULT 800');
   }
 
   close(): void {
