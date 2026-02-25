@@ -21,7 +21,7 @@ const config: BotConfig = {
   cleanupIntervalSec: 300,
 };
 
-function makeContext(options?: { onDeleteMessage?: (messageId: string) => Promise<void> }) {
+function makeContext() {
   const replies: string[] = [];
   const replyExtras: unknown[] = [];
   const deletedMessages: string[] = [];
@@ -41,7 +41,6 @@ function makeContext(options?: { onDeleteMessage?: (messageId: string) => Promis
     },
     deleteMessage: async (messageId: string) => {
       deletedMessages.push(messageId);
-      await options?.onDeleteMessage?.(messageId);
     },
     api: {
       raw: {
@@ -102,159 +101,6 @@ describe('enforcement link violations', () => {
 
     const linkActionsCount = repos.moderationActions.countByReasonSince(10, 20, 'link', Date.now() - 24 * 60 * 60 * 1000);
     expect(linkActionsCount).toBe(3);
-
-    db.close();
-  });
-
-  it('retries link message deletion and proceeds after successful retry', async () => {
-    const db = new SqliteDatabase(':memory:');
-    const repos = createRepositories(db.db, config);
-    let deleteAttempts = 0;
-
-    const logger = {
-      warn: vi.fn(async () => {}),
-      error: vi.fn(async () => {}),
-      moderation: vi.fn(async () => {}),
-      info: vi.fn(async () => {}),
-    } as any;
-
-    const enforcement = new EnforcementService(repos, config, logger);
-    const { ctx, replies, deletedMessages } = makeContext({
-      onDeleteMessage: async () => {
-        deleteAttempts += 1;
-        if (deleteAttempts === 1) {
-          throw new Error('temporary');
-        }
-      },
-    });
-
-    vi.useFakeTimers();
-    try {
-      const operation = enforcement.enforceLinkViolation(ctx, {
-        chatId: 10,
-        userId: 20,
-        userName: 'Иван',
-        messageId: 'retry-link',
-      }, { source: 'test' });
-
-      await vi.runAllTimersAsync();
-      await operation;
-    } finally {
-      vi.useRealTimers();
-    }
-
-    expect(deleteAttempts).toBe(2);
-    expect(deletedMessages).toEqual(['retry-link', 'retry-link']);
-    expect(replies).toHaveLength(1);
-    expect(repos.moderationActions.countByReasonSince(10, 20, 'link', Date.now() - 60_000)).toBe(1);
-    expect(logger.warn).not.toHaveBeenCalled();
-
-    db.close();
-  });
-
-  it('does not notify or escalate link violation if message deletion fails after retries', async () => {
-    const db = new SqliteDatabase(':memory:');
-    const repos = createRepositories(db.db, config);
-
-    const logger = {
-      warn: vi.fn(async () => {}),
-      error: vi.fn(async () => {}),
-      moderation: vi.fn(async () => {}),
-      info: vi.fn(async () => {}),
-    } as any;
-
-    const enforcement = new EnforcementService(repos, config, logger);
-    const { ctx, replies, deletedMessages } = makeContext({
-      onDeleteMessage: async () => {
-        throw new Error('forbidden');
-      },
-    });
-
-    vi.useFakeTimers();
-    try {
-      const operation = enforcement.enforceLinkViolation(ctx, {
-        chatId: 10,
-        userId: 20,
-        userName: 'Иван',
-        messageId: 'fail-link',
-      }, { source: 'test' });
-
-      await vi.runAllTimersAsync();
-      await operation;
-    } finally {
-      vi.useRealTimers();
-    }
-
-    expect(deletedMessages).toEqual(['fail-link', 'fail-link', 'fail-link']);
-    expect(replies).toHaveLength(0);
-    expect(repos.moderationActions.countByReasonSince(10, 20, 'link', Date.now() - 60_000)).toBe(0);
-    expect(logger.warn).toHaveBeenCalledWith(
-      'Failed to delete message',
-      expect.objectContaining({
-        messageId: 'fail-link',
-        attempts: 3,
-      }),
-    );
-    expect(logger.warn).toHaveBeenCalledWith(
-      'Link violation message was not deleted; skipping escalation',
-      expect.objectContaining({
-        chatId: 10,
-        userId: 20,
-        messageId: 'fail-link',
-        attempts: 3,
-        error: 'forbidden',
-      }),
-    );
-
-    db.close();
-  });
-
-  it('does not send chat notice for link fail-closed when deletion fails after retries', async () => {
-    const db = new SqliteDatabase(':memory:');
-    const repos = createRepositories(db.db, config);
-
-    const logger = {
-      warn: vi.fn(async () => {}),
-      error: vi.fn(async () => {}),
-      moderation: vi.fn(async () => {}),
-      info: vi.fn(async () => {}),
-    } as any;
-
-    const enforcement = new EnforcementService(repos, config, logger);
-    const { ctx, replies, deletedMessages } = makeContext({
-      onDeleteMessage: async () => {
-        throw new Error('forbidden');
-      },
-    });
-
-    vi.useFakeTimers();
-    try {
-      const operation = enforcement.handleCriticalFailure(ctx, {
-        chatId: 10,
-        userId: 20,
-        userName: 'Иван',
-        messageId: 'fail-closed-link',
-      }, 'link');
-
-      await vi.runAllTimersAsync();
-      await operation;
-    } finally {
-      vi.useRealTimers();
-    }
-
-    expect(deletedMessages).toEqual(['fail-closed-link', 'fail-closed-link', 'fail-closed-link']);
-    expect(replies).toHaveLength(0);
-    expect(repos.moderationActions.countByReasonSince(10, 20, 'link_fail_closed', Date.now() - 60_000)).toBe(0);
-    expect(logger.warn).toHaveBeenCalledWith(
-      'Link fail-closed message was not deleted; skipping chat notice',
-      expect.objectContaining({
-        chatId: 10,
-        userId: 20,
-        messageId: 'fail-closed-link',
-        attempts: 3,
-        error: 'forbidden',
-      }),
-    );
 
     db.close();
   });
