@@ -31,6 +31,12 @@ async function main(): Promise<void> {
   const config = loadConfig();
   const runtime = await createRuntime(config);
 
+  await runtime.botGuardService.sweepExistingChats().catch((error) => {
+    void runtime.logger.warn('Startup bot sweep failed', {
+      error: error instanceof Error ? error.message : String(error),
+    });
+  });
+
   await runtime.cleanupService.run();
 
   const cleanupTimer = setInterval(() => {

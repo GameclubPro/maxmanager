@@ -1,5 +1,5 @@
 import { Bot } from '@maxhub/max-bot-api';
-import { BotConfig } from './types';
+import { BotConfig, IncomingMessage } from './types';
 import { SqliteDatabase } from './db/sqlite';
 import { createRepositories, Repositories } from './repos';
 import { BotLogger } from './services/logger';
@@ -10,6 +10,7 @@ import { ModerationEngine } from './moderation/moderation-engine';
 import { AdminCommands } from './commands/admin';
 import { CleanupService } from './services/cleanup';
 import { BOT_MESSAGE_AUTO_DELETE_DELAY_MS } from './services/bot-message-autodelete';
+import { BotGuardService } from './services/bot-guard';
 
 export interface Runtime {
   bot: Bot;
@@ -17,6 +18,7 @@ export interface Runtime {
   repos: Repositories;
   logger: BotLogger;
   cleanupService: CleanupService;
+  botGuardService: BotGuardService;
 }
 
 const COMMANDS = [
@@ -65,6 +67,7 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
   );
   const adminCommands = new AdminCommands(repos, config, adminResolver, logger);
   const cleanupService = new CleanupService(repos, config, bot.api, logger);
+  const botGuardService = new BotGuardService(bot.api, repos, logger);
 
   bot.catch(async (error, ctx) => {
     await logger.error('Unhandled bot middleware error', {
@@ -75,7 +78,16 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
     throw error;
   });
 
+  bot.on('bot_added', async (ctx) => {
+    await botGuardService.handleBotAdded(ctx);
+  });
+
   bot.on('message_created', async (ctx) => {
+    const message = ctx.message as IncomingMessage | undefined;
+    if (message && await botGuardService.handleBotMessage(ctx, message)) {
+      return;
+    }
+
     if (await adminCommands.tryHandle(ctx)) {
       return;
     }
@@ -97,5 +109,6 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
     repos,
     logger,
     cleanupService,
+    botGuardService,
   };
 }

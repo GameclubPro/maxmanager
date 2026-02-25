@@ -23,6 +23,17 @@ const PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE = 5;
 const PHOTO_QUOTA_MUTE_HOURS = 3;
 const ACTIVE_MUTE_MAX_MESSAGES = 5;
 const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
+const DELETE_MESSAGE_RETRY_DELAYS_MS = [350, 1_200] as const;
+
+interface DeleteMessageResult {
+  deleted: boolean;
+  attempts: number;
+  lastError?: string;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 export class EnforcementService {
   constructor(
@@ -86,7 +97,17 @@ export class EnforcementService {
     );
     const violationLevel = recentLinkViolations + 1;
 
-    await this.deleteMessageSafe(ctx, args.messageId);
+    const deleteResult = await this.deleteMessageSafe(ctx, args.messageId);
+    if (!deleteResult.deleted) {
+      await this.logger.warn('Link violation message was not deleted; skipping escalation', {
+        chatId: args.chatId,
+        userId: args.userId,
+        messageId: args.messageId,
+        attempts: deleteResult.attempts,
+        error: deleteResult.lastError ?? 'unknown',
+      });
+      return;
+    }
 
     if (violationLevel === 1) {
       if (this.config.noticeInChat) {
@@ -376,7 +397,18 @@ export class EnforcementService {
 
   async handleCriticalFailure(ctx: Context, args: ViolationContext, violationKind: ViolationKind): Promise<void> {
     if (violationKind === 'link') {
-      await this.deleteMessageSafe(ctx, args.messageId);
+      const deleteResult = await this.deleteMessageSafe(ctx, args.messageId);
+      if (!deleteResult.deleted) {
+        await this.logger.warn('Link fail-closed message was not deleted; skipping chat notice', {
+          chatId: args.chatId,
+          userId: args.userId,
+          messageId: args.messageId,
+          attempts: deleteResult.attempts,
+          error: deleteResult.lastError ?? 'unknown',
+        });
+        return;
+      }
+
       if (this.config.noticeInChat) {
         await this.replySafe(
           ctx,
@@ -395,15 +427,37 @@ export class EnforcementService {
     });
   }
 
-  private async deleteMessageSafe(ctx: Context, messageId: string): Promise<void> {
-    try {
-      await ctx.deleteMessage(messageId);
-    } catch (error) {
-      await this.logger.warn('Failed to delete message', {
-        messageId,
-        error: error instanceof Error ? error.message : String(error),
-      });
+  private async deleteMessageSafe(ctx: Context, messageId: string): Promise<DeleteMessageResult> {
+    let attempts = 0;
+    let lastError: string | undefined;
+
+    for (let index = 0; index <= DELETE_MESSAGE_RETRY_DELAYS_MS.length; index += 1) {
+      attempts += 1;
+
+      try {
+        await ctx.deleteMessage(messageId);
+        return { deleted: true, attempts };
+      } catch (error) {
+        if (this.isMessageAlreadyDeleted(error)) {
+          return { deleted: true, attempts };
+        }
+
+        lastError = error instanceof Error ? error.message : String(error);
+
+        const retryDelay = DELETE_MESSAGE_RETRY_DELAYS_MS[index];
+        if (retryDelay !== undefined) {
+          await sleep(retryDelay);
+        }
+      }
     }
+
+    await this.logger.warn('Failed to delete message', {
+      messageId,
+      attempts,
+      error: lastError ?? 'unknown',
+    });
+
+    return { deleted: false, attempts, lastError };
   }
 
   private async replySafe(ctx: Context, text: string, extra?: unknown): Promise<void> {
@@ -486,5 +540,30 @@ export class EnforcementService {
     }
 
     void this.logger.moderation({ chatId, userId, action, reason, meta });
+  }
+
+  private isMessageAlreadyDeleted(error: unknown): boolean {
+    const status = this.extractErrorStatus(error);
+    if (status === 404) {
+      return true;
+    }
+
+    const normalized = (error instanceof Error ? error.message : String(error)).toLowerCase();
+    return normalized.includes('not found')
+      || normalized.includes('message not found')
+      || normalized.includes('already deleted');
+  }
+
+  private extractErrorStatus(error: unknown): number | undefined {
+    if (!error || typeof error !== 'object') {
+      return undefined;
+    }
+
+    const status = (error as { status?: unknown }).status;
+    if (typeof status !== 'number') {
+      return undefined;
+    }
+
+    return Number.isFinite(status) ? status : undefined;
   }
 }
