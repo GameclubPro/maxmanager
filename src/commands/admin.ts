@@ -2,6 +2,7 @@ import { Context } from '@maxhub/max-bot-api';
 import { BotConfig, IncomingMessage } from '../types';
 import { Repositories } from '../repos';
 import { AdminResolver } from '../services/admin-resolver';
+import { computeBotMessageDeleteAt, extractMessageId } from '../services/bot-message-autodelete';
 import { BotLogger } from '../services/logger';
 
 const ADMIN_COMMANDS = new Set([
@@ -13,6 +14,7 @@ const ADMIN_COMMANDS = new Set([
   'allowdomain_list',
   'set_limit',
   'set_photo_limit',
+  'set_text_limit',
   'set_spam',
   'set_logchat',
 ]);
@@ -112,6 +114,9 @@ export class AdminCommands {
         case 'set_photo_limit':
           await this.handleSetPhotoLimit(ctx, chatId, userId, parsed.rawArgs);
           break;
+        case 'set_text_limit':
+          await this.handleSetTextLimit(ctx, chatId, userId, parsed.rawArgs);
+          break;
         case 'set_spam':
           await this.handleSetSpam(ctx, chatId, userId, parsed.rawArgs);
           break;
@@ -144,6 +149,7 @@ export class AdminCommands {
       `- status: ${settings.enabled ? 'on' : 'off'}`,
       `- daily_limit: ${settings.dailyLimit}`,
       `- photo_limit_per_hour: ${settings.photoLimitPerHour}`,
+      `- text_limit: ${settings.maxTextLength}`,
       `- spam: ${settings.spamThreshold} сообщений / ${settings.spamWindowSec} сек`,
       `- whitelist: ${whitelist.length > 0 ? whitelist.join(', ') : '(пусто)'}`,
       `- log_chat_id: ${logChatId ?? '(не задан)'}`,
@@ -207,6 +213,18 @@ export class AdminCommands {
     this.auditConfigChange(chatId, userId, 'set_photo_limit', { value });
   }
 
+  private async handleSetTextLimit(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {
+    const value = Number.parseInt(rawArgs, 10);
+    if (!Number.isFinite(value) || value < 0 || value > 10_000) {
+      await this.replySafe(ctx, 'Использование: /set_text_limit <0..10000>');
+      return;
+    }
+
+    this.repos.chatSettings.setMaxTextLength(chatId, value);
+    await this.replySafe(ctx, `Новый лимит длины текста: ${value}`);
+    this.auditConfigChange(chatId, userId, 'set_text_limit', { value });
+  }
+
   private async handleSetSpam(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {
     const [thresholdRaw, windowRaw] = rawArgs.split(/\s+/).filter(Boolean);
     const threshold = Number.parseInt(thresholdRaw, 10);
@@ -254,7 +272,11 @@ export class AdminCommands {
 
   private async replySafe(ctx: Context, text: string): Promise<void> {
     try {
-      await ctx.reply(text);
+      const sentMessage = await ctx.reply(text);
+      const sentMessageId = extractMessageId(sentMessage);
+      if (sentMessageId) {
+        this.repos.botMessageDeletes.schedule(sentMessageId, computeBotMessageDeleteAt());
+      }
     } catch {
       // no-op
     }

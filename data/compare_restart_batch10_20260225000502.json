@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "generated_at_iso": "2026-02-25T00:05:02.464Z",
+  "source_file": "/home/MaxManager/data/avtorynok_volgogradskaya_oblast_member_ids.json",
+  "target_chat_id": -71313986483690,
+  "source_total": 3754,
+  "target_members_count": 3572,
+  "remaining_count": 1181,
+  "pages": 36,
+  "remaining_file": "/home/MaxManager/data/remaining_restart_batch10_20260225000502.txt",
+  "remaining_shuffled_file": "/home/MaxManager/data/remaining_restart_batch10_20260225000502_shuffled.txt"
+}

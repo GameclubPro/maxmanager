@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS chat_settings (
   enabled INTEGER NOT NULL DEFAULT 1,
   daily_limit INTEGER NOT NULL,
   photo_limit_per_hour INTEGER NOT NULL DEFAULT 1,
+  max_text_length INTEGER NOT NULL DEFAULT 1200,
   spam_threshold INTEGER NOT NULL,
   spam_window_sec INTEGER NOT NULL,
   updated_at INTEGER NOT NULL
@@ -84,6 +85,15 @@ CREATE TABLE IF NOT EXISTS pending_rejoins (
 
 CREATE INDEX IF NOT EXISTS idx_pending_rejoins_rejoin_at
   ON pending_rejoins (rejoin_at_ts);
+
+CREATE TABLE IF NOT EXISTS pending_bot_message_deletes (
+  message_id TEXT PRIMARY KEY,
+  delete_at_ts INTEGER NOT NULL,
+  created_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_pending_bot_message_deletes_delete_at
+  ON pending_bot_message_deletes (delete_at_ts);
 
 CREATE TABLE IF NOT EXISTS moderation_actions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,

@@ -10,6 +10,7 @@ const config: BotConfig = {
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
   photoLimitPerHour: 1,
+  maxTextLength: 1200,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -25,11 +26,18 @@ function makeContext() {
   const replyExtras: unknown[] = [];
   const deletedMessages: string[] = [];
   const kickedUserIds: number[] = [];
+  let replyCounter = 0;
 
   const ctx = {
     reply: async (text: string, extra?: unknown) => {
       replies.push(text);
       replyExtras.push(extra);
+      replyCounter += 1;
+      return {
+        body: {
+          mid: `enforcement-reply-${replyCounter}`,
+        },
+      };
     },
     deleteMessage: async (messageId: string) => {
       deletedMessages.push(messageId);
@@ -83,9 +91,10 @@ describe('enforcement link violations', () => {
     }, { source: 'test' });
 
     expect(deletedMessages).toEqual(['m1', 'm2', 'm3']);
-    expect(replies[0]).toBe('Иван, Ссылки в этом чате запрещены. Сообщение удалено. Правила в описании.');
-    expect(replies[1]).toContain('Иван, предупреждение: повторная отправка ссылок');
-    expect(replies[2]).toContain('Иван, повторное нарушение: вы получили мут на 3 часа');
+    expect(replies[0]).toBe('«Иван», Ссылки в этом чате запрещены. Сообщение удалено. Правила в описании.');
+    expect(replies[1]).toContain('«Иван», предупреждение: повторная отправка ссылок');
+    expect(replies[2]).toContain('«Иван», повторное нарушение: вы получили мут на 3 часа');
+    expect(repos.botMessageDeletes.listDue(Date.now() + 4 * 60 * 1000, 10)).toHaveLength(3);
 
     const activeRestriction = repos.restrictions.getActive(10, 20, Date.now());
     expect(activeRestriction?.type).toBe('mute');
@@ -193,8 +202,8 @@ describe('enforcement link violations', () => {
 
     expect(deletedMessages).toHaveLength(6);
     expect(replies).toHaveLength(2);
-    expect(replies[0]).toContain('Иван, в этом чате можно отправлять не более 1 фото-сообщений в час.');
-    expect(replies[1]).toContain('Иван, вы продолжили отправку фото сверх лимита. Выдан мут на 3 часа.');
+    expect(replies[0]).toContain('«Иван», в этом чате можно отправлять не более 1 фото-сообщений в час.');
+    expect(replies[1]).toContain('«Иван», вы продолжили отправку фото сверх лимита. Выдан мут на 3 часа.');
     expect(replyExtras[0]).toEqual({ notify: false });
     expect(replyExtras[1]).toEqual({ notify: false });
 
@@ -202,6 +211,38 @@ describe('enforcement link violations', () => {
     expect(activeRestriction?.type).toBe('mute');
 
     dateNowSpy.mockRestore();
+    db.close();
+  });
+
+  it('deletes too long text and warns user with highlighted name', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras, deletedMessages } = makeContext();
+
+    await enforcement.enforceTextLengthViolation(
+      ctx,
+      {
+        chatId: 10,
+        userId: 20,
+        userName: 'Иван',
+        messageId: 'long-text-1',
+      },
+      1500,
+      1200,
+    );
+
+    expect(deletedMessages).toEqual(['long-text-1']);
+    expect(replies).toHaveLength(1);
+    expect(replies[0]).toBe('«Иван», сообщение слишком длинное (1500 символов). Допустимо до 1200 символов.');
+    expect(replyExtras[0]).toEqual({ notify: false });
+
     db.close();
   });
 });

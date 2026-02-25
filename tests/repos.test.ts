@@ -10,6 +10,7 @@ const config: BotConfig = {
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
   photoLimitPerHour: 1,
+  maxTextLength: 1200,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -166,6 +167,32 @@ describe('repositories', () => {
     repos.pendingRejoins.remove(10, 20);
     const dueAfterRemove = repos.pendingRejoins.listDue(now + 60_000, 10);
     expect(dueAfterRemove).toHaveLength(0);
+
+    db.close();
+  });
+
+  it('queues bot messages for delayed auto-delete', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const now = Date.now();
+    repos.botMessageDeletes.schedule('m1', now + 3_000);
+    repos.botMessageDeletes.schedule('m2', now + 6_000);
+
+    const dueEarly = repos.botMessageDeletes.listDue(now + 3_500, 10);
+    expect(dueEarly.map((entry) => entry.messageId)).toEqual(['m1']);
+
+    repos.botMessageDeletes.postpone('m1', now + 9_000);
+    const dueAfterPostpone = repos.botMessageDeletes.listDue(now + 6_500, 10);
+    expect(dueAfterPostpone.map((entry) => entry.messageId)).toEqual(['m2']);
+
+    repos.botMessageDeletes.remove('m2');
+    const dueAfterRemove = repos.botMessageDeletes.listDue(now + 20_000, 10);
+    expect(dueAfterRemove.map((entry) => entry.messageId)).toEqual(['m1']);
+
+    repos.botMessageDeletes.purgeOlderThan(now + 60_000);
+    const dueAfterPurge = repos.botMessageDeletes.listDue(now + 120_000, 10);
+    expect(dueAfterPurge).toHaveLength(0);
 
     db.close();
   });

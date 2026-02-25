@@ -1,0 +1,13 @@
+[2026-02-25 03:05:10] Wave invite started
+[2026-02-25 03:05:10] source_file=data/avtorynok_volgogradskaya_oblast_member_ids.json
+[2026-02-25 03:05:10] target_chat_id=-71313986483690
+[2026-02-25 03:05:10] wave_size=100 wave_pause_sec=180 invite_pause_ms=260 invite_batch_size=10 max_retries=2
+[2026-02-25 03:05:10] run_dir=/home/MaxManager/data/wave_invite_20260225_030510
+[2026-02-25 03:05:19] wave=1 target_members=3572 remaining=1181
+[2026-02-25 03:05:19] wave=1 trying wave_count=100
+[2026-02-25 03:05:28] wave=1 attempted=100 verified_added=0 still_missing_in_chunk=100
+[2026-02-25 03:05:28] wave=1 sleeping 180s
+[2026-02-25 03:08:30] wave=2 target_members=3572 remaining=1181
+[2026-02-25 03:08:30] wave=2 trying wave_count=100
+[2026-02-25 03:08:37] wave=2 attempted=100 verified_added=0 still_missing_in_chunk=100
+[2026-02-25 03:08:37] wave=2 sleeping 180s

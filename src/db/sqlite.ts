@@ -43,6 +43,7 @@ export class SqliteDatabase {
 
   private runPostMigrations(): void {
     this.ensureChatSettingsPhotoLimitColumn();
+    this.ensureChatSettingsMaxTextLengthColumn();
   }
 
   private ensureChatSettingsPhotoLimitColumn(): void {
@@ -53,6 +54,16 @@ export class SqliteDatabase {
     }
 
     this.db.exec('ALTER TABLE chat_settings ADD COLUMN photo_limit_per_hour INTEGER NOT NULL DEFAULT 1');
+  }
+
+  private ensureChatSettingsMaxTextLengthColumn(): void {
+    const columns = this.db.prepare("PRAGMA table_info('chat_settings')").all() as Array<{ name: string }>;
+    const hasMaxTextLengthColumn = columns.some((column) => column.name === 'max_text_length');
+    if (hasMaxTextLengthColumn) {
+      return;
+    }
+
+    this.db.exec('ALTER TABLE chat_settings ADD COLUMN max_text_length INTEGER NOT NULL DEFAULT 1200');
   }
 
   close(): void {

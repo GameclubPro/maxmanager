@@ -9,6 +9,7 @@ const config: BotConfig = {
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
   photoLimitPerHour: 1,
+  maxTextLength: 1200,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -33,11 +34,18 @@ function makeMessage(text: string, chatId: number = 100, userId: number = 10): I
 
 function makeContext(message: IncomingMessage) {
   const replies: string[] = [];
+  let replyCounter = 0;
   const ctx = {
     message,
     chatId: message.recipient.chat_id,
     reply: async (text: string) => {
       replies.push(text);
+      replyCounter += 1;
+      return {
+        body: {
+          mid: `admin-reply-${replyCounter}`,
+        },
+      };
     },
   } as any;
 
@@ -61,6 +69,7 @@ describe('admin photo limit command', () => {
     expect(handled).toBe(true);
     expect(repos.chatSettings.get(100).photoLimitPerHour).toBe(0);
     expect(replies[0]).toBe('Новый лимит фото-сообщений в час: 0');
+    expect(repos.botMessageDeletes.listDue(Date.now() + 4 * 60 * 1000, 10)).toHaveLength(1);
 
     db.close();
   });
@@ -82,6 +91,27 @@ describe('admin photo limit command', () => {
 
     expect(replies).toHaveLength(1);
     expect(replies[0]).toContain('photo_limit_per_hour: 4');
+    expect(replies[0]).toContain('text_limit: 1200');
+
+    db.close();
+  });
+
+  it('updates text limit with /set_text_limit', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const admin = new AdminCommands(
+      repos,
+      config,
+      { isAdmin: async () => true } as any,
+      { info: async () => {}, warn: async () => {}, error: async () => {}, moderation: async () => {} } as any,
+    );
+
+    const { ctx, replies } = makeContext(makeMessage('/set_text_limit 700'));
+    const handled = await admin.tryHandle(ctx);
+
+    expect(handled).toBe(true);
+    expect(repos.chatSettings.get(100).maxTextLength).toBe(700);
+    expect(replies[0]).toBe('Новый лимит длины текста: 700');
 
     db.close();
   });

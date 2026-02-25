@@ -9,6 +9,7 @@ import { EnforcementService } from './moderation/enforcement';
 import { ModerationEngine } from './moderation/moderation-engine';
 import { AdminCommands } from './commands/admin';
 import { CleanupService } from './services/cleanup';
+import { BOT_MESSAGE_AUTO_DELETE_DELAY_MS } from './services/bot-message-autodelete';
 
 export interface Runtime {
   bot: Bot;
@@ -27,6 +28,7 @@ const COMMANDS = [
   { name: 'allowdomain_list', description: 'Список whitelist доменов' },
   { name: 'set_limit', description: 'Сменить суточный лимит сообщений' },
   { name: 'set_photo_limit', description: 'Сменить лимит фото-сообщений в час' },
+  { name: 'set_text_limit', description: 'Сменить лимит длины текста' },
   { name: 'set_spam', description: 'Сменить антиспам порог' },
   { name: 'set_logchat', description: 'Установить чат логов' },
 ];
@@ -41,7 +43,13 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
 
   const bot = new Bot(config.botToken);
 
-  const logger = new BotLogger(bot.api, () => repos.appSettings.getLogChatId() ?? config.logChatId);
+  const logger = new BotLogger(
+    bot.api,
+    () => repos.appSettings.getLogChatId() ?? config.logChatId,
+    (messageId, sentAtTs) => {
+      repos.botMessageDeletes.schedule(messageId, sentAtTs + BOT_MESSAGE_AUTO_DELETE_DELAY_MS);
+    },
+  );
   const adminResolver = new AdminResolver(60_000, (message, meta) => {
     void logger.warn(message, meta);
   });

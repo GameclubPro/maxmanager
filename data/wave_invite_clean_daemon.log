@@ -15,3 +15,15 @@
 [2026-02-25 02:39:26] wave=3 trying wave_count=80
 [2026-02-25 02:39:33] wave=3 attempted=80 verified_added=47 still_missing_in_chunk=33
 [2026-02-25 02:39:33] wave=3 sleeping 180s
+[2026-02-25 02:42:36] wave=4 target_members=3530 remaining=1223
+[2026-02-25 02:42:36] wave=4 trying wave_count=80
+[2026-02-25 02:42:42] wave=4 attempted=80 verified_added=44 still_missing_in_chunk=36
+[2026-02-25 02:42:42] wave=4 sleeping 180s
+[2026-02-25 02:45:44] wave=5 target_members=3573 remaining=1180
+[2026-02-25 02:45:44] wave=5 trying wave_count=80
+[2026-02-25 02:45:52] wave=5 attempted=80 verified_added=0 still_missing_in_chunk=80
+[2026-02-25 02:45:52] wave=5 sleeping 180s
+[2026-02-25 02:48:54] wave=6 target_members=3573 remaining=1180
+[2026-02-25 02:48:54] wave=6 trying wave_count=80
+[2026-02-25 02:49:01] wave=6 attempted=80 verified_added=0 still_missing_in_chunk=80
+[2026-02-25 02:49:01] wave=6 sleeping 180s

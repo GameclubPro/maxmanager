@@ -2,6 +2,7 @@ import { Context } from '@maxhub/max-bot-api';
 import { BotConfig, RestrictionType, ViolationKind } from '../types';
 import { Repositories } from '../repos';
 import { BotLogger } from '../services/logger';
+import { computeBotMessageDeleteAt, extractMessageId } from '../services/bot-message-autodelete';
 import { hoursToMs } from '../utils/time';
 
 interface ViolationContext {
@@ -167,6 +168,36 @@ export class EnforcementService {
     this.recordAndLog(args.chatId, args.userId, 'delete_message', 'quota', {
       currentCount,
       limit,
+    });
+  }
+
+  async enforceTextLengthViolation(
+    ctx: Context,
+    args: ViolationContext,
+    currentTextLength: number,
+    maxTextLength: number,
+  ): Promise<void> {
+    await this.deleteMessageSafe(ctx, args.messageId);
+
+    if (this.config.noticeInChat) {
+      await this.replySafe(
+        ctx,
+        this.withUserName(
+          `сообщение слишком длинное (${currentTextLength} символов). Допустимо до ${maxTextLength} символов.`,
+          args.userName,
+          args.userId,
+        ),
+        { notify: false },
+      );
+    }
+
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'text_length', {
+      currentTextLength,
+      maxTextLength,
+    });
+    this.recordAndLog(args.chatId, args.userId, 'warn', 'text_length', {
+      currentTextLength,
+      maxTextLength,
     });
   }
 
@@ -377,7 +408,11 @@ export class EnforcementService {
 
   private async replySafe(ctx: Context, text: string, extra?: unknown): Promise<void> {
     try {
-      await ctx.reply(text, extra as never);
+      const sentMessage = await ctx.reply(text, extra as never);
+      const sentMessageId = extractMessageId(sentMessage);
+      if (sentMessageId) {
+        this.repos.botMessageDeletes.schedule(sentMessageId, computeBotMessageDeleteAt());
+      }
     } catch (error) {
       await this.logger.warn('Failed to send chat notice', {
         error: error instanceof Error ? error.message : String(error),
@@ -386,7 +421,7 @@ export class EnforcementService {
   }
 
   private withUserName(text: string, userName: string | undefined, userId: number): string {
-    return `${this.resolveDisplayName(userName, userId)}, ${text}`;
+    return `«${this.resolveDisplayName(userName, userId)}», ${text}`;
   }
 
   private async kickForMuteEvasion(

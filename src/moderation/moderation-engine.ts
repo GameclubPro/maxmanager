@@ -80,6 +80,7 @@ export class ModerationEngine {
         enabled: true,
         dailyLimit: this.config.dailyMessageLimit,
         photoLimitPerHour: this.config.photoLimitPerHour,
+        maxTextLength: this.config.maxTextLength,
         spamThreshold: this.config.spamThreshold,
         spamWindowSec: this.config.spamWindowSec,
       };
@@ -140,6 +141,19 @@ export class ModerationEngine {
         forbiddenLinks,
       });
       return;
+    }
+
+    if (chatSettings.maxTextLength > 0) {
+      const textLength = (message.body.text ?? '').length;
+      if (textLength > chatSettings.maxTextLength) {
+        await this.enforcement.enforceTextLengthViolation(
+          ctx,
+          { chatId, userId, userName, messageId },
+          textLength,
+          chatSettings.maxTextLength,
+        );
+        return;
+      }
     }
 
     if (chatSettings.photoLimitPerHour > 0 && isPhotoMessage(message)) {

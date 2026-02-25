@@ -9,6 +9,7 @@ const config: BotConfig = {
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
   photoLimitPerHour: 1,
+  maxTextLength: 1200,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -76,6 +77,67 @@ describe('cleanup service', () => {
     expect(dueAfterRetryDelay).toHaveLength(1);
     expect(dueAfterRetryDelay[0].chatId).toBe(300);
     expect(dueAfterRetryDelay[0].userId).toBe(400);
+
+    db.close();
+  });
+
+  it('deletes due bot messages from auto-delete queue', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const now = Date.now();
+
+    repos.botMessageDeletes.schedule('bot-msg-1', now - 1_000);
+
+    const deletedMessageIds: string[] = [];
+    const api = {
+      addChatMembers: async () => {},
+      deleteMessage: async (messageId: string) => {
+        deletedMessageIds.push(messageId);
+      },
+    } as any;
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const cleanup = new CleanupService(repos, config, api, logger);
+    await cleanup.runBotMessageDeletes(now);
+
+    expect(deletedMessageIds).toEqual(['bot-msg-1']);
+    expect(repos.botMessageDeletes.listDue(now + 1_000, 10)).toHaveLength(0);
+
+    db.close();
+  });
+
+  it('postpones failed bot message auto-delete attempts', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const now = Date.now();
+
+    repos.botMessageDeletes.schedule('bot-msg-2', now - 1_000);
+
+    const api = {
+      addChatMembers: async () => {},
+      deleteMessage: async () => {
+        throw new Error('rate_limited');
+      },
+    } as any;
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const cleanup = new CleanupService(repos, config, api, logger);
+    await cleanup.runBotMessageDeletes(now);
+
+    expect(repos.botMessageDeletes.listDue(now + 1_000, 10)).toHaveLength(0);
+    const dueAfterRetryDelay = repos.botMessageDeletes.listDue(now + 61_000, 10);
+    expect(dueAfterRetryDelay).toHaveLength(1);
+    expect(dueAfterRetryDelay[0].messageId).toBe('bot-msg-2');
 
     db.close();
   });

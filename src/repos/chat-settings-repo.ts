@@ -4,6 +4,7 @@ import { ChatSetting } from '../types';
 interface ChatSettingsDefaults {
   dailyLimit: number;
   photoLimitPerHour: number;
+  maxTextLength: number;
   spamThreshold: number;
   spamWindowSec: number;
 }
@@ -13,6 +14,7 @@ interface ChatSettingRow {
   enabled: number;
   daily_limit: number;
   photo_limit_per_hour: number;
+  max_text_length: number;
   spam_threshold: number;
   spam_window_sec: number;
 }
@@ -26,13 +28,14 @@ export class ChatSettingsRepo {
   private ensure(chatId: number): void {
     const now = Date.now();
     this.db.prepare(`
-      INSERT INTO chat_settings (chat_id, enabled, daily_limit, photo_limit_per_hour, spam_threshold, spam_window_sec, updated_at)
-      VALUES (@chat_id, 1, @daily_limit, @photo_limit_per_hour, @spam_threshold, @spam_window_sec, @updated_at)
+      INSERT INTO chat_settings (chat_id, enabled, daily_limit, photo_limit_per_hour, max_text_length, spam_threshold, spam_window_sec, updated_at)
+      VALUES (@chat_id, 1, @daily_limit, @photo_limit_per_hour, @max_text_length, @spam_threshold, @spam_window_sec, @updated_at)
       ON CONFLICT(chat_id) DO NOTHING
     `).run({
       chat_id: chatId,
       daily_limit: this.defaults.dailyLimit,
       photo_limit_per_hour: this.defaults.photoLimitPerHour,
+      max_text_length: this.defaults.maxTextLength,
       spam_threshold: this.defaults.spamThreshold,
       spam_window_sec: this.defaults.spamWindowSec,
       updated_at: now,
@@ -43,7 +46,7 @@ export class ChatSettingsRepo {
     this.ensure(chatId);
 
     const row = this.db.prepare(`
-      SELECT chat_id, enabled, daily_limit, photo_limit_per_hour, spam_threshold, spam_window_sec
+      SELECT chat_id, enabled, daily_limit, photo_limit_per_hour, max_text_length, spam_threshold, spam_window_sec
       FROM chat_settings
       WHERE chat_id = ?
     `).get(chatId) as ChatSettingRow;
@@ -53,6 +56,7 @@ export class ChatSettingsRepo {
       enabled: row.enabled === 1,
       dailyLimit: row.daily_limit,
       photoLimitPerHour: row.photo_limit_per_hour,
+      maxTextLength: row.max_text_length,
       spamThreshold: row.spam_threshold,
       spamWindowSec: row.spam_window_sec,
     };
@@ -86,6 +90,16 @@ export class ChatSettingsRepo {
       SET photo_limit_per_hour = ?, updated_at = ?
       WHERE chat_id = ?
     `).run(photoLimitPerHour, Date.now(), chatId);
+  }
+
+  setMaxTextLength(chatId: number, maxTextLength: number): void {
+    this.ensure(chatId);
+
+    this.db.prepare(`
+      UPDATE chat_settings
+      SET max_text_length = ?, updated_at = ?
+      WHERE chat_id = ?
+    `).run(maxTextLength, Date.now(), chatId);
   }
 
   setSpam(chatId: number, spamThreshold: number, spamWindowSec: number): void {

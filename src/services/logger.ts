@@ -1,5 +1,6 @@
 import { Api } from '@maxhub/max-bot-api';
 import { ModerationActionRecord } from '../types';
+import { extractMessageId } from './bot-message-autodelete';
 
 export interface LogEvent {
   level: 'info' | 'warn' | 'error';
@@ -11,6 +12,7 @@ export class BotLogger {
   constructor(
     private readonly api: Api,
     private readonly getLogChatId: () => number | undefined,
+    private readonly onMessageSent?: (messageId: string, sentAtTs: number) => void,
   ) {}
 
   async info(message: string, meta?: Record<string, unknown>): Promise<void> {
@@ -57,7 +59,11 @@ export class BotLogger {
     ].filter(Boolean).join('\n');
 
     try {
-      await this.api.sendMessageToChat(logChatId, text);
+      const sentMessage = await this.api.sendMessageToChat(logChatId, text);
+      const sentMessageId = extractMessageId(sentMessage);
+      if (sentMessageId) {
+        this.onMessageSent?.(sentMessageId, Date.now());
+      }
     } catch {
       // Avoid recursive logging on send failures.
     }

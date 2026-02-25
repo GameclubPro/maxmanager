@@ -11,6 +11,7 @@ export interface BotConfig {
   timezone: 'Europe/Moscow';
   dailyMessageLimit: number;
   photoLimitPerHour: number;
+  maxTextLength: number;
   spamWindowSec: number;
   spamThreshold: number;
   strikeDecayHours: number;
@@ -27,6 +28,7 @@ export interface ChatSetting {
   enabled: boolean;
   dailyLimit: number;
   photoLimitPerHour: number;
+  maxTextLength: number;
   spamThreshold: number;
   spamWindowSec: number;
 }
@@ -43,6 +45,12 @@ export interface PendingRejoin {
   chatId: number;
   userId: number;
   rejoinAtTs: number;
+  createdAtTs: number;
+}
+
+export interface PendingBotMessageDelete {
+  messageId: string;
+  deleteAtTs: number;
   createdAtTs: number;
 }
 

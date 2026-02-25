@@ -10,6 +10,7 @@ const config: BotConfig = {
   timezone: 'Europe/Moscow',
   dailyMessageLimit: 3,
   photoLimitPerHour: 1,
+  maxTextLength: 1200,
   spamWindowSec: 10,
   spamThreshold: 3,
   strikeDecayHours: 24,
@@ -28,6 +29,18 @@ function makePhotoMessage(mid: string): IncomingMessage {
       mid,
       text: null,
       attachments: [{ type: 'image', payload: { photo_id: 1 } }],
+    },
+  };
+}
+
+function makeTextMessage(mid: string, text: string): IncomingMessage {
+  return {
+    sender: { user_id: 10, name: 'Иван' },
+    recipient: { chat_id: 100, chat_type: 'chat' },
+    body: {
+      mid,
+      text,
+      attachments: null,
     },
   };
 }
@@ -97,6 +110,52 @@ describe('moderation engine photo limit', () => {
     expect(recentPhotos).toBe(1);
 
     nowSpy.mockRestore();
+    db.close();
+  });
+
+  it('blocks too long text before photo/daily/spam checks', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.chatSettings.setMaxTextLength(100, 10);
+
+    const textViolations: Array<{ textLength: number; maxLength: number }> = [];
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async () => {},
+      enforceTextLengthViolation: async (
+        _ctx: unknown,
+        _args: unknown,
+        currentTextLength: number,
+        maxTextLength: number,
+      ) => {
+        textViolations.push({ textLength: currentTextLength, maxLength: maxTextLength });
+      },
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    await engine.handleMessage(makeContext(makeTextMessage('long-1', '12345678901')));
+
+    expect(textViolations).toEqual([{ textLength: 11, maxLength: 10 }]);
+
     db.close();
   });
 });

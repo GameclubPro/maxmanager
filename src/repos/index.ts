@@ -1,6 +1,7 @@
 import { BotConfig } from '../types';
 import { BetterSqliteDb } from '../db/sqlite';
 import { AppSettingsRepo } from './app-settings-repo';
+import { BotMessageDeletesRepo } from './bot-message-deletes-repo';
 import { ChatSettingsRepo } from './chat-settings-repo';
 import { DailyCountRepo } from './daily-count-repo';
 import { DomainWhitelistRepo } from './domain-whitelist-repo';
@@ -14,6 +15,7 @@ import { PendingRejoinsRepo } from './pending-rejoins-repo';
 
 export interface Repositories {
   appSettings: AppSettingsRepo;
+  botMessageDeletes: BotMessageDeletesRepo;
   chatSettings: ChatSettingsRepo;
   dailyCount: DailyCountRepo;
   domainWhitelist: DomainWhitelistRepo;
@@ -29,9 +31,11 @@ export interface Repositories {
 export function createRepositories(db: BetterSqliteDb, config: BotConfig): Repositories {
   return {
     appSettings: new AppSettingsRepo(db),
+    botMessageDeletes: new BotMessageDeletesRepo(db),
     chatSettings: new ChatSettingsRepo(db, {
       dailyLimit: config.dailyMessageLimit,
       photoLimitPerHour: config.photoLimitPerHour,
+      maxTextLength: config.maxTextLength,
       spamThreshold: config.spamThreshold,
       spamWindowSec: config.spamWindowSec,
     }),
