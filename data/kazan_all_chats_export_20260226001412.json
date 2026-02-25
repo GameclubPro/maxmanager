@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 59,
+  "source_chats_count": 8,
+  "per_chat": [
+    {
+      "chat_id": -68872233527870,
+      "title": "Доска объявлений Казань Татарстан",
+      "pages": 4,
+      "ids_total_collected": 400,
+      "unique_ids": 400,
+      "files": {
+        "stable_json": "data/kazan_chat_68872233527870_member_ids.json",
+        "stable_txt": "data/kazan_chat_68872233527870_member_ids.txt",
+        "live_json": "data/kazan_chat_68872233527870_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_68872233527870_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -69286625012271,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "pages": 7,
+      "ids_total_collected": 687,
+      "unique_ids": 687,
+      "files": {
+        "stable_json": "data/kazan_chat_69286625012271_member_ids.json",
+        "stable_txt": "data/kazan_chat_69286625012271_member_ids.txt",
+        "live_json": "data/kazan_chat_69286625012271_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_69286625012271_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -69286691990063,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "pages": 8,
+      "ids_total_collected": 734,
+      "unique_ids": 734,
+      "files": {
+        "stable_json": "data/kazan_chat_69286691990063_member_ids.json",
+        "stable_txt": "data/kazan_chat_69286691990063_member_ids.txt",
+        "live_json": "data/kazan_chat_69286691990063_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_69286691990063_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -71055055579695,
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "pages": 3,
+      "ids_total_collected": 254,
+      "unique_ids": 254,
+      "files": {
+        "stable_json": "data/kazan_chat_71055055579695_member_ids.json",
+        "stable_txt": "data/kazan_chat_71055055579695_member_ids.txt",
+        "live_json": "data/kazan_chat_71055055579695_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_71055055579695_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -71456471431277,
+      "title": "Казань Объявления | Новости",
+      "pages": 1,
+      "ids_total_collected": 3,
+      "unique_ids": 3,
+      "files": {
+        "stable_json": "data/kazan_chat_71456471431277_member_ids.json",
+        "stable_txt": "data/kazan_chat_71456471431277_member_ids.txt",
+        "live_json": "data/kazan_chat_71456471431277_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_71456471431277_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -69676614216239,
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "pages": 8,
+      "ids_total_collected": 736,
+      "unique_ids": 736,
+      "files": {
+        "stable_json": "data/kazan_chat_69676614216239_member_ids.json",
+        "stable_txt": "data/kazan_chat_69676614216239_member_ids.txt",
+        "live_json": "data/kazan_chat_69676614216239_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_69676614216239_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -69706588354008,
+      "title": "Работа Казань.",
+      "pages": 5,
+      "ids_total_collected": 500,
+      "unique_ids": 500,
+      "files": {
+        "stable_json": "data/kazan_chat_69706588354008_member_ids.json",
+        "stable_txt": "data/kazan_chat_69706588354008_member_ids.txt",
+        "live_json": "data/kazan_chat_69706588354008_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_69706588354008_member_ids_live_20260226001412.txt"
+      }
+    },
+    {
+      "chat_id": -69286682356271,
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "pages": 7,
+      "ids_total_collected": 697,
+      "unique_ids": 697,
+      "files": {
+        "stable_json": "data/kazan_chat_69286682356271_member_ids.json",
+        "stable_txt": "data/kazan_chat_69286682356271_member_ids.txt",
+        "live_json": "data/kazan_chat_69286682356271_member_ids_live_20260226001412.json",
+        "live_txt": "data/kazan_chat_69286682356271_member_ids_live_20260226001412.txt"
+      }
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 1969,
+    "sum_ids_by_chats": 4011,
+    "stable_json": "data/kazan_all_chats_member_ids.json",
+    "stable_txt": "data/kazan_all_chats_member_ids.txt",
+    "live_json": "data/kazan_all_chats_member_ids_live_20260226001412.json",
+    "live_txt": "data/kazan_all_chats_member_ids_live_20260226001412.txt"
+  }
+}

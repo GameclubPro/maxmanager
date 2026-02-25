@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 35,
+  "source_chats_count": 11,
+  "excluded_chat_id": -71313986483690,
+  "per_chat": [
+    {
+      "chat_id": -70028381948625,
+      "title": "Попутчики по Волгоградской области",
+      "pages": 21,
+      "ids_total_collected": 2067,
+      "unique_ids": 2067,
+      "files": {
+        "stable_json": "data/volgograd_chat_70028381948625_member_ids.json",
+        "stable_txt": "data/volgograd_chat_70028381948625_member_ids.txt",
+        "live_json": "data/volgograd_chat_70028381948625_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_70028381948625_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -68246190656209,
+      "title": "Авторынок Волгоград объявления",
+      "pages": 22,
+      "ids_total_collected": 2166,
+      "unique_ids": 2166,
+      "files": {
+        "stable_json": "data/volgograd_chat_68246190656209_member_ids.json",
+        "stable_txt": "data/volgograd_chat_68246190656209_member_ids.txt",
+        "live_json": "data/volgograd_chat_68246190656209_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_68246190656209_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -68246202387153,
+      "title": "Куплю-продам  Волгоград объявления",
+      "pages": 12,
+      "ids_total_collected": 1155,
+      "unique_ids": 1155,
+      "files": {
+        "stable_json": "data/volgograd_chat_68246202387153_member_ids.json",
+        "stable_txt": "data/volgograd_chat_68246202387153_member_ids.txt",
+        "live_json": "data/volgograd_chat_68246202387153_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_68246202387153_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -69505896431686,
+      "title": "БАРАХОЛКА КРАСНОАРМЕЙСКИЙ РАЙОН г.Волгоград",
+      "pages": 2,
+      "ids_total_collected": 143,
+      "unique_ids": 143,
+      "files": {
+        "stable_json": "data/volgograd_chat_69505896431686_member_ids.json",
+        "stable_txt": "data/volgograd_chat_69505896431686_member_ids.txt",
+        "live_json": "data/volgograd_chat_69505896431686_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_69505896431686_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -69032566819537,
+      "title": "Автозапчасти Волгоград",
+      "pages": 1,
+      "ids_total_collected": 44,
+      "unique_ids": 44,
+      "files": {
+        "stable_json": "data/volgograd_chat_69032566819537_member_ids.json",
+        "stable_txt": "data/volgograd_chat_69032566819537_member_ids.txt",
+        "live_json": "data/volgograd_chat_69032566819537_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_69032566819537_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -70894224116433,
+      "title": "Продукты питания Волгоград",
+      "pages": 1,
+      "ids_total_collected": 72,
+      "unique_ids": 72,
+      "files": {
+        "stable_json": "data/volgograd_chat_70894224116433_member_ids.json",
+        "stable_txt": "data/volgograd_chat_70894224116433_member_ids.txt",
+        "live_json": "data/volgograd_chat_70894224116433_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_70894224116433_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -68246182988497,
+      "title": "Услуги Волгоград объявления",
+      "pages": 11,
+      "ids_total_collected": 1024,
+      "unique_ids": 1024,
+      "files": {
+        "stable_json": "data/volgograd_chat_68246182988497_member_ids.json",
+        "stable_txt": "data/volgograd_chat_68246182988497_member_ids.txt",
+        "live_json": "data/volgograd_chat_68246182988497_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_68246182988497_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -68246470232785,
+      "title": "Недвижимость Волгоград объявления",
+      "pages": 10,
+      "ids_total_collected": 955,
+      "unique_ids": 955,
+      "files": {
+        "stable_json": "data/volgograd_chat_68246470232785_member_ids.json",
+        "stable_txt": "data/volgograd_chat_68246470232785_member_ids.txt",
+        "live_json": "data/volgograd_chat_68246470232785_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_68246470232785_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -69345990497608,
+      "title": "Доска объявлений ВОЛГОГРАД (Купи-продай-отдай и т. д.😉)",
+      "pages": 10,
+      "ids_total_collected": 937,
+      "unique_ids": 937,
+      "files": {
+        "stable_json": "data/volgograd_chat_69345990497608_member_ids.json",
+        "stable_txt": "data/volgograd_chat_69345990497608_member_ids.txt",
+        "live_json": "data/volgograd_chat_69345990497608_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_69345990497608_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -70954122627784,
+      "title": "💯✔️Official Max Регион 34 /   ОБЪЯВЛЕНИЯ Волгоградской обл",
+      "pages": 45,
+      "ids_total_collected": 4401,
+      "unique_ids": 4401,
+      "files": {
+        "stable_json": "data/volgograd_chat_70954122627784_member_ids.json",
+        "stable_txt": "data/volgograd_chat_70954122627784_member_ids.txt",
+        "live_json": "data/volgograd_chat_70954122627784_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_70954122627784_member_ids_live_20260225223337.txt"
+      }
+    },
+    {
+      "chat_id": -69817817322821,
+      "title": "НАГОТОВЕ | ФОРЕЛЬ ВОЛГОГРАД 34",
+      "pages": 22,
+      "ids_total_collected": 2166,
+      "unique_ids": 2166,
+      "files": {
+        "stable_json": "data/volgograd_chat_69817817322821_member_ids.json",
+        "stable_txt": "data/volgograd_chat_69817817322821_member_ids.txt",
+        "live_json": "data/volgograd_chat_69817817322821_member_ids_live_20260225223337.json",
+        "live_txt": "data/volgograd_chat_69817817322821_member_ids_live_20260225223337.txt"
+      }
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 8824,
+    "stable_json": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids.json",
+    "stable_txt": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids.txt",
+    "live_json": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids_live_20260225223337.json",
+    "live_txt": "data/volgograd_all_chats_except_volgograd_obyavleniya_novosti_member_ids_live_20260225223337.txt"
+  }
+}

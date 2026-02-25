@@ -17,6 +17,18 @@ const MEDIA_ATTACHMENT_URL_KEYS = new Set([
   'audio_url',
   'file_url',
   'src',
+  'link',
+  'href',
+  'uri',
+  'permalink',
+  'message_url',
+]);
+const MEDIA_ATTACHMENT_TEXT_KEYS = new Set([
+  'text',
+  'caption',
+  'description',
+  'title',
+  'subtitle',
 ]);
 const FILE_EXTENSION_LIKE_TLDS = new Set([
   'txt', 'doc', 'docx', 'pdf', 'csv', 'xls', 'xlsx', 'ppt', 'pptx',
@@ -163,6 +175,14 @@ function shouldSkipMediaUrlField(currentAttachmentType: string | undefined, key:
   return MEDIA_ATTACHMENT_URL_KEYS.has(key.toLowerCase());
 }
 
+function shouldScanMediaStringField(currentAttachmentType: string | undefined, key: string): boolean {
+  if (!currentAttachmentType || !MEDIA_ATTACHMENT_TYPES.has(currentAttachmentType)) {
+    return true;
+  }
+
+  return MEDIA_ATTACHMENT_TEXT_KEYS.has(key.toLowerCase());
+}
+
 function detectFromAttachmentObject(
   value: unknown,
   out: Set<string>,
@@ -191,6 +211,10 @@ function detectFromAttachmentObject(
   for (const [key, nested] of Object.entries(record)) {
     if (typeof nested === 'string') {
       if (shouldSkipMediaUrlField(currentAttachmentType, key)) {
+        continue;
+      }
+
+      if (!shouldScanMediaStringField(currentAttachmentType, key)) {
         continue;
       }
 
@@ -230,10 +254,6 @@ export function extractLinks(message: IncomingMessage): DetectedLink[] {
   };
 
   pushTextLinks(message.body.text);
-
-  if (message.url) {
-    pushLink(message.url, 'message_url');
-  }
 
   const attachmentCandidates = new Set<string>();
 

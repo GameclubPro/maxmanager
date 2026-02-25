@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 51,
+  "source_chats_count": 13,
+  "excluded_chat_id": -71443525791210,
+  "per_chat": [
+    {
+      "chat_id": -68168999908650,
+      "title": "АВИТО РБ УФА",
+      "pages": 5,
+      "ids_total_collected": 438,
+      "unique_ids": 438,
+      "files": {
+        "stable_json": "data/ufa_chat_68168999908650_member_ids.json",
+        "stable_txt": "data/ufa_chat_68168999908650_member_ids.txt",
+        "live_json": "data/ufa_chat_68168999908650_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_68168999908650_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -68092854780013,
+      "title": "Объявления Уфа и Уфимского района",
+      "pages": 131,
+      "ids_total_collected": 13041,
+      "unique_ids": 13041,
+      "files": {
+        "stable_json": "data/ufa_chat_68092854780013_member_ids.json",
+        "stable_txt": "data/ufa_chat_68092854780013_member_ids.txt",
+        "live_json": "data/ufa_chat_68092854780013_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_68092854780013_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "pages": 9,
+      "ids_total_collected": 897,
+      "unique_ids": 897,
+      "files": {
+        "stable_json": "data/ufa_chat_69238086478410_member_ids.json",
+        "stable_txt": "data/ufa_chat_69238086478410_member_ids.txt",
+        "live_json": "data/ufa_chat_69238086478410_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_69238086478410_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -69703014249833,
+      "title": "💥РынокУфа",
+      "pages": 2,
+      "ids_total_collected": 115,
+      "unique_ids": 115,
+      "files": {
+        "stable_json": "data/ufa_chat_69703014249833_member_ids.json",
+        "stable_txt": "data/ufa_chat_69703014249833_member_ids.txt",
+        "live_json": "data/ufa_chat_69703014249833_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_69703014249833_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -69257747895552,
+      "title": "Из Рук В Руки Уфа",
+      "pages": 3,
+      "ids_total_collected": 243,
+      "unique_ids": 243,
+      "files": {
+        "stable_json": "data/ufa_chat_69257747895552_member_ids.json",
+        "stable_txt": "data/ufa_chat_69257747895552_member_ids.txt",
+        "live_json": "data/ufa_chat_69257747895552_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_69257747895552_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -70662700490930,
+      "title": "Купи 🔹️ Продай 🔹️ УФА",
+      "pages": 4,
+      "ids_total_collected": 330,
+      "unique_ids": 330,
+      "files": {
+        "stable_json": "data/ufa_chat_70662700490930_member_ids.json",
+        "stable_txt": "data/ufa_chat_70662700490930_member_ids.txt",
+        "live_json": "data/ufa_chat_70662700490930_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_70662700490930_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -70798110777522,
+      "title": "УФА Из Рук в Руки",
+      "pages": 1,
+      "ids_total_collected": 56,
+      "unique_ids": 56,
+      "files": {
+        "stable_json": "data/ufa_chat_70798110777522_member_ids.json",
+        "stable_txt": "data/ufa_chat_70798110777522_member_ids.txt",
+        "live_json": "data/ufa_chat_70798110777522_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_70798110777522_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "pages": 3,
+      "ids_total_collected": 215,
+      "unique_ids": 215,
+      "files": {
+        "stable_json": "data/ufa_chat_70856370891308_member_ids.json",
+        "stable_txt": "data/ufa_chat_70856370891308_member_ids.txt",
+        "live_json": "data/ufa_chat_70856370891308_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_70856370891308_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -69292418886209,
+      "title": "🌹🌞РАБОТА, ОБЪЯВЛЕНИЯ УФА и РБ",
+      "pages": 4,
+      "ids_total_collected": 317,
+      "unique_ids": 317,
+      "files": {
+        "stable_json": "data/ufa_chat_69292418886209_member_ids.json",
+        "stable_txt": "data/ufa_chat_69292418886209_member_ids.txt",
+        "live_json": "data/ufa_chat_69292418886209_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_69292418886209_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -68150989154923,
+      "title": "ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️",
+      "pages": 2,
+      "ids_total_collected": 151,
+      "unique_ids": 151,
+      "files": {
+        "stable_json": "data/ufa_chat_68150989154923_member_ids.json",
+        "stable_txt": "data/ufa_chat_68150989154923_member_ids.txt",
+        "live_json": "data/ufa_chat_68150989154923_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_68150989154923_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -68169005217066,
+      "title": "💸Уфа Сипайлово купи-продай",
+      "pages": 3,
+      "ids_total_collected": 277,
+      "unique_ids": 277,
+      "files": {
+        "stable_json": "data/ufa_chat_68169005217066_member_ids.json",
+        "stable_txt": "data/ufa_chat_68169005217066_member_ids.txt",
+        "live_json": "data/ufa_chat_68169005217066_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_68169005217066_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -69678078405254,
+      "title": "Уралочка.Давлеканово Раевка Чишмы Уфа.",
+      "pages": 4,
+      "ids_total_collected": 371,
+      "unique_ids": 371,
+      "files": {
+        "stable_json": "data/ufa_chat_69678078405254_member_ids.json",
+        "stable_txt": "data/ufa_chat_69678078405254_member_ids.txt",
+        "live_json": "data/ufa_chat_69678078405254_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_69678078405254_member_ids_live_20260225233829.txt"
+      }
+    },
+    {
+      "chat_id": -70439666543193,
+      "title": "Работа/Вакансии/Подработка Уфа",
+      "pages": 1,
+      "ids_total_collected": 39,
+      "unique_ids": 39,
+      "files": {
+        "stable_json": "data/ufa_chat_70439666543193_member_ids.json",
+        "stable_txt": "data/ufa_chat_70439666543193_member_ids.txt",
+        "live_json": "data/ufa_chat_70439666543193_member_ids_live_20260225233829.json",
+        "live_txt": "data/ufa_chat_70439666543193_member_ids_live_20260225233829.txt"
+      }
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 14813,
+    "stable_json": "data/ufa_all_chats_except_ufa_obyavleniya_novosti_member_ids.json",
+    "stable_txt": "data/ufa_all_chats_except_ufa_obyavleniya_novosti_member_ids.txt",
+    "live_json": "data/ufa_all_chats_except_ufa_obyavleniya_novosti_member_ids_live_20260225233829.json",
+    "live_txt": "data/ufa_all_chats_except_ufa_obyavleniya_novosti_member_ids_live_20260225233829.txt"
+  }
+}

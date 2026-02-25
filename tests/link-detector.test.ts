@@ -106,6 +106,49 @@ describe('link detector', () => {
     expect(links[0].domain).toBe('promo.example.net');
   });
 
+  it('ignores technical media link fields', () => {
+    const msg = makeMessage('photo', [{
+      type: 'image',
+      payload: {
+        url: 'https://media.max.ru/photo/123',
+        link: 'https://max.ru/messages/123',
+        permalink: 'https://max.ru/messages/123',
+      },
+    }]);
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
+  it('ignores top-level message url metadata', () => {
+    const msg = makeMessage('обычный текст без ссылок') as IncomingMessage;
+    msg.url = 'https://max.ru/messages/123';
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
+  it('does not flag forwarded photo with only technical fields', () => {
+    const msg = makeMessage('outer text', [], {
+      type: 'forward',
+      message: {
+        text: null,
+        attachments: [
+          {
+            type: 'image',
+            payload: {
+              url: 'https://media.max.ru/photo/123',
+              link: 'https://max.ru/messages/123',
+            },
+          },
+        ],
+      },
+    });
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(0);
+  });
+
   it('normalizes wrapped links and does not keep trailing quotes', () => {
     const msg = makeMessage('<a href="https://max.ru/page">x</a>');
     const links = getForbiddenLinks(msg, []);
