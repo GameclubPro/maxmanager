@@ -101,6 +101,21 @@ describe('repositories', () => {
     db.close();
   });
 
+  it('caps existing text limits to configured ceiling', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    repos.chatSettings.setMaxTextLength(10, 1200);
+    repos.chatSettings.setMaxTextLength(11, 700);
+
+    const updated = repos.chatSettings.capMaxTextLength(800);
+    expect(updated).toBe(1);
+    expect(repos.chatSettings.get(10).maxTextLength).toBe(800);
+    expect(repos.chatSettings.get(11).maxTextLength).toBe(700);
+
+    db.close();
+  });
+
   it('counts moderation actions by reason for time window', () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

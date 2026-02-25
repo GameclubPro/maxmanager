@@ -50,6 +50,15 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
       repos.botMessageDeletes.schedule(messageId, sentAtTs + BOT_MESSAGE_AUTO_DELETE_DELAY_MS);
     },
   );
+
+  const normalizedLimits = repos.chatSettings.capMaxTextLength(config.maxTextLength);
+  if (normalizedLimits > 0) {
+    await logger.warn('Normalized chat text limits to configured ceiling', {
+      maxTextLength: config.maxTextLength,
+      updatedChats: normalizedLimits,
+    });
+  }
+
   const adminResolver = new AdminResolver(60_000, (message, meta) => {
     void logger.warn(message, meta);
   });

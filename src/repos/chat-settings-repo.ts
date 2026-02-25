@@ -102,6 +102,20 @@ export class ChatSettingsRepo {
     `).run(maxTextLength, Date.now(), chatId);
   }
 
+  capMaxTextLength(ceiling: number): number {
+    if (ceiling <= 0) {
+      return 0;
+    }
+
+    const result = this.db.prepare(`
+      UPDATE chat_settings
+      SET max_text_length = ?, updated_at = ?
+      WHERE max_text_length > ?
+    `).run(ceiling, Date.now(), ceiling);
+
+    return Number(result.changes ?? 0);
+  }
+
   setSpam(chatId: number, spamThreshold: number, spamWindowSec: number): void {
     this.ensure(chatId);
 
