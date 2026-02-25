@@ -191,8 +191,8 @@ export class AdminCommands {
 
   private async handleSetLimit(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {
     const value = Number.parseInt(rawArgs, 10);
-    if (!Number.isFinite(value) || value < 1 || value > 10_000) {
-      await this.replySafe(ctx, 'Использование: /set_limit <1..10000>');
+    if (!Number.isFinite(value) || value < 0 || value > 10_000) {
+      await this.replySafe(ctx, 'Использование: /set_limit <0..10000>');
       return;
     }
 

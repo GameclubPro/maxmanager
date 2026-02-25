@@ -158,4 +158,53 @@ describe('moderation engine photo limit', () => {
 
     db.close();
   });
+
+  it('does not enforce daily quota when daily limit is disabled', async () => {
+    const configWithoutDailyLimit: BotConfig = {
+      ...config,
+      dailyMessageLimit: 0,
+      spamThreshold: 100,
+    };
+
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, configWithoutDailyLimit);
+    repos.chatSettings.setDailyLimit(100, 0);
+
+    const quotaViolations: unknown[] = [];
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async () => {},
+      enforceTextLengthViolation: async () => {},
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async (...args: unknown[]) => {
+        quotaViolations.push(args);
+      },
+      enforceSpamViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      configWithoutDailyLimit,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    for (let i = 1; i <= 8; i += 1) {
+      await engine.handleMessage(makeContext(makeTextMessage(`msg-${i}`, `text ${i}`)));
+    }
+
+    expect(quotaViolations).toHaveLength(0);
+
+    db.close();
+  });
 });

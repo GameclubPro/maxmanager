@@ -53,6 +53,26 @@ function makeContext(message: IncomingMessage) {
 }
 
 describe('admin photo limit command', () => {
+  it('disables daily message limit with /set_limit 0', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const admin = new AdminCommands(
+      repos,
+      config,
+      { isAdmin: async () => true } as any,
+      { info: async () => {}, warn: async () => {}, error: async () => {}, moderation: async () => {} } as any,
+    );
+
+    const { ctx, replies } = makeContext(makeMessage('/set_limit 0'));
+    const handled = await admin.tryHandle(ctx);
+
+    expect(handled).toBe(true);
+    expect(repos.chatSettings.get(100).dailyLimit).toBe(0);
+    expect(replies[0]).toBe('Новый суточный лимит: 0');
+
+    db.close();
+  });
+
   it('updates photo limit with /set_photo_limit', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

@@ -180,24 +180,26 @@ export class ModerationEngine {
       }
     }
 
-    try {
-      const dayKey = toDayKey(nowTs, this.config.timezone);
-      const currentCount = this.repos.dailyCount.incrementAndGet(chatId, userId, dayKey);
-      if (isQuotaExceeded(currentCount, chatSettings.dailyLimit)) {
-        await this.enforcement.enforceQuotaViolation(
-          ctx,
-          { chatId, userId, userName, messageId },
-          currentCount,
-          chatSettings.dailyLimit,
-        );
-        return;
+    if (chatSettings.dailyLimit > 0) {
+      try {
+        const dayKey = toDayKey(nowTs, this.config.timezone);
+        const currentCount = this.repos.dailyCount.incrementAndGet(chatId, userId, dayKey);
+        if (isQuotaExceeded(currentCount, chatSettings.dailyLimit)) {
+          await this.enforcement.enforceQuotaViolation(
+            ctx,
+            { chatId, userId, userName, messageId },
+            currentCount,
+            chatSettings.dailyLimit,
+          );
+          return;
+        }
+      } catch (error) {
+        await this.logger.error('Quota check failed (fail-open)', {
+          chatId,
+          userId,
+          error: error instanceof Error ? error.message : String(error),
+        });
       }
-    } catch (error) {
-      await this.logger.error('Quota check failed (fail-open)', {
-        chatId,
-        userId,
-        error: error instanceof Error ? error.message : String(error),
-      });
     }
 
     try {

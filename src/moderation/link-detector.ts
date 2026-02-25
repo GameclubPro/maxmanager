@@ -67,18 +67,39 @@ function toDetectedLink(raw: string, source: DetectedLink['source']): DetectedLi
 export function extractLinks(message: IncomingMessage): DetectedLink[] {
   const links: DetectedLink[] = [];
 
-  const text = message.body.text ?? '';
-  for (const candidate of detectFromText(text)) {
-    links.push(toDetectedLink(candidate, 'text'));
-  }
+  const pushTextLinks = (text: string | null | undefined): void => {
+    for (const candidate of detectFromText(text ?? '')) {
+      links.push(toDetectedLink(candidate, 'text'));
+    }
+  };
+
+  pushTextLinks(message.body.text);
 
   if (message.url) {
     links.push(toDetectedLink(normalizeUrlCandidate(message.url), 'message_url'));
   }
 
   const attachmentCandidates = new Set<string>();
+
   for (const attachment of message.body.attachments ?? []) {
     detectFromAttachmentObject(attachment, attachmentCandidates);
+  }
+
+  for (const markupElement of message.body.markup ?? []) {
+    detectFromAttachmentObject(markupElement, attachmentCandidates);
+  }
+
+  const linkedMessage = message.link?.message;
+  if (linkedMessage) {
+    pushTextLinks(linkedMessage.text);
+
+    for (const attachment of linkedMessage.attachments ?? []) {
+      detectFromAttachmentObject(attachment, attachmentCandidates);
+    }
+
+    for (const markupElement of linkedMessage.markup ?? []) {
+      detectFromAttachmentObject(markupElement, attachmentCandidates);
+    }
   }
 
   for (const candidate of attachmentCandidates) {

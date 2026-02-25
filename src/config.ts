@@ -47,7 +47,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): BotConfig {
   return {
     botToken,
     timezone,
-    dailyMessageLimit: parsePositiveInt(env.DAILY_MESSAGE_LIMIT, 3, 'DAILY_MESSAGE_LIMIT'),
+    dailyMessageLimit: parseNonNegativeInt(env.DAILY_MESSAGE_LIMIT, 0, 'DAILY_MESSAGE_LIMIT'),
     photoLimitPerHour: parseNonNegativeInt(env.PHOTO_LIMIT_PER_HOUR, 1, 'PHOTO_LIMIT_PER_HOUR'),
     maxTextLength: parseNonNegativeInt(env.MAX_TEXT_LENGTH, 1200, 'MAX_TEXT_LENGTH'),
     spamWindowSec: parsePositiveInt(env.SPAM_WINDOW_SEC, 10, 'SPAM_WINDOW_SEC'),

@@ -72,15 +72,26 @@ export interface IncomingBody {
   markup?: unknown[] | null;
 }
 
+export interface IncomingLinkedBody {
+  mid?: string;
+  seq?: number;
+  text?: string | null;
+  attachments?: unknown[] | null;
+  markup?: unknown[] | null;
+}
+
+export interface IncomingLink {
+  type?: 'forward' | 'reply' | string;
+  sender?: IncomingSender | null;
+  chat_id?: number;
+  message?: IncomingLinkedBody | null;
+}
+
 export interface IncomingMessage {
   sender?: IncomingSender | null;
   recipient: IncomingRecipient;
   body: IncomingBody;
-  link?: {
-    message?: {
-      attachments?: unknown[] | null;
-    } | null;
-  } | null;
+  link?: IncomingLink | null;
   url?: string | null;
 }
 

@@ -2,7 +2,11 @@ import { describe, expect, it } from 'vitest';
 import { getForbiddenLinks } from '../src/moderation/link-detector';
 import { IncomingMessage } from '../src/types';
 
-function makeMessage(text: string, attachments: unknown[] = []): IncomingMessage {
+function makeMessage(
+  text: string,
+  attachments: unknown[] = [],
+  link?: IncomingMessage['link'],
+): IncomingMessage {
   return {
     sender: { user_id: 10 },
     recipient: { chat_id: 100, chat_type: 'chat' },
@@ -11,6 +15,7 @@ function makeMessage(text: string, attachments: unknown[] = []): IncomingMessage
       text,
       attachments,
     },
+    link,
   };
 }
 
@@ -58,5 +63,39 @@ describe('link detector', () => {
     const msg = makeMessage('https://blog.allowed.com/post');
     const links = getForbiddenLinks(msg, ['allowed.com']);
     expect(links).toHaveLength(0);
+  });
+
+  it('detects links in forwarded messages', () => {
+    const msg = makeMessage('outer text', [], {
+      type: 'forward',
+      message: {
+        text: 'repost https://spam.forwarded.example.org',
+        attachments: null,
+      },
+    });
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.domain === 'spam.forwarded.example.org')).toBe(true);
+  });
+
+  it('detects links in forwarded message markup', () => {
+    const msg = makeMessage('outer text', [], {
+      type: 'forward',
+      message: {
+        text: null,
+        attachments: null,
+        markup: [
+          {
+            type: 'inline_keyboard',
+            payload: {
+              buttons: [[{ type: 'link', text: 'go', url: 'https://btn.forwarded.example.net' }]],
+            },
+          },
+        ],
+      },
+    });
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.domain === 'btn.forwarded.example.net')).toBe(true);
   });
 });
