@@ -33,6 +33,20 @@ describe('link detector', () => {
     expect(links.length).toBeGreaterThanOrEqual(2);
   });
 
+  it('detects tg:// and other non-http scheme links', () => {
+    const msg = makeMessage('invite tg://resolve?domain=my_channel');
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.raw.startsWith('tg://resolve?domain='))).toBe(true);
+  });
+
+  it('detects IDN, punycode and ipv4 links without protocol', () => {
+    const msg = makeMessage('пример.рф, example.xn--p1ai, 192.168.10.15/admin');
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.domain === 'xn--e1afmkfd.xn--p1ai')).toBe(true);
+    expect(links.some((item) => item.domain === 'example.xn--p1ai')).toBe(true);
+    expect(links.some((item) => item.domain === '192.168.10.15')).toBe(true);
+  });
+
   it('detects links in attachments', () => {
     const msg = makeMessage('ok', [{
       type: 'inline_keyboard',
@@ -57,6 +71,40 @@ describe('link detector', () => {
 
     const links = getForbiddenLinks(msg, []);
     expect(links).toHaveLength(0);
+  });
+
+  it('detects links in arbitrary attachment string fields', () => {
+    const msg = makeMessage('ok', [{
+      type: 'widget',
+      payload: {
+        title: 'Канал: tg://resolve?domain=chat_news',
+        description: 'Подробности https://spam.example.org/post',
+      },
+    }]);
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links.some((item) => item.raw.startsWith('tg://resolve?domain=chat_news'))).toBe(true);
+    expect(links.some((item) => item.domain === 'spam.example.org')).toBe(true);
+  });
+
+  it('ignores media service urls but catches links in media text fields', () => {
+    const msg = makeMessage('photo', [{
+      type: 'image',
+      payload: {
+        url: 'https://media.max.ru/photo/123',
+        description: 'подписывайся https://promo.example.net',
+      },
+    }]);
+
+    const links = getForbiddenLinks(msg, []);
+    expect(links).toHaveLength(1);
+    expect(links[0].domain).toBe('promo.example.net');
+  });
+
+  it('normalizes wrapped links and does not keep trailing quotes', () => {
+    const msg = makeMessage('<a href="https://max.ru/page">x</a>');
+    const links = getForbiddenLinks(msg, []);
+    expect(links.every((item) => item.domain === 'max.ru')).toBe(true);
   });
 
   it('allows whitelisted domains including subdomains', () => {

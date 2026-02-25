@@ -23,6 +23,7 @@ const PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE = 5;
 const PHOTO_QUOTA_MUTE_HOURS = 3;
 const ACTIVE_MUTE_MAX_MESSAGES = 5;
 const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
+const DELETE_RETRY_DELAYS_MS = [0, 200, 500];
 
 export class EnforcementService {
   constructor(
@@ -396,14 +397,27 @@ export class EnforcementService {
   }
 
   private async deleteMessageSafe(ctx: Context, messageId: string): Promise<void> {
-    try {
-      await ctx.deleteMessage(messageId);
-    } catch (error) {
-      await this.logger.warn('Failed to delete message', {
-        messageId,
-        error: error instanceof Error ? error.message : String(error),
-      });
+    let lastError: unknown;
+
+    for (let attempt = 0; attempt < DELETE_RETRY_DELAYS_MS.length; attempt += 1) {
+      const delayMs = DELETE_RETRY_DELAYS_MS[attempt];
+      if (delayMs > 0) {
+        await this.delay(delayMs);
+      }
+
+      try {
+        await ctx.deleteMessage(messageId);
+        return;
+      } catch (error) {
+        lastError = error;
+      }
     }
+
+    await this.logger.warn('Failed to delete message', {
+      messageId,
+      attempts: DELETE_RETRY_DELAYS_MS.length,
+      error: lastError instanceof Error ? lastError.message : String(lastError),
+    });
   }
 
   private async replySafe(ctx: Context, text: string, extra?: unknown): Promise<void> {
@@ -486,5 +500,11 @@ export class EnforcementService {
     }
 
     void this.logger.moderation({ chatId, userId, action, reason, meta });
+  }
+
+  private async delay(ms: number): Promise<void> {
+    await new Promise((resolve) => {
+      setTimeout(resolve, ms);
+    });
   }
 }
