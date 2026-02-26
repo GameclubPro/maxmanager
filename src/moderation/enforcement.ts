@@ -4,6 +4,7 @@ import { Repositories } from '../repos';
 import { BotLogger } from '../services/logger';
 import { computeBotMessageDeleteAt, extractMessageId } from '../services/bot-message-autodelete';
 import { hoursToMs } from '../utils/time';
+import { AntiBotAssessment } from './anti-bot';
 
 interface ViolationContext {
   chatId: number;
@@ -24,6 +25,10 @@ const PHOTO_QUOTA_MUTE_HOURS = 3;
 const ACTIVE_MUTE_MAX_MESSAGES = 5;
 const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
 const DELETE_RETRY_DELAYS_MS = [0, 200, 500];
+const ANTI_BOT_MUTE_HOURS = 6;
+const REPEATED_MUTE_WINDOW_MS = 24 * 60 * 60 * 1000;
+const REPEATED_MUTE_AUTO_REMOVE_THRESHOLD = 2;
+const REPEATED_MUTE_REASON = 'mute_repeat_24h';
 const PRICE_CHAT_BUTTON_TEXT = 'Прайс';
 const PRICE_CHAT_BUTTON_URL = 'https://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o';
 
@@ -147,7 +152,7 @@ export class EnforcementService {
       );
     }
 
-    this.recordAndLog(args.chatId, args.userId, 'mute', 'link', {
+    await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'link', {
       ...meta,
       violationLevel,
       untilTs,
@@ -262,6 +267,7 @@ export class EnforcementService {
         muteHours: PHOTO_QUOTA_MUTE_HOURS,
         windowMinutes: 60,
       });
+      await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, 'photo_quota');
       return;
     }
 
@@ -330,6 +336,7 @@ export class EnforcementService {
         untilTs,
         messageCountInWindow,
       });
+      await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, 'spam');
       return;
     }
 
@@ -397,6 +404,54 @@ export class EnforcementService {
       chatId: args.chatId,
       userId: args.userId,
       violationKind,
+    });
+  }
+
+  async enforceAntiBotViolation(ctx: Context, args: ViolationContext, assessment: AntiBotAssessment): Promise<void> {
+    const antiBotMeta = {
+      totalScore: assessment.totalScore,
+      signals: assessment.signals,
+    };
+
+    await this.deleteMessageSafe(ctx, args.messageId);
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'anti_bot', antiBotMeta);
+
+    if (!assessment.shouldMute) {
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'подозрительная активность: сообщение удалено. Повторение приведёт к муту.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'warn', 'anti_bot', antiBotMeta);
+      return;
+    }
+
+    const untilTs = Date.now() + hoursToMs(ANTI_BOT_MUTE_HOURS);
+    this.repos.restrictions.upsert(args.chatId, args.userId, 'mute', untilTs);
+
+    if (this.config.noticeInChat) {
+      await this.replySafe(
+        ctx,
+        this.withUserName(
+          `подозрение на бота: выдан мут на ${ANTI_BOT_MUTE_HOURS} ч. до ${formatDate(untilTs)}.`,
+          args.userName,
+          args.userId,
+        ),
+        { notify: false },
+      );
+    }
+
+    await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'anti_bot', {
+      ...antiBotMeta,
+      untilTs,
+      muteHours: ANTI_BOT_MUTE_HOURS,
     });
   }
 
@@ -489,6 +544,91 @@ export class EnforcementService {
       this.recordAndLog(args.chatId, args.userId, 'kick_temp_failed', 'active_mute', {
         messagesDuringMute,
         threshold: ACTIVE_MUTE_MAX_MESSAGES,
+        error: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  private async recordMuteAndHandleRepeatRemoval(
+    ctx: Context,
+    args: ViolationContext,
+    reason: string,
+    meta: Record<string, unknown>,
+  ): Promise<void> {
+    this.recordAndLog(args.chatId, args.userId, 'mute', reason, meta);
+    await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, reason);
+  }
+
+  private async maybeAutoRemoveAfterRepeatedMutes(
+    ctx: Context,
+    args: ViolationContext,
+    triggerReason: string,
+  ): Promise<void> {
+    const nowTs = Date.now();
+    const sinceTs = nowTs - REPEATED_MUTE_WINDOW_MS;
+
+    const mutesInWindow = this.repos.moderationActions.countByActionSince(
+      args.chatId,
+      args.userId,
+      'mute',
+      sinceTs,
+    );
+
+    if (mutesInWindow < REPEATED_MUTE_AUTO_REMOVE_THRESHOLD) {
+      return;
+    }
+
+    const alreadyAutoRemoved = this.repos.moderationActions.countByActionAndReasonSince(
+      args.chatId,
+      args.userId,
+      'kick_auto',
+      REPEATED_MUTE_REASON,
+      sinceTs,
+    );
+    if (alreadyAutoRemoved > 0) {
+      return;
+    }
+
+    try {
+      await (ctx.api.raw.chats as {
+        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
+      }).removeChatMember({
+        chat_id: args.chatId,
+        user_id: args.userId,
+      });
+
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'получено 2 мута за 24 часа. Вы автоматически удалены из чата.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_auto', REPEATED_MUTE_REASON, {
+        triggerReason,
+        mutesInWindow,
+        threshold: REPEATED_MUTE_AUTO_REMOVE_THRESHOLD,
+        windowHours: 24,
+      });
+    } catch (error) {
+      await this.logger.warn('Failed to auto-remove user after repeated mutes', {
+        chatId: args.chatId,
+        userId: args.userId,
+        triggerReason,
+        mutesInWindow,
+        error: error instanceof Error ? error.message : String(error),
+      });
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_auto_failed', REPEATED_MUTE_REASON, {
+        triggerReason,
+        mutesInWindow,
+        threshold: REPEATED_MUTE_AUTO_REMOVE_THRESHOLD,
+        windowHours: 24,
         error: error instanceof Error ? error.message : String(error),
       });
     }

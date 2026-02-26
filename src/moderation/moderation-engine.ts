@@ -10,6 +10,7 @@ import { isPhotoMessage } from './photo-detector';
 import { EnforcementService } from './enforcement';
 import { isQuotaExceeded } from './quota';
 import { isSpamTriggered } from './spam';
+import { AntiBotRiskScorer } from './anti-bot';
 
 const PHOTO_LIMIT_WINDOW_MS = 60 * 60 * 1000;
 
@@ -20,6 +21,8 @@ function getIncomingMessage(ctx: Context): IncomingMessage | undefined {
 }
 
 export class ModerationEngine {
+  private readonly antiBotRiskScorer: AntiBotRiskScorer;
+
   constructor(
     private readonly config: BotConfig,
     private readonly repos: Repositories,
@@ -27,7 +30,9 @@ export class ModerationEngine {
     private readonly idempotency: InMemoryIdempotencyGuard,
     private readonly enforcement: EnforcementService,
     private readonly logger: BotLogger,
-  ) {}
+  ) {
+    this.antiBotRiskScorer = new AntiBotRiskScorer(repos);
+  }
 
   async handleMessage(ctx: Context): Promise<void> {
     const message = getIncomingMessage(ctx);
@@ -154,6 +159,21 @@ export class ModerationEngine {
         );
         return;
       }
+    }
+
+    const antiBotAssessment = this.antiBotRiskScorer.assess({
+      chatId,
+      userId,
+      message,
+      nowTs,
+    });
+    if (antiBotAssessment.shouldAct) {
+      await this.enforcement.enforceAntiBotViolation(
+        ctx,
+        { chatId, userId, userName, messageId },
+        antiBotAssessment,
+      );
+      return;
     }
 
     if (chatSettings.photoLimitPerHour > 0 && isPhotoMessage(message)) {

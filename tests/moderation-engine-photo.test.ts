@@ -72,6 +72,7 @@ describe('moderation engine photo limit', () => {
       },
       enforceQuotaViolation: async () => {},
       enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
       handleCriticalFailure: async () => {},
     } as any;
 
@@ -133,6 +134,7 @@ describe('moderation engine photo limit', () => {
       enforcePhotoQuotaViolation: async () => {},
       enforceQuotaViolation: async () => {},
       enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
       handleCriticalFailure: async () => {},
     } as any;
 
@@ -180,6 +182,7 @@ describe('moderation engine photo limit', () => {
         quotaViolations.push(args);
       },
       enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
       handleCriticalFailure: async () => {},
     } as any;
 

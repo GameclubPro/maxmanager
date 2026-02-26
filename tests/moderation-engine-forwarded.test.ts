@@ -56,6 +56,7 @@ describe('moderation engine forwarded messages', () => {
       enforcePhotoQuotaViolation: async () => {},
       enforceQuotaViolation: async () => {},
       enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
       handleCriticalFailure: async () => {},
     } as any;
 
@@ -106,6 +107,7 @@ describe('moderation engine forwarded messages', () => {
       enforcePhotoQuotaViolation: async () => {},
       enforceQuotaViolation: async () => {},
       enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
       handleCriticalFailure: async () => {},
     } as any;
 

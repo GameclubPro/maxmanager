@@ -28,6 +28,16 @@ export class ModerationActionsRepo {
     return row.count;
   }
 
+  countByActionSince(chatId: number, userId: number, action: string, sinceTs: number): number {
+    const row = this.db.prepare(`
+      SELECT COUNT(*) AS count
+      FROM moderation_actions
+      WHERE chat_id = ? AND user_id = ? AND action = ? AND created_at >= ?
+    `).get(chatId, userId, action, sinceTs) as { count: number };
+
+    return row.count;
+  }
+
   countByActionAndReasonSince(chatId: number, userId: number, action: string, reason: string, sinceTs: number): number {
     const row = this.db.prepare(`
       SELECT COUNT(*) AS count

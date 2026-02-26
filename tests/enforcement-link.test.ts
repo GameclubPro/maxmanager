@@ -2,6 +2,7 @@ import { Context } from '@maxhub/max-bot-api';
 import { describe, expect, it, vi } from 'vitest';
 import { SqliteDatabase } from '../src/db/sqlite';
 import { EnforcementService } from '../src/moderation/enforcement';
+import { AntiBotAssessment } from '../src/moderation/anti-bot';
 import { createRepositories } from '../src/repos';
 import { BotConfig } from '../src/types';
 
@@ -257,6 +258,59 @@ describe('enforcement link violations', () => {
     expect(replies[0]).toBe('«Иван», сообщение слишком длинное (1500 символов). Допустимо до 1200 символов.');
     expect(replyExtras[0]).toEqual({ notify: false });
 
+    db.close();
+  });
+
+  it('auto-removes user after second mute within 24 hours', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, kickedUserIds } = makeContext();
+
+    const now = 1_700_000_000_000;
+    const nowSpy = vi.spyOn(Date, 'now').mockReturnValue(now);
+    const assessment: AntiBotAssessment = {
+      totalScore: 85,
+      shouldAct: true,
+      shouldMute: true,
+      signals: [
+        { type: 'behavior', key: 'burst_10s', score: 45, value: 6 },
+        { type: 'content', key: 'suspicious_patterns', score: 30, value: 'money_offer,external_contact' },
+      ],
+    };
+
+    await enforcement.enforceAntiBotViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'antibot-1',
+    }, assessment);
+
+    await enforcement.enforceAntiBotViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'antibot-2',
+    }, assessment);
+
+    expect(kickedUserIds).toEqual([20]);
+
+    const autoKickCount = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'kick_auto',
+      'mute_repeat_24h',
+      now - 24 * 60 * 60 * 1000,
+    );
+    expect(autoKickCount).toBe(1);
+
+    nowSpy.mockRestore();
     db.close();
   });
 });
