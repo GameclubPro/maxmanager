@@ -21,6 +21,17 @@ const config: BotConfig = {
   cleanupIntervalSec: 300,
 };
 
+const expectedPriceButtonExtra = {
+  attachments: [
+    {
+      type: 'inline_keyboard',
+      payload: {
+        buttons: [[{ type: 'link', text: 'Прайс', url: 'https://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o' }]],
+      },
+    },
+  ],
+};
+
 function makeContext() {
   const replies: string[] = [];
   const replyExtras: unknown[] = [];
@@ -67,7 +78,7 @@ describe('enforcement link violations', () => {
       info: async () => {},
     } as any;
     const enforcement = new EnforcementService(repos, config, logger);
-    const { ctx, replies, deletedMessages } = makeContext();
+    const { ctx, replies, replyExtras, deletedMessages } = makeContext();
 
     await enforcement.enforceLinkViolation(ctx, {
       chatId: 10,
@@ -94,6 +105,9 @@ describe('enforcement link violations', () => {
     expect(replies[0]).toBe('«Иван», Ссылки в этом чате запрещены. Сообщение удалено. Правила в описании.');
     expect(replies[1]).toContain('«Иван», предупреждение: повторная отправка ссылок');
     expect(replies[2]).toContain('«Иван», повторное нарушение: вы получили мут на 3 часа');
+    expect(replyExtras[0]).toEqual(expectedPriceButtonExtra);
+    expect(replyExtras[1]).toEqual(expectedPriceButtonExtra);
+    expect(replyExtras[2]).toBeUndefined();
     expect(repos.botMessageDeletes.listDue(Date.now() + 4 * 60 * 1000, 10)).toHaveLength(3);
 
     const activeRestriction = repos.restrictions.getActive(10, 20, Date.now());

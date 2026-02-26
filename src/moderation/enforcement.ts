@@ -24,6 +24,8 @@ const PHOTO_QUOTA_MUTE_HOURS = 3;
 const ACTIVE_MUTE_MAX_MESSAGES = 5;
 const ACTIVE_MUTE_TEMP_KICK_HOURS = 3;
 const DELETE_RETRY_DELAYS_MS = [0, 200, 500];
+const PRICE_CHAT_BUTTON_TEXT = 'Прайс';
+const PRICE_CHAT_BUTTON_URL = 'https://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o';
 
 export class EnforcementService {
   constructor(
@@ -98,6 +100,7 @@ export class EnforcementService {
             args.userName,
             args.userId,
           ),
+          this.priceChatButtonExtra(),
         );
       }
 
@@ -118,6 +121,7 @@ export class EnforcementService {
             args.userName,
             args.userId,
           ),
+          this.priceChatButtonExtra(),
         );
       }
 
@@ -436,6 +440,19 @@ export class EnforcementService {
 
   private withUserName(text: string, userName: string | undefined, userId: number): string {
     return `«${this.resolveDisplayName(userName, userId)}», ${text}`;
+  }
+
+  private priceChatButtonExtra(): unknown {
+    return {
+      attachments: [
+        {
+          type: 'inline_keyboard',
+          payload: {
+            buttons: [[{ type: 'link', text: PRICE_CHAT_BUTTON_TEXT, url: PRICE_CHAT_BUTTON_URL }]],
+          },
+        },
+      ],
+    };
   }
 
   private async kickForMuteEvasion(

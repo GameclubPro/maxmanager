@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-26T09:28:54.779Z",
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 69,
+  "source_chats_count": 2,
+  "filter": "новороссийск|novorossiysk|новорос",
+  "per_chat": [
+    {
+      "chat_id": -70142481943240,
+      "title": "💯✔️Новороссийск Купи Продай | БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 1788
+    },
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 4
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 1790,
+    "stable_txt": "data/novorossiysk_all_chats_member_ids.txt",
+    "stable_json": "data/novorossiysk_all_chats_member_ids.json",
+    "live_txt": "data/novorossiysk_all_chats_member_ids_live_20260226122854.txt",
+    "live_json": "data/novorossiysk_all_chats_member_ids_live_20260226122854.json"
+  }
+}

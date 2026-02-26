@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-26T09:37:37.995Z",
+  "filter": "кубан|kuban",
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 73,
+  "source_chats_count": 5,
+  "per_chat": [
+    {
+      "chat_id": -70142531685064,
+      "title": "💯✔️ Купи Продай Вся Кубань / Барахолка Кубани",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 2740
+    },
+    {
+      "chat_id": -69167280772415,
+      "title": "КУБАНЬ ЛУЧШИЙ  РЫНОК",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 685
+    },
+    {
+      "chat_id": -69167097140543,
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 1458
+    },
+    {
+      "chat_id": -70823603555016,
+      "title": "💯✔️КУБАНЬ Большая ДОСКА ОБЪЯВЛЕНИЙ Краснодарский край",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 3490
+    },
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "unique_ids": 4
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 6379,
+    "stable_txt": "data/kuban_all_chats_member_ids.txt",
+    "stable_json": "data/kuban_all_chats_member_ids.json",
+    "live_txt": "data/kuban_all_chats_member_ids_live_20260226123737.txt",
+    "live_json": "data/kuban_all_chats_member_ids_live_20260226123737.json"
+  }
+}

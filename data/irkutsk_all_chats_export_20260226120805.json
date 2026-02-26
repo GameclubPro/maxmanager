@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-26T09:08:16.364Z",
+  "filter": "иркут|irkutsk",
+  "bot": {
+    "user_id": 197207145,
+    "username": "id613002203036_2_bot"
+  },
+  "scanned_chats": 69,
+  "source_chats_count": 4,
+  "per_chat": [
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "type": "chat",
+      "status": "active",
+      "ids_total_collected": 1355,
+      "unique_ids": 1355,
+      "files": {
+        "stable_json": "data/irkutsk_chat_68853379443352_member_ids.json",
+        "stable_txt": "data/irkutsk_chat_68853379443352_member_ids.txt",
+        "live_json": "data/irkutsk_chat_68853379443352_member_ids_live_20260226120805.json",
+        "live_txt": "data/irkutsk_chat_68853379443352_member_ids_live_20260226120805.txt"
+      }
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "type": "chat",
+      "status": "active",
+      "ids_total_collected": 1556,
+      "unique_ids": 1556,
+      "files": {
+        "stable_json": "data/irkutsk_chat_68097054799341_member_ids.json",
+        "stable_txt": "data/irkutsk_chat_68097054799341_member_ids.txt",
+        "live_json": "data/irkutsk_chat_68097054799341_member_ids_live_20260226120805.json",
+        "live_txt": "data/irkutsk_chat_68097054799341_member_ids_live_20260226120805.txt"
+      }
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "type": "chat",
+      "status": "active",
+      "ids_total_collected": 1030,
+      "unique_ids": 1030,
+      "files": {
+        "stable_json": "data/irkutsk_chat_69491781741208_member_ids.json",
+        "stable_txt": "data/irkutsk_chat_69491781741208_member_ids.txt",
+        "live_json": "data/irkutsk_chat_69491781741208_member_ids_live_20260226120805.json",
+        "live_txt": "data/irkutsk_chat_69491781741208_member_ids_live_20260226120805.txt"
+      }
+    },
+    {
+      "chat_id": -71456680806407,
+      "title": "Иркутск Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "ids_total_collected": 4,
+      "unique_ids": 4,
+      "files": {
+        "stable_json": "data/irkutsk_chat_71456680806407_member_ids.json",
+        "stable_txt": "data/irkutsk_chat_71456680806407_member_ids.txt",
+        "live_json": "data/irkutsk_chat_71456680806407_member_ids_live_20260226120805.json",
+        "live_txt": "data/irkutsk_chat_71456680806407_member_ids_live_20260226120805.txt"
+      }
+    }
+  ],
+  "aggregate": {
+    "unique_ids": 2638,
+    "sum_ids_by_chats": 3945,
+    "stable_json": "data/irkutsk_all_chats_member_ids.json",
+    "stable_txt": "data/irkutsk_all_chats_member_ids.txt",
+    "live_json": "data/irkutsk_all_chats_member_ids_live_20260226120805.json",
+    "live_txt": "data/irkutsk_all_chats_member_ids_live_20260226120805.txt"
+  },
+  "errors": []
+}
