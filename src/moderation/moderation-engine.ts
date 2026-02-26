@@ -20,6 +20,17 @@ function getIncomingMessage(ctx: Context): IncomingMessage | undefined {
   return message;
 }
 
+function getMessageTextLength(message: IncomingMessage): number {
+  const directTextLength = typeof message.body.text === 'string'
+    ? message.body.text.length
+    : 0;
+  const forwardedTextLength = typeof message.link?.message?.text === 'string'
+    ? message.link.message.text.length
+    : 0;
+
+  return directTextLength + forwardedTextLength;
+}
+
 export class ModerationEngine {
   private readonly antiBotRiskScorer: AntiBotRiskScorer;
 
@@ -149,7 +160,7 @@ export class ModerationEngine {
     }
 
     if (chatSettings.maxTextLength > 0) {
-      const textLength = (message.body.text ?? '').length;
+      const textLength = getMessageTextLength(message);
       if (textLength > chatSettings.maxTextLength) {
         await this.enforcement.enforceTextLengthViolation(
           ctx,

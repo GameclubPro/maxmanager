@@ -145,4 +145,66 @@ describe('moderation engine forwarded messages', () => {
     expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'spam.example.org')).toBe(true);
     db.close();
   });
+
+  it('applies text length limit to forwarded message text', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.chatSettings.setMaxTextLength(100, 10);
+    const textViolations: Array<{ textLength: number; maxLength: number }> = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async () => {},
+      enforceTextLengthViolation: async (
+        _ctx: unknown,
+        _args: unknown,
+        currentTextLength: number,
+        maxTextLength: number,
+      ) => {
+        textViolations.push({ textLength: currentTextLength, maxLength: maxTextLength });
+      },
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const message: IncomingMessage = {
+      ...makeBaseMessage('fwd-long-1'),
+      body: {
+        mid: 'fwd-long-1',
+        text: null,
+        attachments: null,
+      },
+      link: {
+        type: 'forward',
+        message: {
+          text: '12345678901',
+          attachments: null,
+        },
+      },
+    };
+
+    await engine.handleMessage(makeContext(message));
+
+    expect(textViolations).toEqual([{ textLength: 11, maxLength: 10 }]);
+    db.close();
+  });
 });
