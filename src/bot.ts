@@ -9,7 +9,6 @@ import { EnforcementService } from './moderation/enforcement';
 import { ModerationEngine } from './moderation/moderation-engine';
 import { AdminCommands } from './commands/admin';
 import { CleanupService } from './services/cleanup';
-import { BOT_MESSAGE_AUTO_DELETE_DELAY_MS } from './services/bot-message-autodelete';
 
 export interface Runtime {
   bot: Bot;
@@ -46,9 +45,6 @@ export async function createRuntime(config: BotConfig): Promise<Runtime> {
   const logger = new BotLogger(
     bot.api,
     () => repos.appSettings.getLogChatId() ?? config.logChatId,
-    (messageId, sentAtTs) => {
-      repos.botMessageDeletes.schedule(messageId, sentAtTs + BOT_MESSAGE_AUTO_DELETE_DELAY_MS);
-    },
   );
 
   const normalizedLimits = repos.chatSettings.capMaxTextLength(config.maxTextLength);

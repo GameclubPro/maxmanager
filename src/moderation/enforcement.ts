@@ -259,7 +259,7 @@ export class EnforcementService {
         );
       }
 
-      this.recordAndLog(args.chatId, args.userId, 'mute', 'photo_quota', {
+      await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'photo_quota', {
         currentPhotoCountInWindow,
         limitPerHour,
         photoViolationsCount,
@@ -267,7 +267,6 @@ export class EnforcementService {
         muteHours: PHOTO_QUOTA_MUTE_HOURS,
         windowMinutes: 60,
       });
-      await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, 'photo_quota');
       return;
     }
 
@@ -331,12 +330,11 @@ export class EnforcementService {
         );
       }
 
-      this.recordAndLog(args.chatId, args.userId, 'mute', 'spam', {
+      await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'spam', {
         level,
         untilTs,
         messageCountInWindow,
       });
-      await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, 'spam');
       return;
     }
 
@@ -362,6 +360,7 @@ export class EnforcementService {
         level,
         untilTs: banUntilTs,
         messageCountInWindow,
+        userName: this.resolveDisplayName(args.userName, args.userId),
       });
       await this.notifyAdminsAboutSpamKick(args, level, messageCountInWindow, banUntilTs);
     } catch (error) {
@@ -382,6 +381,7 @@ export class EnforcementService {
         level,
         untilTs: banUntilTs,
         messageCountInWindow,
+        userName: this.resolveDisplayName(args.userName, args.userId),
         error: error instanceof Error ? error.message : String(error),
       });
     }
@@ -533,6 +533,7 @@ export class EnforcementService {
         threshold: ACTIVE_MUTE_MAX_MESSAGES,
         rejoinAtTs,
         kickHours: ACTIVE_MUTE_TEMP_KICK_HOURS,
+        userName: this.resolveDisplayName(args.userName, args.userId),
       });
     } catch (error) {
       await this.logger.warn('Failed to temporarily kick user for mute evasion', {
@@ -545,6 +546,7 @@ export class EnforcementService {
       this.recordAndLog(args.chatId, args.userId, 'kick_temp_failed', 'active_mute', {
         messagesDuringMute,
         threshold: ACTIVE_MUTE_MAX_MESSAGES,
+        userName: this.resolveDisplayName(args.userName, args.userId),
         error: error instanceof Error ? error.message : String(error),
       });
     }
@@ -556,7 +558,10 @@ export class EnforcementService {
     reason: string,
     meta: Record<string, unknown>,
   ): Promise<void> {
-    this.recordAndLog(args.chatId, args.userId, 'mute', reason, meta);
+    this.recordAndLog(args.chatId, args.userId, 'mute', reason, {
+      ...meta,
+      userName: this.resolveDisplayName(args.userName, args.userId),
+    });
     await this.maybeAutoRemoveAfterRepeatedMutes(ctx, args, reason);
   }
 
@@ -615,6 +620,7 @@ export class EnforcementService {
         mutesInWindow,
         threshold: REPEATED_MUTE_AUTO_REMOVE_THRESHOLD,
         windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
       });
     } catch (error) {
       await this.logger.warn('Failed to auto-remove user after repeated mutes', {
@@ -630,6 +636,7 @@ export class EnforcementService {
         mutesInWindow,
         threshold: REPEATED_MUTE_AUTO_REMOVE_THRESHOLD,
         windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
         error: error instanceof Error ? error.message : String(error),
       });
     }
