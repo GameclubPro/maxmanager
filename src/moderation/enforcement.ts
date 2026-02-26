@@ -363,6 +363,7 @@ export class EnforcementService {
         untilTs: banUntilTs,
         messageCountInWindow,
       });
+      await this.notifyAdminsAboutSpamKick(args, level, messageCountInWindow, banUntilTs);
     } catch (error) {
       this.repos.restrictions.upsert(args.chatId, args.userId, 'ban_fallback', banUntilTs);
 
@@ -632,6 +633,26 @@ export class EnforcementService {
         error: error instanceof Error ? error.message : String(error),
       });
     }
+  }
+
+  private async notifyAdminsAboutSpamKick(
+    args: ViolationContext,
+    level: number,
+    messageCountInWindow: number,
+    banUntilTs: number,
+  ): Promise<void> {
+    await this.logger.warn('Spam kick executed', {
+      chatId: args.chatId,
+      userId: args.userId,
+      userName: this.resolveDisplayName(args.userName, args.userId),
+      reason: 'spam',
+      strikeLevel: level,
+      messageCountInWindow,
+      spamWindowSec: this.config.spamWindowSec,
+      blocked: true,
+      banUntilTs,
+      banUntil: formatDate(banUntilTs),
+    });
   }
 
   private resolveDisplayName(userName: string | undefined, userId: number): string {

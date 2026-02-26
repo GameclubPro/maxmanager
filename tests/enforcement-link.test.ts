@@ -313,4 +313,54 @@ describe('enforcement link violations', () => {
     nowSpy.mockRestore();
     db.close();
   });
+
+  it('sends admin alert after kick for spam with reason details', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: vi.fn(async () => {}),
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, kickedUserIds } = makeContext();
+
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-1',
+    }, 4);
+
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-2',
+    }, 5);
+
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-3',
+    }, 6);
+
+    expect(kickedUserIds).toEqual([20]);
+    expect(logger.warn).toHaveBeenCalledWith(
+      'Spam kick executed',
+      expect.objectContaining({
+        chatId: 10,
+        userId: 20,
+        reason: 'spam',
+        strikeLevel: 3,
+        messageCountInWindow: 6,
+        spamWindowSec: config.spamWindowSec,
+        blocked: true,
+      }),
+    );
+
+    db.close();
+  });
 });
