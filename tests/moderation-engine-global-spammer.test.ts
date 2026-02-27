@@ -37,7 +37,7 @@ describe('moderation engine global spammer detection', () => {
     let antiBotCalled = false;
     let linkCalled = false;
 
-    repos.moderationActions.record({ chatId: 500, userId: 10, action: 'kick', reason: 'link' });
+    repos.moderationActions.record({ chatId: 500, userId: 10, action: 'ban', reason: 'spam' });
     repos.moderationActions.record({ chatId: 500, userId: 10, action: 'warn', reason: 'spam' });
     repos.moderationActions.record({ chatId: 501, userId: 10, action: 'warn', reason: 'anti_bot' });
     repos.moderationActions.record({ chatId: 502, userId: 10, action: 'mute', reason: 'spam' });
@@ -92,8 +92,8 @@ describe('moderation engine global spammer detection', () => {
     expect(globalSpammerCalls[0]).toMatchObject({
       windowHours: 72,
       severeActions: 1,
-      spamEvents: 2,
-      linkEvents: 1,
+      spamEvents: 3,
+      linkEvents: 0,
       antiBotEvents: 1,
     });
     expect(linkCalled).toBe(false);
@@ -102,4 +102,3 @@ describe('moderation engine global spammer detection', () => {
     db.close();
   });
 });
-

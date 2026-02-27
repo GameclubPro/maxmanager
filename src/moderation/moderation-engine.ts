@@ -431,20 +431,30 @@ export class ModerationEngine {
   private resolveGlobalSpammerSignal(userId: number, nowTs: number): GlobalSpammerSignal | null {
     const sinceTs = nowTs - GLOBAL_SPAMMER_WINDOW_MS;
 
-    const severeActions = this.repos.moderationActions.countByUserActionSince(userId, 'ban', sinceTs)
-      + this.repos.moderationActions.countByUserActionSince(userId, 'ban_fallback', sinceTs)
-      + this.repos.moderationActions.countByUserActionSince(userId, 'kick', sinceTs)
-      + this.repos.moderationActions.countByUserActionSince(userId, 'kick_auto', sinceTs);
+    // Emergency hardening: treat only explicit spam exclusions as severe history.
+    const severeActions = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'ban', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'ban_fallback', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'kick_auto', 'mute_repeat_24h', sinceTs);
 
     if (severeActions < GLOBAL_SPAMMER_MIN_SEVERE_ACTIONS) {
       return null;
     }
 
-    const warns = this.repos.moderationActions.countByUserActionSince(userId, 'warn', sinceTs);
-    const mutes = this.repos.moderationActions.countByUserActionSince(userId, 'mute', sinceTs);
-    const spamEvents = this.repos.moderationActions.countByUserReasonSince(userId, 'spam', sinceTs);
-    const linkEvents = this.repos.moderationActions.countByUserReasonSince(userId, 'link', sinceTs);
-    const antiBotEvents = this.repos.moderationActions.countByUserReasonSince(userId, 'anti_bot', sinceTs);
+    const warns = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'link', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'anti_bot', sinceTs);
+    const mutes = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'link', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'anti_bot', sinceTs);
+    const spamEvents = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'ban', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'ban_fallback', 'spam', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'kick_auto', 'mute_repeat_24h', sinceTs);
+    const linkEvents = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'link', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'link', sinceTs);
+    const antiBotEvents = this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'warn', 'anti_bot', sinceTs)
+      + this.repos.moderationActions.countByUserActionAndReasonSince(userId, 'mute', 'anti_bot', sinceTs);
     const riskEvents = spamEvents + linkEvents + antiBotEvents;
 
     if (
