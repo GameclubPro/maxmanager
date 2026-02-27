@@ -342,13 +342,7 @@ export class EnforcementService {
     const banUntilTs = Date.now() + hoursToMs(this.config.banHours);
 
     try {
-      await (ctx.api.raw.chats as {
-        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
-      }).removeChatMember({
-        chat_id: args.chatId,
-        user_id: args.userId,
-        block: true,
-      });
+      await this.removeChatMember(ctx, args.chatId, args.userId, true);
 
       if (this.config.noticeInChat) {
         await this.replySafe(
@@ -522,12 +516,7 @@ export class EnforcementService {
     const rejoinAtTs = Date.now() + hoursToMs(ACTIVE_MUTE_TEMP_KICK_HOURS);
 
     try {
-      await (ctx.api.raw.chats as {
-        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
-      }).removeChatMember({
-        chat_id: args.chatId,
-        user_id: args.userId,
-      });
+      await this.removeChatMember(ctx, args.chatId, args.userId, false);
 
       this.repos.pendingRejoins.upsert(args.chatId, args.userId, rejoinAtTs);
 
@@ -599,12 +588,7 @@ export class EnforcementService {
     }
 
     try {
-      await (ctx.api.raw.chats as {
-        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
-      }).removeChatMember({
-        chat_id: args.chatId,
-        user_id: args.userId,
-      });
+      await this.removeChatMember(ctx, args.chatId, args.userId, false);
 
       if (this.config.noticeInChat) {
         await this.replySafe(
@@ -694,5 +678,79 @@ export class EnforcementService {
     await new Promise((resolve) => {
       setTimeout(resolve, ms);
     });
+  }
+
+  private async removeChatMember(
+    ctx: Context,
+    chatId: number,
+    userId: number,
+    block: boolean,
+  ): Promise<void> {
+    try {
+      await (ctx.api.raw.chats as {
+        removeChatMember: (payload: { chat_id: number; user_id: number; block?: boolean }) => Promise<unknown>;
+      }).removeChatMember({
+        chat_id: chatId,
+        user_id: userId,
+        ...(block ? { block: true } : {}),
+      });
+      return;
+    } catch (error) {
+      if (!this.isMissingUserIdError(error)) {
+        throw error;
+      }
+    }
+
+    await this.removeChatMemberViaQuery(chatId, userId, block);
+  }
+
+  private async removeChatMemberViaQuery(chatId: number, userId: number, block: boolean): Promise<void> {
+    const requestUrl = new URL(`https://platform-api.max.ru/chats/${chatId}/members`);
+    requestUrl.searchParams.set('user_id', String(userId));
+    if (block) {
+      requestUrl.searchParams.set('block', 'true');
+    }
+
+    const response = await fetch(requestUrl, {
+      method: 'DELETE',
+      headers: {
+        Authorization: this.config.botToken,
+      },
+    });
+
+    let payload: unknown = null;
+    try {
+      payload = await response.json();
+    } catch {
+      payload = null;
+    }
+
+    if (!response.ok) {
+      throw new Error(`${response.status}: ${this.extractApiErrorMessage(payload)}`);
+    }
+
+    if (payload && typeof payload === 'object') {
+      const success = (payload as { success?: unknown }).success;
+      if (success === false) {
+        throw new Error(this.extractApiErrorMessage(payload));
+      }
+    }
+  }
+
+  private isMissingUserIdError(error: unknown): boolean {
+    const text = (error instanceof Error ? error.message : String(error)).toLowerCase();
+    return text.includes('missing required parameter: user_id')
+      || text.includes('proto.payload');
+  }
+
+  private extractApiErrorMessage(payload: unknown): string {
+    if (payload && typeof payload === 'object') {
+      const message = (payload as { message?: unknown }).message;
+      if (typeof message === 'string' && message.trim() !== '') {
+        return message;
+      }
+    }
+
+    return 'Unknown API error';
   }
 }

@@ -363,4 +363,82 @@ describe('enforcement link violations', () => {
 
     db.close();
   });
+
+  it('retries remove member via query params when API reports missing user_id in DELETE body', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: vi.fn(async () => {}),
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+
+    const fetchSpy = vi.spyOn(globalThis, 'fetch').mockResolvedValue({
+      ok: true,
+      json: async () => ({ success: true }),
+    } as any);
+
+    const ctx = {
+      reply: async () => ({ body: { mid: 'enforcement-reply-fallback-1' } }),
+      deleteMessage: async () => {},
+      api: {
+        raw: {
+          chats: {
+            removeChatMember: async () => {
+              throw new Error('400: Missing required parameter: user_id');
+            },
+          },
+        },
+      },
+    } as unknown as Context;
+
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-fallback-1',
+    }, 4);
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-fallback-2',
+    }, 5);
+    await enforcement.enforceSpamViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'spam-fallback-3',
+    }, 6);
+
+    expect(fetchSpy).toHaveBeenCalledTimes(1);
+    const [url, init] = fetchSpy.mock.calls[0];
+    expect(String(url)).toContain('/chats/10/members');
+    expect(String(url)).toContain('user_id=20');
+    expect(String(url)).toContain('block=true');
+    expect(init).toEqual(expect.objectContaining({ method: 'DELETE' }));
+
+    const banCount = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'ban',
+      'spam',
+      Date.now() - 60_000,
+    );
+    const banFallbackCount = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'ban_fallback',
+      'spam',
+      Date.now() - 60_000,
+    );
+
+    expect(banCount).toBe(1);
+    expect(banFallbackCount).toBe(0);
+
+    fetchSpy.mockRestore();
+    db.close();
+  });
 });
