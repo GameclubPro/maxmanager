@@ -45,7 +45,7 @@ function makeForwardedMessage(mid: string, chatId: number = 100): IncomingMessag
     link: {
       type: 'forward',
       message: {
-        text: null,
+        text: 'https://spam.example.org',
         attachments: [
           {
             type: 'image',
@@ -190,7 +190,7 @@ describe('moderation engine duplicate messages', () => {
     db.close();
   });
 
-  it('treats identical forwarded messages as duplicates', async () => {
+  it('does not treat forwarded photo as duplicate', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
     const duplicateViolations: Array<Record<string, unknown>> = [];
@@ -235,13 +235,7 @@ describe('moderation engine duplicate messages', () => {
     nowSpy.mockReturnValue(baseTs + 10_000);
     await engine.handleMessage(makeContext(makeForwardedMessage('dup-fwd-2', 102)));
 
-    expect(duplicateViolations).toHaveLength(1);
-    expect(duplicateViolations[0]).toMatchObject({
-      windowHours: 12,
-      previousChatId: 100,
-      currentChatId: 102,
-      secondsSincePrevious: 10,
-    });
+    expect(duplicateViolations).toHaveLength(0);
 
     nowSpy.mockRestore();
     db.close();

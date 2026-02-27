@@ -207,4 +207,62 @@ describe('moderation engine forwarded messages', () => {
     expect(textViolations).toEqual([{ textLength: 11, maxLength: 10 }]);
     db.close();
   });
+
+  it('does not treat forwarded photo as link violation', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const linkViolations: unknown[] = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async (_ctx: unknown, _args: unknown, meta: unknown) => {
+        linkViolations.push(meta);
+      },
+      enforceTextLengthViolation: async () => {},
+      enforceDuplicateViolation: async () => {},
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const message: IncomingMessage = {
+      ...makeBaseMessage('fwd-photo-link-1'),
+      body: {
+        mid: 'fwd-photo-link-1',
+        text: null,
+        attachments: null,
+      },
+      link: {
+        type: 'forward',
+        message: {
+          text: 'https://spam.example.org',
+          attachments: [{ type: 'image', payload: { photo_id: 1 } }],
+          markup: null,
+        },
+      },
+    };
+
+    await engine.handleMessage(makeContext(message));
+
+    expect(linkViolations).toHaveLength(0);
+    db.close();
+  });
 });

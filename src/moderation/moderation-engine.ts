@@ -61,6 +61,26 @@ function getMessageTextLength(message: IncomingMessage): number {
   return directTextLength + forwardedTextLength;
 }
 
+function hasForwardedImageAttachment(message: IncomingMessage): boolean {
+  if (message.link?.type !== 'forward') {
+    return false;
+  }
+
+  const linkedAttachments = message.link.message?.attachments;
+  if (!linkedAttachments || linkedAttachments.length === 0) {
+    return false;
+  }
+
+  return linkedAttachments.some((attachment) => {
+    if (!attachment || typeof attachment !== 'object') {
+      return false;
+    }
+
+    const typedAttachment = attachment as { type?: unknown };
+    return typedAttachment.type === 'image';
+  });
+}
+
 export class ModerationEngine {
   private readonly antiBotRiskScorer: AntiBotRiskScorer;
   private readonly recentTextSignatures = new Map<string, { ts: number; chatId: number }>();
@@ -193,12 +213,16 @@ export class ModerationEngine {
       return;
     }
 
-    const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
-    if (forbiddenLinks.length > 0) {
-      await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
-        forbiddenLinks,
-      });
-      return;
+    const isForwardedPhoto = hasForwardedImageAttachment(message);
+
+    if (!isForwardedPhoto) {
+      const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
+      if (forbiddenLinks.length > 0) {
+        await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
+          forbiddenLinks,
+        });
+        return;
+      }
     }
 
     if (chatSettings.maxTextLength > 0) {
@@ -214,14 +238,16 @@ export class ModerationEngine {
       }
     }
 
-    const duplicateSignal = this.resolveDuplicateMessageSignal(chatId, userId, message, nowTs);
-    if (duplicateSignal) {
-      await this.enforcement.enforceDuplicateViolation(
-        ctx,
-        { chatId, userId, userName, messageId },
-        duplicateSignal,
-      );
-      return;
+    if (!isForwardedPhoto) {
+      const duplicateSignal = this.resolveDuplicateMessageSignal(chatId, userId, message, nowTs);
+      if (duplicateSignal) {
+        await this.enforcement.enforceDuplicateViolation(
+          ctx,
+          { chatId, userId, userName, messageId },
+          duplicateSignal,
+        );
+        return;
+      }
     }
 
     const antiBotAssessment = this.antiBotRiskScorer.assess({
