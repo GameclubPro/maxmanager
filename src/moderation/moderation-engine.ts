@@ -25,6 +25,8 @@ const GLOBAL_SPAMMER_MIN_RISK_EVENTS = 4;
 interface DuplicateMessageSignal extends Record<string, number> {
   windowHours: number;
   previousTs: number;
+  previousChatId: number;
+  currentChatId: number;
   secondsSincePrevious: number;
   signatureLength: number;
 }
@@ -58,7 +60,7 @@ function getMessageTextLength(message: IncomingMessage): number {
 
 export class ModerationEngine {
   private readonly antiBotRiskScorer: AntiBotRiskScorer;
-  private readonly recentTextSignatures = new Map<string, number>();
+  private readonly recentTextSignatures = new Map<string, { ts: number; chatId: number }>();
   private lastDuplicatePurgeTs = 0;
 
   constructor(
@@ -314,18 +316,20 @@ export class ModerationEngine {
       return null;
     }
 
-    const cacheKey = `${chatId}:${userId}:${signature}`;
-    const previousTs = this.recentTextSignatures.get(cacheKey);
-    this.recentTextSignatures.set(cacheKey, nowTs);
+    const cacheKey = `${userId}:${signature}`;
+    const previous = this.recentTextSignatures.get(cacheKey);
+    this.recentTextSignatures.set(cacheKey, { ts: nowTs, chatId });
 
-    if (typeof previousTs !== 'number' || previousTs < nowTs - DUPLICATE_WINDOW_MS) {
+    if (!previous || previous.ts < nowTs - DUPLICATE_WINDOW_MS) {
       return null;
     }
 
     return {
       windowHours: DUPLICATE_WINDOW_MS / (60 * 60 * 1000),
-      previousTs,
-      secondsSincePrevious: Math.max(1, Math.floor((nowTs - previousTs) / 1000)),
+      previousTs: previous.ts,
+      previousChatId: previous.chatId,
+      currentChatId: chatId,
+      secondsSincePrevious: Math.max(1, Math.floor((nowTs - previous.ts) / 1000)),
       signatureLength: signature.length,
     };
   }
@@ -360,8 +364,8 @@ export class ModerationEngine {
     }
 
     const minTs = nowTs - DUPLICATE_WINDOW_MS;
-    for (const [key, ts] of this.recentTextSignatures.entries()) {
-      if (ts < minTs) {
+    for (const [key, entry] of this.recentTextSignatures.entries()) {
+      if (entry.ts < minTs) {
         this.recentTextSignatures.delete(key);
       }
     }

@@ -21,10 +21,10 @@ const config: BotConfig = {
   cleanupIntervalSec: 300,
 };
 
-function makeTextMessage(mid: string, text: string): IncomingMessage {
+function makeTextMessage(mid: string, text: string, chatId: number = 100): IncomingMessage {
   return {
     sender: { user_id: 10, name: 'Иван' },
-    recipient: { chat_id: 100, chat_type: 'chat' },
+    recipient: { chat_id: chatId, chat_type: 'chat' },
     body: {
       mid,
       text,
@@ -105,5 +105,61 @@ describe('moderation engine duplicate messages', () => {
     nowSpy.mockRestore();
     db.close();
   });
-});
 
+  it('treats duplicate text in another chat as duplicate for the same user', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const duplicateViolations: Array<Record<string, unknown>> = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceGlobalSpammerViolation: async () => {},
+      enforceLinkViolation: async () => {},
+      enforceTextLengthViolation: async () => {},
+      enforceDuplicateViolation: async (_ctx: unknown, _args: unknown, meta: Record<string, unknown>) => {
+        duplicateViolations.push(meta);
+      },
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const nowSpy = vi.spyOn(Date, 'now');
+    const baseTs = 1_700_000_000_000;
+
+    nowSpy.mockReturnValue(baseTs);
+    await engine.handleMessage(makeContext(makeTextMessage('dup-cross-1', 'Куплю гараж срочно', 100)));
+
+    nowSpy.mockReturnValue(baseTs + 15_000);
+    await engine.handleMessage(makeContext(makeTextMessage('dup-cross-2', 'КУПЛЮ гараж, срочно!!!', 101)));
+
+    expect(duplicateViolations).toHaveLength(1);
+    expect(duplicateViolations[0]).toMatchObject({
+      windowHours: 24,
+      previousChatId: 100,
+      currentChatId: 101,
+      secondsSincePrevious: 15,
+    });
+
+    nowSpy.mockRestore();
+    db.close();
+  });
+});
