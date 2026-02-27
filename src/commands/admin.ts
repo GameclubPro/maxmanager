@@ -17,6 +17,7 @@ const ADMIN_COMMANDS = new Set([
   'set_text_limit',
   'set_spam',
   'set_logchat',
+  'set_price_button',
 ]);
 
 interface ParsedCommand {
@@ -123,6 +124,9 @@ export class AdminCommands {
         case 'set_logchat':
           await this.handleSetLogChat(ctx, chatId, userId, parsed.rawArgs);
           break;
+        case 'set_price_button':
+          await this.handleSetPriceButton(ctx, chatId, userId, parsed.rawArgs);
+          break;
         default:
           break;
       }
@@ -151,6 +155,7 @@ export class AdminCommands {
       `- photo_limit_per_hour: ${settings.photoLimitPerHour}`,
       `- text_limit: ${settings.maxTextLength}`,
       `- spam: ${settings.spamThreshold} сообщений / ${settings.spamWindowSec} сек`,
+      `- price_button: ${settings.priceButtonEnabled ? 'on' : 'off'}`,
       `- whitelist: ${whitelist.length > 0 ? whitelist.join(', ') : '(пусто)'}`,
       `- log_chat_id: ${logChatId ?? '(не задан)'}`,
     ].join('\n');
@@ -250,6 +255,28 @@ export class AdminCommands {
     this.repos.appSettings.setLogChatId(value);
     await this.replySafe(ctx, `Лог-чат обновлен: ${value}`);
     this.auditConfigChange(chatId, userId, 'set_logchat', { value });
+  }
+
+  private async handleSetPriceButton(ctx: Context, chatId: number, userId: number, rawArgs: string): Promise<void> {
+    const normalized = rawArgs.trim().toLowerCase();
+    const enabledValues = new Set(['on', '1', 'true', 'yes']);
+    const disabledValues = new Set(['off', '0', 'false', 'no']);
+
+    let enabled: boolean | null = null;
+    if (enabledValues.has(normalized)) {
+      enabled = true;
+    } else if (disabledValues.has(normalized)) {
+      enabled = false;
+    }
+
+    if (enabled === null) {
+      await this.replySafe(ctx, 'Использование: /set_price_button <on|off>');
+      return;
+    }
+
+    this.repos.chatSettings.setPriceButtonEnabled(chatId, enabled);
+    await this.replySafe(ctx, `Кнопка "Прайс" ${enabled ? 'включена' : 'выключена'}.`);
+    this.auditConfigChange(chatId, userId, 'set_price_button', { enabled });
   }
 
   private auditConfigChange(chatId: number, userId: number, command: string, meta: Record<string, unknown>): void {

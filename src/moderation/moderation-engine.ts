@@ -152,6 +152,7 @@ export class ModerationEngine {
         maxTextLength: this.config.maxTextLength,
         spamThreshold: this.config.spamThreshold,
         spamWindowSec: this.config.spamWindowSec,
+        priceButtonEnabled: true,
       };
     }
 

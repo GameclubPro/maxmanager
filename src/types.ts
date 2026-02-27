@@ -31,6 +31,7 @@ export interface ChatSetting {
   maxTextLength: number;
   spamThreshold: number;
   spamWindowSec: number;
+  priceButtonEnabled: boolean;
 }
 
 export interface ActiveRestriction {

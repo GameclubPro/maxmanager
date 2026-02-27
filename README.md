@@ -85,6 +85,7 @@ maxdeploy
 - `/set_text_limit <0..10000>`
 - `/set_spam <threshold> <windowSec>`
 - `/set_logchat <chatId>`
+- `/set_price_button <on|off>`
 
 ## Массовое добавление участников (2026)
 

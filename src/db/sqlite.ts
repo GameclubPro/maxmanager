@@ -44,6 +44,7 @@ export class SqliteDatabase {
   private runPostMigrations(): void {
     this.ensureChatSettingsPhotoLimitColumn();
     this.ensureChatSettingsMaxTextLengthColumn();
+    this.ensureChatSettingsPriceButtonEnabledColumn();
   }
 
   private ensureChatSettingsPhotoLimitColumn(): void {
@@ -64,6 +65,16 @@ export class SqliteDatabase {
     }
 
     this.db.exec('ALTER TABLE chat_settings ADD COLUMN max_text_length INTEGER NOT NULL DEFAULT 800');
+  }
+
+  private ensureChatSettingsPriceButtonEnabledColumn(): void {
+    const columns = this.db.prepare("PRAGMA table_info('chat_settings')").all() as Array<{ name: string }>;
+    const hasPriceButtonEnabledColumn = columns.some((column) => column.name === 'price_button_enabled');
+    if (hasPriceButtonEnabledColumn) {
+      return;
+    }
+
+    this.db.exec('ALTER TABLE chat_settings ADD COLUMN price_button_enabled INTEGER NOT NULL DEFAULT 1');
   }
 
   close(): void {

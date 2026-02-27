@@ -130,6 +130,33 @@ describe('enforcement link violations', () => {
     db.close();
   });
 
+  it('does not add price button when it is disabled in chat settings', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.chatSettings.setPriceButtonEnabled(10, false);
+
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras } = makeContext();
+
+    await enforcement.enforceLinkViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'm1',
+    }, { source: 'test' });
+
+    expect(replies).toHaveLength(1);
+    expect(replyExtras[0]).toBeUndefined();
+
+    db.close();
+  });
+
   it('silently deletes messages for active mute restrictions', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

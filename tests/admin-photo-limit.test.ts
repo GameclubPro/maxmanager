@@ -94,6 +94,26 @@ describe('admin photo limit command', () => {
     db.close();
   });
 
+  it('turns off price button with /set_price_button off', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const admin = new AdminCommands(
+      repos,
+      config,
+      { isAdmin: async () => true } as any,
+      { info: async () => {}, warn: async () => {}, error: async () => {}, moderation: async () => {} } as any,
+    );
+
+    const { ctx, replies } = makeContext(makeMessage('/set_price_button off'));
+    const handled = await admin.tryHandle(ctx);
+
+    expect(handled).toBe(true);
+    expect(repos.chatSettings.get(100).priceButtonEnabled).toBe(false);
+    expect(replies[0]).toBe('Кнопка "Прайс" выключена.');
+
+    db.close();
+  });
+
   it('includes photo limit in /mod_status', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

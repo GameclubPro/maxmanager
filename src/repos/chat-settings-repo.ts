@@ -7,6 +7,7 @@ interface ChatSettingsDefaults {
   maxTextLength: number;
   spamThreshold: number;
   spamWindowSec: number;
+  priceButtonEnabled: boolean;
 }
 
 interface ChatSettingRow {
@@ -17,6 +18,7 @@ interface ChatSettingRow {
   max_text_length: number;
   spam_threshold: number;
   spam_window_sec: number;
+  price_button_enabled: number;
 }
 
 export class ChatSettingsRepo {
@@ -28,8 +30,28 @@ export class ChatSettingsRepo {
   private ensure(chatId: number): void {
     const now = Date.now();
     this.db.prepare(`
-      INSERT INTO chat_settings (chat_id, enabled, daily_limit, photo_limit_per_hour, max_text_length, spam_threshold, spam_window_sec, updated_at)
-      VALUES (@chat_id, 1, @daily_limit, @photo_limit_per_hour, @max_text_length, @spam_threshold, @spam_window_sec, @updated_at)
+      INSERT INTO chat_settings (
+        chat_id,
+        enabled,
+        daily_limit,
+        photo_limit_per_hour,
+        max_text_length,
+        spam_threshold,
+        spam_window_sec,
+        price_button_enabled,
+        updated_at
+      )
+      VALUES (
+        @chat_id,
+        1,
+        @daily_limit,
+        @photo_limit_per_hour,
+        @max_text_length,
+        @spam_threshold,
+        @spam_window_sec,
+        @price_button_enabled,
+        @updated_at
+      )
       ON CONFLICT(chat_id) DO NOTHING
     `).run({
       chat_id: chatId,
@@ -38,6 +60,7 @@ export class ChatSettingsRepo {
       max_text_length: this.defaults.maxTextLength,
       spam_threshold: this.defaults.spamThreshold,
       spam_window_sec: this.defaults.spamWindowSec,
+      price_button_enabled: this.defaults.priceButtonEnabled ? 1 : 0,
       updated_at: now,
     });
   }
@@ -46,7 +69,7 @@ export class ChatSettingsRepo {
     this.ensure(chatId);
 
     const row = this.db.prepare(`
-      SELECT chat_id, enabled, daily_limit, photo_limit_per_hour, max_text_length, spam_threshold, spam_window_sec
+      SELECT chat_id, enabled, daily_limit, photo_limit_per_hour, max_text_length, spam_threshold, spam_window_sec, price_button_enabled
       FROM chat_settings
       WHERE chat_id = ?
     `).get(chatId) as ChatSettingRow;
@@ -59,6 +82,7 @@ export class ChatSettingsRepo {
       maxTextLength: row.max_text_length,
       spamThreshold: row.spam_threshold,
       spamWindowSec: row.spam_window_sec,
+      priceButtonEnabled: row.price_button_enabled === 1,
     };
   }
 
@@ -124,5 +148,15 @@ export class ChatSettingsRepo {
       SET spam_threshold = ?, spam_window_sec = ?, updated_at = ?
       WHERE chat_id = ?
     `).run(spamThreshold, spamWindowSec, Date.now(), chatId);
+  }
+
+  setPriceButtonEnabled(chatId: number, enabled: boolean): void {
+    this.ensure(chatId);
+
+    this.db.prepare(`
+      UPDATE chat_settings
+      SET price_button_enabled = ?, updated_at = ?
+      WHERE chat_id = ?
+    `).run(enabled ? 1 : 0, Date.now(), chatId);
   }
 }

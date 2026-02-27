@@ -38,6 +38,7 @@ export function createRepositories(db: BetterSqliteDb, config: BotConfig): Repos
       maxTextLength: config.maxTextLength,
       spamThreshold: config.spamThreshold,
       spamWindowSec: config.spamWindowSec,
+      priceButtonEnabled: true,
     }),
     dailyCount: new DailyCountRepo(db),
     domainWhitelist: new DomainWhitelistRepo(db),

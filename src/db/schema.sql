@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS chat_settings (
   max_text_length INTEGER NOT NULL DEFAULT 800,
   spam_threshold INTEGER NOT NULL,
   spam_window_sec INTEGER NOT NULL,
+  price_button_enabled INTEGER NOT NULL DEFAULT 1,
   updated_at INTEGER NOT NULL
 );
 

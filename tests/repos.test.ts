@@ -101,6 +101,24 @@ describe('repositories', () => {
     db.close();
   });
 
+  it('stores per-chat price button setting', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const initial = repos.chatSettings.get(42);
+    expect(initial.priceButtonEnabled).toBe(true);
+
+    repos.chatSettings.setPriceButtonEnabled(42, false);
+    const disabled = repos.chatSettings.get(42);
+    expect(disabled.priceButtonEnabled).toBe(false);
+
+    repos.chatSettings.setPriceButtonEnabled(42, true);
+    const enabled = repos.chatSettings.get(42);
+    expect(enabled.priceButtonEnabled).toBe(true);
+
+    db.close();
+  });
+
   it('caps existing text limits to configured ceiling', () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

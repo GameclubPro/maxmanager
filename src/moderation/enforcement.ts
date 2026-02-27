@@ -95,6 +95,7 @@ export class EnforcementService {
       nowTs - LINK_VIOLATION_WINDOW_MS,
     );
     const violationLevel = recentLinkViolations + 1;
+    const priceButtonExtra = this.priceChatButtonExtra(args.chatId);
 
     await this.deleteMessageSafe(ctx, args.messageId);
 
@@ -107,7 +108,7 @@ export class EnforcementService {
             args.userName,
             args.userId,
           ),
-          this.priceChatButtonExtra(),
+          priceButtonExtra,
         );
       }
 
@@ -128,7 +129,7 @@ export class EnforcementService {
             args.userName,
             args.userId,
           ),
-          this.priceChatButtonExtra(),
+          priceButtonExtra,
         );
       }
 
@@ -149,7 +150,7 @@ export class EnforcementService {
             args.userName,
             args.userId,
           ),
-          this.priceChatButtonExtra(),
+          priceButtonExtra,
         );
       }
 
@@ -724,7 +725,16 @@ export class EnforcementService {
     return `«${this.resolveDisplayName(userName, userId)}», ${text}`;
   }
 
-  private priceChatButtonExtra(): unknown {
+  private priceChatButtonExtra(chatId: number): unknown | undefined {
+    try {
+      const settings = this.repos.chatSettings.get(chatId);
+      if (!settings.priceButtonEnabled) {
+        return undefined;
+      }
+    } catch {
+      // keep default behavior and show the button when settings are temporarily unavailable
+    }
+
     return {
       attachments: [
         {
