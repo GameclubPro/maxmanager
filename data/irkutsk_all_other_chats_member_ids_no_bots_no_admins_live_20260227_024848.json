@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-02-26T23:49:16.548Z",
+  "source_report_file": "data/irkutsk_chats_check_live_20260227_024503.json",
+  "filter_scope": "all irkutsk chats except target",
+  "filter_excludes": [
+    "bots",
+    "chat admins",
+    "chat owners"
+  ],
+  "target_chat": {
+    "chat_id": -71456680806407,
+    "title": "Иркутск Объявления | Новости"
+  },
+  "source_chats_total": 10,
+  "source_chats_processed_ok": 10,
+  "source_chats_failed": 0,
+  "unique_user_ids_total": 5021,
+  "output_txt_file": "data/irkutsk_all_other_chats_member_ids_no_bots_no_admins_live_20260227_024848.txt",
+  "per_chat": [
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "total_members_fetched": 1361,
+      "excluded_bots": 1,
+      "excluded_admins": 1,
+      "accepted_non_bot_non_admin_unique_in_chat": 1359
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "total_members_fetched": 1568,
+      "excluded_bots": 1,
+      "excluded_admins": 3,
+      "accepted_non_bot_non_admin_unique_in_chat": 1564
+    },
+    {
+      "chat_id": -68455935789780,
+      "title": "ИРКУТСК И ВЕСЬ 38 РЕГИОН",
+      "total_members_fetched": 307,
+      "excluded_bots": 5,
+      "excluded_admins": 3,
+      "accepted_non_bot_non_admin_unique_in_chat": 299
+    },
+    {
+      "chat_id": -69805494553282,
+      "title": "Иркутск Объявления",
+      "total_members_fetched": 491,
+      "excluded_bots": 1,
+      "excluded_admins": 1,
+      "accepted_non_bot_non_admin_unique_in_chat": 489
+    },
+    {
+      "chat_id": -71045893791766,
+      "title": "Сельхозтехника Иркутская область",
+      "total_members_fetched": 1225,
+      "excluded_bots": 1,
+      "excluded_admins": 1,
+      "accepted_non_bot_non_admin_unique_in_chat": 1223
+    },
+    {
+      "chat_id": -68827626160204,
+      "title": "Иркутск объявления",
+      "total_members_fetched": 858,
+      "excluded_bots": 2,
+      "excluded_admins": 3,
+      "accepted_non_bot_non_admin_unique_in_chat": 853
+    },
+    {
+      "chat_id": -69571802532525,
+      "title": "Ленинский район Жилкино и ближайшие территории г. Иркутска",
+      "total_members_fetched": 370,
+      "excluded_bots": 1,
+      "excluded_admins": 1,
+      "accepted_non_bot_non_admin_unique_in_chat": 368
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "total_members_fetched": 1036,
+      "excluded_bots": 1,
+      "excluded_admins": 2,
+      "accepted_non_bot_non_admin_unique_in_chat": 1033
+    },
+    {
+      "chat_id": -70766320514415,
+      "title": "Иркутск и вся область Объявления",
+      "total_members_fetched": 511,
+      "excluded_bots": 1,
+      "excluded_admins": 5,
+      "accepted_non_bot_non_admin_unique_in_chat": 505
+    },
+    {
+      "chat_id": -68113862820033,
+      "title": "Барахолка Иркутская область",
+      "total_members_fetched": 320,
+      "excluded_bots": 1,
+      "excluded_admins": 1,
+      "accepted_non_bot_non_admin_unique_in_chat": 318
+    }
+  ],
+  "failures": []
+}

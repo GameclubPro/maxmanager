@@ -79,7 +79,7 @@ describe('enforcement link violations', () => {
       info: async () => {},
     } as any;
     const enforcement = new EnforcementService(repos, config, logger);
-    const { ctx, replies, replyExtras, deletedMessages } = makeContext();
+    const { ctx, replies, replyExtras, deletedMessages, kickedUserIds } = makeContext();
 
     await enforcement.enforceLinkViolation(ctx, {
       chatId: 10,
@@ -102,20 +102,30 @@ describe('enforcement link violations', () => {
       messageId: 'm3',
     }, { source: 'test' });
 
-    expect(deletedMessages).toEqual(['m1', 'm2', 'm3']);
+    await enforcement.enforceLinkViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'm4',
+    }, { source: 'test' });
+
+    expect(deletedMessages).toEqual(['m1', 'm2', 'm3', 'm4']);
     expect(replies[0]).toBe('«Иван», Ссылки в этом чате запрещены. Сообщение удалено. Правила в описании.');
     expect(replies[1]).toContain('«Иван», предупреждение: повторная отправка ссылок');
-    expect(replies[2]).toContain('«Иван», повторное нарушение: вы получили мут на 3 часа');
+    expect(replies[2]).toContain('«Иван», крайнее предупреждение: следующая ссылка в течение 24 часов приведет к удалению из чата.');
+    expect(replies[3]).toContain('«Иван», повторное нарушение: вы удалены из чата за отправку ссылок в течение 24 часов.');
     expect(replyExtras[0]).toEqual(expectedPriceButtonExtra);
     expect(replyExtras[1]).toEqual(expectedPriceButtonExtra);
-    expect(replyExtras[2]).toBeUndefined();
-    expect(repos.botMessageDeletes.listDue(Date.now() + 4 * 60 * 1000, 10)).toHaveLength(3);
+    expect(replyExtras[2]).toEqual(expectedPriceButtonExtra);
+    expect(replyExtras[3]).toBeUndefined();
+    expect(repos.botMessageDeletes.listDue(Date.now() + 4 * 60 * 1000, 10)).toHaveLength(4);
+    expect(kickedUserIds).toEqual([20]);
 
     const activeRestriction = repos.restrictions.getActive(10, 20, Date.now());
-    expect(activeRestriction?.type).toBe('mute');
+    expect(activeRestriction).toBeNull();
 
     const linkActionsCount = repos.moderationActions.countByReasonSince(10, 20, 'link', Date.now() - 24 * 60 * 60 * 1000);
-    expect(linkActionsCount).toBe(3);
+    expect(linkActionsCount).toBe(4);
 
     db.close();
   });

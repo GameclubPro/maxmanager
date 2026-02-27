@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-02-26T23:17:40.321Z",
+  "source_file": "data/chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059.txt",
+  "target_chat_id": -71489818560519,
+  "batches": 16,
+  "participants_before": 3825,
+  "participants_after": 3839,
+  "totals": {
+    "processed": 6079,
+    "already_in_target": 3814,
+    "attempted_invite": 550,
+    "invited_without_immediate_failure": 180,
+    "verified_added": 18,
+    "still_missing": 2247
+  },
+  "runs": [
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_1_400_20260226231255_result.json",
+      "start": 0,
+      "end": 400,
+      "processed": 400,
+      "already_in_target": 232,
+      "attempted_invite": 50,
+      "invited_without_immediate_failure": 30,
+      "verified_added": 3,
+      "still_missing": 165,
+      "before_participants": 3825,
+      "after_participants": 3828,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 50,
+        "remaining_count": 118,
+        "last_user_id": 5528344
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_401_800_20260226231308_result.json",
+      "start": 400,
+      "end": 800,
+      "processed": 400,
+      "already_in_target": 266,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 134,
+      "before_participants": 3828,
+      "after_participants": 3828,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 114,
+        "last_user_id": 13756317
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_801_1200_20260226231323_result.json",
+      "start": 800,
+      "end": 1200,
+      "processed": 400,
+      "already_in_target": 272,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 128,
+      "before_participants": 3828,
+      "after_participants": 3828,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 108,
+        "last_user_id": 17513623
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_1201_1600_20260226231335_result.json",
+      "start": 1200,
+      "end": 1600,
+      "processed": 400,
+      "already_in_target": 264,
+      "attempted_invite": 40,
+      "invited_without_immediate_failure": 20,
+      "verified_added": 2,
+      "still_missing": 134,
+      "before_participants": 3828,
+      "after_participants": 3830,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 40,
+        "remaining_count": 96,
+        "last_user_id": 20987857
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_1601_2000_20260226231350_result.json",
+      "start": 1600,
+      "end": 2000,
+      "processed": 400,
+      "already_in_target": 298,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 102,
+      "before_participants": 3830,
+      "after_participants": 3830,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 82,
+        "last_user_id": 26952783
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_2001_2400_20260226231404_result.json",
+      "start": 2000,
+      "end": 2400,
+      "processed": 400,
+      "already_in_target": 292,
+      "attempted_invite": 30,
+      "invited_without_immediate_failure": 10,
+      "verified_added": 1,
+      "still_missing": 107,
+      "before_participants": 3830,
+      "after_participants": 3831,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 30,
+        "remaining_count": 78,
+        "last_user_id": 34709633
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_2401_2800_20260226231416_result.json",
+      "start": 2400,
+      "end": 2800,
+      "processed": 400,
+      "already_in_target": 299,
+      "attempted_invite": 70,
+      "invited_without_immediate_failure": 30,
+      "verified_added": 3,
+      "still_missing": 98,
+      "before_participants": 3831,
+      "after_participants": 3834,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 70,
+        "remaining_count": 31,
+        "last_user_id": 46546080
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_2801_3200_20260226231433_result.json",
+      "start": 2800,
+      "end": 3200,
+      "processed": 400,
+      "already_in_target": 296,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 104,
+      "before_participants": 3834,
+      "after_participants": 3834,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 84,
+        "last_user_id": 54030678
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_3201_3600_20260226231444_result.json",
+      "start": 3200,
+      "end": 3600,
+      "processed": 400,
+      "already_in_target": 278,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 122,
+      "before_participants": 3834,
+      "after_participants": 3834,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 102,
+        "last_user_id": 69172189
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_3601_4000_20260226231458_result.json",
+      "start": 3600,
+      "end": 4000,
+      "processed": 400,
+      "already_in_target": 306,
+      "attempted_invite": 40,
+      "invited_without_immediate_failure": 10,
+      "verified_added": 1,
+      "still_missing": 93,
+      "before_participants": 3834,
+      "after_participants": 3833,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 40,
+        "remaining_count": 54,
+        "last_user_id": 88170916
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_4001_4400_20260226231511_result.json",
+      "start": 4000,
+      "end": 4400,
+      "processed": 400,
+      "already_in_target": 288,
+      "attempted_invite": 70,
+      "invited_without_immediate_failure": 40,
+      "verified_added": 4,
+      "still_missing": 108,
+      "before_participants": 3833,
+      "after_participants": 3837,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 70,
+        "remaining_count": 42,
+        "last_user_id": 111038482
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_4401_4800_20260226231527_result.json",
+      "start": 4400,
+      "end": 4800,
+      "processed": 400,
+      "already_in_target": 255,
+      "attempted_invite": 30,
+      "invited_without_immediate_failure": 10,
+      "verified_added": 1,
+      "still_missing": 144,
+      "before_participants": 3837,
+      "after_participants": 3838,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 30,
+        "remaining_count": 115,
+        "last_user_id": 119159074
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_4801_5200_20260226231539_result.json",
+      "start": 4800,
+      "end": 5200,
+      "processed": 400,
+      "already_in_target": 204,
+      "attempted_invite": 40,
+      "invited_without_immediate_failure": 20,
+      "verified_added": 2,
+      "still_missing": 194,
+      "before_participants": 3838,
+      "after_participants": 3840,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 40,
+        "remaining_count": 156,
+        "last_user_id": 140241496
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_5201_5600_20260226231554_result.json",
+      "start": 5200,
+      "end": 5600,
+      "processed": 400,
+      "already_in_target": 118,
+      "attempted_invite": 40,
+      "invited_without_immediate_failure": 10,
+      "verified_added": 1,
+      "still_missing": 281,
+      "before_participants": 3840,
+      "after_participants": 3840,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 40,
+        "remaining_count": 242,
+        "last_user_id": 166588103
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_5601_6000_20260226231606_result.json",
+      "start": 5600,
+      "end": 6000,
+      "processed": 400,
+      "already_in_target": 115,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 285,
+      "before_participants": 3840,
+      "after_participants": 3840,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 265,
+        "last_user_id": 182731514
+      }
+    },
+    {
+      "file": "data/add_chita_all_chats_except_chita_obyavleniya_novosti_member_ids_no_bots_no_admins_20260227021059_to_71489818560519_6001_6079_20260226231620_result.json",
+      "start": 6000,
+      "end": 6079,
+      "processed": 79,
+      "already_in_target": 31,
+      "attempted_invite": 20,
+      "invited_without_immediate_failure": 0,
+      "verified_added": 0,
+      "still_missing": 48,
+      "before_participants": 3840,
+      "after_participants": 3839,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 28,
+        "last_user_id": 207470434
+      }
+    }
+  ],
+  "still_missing_aggregate_file": "data/chita_still_missing_after_full_try_20260226_2316.txt"
+}

@@ -197,6 +197,7 @@ export class AntiBotRiskScorer {
     }
 
     const kicks7d = this.repos.moderationActions.countByActionSince(chatId, userId, 'kick_temp', weekSince)
+      + this.repos.moderationActions.countByActionSince(chatId, userId, 'kick', weekSince)
       + this.repos.moderationActions.countByActionSince(chatId, userId, 'kick_auto', weekSince)
       + this.repos.moderationActions.countByActionSince(chatId, userId, 'ban', weekSince)
       + this.repos.moderationActions.countByActionSince(chatId, userId, 'ban_fallback', weekSince);

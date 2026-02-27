@@ -7,7 +7,7 @@ export interface LogEvent {
   meta?: Record<string, unknown>;
 }
 
-const CHAT_NOTIFICATION_ACTIONS = new Set(['mute', 'ban', 'ban_fallback', 'kick_temp', 'kick_auto']);
+const CHAT_NOTIFICATION_ACTIONS = new Set(['mute', 'ban', 'ban_fallback', 'kick', 'kick_temp', 'kick_auto']);
 
 export class BotLogger {
   constructor(
@@ -101,6 +101,8 @@ export class BotLogger {
         return this.resolveBanDetail(record.meta);
       case 'ban_fallback':
         return this.resolveBanFallbackDetail(record.meta);
+      case 'kick':
+        return this.resolveKickDetail(record.meta);
       case 'kick_temp':
         return this.resolveKickTempDetail(record.meta);
       case 'kick_auto':
@@ -140,6 +142,15 @@ export class BotLogger {
     }
 
     return 'включен fallback-бан';
+  }
+
+  private resolveKickDetail(meta: ModerationActionRecord['meta']): string {
+    const windowHours = this.readNumber(meta, 'windowHours');
+    if (typeof windowHours === 'number') {
+      return `исключение из чата за повторные нарушения за ${windowHours} ч`;
+    }
+
+    return 'исключение из чата';
   }
 
   private resolveKickTempDetail(meta: ModerationActionRecord['meta']): string {

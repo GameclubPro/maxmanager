@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-02-26T23:47:20.590Z",
+  "source_report_file": "data/irkutsk_chats_check_live_20260227_024503.json",
+  "filter_scope": "all irkutsk chats except target",
+  "target_chat": {
+    "chat_id": -71456680806407,
+    "title": "Иркутск Объявления | Новости"
+  },
+  "source_chats_total": 10,
+  "source_chats_processed_ok": 0,
+  "source_chats_failed": 10,
+  "unique_user_ids_total": 0,
+  "output_txt_file": "data/irkutsk_all_other_chats_member_ids_no_bots_no_admins_live_20260227_024718.txt",
+  "per_chat": [],
+  "failures": [
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -68455935789780,
+      "title": "ИРКУТСК И ВЕСЬ 38 РЕГИОН",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -69805494553282,
+      "title": "Иркутск Объявления",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -71045893791766,
+      "title": "Сельхозтехника Иркутская область",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -68827626160204,
+      "title": "Иркутск объявления",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -69571802532525,
+      "title": "Ленинский район Жилкино и ближайшие территории г. Иркутска",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -70766320514415,
+      "title": "Иркутск и вся область Объявления",
+      "error": "403: Method is available only for chat administrator"
+    },
+    {
+      "chat_id": -68113862820033,
+      "title": "Барахолка Иркутская область",
+      "error": "403: Method is available only for chat administrator"
+    }
+  ]
+}

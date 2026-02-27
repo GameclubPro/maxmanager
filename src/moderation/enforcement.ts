@@ -18,7 +18,6 @@ function formatDate(ts: number): string {
 }
 
 const LINK_VIOLATION_WINDOW_MS = 24 * 60 * 60 * 1000;
-const LINK_MUTE_HOURS = 3;
 const PHOTO_QUOTA_WINDOW_MS = 60 * 60 * 1000;
 const PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE = 5;
 const PHOTO_QUOTA_MUTE_HOURS = 3;
@@ -122,7 +121,7 @@ export class EnforcementService {
         await this.replySafe(
           ctx,
           this.withUserName(
-            'предупреждение: повторная отправка ссылок в течение 24 часов приведет к муту на 3 часа.',
+            'предупреждение: повторная отправка ссылок в течение 24 часов приведет к крайнему предупреждению.',
             args.userName,
             args.userId,
           ),
@@ -138,27 +137,64 @@ export class EnforcementService {
       return;
     }
 
-    const untilTs = nowTs + hoursToMs(LINK_MUTE_HOURS);
-    this.repos.restrictions.upsert(args.chatId, args.userId, 'mute', untilTs);
+    if (violationLevel === 3) {
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'крайнее предупреждение: следующая ссылка в течение 24 часов приведет к удалению из чата.',
+            args.userName,
+            args.userId,
+          ),
+          this.priceChatButtonExtra(),
+        );
+      }
 
-    if (this.config.noticeInChat) {
-      await this.replySafe(
-        ctx,
-        this.withUserName(
-          `повторное нарушение: вы получили мут на ${LINK_MUTE_HOURS} часа до ${formatDate(untilTs)}.`,
-          args.userName,
-          args.userId,
-        ),
-      );
+      this.recordAndLog(args.chatId, args.userId, 'warn', 'link', {
+        ...meta,
+        violationLevel,
+        windowHours: 24,
+        isFinalWarning: true,
+      });
+      return;
     }
 
-    await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'link', {
-      ...meta,
-      violationLevel,
-      untilTs,
-      muteHours: LINK_MUTE_HOURS,
-      windowHours: 24,
-    });
+    try {
+      await this.removeChatMember(ctx, args.chatId, args.userId, false);
+
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'повторное нарушение: вы удалены из чата за отправку ссылок в течение 24 часов.',
+            args.userName,
+            args.userId,
+          ),
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'kick', 'link', {
+        ...meta,
+        violationLevel,
+        windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+      });
+    } catch (error) {
+      await this.logger.warn('Failed to kick user for repeated link violations', {
+        chatId: args.chatId,
+        userId: args.userId,
+        violationLevel,
+        error: error instanceof Error ? error.message : String(error),
+      });
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_failed', 'link', {
+        ...meta,
+        violationLevel,
+        windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+        error: error instanceof Error ? error.message : String(error),
+      });
+    }
   }
 
   async enforceQuotaViolation(ctx: Context, args: ViolationContext, currentCount: number, limit: number): Promise<void> {
