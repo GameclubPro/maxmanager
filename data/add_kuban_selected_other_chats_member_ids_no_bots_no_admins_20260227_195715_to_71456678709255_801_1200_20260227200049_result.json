@@ -1,0 +1,303 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/kuban_selected_other_chats_member_ids_no_bots_no_admins_20260227_195715.txt",
+    "total_ids_in_source_file": 2876
+  },
+  "target_chat": {
+    "chat_id": -71456678709255,
+    "title": "Кубань Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 4658,
+    "after_participants_count": 4685
+  },
+  "bot": {
+    "user_id": 213352639,
+    "name": "Чат Помощник",
+    "username": "id613002203036_3_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1772109202526,
+          "permissions": [
+            "pin_message",
+            "add_admins",
+            "write",
+            "read_all_messages",
+            "change_chat_info",
+            "add_remove_members",
+            "can_call",
+            "edit_link"
+          ],
+          "user_id": 213352639,
+          "first_name": "Чат Помощник",
+          "username": "id613002203036_3_bot",
+          "is_bot": true,
+          "last_activity_time": 1772222449498,
+          "description": "Бот Менеджер — инструмент для работы в чатах и каналах: модерация, автоответы, публикация постов, сбор заявок и управление участниками. Упрощает администрирование и экономит время 24/7.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi_NR_nlJAbr9fifLd9y_xML1fUr_RplD5k9xqRaiD8lo",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiCPJhPxK6VFVM3kbkFPAU7b1fUr_RplD5k9xqRaiD8lo",
+          "name": "Чат Помощник"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 800,
+    "end_index_exclusive_0_based": 1200,
+    "range_human": "801-1200",
+    "requested_count": 400,
+    "selected_count": 400,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 180,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 47,
+    "target_snapshot_members_count": 4658
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 263,
+  "attempted_invite_count": 137,
+  "invited_without_immediate_failure_count": 120,
+  "verified_added_count": 27,
+  "still_not_in_target_from_attempted_count": 110,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 110,
+  "failed_by_code": {
+    "action_failed": 17
+  },
+  "failed_by_status": {
+    "200": 17
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    52284024,
+    52366340,
+    53882607,
+    55880308,
+    58091565,
+    58194022,
+    59955026,
+    62328532,
+    62923167,
+    65609661,
+    66560014,
+    66748295,
+    68944994,
+    70961258,
+    71383707,
+    73298536,
+    73600966,
+    74330065,
+    75906498,
+    77287375,
+    77447854,
+    78631761,
+    78782386,
+    79086155,
+    81747511,
+    82222455,
+    82546584
+  ],
+  "sample_still_missing_ids": [
+    47797468,
+    48011989,
+    48780093,
+    48783674,
+    48864866,
+    49070043,
+    49081496,
+    49919758,
+    50525601,
+    50879505,
+    50912162,
+    51071549,
+    51542707,
+    52307072,
+    52426882,
+    52445467,
+    52575714,
+    52650466,
+    52886954,
+    53585806,
+    53735766,
+    54604645,
+    54665102,
+    54863943,
+    54950968,
+    55626508,
+    56536713,
+    56819526,
+    57314565,
+    57562425,
+    57659328,
+    58079748,
+    58488662,
+    59959886,
+    60118463,
+    60478395,
+    60526507,
+    60941570,
+    61569057,
+    61899420,
+    62180034,
+    62407323,
+    63723408,
+    63835226,
+    64470764,
+    66031589,
+    66444844,
+    66495325,
+    66550287,
+    67707471
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 47797468,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 48011989,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 48780093,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 48783674,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 48864866,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 49070043,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 49081496,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 49919758,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 50525601,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 50879505,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 83787243,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 83815385,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 83979176,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 84101166,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 84141398,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 84715367,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 84793771,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    }
+  ],
+  "generated_at_iso": "2026-02-27T20:01:09.751Z"
+}

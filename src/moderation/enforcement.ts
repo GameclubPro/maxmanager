@@ -5,6 +5,7 @@ import { BotLogger } from '../services/logger';
 import { computeBotMessageDeleteAt, extractMessageId } from '../services/bot-message-autodelete';
 import { hoursToMs } from '../utils/time';
 import { AntiBotAssessment } from './anti-bot';
+import { NightQuietHoursWindow } from './night-quiet-hours';
 
 interface ViolationContext {
   chatId: number;
@@ -29,6 +30,7 @@ const ANTI_BOT_MUTE_HOURS = 6;
 const REPEATED_MUTE_WINDOW_MS = 24 * 60 * 60 * 1000;
 const REPEATED_MUTE_AUTO_REMOVE_THRESHOLD = 2;
 const REPEATED_MUTE_REASON = 'mute_repeat_24h';
+const NIGHT_QUIET_REASON = 'night_quiet_hours';
 const PRICE_CHAT_BUTTON_TEXT = 'Прайс';
 const PRICE_CHAT_BUTTON_URL = 'https://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o';
 
@@ -352,6 +354,59 @@ export class EnforcementService {
     this.recordAndLog(args.chatId, args.userId, 'delete_message', 'quota', {
       currentCount,
       limit,
+    });
+  }
+
+  async enforceNightQuietHoursViolation(
+    ctx: Context,
+    args: ViolationContext,
+    quietWindow: NightQuietHoursWindow,
+  ): Promise<void> {
+    await this.deleteMessageSafe(ctx, args.messageId);
+
+    const priorViolations = this.repos.moderationActions.countByReasonSince(
+      args.chatId,
+      args.userId,
+      NIGHT_QUIET_REASON,
+      quietWindow.windowStartTs,
+    );
+    const violationLevel = priorViolations + 1;
+
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', NIGHT_QUIET_REASON, {
+      violationLevel,
+      timezone: quietWindow.timezone,
+      localHour: quietWindow.localHour,
+      windowStartTs: quietWindow.windowStartTs,
+      windowEndTs: quietWindow.windowEndTs,
+    });
+
+    if (violationLevel === 1) {
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'чат закрыт на ночь (23:00-07:00 по местному времени). Следующее сообщение ночью приведет к тихому муту до открытия.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+      return;
+    }
+
+    this.repos.restrictions.upsert(args.chatId, args.userId, 'mute', quietWindow.windowEndTs);
+
+    const muteHoursLeft = Math.max(0, (quietWindow.windowEndTs - Date.now()) / (60 * 60 * 1000));
+    this.recordAndLog(args.chatId, args.userId, 'mute', NIGHT_QUIET_REASON, {
+      violationLevel,
+      timezone: quietWindow.timezone,
+      localHour: quietWindow.localHour,
+      untilTs: quietWindow.windowEndTs,
+      muteHours: Number(muteHoursLeft.toFixed(2)),
+      windowStartTs: quietWindow.windowStartTs,
+      windowEndTs: quietWindow.windowEndTs,
+      userName: this.resolveDisplayName(args.userName, args.userId),
     });
   }
 

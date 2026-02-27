@@ -8,6 +8,7 @@ import { toDayKey } from '../utils/time';
 import { getForbiddenLinks } from './link-detector';
 import { isPhotoMessage } from './photo-detector';
 import { EnforcementService } from './enforcement';
+import { resolveNightQuietHoursWindow } from './night-quiet-hours';
 import { isQuotaExceeded } from './quota';
 import { isSpamTriggered } from './spam';
 import { AntiBotRiskScorer } from './anti-bot';
@@ -193,6 +194,18 @@ export class ModerationEngine {
         userId,
         error: error instanceof Error ? error.message : String(error),
       });
+    }
+
+    if (chatType === 'chat') {
+      const nightQuietHoursWindow = resolveNightQuietHoursWindow(chatId, nowTs);
+      if (nightQuietHoursWindow) {
+        await this.enforcement.enforceNightQuietHoursViolation(
+          ctx,
+          { chatId, userId, userName, messageId },
+          nightQuietHoursWindow,
+        );
+        return;
+      }
     }
 
     let whitelistDomains: string[] = [];

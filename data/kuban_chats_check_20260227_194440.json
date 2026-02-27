@@ -1,0 +1,335 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-27T19:44:40.521Z",
+  "bot": {
+    "user_id": 213352639,
+    "username": "id613002203036_3_bot",
+    "name": "Чат Помощник"
+  },
+  "all_chats_visible_to_bot": 191,
+  "pages": 2,
+  "filter": "(кубан|kuban|краснодар|краснодарск|краснодарский край|новороссийск|сочи|анапа|геленджик|армавир|туапсе|ейск|тимашевск|кропоткин|славянск|крымск|белореченск|лабинск|кореновск|темрюк|горячий\\s*ключ)",
+  "kuban_chats_count": 40,
+  "kuban_chats": [
+    {
+      "chat_id": -71456678709255,
+      "type": "chat",
+      "status": "active",
+      "title": "Кубань Объявления | Новости",
+      "participants_count": 4527,
+      "link": null
+    },
+    {
+      "chat_id": -70869212809928,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 3090,
+      "link": "https://max.ru/join/YwRNUu5xqLBCkpnJvofOu5gpi-k72zM-XTQXTs5q7no"
+    },
+    {
+      "chat_id": -69067549505002,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодар Объявления | Новости",
+      "participants_count": 2892,
+      "link": "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM"
+    },
+    {
+      "chat_id": -71489737820167,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейск Объявления | Новости",
+      "participants_count": 1650,
+      "link": null
+    },
+    {
+      "chat_id": -71456683034631,
+      "type": "chat",
+      "status": "active",
+      "title": "Новороссийск Объявления | Новости",
+      "participants_count": 1594,
+      "link": null
+    },
+    {
+      "chat_id": -69167097140543,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "participants_count": 1435,
+      "link": "https://max.ru/join/O6YnA01ED3LW3DjdVPsfivt8AdViZFbepxKmmHHwC0E"
+    },
+    {
+      "chat_id": -68081225258303,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "participants_count": 1425,
+      "link": "https://max.ru/join/IravQf-XmMrwncDvfGTANXgiHD5p5hJ3oYAAbMea0_8"
+    },
+    {
+      "chat_id": -69167372064063,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "participants_count": 1041,
+      "link": "https://max.ru/join/Y4RDxgbxFuqw_2_HH273eSsst2jSCi4qN5fg364_r6I"
+    },
+    {
+      "chat_id": -68100891214071,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 979,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ"
+    },
+    {
+      "chat_id": -69525922895314,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | ЕЙСК",
+      "participants_count": 689,
+      "link": "https://max.ru/join/e06sBAY1exeHeo1MBcs8K76aAZz5bRmx_gDoY9NBi9I"
+    },
+    {
+      "chat_id": -70808431293915,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 632,
+      "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28"
+    },
+    {
+      "chat_id": -71449952971431,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Ейск",
+      "participants_count": 490,
+      "link": "https://max.ru/join/XbSNlfuhmnctoTtEKIYW6383IwK3olwGDmtg04vbSk4"
+    },
+    {
+      "chat_id": -70290884116553,
+      "type": "chat",
+      "status": "active",
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "participants_count": 470,
+      "link": "https://max.ru/join/Cw6XFyL-PSbjryoRx-ICfGmc5JWsiaYpIi5wJO45udM"
+    },
+    {
+      "chat_id": -69128643766909,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодар объявления",
+      "participants_count": 457,
+      "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY"
+    },
+    {
+      "chat_id": -70219090392413,
+      "type": "chat",
+      "status": "active",
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "participants_count": 445,
+      "link": "https://max.ru/join/LffwcC3_wu9kWuQcxbJ5mHuYEGeayHr3SPKsNOtns90"
+    },
+    {
+      "chat_id": -68531970343138,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка ✅Ейск и ейский район",
+      "participants_count": 427,
+      "link": "https://max.ru/join/78xOZZPYWs80d7UpeaSfOSlKE1hc5jhTIUyhSRo0cHk"
+    },
+    {
+      "chat_id": -68774665262585,
+      "type": "chat",
+      "status": "active",
+      "title": "123. Рынок.Ейск и +300км . Объявления для всего и для всех.",
+      "participants_count": 415,
+      "link": "https://max.ru/join/eTk0FWF72IL009-zwW4vDQ2n0e3uAnaMD3TKPzHeSkk"
+    },
+    {
+      "chat_id": -68847757148269,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейск(Барахолка)",
+      "participants_count": 405,
+      "link": "https://max.ru/join/e9s4XB_k_O5B03ZgGanVv1FPFuUinM0Tb66ytng5Bfw"
+    },
+    {
+      "chat_id": -68834970315332,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Ейск , Щербиновий район",
+      "participants_count": 375,
+      "link": "https://max.ru/join/mQU1Q4r4ZcIE5G7ureyHqYBuXh1CKyNd3FIK26wbSOM"
+    },
+    {
+      "chat_id": -69668861596994,
+      "type": "chat",
+      "status": "active",
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "participants_count": 351,
+      "link": "https://max.ru/join/pjHLZ7Eugmd13EkiOnlYbh0ShkrifZW_6GT5WzUKmQ8"
+    },
+    {
+      "chat_id": -68841055952945,
+      "type": "chat",
+      "status": "active",
+      "title": "Авито Щербиновский и Ейский район",
+      "participants_count": 310,
+      "link": "https://max.ru/join/eTHl3MlMWqV3ZaoD1mOMeraEmIjDb8_7v73auKQC8GY"
+    },
+    {
+      "chat_id": -71489685325831,
+      "type": "chat",
+      "status": "active",
+      "title": "Анапа Объявление | Новости",
+      "participants_count": 277,
+      "link": null
+    },
+    {
+      "chat_id": -68835995164676,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Ейск",
+      "participants_count": 261,
+      "link": "https://max.ru/join/zKPtecFWaLjuauDHnX-YPt9YW1A1nADWsIAXgxiPOwU"
+    },
+    {
+      "chat_id": -70219438716253,
+      "type": "chat",
+      "status": "active",
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "participants_count": 239,
+      "link": "https://max.ru/join/JUwxHGRTnZhec1Qwwv4F_0INlPE58l8kVbOkWLiTo2M"
+    },
+    {
+      "chat_id": -70117513166933,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "participants_count": 221,
+      "link": "https://max.ru/join/yK4zMwhEhc2RobCBKavqqvzoz0vbiiKcqnZDlHEFgOw"
+    },
+    {
+      "chat_id": -70481754682717,
+      "type": "chat",
+      "status": "active",
+      "title": "03/Белореченск",
+      "participants_count": 184,
+      "link": "https://max.ru/join/GhDtmj-JyP916ZfC9S0TmGjSB0qkxwDf3yqxpNKAScU"
+    },
+    {
+      "chat_id": -70847853010993,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолочка Анапа",
+      "participants_count": 173,
+      "link": "https://max.ru/join/xgzAcX1aI8YsmAqHcj3SsHS6VPZtu79xKN02WN64jyE"
+    },
+    {
+      "chat_id": -69505896431686,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА КРАСНОАРМЕЙСКИЙ РАЙОН г.Волгоград",
+      "participants_count": 146,
+      "link": "https://max.ru/join/fG_D0rQvVl-vjsZ4vcmu-BXZbtsqUpkqcpi99y8dyzc"
+    },
+    {
+      "chat_id": -68881312937315,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+      "participants_count": 113,
+      "link": "https://max.ru/join/bBSUcPborguq45KIIIJti25MAheYSaiapm2r71fwUUI"
+    },
+    {
+      "chat_id": -68840928616497,
+      "type": "chat",
+      "status": "active",
+      "title": "*Реклама Ейск*",
+      "participants_count": 110,
+      "link": "https://max.ru/join/0YvwGpAenGKIpT5mF5mYwmcRyqA4ACN_wO5Vf_OzEKw"
+    },
+    {
+      "chat_id": -69541859227108,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейская ярмарка",
+      "participants_count": 104,
+      "link": "https://max.ru/join/kpX3rMPtVUhusxp8Li4zd7PPvdtpKdjkqQ-cwoZz4x0"
+    },
+    {
+      "chat_id": -70704271488349,
+      "type": "chat",
+      "status": "active",
+      "title": "06/Анапа",
+      "participants_count": 96,
+      "link": "https://max.ru/join/07OnQRfTPTLBsW5v5Ts5kBkQFG8KlvJRJAEllLD6EWc"
+    },
+    {
+      "chat_id": -71174925623345,
+      "type": "chat",
+      "status": "active",
+      "title": "Авторынок  Краснодарский край",
+      "participants_count": 91,
+      "link": "https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0"
+    },
+    {
+      "chat_id": -70087825875083,
+      "type": "chat",
+      "status": "active",
+      "title": "ЕЙСК/НОВОСТИ/ОБЪЯВЛЕНИЯ",
+      "participants_count": 85,
+      "link": "https://max.ru/join/7cKka2_C-Ua6DOg2C3q1_7GqimFRLuLK7XiJsAXVE34"
+    },
+    {
+      "chat_id": -71047477567537,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейск ,сниму ,сдам ,арендую жилье.",
+      "participants_count": 72,
+      "link": "https://max.ru/join/zv7FYssOln0XpWMUkIkKYrHoqEIY1sGLz1m9ELdeHfE"
+    },
+    {
+      "chat_id": -71357769162801,
+      "type": "chat",
+      "status": "active",
+      "title": "Ярмарка Кубани",
+      "participants_count": 65,
+      "link": "https://max.ru/join/HZy7_Hv8BKJbtZRM3e8VF1ksrwgyCNkH0SZOOTY8MeU"
+    },
+    {
+      "chat_id": -71045154657746,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Новости • Общение",
+      "participants_count": 46,
+      "link": "https://max.ru/join/OsUmIUSeKRSF9iM7A20v97YYAgpL5GyoYvw0ELRPZUk"
+    },
+    {
+      "chat_id": -71045166650834,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Куплю • Продам",
+      "participants_count": 39,
+      "link": "https://max.ru/join/-bkdKwUqet8mZYvzIzNcqZ2HtpZ7yeX1wKVG7Of6PJ4"
+    },
+    {
+      "chat_id": -71045173663186,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Работа • Вакансии",
+      "participants_count": 24,
+      "link": "https://max.ru/join/0BZYT2AItZ-cpPMfCmFA1KpxmLWsWLlmocthsMP_4ww"
+    },
+    {
+      "chat_id": -71144372019249,
+      "type": "chat",
+      "status": "active",
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "participants_count": 17,
+      "link": "https://max.ru/join/F29pGIXn_Nr_c23Z3_1X4BrLoD7L21Ypd_F6gDb0xOw"
+    }
+  ]
+}

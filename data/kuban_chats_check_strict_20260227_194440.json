@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-27T19:44:40.521Z",
+  "source_file": "data/kuban_chats_check_20260227_194440.json",
+  "filter": "(кубан|kuban|краснодар|краснодарск)",
+  "strict_count": 12,
+  "strict_chats": [
+    {
+      "chat_id": -71456678709255,
+      "type": "chat",
+      "status": "active",
+      "title": "Кубань Объявления | Новости",
+      "participants_count": 4527,
+      "link": null
+    },
+    {
+      "chat_id": -69067549505002,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодар Объявления | Новости",
+      "participants_count": 2892,
+      "link": "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM"
+    },
+    {
+      "chat_id": -69167097140543,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "participants_count": 1435,
+      "link": "https://max.ru/join/O6YnA01ED3LW3DjdVPsfivt8AdViZFbepxKmmHHwC0E"
+    },
+    {
+      "chat_id": -68081225258303,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "participants_count": 1425,
+      "link": "https://max.ru/join/IravQf-XmMrwncDvfGTANXgiHD5p5hJ3oYAAbMea0_8"
+    },
+    {
+      "chat_id": -69167372064063,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "participants_count": 1041,
+      "link": "https://max.ru/join/Y4RDxgbxFuqw_2_HH273eSsst2jSCi4qN5fg364_r6I"
+    },
+    {
+      "chat_id": -68100891214071,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 979,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ"
+    },
+    {
+      "chat_id": -70808431293915,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 632,
+      "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28"
+    },
+    {
+      "chat_id": -69128643766909,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодар объявления",
+      "participants_count": 457,
+      "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY"
+    },
+    {
+      "chat_id": -70219090392413,
+      "type": "chat",
+      "status": "active",
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "participants_count": 445,
+      "link": "https://max.ru/join/LffwcC3_wu9kWuQcxbJ5mHuYEGeayHr3SPKsNOtns90"
+    },
+    {
+      "chat_id": -70219438716253,
+      "type": "chat",
+      "status": "active",
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "participants_count": 239,
+      "link": "https://max.ru/join/JUwxHGRTnZhec1Qwwv4F_0INlPE58l8kVbOkWLiTo2M"
+    },
+    {
+      "chat_id": -71174925623345,
+      "type": "chat",
+      "status": "active",
+      "title": "Авторынок  Краснодарский край",
+      "participants_count": 91,
+      "link": "https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0"
+    },
+    {
+      "chat_id": -71357769162801,
+      "type": "chat",
+      "status": "active",
+      "title": "Ярмарка Кубани",
+      "participants_count": 65,
+      "link": "https://max.ru/join/HZy7_Hv8BKJbtZRM3e8VF1ksrwgyCNkH0SZOOTY8MeU"
+    }
+  ]
+}

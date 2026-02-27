@@ -1,0 +1,408 @@
+{
+  "checked_at": "2026-02-27T21:16:58.212Z",
+  "bot_user_id": 213352639,
+  "total_chats_seen": 198,
+  "admin_chats_count": 24,
+  "admin_chats": [
+    {
+      "chat_id": -69049244448234,
+      "title": "Ростов-на-Дону Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "read_all_messages",
+        "change_chat_info",
+        "pin_message",
+        "edit_link",
+        "write",
+        "add_admins",
+        "can_call",
+        "add_remove_members"
+      ]
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "add_admins",
+        "change_chat_info",
+        "pin_message",
+        "read_all_messages",
+        "can_call",
+        "add_remove_members",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71307153924250,
+      "title": "Барахолка Ангарск",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "can_call",
+        "add_remove_members",
+        "read_all_messages",
+        "change_chat_info",
+        "write"
+      ]
+    },
+    {
+      "chat_id": -71313986483690,
+      "title": "Волгоград Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "change_chat_info",
+        "can_call",
+        "pin_message",
+        "write",
+        "add_remove_members",
+        "add_admins",
+        "read_all_messages"
+      ]
+    },
+    {
+      "chat_id": -71336283338218,
+      "title": "Родионовка Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "can_call",
+        "pin_message",
+        "add_admins",
+        "write",
+        "read_all_messages",
+        "add_remove_members",
+        "change_chat_info",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71420429305863,
+      "title": "Ter",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "can_call",
+        "pin_message",
+        "add_remove_members",
+        "read_all_messages",
+        "write",
+        "change_chat_info",
+        "add_admins"
+      ]
+    },
+    {
+      "chat_id": -71435074045959,
+      "title": "Hgg",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "add_remove_members",
+        "read_all_messages",
+        "change_chat_info",
+        "add_admins",
+        "can_call",
+        "edit_link",
+        "write",
+        "pin_message"
+      ]
+    },
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "change_chat_info",
+        "can_call",
+        "pin_message",
+        "add_remove_members",
+        "add_admins",
+        "edit_link",
+        "read_all_messages"
+      ]
+    },
+    {
+      "chat_id": -71456471431277,
+      "title": "Казань Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "can_call",
+        "add_remove_members",
+        "write",
+        "change_chat_info",
+        "read_all_messages",
+        "add_admins",
+        "pin_message"
+      ]
+    },
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "add_admins",
+        "pin_message",
+        "change_chat_info",
+        "edit_link",
+        "can_call",
+        "read_all_messages",
+        "write",
+        "add_remove_members"
+      ]
+    },
+    {
+      "chat_id": -71456680806407,
+      "title": "Иркутск Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "change_chat_info",
+        "can_call",
+        "pin_message",
+        "write",
+        "add_remove_members",
+        "add_admins",
+        "read_all_messages"
+      ]
+    },
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "add_remove_members",
+        "read_all_messages",
+        "can_call",
+        "change_chat_info",
+        "write",
+        "add_admins",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71481441617927,
+      "title": "Бан",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "add_admins",
+        "write",
+        "read_all_messages",
+        "change_chat_info",
+        "add_remove_members",
+        "can_call",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71489685325831,
+      "title": "Анапа Объявление | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "change_chat_info",
+        "add_remove_members",
+        "read_all_messages",
+        "pin_message",
+        "can_call",
+        "add_admins",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71489688733703,
+      "title": "Ставрополь Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "add_admins",
+        "edit_link",
+        "change_chat_info",
+        "read_all_messages",
+        "pin_message",
+        "write",
+        "can_call",
+        "add_remove_members"
+      ]
+    },
+    {
+      "chat_id": -71489692010503,
+      "title": "Екатеринбург Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "add_admins",
+        "write",
+        "read_all_messages",
+        "change_chat_info",
+        "add_remove_members",
+        "can_call",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71489737820167,
+      "title": "Ейск Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "can_call",
+        "add_remove_members",
+        "read_all_messages",
+        "change_chat_info",
+        "write"
+      ]
+    },
+    {
+      "chat_id": -71489753942023,
+      "title": "Новошахтинск Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "can_call",
+        "pin_message",
+        "add_remove_members",
+        "read_all_messages",
+        "write",
+        "change_chat_info",
+        "edit_link",
+        "add_admins"
+      ]
+    },
+    {
+      "chat_id": -71489818560519,
+      "title": "Чита Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "can_call",
+        "add_remove_members",
+        "read_all_messages",
+        "change_chat_info",
+        "edit_link",
+        "add_admins",
+        "write"
+      ]
+    },
+    {
+      "chat_id": -71505990998629,
+      "title": "Хрень",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "can_call",
+        "pin_message",
+        "write",
+        "read_all_messages",
+        "add_remove_members",
+        "change_chat_info"
+      ]
+    },
+    {
+      "chat_id": -71506814142471,
+      "title": "Хабаровск Объявления |  Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "change_chat_info",
+        "add_admins",
+        "add_remove_members",
+        "read_all_messages",
+        "pin_message",
+        "edit_link",
+        "can_call"
+      ]
+    },
+    {
+      "chat_id": -71506932434951,
+      "title": "Красноярск Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "pin_message",
+        "add_admins",
+        "write",
+        "read_all_messages",
+        "change_chat_info",
+        "add_remove_members",
+        "can_call",
+        "edit_link"
+      ]
+    },
+    {
+      "chat_id": -71520449562631,
+      "title": "Тюмень Объявления | Новости",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "change_chat_info",
+        "can_call",
+        "pin_message",
+        "add_remove_members",
+        "add_admins",
+        "edit_link",
+        "read_all_messages"
+      ]
+    },
+    {
+      "chat_id": -71525320394759,
+      "title": "Волгодонск Объявления | Объявления",
+      "type": "chat",
+      "is_owner": false,
+      "is_admin": true,
+      "permissions": [
+        "write",
+        "change_chat_info",
+        "can_call",
+        "pin_message",
+        "add_remove_members",
+        "add_admins",
+        "edit_link",
+        "read_all_messages"
+      ]
+    }
+  ],
+  "error_count": 0,
+  "errors": []
+}

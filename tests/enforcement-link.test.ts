@@ -158,6 +158,72 @@ describe('enforcement link violations', () => {
     db.close();
   });
 
+  it('in night quiet mode sends one explanation, then applies silent mute until opening', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras, deletedMessages, kickedUserIds } = makeContext();
+
+    const nowTs = Date.parse('2026-02-27T21:10:00.000Z');
+    const nowSpy = vi.spyOn(Date, 'now').mockReturnValue(nowTs);
+    const quietWindow = {
+      timezone: 'Europe/Moscow',
+      localHour: 0,
+      windowStartTs: Date.parse('2026-02-27T20:00:00.000Z'),
+      windowEndTs: Date.parse('2026-02-28T04:00:00.000Z'),
+    };
+
+    await enforcement.enforceNightQuietHoursViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'night-1',
+    }, quietWindow);
+
+    await enforcement.enforceNightQuietHoursViolation(ctx, {
+      chatId: 10,
+      userId: 20,
+      userName: 'Иван',
+      messageId: 'night-2',
+    }, quietWindow);
+
+    expect(deletedMessages).toEqual(['night-1', 'night-2']);
+    expect(replies).toHaveLength(1);
+    expect(replies[0]).toContain('«Иван», чат закрыт на ночь');
+    expect(replyExtras[0]).toEqual({ notify: false });
+    expect(kickedUserIds).toHaveLength(0);
+
+    const activeRestriction = repos.restrictions.getActive(10, 20, nowTs);
+    expect(activeRestriction?.type).toBe('mute');
+    expect(activeRestriction?.untilTs).toBe(quietWindow.windowEndTs);
+
+    const nightDeletes = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'delete_message',
+      'night_quiet_hours',
+      quietWindow.windowStartTs,
+    );
+    const nightMutes = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'mute',
+      'night_quiet_hours',
+      quietWindow.windowStartTs,
+    );
+    expect(nightDeletes).toBe(2);
+    expect(nightMutes).toBe(1);
+
+    nowSpy.mockRestore();
+    db.close();
+  });
+
   it('temporarily kicks user for 3 hours after more than 5 messages during mute', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
