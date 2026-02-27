@@ -13,7 +13,8 @@
     "local:push": "bash scripts/local-commit-push.sh",
     "vps:deploy": "bash scripts/vps-deploy.sh",
     "commands:install": "bash scripts/install-global-commands.sh",
-    "members:add": "node scripts/add-chat-members-2026.js"
+    "members:add": "node scripts/add-chat-members-2026.js",
+    "history:reset": "node scripts/reset-user-history.js"
   },
   "engines": {
     "node": ">=22"
