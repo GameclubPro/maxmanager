@@ -30,10 +30,16 @@ export class BotLogger {
   async moderation(record: ModerationActionRecord): Promise<void> {
     const shouldSendToChat = CHAT_NOTIFICATION_ACTIONS.has(record.action);
     const userLabel = this.resolveUserLabel(record);
+    const detail = this.resolveModerationDetail(record);
+    const message = [
+      `[moderation] chat=${record.chatId} user=${userLabel} action=${record.action} reason=${record.reason}`,
+      detail ? `detail=${detail}` : null,
+    ].filter(Boolean).join(' ');
+
     await this.emit(
       {
         level: 'info',
-        message: `[moderation] chat=${record.chatId} user=${userLabel} action=${record.action} reason=${record.reason}`,
+        message,
         meta: record.meta,
       },
       shouldSendToChat,
@@ -85,5 +91,84 @@ export class BotLogger {
     }
 
     return String(record.userId);
+  }
+
+  private resolveModerationDetail(record: ModerationActionRecord): string | undefined {
+    switch (record.action) {
+      case 'mute':
+        return this.resolveMuteDetail(record.reason, record.meta);
+      case 'ban':
+        return this.resolveBanDetail(record.meta);
+      case 'ban_fallback':
+        return this.resolveBanFallbackDetail(record.meta);
+      case 'kick_temp':
+        return this.resolveKickTempDetail(record.meta);
+      case 'kick_auto':
+        return this.resolveKickAutoDetail(record.meta);
+      default:
+        return undefined;
+    }
+  }
+
+  private resolveMuteDetail(reason: string, meta: ModerationActionRecord['meta']): string {
+    const muteHours = this.readNumber(meta, 'muteHours');
+    if (typeof muteHours === 'number') {
+      return `мут на ${muteHours} ч`;
+    }
+
+    if (reason === 'link') return 'мут на 3 ч';
+    if (reason === 'photo_quota') return 'мут на 3 ч';
+    if (reason === 'anti_bot') return 'мут на 6 ч';
+    if (reason === 'spam') return 'мут за флуд';
+
+    return 'мут';
+  }
+
+  private resolveBanDetail(meta: ModerationActionRecord['meta']): string {
+    const banHours = this.readNumber(meta, 'banHours');
+    if (typeof banHours === 'number') {
+      return `исключение из чата с блокировкой на ${banHours} ч`;
+    }
+
+    return 'исключение из чата с блокировкой';
+  }
+
+  private resolveBanFallbackDetail(meta: ModerationActionRecord['meta']): string {
+    const banHours = this.readNumber(meta, 'banHours');
+    if (typeof banHours === 'number') {
+      return `включен fallback-бан на ${banHours} ч`;
+    }
+
+    return 'включен fallback-бан';
+  }
+
+  private resolveKickTempDetail(meta: ModerationActionRecord['meta']): string {
+    const kickHours = this.readNumber(meta, 'kickHours');
+    if (typeof kickHours === 'number') {
+      return `временное исключение из чата на ${kickHours} ч`;
+    }
+
+    return 'временное исключение из чата';
+  }
+
+  private resolveKickAutoDetail(meta: ModerationActionRecord['meta']): string {
+    const windowHours = this.readNumber(meta, 'windowHours');
+    const threshold = this.readNumber(meta, 'threshold');
+    if (typeof windowHours === 'number' && typeof threshold === 'number') {
+      return `автоисключение из чата: ${threshold} мута за ${windowHours} ч`;
+    }
+
+    return 'автоисключение из чата';
+  }
+
+  private readNumber(meta: ModerationActionRecord['meta'], key: string): number | undefined {
+    if (!meta || typeof meta !== 'object') {
+      return undefined;
+    }
+
+    const value = (meta as Record<string, unknown>)[key];
+    return typeof value === 'number' && Number.isFinite(value)
+      ? value
+      : undefined;
   }
 }

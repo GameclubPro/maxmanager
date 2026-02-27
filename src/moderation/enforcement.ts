@@ -333,6 +333,7 @@ export class EnforcementService {
       await this.recordMuteAndHandleRepeatRemoval(ctx, args, 'spam', {
         level,
         untilTs,
+        muteHours: this.config.muteHours,
         messageCountInWindow,
       });
       return;
@@ -359,6 +360,7 @@ export class EnforcementService {
       this.recordAndLog(args.chatId, args.userId, 'ban', 'spam', {
         level,
         untilTs: banUntilTs,
+        banHours: this.config.banHours,
         messageCountInWindow,
         userName: this.resolveDisplayName(args.userName, args.userId),
       });
@@ -380,6 +382,7 @@ export class EnforcementService {
       this.recordAndLog(args.chatId, args.userId, 'ban_fallback', 'spam', {
         level,
         untilTs: banUntilTs,
+        banHours: this.config.banHours,
         messageCountInWindow,
         userName: this.resolveDisplayName(args.userName, args.userId),
         error: error instanceof Error ? error.message : String(error),
