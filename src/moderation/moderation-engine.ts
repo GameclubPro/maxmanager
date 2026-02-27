@@ -13,9 +13,12 @@ import { isSpamTriggered } from './spam';
 import { AntiBotRiskScorer } from './anti-bot';
 
 const PHOTO_LIMIT_WINDOW_MS = 60 * 60 * 1000;
-const DUPLICATE_WINDOW_MS = 24 * 60 * 60 * 1000;
+const DUPLICATE_WINDOW_MS = 12 * 60 * 60 * 1000;
 const DUPLICATE_PURGE_INTERVAL_MS = 5 * 60 * 1000;
-const DUPLICATE_SIGNATURE_MIN_LENGTH = 8;
+const DUPLICATE_SIGNATURE_MIN_LENGTH = 12;
+const DUPLICATE_SIGNATURE_TEXT_MAX_LENGTH = 240;
+const DUPLICATE_SIGNATURE_FORWARD_MAX_LENGTH = 360;
+const DUPLICATE_SIGNATURE_MAX_LENGTH = 640;
 const GLOBAL_SPAMMER_WINDOW_MS = 72 * 60 * 60 * 1000;
 const GLOBAL_SPAMMER_MIN_SEVERE_ACTIONS = 1;
 const GLOBAL_SPAMMER_MIN_MUTES = 2;
@@ -341,21 +344,73 @@ export class ModerationEngine {
       .join(' ')
       .trim();
 
-    if (!combinedText) {
+    const signatureParts: string[] = [];
+    if (combinedText) {
+      const normalized = combinedText
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s]+/gu, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      if (normalized.length >= DUPLICATE_SIGNATURE_MIN_LENGTH) {
+        signatureParts.push(`txt:${normalized.slice(0, DUPLICATE_SIGNATURE_TEXT_MAX_LENGTH)}`);
+      }
+    }
+
+    const forwardedSignature = this.buildForwardedPayloadSignature(message);
+    if (forwardedSignature) {
+      signatureParts.push(`fwd:${forwardedSignature}`);
+    }
+
+    if (signatureParts.length === 0) {
       return null;
     }
 
-    const normalized = combinedText
-      .toLowerCase()
-      .replace(/[^\p{L}\p{N}\s]+/gu, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
+    return signatureParts.join('|').slice(0, DUPLICATE_SIGNATURE_MAX_LENGTH);
+  }
 
-    if (normalized.length < DUPLICATE_SIGNATURE_MIN_LENGTH) {
+  private buildForwardedPayloadSignature(message: IncomingMessage): string | null {
+    if (message.link?.type !== 'forward' || !message.link.message) {
       return null;
     }
 
-    return normalized.slice(0, 240);
+    const payload = {
+      text: message.link.message.text ?? null,
+      attachments: message.link.message.attachments ?? null,
+      markup: message.link.message.markup ?? null,
+    };
+
+    const serialized = this.stableSerialize(payload);
+    if (!serialized) {
+      return null;
+    }
+
+    return serialized.slice(0, DUPLICATE_SIGNATURE_FORWARD_MAX_LENGTH);
+  }
+
+  private stableSerialize(value: unknown): string {
+    if (value === null) {
+      return 'null';
+    }
+
+    const valueType = typeof value;
+    if (valueType === 'string' || valueType === 'number' || valueType === 'boolean') {
+      return JSON.stringify(value);
+    }
+
+    if (Array.isArray(value)) {
+      return `[${value.map((item) => this.stableSerialize(item)).join(',')}]`;
+    }
+
+    if (valueType === 'object') {
+      const entries = Object.entries(value as Record<string, unknown>)
+        .filter(([, item]) => typeof item !== 'undefined')
+        .sort(([a], [b]) => a.localeCompare(b));
+
+      return `{${entries.map(([key, item]) => `${JSON.stringify(key)}:${this.stableSerialize(item)}`).join(',')}}`;
+    }
+
+    return JSON.stringify(String(value));
   }
 
   private purgeDuplicateSignatures(nowTs: number): void {

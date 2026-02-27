@@ -292,14 +292,14 @@ describe('enforcement link violations', () => {
         messageId: 'dup-1',
       },
       {
-        windowHours: 24,
+        windowHours: 12,
         secondsSincePrevious: 45,
       },
     );
 
     expect(deletedMessages).toEqual(['dup-1']);
     expect(replies).toHaveLength(1);
-    expect(replies[0]).toBe('«Иван», дубликат удален. Одно и то же сообщение можно отправлять не чаще 1 раза в 24 часа.');
+    expect(replies[0]).toBe('«Иван», дубликат удален. Одно и то же сообщение можно отправлять не чаще 1 раза в 12 часов.');
     expect(replyExtras[0]).toEqual({ notify: false });
 
     const duplicateDeletes = repos.moderationActions.countByActionAndReasonSince(
@@ -322,7 +322,7 @@ describe('enforcement link violations', () => {
     db.close();
   });
 
-  it('escalates duplicates in 24h: explanation, warning, then kick', async () => {
+  it('escalates duplicates in 12h: explanation, warning, then kick', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
     const logger = {
@@ -353,8 +353,8 @@ describe('enforcement link violations', () => {
     expect(deletedMessages).toEqual(['dup-e1', 'dup-e2', 'dup-e3']);
     expect(replies).toHaveLength(3);
     expect(replies[0]).toContain('«Иван», дубликат удален.');
-    expect(replies[1]).toContain('«Иван», предупреждение: повторный дубликат за 24 часа.');
-    expect(replies[2]).toContain('«Иван», вы удалены из чата: 3 дубля за 24 часа.');
+    expect(replies[1]).toContain('«Иван», предупреждение: повторный дубликат за 12 часов.');
+    expect(replies[2]).toContain('«Иван», вы удалены из чата: 3 дубля за 12 часов.');
     expect(replyExtras[0]).toEqual({ notify: false });
     expect(replyExtras[1]).toEqual({ notify: false });
     expect(replyExtras[2]).toEqual({ notify: false });

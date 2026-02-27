@@ -33,6 +33,33 @@ function makeTextMessage(mid: string, text: string, chatId: number = 100): Incom
   };
 }
 
+function makeForwardedMessage(mid: string, chatId: number = 100): IncomingMessage {
+  return {
+    sender: { user_id: 10, name: 'Иван' },
+    recipient: { chat_id: chatId, chat_type: 'chat' },
+    body: {
+      mid,
+      text: null,
+      attachments: null,
+    },
+    link: {
+      type: 'forward',
+      message: {
+        text: null,
+        attachments: [
+          {
+            type: 'image',
+            payload: {
+              photo_id: 1,
+            },
+          },
+        ],
+        markup: null,
+      },
+    },
+  };
+}
+
 function makeContext(message: IncomingMessage) {
   return {
     message,
@@ -95,7 +122,7 @@ describe('moderation engine duplicate messages', () => {
 
     expect(duplicateViolations).toHaveLength(1);
     expect(duplicateViolations[0]).toMatchObject({
-      windowHours: 24,
+      windowHours: 12,
       secondsSincePrevious: 20,
     });
     expect(duplicateViolations[0].signatureLength).toEqual(expect.any(Number));
@@ -153,10 +180,67 @@ describe('moderation engine duplicate messages', () => {
 
     expect(duplicateViolations).toHaveLength(1);
     expect(duplicateViolations[0]).toMatchObject({
-      windowHours: 24,
+      windowHours: 12,
       previousChatId: 100,
       currentChatId: 101,
       secondsSincePrevious: 15,
+    });
+
+    nowSpy.mockRestore();
+    db.close();
+  });
+
+  it('treats identical forwarded messages as duplicates', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const duplicateViolations: Array<Record<string, unknown>> = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceGlobalSpammerViolation: async () => {},
+      enforceLinkViolation: async () => {},
+      enforceTextLengthViolation: async () => {},
+      enforceDuplicateViolation: async (_ctx: unknown, _args: unknown, meta: Record<string, unknown>) => {
+        duplicateViolations.push(meta);
+      },
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const nowSpy = vi.spyOn(Date, 'now');
+    const baseTs = 1_700_000_000_000;
+
+    nowSpy.mockReturnValue(baseTs);
+    await engine.handleMessage(makeContext(makeForwardedMessage('dup-fwd-1', 100)));
+
+    nowSpy.mockReturnValue(baseTs + 10_000);
+    await engine.handleMessage(makeContext(makeForwardedMessage('dup-fwd-2', 102)));
+
+    expect(duplicateViolations).toHaveLength(1);
+    expect(duplicateViolations[0]).toMatchObject({
+      windowHours: 12,
+      previousChatId: 100,
+      currentChatId: 102,
+      secondsSincePrevious: 10,
     });
 
     nowSpy.mockRestore();
