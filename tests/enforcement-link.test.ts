@@ -271,7 +271,7 @@ describe('enforcement link violations', () => {
     db.close();
   });
 
-  it('deletes duplicate message and warns user', async () => {
+  it('deletes first duplicate message and sends explanation', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
     const logger = {
@@ -299,7 +299,7 @@ describe('enforcement link violations', () => {
 
     expect(deletedMessages).toEqual(['dup-1']);
     expect(replies).toHaveLength(1);
-    expect(replies[0]).toBe('«Иван», дубликат сообщения удален. Не отправляйте одинаковые сообщения повторно.');
+    expect(replies[0]).toBe('«Иван», дубликат удален. Одно и то же сообщение можно отправлять не чаще 1 раза в 24 часа.');
     expect(replyExtras[0]).toEqual({ notify: false });
 
     const duplicateDeletes = repos.moderationActions.countByActionAndReasonSince(
@@ -317,7 +317,71 @@ describe('enforcement link violations', () => {
       Date.now() - 60_000,
     );
     expect(duplicateDeletes).toBe(1);
+    expect(duplicateWarns).toBe(0);
+
+    db.close();
+  });
+
+  it('escalates duplicates in 24h: explanation, warning, then kick', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras, deletedMessages, kickedUserIds } = makeContext();
+
+    await enforcement.enforceDuplicateViolation(
+      ctx,
+      { chatId: 10, userId: 20, userName: 'Иван', messageId: 'dup-e1' },
+      { previousChatId: 10, currentChatId: 10 },
+    );
+    await enforcement.enforceDuplicateViolation(
+      ctx,
+      { chatId: 11, userId: 20, userName: 'Иван', messageId: 'dup-e2' },
+      { previousChatId: 10, currentChatId: 11 },
+    );
+    await enforcement.enforceDuplicateViolation(
+      ctx,
+      { chatId: 12, userId: 20, userName: 'Иван', messageId: 'dup-e3' },
+      { previousChatId: 11, currentChatId: 12 },
+    );
+
+    expect(deletedMessages).toEqual(['dup-e1', 'dup-e2', 'dup-e3']);
+    expect(replies).toHaveLength(3);
+    expect(replies[0]).toContain('«Иван», дубликат удален.');
+    expect(replies[1]).toContain('«Иван», предупреждение: повторный дубликат за 24 часа.');
+    expect(replies[2]).toContain('«Иван», вы удалены из чата: 3 дубля за 24 часа.');
+    expect(replyExtras[0]).toEqual({ notify: false });
+    expect(replyExtras[1]).toEqual({ notify: false });
+    expect(replyExtras[2]).toEqual({ notify: false });
+    expect(kickedUserIds).toEqual([20]);
+
+    const duplicateDeletes = repos.moderationActions.countByUserActionAndReasonSince(
+      20,
+      'delete_message',
+      'duplicate',
+      Date.now() - 60_000,
+    );
+    const duplicateWarns = repos.moderationActions.countByUserActionAndReasonSince(
+      20,
+      'warn',
+      'duplicate',
+      Date.now() - 60_000,
+    );
+    const duplicateKicks = repos.moderationActions.countByUserActionAndReasonSince(
+      20,
+      'kick',
+      'duplicate',
+      Date.now() - 60_000,
+    );
+
+    expect(duplicateDeletes).toBe(3);
     expect(duplicateWarns).toBe(1);
+    expect(duplicateKicks).toBe(1);
 
     db.close();
   });

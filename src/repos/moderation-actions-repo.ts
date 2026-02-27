@@ -67,4 +67,14 @@ export class ModerationActionsRepo {
 
     return row.count;
   }
+
+  countByUserActionAndReasonSince(userId: number, action: string, reason: string, sinceTs: number): number {
+    const row = this.db.prepare(`
+      SELECT COUNT(*) AS count
+      FROM moderation_actions
+      WHERE user_id = ? AND action = ? AND reason = ? AND created_at >= ?
+    `).get(userId, action, reason, sinceTs) as { count: number };
+
+    return row.count;
+  }
 }

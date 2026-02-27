@@ -18,6 +18,7 @@ function formatDate(ts: number): string {
 }
 
 const LINK_VIOLATION_WINDOW_MS = 24 * 60 * 60 * 1000;
+const DUPLICATE_VIOLATION_WINDOW_MS = 24 * 60 * 60 * 1000;
 const PHOTO_QUOTA_WINDOW_MS = 60 * 60 * 1000;
 const PHOTO_QUOTA_MAX_DELETES_BEFORE_MUTE = 5;
 const PHOTO_QUOTA_MUTE_HOURS = 3;
@@ -243,22 +244,95 @@ export class EnforcementService {
     args: ViolationContext,
     meta: Record<string, unknown>,
   ): Promise<void> {
+    const nowTs = Date.now();
+    const duplicateViolationLevel = this.repos.moderationActions.countByUserActionAndReasonSince(
+      args.userId,
+      'delete_message',
+      'duplicate',
+      nowTs - DUPLICATE_VIOLATION_WINDOW_MS,
+    ) + 1;
+
     await this.deleteMessageSafe(ctx, args.messageId);
 
-    if (this.config.noticeInChat) {
-      await this.replySafe(
-        ctx,
-        this.withUserName(
-          'дубликат сообщения удален. Не отправляйте одинаковые сообщения повторно.',
-          args.userName,
-          args.userId,
-        ),
-        { notify: false },
-      );
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'duplicate', {
+      ...meta,
+      violationLevel: duplicateViolationLevel,
+      windowHours: 24,
+    });
+
+    if (duplicateViolationLevel === 1) {
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'дубликат удален. Одно и то же сообщение можно отправлять не чаще 1 раза в 24 часа.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+      return;
     }
 
-    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'duplicate', meta);
-    this.recordAndLog(args.chatId, args.userId, 'warn', 'duplicate', meta);
+    if (duplicateViolationLevel === 2) {
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'предупреждение: повторный дубликат за 24 часа. Следующий дубль приведет к удалению из чата.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'warn', 'duplicate', {
+        ...meta,
+        violationLevel: duplicateViolationLevel,
+        windowHours: 24,
+      });
+      return;
+    }
+
+    try {
+      await this.removeChatMember(ctx, args.chatId, args.userId, false);
+
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'вы удалены из чата: 3 дубля за 24 часа.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'kick', 'duplicate', {
+        ...meta,
+        violationLevel: duplicateViolationLevel,
+        windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+      });
+    } catch (error) {
+      await this.logger.warn('Failed to kick user for repeated duplicates', {
+        chatId: args.chatId,
+        userId: args.userId,
+        violationLevel: duplicateViolationLevel,
+        error: error instanceof Error ? error.message : String(error),
+      });
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_failed', 'duplicate', {
+        ...meta,
+        violationLevel: duplicateViolationLevel,
+        windowHours: 24,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+        error: error instanceof Error ? error.message : String(error),
+      });
+    }
   }
 
   async enforceQuotaViolation(ctx: Context, args: ViolationContext, currentCount: number, limit: number): Promise<void> {
