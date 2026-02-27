@@ -160,6 +160,47 @@ describe('repositories', () => {
     db.close();
   });
 
+  it('counts moderation actions by user across chats', () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+
+    const now = Date.now();
+    repos.moderationActions.record({
+      chatId: 1,
+      userId: 77,
+      action: 'kick',
+      reason: 'link',
+    });
+    repos.moderationActions.record({
+      chatId: 2,
+      userId: 77,
+      action: 'warn',
+      reason: 'spam',
+    });
+    repos.moderationActions.record({
+      chatId: 3,
+      userId: 77,
+      action: 'warn',
+      reason: 'anti_bot',
+    });
+
+    db.db.prepare(`
+      UPDATE moderation_actions
+      SET created_at = ?
+      WHERE chat_id = ? AND user_id = ? AND action = ? AND reason = ?
+    `).run(now - hoursToMs(80), 1, 77, 'kick', 'link');
+
+    const warns72h = repos.moderationActions.countByUserActionSince(77, 'warn', now - hoursToMs(72));
+    const spam72h = repos.moderationActions.countByUserReasonSince(77, 'spam', now - hoursToMs(72));
+    const kicks72h = repos.moderationActions.countByUserActionSince(77, 'kick', now - hoursToMs(72));
+
+    expect(warns72h).toBe(2);
+    expect(spam72h).toBe(1);
+    expect(kicks72h).toBe(0);
+
+    db.close();
+  });
+
   it('queues and resolves pending rejoins', () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

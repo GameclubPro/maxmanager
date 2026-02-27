@@ -271,6 +271,57 @@ describe('enforcement link violations', () => {
     db.close();
   });
 
+  it('deletes duplicate message and warns user', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const logger = {
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+      info: async () => {},
+    } as any;
+    const enforcement = new EnforcementService(repos, config, logger);
+    const { ctx, replies, replyExtras, deletedMessages } = makeContext();
+
+    await enforcement.enforceDuplicateViolation(
+      ctx,
+      {
+        chatId: 10,
+        userId: 20,
+        userName: 'Иван',
+        messageId: 'dup-1',
+      },
+      {
+        windowHours: 24,
+        secondsSincePrevious: 45,
+      },
+    );
+
+    expect(deletedMessages).toEqual(['dup-1']);
+    expect(replies).toHaveLength(1);
+    expect(replies[0]).toBe('«Иван», дубликат сообщения удален. Не отправляйте одинаковые сообщения повторно.');
+    expect(replyExtras[0]).toEqual({ notify: false });
+
+    const duplicateDeletes = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'delete_message',
+      'duplicate',
+      Date.now() - 60_000,
+    );
+    const duplicateWarns = repos.moderationActions.countByActionAndReasonSince(
+      10,
+      20,
+      'warn',
+      'duplicate',
+      Date.now() - 60_000,
+    );
+    expect(duplicateDeletes).toBe(1);
+    expect(duplicateWarns).toBe(1);
+
+    db.close();
+  });
+
   it('auto-removes user after second mute within 24 hours', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);

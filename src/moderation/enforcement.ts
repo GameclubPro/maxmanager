@@ -197,6 +197,70 @@ export class EnforcementService {
     }
   }
 
+  async enforceGlobalSpammerViolation(
+    ctx: Context,
+    args: ViolationContext,
+    meta: Record<string, unknown>,
+  ): Promise<void> {
+    await this.deleteMessageSafe(ctx, args.messageId);
+
+    try {
+      await this.removeChatMember(ctx, args.chatId, args.userId, false);
+
+      if (this.config.noticeInChat) {
+        await this.replySafe(
+          ctx,
+          this.withUserName(
+            'вы удалены из чата: обнаружена повторяющаяся спам-активность в нескольких чатах.',
+            args.userName,
+            args.userId,
+          ),
+          { notify: false },
+        );
+      }
+
+      this.recordAndLog(args.chatId, args.userId, 'kick', 'spammer_global', {
+        ...meta,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+      });
+    } catch (error) {
+      await this.logger.warn('Failed to kick globally-known spammer', {
+        chatId: args.chatId,
+        userId: args.userId,
+        error: error instanceof Error ? error.message : String(error),
+      });
+
+      this.recordAndLog(args.chatId, args.userId, 'kick_failed', 'spammer_global', {
+        ...meta,
+        userName: this.resolveDisplayName(args.userName, args.userId),
+        error: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  async enforceDuplicateViolation(
+    ctx: Context,
+    args: ViolationContext,
+    meta: Record<string, unknown>,
+  ): Promise<void> {
+    await this.deleteMessageSafe(ctx, args.messageId);
+
+    if (this.config.noticeInChat) {
+      await this.replySafe(
+        ctx,
+        this.withUserName(
+          'дубликат сообщения удален. Не отправляйте одинаковые сообщения повторно.',
+          args.userName,
+          args.userId,
+        ),
+        { notify: false },
+      );
+    }
+
+    this.recordAndLog(args.chatId, args.userId, 'delete_message', 'duplicate', meta);
+    this.recordAndLog(args.chatId, args.userId, 'warn', 'duplicate', meta);
+  }
+
   async enforceQuotaViolation(ctx: Context, args: ViolationContext, currentCount: number, limit: number): Promise<void> {
     await this.deleteMessageSafe(ctx, args.messageId);
 
