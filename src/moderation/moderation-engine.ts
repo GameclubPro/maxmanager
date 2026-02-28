@@ -1,11 +1,11 @@
 import { Context } from '@maxhub/max-bot-api';
-import { BotConfig, ChatSetting, IncomingMessage } from '../types';
+import { BotConfig, ChatSetting, DetectedLink, IncomingMessage } from '../types';
 import { Repositories } from '../repos';
 import { AdminResolver } from '../services/admin-resolver';
 import { InMemoryIdempotencyGuard } from '../services/idempotency';
 import { BotLogger } from '../services/logger';
 import { toDayKey } from '../utils/time';
-import { getForbiddenLinks } from './link-detector';
+import { extractLinks, getForbiddenLinks } from './link-detector';
 import { isPhotoMessage } from './photo-detector';
 import { EnforcementService } from './enforcement';
 import { resolveNightQuietHoursWindow } from './night-quiet-hours';
@@ -80,6 +80,34 @@ function hasForwardedImageAttachment(message: IncomingMessage): boolean {
     const typedAttachment = attachment as { type?: unknown };
     return typedAttachment.type === 'image';
   });
+}
+
+function hasForwardedText(message: IncomingMessage): boolean {
+  if (message.link?.type !== 'forward') {
+    return false;
+  }
+
+  const linkedText = message.link.message?.text;
+  return typeof linkedText === 'string' && linkedText.trim().length > 0;
+}
+
+function getForwardedPayloadLinks(message: IncomingMessage): DetectedLink[] {
+  if (message.link?.type !== 'forward' || !message.link.message) {
+    return [];
+  }
+
+  const linkedBody = message.link.message;
+  const forwardedPayloadMessage: IncomingMessage = {
+    recipient: message.recipient,
+    body: {
+      mid: message.body.mid,
+      text: linkedBody.text ?? null,
+      attachments: linkedBody.attachments ?? null,
+      markup: linkedBody.markup ?? null,
+    },
+  };
+
+  return extractLinks(forwardedPayloadMessage);
 }
 
 export class ModerationEngine {
@@ -228,11 +256,23 @@ export class ModerationEngine {
     }
 
     const isForwardedPhoto = hasForwardedImageAttachment(message);
+    const forwardedPayloadLinks = isForwardedPhoto
+      ? getForwardedPayloadLinks(message)
+      : [];
+    const shouldForceDeleteForwardedPhotoWithLink = isForwardedPhoto
+      && hasForwardedText(message)
+      && forwardedPayloadLinks.length > 0;
 
     const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
-    if (forbiddenLinks.length > 0) {
+    if (forbiddenLinks.length > 0 || shouldForceDeleteForwardedPhotoWithLink) {
+      const linksForEnforcement = forbiddenLinks.length > 0
+        ? forbiddenLinks
+        : forwardedPayloadLinks;
+
       await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
-        forbiddenLinks,
+        forbiddenLinks: linksForEnforcement,
+        forwardedPhotoTextLink: shouldForceDeleteForwardedPhotoWithLink,
+        bypassedWhitelist: forbiddenLinks.length === 0 && shouldForceDeleteForwardedPhotoWithLink,
       });
       return;
     }

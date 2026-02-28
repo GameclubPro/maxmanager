@@ -267,4 +267,71 @@ describe('moderation engine forwarded messages', () => {
     expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'spam.example.org')).toBe(true);
     db.close();
   });
+
+  it('deletes forwarded photo with text and link even when domain is whitelisted', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.domainWhitelist.add(100, 'allowed.example.org');
+    const linkViolations: unknown[] = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async (_ctx: unknown, _args: unknown, meta: unknown) => {
+        linkViolations.push(meta);
+      },
+      enforceTextLengthViolation: async () => {},
+      enforceDuplicateViolation: async () => {},
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const message: IncomingMessage = {
+      ...makeBaseMessage('fwd-photo-whitelist-link-1'),
+      body: {
+        mid: 'fwd-photo-whitelist-link-1',
+        text: null,
+        attachments: null,
+      },
+      link: {
+        type: 'forward',
+        message: {
+          text: 'акция https://allowed.example.org/post',
+          attachments: [{ type: 'image', payload: { photo_id: 1 } }],
+          markup: null,
+        },
+      },
+    };
+
+    await engine.handleMessage(makeContext(message));
+
+    expect(linkViolations).toHaveLength(1);
+    const [firstViolation] = linkViolations as Array<{
+      forbiddenLinks?: Array<{ domain: string | null }>;
+      forwardedPhotoTextLink?: boolean;
+      bypassedWhitelist?: boolean;
+    }>;
+    expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'allowed.example.org')).toBe(true);
+    expect(firstViolation.forwardedPhotoTextLink).toBe(true);
+    expect(firstViolation.bypassedWhitelist).toBe(true);
+    db.close();
+  });
 });

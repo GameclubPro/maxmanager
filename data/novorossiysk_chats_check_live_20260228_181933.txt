@@ -1,0 +1,19 @@
+checked_at: 2026-02-28T18:19:33.536Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 286
+matched_count: 4
+active_matched_count: 4
+
+1. 💯✔️Новороссийск Купи Продай | БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ
+   chat_id=-70142481943240 status=active type=chat participants=1705
+   link=https://max.ru/join/GFn7aP9XYks9E6HSnP5FfcGX_FZ1_gjZwI7F15TbhQw
+2. Новороссийск Объявления | Новости
+   chat_id=-71456683034631 status=active type=chat participants=1567
+   link=-
+3. Новороссийск сниму, сдам, арендую жилье.
+   chat_id=-71144372019249 status=active type=chat participants=18
+   link=https://max.ru/join/F29pGIXn_Nr_c23Z3_1X4BrLoD7L21Ypd_F6gDb0xOw
+4. ОКЕАН магазин рыбы и морепродуктов
+   chat_id=-68837922534767 status=active type=chat participants=421
+   link=https://max.ru/join/pmJJNYu14upjscDYbdjDw4Mg7GTcOjFUcReUNmCeNBE
