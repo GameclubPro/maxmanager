@@ -1,11 +1,11 @@
 import { Context } from '@maxhub/max-bot-api';
-import { BotConfig, ChatSetting, DetectedLink, IncomingMessage } from '../types';
+import { BotConfig, ChatSetting, IncomingMessage } from '../types';
 import { Repositories } from '../repos';
 import { AdminResolver } from '../services/admin-resolver';
 import { InMemoryIdempotencyGuard } from '../services/idempotency';
 import { BotLogger } from '../services/logger';
 import { toDayKey } from '../utils/time';
-import { extractLinks, getForbiddenLinks } from './link-detector';
+import { extractLinks } from './link-detector';
 import { isPhotoMessage } from './photo-detector';
 import { EnforcementService } from './enforcement';
 import { resolveNightQuietHoursWindow } from './night-quiet-hours';
@@ -80,34 +80,6 @@ function hasForwardedImageAttachment(message: IncomingMessage): boolean {
     const typedAttachment = attachment as { type?: unknown };
     return typedAttachment.type === 'image';
   });
-}
-
-function hasForwardedText(message: IncomingMessage): boolean {
-  if (message.link?.type !== 'forward') {
-    return false;
-  }
-
-  const linkedText = message.link.message?.text;
-  return typeof linkedText === 'string' && linkedText.trim().length > 0;
-}
-
-function getForwardedPayloadLinks(message: IncomingMessage): DetectedLink[] {
-  if (message.link?.type !== 'forward' || !message.link.message) {
-    return [];
-  }
-
-  const linkedBody = message.link.message;
-  const forwardedPayloadMessage: IncomingMessage = {
-    recipient: message.recipient,
-    body: {
-      mid: message.body.mid,
-      text: linkedBody.text ?? null,
-      attachments: linkedBody.attachments ?? null,
-      markup: linkedBody.markup ?? null,
-    },
-  };
-
-  return extractLinks(forwardedPayloadMessage);
 }
 
 export class ModerationEngine {
@@ -237,42 +209,11 @@ export class ModerationEngine {
       }
     }
 
-    let whitelistDomains: string[] = [];
-    let whitelistError = false;
-
-    try {
-      whitelistDomains = this.repos.domainWhitelist.list(chatId);
-    } catch (error) {
-      whitelistError = true;
-      await this.logger.error('Whitelist lookup failed, fail-closed for link moderation', {
-        chatId,
-        error: error instanceof Error ? error.message : String(error),
-      });
-    }
-
-    if (whitelistError) {
-      await this.enforcement.handleCriticalFailure(ctx, { chatId, userId, userName, messageId }, 'link');
-      return;
-    }
-
     const isForwardedPhoto = hasForwardedImageAttachment(message);
-    const forwardedPayloadLinks = isForwardedPhoto
-      ? getForwardedPayloadLinks(message)
-      : [];
-    const shouldForceDeleteForwardedPhotoWithLink = isForwardedPhoto
-      && hasForwardedText(message)
-      && forwardedPayloadLinks.length > 0;
-
-    const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
-    if (forbiddenLinks.length > 0 || shouldForceDeleteForwardedPhotoWithLink) {
-      const linksForEnforcement = forbiddenLinks.length > 0
-        ? forbiddenLinks
-        : forwardedPayloadLinks;
-
+    const detectedLinks = extractLinks(message);
+    if (detectedLinks.length > 0) {
       await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
-        forbiddenLinks: linksForEnforcement,
-        forwardedPhotoTextLink: shouldForceDeleteForwardedPhotoWithLink,
-        bypassedWhitelist: forbiddenLinks.length === 0 && shouldForceDeleteForwardedPhotoWithLink,
+        forbiddenLinks: detectedLinks,
       });
       return;
     }

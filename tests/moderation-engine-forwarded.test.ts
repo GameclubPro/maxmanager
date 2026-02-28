@@ -42,6 +42,55 @@ function makeContext(message: IncomingMessage) {
 }
 
 describe('moderation engine forwarded messages', () => {
+  it('does not treat link from admin as violation', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    const linkViolations: unknown[] = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async (_ctx: unknown, _args: unknown, meta: unknown) => {
+        linkViolations.push(meta);
+      },
+      enforceTextLengthViolation: async () => {},
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => true } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const message: IncomingMessage = {
+      ...makeBaseMessage('admin-link-1'),
+      body: {
+        mid: 'admin-link-1',
+        text: 'https://spam.example.org',
+        attachments: null,
+      },
+    };
+
+    await engine.handleMessage(makeContext(message));
+
+    expect(linkViolations).toHaveLength(0);
+    db.close();
+  });
+
   it('does not treat forwarded message without links as violation', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
@@ -324,14 +373,61 @@ describe('moderation engine forwarded messages', () => {
     await engine.handleMessage(makeContext(message));
 
     expect(linkViolations).toHaveLength(1);
-    const [firstViolation] = linkViolations as Array<{
-      forbiddenLinks?: Array<{ domain: string | null }>;
-      forwardedPhotoTextLink?: boolean;
-      bypassedWhitelist?: boolean;
-    }>;
+    const [firstViolation] = linkViolations as Array<{ forbiddenLinks?: Array<{ domain: string | null }> }>;
     expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'allowed.example.org')).toBe(true);
-    expect(firstViolation.forwardedPhotoTextLink).toBe(true);
-    expect(firstViolation.bypassedWhitelist).toBe(true);
+    db.close();
+  });
+
+  it('treats direct message link as violation even when domain is whitelisted', async () => {
+    const db = new SqliteDatabase(':memory:');
+    const repos = createRepositories(db.db, config);
+    repos.domainWhitelist.add(100, 'allowed.example.org');
+    const linkViolations: unknown[] = [];
+
+    const enforcement = {
+      enforceActiveRestriction: async () => {},
+      enforceLinkViolation: async (_ctx: unknown, _args: unknown, meta: unknown) => {
+        linkViolations.push(meta);
+      },
+      enforceTextLengthViolation: async () => {},
+      enforceDuplicateViolation: async () => {},
+      enforcePhotoQuotaViolation: async () => {},
+      enforceQuotaViolation: async () => {},
+      enforceSpamViolation: async () => {},
+      enforceAntiBotViolation: async () => {},
+      handleCriticalFailure: async () => {},
+    } as any;
+
+    const logger = {
+      info: async () => {},
+      warn: async () => {},
+      error: async () => {},
+      moderation: async () => {},
+    } as any;
+
+    const engine = new ModerationEngine(
+      config,
+      repos,
+      { isAdmin: async () => false } as any,
+      new InMemoryIdempotencyGuard(),
+      enforcement,
+      logger,
+    );
+
+    const message: IncomingMessage = {
+      ...makeBaseMessage('direct-whitelist-link-1'),
+      body: {
+        mid: 'direct-whitelist-link-1',
+        text: 'подписка https://allowed.example.org/news',
+        attachments: null,
+      },
+    };
+
+    await engine.handleMessage(makeContext(message));
+
+    expect(linkViolations).toHaveLength(1);
+    const [firstViolation] = linkViolations as Array<{ forbiddenLinks?: Array<{ domain: string | null }> }>;
+    expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'allowed.example.org')).toBe(true);
     db.close();
   });
 });
