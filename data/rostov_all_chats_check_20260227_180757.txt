@@ -1,0 +1,16 @@
+fetched_at=2026-02-27T15:07:57.754Z
+total_visible_chats=155
+pages=2
+broad_matched_count=5
+exact_matched_count=2
+
+[exact_matched]
+-69049244448234	4485	Ростов-на-Дону Объявления | Новости	https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0
+-71289129525393	1145	Объявления Ростов На Дону	https://max.ru/join/aFqtC3bQfFdPjJ0ulJIB46KaXiNVGA8cC6zvKPg8Uo8
+
+[broad_matched]
+-69049244448234	4485	Ростов-на-Дону Объявления | Новости	https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0
+-68100891214071	973	ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ	https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ
+-70392682673501	124	07/Зимовки, Волгодонск, Шахты Ростовской области	https://max.ru/join/azn8VlvwP_rWf2IlSVbs6-Jl29L3OkDV0W0vi0Hn8wY
+-70219097142621	404	05/Ростовская область ссылки взаимны, реклама бесплатная	https://max.ru/join/R3WsLa6cXrQJXfTg-CKgypt_zjxH8Gqg_yNcEzIFgxs
+-71289129525393	1145	Объявления Ростов На Дону	https://max.ru/join/aFqtC3bQfFdPjJ0ulJIB46KaXiNVGA8cC6zvKPg8Uo8

@@ -1,0 +1,1557 @@
+{
+  "generated_at": "2026-02-27T14:30:22.447Z",
+  "total_chats_all_types": 155,
+  "total_group_or_channel": 155,
+  "chats": [
+    {
+      "chat_id": -71489818560519,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита Объявления | Новости",
+      "participants_count": 5475,
+      "is_public": false,
+      "link": "https://max.ru/join/FYyWQHM0hBeVhS1MsGITM3m5pPeGGlkIaBwF_Vr4dp0",
+      "last_event_time": 1772202615988
+    },
+    {
+      "chat_id": -69049244448234,
+      "type": "chat",
+      "status": "active",
+      "title": "Ростов-на-Дону Объявления | Новости",
+      "participants_count": 4486,
+      "is_public": false,
+      "link": "https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0",
+      "last_event_time": 1772202610716
+    },
+    {
+      "chat_id": -69418346537117,
+      "type": "chat",
+      "status": "active",
+      "title": "Улёты Чита Объявления",
+      "participants_count": 411,
+      "is_public": false,
+      "link": "https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA",
+      "last_event_time": 1772202609782
+    },
+    {
+      "chat_id": -70541657656056,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥СТАВРОПОЛЬСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "participants_count": 426,
+      "is_public": false,
+      "link": "https://max.ru/join/i8YNdxi0kX8zzwL0_YMO5mWy8HI6QteSpzKm9laWZDE",
+      "last_event_time": 1772202601941
+    },
+    {
+      "chat_id": -71489688733703,
+      "type": "chat",
+      "status": "active",
+      "title": "Ставрополь Объявления | Новости",
+      "participants_count": 1683,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772202599457
+    },
+    {
+      "chat_id": -68076019810506,
+      "type": "chat",
+      "status": "active",
+      "title": "Регион 75",
+      "participants_count": 2934,
+      "is_public": false,
+      "link": "https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk",
+      "last_event_time": 1772202599037
+    },
+    {
+      "chat_id": -69067549505002,
+      "type": "chat",
+      "status": "active",
+      "title": "Краснодар Объявления | Новости",
+      "participants_count": 2911,
+      "is_public": false,
+      "link": "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM",
+      "last_event_time": 1772202597911
+    },
+    {
+      "chat_id": -71497466657480,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита и Забайкальский край  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 2781,
+      "is_public": false,
+      "link": "https://max.ru/join/S_t8j25JtL1a3TGH2ZNovfQm97FsVNN6s-CJ63zJPzY",
+      "last_event_time": 1772202595127
+    },
+    {
+      "chat_id": -71443525791210,
+      "type": "chat",
+      "status": "active",
+      "title": "Уфа Объявления | Новости",
+      "participants_count": 10759,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772202594787
+    },
+    {
+      "chat_id": -71456678709255,
+      "type": "chat",
+      "status": "active",
+      "title": "Кубань Объявления | Новости",
+      "participants_count": 4564,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772202592343
+    },
+    {
+      "chat_id": -71289129525393,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Ростов На Дону",
+      "participants_count": 1145,
+      "is_public": false,
+      "link": "https://max.ru/join/aFqtC3bQfFdPjJ0ulJIB46KaXiNVGA8cC6zvKPg8Uo8",
+      "last_event_time": 1772202588774
+    },
+    {
+      "chat_id": -68765736651512,
+      "type": "chat",
+      "status": "active",
+      "title": "🌹КУПИ ПРОДАЙ СТАВРОПОЛЬСКИЙ КРАЙ",
+      "participants_count": 886,
+      "is_public": false,
+      "link": "https://max.ru/join/sDupMK-GbiFd9KtY-aBp2ZT0LV5z2aGnhDlXBM-XEDM",
+      "last_event_time": 1772202582738
+    },
+    {
+      "chat_id": -68084149212488,
+      "type": "chat",
+      "status": "active",
+      "title": "г. ЧИТА И ЗАБ. КРАЙ",
+      "participants_count": 1102,
+      "is_public": false,
+      "link": "https://max.ru/join/3NENgCwJ8JwuG50o0EUIbZBzdQ4vb0dQzOsuktO0v44",
+      "last_event_time": 1772202574384
+    },
+    {
+      "chat_id": -69240100563584,
+      "type": "chat",
+      "status": "active",
+      "title": "6 ✔Ставропольский край Барахолка",
+      "participants_count": 710,
+      "is_public": false,
+      "link": "https://max.ru/join/mQyQSkx8yn6pJhajgnV6ZPX4t9ptRfBgQXbLKW5-Zvo",
+      "last_event_time": 1772202570878
+    },
+    {
+      "chat_id": -71117429031018,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска Бесплатных объявлений Таганрог",
+      "participants_count": 141,
+      "is_public": false,
+      "link": "https://max.ru/join/V3W-yGu9KWD0ujO5qW9Uwradz_QR-KMlJ7gAwow5ynk",
+      "last_event_time": 1772202561300
+    },
+    {
+      "chat_id": -68097242792138,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА 75R",
+      "participants_count": 2070,
+      "is_public": false,
+      "link": "https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ",
+      "last_event_time": 1772202558145
+    },
+    {
+      "chat_id": -68097054799341,
+      "type": "chat",
+      "status": "active",
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "participants_count": 1572,
+      "is_public": false,
+      "link": "https://max.ru/join/tp0ixHcG_naF8K0NiGmXTXSrcRXIC10pRsF9L-xMrCU",
+      "last_event_time": 1772202555269
+    },
+    {
+      "chat_id": -69452032679949,
+      "type": "chat",
+      "status": "active",
+      "title": "ПОДСЛУШАНО АСТРАХАНЬ",
+      "participants_count": 235,
+      "is_public": false,
+      "link": "https://max.ru/join/vj1178idAdayeNyLA5C6OYCkcuHNG1mHHWnEm6aO0mM",
+      "last_event_time": 1772202545572
+    },
+    {
+      "chat_id": -69414134718477,
+      "type": "chat",
+      "status": "active",
+      "title": "Астраханский край !!!!Обьяления и личные продажи!!!!",
+      "participants_count": 259,
+      "is_public": false,
+      "link": "https://max.ru/join/zMiAIxolLKEpYsBAhtxELatC23_W5c5dxG3FbjYaPLU",
+      "last_event_time": 1772202545469
+    },
+    {
+      "chat_id": -70190081024013,
+      "type": "chat",
+      "status": "active",
+      "title": "ДЕСЯТКА МИКРОРАЙОН 20 ЛЕТ ОКТЯБРЯ АСТРАХАНЬ!!!!",
+      "participants_count": 115,
+      "is_public": false,
+      "link": "https://max.ru/join/Xqq6v9y5brDlOZTvoqeJEFEad4zeVKLlmyl5GIssxTg",
+      "last_event_time": 1772202545168
+    },
+    {
+      "chat_id": -71045893791766,
+      "type": "chat",
+      "status": "active",
+      "title": "Сельхозтехника Иркутская область",
+      "participants_count": 1231,
+      "is_public": false,
+      "link": "https://max.ru/join/-2wPkt23esbVQ605vZ3tekYahtT1tWR1dvUW66_ZyIA",
+      "last_event_time": 1772202513483
+    },
+    {
+      "chat_id": -68419398394013,
+      "type": "chat",
+      "status": "active",
+      "title": "Саратов - Энгельс Объявления Бесплатные",
+      "participants_count": 393,
+      "is_public": false,
+      "link": "https://max.ru/join/7cSjZ5j-zhTUrijJSSYSLjhYb7tT6sqQyML8525plYw",
+      "last_event_time": 1772202503713
+    },
+    {
+      "chat_id": -68159930414486,
+      "type": "chat",
+      "status": "active",
+      "title": "Рынок Чита75R",
+      "participants_count": 683,
+      "is_public": false,
+      "link": "https://max.ru/join/umWiv_mkmcvHcQnCvsyBZ2v8pHFayi9Z-x1hWVMyEwc",
+      "last_event_time": 1772202502291
+    },
+    {
+      "chat_id": -68455935789780,
+      "type": "chat",
+      "status": "active",
+      "title": "ИРКУТСК И ВЕСЬ 38 РЕГИОН",
+      "participants_count": 310,
+      "is_public": false,
+      "link": "https://max.ru/join/NZ7r9CLQcL9lVn9726KSjZFyhZG57qqt6TqfCLYVo1w",
+      "last_event_time": 1772202480032
+    },
+    {
+      "chat_id": -71456683034631,
+      "type": "chat",
+      "status": "active",
+      "title": "Новороссийск Объявления | Новости",
+      "participants_count": 1603,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772202475933
+    },
+    {
+      "chat_id": -69295205509703,
+      "type": "chat",
+      "status": "active",
+      "title": "🚗 Автозвук_30_Автомир",
+      "participants_count": 269,
+      "is_public": false,
+      "link": "https://max.ru/join/ORmzv_NX75Gcf84xY428r8bNc4Vejg78j-jcy3JQj8E",
+      "last_event_time": 1772202466615
+    },
+    {
+      "chat_id": -69525922895314,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | ЕЙСК",
+      "participants_count": 689,
+      "is_public": false,
+      "link": "https://max.ru/join/e06sBAY1exeHeo1MBcs8K76aAZz5bRmx_gDoY9NBi9I",
+      "last_event_time": 1772202421268
+    },
+    {
+      "chat_id": -68100891214071,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 971,
+      "is_public": false,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ",
+      "last_event_time": 1772202415042
+    },
+    {
+      "chat_id": -70091065032918,
+      "type": "chat",
+      "status": "active",
+      "title": "Жумуш - работа в Москве 🇷🇺🇰🇬🇰🇿",
+      "participants_count": 627,
+      "is_public": false,
+      "link": "https://max.ru/join/rhCF-bJzXhBfwt3o9kOP8YId66f3tToQUQMTuH3ORvk",
+      "last_event_time": 1772202385526
+    },
+    {
+      "chat_id": -69070458290408,
+      "type": "chat",
+      "status": "active",
+      "title": "АВИТО Ставропольский край",
+      "participants_count": 888,
+      "is_public": false,
+      "link": "https://max.ru/join/uy9XTxEdWLvq0B5XdQuZVT1Ot-QSR8R4ZnB9NWN3ArM",
+      "last_event_time": 1772202363036
+    },
+    {
+      "chat_id": -68081902581088,
+      "type": "chat",
+      "status": "active",
+      "title": "ЯРМАРКА⚜️ЧИТА",
+      "participants_count": 645,
+      "is_public": false,
+      "link": "https://max.ru/join/AMXsAa5LE2r_Qgv6KqSHD2Ac5FiFpNNE-x5tBai5QL4",
+      "last_event_time": 1772202334943
+    },
+    {
+      "chat_id": -69235521415751,
+      "type": "chat",
+      "status": "active",
+      "title": "🍉🍉 Ссылки Астрахань 🍉🍉",
+      "participants_count": 640,
+      "is_public": false,
+      "link": "https://max.ru/join/0i7VrBuHYXxPQAbAVLINh2XxHi5UG5mJaiMoHHzbetA",
+      "last_event_time": 1772202304761
+    },
+    {
+      "chat_id": -71336283338218,
+      "type": "chat",
+      "status": "active",
+      "title": "Родионовка Объявления | Новости",
+      "participants_count": 1454,
+      "is_public": false,
+      "link": "https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU",
+      "last_event_time": 1772202276447
+    },
+    {
+      "chat_id": -70117513166933,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "participants_count": 221,
+      "is_public": false,
+      "link": "https://max.ru/join/yK4zMwhEhc2RobCBKavqqvzoz0vbiiKcqnZDlHEFgOw",
+      "last_event_time": 1772202253910
+    },
+    {
+      "chat_id": -71106825052320,
+      "type": "chat",
+      "status": "active",
+      "title": "🛒БАРАХОЛКА АСТРАХАНЬ 🛒",
+      "participants_count": 94,
+      "is_public": false,
+      "link": "https://max.ru/join/u_OQtLyDLwT1weNS7p7rKllQzbP2o1jQZ28C-hvsZ80",
+      "last_event_time": 1772202238578
+    },
+    {
+      "chat_id": -68097233289418,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита 75 🇷🇺RUS",
+      "participants_count": 1920,
+      "is_public": false,
+      "link": "https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw",
+      "last_event_time": 1772202188543
+    },
+    {
+      "chat_id": -68080718165398,
+      "type": "chat",
+      "status": "active",
+      "title": "ЦветоМикс.Чита75R",
+      "participants_count": 609,
+      "is_public": false,
+      "link": "https://max.ru/join/MkqYZ3tf7PXk5nkGsvEsCnf-3GuZctwWy4DGgeBSM6s",
+      "last_event_time": 1772202133228
+    },
+    {
+      "chat_id": -68159753074070,
+      "type": "chat",
+      "status": "active",
+      "title": "Авто Чита 75R",
+      "participants_count": 549,
+      "is_public": false,
+      "link": "https://max.ru/join/VYb8ADpIJbCk6GjiB2kEAojOsplOl85bWVp7QhTTXdM",
+      "last_event_time": 1772202133172
+    },
+    {
+      "chat_id": -68927094568342,
+      "type": "chat",
+      "status": "active",
+      "title": "Купи-Продай Чита75",
+      "participants_count": 557,
+      "is_public": false,
+      "link": "https://max.ru/join/OIE9NBlqlT7lMr0nQOHKoQHhb7KKgkObc7m4-JJNC5s",
+      "last_event_time": 1772202133018
+    },
+    {
+      "chat_id": -70869212809928,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 3154,
+      "is_public": false,
+      "link": "https://max.ru/join/YwRNUu5xqLBCkpnJvofOu5gpi-k72zM-XTQXTs5q7no",
+      "last_event_time": 1772202127744
+    },
+    {
+      "chat_id": -68872233527870,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Казань Татарстан",
+      "participants_count": 403,
+      "is_public": false,
+      "link": "https://max.ru/join/qoIlRvNQs-AxfrObVr7odfG2MRMxxKxWqY6Xi40AYu4",
+      "last_event_time": 1772202049151
+    },
+    {
+      "chat_id": -70290884116553,
+      "type": "chat",
+      "status": "active",
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "participants_count": 470,
+      "is_public": false,
+      "link": "https://max.ru/join/Cw6XFyL-PSbjryoRx-ICfGmc5JWsiaYpIi5wJO45udM",
+      "last_event_time": 1772202041337
+    },
+    {
+      "chat_id": -68834970315332,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Ейск , Щербиновий район",
+      "participants_count": 368,
+      "is_public": false,
+      "link": "https://max.ru/join/mQU1Q4r4ZcIE5G7ureyHqYBuXh1CKyNd3FIK26wbSOM",
+      "last_event_time": 1772202040978
+    },
+    {
+      "chat_id": -68450426413213,
+      "type": "chat",
+      "status": "active",
+      "title": "Торговая Ярмарка Саратов, Энгельс - Объявления",
+      "participants_count": 392,
+      "is_public": false,
+      "link": "https://max.ru/join/e9umrWRhuSM_uMWvcO51w2wig6EdKBBq9j3AqkKsbe0",
+      "last_event_time": 1772202040366
+    },
+    {
+      "chat_id": -70933000194781,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Новошахтинск",
+      "participants_count": 2116,
+      "is_public": false,
+      "link": "https://max.ru/join/L2Ur-XxwIeTtlEti1lIGN--rx_PtujpOiwMDrrOTXJQ",
+      "last_event_time": 1772202029499
+    },
+    {
+      "chat_id": -71489753942023,
+      "type": "chat",
+      "status": "active",
+      "title": "Новошахтинск Объявления | Новости",
+      "participants_count": 2218,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772202013763
+    },
+    {
+      "chat_id": -69502084033182,
+      "type": "chat",
+      "status": "active",
+      "title": "Новая ссылочная NSK и НСО",
+      "participants_count": 1011,
+      "is_public": false,
+      "link": "https://max.ru/join/crrWQjVTGhvZ5jCEFB0xrR3UEyuDyy2kzQLCP7ZHp2A",
+      "last_event_time": 1772202009950
+    },
+    {
+      "chat_id": -69176331537147,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита. ru",
+      "participants_count": 314,
+      "is_public": false,
+      "link": "https://max.ru/join/DGJH61YVzRE9dCLYlyd7PCGjyWWPnmCYz9Gyqvr243M",
+      "last_event_time": 1772201967588
+    },
+    {
+      "chat_id": -71456471431277,
+      "type": "chat",
+      "status": "active",
+      "title": "Казань Объявления | Новости",
+      "participants_count": 1102,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201927127
+    },
+    {
+      "chat_id": -68847757148269,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейск(Барахолка)",
+      "participants_count": 404,
+      "is_public": false,
+      "link": "https://max.ru/join/e9s4XB_k_O5B03ZgGanVv1FPFuUinM0Tb66ytng5Bfw",
+      "last_event_time": 1772201913553
+    },
+    {
+      "chat_id": -68853379443352,
+      "type": "chat",
+      "status": "active",
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "participants_count": 1373,
+      "is_public": false,
+      "link": "https://max.ru/join/cuwI0rsXSLJ7rxg5FP3kJKHxS09vhDvsH76e8F30uA4",
+      "last_event_time": 1772201910846
+    },
+    {
+      "chat_id": -71456680806407,
+      "type": "chat",
+      "status": "active",
+      "title": "Иркутск Объявления | Новости",
+      "participants_count": 2829,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201897388
+    },
+    {
+      "chat_id": -70251893353031,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Верх - Исетский район Екатеринбурга",
+      "participants_count": 159,
+      "is_public": false,
+      "link": "https://max.ru/join/N92BPqCfOk-z1QBZOLrM0XlWV63tWHpEPfhSNlKTy9w",
+      "last_event_time": 1772201888906
+    },
+    {
+      "chat_id": -71489692010503,
+      "type": "chat",
+      "status": "active",
+      "title": "Екатеринбург Объявления | Новости",
+      "participants_count": 306,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201887805
+    },
+    {
+      "chat_id": -71307153924250,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Ангарск",
+      "participants_count": 492,
+      "is_public": false,
+      "link": "https://max.ru/join/iCeWho9WDVQ-g1wKglUrr3d9fS3-kDztbWEOOpkR4vI",
+      "last_event_time": 1772201867590
+    },
+    {
+      "chat_id": -69755120039336,
+      "type": "chat",
+      "status": "active",
+      "title": "Купи-продай в Волгограде",
+      "participants_count": 843,
+      "is_public": false,
+      "link": "https://max.ru/join/Mvy5JSAOR3s4eXaGb5pwb_DrdqftJJenS0p6FEALLU0",
+      "last_event_time": 1772201863402
+    },
+    {
+      "chat_id": -71491907173064,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️ТАГАНРОГ | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 2411,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201861929
+    },
+    {
+      "chat_id": -69706588354008,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа Казань.",
+      "participants_count": 500,
+      "is_public": false,
+      "link": "https://max.ru/join/ArA-Hk0tp7ThggzEkgEw7sq3r_hrVfTyxLssrRBrTKs",
+      "last_event_time": 1772201841241
+    },
+    {
+      "chat_id": -71506814142471,
+      "type": "chat",
+      "status": "active",
+      "title": "Хабаровск Объявления |  Новости",
+      "participants_count": 6,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201822237
+    },
+    {
+      "chat_id": -70219097142621,
+      "type": "chat",
+      "status": "active",
+      "title": "05/Ростовская область ссылки взаимны, реклама бесплатная",
+      "participants_count": 404,
+      "is_public": false,
+      "link": "https://max.ru/join/R3WsLa6cXrQJXfTg-CKgypt_zjxH8Gqg_yNcEzIFgxs",
+      "last_event_time": 1772201798350
+    },
+    {
+      "chat_id": -70219252856157,
+      "type": "chat",
+      "status": "active",
+      "title": "02/Ставропольский край реклама бесплатная, ссылки взаимны",
+      "participants_count": 107,
+      "is_public": false,
+      "link": "https://max.ru/join/nrEux8PBN6m0JeIYb3_s4H6A0g12WxyH5eQ22mMyt1I",
+      "last_event_time": 1772201788544
+    },
+    {
+      "chat_id": -68827626160204,
+      "type": "chat",
+      "status": "active",
+      "title": "Иркутск объявления",
+      "participants_count": 861,
+      "is_public": false,
+      "link": "https://max.ru/join/Lkm7ZoSqmiCLijQZWygn6q9_W7uDUAaDPhkTk58X6I4",
+      "last_event_time": 1772201788494
+    },
+    {
+      "chat_id": -68210911439449,
+      "type": "chat",
+      "status": "active",
+      "title": "БОЛЬШАЯ ДЕРЕВЕНСКАЯ 🚜🐣🐶🦆🐝🐮🐷🐓",
+      "participants_count": 625,
+      "is_public": false,
+      "link": "https://max.ru/join/0N0DljctLS4mTyghg178EEbp9iVSDEXhnp89rusI6Vo",
+      "last_event_time": 1772201762704
+    },
+    {
+      "chat_id": -70557308706976,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка БЛАГОВАРСКИЙ район",
+      "participants_count": 615,
+      "is_public": false,
+      "link": "https://max.ru/join/TW4XRfTw_JS6aorpPW4Ds9CjK6EIV2HWddcXDuDI8vk",
+      "last_event_time": 1772201757034
+    },
+    {
+      "chat_id": -68156856658503,
+      "type": "chat",
+      "status": "active",
+      "title": "🍉 Объявления Астрахани бесплатно",
+      "participants_count": 748,
+      "is_public": false,
+      "link": "https://max.ru/join/ekWQPzjc5BOgINUP6tliv6jh33g8Q7bREmp2QGye21g",
+      "last_event_time": 1772201739027
+    },
+    {
+      "chat_id": -69752326498974,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылки и объявления Обь.Всё, что не запрещены законом РФ.",
+      "participants_count": 257,
+      "is_public": false,
+      "link": "https://max.ru/join/7-vJieDjNgnAfql28MUAXV9LWG5mtmMcQmkbnHnh8C4",
+      "last_event_time": 1772201730800
+    },
+    {
+      "chat_id": -71489737820167,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейск Объявления | Новости",
+      "participants_count": 1674,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201681701
+    },
+    {
+      "chat_id": -70392682673501,
+      "type": "chat",
+      "status": "active",
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "participants_count": 124,
+      "is_public": false,
+      "link": "https://max.ru/join/azn8VlvwP_rWf2IlSVbs6-Jl29L3OkDV0W0vi0Hn8wY",
+      "last_event_time": 1772201681515
+    },
+    {
+      "chat_id": -70481754682717,
+      "type": "chat",
+      "status": "active",
+      "title": "03/Белореченск",
+      "participants_count": 182,
+      "is_public": false,
+      "link": "https://max.ru/join/GhDtmj-JyP916ZfC9S0TmGjSB0qkxwDf3yqxpNKAScU",
+      "last_event_time": 1772201681461
+    },
+    {
+      "chat_id": -71183911278031,
+      "type": "chat",
+      "status": "active",
+      "title": "Продажа авто Екатеринбург. Работайте братья!!!",
+      "participants_count": 144,
+      "is_public": false,
+      "link": "https://max.ru/join/EY3l9umvEqMZMU9aJCqAZJAs-WnlkYWvg3T8O2E29Gg",
+      "last_event_time": 1772201669420
+    },
+    {
+      "chat_id": -68068625014965,
+      "type": "chat",
+      "status": "active",
+      "title": "Бесплатные объявления Красноярск",
+      "participants_count": 447,
+      "is_public": false,
+      "link": "https://max.ru/join/qUIOwhSjr9mIKqGVshGPRu58Mj5ZETwhkoSYjP9auyY",
+      "last_event_time": 1772201663984
+    },
+    {
+      "chat_id": -68117060324043,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления г. Чита",
+      "participants_count": 1205,
+      "is_public": false,
+      "link": "https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g",
+      "last_event_time": 1772201653970
+    },
+    {
+      "chat_id": -68996152265254,
+      "type": "chat",
+      "status": "active",
+      "title": "КРАСНОЯРСК и КРАЙ - 24 РЕГИОН",
+      "participants_count": 816,
+      "is_public": false,
+      "link": "https://max.ru/join/MX53N4r38CniVRwXYIrCAUgm2Si7LfXn5baahz3sM7c",
+      "last_event_time": 1772201653339
+    },
+    {
+      "chat_id": -70847853010993,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолочка Анапа",
+      "participants_count": 167,
+      "is_public": false,
+      "link": "https://max.ru/join/xgzAcX1aI8YsmAqHcj3SsHS6VPZtu79xKN02WN64jyE",
+      "last_event_time": 1772201644473
+    },
+    {
+      "chat_id": -71313986483690,
+      "type": "chat",
+      "status": "active",
+      "title": "Волгоград Объявления | Новости",
+      "participants_count": 6603,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201615543
+    },
+    {
+      "chat_id": -69491781741208,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "participants_count": 1047,
+      "is_public": false,
+      "link": "https://max.ru/join/3M7JZ1GKIVm2rUKwBdryjmqku2jX-ANxn8CH3Oq7SnM",
+      "last_event_time": 1772201584319
+    },
+    {
+      "chat_id": -69571802532525,
+      "type": "chat",
+      "status": "active",
+      "title": "Ленинский район Жилкино и ближайшие территории г. Иркутска",
+      "participants_count": 373,
+      "is_public": false,
+      "link": "https://max.ru/join/JxZ0SewNUaj7MO_n0YV7smV6ojPsC9HlZt1pbSBRBFw",
+      "last_event_time": 1772201570407
+    },
+    {
+      "chat_id": -68150989154923,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️",
+      "participants_count": 166,
+      "is_public": false,
+      "link": "https://max.ru/join/JQDU5nZm9R9uoItDjCMl9GKZWHWq7uNH1NARVx0eGN4",
+      "last_event_time": 1772201534083
+    },
+    {
+      "chat_id": -71481441617927,
+      "type": "chat",
+      "status": "active",
+      "title": "Бан",
+      "participants_count": 4,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201462345
+    },
+    {
+      "chat_id": -69469805455982,
+      "type": "chat",
+      "status": "active",
+      "title": "All-in",
+      "participants_count": 273,
+      "is_public": false,
+      "link": "https://max.ru/join/nyvZjtJw30PpLLffXhWIkSP0rnrr8mz4s9rk9kPsC68",
+      "last_event_time": 1772201418782
+    },
+    {
+      "chat_id": -69475005327925,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Хабаровск",
+      "participants_count": 447,
+      "is_public": false,
+      "link": "https://max.ru/join/VzcoEl2u5LJsQZ-eXKk_8Gkm6tZYs98v91kD-yXHvPc",
+      "last_event_time": 1772201418641
+    },
+    {
+      "chat_id": -69039900344396,
+      "type": "chat",
+      "status": "active",
+      "title": "ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 492,
+      "is_public": false,
+      "link": "https://max.ru/join/-rBYR2Cciai1Di80_gVS47ZEfGKmko6qopRepckH0tM",
+      "last_event_time": 1772201409730
+    },
+    {
+      "chat_id": -69274611941617,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка 27 Хабаровск",
+      "participants_count": 396,
+      "is_public": false,
+      "link": "https://max.ru/join/6zwppXBg8EkbzGGR9V8d1Q5MCJbrU9lJSXA8_NaMlzA",
+      "last_event_time": 1772201408507
+    },
+    {
+      "chat_id": -68874138462806,
+      "type": "chat",
+      "status": "active",
+      "title": "ЛЕНИНСКИЙ СОЛНЕЧНЫЙ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 489,
+      "is_public": false,
+      "link": "https://max.ru/join/wmIauo7sNlHk1WebMMkEYzyzMLZMlEdrl9-zIf98Oj4",
+      "last_event_time": 1772201271903
+    },
+    {
+      "chat_id": -68081614173608,
+      "type": "chat",
+      "status": "active",
+      "title": "ОТДАМ ДАРОМ 75 RUS",
+      "participants_count": 711,
+      "is_public": false,
+      "link": "https://max.ru/join/BAR36Ggs0RoN4wxvo8b3KXcsI8SHSsQQeXOTJ6RifWA",
+      "last_event_time": 1772201268300
+    },
+    {
+      "chat_id": -68774665262585,
+      "type": "chat",
+      "status": "active",
+      "title": "123. Рынок.Ейск и +300км . Объявления для всего и для всех.",
+      "participants_count": 417,
+      "is_public": false,
+      "link": "https://max.ru/join/eTk0FWF72IL009-zwW4vDQ2n0e3uAnaMD3TKPzHeSkk",
+      "last_event_time": 1772201232921
+    },
+    {
+      "chat_id": -70219090392413,
+      "type": "chat",
+      "status": "active",
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "participants_count": 447,
+      "is_public": false,
+      "link": "https://max.ru/join/LffwcC3_wu9kWuQcxbJ5mHuYEGeayHr3SPKsNOtns90",
+      "last_event_time": 1772201224446
+    },
+    {
+      "chat_id": -68770566548054,
+      "type": "chat",
+      "status": "active",
+      "title": "КРАСНОЯРСК ПРАВЫЙ БЕРЁГ",
+      "participants_count": 607,
+      "is_public": false,
+      "link": "https://max.ru/join/HLOI0iI0yUALunu4X6A5hBF4qYWQ6oK1FpDlkp33b3A",
+      "last_event_time": 1772201215223
+    },
+    {
+      "chat_id": -71506932434951,
+      "type": "chat",
+      "status": "active",
+      "title": "Красноярск Объявления | Новости",
+      "participants_count": 5,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772201134429
+    },
+    {
+      "chat_id": -71449952971431,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Ейск",
+      "participants_count": 486,
+      "is_public": false,
+      "link": "https://max.ru/join/XbSNlfuhmnctoTtEKIYW6383IwK3olwGDmtg04vbSk4",
+      "last_event_time": 1772201080740
+    },
+    {
+      "chat_id": -70766320514415,
+      "type": "chat",
+      "status": "active",
+      "title": "Иркутск и вся область Объявления",
+      "participants_count": 511,
+      "is_public": false,
+      "link": "https://max.ru/join/Siqim41mxjA6X9gtQ463bGwwR_eHV6raYrxlGG_4PMg",
+      "last_event_time": 1772201045065
+    },
+    {
+      "chat_id": -69275631411339,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЬЯВЛЕНИЯ ЕКАТЕРИНБУРГ, Свердловская область",
+      "participants_count": 339,
+      "is_public": false,
+      "link": "https://max.ru/join/dH85sGxMR7LDd_LmjDWNZSt5gR0O4UO-yy6tDlvh99w",
+      "last_event_time": 1772200970311
+    },
+    {
+      "chat_id": -68112660349007,
+      "type": "chat",
+      "status": "active",
+      "title": "АРЕНДА КВАРТИР | ВОРОНЕЖ | Посуточно и на длительный срок | Сниму | Сдам | Аренда жилья",
+      "participants_count": 28,
+      "is_public": false,
+      "link": "https://max.ru/join/fJRIAbpHAs_HlIxLGen9PNZqXTp08s4TBQ69V_F90dE",
+      "last_event_time": 1772200921728
+    },
+    {
+      "chat_id": -69454420459596,
+      "type": "chat",
+      "status": "active",
+      "title": "СОВЕТСКИЙ РАЙОН КРАСН. КРАЯ",
+      "participants_count": 399,
+      "is_public": false,
+      "link": "https://max.ru/join/Q55ijHDJsAjuqk5WU43JFNbHjV5hJjj72e_TjtStH_4",
+      "last_event_time": 1772200750648
+    },
+    {
+      "chat_id": -69384543865595,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Чита",
+      "participants_count": 384,
+      "is_public": false,
+      "link": "https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc",
+      "last_event_time": 1772200700048
+    },
+    {
+      "chat_id": -69286682356271,
+      "type": "chat",
+      "status": "active",
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "participants_count": 697,
+      "is_public": false,
+      "link": "https://max.ru/join/fZahfESKTEEHFo75pGYPEzDCVcN9AhNNo4sT7zm1a64",
+      "last_event_time": 1772200696003
+    },
+    {
+      "chat_id": -68022921197022,
+      "type": "chat",
+      "status": "active",
+      "title": "ЧИТА БАРАХОЛКА",
+      "participants_count": 1383,
+      "is_public": false,
+      "link": "https://max.ru/join/bjZPR4lW_K81y4iSxqUFrTw2NIyCPlqnFf5d_C8ENi8",
+      "last_event_time": 1772200691485
+    },
+    {
+      "chat_id": -69351574899433,
+      "type": "chat",
+      "status": "active",
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "participants_count": 209,
+      "is_public": false,
+      "link": "https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8",
+      "last_event_time": 1772200645144
+    },
+    {
+      "chat_id": -68968482701562,
+      "type": "chat",
+      "status": "active",
+      "title": "Ручная работа г Чита. Мастера заб. края",
+      "participants_count": 136,
+      "is_public": false,
+      "link": "https://max.ru/join/8nH6PQgRQPp0nZ9u4pe6-JfmZH6XL7HwNYLPkH9RWx4",
+      "last_event_time": 1772200605345
+    },
+    {
+      "chat_id": -68531970343138,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка ✅Ейск и ейский район",
+      "participants_count": 428,
+      "is_public": false,
+      "link": "https://max.ru/join/78xOZZPYWs80d7UpeaSfOSlKE1hc5jhTIUyhSRo0cHk",
+      "last_event_time": 1772200589496
+    },
+    {
+      "chat_id": -68188500216496,
+      "type": "chat",
+      "status": "active",
+      "title": "ВЕСЬ💥 КАМЕНСК💥 ЗДЕСЬ",
+      "participants_count": 971,
+      "is_public": false,
+      "link": "https://max.ru/join/wCm6NmA86EJcb9Z6wXO4eg2TYCpR6Qjl9lXKBrv5Yw8",
+      "last_event_time": 1772200586388
+    },
+    {
+      "chat_id": -68097564521878,
+      "type": "chat",
+      "status": "active",
+      "title": "Животный мир Чита 75R",
+      "participants_count": 544,
+      "is_public": false,
+      "link": "https://max.ru/join/m0IRC0u-ADfIz5NLwDWu31WyGHu6aZlEJ-WVWZlmjzc",
+      "last_event_time": 1772200548736
+    },
+    {
+      "chat_id": -68251366847972,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита: Доска объявлений",
+      "participants_count": 372,
+      "is_public": false,
+      "link": "https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I",
+      "last_event_time": 1772200547761
+    },
+    {
+      "chat_id": -68106571142598,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Читы",
+      "participants_count": 925,
+      "is_public": false,
+      "link": "https://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog",
+      "last_event_time": 1772200539778
+    },
+    {
+      "chat_id": -68102758249896,
+      "type": "chat",
+      "status": "active",
+      "title": "Подслушано ЧИТА",
+      "participants_count": 577,
+      "is_public": false,
+      "link": "https://max.ru/join/B1IfKecVSGDMET-OVomo4NenxPrfKq28kUxdhPZtIp4",
+      "last_event_time": 1772200531902
+    },
+    {
+      "chat_id": -69453917642903,
+      "type": "chat",
+      "status": "active",
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "participants_count": 527,
+      "is_public": false,
+      "link": "https://max.ru/join/p1MgSF7TMRa_YfZ7IquoXD_HuGD4O6nqbGv6kBFP7wo",
+      "last_event_time": 1772200515893
+    },
+    {
+      "chat_id": -69056124717606,
+      "type": "chat",
+      "status": "active",
+      "title": "ЖЕЛЕЗНОГОРСК КРАСНОЯРСКИЙ.",
+      "participants_count": 283,
+      "is_public": false,
+      "link": "https://max.ru/join/mVjqdgN4MNes83b5FVrXQgKtPddKp42VTdcAx69ilJI",
+      "last_event_time": 1772200379786
+    },
+    {
+      "chat_id": -68113862820033,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Иркутская область",
+      "participants_count": 330,
+      "is_public": false,
+      "link": "https://max.ru/join/6bbgu5kAI96eqsqCF7JgWM4x475MQqwNMVAuGkvIU_s",
+      "last_event_time": 1772200366306
+    },
+    {
+      "chat_id": -69286691990063,
+      "type": "chat",
+      "status": "active",
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 736,
+      "is_public": false,
+      "link": "https://max.ru/join/OPCwXUwr1rWQoHOq_dqOPXeiG4cpS3QARg6uXPmev1w",
+      "last_event_time": 1772200262925
+    },
+    {
+      "chat_id": -69319071228091,
+      "type": "chat",
+      "status": "active",
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "participants_count": 325,
+      "is_public": false,
+      "link": "https://max.ru/join/zWItvTTyPcH86TryiudmV0_6O2xH_PHlyZFCoxrzHJU",
+      "last_event_time": 1772200177795
+    },
+    {
+      "chat_id": -69676614216239,
+      "type": "chat",
+      "status": "active",
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "participants_count": 740,
+      "is_public": false,
+      "link": "https://max.ru/join/VPW3O5FdDJeLqx_fBMl3tlE4lyB8hUQYj2QQskPBSA0",
+      "last_event_time": 1772200022567
+    },
+    {
+      "chat_id": -69286625012271,
+      "type": "chat",
+      "status": "active",
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 689,
+      "is_public": false,
+      "link": "https://max.ru/join/BbskpNzTtTCxcSKAFo5ZZG6H0VbozWSIYi-zlC7GF-c",
+      "last_event_time": 1772199905747
+    },
+    {
+      "chat_id": -70060640479806,
+      "type": "chat",
+      "status": "active",
+      "title": "ТВОИ ОБЪЯВЛЕНИЯ, Зеленодольск, Волжск, Васильево, Казань",
+      "participants_count": 189,
+      "is_public": false,
+      "link": "https://max.ru/join/QRVxp6Bsn_ptRszAaNhtfdnBplw7ZooGrcbw2YF-1NU",
+      "last_event_time": 1772199905575
+    },
+    {
+      "chat_id": -70302277793129,
+      "type": "chat",
+      "status": "active",
+      "title": "👷РАБОТА 🧑‍🏫 в Хабаровске ❗",
+      "participants_count": 159,
+      "is_public": false,
+      "link": "https://max.ru/join/8b0hiKCKAQTCUMkaF0xySzFWWvdIdv5pWdrI0xhxhUA",
+      "last_event_time": 1772199850847
+    },
+    {
+      "chat_id": -68097532540310,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Чита 75R",
+      "participants_count": 723,
+      "is_public": false,
+      "link": "https://max.ru/join/Zly54c19UAn1EHV3xMCDCb8DHzxlDa4vDoTgGVuQVzM",
+      "last_event_time": 1772199819416
+    },
+    {
+      "chat_id": -71055055579695,
+      "type": "chat",
+      "status": "active",
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "participants_count": 263,
+      "is_public": false,
+      "link": "https://max.ru/join/HEr9fsNHX7UHgJTnU2fds5WcopmQQX-zuhvWyQKUTSY",
+      "last_event_time": 1772199816863
+    },
+    {
+      "chat_id": -69805494553282,
+      "type": "chat",
+      "status": "active",
+      "title": "Иркутск Объявления",
+      "participants_count": 494,
+      "is_public": false,
+      "link": "https://max.ru/join/nbUONDw9d4yAq0E9595LS2hs8t7gvKhhsstFiYGWb4I",
+      "last_event_time": 1772199815355
+    },
+    {
+      "chat_id": -69752193067678,
+      "type": "chat",
+      "status": "active",
+      "title": "Бесплатные объявления. Искитим.",
+      "participants_count": 221,
+      "is_public": false,
+      "link": "https://max.ru/join/ld8NrELnF2PDlVPFUhswp1zngikON6gCkK2ygGpb72E",
+      "last_event_time": 1772199364696
+    },
+    {
+      "chat_id": -71407162559008,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Казань✨",
+      "participants_count": 26,
+      "is_public": false,
+      "link": "https://max.ru/join/t8CVMd7dORQ7LIiWjfzM8wRyg9k6C0oGAZuovBXFc5U",
+      "last_event_time": 1772199172163
+    },
+    {
+      "chat_id": -69296669365630,
+      "type": "chat",
+      "status": "active",
+      "title": "ГРУЗЧИКИ И РАЗНОРАБОЧИЕ 3.0",
+      "participants_count": 413,
+      "is_public": false,
+      "link": "https://max.ru/join/VibRe_LF1FvzbhQ4PS4VJRcoIi84qb05YfBsEhPY-AE",
+      "last_event_time": 1772199145233
+    },
+    {
+      "chat_id": -69544013275170,
+      "type": "chat",
+      "status": "active",
+      "title": "AutoParts_27reg.",
+      "participants_count": 198,
+      "is_public": false,
+      "link": "https://max.ru/join/TW3uE0LhLVwrqiSAy65P9_9i8oOPM-z1J8oUta4lj2s",
+      "last_event_time": 1772199050096
+    },
+    {
+      "chat_id": -69668861596994,
+      "type": "chat",
+      "status": "active",
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "participants_count": 351,
+      "is_public": false,
+      "link": "https://max.ru/join/pjHLZ7Eugmd13EkiOnlYbh0ShkrifZW_6GT5WzUKmQ8",
+      "last_event_time": 1772198978387
+    },
+    {
+      "chat_id": -69724063238829,
+      "type": "chat",
+      "status": "active",
+      "title": "Камчатка Работа Объявления",
+      "participants_count": 257,
+      "is_public": false,
+      "link": "https://max.ru/join/T7zBojudEyw8bxUSN8CcmaJe4i887F4oCj5OKWtlHJw",
+      "last_event_time": 1772198858318
+    },
+    {
+      "chat_id": -69541859227108,
+      "type": "chat",
+      "status": "active",
+      "title": "Ейская ярмарка",
+      "participants_count": 104,
+      "is_public": false,
+      "link": "https://max.ru/join/kpX3rMPtVUhusxp8Li4zd7PPvdtpKdjkqQ-cwoZz4x0",
+      "last_event_time": 1772198809933
+    },
+    {
+      "chat_id": -69199655897845,
+      "type": "chat",
+      "status": "active",
+      "title": "ПОДСЛУШАНО НОВОШАХТИНСК",
+      "participants_count": 673,
+      "is_public": false,
+      "link": "https://max.ru/join/cSvHbiskl8x1KTzQk8TY6YoA95IYpTykvmkxoqEeYu8",
+      "last_event_time": 1772198770759
+    },
+    {
+      "chat_id": -69502470482581,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "participants_count": 337,
+      "is_public": false,
+      "link": "https://max.ru/join/LFc5JwENtEyL9kC_roJWi3fZbriJpiCllPaQ69t3GwY",
+      "last_event_time": 1772198769724
+    },
+    {
+      "chat_id": -68366461307400,
+      "type": "chat",
+      "status": "active",
+      "title": "Авто барахолка 75, из рук в руки 👍",
+      "participants_count": 343,
+      "is_public": false,
+      "link": "https://max.ru/join/b7DDQd38ndTDz9rumSA7Rvgnef15z6xsTmpKxy0V2lw",
+      "last_event_time": 1772198745706
+    },
+    {
+      "chat_id": -70087825875083,
+      "type": "chat",
+      "status": "active",
+      "title": "ЕЙСК/НОВОСТИ/ОБЪЯВЛЕНИЯ",
+      "participants_count": 87,
+      "is_public": false,
+      "link": "https://max.ru/join/7cKka2_C-Ua6DOg2C3q1_7GqimFRLuLK7XiJsAXVE34",
+      "last_event_time": 1772198707129
+    },
+    {
+      "chat_id": -69188626598411,
+      "type": "chat",
+      "status": "active",
+      "title": "ВЕРХНЕУСЛОНСКИЙ РАЙОН",
+      "participants_count": 489,
+      "is_public": false,
+      "link": "https://max.ru/join/Qrjqv8chRXxB2IJ6KqTodnundUyA8Nyf1i3_emhBvHs",
+      "last_event_time": 1772198680248
+    },
+    {
+      "chat_id": -68188686338736,
+      "type": "chat",
+      "status": "active",
+      "title": "СЕЛЕНГИНСК и ближайшие районы",
+      "participants_count": 1247,
+      "is_public": false,
+      "link": "https://max.ru/join/T9dAlExdZYqlF7ZIndqTJWp3deCOEP4O0h1KuUd2Fls",
+      "last_event_time": 1772198292073
+    },
+    {
+      "chat_id": -70219438716253,
+      "type": "chat",
+      "status": "active",
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "participants_count": 238,
+      "is_public": false,
+      "link": "https://max.ru/join/JUwxHGRTnZhec1Qwwv4F_0INlPE58l8kVbOkWLiTo2M",
+      "last_event_time": 1772197796222
+    },
+    {
+      "chat_id": -69505896431686,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА КРАСНОАРМЕЙСКИЙ РАЙОН г.Волгоград",
+      "participants_count": 146,
+      "is_public": false,
+      "link": "https://max.ru/join/fG_D0rQvVl-vjsZ4vcmu-BXZbtsqUpkqcpi99y8dyzc",
+      "last_event_time": 1772197384380
+    },
+    {
+      "chat_id": -68159689766294,
+      "type": "chat",
+      "status": "active",
+      "title": "Недвижимость Чита 75",
+      "participants_count": 611,
+      "is_public": false,
+      "link": "https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo",
+      "last_event_time": 1772197301285
+    },
+    {
+      "chat_id": -71489685325831,
+      "type": "chat",
+      "status": "active",
+      "title": "Анапа Объявление | Новости",
+      "participants_count": 328,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772196680661
+    },
+    {
+      "chat_id": -69275091875117,
+      "type": "chat",
+      "status": "active",
+      "title": "Расхламлялка Хабаровск",
+      "participants_count": 393,
+      "is_public": false,
+      "link": "https://max.ru/join/z0lw4eZYepWRXXghvNFGkQnyp8PZcRrvg9PVR717TAA",
+      "last_event_time": 1772196624716
+    },
+    {
+      "chat_id": -71144372019249,
+      "type": "chat",
+      "status": "active",
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "participants_count": 17,
+      "is_public": false,
+      "link": "https://max.ru/join/F29pGIXn_Nr_c23Z3_1X4BrLoD7L21Ypd_F6gDb0xOw",
+      "last_event_time": 1772195854011
+    },
+    {
+      "chat_id": -68881312937315,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+      "participants_count": 113,
+      "is_public": false,
+      "link": "https://max.ru/join/bBSUcPborguq45KIIIJti25MAheYSaiapm2r71fwUUI",
+      "last_event_time": 1772195832193
+    },
+    {
+      "chat_id": -70704271488349,
+      "type": "chat",
+      "status": "active",
+      "title": "06/Анапа",
+      "participants_count": 97,
+      "is_public": false,
+      "link": "https://max.ru/join/07OnQRfTPTLBsW5v5Ts5kBkQFG8KlvJRJAEllLD6EWc",
+      "last_event_time": 1772194335376
+    },
+    {
+      "chat_id": -69274500071665,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа Хабаровск",
+      "participants_count": 428,
+      "is_public": false,
+      "link": "https://max.ru/join/2tayBQUnOWwovHVE3pRSNF156ywFIJdIGz7LuXWi0UY",
+      "last_event_time": 1772193862769
+    },
+    {
+      "chat_id": -70800909549668,
+      "type": "chat",
+      "status": "active",
+      "title": "ПРОДАМ, КУПЛЮ, ОТДАМ,ДАРЕНИЕ ХАБАРОВСК +ДВ",
+      "participants_count": 409,
+      "is_public": false,
+      "link": "https://max.ru/join/ZE5kNp4WZEI8byecCbmewxjQMS672qYaYbY1Y5d31Tc",
+      "last_event_time": 1772193576887
+    },
+    {
+      "chat_id": -70423011440022,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа Чита75",
+      "participants_count": 278,
+      "is_public": false,
+      "link": "https://max.ru/join/fTHvsjO-0hIe3IvC1zAf7fN8hwENVl6yE_e0nshKtLU",
+      "last_event_time": 1772193356697
+    },
+    {
+      "chat_id": -68111837137653,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа в Красноярске",
+      "participants_count": 239,
+      "is_public": false,
+      "link": "https://max.ru/join/yLVsF-KtLqBqot7vDvpNguff_5mRojjRh0VsWQofrS8",
+      "last_event_time": 1772193273806
+    },
+    {
+      "chat_id": -69739766172348,
+      "type": "chat",
+      "status": "active",
+      "title": "Охотничья барахолка 75RUS",
+      "participants_count": 631,
+      "is_public": false,
+      "link": "https://max.ru/join/OOumAJFYYSgDpbG4zIpR9BiA6Hr5BSLsbU-K25_4H-c",
+      "last_event_time": 1772192360245
+    },
+    {
+      "chat_id": -69530720469191,
+      "type": "chat",
+      "status": "active",
+      "title": "МЕЖГОРОД-ПОПУТЧИКИ.",
+      "participants_count": 246,
+      "is_public": false,
+      "link": "https://max.ru/join/mFWG_OzmksJECQo5TYQHczi71uvKJMV3KMIVgB_RgTo",
+      "last_event_time": 1772192299992
+    },
+    {
+      "chat_id": -68837922534767,
+      "type": "chat",
+      "status": "active",
+      "title": "ОКЕАН магазин рыбы и морепродуктов",
+      "participants_count": 410,
+      "is_public": false,
+      "link": "https://max.ru/join/pmJJNYu14upjscDYbdjDw4Mg7GTcOjFUcReUNmCeNBE",
+      "last_event_time": 1772191476060
+    },
+    {
+      "chat_id": -68835995164676,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Ейск",
+      "participants_count": 261,
+      "is_public": false,
+      "link": "https://max.ru/join/zKPtecFWaLjuauDHnX-YPt9YW1A1nADWsIAXgxiPOwU",
+      "last_event_time": 1772191090803
+    },
+    {
+      "chat_id": -71045166650834,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Куплю • Продам",
+      "participants_count": 42,
+      "is_public": false,
+      "link": "https://max.ru/join/-bkdKwUqet8mZYvzIzNcqZ2HtpZ7yeX1wKVG7Of6PJ4",
+      "last_event_time": 1772190689540
+    },
+    {
+      "chat_id": -71045154657746,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Новости • Общение",
+      "participants_count": 48,
+      "is_public": false,
+      "link": "https://max.ru/join/OsUmIUSeKRSF9iM7A20v97YYAgpL5GyoYvw0ELRPZUk",
+      "last_event_time": 1772190409821
+    },
+    {
+      "chat_id": -69708585345037,
+      "type": "chat",
+      "status": "active",
+      "title": "7 Инкубатор и птицы Ставрополья",
+      "participants_count": 347,
+      "is_public": false,
+      "link": "https://max.ru/join/GMGq-S_y_xNAz8dIwnyVl95eQD_ujYcwrI2Q-yRSzBw",
+      "last_event_time": 1772188934601
+    },
+    {
+      "chat_id": -69274926658861,
+      "type": "chat",
+      "status": "active",
+      "title": "Аренда квартир Хабаровск",
+      "participants_count": 163,
+      "is_public": false,
+      "link": "https://max.ru/join/DaUSGeGn_EaR3pxhuKei9oJ-ACGOnIs7EC2x6Dw7BrI",
+      "last_event_time": 1772185875984
+    },
+    {
+      "chat_id": -68629434012934,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа: вакансии и подработка в Казани",
+      "participants_count": 137,
+      "is_public": false,
+      "link": "https://max.ru/join/jHS5mOVHvrnxj5HWVEF7TeK3ArpgXnIPqY5uop-MF2I",
+      "last_event_time": 1772184004485
+    },
+    {
+      "chat_id": -71391994783006,
+      "type": "chat",
+      "status": "active",
+      "title": "2\"А класс",
+      "participants_count": 4,
+      "is_public": false,
+      "link": "https://max.ru/join/08gP2_oTJeHg55-7qWn6kQjwQrCZhnL5HbyWBnmArH4",
+      "last_event_time": 1772181210308
+    },
+    {
+      "chat_id": -71045173663186,
+      "type": "chat",
+      "status": "active",
+      "title": "АНАПА Live | Работа • Вакансии",
+      "participants_count": 26,
+      "is_public": false,
+      "link": "https://max.ru/join/0BZYT2AItZ-cpPMfCmFA1KpxmLWsWLlmocthsMP_4ww",
+      "last_event_time": 1772150244437
+    },
+    {
+      "chat_id": -70775819433303,
+      "type": "chat",
+      "status": "active",
+      "title": "Судак Объявления",
+      "participants_count": 319,
+      "is_public": false,
+      "link": "https://max.ru/join/kOHVB19hlXLd1J7Pj2EQarX4ipl8c7V57GEAAMl-H-o",
+      "last_event_time": 1772146797407
+    },
+    {
+      "chat_id": -71420429305863,
+      "type": "chat",
+      "status": "active",
+      "title": "Ter",
+      "participants_count": 5,
+      "is_public": false,
+      "link": null,
+      "last_event_time": 1772145130380
+    }
+  ]
+}

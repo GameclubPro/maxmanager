@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-02-27T20:04:03.427Z",
+  "target_chat": {
+    "chat_id": -71489753942023,
+    "title": "Новошахтинск Объявления | Новости",
+    "participants_count": 2207,
+    "status": "active",
+    "type": "chat"
+  },
+  "source_chats_count_requested": 3,
+  "source_chat_ids_requested": [
+    -70933000194781,
+    -69199655897845,
+    -69502470482581
+  ],
+  "filters": {
+    "city_match_regex": "/новошахтинск/iu",
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_users_already_in_target": true,
+    "exclude_target_chat_from_source": true
+  },
+  "stats": {
+    "processed_chats": 3,
+    "failed_chats": 0,
+    "target_members_snapshot_count": 2207,
+    "unique_ids_final": 593,
+    "unique_admin_ids_seen": 7,
+    "unique_bot_ids_seen": 3
+  },
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -70933000194781,
+      "title": "Объявления Новошахтинск",
+      "participants_count": 2109,
+      "members_fetched": 2109,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 166,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1939,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69199655897845,
+      "title": "ПОДСЛУШАНО НОВОШАХТИНСК",
+      "participants_count": 675,
+      "members_fetched": 675,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 160,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 511,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69502470482581,
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "participants_count": 338,
+      "members_fetched": 338,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 300,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 34,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 3
+    }
+  ]
+}

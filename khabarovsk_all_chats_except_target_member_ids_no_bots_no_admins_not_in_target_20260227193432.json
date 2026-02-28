@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-02-27T16:34:32.697Z",
+  "target_chat": {
+    "chat_id": -71506814142471,
+    "title": "Хабаровск Объявления |  Новости",
+    "participants_count": 6,
+    "status": "active",
+    "type": "chat"
+  },
+  "source_chats_count_requested": 7,
+  "source_chat_ids_requested": [
+    -70302277793129,
+    -70800909549668,
+    -69274611941617,
+    -69475005327925,
+    -69274926658861,
+    -69275091875117,
+    -69274500071665
+  ],
+  "filters": {
+    "city_match_regex": "/хабаровск/iu",
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_users_already_in_target": true,
+    "exclude_target_chat_from_source": true
+  },
+  "stats": {
+    "processed_chats": 7,
+    "failed_chats": 0,
+    "target_members_snapshot_count": 6,
+    "unique_ids_final": 1888,
+    "unique_admin_ids_seen": 9,
+    "unique_bot_ids_seen": 2
+  },
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -70302277793129,
+      "title": "👷РАБОТА 🧑‍🏫 в Хабаровске ❗",
+      "participants_count": 159,
+      "members_fetched": 159,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 156,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 1
+    },
+    {
+      "chat_id": -70800909549668,
+      "title": "ПРОДАМ, КУПЛЮ, ОТДАМ,ДАРЕНИЕ ХАБАРОВСК +ДВ",
+      "participants_count": 409,
+      "members_fetched": 409,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 405,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69274611941617,
+      "title": "Барахолка 27 Хабаровск",
+      "participants_count": 395,
+      "members_fetched": 395,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 390,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 3
+    },
+    {
+      "chat_id": -69475005327925,
+      "title": "Барахолка Хабаровск",
+      "participants_count": 447,
+      "members_fetched": 447,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 442,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69274926658861,
+      "title": "Аренда квартир Хабаровск",
+      "participants_count": 163,
+      "members_fetched": 163,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 159,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69275091875117,
+      "title": "Расхламлялка Хабаровск",
+      "participants_count": 393,
+      "members_fetched": 393,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 389,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -69274500071665,
+      "title": "Работа Хабаровск",
+      "participants_count": 428,
+      "members_fetched": 428,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 423,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 3
+    }
+  ]
+}

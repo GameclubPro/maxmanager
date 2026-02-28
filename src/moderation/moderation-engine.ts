@@ -229,14 +229,12 @@ export class ModerationEngine {
 
     const isForwardedPhoto = hasForwardedImageAttachment(message);
 
-    if (!isForwardedPhoto) {
-      const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
-      if (forbiddenLinks.length > 0) {
-        await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
-          forbiddenLinks,
-        });
-        return;
-      }
+    const forbiddenLinks = getForbiddenLinks(message, whitelistDomains);
+    if (forbiddenLinks.length > 0) {
+      await this.enforcement.enforceLinkViolation(ctx, { chatId, userId, userName, messageId }, {
+        forbiddenLinks,
+      });
+      return;
     }
 
     if (chatSettings.maxTextLength > 0) {

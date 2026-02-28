@@ -208,7 +208,7 @@ describe('moderation engine forwarded messages', () => {
     db.close();
   });
 
-  it('does not treat forwarded photo as link violation', async () => {
+  it('treats forwarded photo with forbidden link as violation', async () => {
     const db = new SqliteDatabase(':memory:');
     const repos = createRepositories(db.db, config);
     const linkViolations: unknown[] = [];
@@ -262,7 +262,9 @@ describe('moderation engine forwarded messages', () => {
 
     await engine.handleMessage(makeContext(message));
 
-    expect(linkViolations).toHaveLength(0);
+    expect(linkViolations).toHaveLength(1);
+    const [firstViolation] = linkViolations as Array<{ forbiddenLinks?: Array<{ domain: string | null }> }>;
+    expect(firstViolation.forbiddenLinks?.some((item) => item.domain === 'spam.example.org')).toBe(true);
     db.close();
   });
 });
