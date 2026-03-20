@@ -1,0 +1,278 @@
+{
+  "checked_at": "2026-03-09T12:32:37.469Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 343,
+  "pages": 4,
+  "filter": "title|description|link contains /(чита|chita)/i",
+  "matched_count": 24,
+  "active_matched_count": 24,
+  "chats": [
+    {
+      "chat_id": -71711706414456,
+      "title": "Chat75.ru",
+      "participants_count": 19210,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/ejv-cNDqXiQpmbEuntKUmoRBYlgWJio6hDOlSuePufo"
+    },
+    {
+      "chat_id": -71489818560519,
+      "title": "Чита Объявления | Новости",
+      "participants_count": 7302,
+      "status": "active",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "is_public": false,
+      "link": null
+    },
+    {
+      "chat_id": -68076019810506,
+      "title": "Регион 75",
+      "participants_count": 3287,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk"
+    },
+    {
+      "chat_id": -68097242792138,
+      "title": "БАРАХОЛКА 75R",
+      "participants_count": 2338,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ"
+    },
+    {
+      "chat_id": -68097233289418,
+      "title": "Чита 75 🇷🇺RUS",
+      "participants_count": 2146,
+      "status": "active",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw"
+    },
+    {
+      "chat_id": -68845329787436,
+      "title": "ДРУЖНЫЙ СОЛЗАН",
+      "participants_count": 2100,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/Lv1c2-XbIM4Sm19RDC8L_pPvSjhfmspQ-OwVMxIkWTc"
+    },
+    {
+      "chat_id": -68246190656209,
+      "title": "Авторынок Волгоград объявления",
+      "participants_count": 1940,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/KVxvVFUD2M4PvlfseATJ5ub6-npSFgawODRMDP336uw"
+    },
+    {
+      "chat_id": -68212641988810,
+      "title": "БАРАХЛЯНДИЯ🇷🇺",
+      "participants_count": 1927,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/srAq1j6jwW-enxSWrppR16_AC_NZpAA3oy-gyVPgGCs"
+    },
+    {
+      "chat_id": -68117060324043,
+      "title": "Объявления г. Чита",
+      "participants_count": 1350,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g"
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 1053,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ"
+    },
+    {
+      "chat_id": -68597066702870,
+      "title": "Общество охотников и рыболовов",
+      "participants_count": 886,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/MsBVm5GS-omUzD6Y67cVHrpcl3T0V8v5Bzs2pZMJk08"
+    },
+    {
+      "chat_id": -68781077015126,
+      "title": "ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ",
+      "participants_count": 718,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ"
+    },
+    {
+      "chat_id": -68159689766294,
+      "title": "Недвижимость Чита 75",
+      "participants_count": 701,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo"
+    },
+    {
+      "chat_id": -68360003051677,
+      "title": "Энгельс Купи - Продай - Реклама Бесплатно",
+      "participants_count": 496,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/h5b4Sy1vcmms6T6oD0BxOQQp80dNsL_aJxZ2p-p-Abs"
+    },
+    {
+      "chat_id": -69418346537117,
+      "title": "Улёты Чита Объявления",
+      "participants_count": 479,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA"
+    },
+    {
+      "chat_id": -68813462178555,
+      "title": "Бесплатные обьявления Чита",
+      "participants_count": 418,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU"
+    },
+    {
+      "chat_id": -68251366847972,
+      "title": "Чита: Доска объявлений",
+      "participants_count": 402,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I"
+    },
+    {
+      "chat_id": -69384543865595,
+      "title": "Барахолка Чита",
+      "participants_count": 377,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc"
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "participants_count": 329,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/J1K306Z80mNClUYEIXFsxnS-wA9NRGLdgL9NgDvJ5dU"
+    },
+    {
+      "chat_id": -69351574899433,
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "participants_count": 219,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8"
+    },
+    {
+      "chat_id": -71408855463348,
+      "title": "Цветики-Цветочки (Чита)",
+      "participants_count": 208,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/VcNHMLumKLF3IzBGQ-AgFPBMJZHrZj9SgHhR-ZUxUx0"
+    },
+    {
+      "chat_id": -70856936647323,
+      "title": "Работа Москва и Московская область",
+      "participants_count": 181,
+      "status": "active",
+      "matched_fields": [
+        "description"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/KOqbsN_slCR5mtqm1lgtE6JZBPe5Zxpj0DS88iEYzWg"
+    },
+    {
+      "chat_id": -71489896106117,
+      "title": "Цветы. Рассада. Саженцы. Чита",
+      "participants_count": 94,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/3FQkuGQMWqR387hhFm7Bq21TsfB6vKWYMSRpqMATkvI"
+    },
+    {
+      "chat_id": -71490092468744,
+      "title": "Фермерский драйв. Чита.",
+      "participants_count": 82,
+      "status": "active",
+      "matched_fields": [
+        "title"
+      ],
+      "is_public": false,
+      "link": "https://max.ru/join/ENagHrk_nLPmDQCEowPYxve3b8Qiel6RZvGkqQjFVN4"
+    }
+  ]
+}

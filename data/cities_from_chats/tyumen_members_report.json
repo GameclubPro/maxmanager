@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-03-02T14:43:30.181Z",
+  "city": "tyumen",
+  "source_chats_count": 13,
+  "processed_chats_count": 13,
+  "failed_chats_count": 0,
+  "unique_ids_count": 7800,
+  "per_chat": [
+    {
+      "chat_id": -68233959814571,
+      "title": "🪧 ОБЪЯВЛЕНИЯ-ТЮМЕНЬ! 🏡ТЮМЕНСКАЯ ОБЛАСТЬ! 💬",
+      "pages": 6,
+      "members_fetched": 584,
+      "kept_non_bot_non_admin": 582,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71295370889742,
+      "title": "ТЮМЕНЬ • ОБЪЯВЛЕНИЯ",
+      "pages": 16,
+      "members_fetched": 1572,
+      "kept_non_bot_non_admin": 1569,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70704308374216,
+      "title": "7️⃣2️⃣ 💯✔️Тюмень и  Тюменская область ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 60,
+      "members_fetched": 5967,
+      "kept_non_bot_non_admin": 5956,
+      "skipped_bots": 8,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70941947218644,
+      "title": "ПРОДАТЬ в ТЮМЕНИ",
+      "pages": 6,
+      "members_fetched": 542,
+      "kept_non_bot_non_admin": 537,
+      "skipped_bots": 3,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71520449562631,
+      "title": "Тюмень Объявления | Новости",
+      "pages": 29,
+      "members_fetched": 2879,
+      "kept_non_bot_non_admin": 2873,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68185156220379,
+      "title": "🦋Барахолка Тюмень 72🦋",
+      "pages": 6,
+      "members_fetched": 555,
+      "kept_non_bot_non_admin": 552,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68054614021388,
+      "title": "Мы Тюмень",
+      "pages": 4,
+      "members_fetched": 314,
+      "kept_non_bot_non_admin": 312,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69449323735629,
+      "title": "Работа. Тюмень. Тюменская область",
+      "pages": 15,
+      "members_fetched": 1475,
+      "kept_non_bot_non_admin": 1470,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68306504865087,
+      "title": "Тюмень барахолка",
+      "pages": 3,
+      "members_fetched": 225,
+      "kept_non_bot_non_admin": 221,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69574891847771,
+      "title": "ТЮМЕНЬ ОБЬЯВЛЕНИЯ",
+      "pages": 4,
+      "members_fetched": 343,
+      "kept_non_bot_non_admin": 339,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68311503759949,
+      "title": "Тюмень",
+      "pages": 2,
+      "members_fetched": 136,
+      "kept_non_bot_non_admin": 132,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68792398301926,
+      "title": "9️⃣Тюменская область объявления",
+      "pages": 6,
+      "members_fetched": 556,
+      "kept_non_bot_non_admin": 553,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69538142025203,
+      "title": "Работа, подработка Тюмень",
+      "pages": 23,
+      "members_fetched": 2221,
+      "kept_non_bot_non_admin": 2216,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/tyumen.txt"
+}

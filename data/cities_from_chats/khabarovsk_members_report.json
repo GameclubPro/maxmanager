@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-03-03T18:44:08.392Z",
+  "city": "khabarovsk",
+  "total_chats_seen": 449,
+  "matched_city_chats_count": 18,
+  "target_chat": {
+    "chat_id": -71506814142471,
+    "title": "Хабаровск Объявления |  Новости",
+    "members_total": 2000,
+    "pages_fetched": 20
+  },
+  "source_chats_count": 17,
+  "processed_chats_count": 17,
+  "failed_chats_count": 0,
+  "unique_ids_count": 2038,
+  "per_chat": [
+    {
+      "chat_id": -70869461658153,
+      "title": "Барахолка Хабаровский край",
+      "pages": 2,
+      "members_fetched": 187,
+      "kept_non_bot_non_admin_not_in_target": 123,
+      "skipped_bots": 5,
+      "skipped_admins": 1,
+      "skipped_in_target": 58,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69337026871420,
+      "title": "Хабаровск объявления и взаимные ссылки",
+      "pages": 2,
+      "members_fetched": 166,
+      "kept_non_bot_non_admin_not_in_target": 104,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 60,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68080428741993,
+      "title": "Барахолка Хабаровска",
+      "pages": 4,
+      "members_fetched": 363,
+      "kept_non_bot_non_admin_not_in_target": 162,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 199,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69247255934310,
+      "title": "Презент. Купи - Продай. Хабаровск",
+      "pages": 5,
+      "members_fetched": 460,
+      "kept_non_bot_non_admin_not_in_target": 279,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_in_target": 175,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69274611941617,
+      "title": "Барахолка 27 Хабаровск",
+      "pages": 4,
+      "members_fetched": 395,
+      "kept_non_bot_non_admin_not_in_target": 164,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_in_target": 227,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69437047436787,
+      "title": "Купи продай Хабаровск",
+      "pages": 5,
+      "members_fetched": 427,
+      "kept_non_bot_non_admin_not_in_target": 250,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 174,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68125326669158,
+      "title": "Презент. Объявления. Хабаровск",
+      "pages": 8,
+      "members_fetched": 767,
+      "kept_non_bot_non_admin_not_in_target": 453,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_in_target": 308,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69475005327925,
+      "title": "Барахолка Хабаровск",
+      "pages": 5,
+      "members_fetched": 448,
+      "kept_non_bot_non_admin_not_in_target": 235,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_in_target": 209,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69274500071665,
+      "title": "Работа Хабаровск",
+      "pages": 5,
+      "members_fetched": 434,
+      "kept_non_bot_non_admin_not_in_target": 182,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_in_target": 248,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69372638784155,
+      "title": "Детская барахолка. Хабаровск",
+      "pages": 3,
+      "members_fetched": 225,
+      "kept_non_bot_non_admin_not_in_target": 115,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_in_target": 107,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70302277793129,
+      "title": "👷РАБОТА 🧑‍🏫 в Хабаровске ❗",
+      "pages": 2,
+      "members_fetched": 177,
+      "kept_non_bot_non_admin_not_in_target": 100,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 75,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69293605451251,
+      "title": "Продукты Хабаровск",
+      "pages": 6,
+      "members_fetched": 527,
+      "kept_non_bot_non_admin_not_in_target": 283,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 241,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70800909549668,
+      "title": "ПРОДАМ, КУПЛЮ, ОТДАМ,ДАРЕНИЕ ХАБАРОВСК +ДВ",
+      "pages": 5,
+      "members_fetched": 459,
+      "kept_non_bot_non_admin_not_in_target": 67,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 389,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69275091875117,
+      "title": "Расхламлялка Хабаровск",
+      "pages": 4,
+      "members_fetched": 393,
+      "kept_non_bot_non_admin_not_in_target": 186,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 204,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68139067438558,
+      "title": "Работа для женщин! Хабаровск и пригород",
+      "pages": 3,
+      "members_fetched": 300,
+      "kept_non_bot_non_admin_not_in_target": 136,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_in_target": 158,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69448910236315,
+      "title": "Детская АФИША. Хабаровск",
+      "pages": 4,
+      "members_fetched": 327,
+      "kept_non_bot_non_admin_not_in_target": 176,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_in_target": 148,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69274926658861,
+      "title": "Аренда квартир Хабаровск",
+      "pages": 2,
+      "members_fetched": 165,
+      "kept_non_bot_non_admin_not_in_target": 81,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 81,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/khabarovsk.txt"
+}

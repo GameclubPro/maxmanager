@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-13T23:19:12.532Z",
+  "target_chat_id": -71956067878919,
+  "source_file": "data/millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459.txt",
+  "batches_completed": 12,
+  "total_processed_count": 4414,
+  "total_attempted_invite_count": 4414,
+  "total_invited_without_immediate_failure_count": 4344,
+  "total_verified_added_count": 2899,
+  "total_still_missing_count": 1515,
+  "total_not_attempted_due_to_stop_count": 0,
+  "before_participants_count": 10,
+  "after_participants_count": 2908,
+  "failed_by_code": {
+    "unknown_error": 70
+  },
+  "failed_by_status": {
+    "null": 70
+  },
+  "result_files": [
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1_400_20260313223734_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_401_800_20260313224121_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_801_1200_20260313224455_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1201_1600_20260313224839_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1601_2000_20260313225225_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2001_2400_20260313225610_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2401_2800_20260313225958_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2801_3200_20260313230346_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3201_3600_20260313230725_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3601_4000_20260313231106_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4001_4400_20260313231447_result.json",
+    "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4401_4414_20260313231824_result.json"
+  ],
+  "still_missing_files": [
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1_400_20260313223734.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_401_800_20260313224121.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_801_1200_20260313224455.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1201_1600_20260313224839.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1601_2000_20260313225225.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2001_2400_20260313225610.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2401_2800_20260313225958.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2801_3200_20260313230346.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3201_3600_20260313230725.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3601_4000_20260313231106.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4001_4400_20260313231447.txt",
+    "data/still_missing_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4401_4414_20260313231824.txt"
+  ],
+  "combined_still_missing_file": "data/still_missing_millerovo_first_pass_20260314_013459.txt",
+  "combined_still_missing_count": 1515,
+  "per_batch": [
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1_400_20260313223734_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 260,
+      "still_not_in_target_from_this_chunk_count": 140,
+      "before_participants_count": 10,
+      "after_participants_count": 270
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_401_800_20260313224121_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 400,
+      "verified_added_count": 301,
+      "still_not_in_target_from_this_chunk_count": 99,
+      "before_participants_count": 270,
+      "after_participants_count": 571
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_801_1200_20260313224455_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 284,
+      "still_not_in_target_from_this_chunk_count": 116,
+      "before_participants_count": 571,
+      "after_participants_count": 855
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1201_1600_20260313224839_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 314,
+      "still_not_in_target_from_this_chunk_count": 86,
+      "before_participants_count": 855,
+      "after_participants_count": 1169
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_1601_2000_20260313225225_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 380,
+      "verified_added_count": 296,
+      "still_not_in_target_from_this_chunk_count": 104,
+      "before_participants_count": 1169,
+      "after_participants_count": 1465
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2001_2400_20260313225610_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 303,
+      "still_not_in_target_from_this_chunk_count": 97,
+      "before_participants_count": 1465,
+      "after_participants_count": 1768
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2401_2800_20260313225958_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 277,
+      "still_not_in_target_from_this_chunk_count": 123,
+      "before_participants_count": 1768,
+      "after_participants_count": 2044
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_2801_3200_20260313230346_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 400,
+      "verified_added_count": 312,
+      "still_not_in_target_from_this_chunk_count": 88,
+      "before_participants_count": 2044,
+      "after_participants_count": 2356
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3201_3600_20260313230725_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 400,
+      "verified_added_count": 265,
+      "still_not_in_target_from_this_chunk_count": 135,
+      "before_participants_count": 2356,
+      "after_participants_count": 2621
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_3601_4000_20260313231106_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 400,
+      "verified_added_count": 175,
+      "still_not_in_target_from_this_chunk_count": 225,
+      "before_participants_count": 2621,
+      "after_participants_count": 2796
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4001_4400_20260313231447_result.json",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 400,
+      "verified_added_count": 109,
+      "still_not_in_target_from_this_chunk_count": 291,
+      "before_participants_count": 2796,
+      "after_participants_count": 2905
+    },
+    {
+      "result_file": "data/add_millerovo_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_013459_to_71956067878919_4401_4414_20260313231824_result.json",
+      "processed_count": 14,
+      "attempted_invite_count": 14,
+      "invited_without_immediate_failure_count": 14,
+      "verified_added_count": 3,
+      "still_not_in_target_from_this_chunk_count": 11,
+      "before_participants_count": 2905,
+      "after_participants_count": 2908
+    }
+  ]
+}

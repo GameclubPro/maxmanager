@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-03-02T14:35:59.937Z",
+  "city": "chita",
+  "source_chats_count": 26,
+  "processed_chats_count": 26,
+  "failed_chats_count": 0,
+  "unique_ids_count": 11592,
+  "per_chat": [
+    {
+      "chat_id": -71489818560519,
+      "title": "Чита Объявления | Новости",
+      "pages": 84,
+      "members_fetched": 8378,
+      "kept_non_bot_non_admin": 8371,
+      "skipped_bots": 2,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69487005562223,
+      "title": "ЧИТА- Забайкальская МЕГА барахолка",
+      "pages": 6,
+      "members_fetched": 522,
+      "kept_non_bot_non_admin": 516,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68097564521878,
+      "title": "Животный мир Чита 75R",
+      "pages": 6,
+      "members_fetched": 563,
+      "kept_non_bot_non_admin": 559,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68081902581088,
+      "title": "ЯРМАРКА⚜️ЧИТА",
+      "pages": 7,
+      "members_fetched": 660,
+      "kept_non_bot_non_admin": 654,
+      "skipped_bots": 5,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68117060324043,
+      "title": "Объявления г. Чита",
+      "pages": 13,
+      "members_fetched": 1232,
+      "kept_non_bot_non_admin": 1229,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68022921197022,
+      "title": "ЧИТА БАРАХОЛКА",
+      "pages": 14,
+      "members_fetched": 1389,
+      "kept_non_bot_non_admin": 1385,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68106571142598,
+      "title": "Объявления Читы",
+      "pages": 10,
+      "members_fetched": 931,
+      "kept_non_bot_non_admin": 925,
+      "skipped_bots": 5,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69418346537117,
+      "title": "Улёты Чита Объявления",
+      "pages": 5,
+      "members_fetched": 419,
+      "kept_non_bot_non_admin": 417,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71497466657480,
+      "title": "Чита и Забайкальский край  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 73,
+      "members_fetched": 7221,
+      "kept_non_bot_non_admin": 7208,
+      "skipped_bots": 9,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69384543865595,
+      "title": "Барахолка Чита",
+      "pages": 3,
+      "members_fetched": 261,
+      "kept_non_bot_non_admin": 254,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69176331537147,
+      "title": "Чита. ru",
+      "pages": 4,
+      "members_fetched": 342,
+      "kept_non_bot_non_admin": 335,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68813462178555,
+      "title": "Бесплатные обьявления Чита",
+      "pages": 4,
+      "members_fetched": 353,
+      "kept_non_bot_non_admin": 345,
+      "skipped_bots": 6,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68102758249896,
+      "title": "Подслушано ЧИТА",
+      "pages": 6,
+      "members_fetched": 588,
+      "kept_non_bot_non_admin": 585,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68084149212488,
+      "title": "г. ЧИТА И ЗАБ. КРАЙ",
+      "pages": 12,
+      "members_fetched": 1138,
+      "kept_non_bot_non_admin": 1131,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68080718165398,
+      "title": "ЦветоМикс.Чита75R",
+      "pages": 7,
+      "members_fetched": 626,
+      "kept_non_bot_non_admin": 622,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68159689766294,
+      "title": "Недвижимость Чита 75",
+      "pages": 7,
+      "members_fetched": 637,
+      "kept_non_bot_non_admin": 633,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68159930414486,
+      "title": "Рынок Чита75R",
+      "pages": 8,
+      "members_fetched": 705,
+      "kept_non_bot_non_admin": 701,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68097532540310,
+      "title": "Барахолка Чита 75R",
+      "pages": 8,
+      "members_fetched": 735,
+      "kept_non_bot_non_admin": 731,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68159753074070,
+      "title": "Авто Чита 75R",
+      "pages": 6,
+      "members_fetched": 557,
+      "kept_non_bot_non_admin": 553,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68968482701562,
+      "title": "Ручная работа г Чита. Мастера заб. края",
+      "pages": 2,
+      "members_fetched": 145,
+      "kept_non_bot_non_admin": 142,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68927094568342,
+      "title": "Купи-Продай Чита75",
+      "pages": 6,
+      "members_fetched": 571,
+      "kept_non_bot_non_admin": 567,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68251366847972,
+      "title": "Чита: Доска объявлений",
+      "pages": 4,
+      "members_fetched": 384,
+      "kept_non_bot_non_admin": 382,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69351574899433,
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "pages": 3,
+      "members_fetched": 215,
+      "kept_non_bot_non_admin": 211,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71361110024232,
+      "title": "Объявления📋 Услуги🚚ЧИТА",
+      "pages": 1,
+      "members_fetched": 84,
+      "kept_non_bot_non_admin": 81,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70423011440022,
+      "title": "Работа Чита75",
+      "pages": 3,
+      "members_fetched": 291,
+      "kept_non_bot_non_admin": 287,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69401173246022,
+      "title": "ЧЕРНОВСКИЙ РАЙОН, ЧИТА",
+      "pages": 3,
+      "members_fetched": 276,
+      "kept_non_bot_non_admin": 274,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/chita.txt"
+}

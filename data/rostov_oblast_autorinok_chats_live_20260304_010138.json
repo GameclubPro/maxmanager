@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-03-03T22:04:33.302Z",
+  "source_file": "data/rostov_oblast_chats_check_live_20260304_010138.json",
+  "source_total_chats": 29,
+  "filter_scope": "title",
+  "filter_regex": "/(авторынок|авто\\s*рынок|autorynok|auto\\s*market)/iu",
+  "matched_chats_count": 2,
+  "chats": [
+    {
+      "chat_id": -69292363478500,
+      "title": "Авторынок Ростовская область",
+      "participants_count": 553,
+      "status": "active",
+      "link": "https://max.ru/join/xbSHTD1-HIhfWEB5Szvyvi3fGBMY4DQOuZnJQQrP4UA"
+    },
+    {
+      "chat_id": -71644395571207,
+      "title": "АВТОРЫНОК | Ростовская область",
+      "participants_count": 5,
+      "status": "active",
+      "link": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+generated_at: 2026-03-10T19:13:03.596Z
+scope: all chats visible to bot token via getAllChats()
+total_visible_chats: 361
+city_chats_count: 4
+matched_chats_count: 1
+
+1. НЕДВИЖИМОСТЬ | Сочи
+   chat_id=-71765135362055 status=active participants=8 matched_by=title
+   description=Чат о недвижимости Сочи. Публикуем только темы по недвижимости: покупка, продажа, аренда, новостройки, инвестиции. Спам и ссылки запрещены.
+

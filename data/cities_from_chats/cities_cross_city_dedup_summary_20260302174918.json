@@ -1,0 +1,172 @@
+{
+  "generated_at": "2026-03-02T14:49:18.115Z",
+  "based_on_summary": "data/cities_from_chats/cities_members_fill_summary_20260302174611.json",
+  "cities_processed": 23,
+  "unique_ids_total_before": 86842,
+  "ids_found_in_2_or_more_cities": 10607,
+  "total_city_file_rows_before": 112878,
+  "total_city_file_rows_after": 76235,
+  "per_city": [
+    {
+      "city": "anapa",
+      "txt_file": "data/cities_from_chats/anapa.txt",
+      "ids_before": 419,
+      "ids_after": 136,
+      "removed_as_cross_city_duplicates": 283
+    },
+    {
+      "city": "angarsk",
+      "txt_file": "data/cities_from_chats/angarsk.txt",
+      "ids_before": 455,
+      "ids_after": 165,
+      "removed_as_cross_city_duplicates": 290
+    },
+    {
+      "city": "chita",
+      "txt_file": "data/cities_from_chats/chita.txt",
+      "ids_before": 11592,
+      "ids_after": 8624,
+      "removed_as_cross_city_duplicates": 2968
+    },
+    {
+      "city": "ekaterinburg",
+      "txt_file": "data/cities_from_chats/ekaterinburg.txt",
+      "ids_before": 624,
+      "ids_after": 337,
+      "removed_as_cross_city_duplicates": 287
+    },
+    {
+      "city": "eysk",
+      "txt_file": "data/cities_from_chats/eysk.txt",
+      "ids_before": 6616,
+      "ids_after": 4109,
+      "removed_as_cross_city_duplicates": 2507
+    },
+    {
+      "city": "irkutsk",
+      "txt_file": "data/cities_from_chats/irkutsk.txt",
+      "ids_before": 4858,
+      "ids_after": 2422,
+      "removed_as_cross_city_duplicates": 2436
+    },
+    {
+      "city": "kazan",
+      "txt_file": "data/cities_from_chats/kazan.txt",
+      "ids_before": 3308,
+      "ids_after": 1144,
+      "removed_as_cross_city_duplicates": 2164
+    },
+    {
+      "city": "khabarovsk",
+      "txt_file": "data/cities_from_chats/khabarovsk.txt",
+      "ids_before": 4010,
+      "ids_after": 2961,
+      "removed_as_cross_city_duplicates": 1049
+    },
+    {
+      "city": "krasnodar",
+      "txt_file": "data/cities_from_chats/krasnodar.txt",
+      "ids_before": 11599,
+      "ids_after": 5200,
+      "removed_as_cross_city_duplicates": 6399
+    },
+    {
+      "city": "krasnoyarsk",
+      "txt_file": "data/cities_from_chats/krasnoyarsk.txt",
+      "ids_before": 6133,
+      "ids_after": 3917,
+      "removed_as_cross_city_duplicates": 2216
+    },
+    {
+      "city": "kuban",
+      "txt_file": "data/cities_from_chats/kuban.txt",
+      "ids_before": 6376,
+      "ids_after": 2249,
+      "removed_as_cross_city_duplicates": 4127
+    },
+    {
+      "city": "naberezhnye_chelny",
+      "txt_file": "data/cities_from_chats/naberezhnye_chelny.txt",
+      "ids_before": 2082,
+      "ids_after": 1237,
+      "removed_as_cross_city_duplicates": 845
+    },
+    {
+      "city": "novorossiysk",
+      "txt_file": "data/cities_from_chats/novorossiysk.txt",
+      "ids_before": 1697,
+      "ids_after": 941,
+      "removed_as_cross_city_duplicates": 756
+    },
+    {
+      "city": "novoshakhtinsk",
+      "txt_file": "data/cities_from_chats/novoshakhtinsk.txt",
+      "ids_before": 2776,
+      "ids_after": 2374,
+      "removed_as_cross_city_duplicates": 402
+    },
+    {
+      "city": "rodionovka",
+      "txt_file": "data/cities_from_chats/rodionovka.txt",
+      "ids_before": 1583,
+      "ids_after": 1505,
+      "removed_as_cross_city_duplicates": 78
+    },
+    {
+      "city": "rostov",
+      "txt_file": "data/cities_from_chats/rostov.txt",
+      "ids_before": 9093,
+      "ids_after": 6241,
+      "removed_as_cross_city_duplicates": 2852
+    },
+    {
+      "city": "saratov",
+      "txt_file": "data/cities_from_chats/saratov.txt",
+      "ids_before": 1737,
+      "ids_after": 1360,
+      "removed_as_cross_city_duplicates": 377
+    },
+    {
+      "city": "stavropol",
+      "txt_file": "data/cities_from_chats/stavropol.txt",
+      "ids_before": 2530,
+      "ids_after": 969,
+      "removed_as_cross_city_duplicates": 1561
+    },
+    {
+      "city": "tsimlyansk",
+      "txt_file": "data/cities_from_chats/tsimlyansk.txt",
+      "ids_before": 1049,
+      "ids_after": 756,
+      "removed_as_cross_city_duplicates": 293
+    },
+    {
+      "city": "tyumen",
+      "txt_file": "data/cities_from_chats/tyumen.txt",
+      "ids_before": 7800,
+      "ids_after": 6616,
+      "removed_as_cross_city_duplicates": 1184
+    },
+    {
+      "city": "ufa",
+      "txt_file": "data/cities_from_chats/ufa.txt",
+      "ids_before": 14055,
+      "ids_after": 11891,
+      "removed_as_cross_city_duplicates": 2164
+    },
+    {
+      "city": "volgodonsk",
+      "txt_file": "data/cities_from_chats/volgodonsk.txt",
+      "ids_before": 707,
+      "ids_after": 276,
+      "removed_as_cross_city_duplicates": 431
+    },
+    {
+      "city": "volgograd",
+      "txt_file": "data/cities_from_chats/volgograd.txt",
+      "ids_before": 11779,
+      "ids_after": 10805,
+      "removed_as_cross_city_duplicates": 974
+    }
+  ]
+}

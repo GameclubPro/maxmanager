@@ -1,0 +1,23 @@
+checked_at: 2026-02-28T22:47:25.733Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 305
+matched_count: 4
+active_matched_count: 4
+
+1. Барахолка Волгодонска Чат
+   chat_id=-70026839458039 status=active type=chat participants=354
+   matched_fields=title,description
+   link=https://max.ru/join/EDBLc6H1o9Kr0W_NT3ZGrxWZaneLOnawVkdxTq3ori0
+2. ❗️🐟СВЕЖАЯ ЦИМЛЯНСКАЯ РЫБКА 🐡ДОСТАВКА❗️
+   chat_id=-69296973264293 status=active type=chat participants=1106
+   matched_fields=title
+   link=https://max.ru/join/tHDvquEF-BJ15jjCXAXFow-hUq3OyZe9Fgaj58fJtEc
+3. 07/Зимовки, Волгодонск, Шахты Ростовской области
+   chat_id=-70392682673501 status=active type=chat participants=123
+   matched_fields=title
+   link=https://max.ru/join/azn8VlvwP_rWf2IlSVbs6-Jl29L3OkDV0W0vi0Hn8wY
+4. Волгодонск Объявления | Объявления
+   chat_id=-71525320394759 status=active type=chat participants=4
+   matched_fields=title
+   link=-

@@ -1,0 +1,136 @@
+{
+  "checked_at_iso": "2026-03-01T14:01:08.311Z",
+  "city": "Краснодар",
+  "regex": "/(краснодар|krasnodar|\\bкрд\\b)/iu",
+  "pages": 4,
+  "all_chats_count": 311,
+  "krasnodar_chats_count": 14,
+  "chats": [
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 4517,
+      "is_public": false,
+      "link": null
+    },
+    {
+      "chat_id": -71368101388433,
+      "title": "Объявления Краснодар и область",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1431,
+      "is_public": false,
+      "link": "https://max.ru/join/NeljCG6i1mS6lA--Vv11NWfQkfeM5wK_7ip26hOgZKc"
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1280,
+      "is_public": false,
+      "link": "https://max.ru/join/zm30qsewNYvVjYD2rc9v2jQzaHjSopdwgWGDTVzlTJM"
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1044,
+      "is_public": false,
+      "link": "https://max.ru/join/hb0zybWg0AOuHvUdT92aoV3faOjMa-SPyzefVvwunE4"
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 995,
+      "is_public": false,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ"
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 771,
+      "is_public": false,
+      "link": "https://max.ru/join/d1r3iH-HhHpRNH-VAum5ll1xRjGODMCv_RmoXXD1k3s"
+    },
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 755,
+      "is_public": false,
+      "link": "https://max.ru/join/hE6ijT-mPZs0CWI8tN4hG912XfknokeWA554z49FKNE"
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 625,
+      "is_public": false,
+      "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28"
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 489,
+      "is_public": false,
+      "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY"
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 471,
+      "is_public": false,
+      "link": "https://max.ru/join/wIEQo_WoUKVL1p01fUZtvLQS3PEFAKy1naI7XeZ688w"
+    },
+    {
+      "chat_id": -68092439931526,
+      "title": "Я 💓 п. Южный 🏡",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 355,
+      "is_public": false,
+      "link": "https://max.ru/join/8zieTa5m0n6eDaJyZLuqOtZe7tHRK79eIN9hGAgXBzY"
+    },
+    {
+      "chat_id": -68091509516934,
+      "title": "🌸Женский клуб🌸",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 334,
+      "is_public": false,
+      "link": "https://max.ru/join/egjMpwRGz8zYjVQAgguV7f9rzAVkd9fGeIZ0mn1wmew"
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 248,
+      "is_public": false,
+      "link": "https://max.ru/join/kQn4j2rpC3ntgpvw9a_eH4WRgW3aVj2aD5GvlbOewDE"
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 95,
+      "is_public": false,
+      "link": "https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0"
+    }
+  ]
+}

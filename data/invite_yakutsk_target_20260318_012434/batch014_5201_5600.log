@@ -1,0 +1,11 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/yakutsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260318_005924.txt --target-chat-id -72155689814023 --start 5200 --count 400 --invite-batch-size 10 --max-retries 0 --stop-on-action-failed 0 --result-file data/invite_yakutsk_target_20260318_012434/batch014_5201_5600_result.json --missing-file data/invite_yakutsk_target_20260318_012434/batch014_5201_5600_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+{
+  "ok": false,
+  "error": "fetch failed",
+  "code": "unknown_error",
+  "status": null
+}

@@ -1,0 +1,107 @@
+checked_at: 2026-02-28T21:07:35.809Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 305
+matched_count: 25
+active_matched_count: 25
+
+1. 🟣Купи/продай/отдай Затон Уфа
+   chat_id=-70376433653010 status=active type=chat participants=235
+   matched_fields=title
+   link=https://max.ru/join/zcK50YRjPQTm5G07ve-LjOsj6X8jQhueMgZXTcTjv3k
+2. Купи, продай, объявления РБУфа+
+   chat_id=-69374225604759 status=active type=chat participants=554
+   matched_fields=title
+   link=https://max.ru/join/AZsdVaDJG-fTkht9swLrrzAqUNzTJP4YG-s5bEWxT1Q
+3. Барахолочка Демы Уфа+ РБ
+   chat_id=-69910624854167 status=active type=chat participants=475
+   matched_fields=title
+   link=https://max.ru/join/_yQjczIjak0qWhALnBVeVW_cTpWB1_tVekKPsQYwsAg
+4. 💸Уфа ЗАТОН купи-продай
+   chat_id=-68169010394410 status=active type=chat participants=233
+   matched_fields=title
+   link=https://max.ru/join/7_5OcaA3Gp5suE6RjOfSCzmE6izc2aPYfbNttr_Gfp4
+5. Объявления Уфа-Рб
+   chat_id=-69246620008641 status=active type=chat participants=212
+   matched_fields=title
+   link=https://max.ru/join/lX406pNjx2gbml095YcCq8nkbXwyZ5CoBVuRRU1vwP8
+6. 🟣Купи/продай/отдай Сипа Уфа
+   chat_id=-70376382403858 status=active type=chat participants=243
+   matched_fields=title
+   link=https://max.ru/join/TvG9Dp6I-jjEBdGd8MLhIsvasggrnMswFhFksL6FCl8
+7. 🟣Купи/продай/отдай Зеленка Уфа
+   chat_id=-70376393151762 status=active type=chat participants=240
+   matched_fields=title
+   link=https://max.ru/join/MwwnfTm1mh0gEmyXTmmpEH4Finh0106vmZDhwHCQeGM
+8. 🟣Купи/продай/отдай Уфа
+   chat_id=-70376225707282 status=active type=chat participants=329
+   matched_fields=title
+   link=https://max.ru/join/sRhwFosXzBbDivcw-OZAtAeLbBnRNqOrXj6cC2ND5z8
+9. Уфа из рук в руки
+   chat_id=-68168007103786 status=active type=chat participants=859
+   matched_fields=title
+   link=https://max.ru/join/oEstPxPJ2yxaHJVy6ZlHYUGmwoOOZdfdRhV3S6_26Lc
+10. Перекуп_102RUS УФА ЧАТ
+   chat_id=-71371013227776 status=active type=chat participants=155
+   matched_fields=title
+   link=https://max.ru/join/cMKotojgGQb61uiEQoaWcNCJ9V4zdUuC-P5U2WdW1dA
+11. Уфа: Отдам, Куплю, Продам
+   chat_id=-71308037502364 status=active type=chat participants=2763
+   matched_fields=title
+   link=https://max.ru/join/_1wxE_uXI3Ji9nrKR9UFu2gl-hzlqO3ews2ffdaspRc
+12. Барахолка уфа
+   chat_id=-69238086478410 status=active type=chat participants=924
+   matched_fields=title
+   link=https://max.ru/join/nSwl2CaZxpa09ZjGy6tJIKvC1wNE9KwZrGmUwy2T-ZY
+13. ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️
+   chat_id=-68150989154923 status=active type=chat participants=169
+   matched_fields=title
+   link=https://max.ru/join/JQDU5nZm9R9uoItDjCMl9GKZWHWq7uNH1NARVx0eGN4
+14. Халтура Уфа
+   chat_id=-68449615115616 status=active type=chat participants=463
+   matched_fields=title
+   link=https://max.ru/join/rhycdLm6cYladzdJqxW7un3wJK1F_L3HDST5KFOAZ_w
+15. Халтура, Объявления, Уфа.
+   chat_id=-68787063649632 status=active type=chat participants=387
+   matched_fields=title
+   link=https://max.ru/join/v2Uo5YnP0W4s1Ri78eX82w63p2hPLVGCjIm0fr5I-dI
+16. Уфа Объявления | Новости
+   chat_id=-71443525791210 status=active type=chat participants=10495
+   matched_fields=title
+   link=-
+17. Авито Уфа
+   chat_id=-70856370891308 status=active type=chat participants=236
+   matched_fields=title
+   link=https://max.ru/join/A2GY2BKM0Jc5c6l1jo94yheOcCLzhkdaoTKzRSXH93w
+18. 🥇АВИТО /ЮЛА УФА
+   chat_id=-70664496835137 status=active type=chat participants=211
+   matched_fields=title
+   link=https://max.ru/join/0ZrK8aktUvk-mp9B88Bw2PvusoCf6RjYr0GYfvnYZOA
+19. Бесплатные Объявления Уфа Online
+   chat_id=-69901374745189 status=active type=chat participants=611
+   matched_fields=title
+   link=https://max.ru/join/P6ZjfF8e48BzyMpPwEXFs7K8YdcQBFnrYoIZ0HJgDp0
+20. ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД
+   chat_id=-68307287671031 status=active type=chat participants=458
+   matched_fields=title
+   link=https://max.ru/join/g9xvMm6ThlpDIF5M92JPoNGfx6oH93vq1vAcX2i9VSo
+21. Ссылки . Объявления Уфа.
+   chat_id=-68436056569184 status=active type=chat participants=504
+   matched_fields=title
+   link=https://max.ru/join/kF32xgiWnYdvTorKW2IHU379WXDy1rZrKwzQonw2JNE
+22. 💥РынокУфаРб
+   chat_id=-69319118189929 status=active type=chat participants=379
+   matched_fields=title
+   link=https://max.ru/join/c3AydzYe2zYYQHHHrZa8qghymE15Zcn7FjsaWgSmcs8
+23. Рыбка Даром🐟
+   chat_id=-69741457694871 status=active type=chat participants=550
+   matched_fields=description
+   link=https://max.ru/join/ELdOZbW2FwHv-w2J0YD6qAW1Fnluauv82YSNE77vdKk
+24. РЫБНЫЙ ЦЕНТР
+   chat_id=-68903220177578 status=active type=chat participants=780
+   matched_fields=description
+   link=https://max.ru/join/d1r3iH-HhHpRNH-VAum5ll1xRjGODMCv_RmoXXD1k3s
+25. 🌹🌞БАРАХОЛКА УФА, РБ
+   chat_id=-69292491631169 status=active type=chat participants=300
+   matched_fields=title
+   link=https://max.ru/join/WuNaA4_fN1rsYiQiBUb1VN338_ikei0aqgvlW5g8znw

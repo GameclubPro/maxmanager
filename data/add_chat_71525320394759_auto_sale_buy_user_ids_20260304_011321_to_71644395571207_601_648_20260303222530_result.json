@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/chat_71525320394759_auto_sale_buy_user_ids_20260304_011321.txt",
+    "total_ids_in_source_file": 648
+  },
+  "target_chat": {
+    "chat_id": -71644395571207,
+    "title": "АВТОРЫНОК | Ростовская область",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 441,
+    "after_participants_count": 486
+  },
+  "bot": {
+    "user_id": 213352639,
+    "name": "Чат Помощник",
+    "username": "id613002203036_3_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1772574519540,
+          "permissions": [
+            "can_call",
+            "read_all_messages",
+            "add_remove_members",
+            "change_chat_info"
+          ],
+          "user_id": 213352639,
+          "first_name": "Чат Помощник",
+          "username": "id613002203036_3_bot",
+          "is_bot": true,
+          "last_activity_time": 1772576732699,
+          "description": "Бот Менеджер — инструмент для работы в чатах и каналах: модерация, автоответы, публикация постов, сбор заявок и управление участниками. Упрощает администрирование и экономит время 24/7.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi_NR_nlJAbr9fifLd9y_xML1fUr_RplD5k9xqRaiD8lo",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiCPJhPxK6VFVM3kbkFPAU7b1fUr_RplD5k9xqRaiD8lo",
+          "name": "Чат Помощник"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 600,
+    "end_index_exclusive_0_based": 648,
+    "range_human": "601-648",
+    "requested_count": 300,
+    "selected_count": 48,
+    "skipped_bot_self_count": 0,
+    "processed_count": 48,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 180,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 5,
+    "target_snapshot_members_count": 441
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 48,
+  "invited_without_immediate_failure_count": 48,
+  "verified_added_count": 45,
+  "still_not_in_target_from_attempted_count": 3,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 3,
+  "failed_by_code": {},
+  "failed_by_status": {},
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    84970171,
+    148361295,
+    83231080,
+    89647570,
+    36737417,
+    66513032,
+    79824171,
+    43440639,
+    172666321,
+    34308721,
+    22088220,
+    106942281,
+    77368850,
+    124723123,
+    47022213,
+    92004272,
+    26489889,
+    25727494,
+    7369944,
+    64650138,
+    7093106,
+    62360078,
+    16960795,
+    121409401,
+    124428426,
+    97571490,
+    57648891,
+    12440952,
+    91267448,
+    42664643,
+    28013965,
+    26848806,
+    37025741,
+    107652022,
+    81991473,
+    46466274,
+    124533247,
+    44437364,
+    51764950,
+    69772199,
+    147819826,
+    82172301,
+    31385008,
+    23571275,
+    12393564
+  ],
+  "sample_still_missing_ids": [
+    188679067,
+    36360991,
+    81852726
+  ],
+  "failed_details_sample": [],
+  "generated_at_iso": "2026-03-03T22:25:37.151Z"
+}

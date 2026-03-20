@@ -1,0 +1,218 @@
+{
+  "city": "Ставрополь",
+  "city_filter": "title|description|link contains /(ставропол|stavropol)/iu",
+  "generated_at_local": "2026-03-04T11:09:15.315Z",
+  "target_chat": {
+    "chat_id": -71489688733703,
+    "title": "Ставрополь Объявления | Новости"
+  },
+  "source_chats_count": 14,
+  "source_chats": [
+    {
+      "chat_id": -70686879271624,
+      "title": "2️⃣6️⃣💯✔️Ставропольский край ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 5901
+    },
+    {
+      "chat_id": -69240100563584,
+      "title": "6 ✔Ставропольский край Барахолка",
+      "participants_count": 695
+    },
+    {
+      "chat_id": -71518687956362,
+      "title": "🇷🇺 Ставрополье купи продай 26",
+      "participants_count": 161
+    },
+    {
+      "chat_id": -68223134062022,
+      "title": "6 Ставропольский край",
+      "participants_count": 2138
+    },
+    {
+      "chat_id": -68843020591165,
+      "title": "🌻Доска объявлений: купи, продай, отдай Ставрополь и окрестности",
+      "participants_count": 968
+    },
+    {
+      "chat_id": -69413071839380,
+      "title": "СТАВРОПОЛЬСКИЙ КРАЙ",
+      "participants_count": 378
+    },
+    {
+      "chat_id": -69214381375720,
+      "title": "СТАВРОПОЛЬ. Бесплатные объявления",
+      "participants_count": 322
+    },
+    {
+      "chat_id": -69070458290408,
+      "title": "АВИТО Ставропольский край",
+      "participants_count": 894
+    },
+    {
+      "chat_id": -70219252856157,
+      "title": "02/Ставропольский край реклама бесплатная, ссылки взаимны",
+      "participants_count": 106
+    },
+    {
+      "chat_id": -69699935101106,
+      "title": "⚜️ СВЕТЛОГРАД И ОКРЕСТНОСТИ ⚜️",
+      "participants_count": 558
+    },
+    {
+      "chat_id": -69288790294760,
+      "title": "🚘АвтоБАРАХОЛКА🚘 Ставропольский край",
+      "participants_count": 439
+    },
+    {
+      "chat_id": -70541657656056,
+      "title": "🔥🔥СТАВРОПОЛЬСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "participants_count": 416
+    },
+    {
+      "chat_id": -69708585345037,
+      "title": "7 Инкубатор и птицы Ставрополья",
+      "participants_count": 358
+    },
+    {
+      "chat_id": -70509393433928,
+      "title": "Авто куплю продам 26",
+      "participants_count": 436
+    }
+  ],
+  "excluded_rules": [
+    "is_bot=true",
+    "is_admin=true or is_owner=true",
+    "already in target chat"
+  ],
+  "target_member_ids_excluded_count": 1557,
+  "result_unique_user_ids_count": 7567,
+  "result_file_txt": "data/stavropol_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260304_140915.txt",
+  "per_chat": [
+    {
+      "chat_id": -70686879271624,
+      "title": "2️⃣6️⃣💯✔️Ставропольский край ДОСКА ОБЪЯВЛЕНИЙ",
+      "members_total": 5889,
+      "filtered_bots": 7,
+      "filtered_admins": 4,
+      "filtered_in_target": 953,
+      "kept_new_unique": 4925
+    },
+    {
+      "chat_id": -69240100563584,
+      "title": "6 ✔Ставропольский край Барахолка",
+      "members_total": 695,
+      "filtered_bots": 1,
+      "filtered_admins": 1,
+      "filtered_in_target": 525,
+      "kept_new_unique": 155
+    },
+    {
+      "chat_id": -71518687956362,
+      "title": "🇷🇺 Ставрополье купи продай 26",
+      "members_total": 162,
+      "filtered_bots": 1,
+      "filtered_admins": 2,
+      "filtered_in_target": 23,
+      "kept_new_unique": 101
+    },
+    {
+      "chat_id": -68223134062022,
+      "title": "6 Ставропольский край",
+      "members_total": 2138,
+      "filtered_bots": 1,
+      "filtered_admins": 2,
+      "filtered_in_target": 307,
+      "kept_new_unique": 665
+    },
+    {
+      "chat_id": -68843020591165,
+      "title": "🌻Доска объявлений: купи, продай, отдай Ставрополь и окрестности",
+      "members_total": 968,
+      "filtered_bots": 1,
+      "filtered_admins": 2,
+      "filtered_in_target": 188,
+      "kept_new_unique": 420
+    },
+    {
+      "chat_id": -69413071839380,
+      "title": "СТАВРОПОЛЬСКИЙ КРАЙ",
+      "members_total": 378,
+      "filtered_bots": 1,
+      "filtered_admins": 1,
+      "filtered_in_target": 89,
+      "kept_new_unique": 103
+    },
+    {
+      "chat_id": -69214381375720,
+      "title": "СТАВРОПОЛЬ. Бесплатные объявления",
+      "members_total": 322,
+      "filtered_bots": 1,
+      "filtered_admins": 1,
+      "filtered_in_target": 88,
+      "kept_new_unique": 80
+    },
+    {
+      "chat_id": -69070458290408,
+      "title": "АВИТО Ставропольский край",
+      "members_total": 894,
+      "filtered_bots": 1,
+      "filtered_admins": 1,
+      "filtered_in_target": 444,
+      "kept_new_unique": 215
+    },
+    {
+      "chat_id": -70219252856157,
+      "title": "02/Ставропольский край реклама бесплатная, ссылки взаимны",
+      "members_total": 106,
+      "filtered_bots": 2,
+      "filtered_admins": 2,
+      "filtered_in_target": 45,
+      "kept_new_unique": 40
+    },
+    {
+      "chat_id": -69699935101106,
+      "title": "⚜️ СВЕТЛОГРАД И ОКРЕСТНОСТИ ⚜️",
+      "members_total": 558,
+      "filtered_bots": 1,
+      "filtered_admins": 3,
+      "filtered_in_target": 82,
+      "kept_new_unique": 243
+    },
+    {
+      "chat_id": -69288790294760,
+      "title": "🚘АвтоБАРАХОЛКА🚘 Ставропольский край",
+      "members_total": 439,
+      "filtered_bots": 1,
+      "filtered_admins": 1,
+      "filtered_in_target": 79,
+      "kept_new_unique": 181
+    },
+    {
+      "chat_id": -70541657656056,
+      "title": "🔥🔥СТАВРОПОЛЬСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "members_total": 416,
+      "filtered_bots": 1,
+      "filtered_admins": 2,
+      "filtered_in_target": 308,
+      "kept_new_unique": 54
+    },
+    {
+      "chat_id": -69708585345037,
+      "title": "7 Инкубатор и птицы Ставрополья",
+      "members_total": 358,
+      "filtered_bots": 1,
+      "filtered_admins": 2,
+      "filtered_in_target": 124,
+      "kept_new_unique": 114
+    },
+    {
+      "chat_id": -70509393433928,
+      "title": "Авто куплю продам 26",
+      "members_total": 436,
+      "filtered_bots": 1,
+      "filtered_admins": 3,
+      "filtered_in_target": 27,
+      "kept_new_unique": 271
+    }
+  ]
+}

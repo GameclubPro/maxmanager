@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-03-14T19:43:20.047Z",
+  "run_dir": "data/invite_krasnoyarsk_target_20260314_205853",
+  "stop_reason": "no_improvement_after_round_3",
+  "target_chat": {
+    "chat_id": -71506932434951,
+    "title": "Красноярск Объявления | Новости",
+    "participants_count_live": 6701,
+    "participants_count_before_first_batch": 1788,
+    "participants_count_after_last_batch": 6701
+  },
+  "source_file_initial": "data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt",
+  "source_ids_initial_count": 7078,
+  "rounds_completed": 3,
+  "rounds": [
+    {
+      "round": 1,
+      "result_files": 18,
+      "source_file": "data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt",
+      "source_slice_total": 7078,
+      "attempted_invite_total": 7078,
+      "verified_added_total": 4827,
+      "already_in_target_total": 0,
+      "still_not_in_target_total": 2251,
+      "stopped_batches": 0,
+      "before_participants_count_first": 1788,
+      "after_participants_count_last": 6702,
+      "merged_still_missing_file": "data/invite_krasnoyarsk_target_20260314_205853/round1_merged_still_missing.txt",
+      "merged_still_missing_count": 2251
+    },
+    {
+      "round": 2,
+      "result_files": 6,
+      "source_file": "data/invite_krasnoyarsk_target_20260314_205853/round1_merged_still_missing.txt",
+      "source_slice_total": 2251,
+      "attempted_invite_total": 120,
+      "verified_added_total": 0,
+      "already_in_target_total": 89,
+      "still_not_in_target_total": 2162,
+      "stopped_batches": 6,
+      "before_participants_count_first": 6702,
+      "after_participants_count_last": 6701,
+      "merged_still_missing_file": "data/invite_krasnoyarsk_target_20260314_205853/round2_merged_still_missing.txt",
+      "merged_still_missing_count": 2162
+    },
+    {
+      "round": 3,
+      "result_files": 6,
+      "source_file": "data/invite_krasnoyarsk_target_20260314_205853/round2_merged_still_missing.txt",
+      "source_slice_total": 2162,
+      "attempted_invite_total": 120,
+      "verified_added_total": 0,
+      "already_in_target_total": 0,
+      "still_not_in_target_total": 2162,
+      "stopped_batches": 6,
+      "before_participants_count_first": 6701,
+      "after_participants_count_last": 6701,
+      "merged_still_missing_file": "data/invite_krasnoyarsk_target_20260314_205853/round3_merged_still_missing.txt",
+      "merged_still_missing_count": 2162
+    }
+  ],
+  "totals": {
+    "attempted_invite_total": 7318,
+    "verified_added_total": 4827,
+    "already_in_target_total": 89,
+    "still_not_in_target_from_chunks_total": 6575,
+    "final_still_missing_count": 2162,
+    "final_still_missing_file": "data/invite_krasnoyarsk_target_20260314_205853/round3_merged_still_missing.txt",
+    "final_verified_or_present_count": 4916
+  }
+}

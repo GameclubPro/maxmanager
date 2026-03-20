@@ -1,0 +1,6 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/invite_semikarakorsk_target_20260317_231655/merged_retry1_remaining.txt --target-chat-id -71955838830599 --start 0 --count 400 --invite-batch-size 10 --stop-on-action-failed 0 --result-file data/invite_semikarakorsk_target_20260317_231655/retry_all/retryall_batch001_1_400_result.json --missing-file data/invite_semikarakorsk_target_20260317_231655/retry_all/retryall_batch001_1_400_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[run] Loading target member snapshot...

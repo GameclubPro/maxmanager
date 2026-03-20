@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-03-14T11:05:15.892Z",
+  "city": "Волгоград",
+  "city_filter": "title|description|link contains /волгоград/iu",
+  "target_chat": {
+    "chat_id": -71879785613319,
+    "title": "Авторынок | Волгоград",
+    "type": "chat",
+    "status": "active"
+  },
+  "all_visible_chats_count": 593,
+  "all_visible_chats_pages": 6,
+  "city_chats_count_including_target": 5,
+  "source_chats_count_requested": 4,
+  "source_chats_processed": 4,
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "target_members_scanned_count": 9,
+  "target_members_pages": 1,
+  "result_ids_count": 5701,
+  "result_file_txt": "data/volgograd_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_140515.txt",
+  "source_chats_report": [
+    {
+      "chat_id": -70028381948625,
+      "title": "Попутчики по Волгоградской области",
+      "participants_count_hint": 2579,
+      "scanned_members_count": 2579,
+      "pagination_pages": 26,
+      "filtered_bots": 3,
+      "filtered_admins_or_owners": 4,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 2571,
+      "kept_unique_for_this_chat": 2571
+    },
+    {
+      "chat_id": -69477626636970,
+      "title": "MaX-Волгоград группа бесплатных объявлений",
+      "participants_count_hint": 118,
+      "scanned_members_count": 118,
+      "pagination_pages": 2,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 2,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 114,
+      "kept_unique_for_this_chat": 103
+    },
+    {
+      "chat_id": -68246190656209,
+      "title": "Авторынок Волгоград объявления",
+      "participants_count_hint": 1893,
+      "scanned_members_count": 1893,
+      "pagination_pages": 19,
+      "filtered_bots": 8,
+      "filtered_admins_or_owners": 4,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 1879,
+      "kept_unique_for_this_chat": 1109
+    },
+    {
+      "chat_id": -70954122627784,
+      "title": "💯✔️Official Max Регион 34 /   ОБЪЯВЛЕНИЯ Волгоградской обл",
+      "participants_count_hint": 3495,
+      "scanned_members_count": 3498,
+      "pagination_pages": 35,
+      "filtered_bots": 7,
+      "filtered_admins_or_owners": 4,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 3485,
+      "kept_unique_for_this_chat": 1918
+    }
+  ]
+}

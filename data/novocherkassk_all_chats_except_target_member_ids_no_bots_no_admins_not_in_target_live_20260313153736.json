@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-03-13T15:38:10.868Z",
+  "target_chat": {
+    "chat_id": -71946379114605,
+    "title": "Новочеркасск Объявления | Новости",
+    "participants_count": 6,
+    "status": "active",
+    "type": "chat"
+  },
+  "source_chats_count_requested": 5,
+  "source_chat_ids_requested": [
+    -69730055310000,
+    -71807522061000,
+    -68702358211092,
+    -71461224335496,
+    -69716190639384
+  ],
+  "filters": {
+    "city_match_regex": "/новочеркас/iu",
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_users_already_in_target": true,
+    "exclude_target_chat_from_source": true
+  },
+  "stats": {
+    "processed_chats": 5,
+    "failed_chats": 0,
+    "target_members_snapshot_count": 6,
+    "unique_ids_final": 2455,
+    "unique_admin_ids_seen": 10,
+    "unique_bot_ids_seen": 6
+  },
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -69730055310000,
+      "title": "Новочеркасск МОЛВА - ИНФО Новости объявления.",
+      "participants_count": 497,
+      "members_fetched": 497,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 493,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -71807522061000,
+      "title": "💯✔️💯Новочеркасск и окрестности | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 1427,
+      "members_fetched": 1419,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 1407,
+      "skipped_bots": 6,
+      "skipped_admins": 4,
+      "skipped_already_in_target": 2,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 4
+    },
+    {
+      "chat_id": -68702358211092,
+      "title": "Разный Хлам",
+      "participants_count": 837,
+      "members_fetched": 837,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 829,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -71461224335496,
+      "title": "Вся реклама по Новочеркасску",
+      "participants_count": 218,
+      "members_fetched": 218,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 215,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 1
+    },
+    {
+      "chat_id": -69716190639384,
+      "title": "1. Объявления Новочеркасска",
+      "participants_count": 167,
+      "members_fetched": 167,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 164,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 1
+    }
+  ]
+}

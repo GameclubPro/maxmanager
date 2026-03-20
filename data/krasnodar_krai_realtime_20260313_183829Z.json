@@ -1,0 +1,880 @@
+{
+  "summary": {
+    "checked_at": "2026-03-13T18:38:29.047Z",
+    "total_bot_chats_live": 559,
+    "krasnodar_related_live_count": 52,
+    "known_selected_live_count": 8,
+    "realtime_only_count": 44,
+    "with_add_remove_members": 1,
+    "with_read_all_messages": 0,
+    "with_can_call": 1,
+    "membership_errors": 0,
+    "by_tag": {
+      "krasnodar_krai": 12,
+      "belorechensk": 7,
+      "abinssk": 6,
+      "region_23": 5,
+      "novorossiysk": 4,
+      "novokubansk": 3,
+      "krymsk": 2,
+      "slavyansk_na_kubani": 2,
+      "ust_labinsk": 2,
+      "prikubansky": 2,
+      "gelendzhik": 2,
+      "timashevsk": 2,
+      "scherbinovsky": 1,
+      "kurganinsk": 1,
+      "kropotkin": 1,
+      "kanevskaya": 1,
+      "dinskoy": 1,
+      "tikhoretsk": 1,
+      "goryachiy_kluch": 1,
+      "temryuk": 1,
+      "tuapse": 1
+    }
+  },
+  "rows": [
+    {
+      "chat_id": -71207247847485,
+      "title": "Подслушано - чат и знакомства ❤️",
+      "description": "Лучший чат Новороссийка: без цензуры и только правда!",
+      "status": "active",
+      "participants_count": 8304,
+      "messages_count": 44189,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68223560354342,
+      "title": "АРМАВИР/НОВОКУБАНСК",
+      "description": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ 🗞️ \nЗдесь можно\n✅продать \n✅купить \n✅обменять \n✅отдать даром \n✅задать вопрос \n⛔️ссылки,\n⛔спам,\n⛔мат,\n⛔оскорбления,\n📵фейки - блокирую\nПосле 23:00 не шумим",
+      "status": "active",
+      "participants_count": 3122,
+      "messages_count": 16321,
+      "known_selected": false,
+      "matched_tags": [
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71479873256136,
+      "title": "💯✔️💯ЛАБИНСК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "description": "🫵Частные объявления в группах бесплатные не более 2 постов в сутки (не услуги)\n‼️Правила и цены на платную рекламу и связь с админом по ссылке👇\n\nhttps://max.ru/c/-71476678048456/AZzDFuaKP_s",
+      "status": "active",
+      "participants_count": 1910,
+      "messages_count": 910,
+      "known_selected": false,
+      "matched_tags": [
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71692807322312,
+      "title": "💯✔️💯КРЫМСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "description": "🫵Частные объявления в группах бесплатные не более 2 постов в сутки (не услуги)\n‼️Правила и цены на платную рекламу и связь с админом по ссылке👇\n\nhttps://max.ru/c/-71476678048456/AZzDFuaKP_s",
+      "status": "active",
+      "participants_count": 1421,
+      "messages_count": 765,
+      "known_selected": false,
+      "matched_tags": [
+        "krymsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68907463357729,
+      "title": "Бесплатная Барахолка Староминская Старощербиновская 123",
+      "description": "",
+      "status": "active",
+      "participants_count": 1202,
+      "messages_count": 12988,
+      "known_selected": false,
+      "matched_tags": [
+        "scherbinovsky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68847122183661,
+      "title": "Курганинск, Лабинск Объявления работа услуги бесплатно ☘️",
+      "description": "В  группе вы можете купить продать обменять и т.д. Указывайте номер телефона и место где находится ваш товар.Скидывать объявления 1 раз в сутки ⚠️В группе запрещено⛔Конфликты  споры спам.Публикация  порнографии  гадания  лотереи онлайн заработок кредиты а также  сбору денег.Ссылки взаимные ❗ Удалили меня,удалю вас я⚠️Админ не несёт ответственность за объявления и рекламу Будьте внимательны ⚠️",
+      "status": "active",
+      "participants_count": 1138,
+      "messages_count": 9638,
+      "known_selected": false,
+      "matched_tags": [
+        "kurganinsk",
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "description": "🆘ВСТУПАЯ В ГРУППУ, ЧИТАЕМ ВНИМАТЕЛЬНО ПРАВИЛО ГРУППЫ🆘РАЗРЕШЕНО БЕЗ СОГЛАСОВАНИЯ С АДМИНОМ‼️Куплю, продажа, отдам в дар, обменяю, сдам, ищу, сниму, поиск работы‼️ОБЪЯВЛЕНИЯ КОТОРЫЕ НУЖНО СОГЛАСОВЫВАТЬ С АДМИНОМ ГРУППЫ ПЛАТНЫЕ‼️\nОПЛАЧИВАЕМЫЕ ОБЪЯВЛЕНИЯ-ССЫЛКИ‼️Коммерчиская реклама,розыгрышы,онлайн работа,водительское удостоверение, вахта,приглашение в экскурсию,похуделки,продажа сим карт, продажа",
+      "status": "active",
+      "participants_count": 1071,
+      "messages_count": 10504,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69565348304329,
+      "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+      "description": "✅Продам, куплю, отдам.БЕСПЛАТНОЕ размещение  объявления одного и того же 1 раз в сутки. От 3 фото делаем коллаж. Цена и Пункт.\n✅Коммерция, Гадания, Металлолом, Худение, Недвижимость, Тур агентство и так далее. Услуга ПЛАТНАЯ в личку к АДМИНУ❗\n❌Запрещены объявление не по теме.\n❌Спам, Сборы,Розыгрыши,Политика.\n❌Флуд, Оскорбление, Хамство.\n✅Ссылки взаимные  БЕСПЛАТНО с согласованием АДМИНА❗❗❗",
+      "status": "active",
+      "participants_count": 1038,
+      "messages_count": 6111,
+      "known_selected": false,
+      "matched_tags": [
+        "slavyansk_na_kubani"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69715418609115,
+      "title": "Рынок Усть-лабинск",
+      "description": "Рынок Усть-лабинск, купи-продай!, объявление 1 р в сутки.",
+      "status": "active",
+      "participants_count": 1023,
+      "messages_count": 5086,
+      "known_selected": false,
+      "matched_tags": [
+        "ust_labinsk",
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68089472827498,
+      "title": "Объявления Краснодарский край ЧАСТНОЕ",
+      "description": "В ЭТОЙ ГРУППЕ ВЗАИМНЫЕ ССЫЛКИ ОБМЕН ОТ 300 ЧЕЛОВЕК.\n\nГруппа ваших объявлений. \nЧастные объявления бесплатно. \nКоммерция ПЛАТНО, пишите в личку. \nСсылки на взаимной основе. \nСпам и все, что противоречит закону ЗАПРЕЩЕНО.",
+      "status": "active",
+      "participants_count": 925,
+      "messages_count": 6384,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68086289552724,
+      "title": "✅✅✅Купи&Продай Краснодарский край",
+      "description": "Добро пожаловать к вам MAX\nСоблюдайте правила группы.\nГруппа по Краснодарскому краю и ближайшие районы.\n✅Скуп \nЖивотных, \nАвто, \nМеталолом , \nПодушки и Перо.\nПохудение и Питание ,\n✅Услуги \nСпил деревьев, \nКондиционеры \n🛑Запрещено \nТоро, Гадание 🔮 \n.",
+      "status": "active",
+      "participants_count": 850,
+      "messages_count": 9315,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69525922895314,
+      "title": "ГОРОД 23 | ЕЙСК",
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\n\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nПо вопросам-админу",
+      "status": "active",
+      "participants_count": 819,
+      "messages_count": 5292,
+      "known_selected": false,
+      "matched_tags": [
+        "region_23"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 767,
+      "messages_count": 2902,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68848831728337,
+      "title": "Белореченк Заречный южный родники",
+      "description": "запрет\n✅спам, \n✅гадания\n✅мат\n✅ссылки и объявления по сбору денежных средств., \n✅предложение пройти в бесплатные чаты❗❗❗\n\nВСЕ ЧЕРЕЗ АДМИНА ГРУППЫ ❗❗❗\n\n🟡🟡🟡🟡🟡🟡\n❗❗❗при размещения более 4фото делайте коллаж\n🟡🟡🟡🟡🟡🟡\n✴️✴️✴️✴️Ссылки на другие группы только по согласованию с админом❗❗❗\nЗА НАРУШЕНИЕ ПРАВИЛ  БУДУ УДАЛЯТЬ❗❗❗\nВсем отличных покупок и продаж. ",
+      "status": "active",
+      "participants_count": 700,
+      "messages_count": 6094,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "description": "Группа объявлений. Частные объявления бесплатно. \nКоммерческая реклама на платной основе.",
+      "status": "active",
+      "participants_count": 587,
+      "messages_count": 5428,
+      "known_selected": true,
+      "matched_tags": [
+        "prikubansky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70290884116553,
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "description": "💸ПРОДАЖА 🔄ОБМЕН 🔗ССЫЛКИ ГРУПП\n📢 ВНИМАНИЕ ❗ССЫЛКИ НА ГРУППЫ ЗНАКОМСТВ, РОЗЫГРЫШИ, ПОХУДЕНИЯ, ИНСТАГРАМ, VK ,ТЕЛЕГРАММ КАНАЛ ПЛАТНЫЕ❗❗❗\n📢 ССЫЛКИ НА ВЗАИМНЫХ УСЛОВИЯХ ТОЛЬКО МАКС ‼️ЛЮБЫЕ ДРУГИЕ ССЫЛКИ БУДУТ УДАЛЕНЫ ‼️ ПОСЛЕ РАЗМЕЩЕНИЯ ВАМИ ССЫЛКИ В ЭТОЙ ГРУППЕ ГОТОВЬТЕСЬ ПРИНЯТЬ НАШУ ССЫЛКУ  У СЕБЯ В ГРУППЕ❗❗\nАДМИНИСТРАТОР ☎️89180061483",
+      "status": "active",
+      "participants_count": 572,
+      "messages_count": 2489,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69512589666935,
+      "title": "🍓Пос.Заречный Белореченский район🔥",
+      "description": "Приглашайте друзей и жителей близлежащих поселков, чтобы на потеряться! Ссылки только на Макс по согласованию👈 \n⛔ Запрещено гадание, оружие, сбор денег, заработок в vk, лотереи, розыгрыши.\n🛑 Ссылки и спам, ведущие на другие площадки, будут удаляться.\nАдмин +79183166836",
+      "status": "active",
+      "participants_count": 500,
+      "messages_count": 3704,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71771644921863,
+      "title": "Кропоткин Объявления | Новости",
+      "description": "",
+      "status": "active",
+      "participants_count": 499,
+      "messages_count": 238,
+      "known_selected": false,
+      "matched_tags": [
+        "kropotkin"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68087823876196,
+      "title": "\"АВИТО МАЙКОП АДЫГЕЯ КРАСНОДАРСКИЙ КРАЙ\"",
+      "description": "Добро Пожаловать в группу  Авито Майкоп Адыгея.  Группа работает по всему Краснодарскому краю и Адыгея.   ССЫЛКИ ПО СОГЛАСОВАНИЮ С АДМИНОМ.     \n\nРАЗМЕЩЕНИЯ ОБЪЯВЛЕНИЯ  ИЛИ РЕКЛАМЫ   НА НЕДЕЛЮ 700  руб.  НА МЕСЯЦ 1000 руб.   \n\n💳ПЛАТНО 💳 \n📲 РОЗЫГРЫШИ📲 \n💄ПАРФЮМЕРИЯ, 💄  \n🍽️ЧАТЫ  ДЛЯ ПОХУДЕНИЯ🍽️  \n🔒ЗАКРЫТЫ ГРУППЫ🔒     \n🏦БАНКОВСКИЕ  УСЛУГИ🏦   \n🚛СКУПКА  МЕТАЛЛОЛОМА🚚 \nКОМЕРЧЕСКИЕ РЕКЛАМЫ",
+      "status": "active",
+      "participants_count": 495,
+      "messages_count": 3156,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70124403985105,
+      "title": "Купи продай Белореченский район",
+      "description": "",
+      "status": "active",
+      "participants_count": 495,
+      "messages_count": 3385,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70138734873297,
+      "title": "Строительство Белореченск майкоп",
+      "description": "",
+      "status": "active",
+      "participants_count": 478,
+      "messages_count": 1822,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70219090392413,
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "description": "Мебельную группу, предлагать мебель нельзя!\nСсылки на взаимной основе . всякий спам о левых заработках удаляются .",
+      "status": "active",
+      "participants_count": 476,
+      "messages_count": 2750,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69802721225380,
+      "title": "Строительство ремонт Геленджик",
+      "description": "",
+      "status": "active",
+      "participants_count": 474,
+      "messages_count": 871,
+      "known_selected": false,
+      "matched_tags": [
+        "gelendzhik"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68934856949866,
+      "title": "🟠🟠🟠Белореченский район БАРАХОЛОЧКА",
+      "description": "Размещение бесплатно частных объявлений, частные услуги(т..е. услуги одного человека), отдам, продам, вакансии. В объявлении до 4 фото, указывайте район.  Взаимный обмен от 100 человек. \nПлатно: коммерция, путешествия, кредиты.\nЗапрещено:  спам, ножи, гадание, документы, все, что запрещено РФ законодательством.\nВоскресенье: бесплатное размещение всех объявлений без ссылок и запрещённой категории.",
+      "status": "active",
+      "participants_count": 430,
+      "messages_count": 2256,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68087937414568,
+      "title": "🌟🌟🌟Краснодарский Край: ОБЪЯВЛЕНИЯ и ВЗАИМНЫЕ ссылки",
+      "description": "Инфо-группа Житницы России🌾🌾🌾:\n\nВАТСАП:\nhttps://chat.whatsapp.com/E4WRkBBV33qKp0kgxjyE7P?mode=ems_copy_t\n\nТЕЛЕГРАМ:\nhttps://t.me/+UPkvRM0zM2dmfSY1\n\nМАХ:\nhttps://max.ru/join/j2t5XeqaMNH33he1s4K8QDXNOdhB-zUuxiYG3HroqPQ\n\nБарахолка анапы и всё остальное...\nhttps://t.me/+Wt7cgt3RlM4yNDE6\n\n❗ВЗАИМНЫЕ ССЫЛКИ  и ваша реклама - 1 раз в день❗️(если не желаете меняться, то можно разместиться у нас платно).",
+      "status": "active",
+      "participants_count": 396,
+      "messages_count": 11756,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71391335011794,
+      "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "status": "active",
+      "participants_count": 387,
+      "messages_count": 473,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai",
+        "region_23"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "description": "Обращаем ваше внимание ‼️\nВсе ссылки:\nлюбая коммерческая реклама - размещается только через Администратора на платной основе. Исключением считается работа, работа онлайн. Все остальные кто размещает объявления платные.\n❌ ЗАПРЕЩЕНО: СПАМ, ХАМСТВО, ОРУЖИЕ, АЛКО-НАРКОТИЧЕСКИЕ ВЕЩЕСТВА. \nАдминистратор: 8(912)774-63-17 Лана\nПо вопросам рекламы пишите мне в лс : https://max.ru/u/f9LHodD0cO",
+      "status": "active",
+      "participants_count": 352,
+      "messages_count": 867,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "description": "Работа , подработка _Новокубанский район_г.Армавир_Успенский_ Спам,реклама, оскорбления не приемлимо в группе и подлежит удалению участника!  В группе выкладываются объявление только: вакансии, почасовая работа, подработки.Выкладывать один раз в три дня❗Ссылки только по согласованию с админом!",
+      "status": "active",
+      "participants_count": 331,
+      "messages_count": 145,
+      "known_selected": false,
+      "matched_tags": [
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69653199481469,
+      "title": "📡КОПЕЙКА🪙₽ПОКУПАЕМ ПРОДАЕМ₽КАНЕВСКОЙ РАЙОН",
+      "description": "ОБЪЯВЛЕНИЯ ВЫКЛАДЫВАЕМ С ЛОКАЦИЕЙ(ПИШЕМ С КАКОГО ИЗ РАЙОНОВ ТОВАР) ",
+      "status": "active",
+      "participants_count": 314,
+      "messages_count": 1767,
+      "known_selected": false,
+      "matched_tags": [
+        "kanevskaya"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68879815177571,
+      "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 302,
+      "messages_count": 2261,
+      "known_selected": false,
+      "matched_tags": [
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69792544669802,
+      "title": "🟠🟠🟠ДИНСКОЙ РАЙОН БАРАХОЛОЧКА",
+      "description": "Размещение объявлений, услуг, продажа, обмен, отдам даром. Коммерческие объявления по согласованию.\nЗапрещено: гадание, рассылки, ножи, документы, ссылки на сторонние сайты, все, что запрещено законодательством  РФ.\nСсылки на группы взаимные.\nВоскресенье размещение всех объявлений без ссылок и запрещённой категории.",
+      "status": "active",
+      "participants_count": 263,
+      "messages_count": 2225,
+      "known_selected": false,
+      "matched_tags": [
+        "dinskoy"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69311486550191,
+      "title": "4️⃣📣 Прикубанка авито",
+      "description": "❌️спам, пересыл\n❌️заработки\n❌️похудейки\n❌️гадание\n❌️займы, кредиты, ипотеки\n❌️бады, духи\n‼️удаление\n✅️ссылки взаимные\n⛔️ Админ за достоверность инфоомации нн отвечает!!\nНе несет ответственность за проводимые сделки в группе!!!\n‼️ Будьте осторожны",
+      "status": "active",
+      "participants_count": 259,
+      "messages_count": 2164,
+      "known_selected": false,
+      "matched_tags": [
+        "prikubansky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70117513166933,
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "description": "Работа, услуги, продажа товаров, недвижимости , автомобилей всё это вы можете бесплатно  разместить на нашей доске объявлений. За объявления  размещенные в группе админ ответственности не несёт.Только Славянский и Красноармейский районы.",
+      "status": "active",
+      "participants_count": 252,
+      "messages_count": 881,
+      "known_selected": true,
+      "matched_tags": [
+        "slavyansk_na_kubani"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70623036145896,
+      "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+      "description": "ОБЪЯВЛЕНИЯ ЧАСТНОГО ХАРАКТЕРА ❌ПО ПОВОДУ РЕКЛАМ ПИШЕМ В ЛС",
+      "status": "active",
+      "participants_count": 228,
+      "messages_count": 702,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880889312611,
+      "title": "🔥🔥БЕЛОРЕЧЕНСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 227,
+      "messages_count": 1717,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881445451107,
+      "title": "🔥🔥УСТЬ-ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 221,
+      "messages_count": 1988,
+      "known_selected": false,
+      "matched_tags": [
+        "ust_labinsk",
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880874829155,
+      "title": "🔥🔥АБИНСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 215,
+      "messages_count": 1263,
+      "known_selected": false,
+      "matched_tags": [
+        "abinssk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71415547221458,
+      "title": "ГОРОД 23 | НОВОРОССИЙСК",
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "status": "active",
+      "participants_count": 200,
+      "messages_count": 361,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk",
+        "region_23"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881430771043,
+      "title": "🔥🔥ТИМАШЕВСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 195,
+      "messages_count": 1417,
+      "known_selected": false,
+      "matched_tags": [
+        "timashevsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881434441059,
+      "title": "🔥🔥ТИХОРЕЦК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 188,
+      "messages_count": 1565,
+      "known_selected": false,
+      "matched_tags": [
+        "tikhoretsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880950916451,
+      "title": "🔥🔥ГОРЯЧИЙ КЛЮЧ ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 187,
+      "messages_count": 1104,
+      "known_selected": false,
+      "matched_tags": [
+        "goryachiy_kluch"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880944231779,
+      "title": "🔥🔥ГЕЛЕНДЖИК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 186,
+      "messages_count": 1105,
+      "known_selected": false,
+      "matched_tags": [
+        "gelendzhik"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71391301457362,
+      "title": "ГОРОД 23 | СОЧИ",
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "status": "active",
+      "participants_count": 184,
+      "messages_count": 302,
+      "known_selected": false,
+      "matched_tags": [
+        "region_23"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881389155683,
+      "title": "🔥🔥НОВОРОССИЙСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 167,
+      "messages_count": 922,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881384502627,
+      "title": "🔥🔥НОВОКУБАНСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 157,
+      "messages_count": 1203,
+      "known_selected": false,
+      "matched_tags": [
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881342690659,
+      "title": "🔥🔥КРЫМСК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 152,
+      "messages_count": 816,
+      "known_selected": false,
+      "matched_tags": [
+        "krymsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69535701813777,
+      "title": "⚡2 Краснодарский край  ‼️ объявления  ‼️",
+      "description": "Размещение ваших объявлений, купля- продажа, обмен, работа, реклама товаров и услуг 100 рублей в неделю. Частные объявления ( продажа собственного товара бесплатно)\n⬆️Повтор объявлений не более 2 раз в сутки \n⬆️Выставляем не более 4 фото.\n❌Спам,  гадание, рассылки, кредиты, косметика, группы похудейки, удалённая работа, ссылки менее 200 чел. , ссылки не по согласованию платно 100 руб в неделю",
+      "status": "active",
+      "participants_count": 143,
+      "messages_count": 567,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881416942947,
+      "title": "🔥🔥ТЕМРЮК ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 135,
+      "messages_count": 827,
+      "known_selected": false,
+      "matched_tags": [
+        "temryuk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881482872163,
+      "title": "🔥🔥ТУАПСЕ ОБЪЯВЛЕНИЯ",
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "status": "active",
+      "participants_count": 128,
+      "messages_count": 798,
+      "known_selected": false,
+      "matched_tags": [
+        "tuapse"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70455232645661,
+      "title": "Мой Тимашевск 23 регион",
+      "description": "Добро пожаловать в нашу группу🧸💥здесь вы можете публиковать свои обьявления частного характера🗞📰.\nРазмещения🗣️🛍\nКУПИ ПРОДАЙ ОТДАЙ ОБМЕНЯЙ г. Тимашевск и Тимашевский район.\nПубликации 1 раз в 3 дня.\nЗАПРЕЩЕННО⛔:\n⛔Ссылки и реклама порнотематики\n⛔Сбор денежных средств\n⛔гадание\n⛔кредиты \n⛔Различная реклама\n⛔Онлайн заработок ⛔Оскорбления участников группы, обсуждения товара в группе❗Все вопросы д",
+      "status": "active",
+      "participants_count": 103,
+      "messages_count": 69,
+      "known_selected": false,
+      "matched_tags": [
+        "timashevsk",
+        "region_23"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71144372019249,
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "description": "",
+      "status": "active",
+      "participants_count": 47,
+      "messages_count": 132,
+      "known_selected": true,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71952970123271,
+      "title": "Недвижимость | Краснодарский край",
+      "description": "Недвижимость Краснодарского края — чат для публикации бесплатных объявлений о покупке, продаже, аренде и сдаче недвижимости. Первое слово в больших объявлениях — «Недвижимость».",
+      "status": "active",
+      "participants_count": 8,
+      "messages_count": 0,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar_krai"
+      ],
+      "permissions": [
+        "add_remove_members",
+        "change_chat_info",
+        "can_call"
+      ],
+      "has_add_remove_members": true,
+      "has_read_all_messages": false,
+      "has_can_call": true
+    }
+  ]
+}

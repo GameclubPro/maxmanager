@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-03-13T14:34:07.410Z",
+  "out_dir": "data/krasnodar_full_invite_20260313_170658",
+  "batch_count": 8,
+  "source_file": "data/krasnodar_all_other_city_chats_member_ids_no_bots_no_admins_not_in_target_live_20260313_170444.txt",
+  "target_chat_id": -69067549505002,
+  "target_title": "Краснодар Объявления | Новости",
+  "source_total_ids": 3109,
+  "total_processed_count": 3109,
+  "total_already_in_target_count": 0,
+  "total_attempted_invite_count": 2419,
+  "total_invited_without_immediate_failure_count": 2170,
+  "total_verified_added_count": 749,
+  "total_still_not_in_target_from_attempted_count": 1670,
+  "total_not_attempted_due_to_stop_count": 690,
+  "total_still_not_in_target_from_this_chunk_count": 2360,
+  "total_batches_with_stop_triggered": 3,
+  "total_batches_with_action_failed": 5,
+  "failed_by_code": {
+    "unknown_error": 80,
+    "action_failed": 169
+  },
+  "failed_by_status": {
+    "200": 169,
+    "null": 80
+  },
+  "before_participants_count_first_batch": 5318,
+  "after_participants_count_last_batch": 6048,
+  "net_participants_growth_reported": 730,
+  "batches": [
+    {
+      "file": "batch_0_400_result.json",
+      "range_human": "1-400",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "verified_added_count": 142,
+      "still_not_in_target_from_this_chunk_count": 258,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {
+        "unknown_error": 30
+      },
+      "before_participants_count": 5318,
+      "after_participants_count": 5460,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_0_400_still_missing.txt"
+    },
+    {
+      "file": "batch_400_800_result.json",
+      "range_human": "401-800",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "verified_added_count": 199,
+      "still_not_in_target_from_this_chunk_count": 201,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {
+        "unknown_error": 20
+      },
+      "before_participants_count": 5460,
+      "after_participants_count": 5658,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_400_800_still_missing.txt"
+    },
+    {
+      "file": "batch_800_1200_result.json",
+      "range_human": "801-1200",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "verified_added_count": 173,
+      "still_not_in_target_from_this_chunk_count": 227,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {
+        "unknown_error": 10
+      },
+      "before_participants_count": 5658,
+      "after_participants_count": 5827,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_800_1200_still_missing.txt"
+    },
+    {
+      "file": "batch_1200_1600_result.json",
+      "range_human": "1201-1600",
+      "processed_count": 400,
+      "attempted_invite_count": 370,
+      "verified_added_count": 95,
+      "still_not_in_target_from_this_chunk_count": 305,
+      "not_attempted_due_to_stop_count": 30,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 370,
+        "remaining_count": 30,
+        "last_user_id": 137070919
+      },
+      "failed_by_code": {
+        "unknown_error": 20,
+        "action_failed": 30
+      },
+      "before_participants_count": 5827,
+      "after_participants_count": 5920,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_1200_1600_still_missing.txt"
+    },
+    {
+      "file": "batch_1600_2000_result.json",
+      "range_human": "1601-2000",
+      "processed_count": 400,
+      "attempted_invite_count": 60,
+      "verified_added_count": 8,
+      "still_not_in_target_from_this_chunk_count": 392,
+      "not_attempted_due_to_stop_count": 340,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 60,
+        "remaining_count": 340,
+        "last_user_id": 142200602
+      },
+      "failed_by_code": {
+        "action_failed": 20
+      },
+      "before_participants_count": 5919,
+      "after_participants_count": 5927,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_1600_2000_still_missing.txt"
+    },
+    {
+      "file": "batch_2000_2400_result.json",
+      "range_human": "2001-2400",
+      "processed_count": 400,
+      "attempted_invite_count": 80,
+      "verified_added_count": 7,
+      "still_not_in_target_from_this_chunk_count": 393,
+      "not_attempted_due_to_stop_count": 320,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 80,
+        "remaining_count": 320,
+        "last_user_id": 169581353
+      },
+      "failed_by_code": {
+        "action_failed": 30
+      },
+      "before_participants_count": 5926,
+      "after_participants_count": 5932,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_2000_2400_still_missing.txt"
+    },
+    {
+      "file": "batch_2400_2800_result.json",
+      "range_human": "2401-2800",
+      "processed_count": 400,
+      "attempted_invite_count": 400,
+      "verified_added_count": 62,
+      "still_not_in_target_from_this_chunk_count": 338,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {
+        "action_failed": 60
+      },
+      "before_participants_count": 5931,
+      "after_participants_count": 5988,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_2400_2800_still_missing.txt"
+    },
+    {
+      "file": "batch_2800_3200_result.json",
+      "range_human": "2801-3109",
+      "processed_count": 309,
+      "attempted_invite_count": 309,
+      "verified_added_count": 63,
+      "still_not_in_target_from_this_chunk_count": 246,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {
+        "action_failed": 29
+      },
+      "before_participants_count": 5988,
+      "after_participants_count": 6048,
+      "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_2800_3200_still_missing.txt"
+    }
+  ],
+  "files": {
+    "combined_still_missing_txt": "data/krasnodar_full_invite_20260313_170658/all_still_missing_combined.txt",
+    "final_summary_json": "data/krasnodar_full_invite_20260313_170658/final_summary.json"
+  },
+  "combined_still_missing_unique_count": 2360
+}

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-03-03T22:13:21.794Z",
+  "chat_id": -71525320394759,
+  "chat_title": "Волгодонск Объявления | Объявления",
+  "fetched_messages_total": 203,
+  "matched_messages_count": 1,
+  "unique_user_ids_count": 1,
+  "regex": {
+    "sale_buy": "/(купл(ю|юсь|ен)|покуп(к|аю|ка)|прод(ам|аю|ажа|ам\\s)|продается|обмен(яю|яю\\s|)|продам|куплю|ищу)/iu",
+    "auto": "/(авто|автомоб|машин(а|ы|у|е|ой|ы\\b)|транспорт|автозапчаст|автоваз|лада|ваз|иномарк|toyota|kia|hyundai|nissan|renault|bmw|mercedes|audi|skoda|ford|honda|lexus|mazda|mitsubishi|chevrolet|opel|volkswagen|\\bvw\\b)/iu"
+  },
+  "user_ids": [
+    71101582
+  ],
+  "matched_messages_sample": [
+    {
+      "user_id": 71101582,
+      "name": "Просто",
+      "username": null,
+      "timestamp": 1772377656751,
+      "mid": "mid.ffffbef2b6af77f9019ca9f0cdaf230d",
+      "text": "Продам ваз 2106 цена 55 торг по вопросам в ЛС на ходу надо по колдовать с проводкой"
+    }
+  ]
+}

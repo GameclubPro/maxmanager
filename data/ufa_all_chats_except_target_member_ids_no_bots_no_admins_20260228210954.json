@@ -1,0 +1,333 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-28T21:09:54.027Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 305,
+  "city_filter": "title|description|link contains /(уфа|ufa)/i",
+  "city_chats_count": 25,
+  "target_chat": {
+    "chat_id": -71443525791210,
+    "title": "Уфа Объявления | Новости",
+    "participants_count": 10495
+  },
+  "source_chats_count": 24,
+  "source_chats": [
+    {
+      "chat_id": -71308037502364,
+      "title": "Уфа: Отдам, Куплю, Продам",
+      "participants_count": 2763
+    },
+    {
+      "chat_id": -70376433653010,
+      "title": "🟣Купи/продай/отдай Затон Уфа",
+      "participants_count": 235
+    },
+    {
+      "chat_id": -69374225604759,
+      "title": "Купи, продай, объявления РБУфа+",
+      "participants_count": 554
+    },
+    {
+      "chat_id": -69910624854167,
+      "title": "Барахолочка Демы Уфа+ РБ",
+      "participants_count": 475
+    },
+    {
+      "chat_id": -68169010394410,
+      "title": "💸Уфа ЗАТОН купи-продай",
+      "participants_count": 233
+    },
+    {
+      "chat_id": -69246620008641,
+      "title": "Объявления Уфа-Рб",
+      "participants_count": 212
+    },
+    {
+      "chat_id": -70376382403858,
+      "title": "🟣Купи/продай/отдай Сипа Уфа",
+      "participants_count": 243
+    },
+    {
+      "chat_id": -70376393151762,
+      "title": "🟣Купи/продай/отдай Зеленка Уфа",
+      "participants_count": 240
+    },
+    {
+      "chat_id": -70376225707282,
+      "title": "🟣Купи/продай/отдай Уфа",
+      "participants_count": 329
+    },
+    {
+      "chat_id": -68168007103786,
+      "title": "Уфа из рук в руки",
+      "participants_count": 859
+    },
+    {
+      "chat_id": -71371013227776,
+      "title": "Перекуп_102RUS УФА ЧАТ",
+      "participants_count": 155
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "participants_count": 924
+    },
+    {
+      "chat_id": -68150989154923,
+      "title": "ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️",
+      "participants_count": 169
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа",
+      "participants_count": 463
+    },
+    {
+      "chat_id": -68787063649632,
+      "title": "Халтура, Объявления, Уфа.",
+      "participants_count": 387
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "participants_count": 236
+    },
+    {
+      "chat_id": -70664496835137,
+      "title": "🥇АВИТО /ЮЛА УФА",
+      "participants_count": 211
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Бесплатные Объявления Уфа Online",
+      "participants_count": 611
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "participants_count": 458
+    },
+    {
+      "chat_id": -68436056569184,
+      "title": "Ссылки . Объявления Уфа.",
+      "participants_count": 504
+    },
+    {
+      "chat_id": -69319118189929,
+      "title": "💥РынокУфаРб",
+      "participants_count": 379
+    },
+    {
+      "chat_id": -69741457694871,
+      "title": "Рыбка Даром🐟",
+      "participants_count": 550
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "participants_count": 780
+    },
+    {
+      "chat_id": -69292491631169,
+      "title": "🌹🌞БАРАХОЛКА УФА, РБ",
+      "participants_count": 300
+    }
+  ],
+  "per_chat": [
+    {
+      "chat_id": -71308037502364,
+      "title": "Уфа: Отдам, Куплю, Продам",
+      "participants_count": 2763,
+      "members_scanned": 2763,
+      "non_bots_non_admins": 2753,
+      "unique_new_from_chat": 2753
+    },
+    {
+      "chat_id": -70376433653010,
+      "title": "🟣Купи/продай/отдай Затон Уфа",
+      "participants_count": 235,
+      "members_scanned": 235,
+      "non_bots_non_admins": 233,
+      "unique_new_from_chat": 186
+    },
+    {
+      "chat_id": -69374225604759,
+      "title": "Купи, продай, объявления РБУфа+",
+      "participants_count": 554,
+      "members_scanned": 554,
+      "non_bots_non_admins": 551,
+      "unique_new_from_chat": 407
+    },
+    {
+      "chat_id": -69910624854167,
+      "title": "Барахолочка Демы Уфа+ РБ",
+      "participants_count": 475,
+      "members_scanned": 475,
+      "non_bots_non_admins": 472,
+      "unique_new_from_chat": 182
+    },
+    {
+      "chat_id": -68169010394410,
+      "title": "💸Уфа ЗАТОН купи-продай",
+      "participants_count": 233,
+      "members_scanned": 233,
+      "non_bots_non_admins": 230,
+      "unique_new_from_chat": 127
+    },
+    {
+      "chat_id": -69246620008641,
+      "title": "Объявления Уфа-Рб",
+      "participants_count": 212,
+      "members_scanned": 212,
+      "non_bots_non_admins": 209,
+      "unique_new_from_chat": 100
+    },
+    {
+      "chat_id": -70376382403858,
+      "title": "🟣Купи/продай/отдай Сипа Уфа",
+      "participants_count": 243,
+      "members_scanned": 243,
+      "non_bots_non_admins": 241,
+      "unique_new_from_chat": 36
+    },
+    {
+      "chat_id": -70376393151762,
+      "title": "🟣Купи/продай/отдай Зеленка Уфа",
+      "participants_count": 240,
+      "members_scanned": 240,
+      "non_bots_non_admins": 238,
+      "unique_new_from_chat": 25
+    },
+    {
+      "chat_id": -70376225707282,
+      "title": "🟣Купи/продай/отдай Уфа",
+      "participants_count": 329,
+      "members_scanned": 329,
+      "non_bots_non_admins": 327,
+      "unique_new_from_chat": 66
+    },
+    {
+      "chat_id": -68168007103786,
+      "title": "Уфа из рук в руки",
+      "participants_count": 859,
+      "members_scanned": 859,
+      "non_bots_non_admins": 856,
+      "unique_new_from_chat": 512
+    },
+    {
+      "chat_id": -71371013227776,
+      "title": "Перекуп_102RUS УФА ЧАТ",
+      "participants_count": 155,
+      "members_scanned": 155,
+      "non_bots_non_admins": 151,
+      "unique_new_from_chat": 115
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "participants_count": 924,
+      "members_scanned": 924,
+      "non_bots_non_admins": 922,
+      "unique_new_from_chat": 360
+    },
+    {
+      "chat_id": -68150989154923,
+      "title": "ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️",
+      "participants_count": 169,
+      "members_scanned": 169,
+      "non_bots_non_admins": 167,
+      "unique_new_from_chat": 53
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа",
+      "participants_count": 463,
+      "members_scanned": 463,
+      "non_bots_non_admins": 460,
+      "unique_new_from_chat": 284
+    },
+    {
+      "chat_id": -68787063649632,
+      "title": "Халтура, Объявления, Уфа.",
+      "participants_count": 387,
+      "members_scanned": 387,
+      "non_bots_non_admins": 385,
+      "unique_new_from_chat": 142
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "participants_count": 236,
+      "members_scanned": 236,
+      "non_bots_non_admins": 233,
+      "unique_new_from_chat": 43
+    },
+    {
+      "chat_id": -70664496835137,
+      "title": "🥇АВИТО /ЮЛА УФА",
+      "participants_count": 211,
+      "members_scanned": 211,
+      "non_bots_non_admins": 206,
+      "unique_new_from_chat": 68
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Бесплатные Объявления Уфа Online",
+      "participants_count": 611,
+      "members_scanned": 611,
+      "non_bots_non_admins": 609,
+      "unique_new_from_chat": 184
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "participants_count": 458,
+      "members_scanned": 458,
+      "non_bots_non_admins": 455,
+      "unique_new_from_chat": 264
+    },
+    {
+      "chat_id": -68436056569184,
+      "title": "Ссылки . Объявления Уфа.",
+      "participants_count": 504,
+      "members_scanned": 504,
+      "non_bots_non_admins": 502,
+      "unique_new_from_chat": 109
+    },
+    {
+      "chat_id": -69319118189929,
+      "title": "💥РынокУфаРб",
+      "participants_count": 379,
+      "members_scanned": 379,
+      "non_bots_non_admins": 371,
+      "unique_new_from_chat": 126
+    },
+    {
+      "chat_id": -69741457694871,
+      "title": "Рыбка Даром🐟",
+      "participants_count": 550,
+      "members_scanned": 550,
+      "non_bots_non_admins": 545,
+      "unique_new_from_chat": 543
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "participants_count": 780,
+      "members_scanned": 780,
+      "non_bots_non_admins": 773,
+      "unique_new_from_chat": 730
+    },
+    {
+      "chat_id": -69292491631169,
+      "title": "🌹🌞БАРАХОЛКА УФА, РБ",
+      "participants_count": 300,
+      "members_scanned": 300,
+      "non_bots_non_admins": 297,
+      "unique_new_from_chat": 109
+    }
+  ],
+  "unique_ids_count": 7524,
+  "result_file_txt": "data/ufa_all_chats_except_target_member_ids_no_bots_no_admins_20260228210954.txt"
+}

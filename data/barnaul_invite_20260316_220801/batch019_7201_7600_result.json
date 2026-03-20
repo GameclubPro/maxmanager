@@ -1,0 +1,355 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/barnaul_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_220457.txt",
+    "total_ids_in_source_file": 9792
+  },
+  "target_chat": {
+    "chat_id": -71934616766471,
+    "title": "Барнаул Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 7364,
+    "after_participants_count": 7572
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1773398553658,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773397709378,
+          "permissions": [
+            "can_call",
+            "add_remove_members",
+            "change_chat_info"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773692120195,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 7200,
+    "end_index_exclusive_0_based": 7600,
+    "range_human": "7201-7600",
+    "requested_count": 400,
+    "selected_count": 400,
+    "run_to_end": false,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 4200,
+    "pause_jitter_ms": 200,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "run_to_end": false,
+    "wave_active_ms": 180000,
+    "wave_rest_ms": 60000,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 74,
+    "target_snapshot_members_count": 7364
+  },
+  "stop_triggered": {
+    "reason": "consecutive_action_failed_limit",
+    "limit": 2,
+    "current_streak": 2,
+    "attempted_count": 400,
+    "remaining_count": 0,
+    "last_user_id": 211363751
+  },
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 380,
+  "verified_added_count": 208,
+  "still_not_in_target_from_attempted_count": 192,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 192,
+  "failed_by_code": {
+    "action_failed": 20
+  },
+  "failed_by_status": {
+    "200": 20
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    80270876,
+    80224411,
+    80209428,
+    79636783,
+    78797897,
+    78747417,
+    78331024,
+    77797468,
+    77624945,
+    77606214,
+    76401323,
+    75925724,
+    74865168,
+    74057588,
+    73684801,
+    72866283,
+    71930990,
+    71777364,
+    70839060,
+    70105136,
+    69903645,
+    69543296,
+    69312128,
+    69073479,
+    69071823,
+    68944994,
+    68857475,
+    68019438,
+    67934802,
+    67691369,
+    67425834,
+    66152344,
+    66117096,
+    65546835,
+    64715819,
+    64078292,
+    63559306,
+    62368776,
+    62285195,
+    62019387,
+    61605197,
+    61267743,
+    61219833,
+    61170900,
+    61090471,
+    60990435,
+    60487397,
+    60244106,
+    60010862,
+    59451175
+  ],
+  "sample_still_missing_ids": [
+    80146292,
+    79301387,
+    78376269,
+    78308498,
+    78274738,
+    78059859,
+    77638031,
+    76656159,
+    76615982,
+    76215251,
+    75965313,
+    75872026,
+    75228901,
+    69258126,
+    68562282,
+    67982457,
+    66661130,
+    65458989,
+    64962665,
+    64673096,
+    64345961,
+    63870407,
+    63734063,
+    63679753,
+    63634251,
+    63591174,
+    63047346,
+    61972358,
+    60869309,
+    58745265,
+    58328435,
+    57424567,
+    56418343,
+    54906490,
+    54808092,
+    53691616,
+    53424753,
+    52008390,
+    51832171,
+    51266973,
+    51115313,
+    50890324,
+    50330917,
+    50222209,
+    50194472,
+    50022130,
+    49314757,
+    48668307,
+    48542974,
+    48208900
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 224765316,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222477283,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 221307173,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 221072002,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 220890277,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 220691396,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 220137305,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 219528413,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 217931199,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 217272896,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 216439298,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 215485992,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 214968645,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 214438040,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 213851522,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 213100920,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 213089920,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 212932201,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 212238329,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 211363751,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    }
+  ],
+  "generated_at_iso": "2026-03-16T20:19:06.300Z"
+}

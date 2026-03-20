@@ -1,0 +1,156 @@
+city=Алтайский край
+filter=strict expanded (край + слово Алтай + города + уникальные районы, с отсечением Республики Алтай)
+total_chats_seen=278
+pages=3
+matched_city_chats_count=12
+
+1. Районы22: Новости и объявления
+   chat_id=-68766764627431 | type=chat | status=active | participants=7473
+   confidence=high
+   match_reasons=explicit_altai_krai_marker,altai_word_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/avJsXZIc6_nrGrhUmj28dEm569JRM6okpqWyqDFeaUo
+   description=🫶Живете в Алтайском крае? Станьте ближе друг к другу!
+♻️Мы создали эту площадку, чтобы сблизить соседей
+💬Здесь можно общаться, продавать свои вещи,слушать музыку и делиться новостями.
+💯Нельзя:
+рекламировать сомнительные услуги гадания, рассылки, карты, займы и тп 
+📎Вступай в наши группы sibir2.ru/connect 
+💸Реклама sibir2.ru/lending
+🧲Ссылки только через админа
+
+2. Горняк22 | ЧАТ
+   chat_id=-68062282577383 | type=chat | status=active | participants=1693
+   confidence=high
+   match_reasons=explicit_altai_krai_marker,altai_word_marker,altai_krai_city_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/k8YCa_Gf-xSQI68IBfZQYiIp8Qxm6W3yZv1ioWf-avw
+   description=❄️Новости и объявления Горняка
+👁️‍🗨️Чат модерируется , ссылки удаляются вместе с авторами.
+
+Все что не запрещено правилами, нормами этики и Российским законодательством- разрешено.
+
+📣Новости в телеграм t.me/gornyak22ru
+🗞️Реклама sibir2.ru/lending
+🔌Наши группы sibir2.ru/connect
+
+3. Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие
+   chat_id=-70269868378839 | type=chat | status=active | participants=1550
+   confidence=high
+   match_reasons=altai_krai_city_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/hrSLuR7lgUqQiOBDRlL9OW0KTDFp0E0rq5ZYk0x2lqE
+   description=📋 ПРАВИЛА ГРУППЫ: Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие
+🔗 Ссылка: https://max.ru/join/hrSLuR7lgUqQiOBDRlL9OW0KTDFp0E0rq5ZYk0x2lqE
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+4. Рубцовск Онлайн
+   chat_id=-68100590532071 | type=chat | status=active | participants=1481
+   confidence=high
+   match_reasons=altai_krai_city_marker
+   city_matched_fields=title
+   link=https://max.ru/join/E3Ohu-ZYHTnwcl1FqVWSAYoINpL5GlKEX0cyaPPkqZc
+
+5. Алтайский район | Объявления
+   chat_id=-70138755610087 | type=chat | status=active | participants=1243
+   confidence=high
+   match_reasons=altai_word_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w
+   description=📋 ПРАВИЛА ГРУППЫ: Алтайский район | Объявления
+🔗 Ссылка: https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+6. АЛТАЙСКОЕ | Новости и объявления
+   chat_id=-70138559329767 | type=chat | status=active | participants=1240
+   confidence=high
+   match_reasons=altai_word_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164
+   description=📋 ПРАВИЛА ГРУППЫ: АЛТАЙСКОЕ | Новости и объявления
+🔗 Ссылка: https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+7. МОЙ БАРНАУЛ | Объявления и новости
+   chat_id=-70239350557399 | type=chat | status=active | participants=971
+   confidence=high
+   match_reasons=altai_krai_city_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/vJY2QQA4oKXvrjMtOTRUFtJlrqJ23TgUCy2mGSPar1k
+   description=📋 ПРАВИЛА ГРУППЫ: ОБЪЯВЛЕНИЯ БАРНАУЛ
+🔗 Ссылка: https://max.ru/join/mlA9u6tz0mN5u9WzMVhHPLTJ64lOWr4bISVu7ECLwFw
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+8. Барнаул22
+   chat_id=-68107349849575 | type=chat | status=active | participants=916
+   confidence=high
+   match_reasons=altai_word_marker,altai_krai_city_marker
+   city_matched_fields=title
+   link=https://max.ru/join/wbi2gYhfBGLDb7Yu_qpeo8PbnYde4EhOUOwedtCd7sA
+
+9. Рубцовск- новости, чат, объявления
+   chat_id=-68093117986279 | type=chat | status=active | participants=849
+   confidence=high
+   match_reasons=altai_krai_city_marker
+   city_matched_fields=title
+   link=https://max.ru/join/sAyBUZcTmxx9qmMxWy3sNTk6g7sl1L3CblA4h5VMgAg
+
+10. Авто Барнаул — Продажа/Покупка
+   chat_id=-68107343754727 | type=chat | status=active | participants=381
+   confidence=high
+   match_reasons=altai_krai_city_marker
+   city_matched_fields=title
+   link=https://max.ru/join/hByTBfz76XEbcucu_BeTILn8svcF1EweL1l0-U95CT8
+
+11. АвтоМотоВело(фото) | Мамонтовский
+   chat_id=-71539997208039 | type=chat | status=active | participants=360
+   confidence=medium
+   match_reasons=altai_krai_unique_district_marker
+   city_matched_fields=title,description
+   link=https://max.ru/join/yWdOBxG6Dp04jh-FVuHaKc1S27pPo0zVDnZ_eh2JHVo
+   description=📋 ПРАВИЛА ГРУППЫ: АвтоМотоВело(фото) | Мамонтовский
+🔗 Ссылка: https://max.ru/join/yWdOBxG6Dp04jh-FVuHaKc1S27pPo0zVDnZ_eh2JHVo
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+12. 🟢ВАШИ ОБЪЯВЛЕНИЯ🟢           вся Россия
+   chat_id=-70406979909107 | type=chat | status=active | participants=97
+   confidence=high
+   match_reasons=altai_word_marker
+   city_matched_fields=description
+   link=https://max.ru/join/JUPbFyK8Ca2IsfoouFg494KAPSRQ22LcEBLe5EZ5hLo
+   description=‼️ПРАВИЛА ГРУППЫ‼️
+🟢Бесплатные частные объявления
+Обмен ссылками
+🟢Вакансии прямых работодателей области, не удалёнка
+🟢Группа отдыхает с 22:00 до06:00. Просьба в этот промежуток ничего в группе не размещать ‼️ 
+🚫Не гадать и не магичить! Запрещено всё противозаконное
+ссылка для обмена👇
+🟢ВАШИ ОБЪЯВЛЕНИЯ🟢 
+вся Россия
+https://max.ru/join/JUPbFyK8Ca2IsfoouFg494KAPSRQ22LcEBLe5EZ5hLo
+

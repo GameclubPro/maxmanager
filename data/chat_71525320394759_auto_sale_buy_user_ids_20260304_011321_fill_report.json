@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-03T22:18:08.005Z",
+  "target_file": "data/chat_71525320394759_auto_sale_buy_user_ids_20260304_011321.txt",
+  "source_chat_ids": [
+    -69292363478500,
+    -71644395571207
+  ],
+  "existing_positive_user_ids_in_target": 1,
+  "chats": [
+    {
+      "chat_id": -69292363478500,
+      "pages": 6,
+      "members_fetched": 553,
+      "skipped_bots": 1,
+      "skipped_admins_or_owner": 1,
+      "skipped_invalid": 0,
+      "kept_user_ids_count": 551
+    },
+    {
+      "chat_id": -71644395571207,
+      "pages": 1,
+      "members_fetched": 5,
+      "skipped_bots": 2,
+      "skipped_admins_or_owner": 3,
+      "skipped_invalid": 0,
+      "kept_user_ids_count": 0
+    }
+  ],
+  "final_user_ids_count": 552,
+  "removed_negative_or_non_user_ids_from_target": true
+}

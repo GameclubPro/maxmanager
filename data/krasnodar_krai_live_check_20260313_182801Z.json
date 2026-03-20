@@ -1,0 +1,1834 @@
+{
+  "summary": {
+    "checked_at": "2026-03-13T18:28:01.408Z",
+    "total_bot_chats_live": 559,
+    "krasnodar_krai_selected_reference_count": 94,
+    "krasnodar_krai_selected_live_count": 20,
+    "krasnodar_krai_selected_missing_from_live_count": 74,
+    "krasnodar_krai_keyword_candidate_live_count": 70,
+    "krasnodar_krai_new_candidate_live_count": 50,
+    "combined_checked_count": 70,
+    "combined_with_add_remove_members": 1,
+    "combined_with_read_all_messages": 0,
+    "combined_membership_errors": 0
+  },
+  "missing_from_live": [
+    {
+      "chat_id": -71503740725915,
+      "title": "Всё всем Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71489737820167,
+      "title": "Ейск Объявления | Новости",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -71489685325831,
+      "title": "Анапа Объявление | Новости",
+      "source_city": "anapa"
+    },
+    {
+      "chat_id": -71472908166496,
+      "title": "БАРАХОЛКА КРАСНОДАР И ПРИГОРОД",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71472856393056,
+      "title": "Барахолка Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "source_city": "novorossiysk"
+    },
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "source_city": "kuban"
+    },
+    {
+      "chat_id": -71449952971431,
+      "title": "Барахолка Ейск",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -71387750754881,
+      "title": "🧲АВТОРЫНОК /КУБАНЬ/",
+      "source_city": "kuban"
+    },
+    {
+      "chat_id": -71368101388433,
+      "title": "Объявления Краснодар и область",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71180410175594,
+      "title": "🟠🟠🟠 КРАСНОДАРСКИЙ КРАЙ БАРАХОЛОЧКА",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71174884270129,
+      "title": "Недвижимость Краснодара",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71098790478056,
+      "title": "🇷🇺РАБОТА\"КРАСНОДАРСКИЙ КРАЙ\"",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -71047477567537,
+      "title": "Ейск ,сниму ,сдам ,арендую жилье.",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -71045173663186,
+      "title": "АНАПА Live | Работа • Вакансии",
+      "source_city": "anapa"
+    },
+    {
+      "chat_id": -71045166650834,
+      "title": "АНАПА Live | Куплю • Продам",
+      "source_city": "anapa"
+    },
+    {
+      "chat_id": -71045154657746,
+      "title": "АНАПА Live | Новости • Общение",
+      "source_city": "anapa"
+    },
+    {
+      "chat_id": -70884682094034,
+      "title": "ГОРОД 23 | КРАСНОДАР",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70869212809928,
+      "title": "💯✔️💬ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -70718121110135,
+      "title": "☀️Краснодар Объявления",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70704271488349,
+      "title": "06/Анапа",
+      "source_city": "anapa"
+    },
+    {
+      "chat_id": -70631557084569,
+      "title": "Доска Объявлений Краснодара и Краснодарского края",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70566794081716,
+      "title": "Краснодар объявления",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70251957253619,
+      "title": "🟡КРАСНОДАР🟡",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70222863491226,
+      "title": "🦉КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70219438716253,
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "source_city": "kuban"
+    },
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70142481943240,
+      "title": "💯✔️Новороссийск Купи Продай | БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "source_city": "novorossiysk"
+    },
+    {
+      "chat_id": -70126306413268,
+      "title": "🆑🛑БАРАХОЛКА 🛑 КРАСНОДАР🛑",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -70087825875083,
+      "title": "ЕЙСК/НОВОСТИ/ОБЪЯВЛЕНИЯ",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -69876047066548,
+      "title": "2. Объявления Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69682024117594,
+      "title": "Барахолка Краснодар 23",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69541859227108,
+      "title": "Ейская ярмарка",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -69507303000794,
+      "title": "Реклама , Краснадар -Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69502081556637,
+      "title": "🦋🦋(4)КРАСНОДАР. Бесплатное размещение ваших объявлений📱",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69462975690164,
+      "title": "1. Объявления Краснодара",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69428622557416,
+      "title": "АВИТО. Краснодарский  край.",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69362989115966,
+      "title": "БАРАХОЛКА КРАСНОДАРСКОГО КРАЯ!!!",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69310347468975,
+      "title": "2️⃣📣 Российский Краснодар",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69270980889297,
+      "title": "❤️Краснодар ❤️ и соседи",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69240023558784,
+      "title": "5 ✔Краснодар барахолка",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69239817988733,
+      "title": "Ростовской шоссе(Краснодар)",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -69167263667519,
+      "title": "☘️КУБАНЬ КУПИ, ПРОДАЙ ☘️❤",
+      "source_city": "kuban"
+    },
+    {
+      "chat_id": -69089338780315,
+      "title": "КРАСНОДАР. КУПИ",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68883132399692,
+      "title": "КРАСНОДАР И КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68881312937315,
+      "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68873495194228,
+      "title": "Краснодар Пригород Купи-продай",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68856764983945,
+      "title": "ПРОДАЙ ОБМЕНЯЙ КУПИ ОТДАЙ(Краснодарский край)",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68847757148269,
+      "title": "Ейск(Барахолка)",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68841807727334,
+      "title": "Барахолка Краснодар-И Рядом",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68841055952945,
+      "title": "Авито Щербиновский и Ейский район",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68840928616497,
+      "title": "*Реклама Ейск*",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68835995164676,
+      "title": "Доска объявлений Ейск",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68834970315332,
+      "title": "Барахолка Ейск , Щербиновий район",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68774665262585,
+      "title": "123. Рынок.Ейск и +300км . Объявления для всего и для всех.",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68556814142194,
+      "title": "Авито Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68531970343138,
+      "title": "Барахолка ✅Ейск и ейский район",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68526337212525,
+      "title": "ЧАСТНЫЕ ДОМА г. КРАСНОДАР",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68312673026271,
+      "title": "РАБОТА и ВАКАНСИИ по Динскому району, р. Южный, Витамин, г . Краснодар",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68289681519968,
+      "title": "Рыбка даром Краснодар ❤️",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68172673335372,
+      "title": "Краснодар реклама",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68114329580833,
+      "title": "🧲(9)КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68100394819585,
+      "title": "🌀10🌀🛍️БАРАХОЛКА🛍️ Краснодар и пригород",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68100350713857,
+      "title": "🌀12🌀💥КУПИ/ПРОДАЙ💥 Краснодар и пригород",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68100097351681,
+      "title": "🌀1🌀♦️РАБОТА/УСЛУГИ♦️ Краснодар и пригород",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68093914529898,
+      "title": "Отдам даром и обмен Краснодар",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "source_city": "eysk"
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68089749776976,
+      "title": "꧁✰КРАСНОДАР ОБЪЯВЛЕНИЯ✰꧂",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68088873631850,
+      "title": "🟠🟠🟠Горхутор Краснодар п. Северный Баскетхол",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68085948104810,
+      "title": "Работа Краснодарский край",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68081294633531,
+      "title": "1️⃣💖 ВСЕ ЧАСТНЫЕ ОБЪЯВЛЕНИЯ БЕСПЛАТНО КРАСНОДАР И КРАЙ💖",
+      "source_city": "krasnodar"
+    },
+    {
+      "chat_id": -68081225258303,
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "source_city": "kuban"
+    }
+  ],
+  "new_candidates": [
+    {
+      "chat_id": -71207247847485,
+      "type": "chat",
+      "status": "active",
+      "title": "Подслушано - чат и знакомства ❤️",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3q1x6gOnSDnesJs7WzbYFCDelKiOfSsoAAdS5f7giQm-T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426448395,
+      "participants_count": 8313,
+      "is_public": false,
+      "description": "Лучший чат Новороссийка: без цензуры и только правда!",
+      "link": "https://max.ru/join/QG0E1NA2bTlwEIP2BISyk-2zahE0y8OmeFv52a6fJWQ",
+      "messages_count": 44140
+    },
+    {
+      "chat_id": -69715418609115,
+      "type": "chat",
+      "status": "active",
+      "title": "Рынок Усть-лабинск",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3EtVXESgLKqv3pR85ga8InUrVoe3J-5jbaXHR6dHOWwWT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426378329,
+      "participants_count": 1021,
+      "is_public": false,
+      "description": "Рынок Усть-лабинск, купи-продай!, объявление 1 р в сутки.",
+      "link": "https://max.ru/join/poBzQzI-L5lXcvOLZYAAjSdTbIysH2lEycVk-IajtWc",
+      "messages_count": 5085
+    },
+    {
+      "chat_id": -69792544669802,
+      "type": "chat",
+      "status": "active",
+      "title": "🟠🟠🟠ДИНСКОЙ РАЙОН БАРАХОЛОЧКА",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3ybK10qYjHQ4sEI8ZMX6dy1MBA-THEbSfU6mqtGCkheST97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426357065,
+      "participants_count": 263,
+      "is_public": false,
+      "description": "Размещение объявлений, услуг, продажа, обмен, отдам даром. Коммерческие объявления по согласованию.\nЗапрещено: гадание, рассылки, ножи, документы, ссылки на сторонние сайты, все, что запрещено законодательством  РФ.\nСсылки на группы взаимные.\nВоскресенье размещение всех объявлений без ссылок и запрещённой категории.",
+      "link": "https://max.ru/join/qNejjN28w4iP_U9uO9N3Me4tRcV2s1aEbmJNQqUp4xw",
+      "messages_count": 2225
+    },
+    {
+      "chat_id": -68847122183661,
+      "type": "chat",
+      "status": "active",
+      "title": "Курганинск, Лабинск Объявления работа услуги бесплатно ☘️",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T38kv7ux1l6Kmmb1fjmr2rmifA9ZAZF-LbAAkMmkpEugOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426300646,
+      "participants_count": 1138,
+      "is_public": false,
+      "description": "В  группе вы можете купить продать обменять и т.д. Указывайте номер телефона и место где находится ваш товар.Скидывать объявления 1 раз в сутки ⚠️В группе запрещено⛔Конфликты  споры спам.Публикация  порнографии  гадания  лотереи онлайн заработок кредиты а также  сбору денег.Ссылки взаимные ❗ Удалили меня,удалю вас я⚠️Админ не несёт ответственность за объявления и рекламу Будьте внимательны ⚠️",
+      "link": "https://max.ru/join/DdTK3-ONhVF-v-nXfbIwtsA-diSYtpEUj7K_nxVrGiA",
+      "messages_count": 9638
+    },
+    {
+      "chat_id": -69525922895314,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | ЕЙСК",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3z49stXJAUDXtPBIe-REzd4IAmKVtqt6s0jO7opzI_u2T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426300349,
+      "participants_count": 819,
+      "is_public": false,
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\n\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nПо вопросам-админу",
+      "link": "https://max.ru/join/e06sBAY1exeHeo1MBcs8K76aAZz5bRmx_gDoY9NBi9I",
+      "messages_count": 5292
+    },
+    {
+      "chat_id": -70142531685064,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️💯 Купи Продай Вся Кубань / Барахолка Кубани",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BTEFHNxXjmuR0N2Fir9SuMMRq6TjDHTkXQiChVLWzuhhs_7UjIRnIPoR3ZaKL6VWcKI&fn=w_1440"
+      },
+      "last_event_time": 1773426240556,
+      "participants_count": 5668,
+      "is_public": false,
+      "description": "🫵Частные объявления в группах бесплатные не более 2 постов в сутки (не услуги)\n‼️Правила и цены на платную рекламу и связь с админом по ссылке👇\n\nhttps://max.ru/c/-71476678048456/AZzDFuaKP_s",
+      "messages_count": 13778
+    },
+    {
+      "chat_id": -68223560354342,
+      "type": "chat",
+      "status": "active",
+      "title": "АРМАВИР/НОВОКУБАНСК",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3ZOm5vlZxBBHzZ8UIjiACAppxcwiuNXGLR1aHStCwvyKT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426176222,
+      "participants_count": 3122,
+      "is_public": false,
+      "description": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ 🗞️ \nЗдесь можно\n✅продать \n✅купить \n✅обменять \n✅отдать даром \n✅задать вопрос \n⛔️ссылки,\n⛔спам,\n⛔мат,\n⛔оскорбления,\n📵фейки - блокирую\nПосле 23:00 не шумим",
+      "link": "https://max.ru/join/RkUhpDZhrFUncp7S2bwIi4CGmoeV-qRBejdsTFYc9Hw",
+      "messages_count": 16321
+    },
+    {
+      "chat_id": -71479873256136,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️💯ЛАБИНСК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3YgKBwtRVuTYPo7PWReCER_z39etbOVgsqUqFVzvw5tGT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426176099,
+      "participants_count": 1911,
+      "is_public": false,
+      "description": "🫵Частные объявления в группах бесплатные не более 2 постов в сутки (не услуги)\n‼️Правила и цены на платную рекламу и связь с админом по ссылке👇\n\nhttps://max.ru/c/-71476678048456/AZzDFuaKP_s",
+      "link": "https://max.ru/join/1AjidRct4--oMkYx4vlyZ4OU6pdO1_04ZVEbhYF8hnM",
+      "messages_count": 909
+    },
+    {
+      "chat_id": -70574561315528,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️💯КУБАНЬ  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T348E-kAfW2oDcVgi4Q8rsJZZ6tG0-_bGm4-F0pfX0zqiT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426175649,
+      "participants_count": 5103,
+      "is_public": false,
+      "description": "🫵Частные объявления в группах бесплатные не более 2 постов в сутки (не услуги)\n‼️Правила и цены на платную рекламу и связь с админом по ссылке👇\n\nhttps://max.ru/c/-71476678048456/AZzDFuaKP_s",
+      "link": "https://max.ru/join/DGePWTST2-HS45QUdz3JEA3C92jUYkJ0JpACSjPc4TA",
+      "messages_count": 1618
+    },
+    {
+      "chat_id": -69167327565119,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️КУБАНЬ ВСЕ ДЛЯ ВСЕХ ☘️❤",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3UsmF7rwIDh6NaaxSzFw9gaCsN8NpcW7xh7dBslbHqFmT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426077370,
+      "participants_count": 762,
+      "is_public": false,
+      "description": "Реклама Объявления Платно !!! По Вопросам Развития Вашей Рекламы !!!Пишите в Личные Сообщения на номер 89298297088 Предоставлю Для Вас Огромный Потребительский Живой Рынок !!! Десятки Тысяч Клиентов Для Ваших Товаров и Услуг !!!За Нарушение Правил Удаление Из Всех Групп Без Дальнейшего Восстановления !!!!  В Группе Запрещено Публиковать Все Что Запрещено Законом Российской Федерации",
+      "link": "https://max.ru/join/cuUSnW3rfmvmcCkQUEwGaZXST89FlfgUqoJ_BkB9aVk",
+      "messages_count": 7355
+    },
+    {
+      "chat_id": -68891656792692,
+      "type": "chat",
+      "status": "active",
+      "title": "Дачники Кубани",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T30Z1B-9O8W2zHKhLMa2eg_ELtjifI-AdLasB5BRBvdBCT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426074670,
+      "participants_count": 1494,
+      "is_public": false,
+      "description": "Купи-Продай Дачники Кубани\nБесплатная Группа. \n1 Объявление в День. ",
+      "link": "https://max.ru/join/0rAHq0RZWEShlEncv4cF3mEI_pp2PeVVapweEupOiJE",
+      "messages_count": 17524
+    },
+    {
+      "chat_id": -69673344390484,
+      "type": "chat",
+      "status": "active",
+      "title": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ И РЕКЛАМ «АРМАВИР+100км»",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3WRk_XBqBeJ9wwnWJ8dz7ZEex838Des71AuTA6H5O-KeT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426056329,
+      "participants_count": 12314,
+      "is_public": false,
+      "description": " ‼️В ГРУППЕ ЗАПРЕЩЕНО⤵️‼️\n\n1️⃣Скидывать ссылки без одобрения АДМИНА!\n\n2️⃣Скидывать новости города. Общаться между собой. \n\n3️⃣Любые вопросы о товаре, писать в личку автору!\n\nГРУППА РАБОТАЕТ С 8 ДО 23\n\nНе соблюдений правил группы, УДАЛЕНИЕ ИЗ ГРУППЫ!❌⛔️",
+      "link": "https://max.ru/join/iukrNkSQnIuavsz8ybLERWKRUpjnFA-YCMeog4OCdnw",
+      "messages_count": 35908
+    },
+    {
+      "chat_id": -70124403985105,
+      "type": "chat",
+      "status": "active",
+      "title": "Купи продай Белореченский район",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3HXjM-gCjA8xFk8frGEmLV8TklxEan33reqAKiEVUeGqT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426049691,
+      "participants_count": 495,
+      "is_public": false,
+      "link": "https://max.ru/join/2dbxteEQaZEwqwnoUSMlOuxVz_wdquXMueLxTA4HTI4",
+      "messages_count": 3385
+    },
+    {
+      "chat_id": -71676689567889,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Ейск",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3kE3v0NbE5N58Ewa64XdoyzObE8rGVt9iO5iMnhY4cIiT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426028073,
+      "participants_count": 1199,
+      "is_public": false,
+      "link": "https://max.ru/join/NMRSYiLCMHipHPgUiYJQB5a2hLXHsSakcVv8BeMvUcw",
+      "messages_count": 603
+    },
+    {
+      "chat_id": -69512589666935,
+      "type": "chat",
+      "status": "active",
+      "title": "🍓Пос.Заречный Белореченский район🔥",
+      "last_event_time": 1773426027095,
+      "participants_count": 500,
+      "is_public": false,
+      "description": "Приглашайте друзей и жителей близлежащих поселков, чтобы на потеряться! Ссылки только на Макс по согласованию👈 \n⛔ Запрещено гадание, оружие, сбор денег, заработок в vk, лотереи, розыгрыши.\n🛑 Ссылки и спам, ведущие на другие площадки, будут удаляться.\nАдмин +79183166836",
+      "link": "https://max.ru/join/PFW34HDJ8dSnT_DhLkbA1QxlkozTnf8vabXlDpGaboU",
+      "messages_count": 3704
+    },
+    {
+      "chat_id": -68100891214071,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3SuIvIrByRP_m-GB8k-9v12pajA0E0dACjLMWJFbJBV-T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426025178,
+      "participants_count": 1070,
+      "is_public": false,
+      "description": "🆘ВСТУПАЯ В ГРУППУ, ЧИТАЕМ ВНИМАТЕЛЬНО ПРАВИЛО ГРУППЫ🆘РАЗРЕШЕНО БЕЗ СОГЛАСОВАНИЯ С АДМИНОМ‼️Куплю, продажа, отдам в дар, обменяю, сдам, ищу, сниму, поиск работы‼️ОБЪЯВЛЕНИЯ КОТОРЫЕ НУЖНО СОГЛАСОВЫВАТЬ С АДМИНОМ ГРУППЫ ПЛАТНЫЕ‼️\nОПЛАЧИВАЕМЫЕ ОБЪЯВЛЕНИЯ-ССЫЛКИ‼️Коммерчиская реклама,розыгрышы,онлайн работа,водительское удостоверение, вахта,приглашение в экскурсию,похуделки,продажа сим карт, продажа",
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ",
+      "messages_count": 10504
+    },
+    {
+      "chat_id": -70290884116553,
+      "type": "chat",
+      "status": "active",
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3hY4knh1gp4OC-9oBhNzm_uwg84CkSP9r38_tPcXowTCT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426024853,
+      "participants_count": 572,
+      "is_public": false,
+      "description": "💸ПРОДАЖА 🔄ОБМЕН 🔗ССЫЛКИ ГРУПП\n📢 ВНИМАНИЕ ❗ССЫЛКИ НА ГРУППЫ ЗНАКОМСТВ, РОЗЫГРЫШИ, ПОХУДЕНИЯ, ИНСТАГРАМ, VK ,ТЕЛЕГРАММ КАНАЛ ПЛАТНЫЕ❗❗❗\n📢 ССЫЛКИ НА ВЗАИМНЫХ УСЛОВИЯХ ТОЛЬКО МАКС ‼️ЛЮБЫЕ ДРУГИЕ ССЫЛКИ БУДУТ УДАЛЕНЫ ‼️ ПОСЛЕ РАЗМЕЩЕНИЯ ВАМИ ССЫЛКИ В ЭТОЙ ГРУППЕ ГОТОВЬТЕСЬ ПРИНЯТЬ НАШУ ССЫЛКУ  У СЕБЯ В ГРУППЕ❗❗\nАДМИНИСТРАТОР ☎️89180061483",
+      "link": "https://max.ru/join/Cw6XFyL-PSbjryoRx-ICfGmc5JWsiaYpIi5wJO45udM",
+      "messages_count": 2489
+    },
+    {
+      "chat_id": -68934856949866,
+      "type": "chat",
+      "status": "active",
+      "title": "🟠🟠🟠Белореченский район БАРАХОЛОЧКА",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3-PJb1jKiy3ayGTZEjH5RUOHgrGACwBWTMhnrY-Uk01GT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426023921,
+      "participants_count": 430,
+      "is_public": false,
+      "description": "Размещение бесплатно частных объявлений, частные услуги(т..е. услуги одного человека), отдам, продам, вакансии. В объявлении до 4 фото, указывайте район.  Взаимный обмен от 100 человек. \nПлатно: коммерция, путешествия, кредиты.\nЗапрещено:  спам, ножи, гадание, документы, все, что запрещено РФ законодательством.\nВоскресенье: бесплатное размещение всех объявлений без ссылок и запрещённой категории.",
+      "link": "https://max.ru/join/hDcou3nxs-GRM6luXyV7ejiH6cmFyot4sdOLHsV9REw",
+      "messages_count": 2256
+    },
+    {
+      "chat_id": -68848831728337,
+      "type": "chat",
+      "status": "active",
+      "title": "Белореченк Заречный южный родники",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3sDEO0YYQfUTpFveInXpWpDZ7ftpl_IFL1mMChUI5O8ST97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426022373,
+      "participants_count": 699,
+      "is_public": false,
+      "description": "запрет\n✅спам, \n✅гадания\n✅мат\n✅ссылки и объявления по сбору денежных средств., \n✅предложение пройти в бесплатные чаты❗❗❗\n\nВСЕ ЧЕРЕЗ АДМИНА ГРУППЫ ❗❗❗\n\n🟡🟡🟡🟡🟡🟡\n❗❗❗при размещения более 4фото делайте коллаж\n🟡🟡🟡🟡🟡🟡\n✴️✴️✴️✴️Ссылки на другие группы только по согласованию с админом❗❗❗\nЗА НАРУШЕНИЕ ПРАВИЛ  БУДУ УДАЛЯТЬ❗❗❗\nВсем отличных покупок и продаж. ",
+      "link": "https://max.ru/join/oxcWcY786XSjCgKKWS-6pfivjhPs0IoN4o7_46HdPO0",
+      "messages_count": 6094
+    },
+    {
+      "chat_id": -69535701813777,
+      "type": "chat",
+      "status": "active",
+      "title": "⚡2 Краснодарский край  ‼️ объявления  ‼️",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3htBZk1Hro_acGKdmMV9Mc12XiqjFpAjZZ_CwsBPmG0iT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426011807,
+      "participants_count": 144,
+      "is_public": false,
+      "description": "Размещение ваших объявлений, купля- продажа, обмен, работа, реклама товаров и услуг 100 рублей в неделю. Частные объявления ( продажа собственного товара бесплатно)\n⬆️Повтор объявлений не более 2 раз в сутки \n⬆️Выставляем не более 4 фото.\n❌Спам,  гадание, рассылки, кредиты, косметика, группы похудейки, удалённая работа, ссылки менее 200 чел. , ссылки не по согласованию платно 100 руб в неделю",
+      "link": "https://max.ru/join/-F94YYMZr14zqxV37_ybVwVJdQG9LGJt-xW3_zt2oZ0",
+      "messages_count": 567
+    },
+    {
+      "chat_id": -68089472827498,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Краснодарский край ЧАСТНОЕ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3J7oOrRsTEOBv4Ucm4QNLZ69yiJJ0LiK66YoNpDy6ObWT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426011449,
+      "participants_count": 925,
+      "is_public": false,
+      "description": "В ЭТОЙ ГРУППЕ ВЗАИМНЫЕ ССЫЛКИ ОБМЕН ОТ 300 ЧЕЛОВЕК.\n\nГруппа ваших объявлений. \nЧастные объявления бесплатно. \nКоммерция ПЛАТНО, пишите в личку. \nСсылки на взаимной основе. \nСпам и все, что противоречит закону ЗАПРЕЩЕНО.",
+      "link": "https://max.ru/join/Qy2eaMNrVjIDhO2W9vn-9aVEa7sgCipY-XDSJGZ2l0c",
+      "messages_count": 6384
+    },
+    {
+      "chat_id": -70138734873297,
+      "type": "chat",
+      "status": "active",
+      "title": "Строительство Белореченск майкоп",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3JO6FB69DT6OFoH-FZr30RKiT85jIhwA0YqCBj0-clL6T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773426011081,
+      "participants_count": 478,
+      "is_public": false,
+      "description": "",
+      "link": "https://max.ru/join/EO7ovZo7j7b2cJnEMkn2unyhUUaPKJzRot09e-4YYBA",
+      "messages_count": 1822
+    },
+    {
+      "chat_id": -69311486550191,
+      "type": "chat",
+      "status": "active",
+      "title": "4️⃣📣 Прикубанка авито",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3R_XPADeSLy-Dxat3SpQHS390L8aVd25FziI3v75i53OT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425896190,
+      "participants_count": 259,
+      "is_public": false,
+      "description": "❌️спам, пересыл\n❌️заработки\n❌️похудейки\n❌️гадание\n❌️займы, кредиты, ипотеки\n❌️бады, духи\n‼️удаление\n✅️ссылки взаимные\n⛔️ Админ за достоверность инфоомации нн отвечает!!\nНе несет ответственность за проводимые сделки в группе!!!\n‼️ Будьте осторожны",
+      "link": "https://max.ru/join/df2rtOfLpNWvoTSJv7LEdukQF0R8WLGEexhfAV0Yyo0",
+      "messages_count": 2164
+    },
+    {
+      "chat_id": -69263233818655,
+      "type": "chat",
+      "status": "active",
+      "title": "💬НАШ ❤️ СОЧИ - АДЛЕР",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3IeRA8qQxLxifixsd-H8XkDpd7OQO_sxndgeJNQXEWBGT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425821078,
+      "participants_count": 3219,
+      "is_public": false,
+      "description": "Чат - Канал 【﻿ НАШ ❤️ Сочи - Адлер 】 Посвящен курортной столице России городу Сочи для общения и полезной Информации\n\nВремя работы чата 9:00 - 23:00 \n\nКанал: https://max.ru/lazarevskoye_community\n\nРеклама:https://t.me/Lazarevskoye_post_bot",
+      "link": "https://max.ru/join/bawAmq0PM8qYkGyi-Ho0fjQ0EwEYqVtnnEp67d6s0Gc",
+      "messages_count": 170
+    },
+    {
+      "chat_id": -68064217716160,
+      "type": "chat",
+      "status": "active",
+      "title": "Сарафан чат| Рекомендации Сочи |🌴",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3Ic0XW8LXEkAgGsBZHU4levhGfhjeXxYpK_uIE2a4DXqT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425808959,
+      "participants_count": 3014,
+      "is_public": false,
+      "description": "🌊 Добро пожаловать в наш Max-чат \"Сочи Сарафан\"! 🌞\n\nЧат рекомендаций города.\nЛучшие мастера, услуги и проверенные места.\nОтзывы, советы и полезные контакты 💬\n\nСамая полезная информация — от людей людям.\n",
+      "link": "https://max.ru/join/aRnO3Ix-Qke8rpt_JONWfAQPxQ3vaoJNwWKFwQtbAeo",
+      "messages_count": 10398
+    },
+    {
+      "chat_id": -71391335011794,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3BE1Gn7tEBfVybAzlaJFtcEtPgIDnrGDxfAm_na3J53iT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425800605,
+      "participants_count": 387,
+      "is_public": false,
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "link": "https://max.ru/join/OtDJENy81_TMFaJm8zEXRxBNC9Eq7PwzAGZ8KJyooMA",
+      "messages_count": 473
+    },
+    {
+      "chat_id": -71952970123271,
+      "type": "chat",
+      "status": "active",
+      "title": "Недвижимость | Краснодарский край",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T31LKheciowoeBLjcPzETABdEU8UaVU6QpWEk-jea1dNeT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425748677,
+      "participants_count": 8,
+      "is_public": false,
+      "description": "Недвижимость Краснодарского края — чат для публикации бесплатных объявлений о покупке, продаже, аренде и сдаче недвижимости. Первое слово в больших объявлениях — «Недвижимость».",
+      "messages_count": 0
+    },
+    {
+      "chat_id": -68879815177571,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3X-XEtiKFlLQHu9uRy__3mgTTBgdrxZKMiZFybZuE-ziT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425647831,
+      "participants_count": 302,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/55lz7lR9EFccDDvOx0_3WB5GEGhHPw4hSiUSNZsvVFc",
+      "messages_count": 2261
+    },
+    {
+      "chat_id": -68880883873123,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥АРМАВИР ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3t8PKBFQvc3RuGfWuQKLqo8AFWC92NUlMEiMKnjhnwhqT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425630907,
+      "participants_count": 336,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/pmq5FkMoM--hnJ0kcthDrRozmiKo-MJmV_vfy8bI5EI",
+      "messages_count": 2472
+    },
+    {
+      "chat_id": -68088151228522,
+      "type": "chat",
+      "status": "active",
+      "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3_1GxJ-AnwKcXiuWIFIky4_B8UJBsasyWe-fWBV1MsRCT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773425239175,
+      "participants_count": 513,
+      "is_public": false,
+      "description": "Размещение частных объявлений, услуг, отдам, продам. В объявлении до 4 фото, указывайте район.  Взаимный обмен от 100 человек. Ссылки, коммерция по согласованию. Запрещено  спам, ножи, гадание, документы, все, что запрещено РФ законодательством.\nВоскресенье размещение всех объявлений без ссылок и запрещённой категории.",
+      "link": "https://max.ru/join/Z6aPZIdLF-AHg1zJKj1SR29hfncPjqk7cs8yR3ywz0Q",
+      "messages_count": 5761
+    },
+    {
+      "chat_id": -71765135362055,
+      "type": "chat",
+      "status": "active",
+      "title": "НЕДВИЖИМОСТЬ | Сочи",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3gRNkJG9FJheqfQrcpSiR1HNjXOTmL83NTPbXCaogkq-T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773424731158,
+      "participants_count": 2729,
+      "is_public": false,
+      "description": "Чат о недвижимости Сочи. Публикуем только темы по недвижимости: покупка, продажа, аренда, новостройки, инвестиции. Спам и ссылки запрещены.",
+      "messages_count": 67
+    },
+    {
+      "chat_id": -68087823876196,
+      "type": "chat",
+      "status": "active",
+      "title": "\"АВИТО МАЙКОП АДЫГЕЯ КРАСНОДАРСКИЙ КРАЙ\"",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3Fr0btFx3zK_jj34PO8-k5aO1DejC7pnK-egHpE0wfuWT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773424271056,
+      "participants_count": 495,
+      "is_public": false,
+      "description": "Добро Пожаловать в группу  Авито Майкоп Адыгея.  Группа работает по всему Краснодарскому краю и Адыгея.   ССЫЛКИ ПО СОГЛАСОВАНИЮ С АДМИНОМ.     \n\nРАЗМЕЩЕНИЯ ОБЪЯВЛЕНИЯ  ИЛИ РЕКЛАМЫ   НА НЕДЕЛЮ 700  руб.  НА МЕСЯЦ 1000 руб.   \n\n💳ПЛАТНО 💳 \n📲 РОЗЫГРЫШИ📲 \n💄ПАРФЮМЕРИЯ, 💄  \n🍽️ЧАТЫ  ДЛЯ ПОХУДЕНИЯ🍽️  \n🔒ЗАКРЫТЫ ГРУППЫ🔒     \n🏦БАНКОВСКИЕ  УСЛУГИ🏦   \n🚛СКУПКА  МЕТАЛЛОЛОМА🚚 \nКОМЕРЧЕСКИЕ РЕКЛАМЫ",
+      "link": "https://max.ru/join/JWPC0HtbBO_1Dz9vd_qRHIdNPclX51CB4uQgE1k78zQ",
+      "messages_count": 3156
+    },
+    {
+      "chat_id": -68087937414568,
+      "type": "chat",
+      "status": "active",
+      "title": "🌟🌟🌟Краснодарский Край: ОБЪЯВЛЕНИЯ и ВЗАИМНЫЕ ссылки",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3KzhLweR6rRqEMYay0vnED28l2JWwpXvN6BdOoW4Ii26T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773424243395,
+      "participants_count": 396,
+      "is_public": false,
+      "description": "Инфо-группа Житницы России🌾🌾🌾:\n\nВАТСАП:\nhttps://chat.whatsapp.com/E4WRkBBV33qKp0kgxjyE7P?mode=ems_copy_t\n\nТЕЛЕГРАМ:\nhttps://t.me/+UPkvRM0zM2dmfSY1\n\nМАХ:\nhttps://max.ru/join/j2t5XeqaMNH33he1s4K8QDXNOdhB-zUuxiYG3HroqPQ\n\nБарахолка анапы и всё остальное...\nhttps://t.me/+Wt7cgt3RlM4yNDE6\n\n❗ВЗАИМНЫЕ ССЫЛКИ  и ваша реклама - 1 раз в день❗️(если не желаете меняться, то можно разместиться у нас платно).",
+      "link": "https://max.ru/join/j2t5XeqaMNH33he1s4K8QDXNOdhB-zUuxiYG3HroqPQ",
+      "messages_count": 11756
+    },
+    {
+      "chat_id": -71391301457362,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | СОЧИ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3KEJdboLi_R7PHSsW2DLA4Y_tzbOXx_XO60q0XuGuF4iT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773423995394,
+      "participants_count": 184,
+      "is_public": false,
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "link": "https://max.ru/join/Nzms8syqLIGshtKdfauGqPfp50BROIM4Gc8hbFCrq0A",
+      "messages_count": 302
+    },
+    {
+      "chat_id": -71415547221458,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | НОВОРОССИЙСК",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3YyrYOPyhsMBnwFJczGXFzUP2zBl215cSn7ULqHKwLCGT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773423995295,
+      "participants_count": 200,
+      "is_public": false,
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "link": "https://max.ru/join/TxKX2xMz0VfTqUfOmHkMfJ8UxmQO2QEMPkB3_9GM6TY",
+      "messages_count": 361
+    },
+    {
+      "chat_id": -70847951773745,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Анапа",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T39S8HE4_YMdeXsYDHV3Fg7Rj0iadANZwBqGBx08fwe8mT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773423815063,
+      "participants_count": 156,
+      "is_public": false,
+      "link": "https://max.ru/join/Yi-J1HN0DTgQ20TGA00cfsXyGZM9DlYFVC7yKJgsAFw",
+      "messages_count": 801
+    },
+    {
+      "chat_id": -68880889312611,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥БЕЛОРЕЧЕНСК ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T354EJUJ4XAkhdQimHOsIeO9UX6E8T9y5u12TWk6_8mFKT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773423798224,
+      "participants_count": 227,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/A0StveCsyY-9ABannZsb4qOBC7Fbq_udXo2S86SkcSQ",
+      "messages_count": 1717
+    },
+    {
+      "chat_id": -68296062066833,
+      "type": "chat",
+      "status": "active",
+      "title": "Алейский район объявления",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3Tgl2NHkspN1q6JlDWFTXH8BM0lTwtFCVL2EmkEKJdWOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773422858808,
+      "participants_count": 372,
+      "is_public": false,
+      "description": "Алейск и район доска объявлений. Ссылки только по согласованию с админами!!!!!! ",
+      "link": "https://max.ru/join/udu6P9O4hu0Wm36T0fwARVL0YK_C5pLvrmmcjM1FsaE",
+      "messages_count": 1632
+    },
+    {
+      "chat_id": -69565348304329,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T34secOP9Z1DFCFRX1EpTvGl39d4jYBLXYbqLPNWR1atOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773422674636,
+      "participants_count": 1038,
+      "is_public": false,
+      "description": "✅Продам, куплю, отдам.БЕСПЛАТНОЕ размещение  объявления одного и того же 1 раз в сутки. От 3 фото делаем коллаж. Цена и Пункт.\n✅Коммерция, Гадания, Металлолом, Худение, Недвижимость, Тур агентство и так далее. Услуга ПЛАТНАЯ в личку к АДМИНУ❗\n❌Запрещены объявление не по теме.\n❌Спам, Сборы,Розыгрыши,Политика.\n❌Флуд, Оскорбление, Хамство.\n✅Ссылки взаимные  БЕСПЛАТНО с согласованием АДМИНА❗❗❗",
+      "link": "https://max.ru/join/_Hlto2ylrWLlrU-mqk2-9sx3EVaSJxxrvAZwalQyK14",
+      "messages_count": 6111
+    },
+    {
+      "chat_id": -68881384502627,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥НОВОКУБАНСК ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3XsWlIlhthEzfHT6hvjN79x3uKciDufUnoKLLVBlpPnOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773421623512,
+      "participants_count": 157,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/Bi3iU2cWZyyV7OUjGeVEe9MW85ym8xFpQCcfPXlMQ7c",
+      "messages_count": 1202
+    },
+    {
+      "chat_id": -68829265182787,
+      "type": "chat",
+      "status": "active",
+      "title": "Советская_Армавир",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3vMk9UacmPV8irmKlVFpLi_xtifLfm-ifZJqMKlXRx-iT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773421525642,
+      "participants_count": 524,
+      "is_public": false,
+      "description": "Группа создана для продажи б/у техники, вещей, и.т.д .В группе нельзя оскорблять участников группы, запрещается неприемлемый контент, запрещаются видео мобилизованных и всякого рода информация,продвигать рекламу, услуги,курсы по обучению,разного рода ссылки по обговоренности с админом.Объявления выставлять раз в два_три дня,ссылки только по согласованию.",
+      "link": "https://max.ru/join/6X1_Tf1wd9ChDNvQ_T7bWGCTbXxa5YkdJ7bELHS-NNw",
+      "messages_count": 1934
+    },
+    {
+      "chat_id": -69167280772415,
+      "type": "chat",
+      "status": "active",
+      "title": "КУБАНЬ ЛУЧШИЙ  РЫНОК",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3Ba3UxW5m2CtdcY2qogAwzfVsU-whsxay1LIP2zRHfOmT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773421444332,
+      "participants_count": 710,
+      "is_public": false,
+      "description": "Реклама Объявления Платно!!!  По Вопросам Развития Вашей Рекламы Пишите На Номер Тел 89298297088. Предоставлю Для Вас Огромный Потребительский Живой Рынок Десятки Тысяч Клиентов Для Ваших Товаров И Услуг За Нарушение Правил Удаление из Всех Групп Без Дальнейшего Восстановления В Группе Запрещено Публиковать Все Что Запрещено Законом Российской Федерации!!!!!",
+      "link": "https://max.ru/join/o4ewPzDxVIkvTvtbSumapPaRd4gRL8ftIZKWpkLHSrM",
+      "messages_count": 7998
+    },
+    {
+      "chat_id": -68829228220483,
+      "type": "chat",
+      "status": "active",
+      "title": "Юла_Советская_Армавир",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3Q2EO_gjn1laVNWK8s-DIsd-rD9-piiYhF3ncwMQHHfqT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773420770415,
+      "participants_count": 419,
+      "is_public": false,
+      "description": "Всемирная торговая площадка. Объявления выставлять раз в три дня . Запрещено выставлять рекламу,услуги, лотереи.Ссылки по согласованию с админом!!!",
+      "link": "https://max.ru/join/zWrb7XaB7QEJfInFmPxezrDXwKh9ccT7bnbla3ucRGU",
+      "messages_count": 1882
+    },
+    {
+      "chat_id": -71826646159505,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Сочи",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3pUgsEmAYoL-em95QRajzn548gYdRSpaF_zDbIPqGGpST97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773420636507,
+      "participants_count": 1071,
+      "is_public": false,
+      "link": "https://max.ru/join/TPUMXCgbdpk6lpyyGJWh-3bQHOx2aoFdvu4OvaqKv8Y",
+      "messages_count": 36
+    },
+    {
+      "chat_id": -69214609096810,
+      "type": "chat",
+      "status": "active",
+      "title": "Реклама Краснодар. Частное.",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3kV1nm5_m4w-UfUNiQx6wYq4WHEnJCx73f6zizfJbhO2T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773419999300,
+      "participants_count": 381,
+      "is_public": false,
+      "description": "Ссылки взаимные. Частная реклама бесплатно. Коммерция на платной основе. ",
+      "link": "https://max.ru/join/lhSdSF8zV6xPVZXLs-M7PgKWkH1nxvRf0FTvVpq9Qd8",
+      "messages_count": 2593
+    },
+    {
+      "chat_id": -68881445451107,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥УСТЬ-ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3_6_s1QCgnenL6pofHyGivYgf-kGXZDZ6LNteWJbZ9VyT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773419911816,
+      "participants_count": 221,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/mIwa5UUaOBwlZXOEaBKfFiBUJIpnGM2D_QxfDwQVJFU",
+      "messages_count": 1987
+    },
+    {
+      "chat_id": -68881389155683,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥🔥НОВОРОССИЙСК ОБЪЯВЛЕНИЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3rvxQaCPed-uCZYHt6hg75Jf8S75frimze1DRVLcN2fOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773419115128,
+      "participants_count": 167,
+      "is_public": false,
+      "description": "🪟 Доска объявлений ,,МАКСИМУМ\"\n\n📌📌В ЗАКРЕПЕ СУПЕР УДОБНАЯ НАВИГАЦИЯ по регионам и городам России\n(список городов в КАЖДОМ регионе)\n\n\nЗдесь можно:\n✅ Продать или купить\n✅ Предложить или найти услуги\n✅ Разместить вакансию\n\nЗапрещено:\n❌ Размещать объявления более 1 раза в день\n❌ Ссылки на другие группы объявлений (только взаимные)\n❌ Фейковые объявления и мошенничество\n\n❤Оцените навигацию в закрепе❤",
+      "link": "https://max.ru/join/flfFB05k-nielvYn8RoxlnH2whEt35d5hLZk2ok_HAI",
+      "messages_count": 921
+    },
+    {
+      "chat_id": -71473051428192,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА КРАЯ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3ObwPIJbBzwcYkIMu3ySGt421zI_SWgKnJACpysbiymyT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773419082341,
+      "participants_count": 132,
+      "is_public": false,
+      "description": "Чат для бесплатных объявлений по Краснодарскому краю\n\nЗапрещено: спам, сетевики, накрутки озон и вб, 18+\n\nДелитесь ссылкой\n https://max.ru/join/YAqkZMSU9XQjtBI4ZEWLS1rbBNWqK_dlsaEVNUQtBDE",
+      "link": "https://max.ru/join/YAqkZMSU9XQjtBI4ZEWLS1rbBNWqK_dlsaEVNUQtBDE",
+      "messages_count": 299
+    },
+    {
+      "chat_id": -69253211095251,
+      "type": "chat",
+      "status": "active",
+      "title": "*АЛЕЙСКОЕ ОБОЗРЕНИЕ* Доска бесплатных объявлений",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T397gJZJBo99wXh4kSBmPuIecFUOjuJr3jdOGY9yi8nc2T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773405991316,
+      "participants_count": 514,
+      "is_public": false,
+      "description": "Добро пожаловать \nПравила группы 👇👇👇\nТолько  +79......... 🇷🇺РФ\nДля жителей г. Алейск и Алейского района.Алтайского края. \nВ группе РАЗРЕШЕНО:\nпубликовать частные объявления куплю, продам, отдам, услуги, новости. \nКоммерческие объявления с пометкой \"РЕКЛАМА\" \nСсылки только \" max\" и только по   взаимообмену через л/с админа. \n 🚫ЗАПРЕЩЕНО🚫 👇\nПолитика, Спам, мат. \nОбсуждать товар, либо услугу.",
+      "link": "https://max.ru/join/nDjB63GipCmIa4k1E4J2uVfgSX7JRLAVL1WDKg7zA-o",
+      "messages_count": 3416
+    },
+    {
+      "chat_id": -68835305308227,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа_Подработка_Советская",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3D8wojUmDOz0rmtfNE-NeMBIfEKiSuhhG67qB7rzxA_uT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773379728416,
+      "participants_count": 331,
+      "is_public": false,
+      "description": "Работа , подработка _Новокубанский район_г.Армавир_Успенский_ Спам,реклама, оскорбления не приемлимо в группе и подлежит удалению участника!  В группе выкладываются объявление только: вакансии, почасовая работа, подработки.Выкладывать один раз в три дня❗Ссылки только по согласованию с админом!",
+      "link": "https://max.ru/join/jSpeH6E7kfCUUuFqLzkwvZDxF3ydrTwMSKuGfPuRYFs",
+      "messages_count": 145
+    }
+  ],
+  "membership": [
+    {
+      "chat_id": -69673344390484,
+      "title": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ И РЕКЛАМ «АРМАВИР+100км»",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 12314,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71207247847485,
+      "title": "Подслушано - чат и знакомства ❤️",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 8313,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 5984,
+      "permissions": [
+        "add_remove_members",
+        "can_call"
+      ],
+      "has_add_remove_members": true,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70142531685064,
+      "title": "💯✔️💯 Купи Продай Вся Кубань / Барахолка Кубани",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 5668,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70574561315528,
+      "title": "💯✔️💯КУБАНЬ  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 5103,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69263233818655,
+      "title": "💬НАШ ❤️ СОЧИ - АДЛЕР",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 3219,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68223560354342,
+      "title": "АРМАВИР/НОВОКУБАНСК",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 3122,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан чат| Рекомендации Сочи |🌴",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 3014,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71765135362055,
+      "title": "НЕДВИЖИМОСТЬ | Сочи",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 2729,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71479873256136,
+      "title": "💯✔️💯ЛАБИНСК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1911,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68891656792692,
+      "title": "Дачники Кубани",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1494,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69167097140543,
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 1447,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 1348,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 1258,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71676689567889,
+      "title": "Объявления Ейск",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1199,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 1172,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68847122183661,
+      "title": "Курганинск, Лабинск Объявления работа услуги бесплатно ☘️",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1138,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71826646159505,
+      "title": "Объявления Сочи",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1071,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1070,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69167372064063,
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 1061,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69565348304329,
+      "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1038,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69715418609115,
+      "title": "Рынок Усть-лабинск",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 1021,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68089472827498,
+      "title": "Объявления Краснодарский край ЧАСТНОЕ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 925,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68086289552724,
+      "title": "✅✅✅Купи&Продай Краснодарский край",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 851,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69525922895314,
+      "title": "ГОРОД 23 | ЕЙСК",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 819,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 769,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69167327565119,
+      "title": "☘️КУБАНЬ ВСЕ ДЛЯ ВСЕХ ☘️❤",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 762,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69167280772415,
+      "title": "КУБАНЬ ЛУЧШИЙ  РЫНОК",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 710,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68848831728337,
+      "title": "Белореченк Заречный южный родники",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 699,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодар и край ДОСКА ОБЬЯВЛЕНИЙ",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 651,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 638,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 587,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70290884116553,
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 572,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68829265182787,
+      "title": "Советская_Армавир",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 524,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69253211095251,
+      "title": "*АЛЕЙСКОЕ ОБОЗРЕНИЕ* Доска бесплатных объявлений",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 514,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68088151228522,
+      "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 513,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69512589666935,
+      "title": "🍓Пос.Заречный Белореченский район🔥",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 500,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68087823876196,
+      "title": "\"АВИТО МАЙКОП АДЫГЕЯ КРАСНОДАРСКИЙ КРАЙ\"",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 495,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70124403985105,
+      "title": "Купи продай Белореченский район",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 495,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70138734873297,
+      "title": "Строительство Белореченск майкоп",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 478,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70219090392413,
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 476,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69668861596994,
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 471,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68934856949866,
+      "title": "🟠🟠🟠Белореченский район БАРАХОЛОЧКА",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 430,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68829228220483,
+      "title": "Юла_Советская_Армавир",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 419,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68087937414568,
+      "title": "🌟🌟🌟Краснодарский Край: ОБЪЯВЛЕНИЯ и ВЗАИМНЫЕ ссылки",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 396,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71391335011794,
+      "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 387,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69214609096810,
+      "title": "Реклама Краснодар. Частное.",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 381,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68296062066833,
+      "title": "Алейский район объявления",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 372,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 367,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 352,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68880883873123,
+      "title": "🔥🔥АРМАВИР ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 336,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 331,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68879815177571,
+      "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 302,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70847853010993,
+      "title": "Барахолочка Анапа",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 282,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69792544669802,
+      "title": "🟠🟠🟠ДИНСКОЙ РАЙОН БАРАХОЛОЧКА",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 263,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69311486550191,
+      "title": "4️⃣📣 Прикубанка авито",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 259,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70117513166933,
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 252,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70623036145896,
+      "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 228,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68880889312611,
+      "title": "🔥🔥БЕЛОРЕЧЕНСК ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 227,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68881445451107,
+      "title": "🔥🔥УСТЬ-ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 221,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71415547221458,
+      "title": "ГОРОД 23 | НОВОРОССИЙСК",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 200,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71391301457362,
+      "title": "ГОРОД 23 | СОЧИ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 184,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68881389155683,
+      "title": "🔥🔥НОВОРОССИЙСК ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 167,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -68881384502627,
+      "title": "🔥🔥НОВОКУБАНСК ОБЪЯВЛЕНИЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 157,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -70847951773745,
+      "title": "Доска объявлений Анапа",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 156,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -69535701813777,
+      "title": "⚡2 Краснодарский край  ‼️ объявления  ‼️",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 144,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71357769162801,
+      "title": "Ярмарка кубани",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 134,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71473051428192,
+      "title": "БАРАХОЛКА КРАЯ",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 132,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71144372019249,
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "source": "selected",
+      "status": "active",
+      "participants_count": 47,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    },
+    {
+      "chat_id": -71952970123271,
+      "title": "Недвижимость | Краснодарский край",
+      "source": "new_candidate",
+      "status": "active",
+      "participants_count": 8,
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false
+    }
+  ]
+}

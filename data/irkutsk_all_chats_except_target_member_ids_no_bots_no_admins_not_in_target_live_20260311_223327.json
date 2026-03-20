@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-11T19:33:27.144Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 422,
+  "city_filter": "title|description|link contains /(иркут|irkut)/iu",
+  "target_chat": {
+    "chat_id": -71456680806407,
+    "title": "Иркутск Объявления | Новости",
+    "participants_count": 2468,
+    "target_members_scanned": 2468
+  },
+  "source_chats_count_requested": 7,
+  "source_chat_ids_requested": [
+    -71847388696733,
+    -71424393031774,
+    -71045893791766,
+    -68097054799341,
+    -68853379443352,
+    -69491781741208,
+    -68068625473717
+  ],
+  "source_chats_count_processed": 7,
+  "failed_chats_count": 0,
+  "source_chats": [
+    {
+      "chat_id": -71847388696733,
+      "title": "✅Объявления г. ИРКУТСКА и ОКРЕСНОСТЕЙ.",
+      "participants_count": 4262
+    },
+    {
+      "chat_id": -71424393031774,
+      "title": "Работа в Иркутске",
+      "participants_count": 3052
+    },
+    {
+      "chat_id": -71045893791766,
+      "title": "Сельхозтехника Иркутская область",
+      "participants_count": 1814
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "participants_count": 1779
+    },
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "participants_count": 1417
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "participants_count": 1123
+    },
+    {
+      "chat_id": -68068625473717,
+      "title": "Объявления Иркутска",
+      "participants_count": 379
+    }
+  ],
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -71847388696733,
+      "title": "✅Объявления г. ИРКУТСКА и ОКРЕСНОСТЕЙ.",
+      "participants_count": 4262,
+      "members_scanned": 4930,
+      "skipped_bots": 4,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1322,
+      "skipped_duplicates_across_source": 0,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 3602
+    },
+    {
+      "chat_id": -71424393031774,
+      "title": "Работа в Иркутске",
+      "participants_count": 3052,
+      "members_scanned": 3052,
+      "skipped_bots": 6,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 993,
+      "skipped_duplicates_across_source": 339,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 1712
+    },
+    {
+      "chat_id": -71045893791766,
+      "title": "Сельхозтехника Иркутская область",
+      "participants_count": 1814,
+      "members_scanned": 1814,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 659,
+      "skipped_duplicates_across_source": 387,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 765
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "participants_count": 1779,
+      "members_scanned": 1779,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 771,
+      "skipped_duplicates_across_source": 206,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 798
+    },
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "participants_count": 1417,
+      "members_scanned": 1417,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 600,
+      "skipped_duplicates_across_source": 344,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 471
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "participants_count": 1123,
+      "members_scanned": 1123,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 382,
+      "skipped_duplicates_across_source": 546,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 192
+    },
+    {
+      "chat_id": -68068625473717,
+      "title": "Объявления Иркутска",
+      "participants_count": 379,
+      "members_scanned": 380,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 45,
+      "skipped_duplicates_across_source": 167,
+      "skipped_invalid": 0,
+      "unique_new_from_chat": 164
+    }
+  ],
+  "stats": {
+    "unique_ids_final": 7704,
+    "unique_admin_ids_seen": 14,
+    "unique_bot_ids_seen": 7
+  },
+  "output_txt_file": "data/irkutsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_223327.txt"
+}

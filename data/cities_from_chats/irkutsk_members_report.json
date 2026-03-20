@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-03-03T18:57:59.514Z",
+  "city": "irkutsk",
+  "total_chats_seen": 447,
+  "matched_city_chats_count": 11,
+  "target_chat": {
+    "chat_id": -71456680806407,
+    "title": "Иркутск Объявления | Новости",
+    "members_total": 2644,
+    "pages_fetched": 27
+  },
+  "source_chats_count": 10,
+  "processed_chats_count": 10,
+  "failed_chats_count": 0,
+  "unique_ids_count": 3093,
+  "per_chat": [
+    {
+      "chat_id": -68455935789780,
+      "title": "ИРКУТСК И ВЕСЬ 38 РЕГИОН",
+      "pages": 4,
+      "members_fetched": 323,
+      "kept_non_bot_non_admin_not_in_target": 137,
+      "skipped_bots": 6,
+      "skipped_admins": 3,
+      "skipped_in_target": 177,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68827626160204,
+      "title": "Иркутск объявления",
+      "pages": 9,
+      "members_fetched": 861,
+      "kept_non_bot_non_admin_not_in_target": 409,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_in_target": 447,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68853379443352,
+      "title": "КУЙБЫШЕВСКИЙ РАЙОН!! г ИРКУТСКА .",
+      "pages": 14,
+      "members_fetched": 1393,
+      "kept_non_bot_non_admin_not_in_target": 756,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 635,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69805494553282,
+      "title": "Иркутск Объявления",
+      "pages": 6,
+      "members_fetched": 554,
+      "kept_non_bot_non_admin_not_in_target": 244,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 308,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71424393031774,
+      "title": "Работа в Иркутске",
+      "pages": 12,
+      "members_fetched": 1162,
+      "kept_non_bot_non_admin_not_in_target": 400,
+      "skipped_bots": 3,
+      "skipped_admins": 2,
+      "skipped_in_target": 757,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68097054799341,
+      "title": "Продам/Куплю/Услуги Иркутская область",
+      "pages": 17,
+      "members_fetched": 1634,
+      "kept_non_bot_non_admin_not_in_target": 828,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_in_target": 802,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69491781741208,
+      "title": "ОБЪЯВЛЕНИЯ НАШ КУЙБЫШЕВСКИЙ район г ИРКУТСК",
+      "pages": 11,
+      "members_fetched": 1072,
+      "kept_non_bot_non_admin_not_in_target": 674,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_in_target": 395,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68113862820033,
+      "title": "Барахолка Иркутская область",
+      "pages": 4,
+      "members_fetched": 349,
+      "kept_non_bot_non_admin_not_in_target": 199,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 148,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69571802532525,
+      "title": "Ленинский район Жилкино и ближайшие территории г. Иркутска",
+      "pages": 4,
+      "members_fetched": 393,
+      "kept_non_bot_non_admin_not_in_target": 175,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_in_target": 216,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69280214209975,
+      "title": "Дром 03/38/75",
+      "pages": 10,
+      "members_fetched": 993,
+      "kept_non_bot_non_admin_not_in_target": 915,
+      "skipped_bots": 3,
+      "skipped_admins": 5,
+      "skipped_in_target": 70,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/irkutsk.txt"
+}

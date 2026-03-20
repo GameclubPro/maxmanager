@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-03-02T14:34:34.502Z",
+  "city": "anapa",
+  "source_chats_count": 6,
+  "processed_chats_count": 6,
+  "failed_chats_count": 0,
+  "unique_ids_count": 419,
+  "per_chat": [
+    {
+      "chat_id": -71489685325831,
+      "title": "Анапа Объявление | Новости",
+      "pages": 3,
+      "members_fetched": 236,
+      "kept_non_bot_non_admin": 230,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70847853010993,
+      "title": "Барахолочка Анапа",
+      "pages": 2,
+      "members_fetched": 188,
+      "kept_non_bot_non_admin": 186,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70704271488349,
+      "title": "06/Анапа",
+      "pages": 1,
+      "members_fetched": 93,
+      "kept_non_bot_non_admin": 89,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71045166650834,
+      "title": "АНАПА Live | Куплю • Продам",
+      "pages": 1,
+      "members_fetched": 38,
+      "kept_non_bot_non_admin": 36,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71045154657746,
+      "title": "АНАПА Live | Новости • Общение",
+      "pages": 1,
+      "members_fetched": 46,
+      "kept_non_bot_non_admin": 44,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71045173663186,
+      "title": "АНАПА Live | Работа • Вакансии",
+      "pages": 1,
+      "members_fetched": 23,
+      "kept_non_bot_non_admin": 21,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/anapa.txt"
+}

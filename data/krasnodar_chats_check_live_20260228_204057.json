@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-02-28T20:40:57.213Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 299,
+  "pages": 3,
+  "filter": "title|description|link contains /(краснодар|krasnodar|краснодарск)/i",
+  "matched_count": 13,
+  "active_matched_count": 13,
+  "chats": [
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1041,
+      "is_public": false,
+      "link": "https://max.ru/join/hb0zybWg0AOuHvUdT92aoV3faOjMa-SPyzefVvwunE4",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1273,
+      "is_public": false,
+      "link": "https://max.ru/join/zm30qsewNYvVjYD2rc9v2jQzaHjSopdwgWGDTVzlTJM",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 94,
+      "is_public": false,
+      "link": "https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 753,
+      "is_public": false,
+      "link": "https://max.ru/join/hE6ijT-mPZs0CWI8tN4hG912XfknokeWA554z49FKNE",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 994,
+      "is_public": false,
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 473,
+      "is_public": false,
+      "link": "https://max.ru/join/wIEQo_WoUKVL1p01fUZtvLQS3PEFAKy1naI7XeZ688w",
+      "matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 2830,
+      "is_public": false,
+      "link": "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 634,
+      "is_public": false,
+      "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 483,
+      "is_public": false,
+      "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 780,
+      "is_public": false,
+      "link": "https://max.ru/join/d1r3iH-HhHpRNH-VAum5ll1xRjGODMCv_RmoXXD1k3s",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 239,
+      "is_public": false,
+      "link": "https://max.ru/join/kQn4j2rpC3ntgpvw9a_eH4WRgW3aVj2aD5GvlbOewDE",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68091509516934,
+      "title": "🌸Женский клуб🌸",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 333,
+      "is_public": false,
+      "link": "https://max.ru/join/egjMpwRGz8zYjVQAgguV7f9rzAVkd9fGeIZ0mn1wmew",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68092439931526,
+      "title": "Я 💓 п. Южный 🏡",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 348,
+      "is_public": false,
+      "link": "https://max.ru/join/8zieTa5m0n6eDaJyZLuqOtZe7tHRK79eIN9hGAgXBzY",
+      "matched_fields": [
+        "description"
+      ]
+    }
+  ]
+}

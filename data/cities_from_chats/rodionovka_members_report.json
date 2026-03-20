@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-02T14:41:33.611Z",
+  "city": "rodionovka",
+  "source_chats_count": 2,
+  "processed_chats_count": 2,
+  "failed_chats_count": 0,
+  "unique_ids_count": 1583,
+  "per_chat": [
+    {
+      "chat_id": -71336283338218,
+      "title": "Родионовка Объявления | Новости",
+      "pages": 16,
+      "members_fetched": 1525,
+      "kept_non_bot_non_admin": 1515,
+      "skipped_bots": 2,
+      "skipped_admins": 8,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69168150800991,
+      "title": "Обьявление Родионово-Несветайская",
+      "pages": 4,
+      "members_fetched": 310,
+      "kept_non_bot_non_admin": 307,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/rodionovka.txt"
+}

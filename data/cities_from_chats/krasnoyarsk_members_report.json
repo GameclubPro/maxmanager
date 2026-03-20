@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-03-02T14:40:14.683Z",
+  "city": "krasnoyarsk",
+  "source_chats_count": 22,
+  "processed_chats_count": 22,
+  "failed_chats_count": 0,
+  "unique_ids_count": 6133,
+  "per_chat": [
+    {
+      "chat_id": -69571714769026,
+      "title": "ОКТЯБРЬСКИЙ РАЙОН. КРАСНОЯРСК",
+      "pages": 4,
+      "members_fetched": 364,
+      "kept_non_bot_non_admin": 361,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70870797907413,
+      "title": "РАБОТА 24 ВАКАНСИИ КРАСНОЯРСК",
+      "pages": 7,
+      "members_fetched": 637,
+      "kept_non_bot_non_admin": 630,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69530820763778,
+      "title": "КРАСНОЯРСК И ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "pages": 6,
+      "members_fetched": 542,
+      "kept_non_bot_non_admin": 539,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68068625014965,
+      "title": "Бесплатные объявления Красноярск",
+      "pages": 6,
+      "members_fetched": 524,
+      "kept_non_bot_non_admin": 520,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71506932434951,
+      "title": "Красноярск Объявления | Новости",
+      "pages": 21,
+      "members_fetched": 2049,
+      "kept_non_bot_non_admin": 2043,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68996152265254,
+      "title": "КРАСНОЯРСК и КРАЙ - 24 РЕГИОН",
+      "pages": 9,
+      "members_fetched": 848,
+      "kept_non_bot_non_admin": 845,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69367809466498,
+      "title": "БАРАХОЛКА. КРАСНОЯРСК И КРАЙ. ХАКАСИЯ",
+      "pages": 10,
+      "members_fetched": 965,
+      "kept_non_bot_non_admin": 963,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68098212869526,
+      "title": "Домашние и садовые цветочки г Красноярск",
+      "pages": 4,
+      "members_fetched": 383,
+      "kept_non_bot_non_admin": 379,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69490910393711,
+      "title": "КРАСНОЯРСКИЙ край Мега барахолка",
+      "pages": 6,
+      "members_fetched": 511,
+      "kept_non_bot_non_admin": 505,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69039900344396,
+      "title": "ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "pages": 5,
+      "members_fetched": 500,
+      "kept_non_bot_non_admin": 495,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68874138462806,
+      "title": "ЛЕНИНСКИЙ СОЛНЕЧНЫЙ КРАСНОЯРСКИЙ КРАЙ",
+      "pages": 6,
+      "members_fetched": 504,
+      "kept_non_bot_non_admin": 498,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68770566548054,
+      "title": "КРАСНОЯРСК ПРАВЫЙ БЕРЁГ",
+      "pages": 7,
+      "members_fetched": 621,
+      "kept_non_bot_non_admin": 614,
+      "skipped_bots": 2,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68050433045850,
+      "title": "Объявления Красноярск",
+      "pages": 10,
+      "members_fetched": 998,
+      "kept_non_bot_non_admin": 991,
+      "skipped_bots": 4,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69056124717606,
+      "title": "ЖЕЛЕЗНОГОРСК КРАСНОЯРСКИЙ.",
+      "pages": 3,
+      "members_fetched": 300,
+      "kept_non_bot_non_admin": 297,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69530304405634,
+      "title": "ЛЕВЫЙ БЕРЕГ. КРАСНОЯРСК",
+      "pages": 3,
+      "members_fetched": 292,
+      "kept_non_bot_non_admin": 289,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69443650570775,
+      "title": "ОБЪЯВЛЕНИЯ Дрокино-Емельяново-Солонцы-Борцы-Красноярск",
+      "pages": 3,
+      "members_fetched": 287,
+      "kept_non_bot_non_admin": 284,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69237643130286,
+      "title": "Работа вакансии Красноярск!!!! Недвижимость Красноярска!!!",
+      "pages": 2,
+      "members_fetched": 133,
+      "kept_non_bot_non_admin": 129,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71538891352263,
+      "title": "Саженцы для Вашего Сада Красноярск",
+      "pages": 15,
+      "members_fetched": 1442,
+      "kept_non_bot_non_admin": 1440,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68833070194707,
+      "title": "Объявления Красноярск",
+      "pages": 5,
+      "members_fetched": 452,
+      "kept_non_bot_non_admin": 450,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68212665644378,
+      "title": "Работа для всех! Красноярск",
+      "pages": 10,
+      "members_fetched": 954,
+      "kept_non_bot_non_admin": 947,
+      "skipped_bots": 2,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68111837137653,
+      "title": "Работа в Красноярске",
+      "pages": 3,
+      "members_fetched": 233,
+      "kept_non_bot_non_admin": 231,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69195289692710,
+      "title": "КУПИ, ПРОДАЙ, ОТДАЙ, МЕНЯЙ. КРАСНОЯРСКИЙ КРАЙ",
+      "pages": 2,
+      "members_fetched": 113,
+      "kept_non_bot_non_admin": 110,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/krasnoyarsk.txt"
+}

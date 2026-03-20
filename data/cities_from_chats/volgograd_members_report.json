@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-03-02T14:46:11.114Z",
+  "city": "volgograd",
+  "source_chats_count": 23,
+  "processed_chats_count": 23,
+  "failed_chats_count": 0,
+  "unique_ids_count": 11779,
+  "per_chat": [
+    {
+      "chat_id": -70973740640938,
+      "title": "Mаx- регион 34 Волгоград и область объявления бесплатно",
+      "pages": 4,
+      "members_fetched": 395,
+      "kept_non_bot_non_admin": 391,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70665800272608,
+      "title": "Фермерское Хозяйство Волгоградская область",
+      "pages": 3,
+      "members_fetched": 261,
+      "kept_non_bot_non_admin": 259,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68847908348049,
+      "title": "РЕКЛАМА ВОЛГОГРАД + НОВЫЙ РОГАЧИК",
+      "pages": 3,
+      "members_fetched": 298,
+      "kept_non_bot_non_admin": 296,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70954122627784,
+      "title": "💯✔️Official Max Регион 34 /   ОБЪЯВЛЕНИЯ Волгоградской обл",
+      "pages": 41,
+      "members_fetched": 4005,
+      "kept_non_bot_non_admin": 3994,
+      "skipped_bots": 7,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69755120039336,
+      "title": "Купи-продай в Волгограде",
+      "pages": 9,
+      "members_fetched": 885,
+      "kept_non_bot_non_admin": 883,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71313986483690,
+      "title": "Волгоград Объявления | Новости",
+      "pages": 66,
+      "members_fetched": 6600,
+      "kept_non_bot_non_admin": 6583,
+      "skipped_bots": 9,
+      "skipped_admins": 8,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69338372937104,
+      "title": "Сельская Жизнь ЛПХ (Волгоградской области)",
+      "pages": 8,
+      "members_fetched": 781,
+      "kept_non_bot_non_admin": 777,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70894224116433,
+      "title": "Продукты питания Волгоград",
+      "pages": 1,
+      "members_fetched": 80,
+      "kept_non_bot_non_admin": 75,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68246202387153,
+      "title": "Куплю-продам  Волгоград объявления",
+      "pages": 11,
+      "members_fetched": 1097,
+      "kept_non_bot_non_admin": 1085,
+      "skipped_bots": 8,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69345990497608,
+      "title": "Доска объявлений ВОЛГОГРАД (Купи-продай-отдай и т. д.😉)",
+      "pages": 9,
+      "members_fetched": 881,
+      "kept_non_bot_non_admin": 878,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69505896431686,
+      "title": "БАРАХОЛКА КРАСНОАРМЕЙСКИЙ РАЙОН г.Волгоград",
+      "pages": 2,
+      "members_fetched": 147,
+      "kept_non_bot_non_admin": 144,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68246182988497,
+      "title": "Услуги Волгоград объявления",
+      "pages": 10,
+      "members_fetched": 978,
+      "kept_non_bot_non_admin": 967,
+      "skipped_bots": 7,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68246470232785,
+      "title": "Недвижимость Волгоград объявления",
+      "pages": 10,
+      "members_fetched": 909,
+      "kept_non_bot_non_admin": 897,
+      "skipped_bots": 9,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70028381948625,
+      "title": "Попутчики по Волгоградской области",
+      "pages": 20,
+      "members_fetched": 1966,
+      "kept_non_bot_non_admin": 1958,
+      "skipped_bots": 4,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68246190656209,
+      "title": "Авторынок Волгоград объявления",
+      "pages": 21,
+      "members_fetched": 2042,
+      "kept_non_bot_non_admin": 2030,
+      "skipped_bots": 8,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68236812389073,
+      "title": "Авторынок Волгоградская область",
+      "pages": 34,
+      "members_fetched": 3347,
+      "kept_non_bot_non_admin": 3335,
+      "skipped_bots": 8,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71239835189453,
+      "title": "Вакансии и услуги Волгограда и Волгоградской области",
+      "pages": 1,
+      "members_fetched": 88,
+      "kept_non_bot_non_admin": 86,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69032566819537,
+      "title": "Автозапчасти Волгоград",
+      "pages": 1,
+      "members_fetched": 46,
+      "kept_non_bot_non_admin": 40,
+      "skipped_bots": 3,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68970302379411,
+      "title": "Раки Волгоград 🦞",
+      "pages": 1,
+      "members_fetched": 87,
+      "kept_non_bot_non_admin": 84,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70452808747729,
+      "title": "Недвижимость Волгоградская область",
+      "pages": 8,
+      "members_fetched": 800,
+      "kept_non_bot_non_admin": 792,
+      "skipped_bots": 4,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69817817322821,
+      "title": "НАГОТОВЕ | ФОРЕЛЬ ВОЛГОГРАД 34",
+      "pages": 23,
+      "members_fetched": 2229,
+      "kept_non_bot_non_admin": 2225,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68981018430161,
+      "title": "Флора и Фауна Волгоград объявления",
+      "pages": 1,
+      "members_fetched": 59,
+      "kept_non_bot_non_admin": 54,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68979766561489,
+      "title": "Строительство и ремонт Волгоград объявления",
+      "pages": 1,
+      "members_fetched": 37,
+      "kept_non_bot_non_admin": 32,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/volgograd.txt"
+}

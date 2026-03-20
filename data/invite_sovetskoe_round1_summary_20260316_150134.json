@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-03-16T12:01:34.754Z",
+  "target_chat_id": -71974962891302,
+  "target_chat_title": "СОВЕТСКОЕ:ЧТО?ГДЕ?КОГДА?",
+  "result_files_count": 9,
+  "result_files": [
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1_400_20260316112320_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_401_800_20260316112650_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_801_1200_20260316113021_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1201_1600_20260316113352_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1601_2000_20260316113724_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2001_2400_20260316114849_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2401_2800_20260316114908_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2801_3200_20260316115243_result.json",
+    "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_3201_3527_20260316115618_result.json"
+  ],
+  "still_missing_files_count": 9,
+  "still_missing_files": [
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1_400_20260316112320.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_401_800_20260316112650.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_801_1200_20260316113021.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1201_1600_20260316113352.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1601_2000_20260316113724.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2001_2400_20260316114849.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2401_2800_20260316114908.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2801_3200_20260316115243.txt",
+    "data/still_missing_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_3201_3527_20260316115618.txt"
+  ],
+  "bots_used": [
+    {
+      "user_id": 209468578,
+      "name": "Beautera",
+      "username": "id613002203036_bot"
+    },
+    {
+      "user_id": 219708220,
+      "name": "Чатен",
+      "username": "id613000010769_2_bot"
+    }
+  ],
+  "totals": {
+    "processed_count": 3527,
+    "already_in_target_count": 136,
+    "attempted_invite_count": 3157,
+    "invited_without_immediate_failure_count": 3137,
+    "verified_added_count": 2430,
+    "still_not_in_target_from_this_chunk_count": 961,
+    "not_attempted_due_to_stop_count": 234,
+    "stop_triggered_ranges": 1,
+    "failed_by_code": {
+      "action_failed": 20
+    }
+  },
+  "merged_still_missing_unique_count": 961,
+  "merged_still_missing_file": "data/still_missing_sovetskoe_round1_merged_20260316_150134.txt",
+  "per_range": [
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1_400_20260316112320_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+      "range_human": "1-400",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 275,
+      "still_not_in_target_from_this_chunk_count": 125,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 6,
+      "after_participants_count": 281
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_401_800_20260316112650_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+      "range_human": "401-800",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 298,
+      "still_not_in_target_from_this_chunk_count": 102,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 281,
+      "after_participants_count": 575
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_801_1200_20260316113021_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+      "range_human": "801-1200",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 295,
+      "still_not_in_target_from_this_chunk_count": 105,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 575,
+      "after_participants_count": 864
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1201_1600_20260316113352_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+      "range_human": "1201-1600",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 316,
+      "still_not_in_target_from_this_chunk_count": 84,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 864,
+      "after_participants_count": 1176
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843_to_71974962891302_1601_2000_20260316113724_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+      "range_human": "1601-2000",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 301,
+      "still_not_in_target_from_this_chunk_count": 99,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 1176,
+      "after_participants_count": 1472
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2001_2400_20260316114849_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539.txt",
+      "range_human": "2001-2400",
+      "processed_count": 400,
+      "already_in_target_count": 136,
+      "attempted_invite_count": 30,
+      "verified_added_count": 1,
+      "still_not_in_target_from_this_chunk_count": 263,
+      "not_attempted_due_to_stop_count": 234,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 30,
+        "remaining_count": 234,
+        "last_user_id": 84552633
+      },
+      "failed_by_code": {
+        "action_failed": 20
+      },
+      "before_participants_count": 1600,
+      "after_participants_count": 1601
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2401_2800_20260316114908_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539.txt",
+      "range_human": "2401-2800",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 321,
+      "still_not_in_target_from_this_chunk_count": 79,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 1601,
+      "after_participants_count": 1917
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_2801_3200_20260316115243_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539.txt",
+      "range_human": "2801-3200",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 400,
+      "verified_added_count": 337,
+      "still_not_in_target_from_this_chunk_count": 63,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 1917,
+      "after_participants_count": 2253
+    },
+    {
+      "result_file": "data/add_sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539_to_71974962891302_3201_3527_20260316115618_result.json",
+      "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539.txt",
+      "range_human": "3201-3527",
+      "processed_count": 327,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 327,
+      "verified_added_count": 286,
+      "still_not_in_target_from_this_chunk_count": 41,
+      "not_attempted_due_to_stop_count": 0,
+      "stop_triggered": null,
+      "failed_by_code": {},
+      "before_participants_count": 2253,
+      "after_participants_count": 2537
+    }
+  ]
+}

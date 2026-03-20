@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-02T15:45:12.900Z",
+  "source_file": "data/cities_from_chats/volgograd.txt",
+  "target_chat": {
+    "chat_id": -71313986483690,
+    "title": "Волгоград Объявления | Новости",
+    "members_total": 6586,
+    "pages_fetched": 66
+  },
+  "file_rows_before": 10805,
+  "file_rows_after": 4754,
+  "removed_because_in_target_chat": 6051
+}

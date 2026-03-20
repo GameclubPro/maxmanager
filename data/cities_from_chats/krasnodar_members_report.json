@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-03-02T14:39:33.364Z",
+  "city": "krasnodar",
+  "source_chats_count": 60,
+  "processed_chats_count": 60,
+  "failed_chats_count": 0,
+  "unique_ids_count": 11599,
+  "per_chat": [
+    {
+      "chat_id": -68841807727334,
+      "title": "Барахолка Краснодар-И Рядом",
+      "pages": 10,
+      "members_fetched": 905,
+      "kept_non_bot_non_admin": 901,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "pages": 11,
+      "members_fetched": 1053,
+      "kept_non_bot_non_admin": 1051,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68873495194228,
+      "title": "Краснодар Пригород Купи-продай",
+      "pages": 8,
+      "members_fetched": 800,
+      "kept_non_bot_non_admin": 796,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68856764983945,
+      "title": "ПРОДАЙ ОБМЕНЯЙ КУПИ ОТДАЙ(Краснодарский край)",
+      "pages": 8,
+      "members_fetched": 723,
+      "kept_non_bot_non_admin": 721,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "pages": 8,
+      "members_fetched": 760,
+      "kept_non_bot_non_admin": 757,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68086289552724,
+      "title": "✅✅✅Купи&Продай Краснодарский край",
+      "pages": 8,
+      "members_fetched": 764,
+      "kept_non_bot_non_admin": 760,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68100097351681,
+      "title": "🌀1🌀♦️РАБОТА/УСЛУГИ♦️ Краснодар и пригород",
+      "pages": 6,
+      "members_fetched": 541,
+      "kept_non_bot_non_admin": 536,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70623036145896,
+      "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+      "pages": 2,
+      "members_fetched": 157,
+      "kept_non_bot_non_admin": 153,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69310347468975,
+      "title": "2️⃣📣 Российский Краснодар",
+      "pages": 3,
+      "members_fetched": 228,
+      "kept_non_bot_non_admin": 226,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68172673335372,
+      "title": "Краснодар реклама",
+      "pages": 2,
+      "members_fetched": 169,
+      "kept_non_bot_non_admin": 167,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69362989115966,
+      "title": "БАРАХОЛКА КРАСНОДАРСКОГО КРАЯ!!!",
+      "pages": 2,
+      "members_fetched": 145,
+      "kept_non_bot_non_admin": 143,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "pages": 43,
+      "members_fetched": 4295,
+      "kept_non_bot_non_admin": 4283,
+      "skipped_bots": 4,
+      "skipped_admins": 8,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "pages": 5,
+      "members_fetched": 481,
+      "kept_non_bot_non_admin": 479,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "pages": 13,
+      "members_fetched": 1283,
+      "kept_non_bot_non_admin": 1279,
+      "skipped_bots": 3,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68883132399692,
+      "title": "КРАСНОДАР И КРАСНОДАРСКИЙ КРАЙ",
+      "pages": 8,
+      "members_fetched": 744,
+      "kept_non_bot_non_admin": 738,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "pages": 6,
+      "members_fetched": 545,
+      "kept_non_bot_non_admin": 543,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68100394819585,
+      "title": "🌀10🌀🛍️БАРАХОЛКА🛍️ Краснодар и пригород",
+      "pages": 3,
+      "members_fetched": 253,
+      "kept_non_bot_non_admin": 248,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69240023558784,
+      "title": "5 ✔Краснодар барахолка",
+      "pages": 9,
+      "members_fetched": 806,
+      "kept_non_bot_non_admin": 804,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70219090392413,
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "pages": 5,
+      "members_fetched": 432,
+      "kept_non_bot_non_admin": 428,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69089338780315,
+      "title": "КРАСНОДАР. КУПИ",
+      "pages": 8,
+      "members_fetched": 726,
+      "kept_non_bot_non_admin": 723,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68089749776976,
+      "title": "꧁✰КРАСНОДАР ОБЪЯВЛЕНИЯ✰꧂",
+      "pages": 3,
+      "members_fetched": 286,
+      "kept_non_bot_non_admin": 281,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "pages": 6,
+      "members_fetched": 525,
+      "kept_non_bot_non_admin": 523,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68556814142194,
+      "title": "Авито Краснодарский край",
+      "pages": 6,
+      "members_fetched": 600,
+      "kept_non_bot_non_admin": 596,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69462975690164,
+      "title": "1. Объявления Краснодара",
+      "pages": 6,
+      "members_fetched": 575,
+      "kept_non_bot_non_admin": 572,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70631557084569,
+      "title": "Доска Объявлений Краснодара и Краснодарского края",
+      "pages": 5,
+      "members_fetched": 444,
+      "kept_non_bot_non_admin": 442,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "pages": 7,
+      "members_fetched": 614,
+      "kept_non_bot_non_admin": 611,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70126306413268,
+      "title": "🆑🛑БАРАХОЛКА 🛑 КРАСНОДАР🛑",
+      "pages": 4,
+      "members_fetched": 339,
+      "kept_non_bot_non_admin": 337,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68085948104810,
+      "title": "Работа Краснодарский край",
+      "pages": 5,
+      "members_fetched": 449,
+      "kept_non_bot_non_admin": 446,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69239817988733,
+      "title": "Ростовской шоссе(Краснодар)",
+      "pages": 3,
+      "members_fetched": 298,
+      "kept_non_bot_non_admin": 296,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69876047066548,
+      "title": "2. Объявления Краснодарский край",
+      "pages": 3,
+      "members_fetched": 238,
+      "kept_non_bot_non_admin": 235,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68081294633531,
+      "title": "1️⃣💖 ВСЕ ЧАСТНЫЕ ОБЪЯВЛЕНИЯ БЕСПЛАТНО КРАСНОДАР И КРАЙ💖",
+      "pages": 4,
+      "members_fetched": 315,
+      "kept_non_bot_non_admin": 312,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "pages": 10,
+      "members_fetched": 980,
+      "kept_non_bot_non_admin": 977,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "pages": 5,
+      "members_fetched": 474,
+      "kept_non_bot_non_admin": 471,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71368101388433,
+      "title": "Объявления Краснодар и область",
+      "pages": 19,
+      "members_fetched": 1805,
+      "kept_non_bot_non_admin": 1802,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "pages": 3,
+      "members_fetched": 270,
+      "kept_non_bot_non_admin": 267,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69682024117594,
+      "title": "Барахолка Краснодар 23",
+      "pages": 4,
+      "members_fetched": 384,
+      "kept_non_bot_non_admin": 382,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "pages": 3,
+      "members_fetched": 265,
+      "kept_non_bot_non_admin": 263,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71472908166496,
+      "title": "БАРАХОЛКА КРАСНОДАР И ПРИГОРОД",
+      "pages": 1,
+      "members_fetched": 59,
+      "kept_non_bot_non_admin": 56,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71472856393056,
+      "title": "Барахолка Краснодарский край",
+      "pages": 1,
+      "members_fetched": 52,
+      "kept_non_bot_non_admin": 49,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71503740725915,
+      "title": "Всё всем Краснодарский край",
+      "pages": 1,
+      "members_fetched": 64,
+      "kept_non_bot_non_admin": 62,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68088873631850,
+      "title": "🟠🟠🟠Горхутор Краснодар п. Северный Баскетхол",
+      "pages": 3,
+      "members_fetched": 278,
+      "kept_non_bot_non_admin": 275,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68114329580833,
+      "title": "🧲(9)КРАСНОДАРСКИЙ КРАЙ",
+      "pages": 5,
+      "members_fetched": 451,
+      "kept_non_bot_non_admin": 446,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69428622557416,
+      "title": "АВИТО. Краснодарский  край.",
+      "pages": 5,
+      "members_fetched": 479,
+      "kept_non_bot_non_admin": 477,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69270980889297,
+      "title": "❤️Краснодар ❤️ и соседи",
+      "pages": 2,
+      "members_fetched": 108,
+      "kept_non_bot_non_admin": 100,
+      "skipped_bots": 2,
+      "skipped_admins": 6,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70884682094034,
+      "title": "ГОРОД 23 | КРАСНОДАР",
+      "pages": 2,
+      "members_fetched": 158,
+      "kept_non_bot_non_admin": 155,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71174884270129,
+      "title": "Недвижимость Краснодара",
+      "pages": 1,
+      "members_fetched": 52,
+      "kept_non_bot_non_admin": 50,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "pages": 1,
+      "members_fetched": 98,
+      "kept_non_bot_non_admin": 96,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71180410175594,
+      "title": "🟠🟠🟠 КРАСНОДАРСКИЙ КРАЙ БАРАХОЛОЧКА",
+      "pages": 1,
+      "members_fetched": 97,
+      "kept_non_bot_non_admin": 95,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69502081556637,
+      "title": "🦋🦋(4)КРАСНОДАР. Бесплатное размещение ваших объявлений📱",
+      "pages": 3,
+      "members_fetched": 210,
+      "kept_non_bot_non_admin": 208,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70222863491226,
+      "title": "🦉КРАСНОДАРСКИЙ КРАЙ",
+      "pages": 1,
+      "members_fetched": 75,
+      "kept_non_bot_non_admin": 72,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69507303000794,
+      "title": "Реклама , Краснадар -Краснодарский край",
+      "pages": 6,
+      "members_fetched": 553,
+      "kept_non_bot_non_admin": 549,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70566794081716,
+      "title": "Краснодар объявления",
+      "pages": 2,
+      "members_fetched": 170,
+      "kept_non_bot_non_admin": 168,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70251957253619,
+      "title": "🟡КРАСНОДАР🟡",
+      "pages": 1,
+      "members_fetched": 87,
+      "kept_non_bot_non_admin": 85,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70718121110135,
+      "title": "☀️Краснодар Объявления",
+      "pages": 1,
+      "members_fetched": 81,
+      "kept_non_bot_non_admin": 79,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68100350713857,
+      "title": "🌀12🌀💥КУПИ/ПРОДАЙ💥 Краснодар и пригород",
+      "pages": 4,
+      "members_fetched": 306,
+      "kept_non_bot_non_admin": 301,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71098790478056,
+      "title": "🇷🇺РАБОТА\"КРАСНОДАРСКИЙ КРАЙ\"",
+      "pages": 1,
+      "members_fetched": 67,
+      "kept_non_bot_non_admin": 63,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68526337212525,
+      "title": "ЧАСТНЫЕ ДОМА г. КРАСНОДАР",
+      "pages": 1,
+      "members_fetched": 79,
+      "kept_non_bot_non_admin": 77,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68312673026271,
+      "title": "РАБОТА и ВАКАНСИИ по Динскому району, р. Южный, Витамин, г . Краснодар",
+      "pages": 6,
+      "members_fetched": 504,
+      "kept_non_bot_non_admin": 500,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68289681519968,
+      "title": "Рыбка даром Краснодар ❤️",
+      "pages": 1,
+      "members_fetched": 92,
+      "kept_non_bot_non_admin": 88,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68093914529898,
+      "title": "Отдам даром и обмен Краснодар",
+      "pages": 5,
+      "members_fetched": 495,
+      "kept_non_bot_non_admin": 492,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/krasnodar.txt"
+}

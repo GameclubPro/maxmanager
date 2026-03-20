@@ -1,0 +1,159 @@
+checked_at: 2026-02-28T21:50:52.205Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 305
+matched_count: 38
+active_matched_count: 38
+
+1. Объявления📋 Услуги🚚ЧИТА
+   chat_id=-71361110024232 status=active type=chat participants=74
+   matched_fields=title
+   link=https://max.ru/join/6oh8oMe_zM1oGOPdKPbuNL5Kgw5CMpTdVXAb9v-2FEg
+2. Регион 75
+   chat_id=-68076019810506 status=active type=chat participants=2950
+   matched_fields=description
+   link=https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk
+3. Чита 75 🇷🇺RUS
+   chat_id=-68097233289418 status=active type=chat participants=1940
+   matched_fields=title,description
+   link=https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw
+4. БАРАХОЛКА 75R
+   chat_id=-68097242792138 status=active type=chat participants=2092
+   matched_fields=description
+   link=https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ
+5. Животный мир Чита 75R
+   chat_id=-68097564521878 status=active type=chat participants=553
+   matched_fields=title
+   link=https://max.ru/join/m0IRC0u-ADfIz5NLwDWu31WyGHu6aZlEJ-WVWZlmjzc
+6. г. ЧИТА И ЗАБ. КРАЙ
+   chat_id=-68084149212488 status=active type=chat participants=1121
+   matched_fields=title
+   link=https://max.ru/join/3NENgCwJ8JwuG50o0EUIbZBzdQ4vb0dQzOsuktO0v44
+7. Чита: Доска объявлений
+   chat_id=-68251366847972 status=active type=chat participants=381
+   matched_fields=title
+   link=https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I
+8. НОВАЯ АДЫГЕЯ🟢ЯБЛОНОВСКИЙ🔴КОЗЕТ🟣ЭНЕМ
+   chat_id=-68080824287443 status=active type=chat participants=468
+   matched_fields=description
+   link=https://max.ru/join/uqvvZhPEhmVh_2tPJl8JXz_5VtcIH46WaJA4qEw5e40
+9. Бесплатные обьявления Чита
+   chat_id=-68813462178555 status=active type=chat participants=668
+   matched_fields=title
+   link=https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU
+10. Саратов - Энгельс Объявления Бесплатные
+   chat_id=-68419398394013 status=active type=chat participants=417
+   matched_fields=description
+   link=https://max.ru/join/7cSjZ5j-zhTUrijJSSYSLjhYb7tT6sqQyML8525plYw
+11. Торговая Ярмарка Саратов, Энгельс - Объявления
+   chat_id=-68450426413213 status=active type=chat participants=409
+   matched_fields=description
+   link=https://max.ru/join/e9umrWRhuSM_uMWvcO51w2wig6EdKBBq9j3AqkKsbe0
+12. ЯРМАРКА⚜️ЧИТА
+   chat_id=-68081902581088 status=active type=chat participants=656
+   matched_fields=title
+   link=https://max.ru/join/AMXsAa5LE2r_Qgv6KqSHD2Ac5FiFpNNE-x5tBai5QL4
+13. Барахолка Чита
+   chat_id=-69384543865595 status=active type=chat participants=392
+   matched_fields=title
+   link=https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc
+14. Чита и Забайкальский край  | Большая ДОСКА ОБЪЯВЛЕНИЙ
+   chat_id=-71497466657480 status=active type=chat participants=7778
+   matched_fields=title
+   link=-
+15. Улёты Чита Объявления
+   chat_id=-69418346537117 status=active type=chat participants=422
+   matched_fields=title
+   link=https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA
+16. Барахолка Чита 75R
+   chat_id=-68097532540310 status=active type=chat participants=732
+   matched_fields=title
+   link=https://max.ru/join/Zly54c19UAn1EHV3xMCDCb8DHzxlDa4vDoTgGVuQVzM
+17. ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ
+   chat_id=-68100891214071 status=active type=chat participants=994
+   matched_fields=description
+   link=https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ
+18. ЧИТА. КУПИ, ПРОДАЙ
+   chat_id=-69351574899433 status=active type=chat participants=213
+   matched_fields=title
+   link=https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8
+19. Работа Москва и Московская область
+   chat_id=-70856936647323 status=active type=chat participants=124
+   matched_fields=description
+   link=https://max.ru/join/KOqbsN_slCR5mtqm1lgtE6JZBPe5Zxpj0DS88iEYzWg
+20. Чита. ru
+   chat_id=-69176331537147 status=active type=chat participants=335
+   matched_fields=title
+   link=https://max.ru/join/DGJH61YVzRE9dCLYlyd7PCGjyWWPnmCYz9Gyqvr243M
+21. Дром 03/38/75
+   chat_id=-69280214209975 status=active type=chat participants=977
+   matched_fields=description
+   link=https://max.ru/join/lnuhnZaWhnYW9OOD9Ill-i9m3XKs1JsW6pNCmVt87cI
+22. Недвижимость Чита 75
+   chat_id=-68159689766294 status=active type=chat participants=624
+   matched_fields=title
+   link=https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo
+23. Ручная работа г Чита. Мастера заб. края
+   chat_id=-68968482701562 status=active type=chat participants=140
+   matched_fields=title
+   link=https://max.ru/join/8nH6PQgRQPp0nZ9u4pe6-JfmZH6XL7HwNYLPkH9RWx4
+24. Объявления г. Чита
+   chat_id=-68117060324043 status=active type=chat participants=1214
+   matched_fields=title
+   link=https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g
+25. Чита Объявления | Новости
+   chat_id=-71489818560519 status=active type=chat participants=5055
+   matched_fields=title
+   link=https://max.ru/join/FYyWQHM0hBeVhS1MsGITM3m5pPeGGlkIaBwF_Vr4dp0
+26. ЧИТА- Забайкальская МЕГА барахолка
+   chat_id=-69487005562223 status=active type=chat participants=521
+   matched_fields=title
+   link=https://max.ru/join/R9xqApv_Hmgd4ITqZPP10nSWGkIYo5vnaqs3PmI09qs
+27. ЦветоМикс.Чита75R
+   chat_id=-68080718165398 status=active type=chat participants=618
+   matched_fields=title,description
+   link=https://max.ru/join/MkqYZ3tf7PXk5nkGsvEsCnf-3GuZctwWy4DGgeBSM6s
+28. Купи-Продай Чита75
+   chat_id=-68927094568342 status=active type=chat participants=569
+   matched_fields=title
+   link=https://max.ru/join/OIE9NBlqlT7lMr0nQOHKoQHhb7KKgkObc7m4-JJNC5s
+29. Рынок Чита75R
+   chat_id=-68159930414486 status=active type=chat participants=694
+   matched_fields=title
+   link=https://max.ru/join/umWiv_mkmcvHcQnCvsyBZ2v8pHFayi9Z-x1hWVMyEwc
+30. Ейск(Барахолка)
+   chat_id=-68847757148269 status=active type=chat participants=402
+   matched_fields=description
+   link=https://max.ru/join/e9s4XB_k_O5B03ZgGanVv1FPFuUinM0Tb66ytng5Bfw
+31. 🔷 КУПЛЮ 7 🔷АДЫГЕЯ - РАЙОНЫ 🔷
+   chat_id=-69440469183098 status=active type=chat participants=433
+   matched_fields=description
+   link=https://max.ru/join/a55ByCDvO4AWiCTUxybonyXwSMPSoOV23PT5xu0Kosc
+32. Подслушано ЧИТА
+   chat_id=-68102758249896 status=active type=chat participants=577
+   matched_fields=title
+   link=https://max.ru/join/B1IfKecVSGDMET-OVomo4NenxPrfKq28kUxdhPZtIp4
+33. ЧИТА БАРАХОЛКА
+   chat_id=-68022921197022 status=active type=chat participants=1383
+   matched_fields=title,description
+   link=https://max.ru/join/bjZPR4lW_K81y4iSxqUFrTw2NIyCPlqnFf5d_C8ENi8
+34. 👩‍👦‍👦🌸 МАМОЧКИ МКР МОЛОДЁЖНЫЙ и СОСЕДИ 🌸👩‍👧‍👧
+   chat_id=-68091581672070 status=active type=chat participants=180
+   matched_fields=description
+   link=https://max.ru/join/sAMa3qs8GgtRapJgvcNJbcFsunpx8A7tLSLnlvhKlbI
+35. Авто Чита 75R
+   chat_id=-68159753074070 status=active type=chat participants=556
+   matched_fields=title
+   link=https://max.ru/join/VYb8ADpIJbCk6GjiB2kEAojOsplOl85bWVp7QhTTXdM
+36. Здесь ваша реклама Чита и Забайкальский край
+   chat_id=-68100164725322 status=active type=chat participants=587
+   matched_fields=title
+   link=https://max.ru/join/Trx9Mdgjdph2pc6pyQqyDpUwURK9IQRSqNAy4zg8SyY
+37. ЧЕРНОВСКИЙ РАЙОН, ЧИТА
+   chat_id=-69401173246022 status=active type=chat participants=274
+   matched_fields=title,description
+   link=https://max.ru/join/x3Ddir6mykOx7uZHlAcYO8GRah_s8S2zENjtySOzIkw
+38. Работа Чита75
+   chat_id=-70423011440022 status=active type=chat participants=284
+   matched_fields=title
+   link=https://max.ru/join/fTHvsjO-0hIe3IvC1zAf7fN8hwENVl6yE_e0nshKtLU

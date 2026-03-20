@@ -1,0 +1,450 @@
+{
+  "checked_at": "2026-03-06T12:10:48.032Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 220,
+  "pages": 3,
+  "filter": "title|description|link contains Zabaykalsky Krai markers",
+  "marker_keys": [
+    "zabaykalsky",
+    "chita",
+    "krasnokamensk",
+    "borzya",
+    "mogocha",
+    "nerchinsk",
+    "shilka",
+    "khilok",
+    "baley",
+    "petrovsk_zabaykalsky",
+    "aginsk",
+    "olovyannaya",
+    "karymsk",
+    "priargunsk",
+    "sretensk",
+    "chernyshevsk",
+    "gazimur"
+  ],
+  "matched_count": 26,
+  "active_matched_count": 26,
+  "chats": [
+    {
+      "chat_id": -68072174829677,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа в Чите и Забайкальском крае Работазабкрай. рф",
+      "participants_count": 17485,
+      "is_public": false,
+      "link": null,
+      "description": "Для того чтобы разместить своё объявление вы можете написать администратору \nhttps://707.su/77Ba\n По рекламе к админу https://707.su/NRRE\n❗Внимание переходите\nна основной канал где каждый день новые вакансии\nСсылка для перехода на основной канал⬇️\n👉https://max.ru/ZabRabota\nВсе Вакансии Читы и Забайкальского  края.\n⭐Найти Сотрудника или Хорошую Работу С может каждый.",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -68076019810506,
+      "type": "chat",
+      "status": "active",
+      "title": "Регион 75",
+      "participants_count": 3217,
+      "is_public": false,
+      "link": "https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk",
+      "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68097242792138,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА 75R",
+      "participants_count": 2268,
+      "is_public": false,
+      "link": "https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ",
+      "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68097233289418,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита 75 🇷🇺RUS",
+      "participants_count": 2102,
+      "is_public": false,
+      "link": "https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw",
+      "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68212641988810,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХЛЯНДИЯ🇷🇺",
+      "participants_count": 1881,
+      "is_public": false,
+      "link": "https://max.ru/join/srAq1j6jwW-enxSWrppR16_AC_NZpAA3oy-gyVPgGCs",
+      "description": "⚠️ТЕЛЕГРАММ:\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХЛЯНДИЯ🇷🇺\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\n\n⚠️ВКОНТАКТЕ:\nЧита 75 RUS\nhttps://vk.com/club229066476\nРегион 75 РУ.\nhttps://vk.com/club229186881\n\n⚠️MAX:\nКуплю-продам\nhttps://max.ru/join/LM6H3SXybiXM4PDnfmrJU",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68117060324043,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления г. Чита",
+      "participants_count": 1318,
+      "is_public": false,
+      "link": "https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68098306149067,
+      "type": "chat",
+      "status": "active",
+      "title": "Балей объявления",
+      "participants_count": 1116,
+      "is_public": false,
+      "link": "https://max.ru/join/8LvZzkfsZwBgYdOELXOP9ZxFjfLj6TcJgadXjj28098",
+      "description": "Купи,продай, отдай, возьми, поделись хорошими новостями✊️",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "baley"
+      ]
+    },
+    {
+      "chat_id": -68098313423563,
+      "type": "chat",
+      "status": "active",
+      "title": "Нерчинск объявления",
+      "participants_count": 1064,
+      "is_public": false,
+      "link": "https://max.ru/join/e3Vw7unVNJywvx95AOZqknsQNfWWospQH6Q5KYCLOSo",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "nerchinsk"
+      ]
+    },
+    {
+      "chat_id": -68106571142598,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Читы",
+      "participants_count": 939,
+      "is_public": false,
+      "link": "https://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog",
+      "description": "Объявления Читы и Забайкальского края. 🏣 Куплю, продам, обменяю, сдам, сниму и многое другое. ⚠️ У нас вы найдёте всё! ❤️ Присоединяйтесь, с нами супер выгодно 🔥🔥🔥\n\nСсылка на группу в новом мессенджере мах:\n\nhttps://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -69261328386811,
+      "type": "chat",
+      "status": "active",
+      "title": "Авито Макс Заб. Край",
+      "participants_count": 749,
+      "is_public": false,
+      "link": "https://max.ru/join/9fQPKvx9e_eZajixthZoQ7OlLGmPgBNo3pvLhzq_tik",
+      "description": "По всем вопросам звонить по ном 89955538410",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -68081900483936,
+      "type": "chat",
+      "status": "active",
+      "title": "ЗАСОПКА",
+      "participants_count": 730,
+      "is_public": false,
+      "link": "https://max.ru/join/xX4n58U2UiKTvJX0RdYFXA-VqZvUjKXdOvtvzFF-2xk",
+      "description": "Добро пожаловать🤝\nСообщество создано для общения и размещения полезной информации для жителей ЗАСОПКИ, АРАПОВКИ, мкр. КАДАЛИНКА и днт УСАДЬБА🌿\nПодписывайтесь, приглашайте своих односельчан !\nБесплатное размещение объявлений !\n\nЗабайкальский край \n\nСсылка-приглашение: https://max.ru/join/xX4n58U2UiKTvJX0RdYFXA-VqZvUjKXdOvtvzFF-2xk",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -68781077015126,
+      "type": "chat",
+      "status": "active",
+      "title": "ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ",
+      "participants_count": 695,
+      "is_public": false,
+      "link": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ",
+      "description": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky",
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68159689766294,
+      "type": "chat",
+      "status": "active",
+      "title": "Недвижимость Чита 75",
+      "participants_count": 674,
+      "is_public": false,
+      "link": "https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo",
+      "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️\n",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -69418346537117,
+      "type": "chat",
+      "status": "active",
+      "title": "Улёты Чита Объявления",
+      "participants_count": 450,
+      "is_public": false,
+      "link": "https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA",
+      "description": "И чего за чат , где каждый может его редактировать?",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68864688065275,
+      "type": "chat",
+      "status": "active",
+      "title": "Хилок бесплатные обьявления",
+      "participants_count": 420,
+      "is_public": false,
+      "link": "https://max.ru/join/6NErPm4siUdZTgX7apUqCaK6XcONF2AscQeRAgi1wOM",
+      "description": "По всем вопросам звонить по ном 89955538410",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "khilok"
+      ]
+    },
+    {
+      "chat_id": -68813462178555,
+      "type": "chat",
+      "status": "active",
+      "title": "Бесплатные обьявления Чита",
+      "participants_count": 399,
+      "is_public": false,
+      "link": "https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU",
+      "description": "По всем вопросам звонить по ном 89955538410",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68251366847972,
+      "type": "chat",
+      "status": "active",
+      "title": "Чита: Доска объявлений",
+      "participants_count": 394,
+      "is_public": false,
+      "link": "https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68957387033339,
+      "type": "chat",
+      "status": "active",
+      "title": "Агинское обьявления",
+      "participants_count": 392,
+      "is_public": false,
+      "link": "https://max.ru/join/L8Swu8JRTRa6sIcJq0pqgYAtg5QldNvi8VoZZeqndHM",
+      "description": "По всем вопросам звонить по ном 89955538410",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "aginsk"
+      ]
+    },
+    {
+      "chat_id": -69384543865595,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Чита",
+      "participants_count": 327,
+      "is_public": false,
+      "link": "https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc",
+      "description": "По всем вопросам звонить по ном 89955538410",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -69351574899433,
+      "type": "chat",
+      "status": "active",
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "participants_count": 219,
+      "is_public": false,
+      "link": "https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -71408855463348,
+      "type": "chat",
+      "status": "active",
+      "title": "Цветики-Цветочки (Чита)",
+      "participants_count": 181,
+      "is_public": false,
+      "link": "https://max.ru/join/VcNHMLumKLF3IzBGQ-AgFPBMJZHrZj9SgHhR-ZUxUx0",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -68106880791985,
+      "type": "chat",
+      "status": "active",
+      "title": "Реклама Забайкалья!",
+      "participants_count": 165,
+      "is_public": false,
+      "link": "https://max.ru/join/YY-NUQAmRCKpptr-o0vIofwD8_LjqU2hCXrRfTECpIc",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -71489896106117,
+      "type": "chat",
+      "status": "active",
+      "title": "Цветы. Рассада. Саженцы. Чита",
+      "participants_count": 71,
+      "is_public": false,
+      "link": "https://max.ru/join/3FQkuGQMWqR387hhFm7Bq21TsfB6vKWYMSRpqMATkvI",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -71490180745736,
+      "type": "chat",
+      "status": "active",
+      "title": "Бесплатные объявления. Забайкалье.",
+      "participants_count": 60,
+      "is_public": false,
+      "link": "https://max.ru/join/BInr4-8hPBxNiDGseT4Qm011p0mOHyHLoAqc8fz1qeM",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    },
+    {
+      "chat_id": -71490092468744,
+      "type": "chat",
+      "status": "active",
+      "title": "Фермерский драйв. Чита.",
+      "participants_count": 59,
+      "is_public": false,
+      "link": "https://max.ru/join/ENagHrk_nLPmDQCEowPYxve3b8Qiel6RZvGkqQjFVN4",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "chita"
+      ]
+    },
+    {
+      "chat_id": -71722073753607,
+      "type": "chat",
+      "status": "active",
+      "title": "Забайкальский край Объявления | Новости",
+      "participants_count": 5,
+      "is_public": false,
+      "link": null,
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "zabaykalsky"
+      ]
+    }
+  ]
+}

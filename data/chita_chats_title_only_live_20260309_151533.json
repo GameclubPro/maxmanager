@@ -1,0 +1,156 @@
+{
+  "source_file": "data/chita_chats_check_live_20260309_151533.json",
+  "filter_scope": "title_only",
+  "checked_at": "2026-03-09T12:15:33.625Z",
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 341,
+  "source_matched_count": 23,
+  "title_only_count": 12,
+  "chats": [
+    {
+      "chat_id": -68097233289418,
+      "title": "Чита 75 🇷🇺RUS",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 2145,
+      "is_public": false,
+      "link": "https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw",
+      "matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68117060324043,
+      "title": "Объявления г. Чита",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1349,
+      "is_public": false,
+      "link": "https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68781077015126,
+      "title": "ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 717,
+      "is_public": false,
+      "link": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68159689766294,
+      "title": "Недвижимость Чита 75",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 701,
+      "is_public": false,
+      "link": "https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69418346537117,
+      "title": "Улёты Чита Объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 479,
+      "is_public": false,
+      "link": "https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68813462178555,
+      "title": "Бесплатные обьявления Чита",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 418,
+      "is_public": false,
+      "link": "https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68251366847972,
+      "title": "Чита: Доска объявлений",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 402,
+      "is_public": false,
+      "link": "https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69384543865595,
+      "title": "Барахолка Чита",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 377,
+      "is_public": false,
+      "link": "https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69351574899433,
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 219,
+      "is_public": false,
+      "link": "https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71408855463348,
+      "title": "Цветики-Цветочки (Чита)",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 207,
+      "is_public": false,
+      "link": "https://max.ru/join/VcNHMLumKLF3IzBGQ-AgFPBMJZHrZj9SgHhR-ZUxUx0",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71489896106117,
+      "title": "Цветы. Рассада. Саженцы. Чита",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 93,
+      "is_public": false,
+      "link": "https://max.ru/join/3FQkuGQMWqR387hhFm7Bq21TsfB6vKWYMSRpqMATkvI",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71490092468744,
+      "title": "Фермерский драйв. Чита.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 81,
+      "is_public": false,
+      "link": "https://max.ru/join/ENagHrk_nLPmDQCEowPYxve3b8Qiel6RZvGkqQjFVN4",
+      "matched_fields": [
+        "title"
+      ]
+    }
+  ]
+}

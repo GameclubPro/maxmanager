@@ -1,0 +1,225 @@
+[start] 2026-03-11 20:17:27 MSK source=/home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt target=-71876198893575 total=6431 batch_size=400 runs=17
+[batch] 2026-03-11 20:17:27 MSK run=1/17 start=0 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 0 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 6 members across 1 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 320,
+  "verified_added_count": 118,
+  "still_not_in_target_from_this_chunk_count": 282,
+  "before_participants_count": 6,
+  "after_participants_count": 238,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1_400_20260311171728_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1_400_20260311171728.txt"
+}
+[batch-end] 2026-03-11 20:23:20 MSK run=1 exit_code=0
+[sleep] 2026-03-11 20:23:20 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:24:20 MSK run=2/17 start=400 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 400 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 238 members across 3 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 370,
+  "verified_added_count": 288,
+  "still_not_in_target_from_this_chunk_count": 112,
+  "before_participants_count": 238,
+  "after_participants_count": 525,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_401_800_20260311172420_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_401_800_20260311172420.txt"
+}
+[batch-end] 2026-03-11 20:29:06 MSK run=2 exit_code=0
+[sleep] 2026-03-11 20:29:06 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:30:06 MSK run=3/17 start=800 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 800 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 525 members across 6 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 370,
+  "verified_added_count": 308,
+  "still_not_in_target_from_this_chunk_count": 92,
+  "before_participants_count": 525,
+  "after_participants_count": 833,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_801_1200_20260311173007_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_801_1200_20260311173007.txt"
+}
+[batch-end] 2026-03-11 20:34:56 MSK run=3 exit_code=0
+[sleep] 2026-03-11 20:34:56 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:35:56 MSK run=4/17 start=1200 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 1200 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 832 members across 9 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 390,
+  "verified_added_count": 314,
+  "still_not_in_target_from_this_chunk_count": 86,
+  "before_participants_count": 832,
+  "after_participants_count": 1145,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1201_1600_20260311173557_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1201_1600_20260311173557.txt"
+}
+[batch-end] 2026-03-11 20:40:26 MSK run=4 exit_code=0
+[sleep] 2026-03-11 20:40:26 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:41:26 MSK run=5/17 start=1600 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 1600 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1144 members across 12 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 330,
+  "verified_added_count": 110,
+  "still_not_in_target_from_this_chunk_count": 290,
+  "before_participants_count": 1144,
+  "after_participants_count": 1407,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1601_2000_20260311174126_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1601_2000_20260311174126.txt"
+}
+[batch-end] 2026-03-11 20:47:13 MSK run=5 exit_code=0
+[sleep] 2026-03-11 20:47:13 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:48:13 MSK run=6/17 start=2000 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 2000 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1406 members across 15 pages
+[run] Inviting 400 users to chat -71876198893575 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+  "target_chat_id": -71876198893575,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 340,
+  "verified_added_count": 115,
+  "still_not_in_target_from_this_chunk_count": 285,
+  "before_participants_count": 1406,
+  "after_participants_count": 1681,
+  "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2001_2400_20260311174813_result.json",
+  "still_missing_file": "data/still_missing_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2001_2400_20260311174813.txt"
+}
+[batch-end] 2026-03-11 20:53:57 MSK run=6 exit_code=0
+[sleep] 2026-03-11 20:53:57 MSK seconds=60 before next batch
+[batch] 2026-03-11 20:54:57 MSK run=7/17 start=2400 count=400
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt --target-chat-id -71876198893575 --start 2400 --count 400 --invite-batch-size 10 --pause-ms 5200 --pause-jitter-ms 300 --max-retries 1 --retry-delay-ms 1200 --retry-backoff 2 --verify-chunk-size 100 --verify-pause-ms 80
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+{
+  "ok": false,
+  "error": "fetch failed",
+  "code": "unknown_error",
+  "status": null
+}
+[batch-end] 2026-03-11 20:55:12 MSK run=7 exit_code=1
+[stop] 2026-03-11 20:55:12 MSK nonzero_exit_code=1 failed_start=2400 failed_count=400

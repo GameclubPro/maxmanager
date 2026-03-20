@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-03-13T16:07:07.704Z",
+  "target_chat": {
+    "chat_id": -71946379114605,
+    "title": "Новочеркасск Объявления | Новости",
+    "final_member_snapshot_count": 1701
+  },
+  "source_file": "data/novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736.txt",
+  "initial_pass": {
+    "source_total_ids": 2455,
+    "batches_count": 7,
+    "attempted_invite_count": 2455,
+    "invited_without_immediate_failure_count": 2345,
+    "verified_added_count": 1717,
+    "still_not_in_target_count": 738,
+    "result_files": [
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_1_400_20260313153946_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_401_800_20260313154345_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_801_1200_20260313154745_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_1201_1600_20260313155221_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_1601_2000_20260313155618_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_2001_2400_20260313160022_result.json",
+      "data/add_novocherkassk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313153736_to_71946379114605_2401_2455_20260313160422_result.json"
+    ]
+  },
+  "retry_round_1": {
+    "source_total_ids": 738,
+    "batches_count": 2,
+    "attempted_invite_count": 40,
+    "invited_without_immediate_failure_count": 0,
+    "verified_added_count": 0,
+    "still_not_in_target_count": 738,
+    "stop_triggered_batches": 2,
+    "result_files": [
+      "data/add_still_missing_novocherkassk_retry_round1_20260313153736_to_71946379114605_1_400_20260313160510_result.json",
+      "data/add_still_missing_novocherkassk_retry_round1_20260313153736_to_71946379114605_401_738_20260313160551_result.json"
+    ]
+  },
+  "final_still_missing_unique_count": 738,
+  "final_still_missing_file": "data/still_missing_novocherkassk_after_retry_round1_20260313160630.txt",
+  "notes": [
+    "Initial pass was completed across the full source file.",
+    "Retry round 1 hit consecutive action_failed stops in both retry batches and added 0 users.",
+    "Current target member snapshot count can differ from arithmetic sum because users may leave/join during the run and participants_count is live."
+  ]
+}

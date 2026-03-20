@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-02-28T22:47:25.733Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 305,
+  "pages": 4,
+  "filter": "title|description|link contains /(волгодонск|волгодонска|volgodonsk|цимлянск|цимлянска|tsimlyansk|cimlyansk)/i",
+  "matched_count": 4,
+  "active_matched_count": 4,
+  "chats": [
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 354,
+      "is_public": false,
+      "link": "https://max.ru/join/EDBLc6H1o9Kr0W_NT3ZGrxWZaneLOnawVkdxTq3ori0",
+      "matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -69296973264293,
+      "title": "❗️🐟СВЕЖАЯ ЦИМЛЯНСКАЯ РЫБКА 🐡ДОСТАВКА❗️",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1106,
+      "is_public": false,
+      "link": "https://max.ru/join/tHDvquEF-BJ15jjCXAXFow-hUq3OyZe9Fgaj58fJtEc",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 123,
+      "is_public": false,
+      "link": "https://max.ru/join/azn8VlvwP_rWf2IlSVbs6-Jl29L3OkDV0W0vi0Hn8wY",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71525320394759,
+      "title": "Волгодонск Объявления | Объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 4,
+      "is_public": false,
+      "link": null,
+      "matched_fields": [
+        "title"
+      ]
+    }
+  ]
+}

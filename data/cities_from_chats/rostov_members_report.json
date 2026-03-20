@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-03-02T14:42:14.120Z",
+  "city": "rostov",
+  "source_chats_count": 9,
+  "processed_chats_count": 9,
+  "failed_chats_count": 0,
+  "unique_ids_count": 9093,
+  "per_chat": [
+    {
+      "chat_id": -69049244448234,
+      "title": "Ростов-на-Дону Объявления | Новости",
+      "pages": 67,
+      "members_fetched": 6689,
+      "kept_non_bot_non_admin": 6679,
+      "skipped_bots": 4,
+      "skipped_admins": 6,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69744406304246,
+      "title": "Из рук в руки (Ростовская область)",
+      "pages": 36,
+      "members_fetched": 3557,
+      "kept_non_bot_non_admin": 3543,
+      "skipped_bots": 9,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71289129525393,
+      "title": "Объявления Ростов На Дону",
+      "pages": 16,
+      "members_fetched": 1593,
+      "kept_non_bot_non_admin": 1588,
+      "skipped_bots": 4,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68091587832454,
+      "title": "✳️🏡п.Южный & Ростовка 🏘️✳️",
+      "pages": 4,
+      "members_fetched": 336,
+      "kept_non_bot_non_admin": 333,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69239817988733,
+      "title": "Ростовской шоссе(Краснодар)",
+      "pages": 3,
+      "members_fetched": 298,
+      "kept_non_bot_non_admin": 296,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68895829702041,
+      "title": "Объявления Ростова-на-Дону и Ростовской области)",
+      "pages": 6,
+      "members_fetched": 562,
+      "kept_non_bot_non_admin": 559,
+      "skipped_bots": 2,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68091549624966,
+      "title": "🏡🌳 Ростовское шоссе дачи/ СНТ все км 🏘️🌳",
+      "pages": 4,
+      "members_fetched": 324,
+      "kept_non_bot_non_admin": 320,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69292363478500,
+      "title": "Авторынок Ростовская область",
+      "pages": 6,
+      "members_fetched": 554,
+      "kept_non_bot_non_admin": 552,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "pages": 2,
+      "members_fetched": 121,
+      "kept_non_bot_non_admin": 117,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/rostov.txt"
+}

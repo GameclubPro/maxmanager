@@ -1,0 +1,265 @@
+{
+  "checked_at": "2026-02-28T19:24:03.213Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 289,
+  "pages": 3,
+  "filter": "title|description|link contains /(казан|kazan)/i",
+  "matched_count": 21,
+  "active_matched_count": 21,
+  "chats": [
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 536,
+      "is_public": false,
+      "link": "https://max.ru/join/p1MgSF7TMRa_YfZ7IquoXD_HuGD4O6nqbGv6kBFP7wo",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69676614216239,
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 781,
+      "is_public": false,
+      "link": "https://max.ru/join/VPW3O5FdDJeLqx_fBMl3tlE4lyB8hUQYj2QQskPBSA0",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69301439133036,
+      "title": "Барахолка Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 113,
+      "is_public": false,
+      "link": "https://max.ru/join/YZHYQgecAo8R4ltvgn6KicuDRjp0we9Xf7jZo0ygPNY",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69283529547963,
+      "title": "24/7💸7️⃣КУПИ💰ПРОДАЙ💰Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 346,
+      "is_public": false,
+      "link": "https://max.ru/join/XB7jmyAvuEahdxwmsS7KwwyeuPon9XvMGwDgJ7ByUPo",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69285311602875,
+      "title": "24/7💸1️⃣1️⃣БАРАХОЛКА💰КАЗАНЬ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 294,
+      "is_public": false,
+      "link": "https://max.ru/join/MCiRWl-z8wrtaUGT8rHjSOPzq7fltBk4__n_uvUyv0k",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69286625012271,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 724,
+      "is_public": false,
+      "link": "https://max.ru/join/BbskpNzTtTCxcSKAFo5ZZG6H0VbozWSIYi-zlC7GF-c",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68872233527870,
+      "title": "Доска объявлений Казань Татарстан",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 408,
+      "is_public": false,
+      "link": "https://max.ru/join/qoIlRvNQs-AxfrObVr7odfG2MRMxxKxWqY6Xi40AYu4",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69286682356271,
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 734,
+      "is_public": false,
+      "link": "https://max.ru/join/fZahfESKTEEHFo75pGYPEzDCVcN9AhNNo4sT7zm1a64",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69286691990063,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 756,
+      "is_public": false,
+      "link": "https://max.ru/join/OPCwXUwr1rWQoHOq_dqOPXeiG4cpS3QARg6uXPmev1w",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71055055579695,
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 286,
+      "is_public": false,
+      "link": "https://max.ru/join/HEr9fsNHX7UHgJTnU2fds5WcopmQQX-zuhvWyQKUTSY",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70060640479806,
+      "title": "ТВОИ ОБЪЯВЛЕНИЯ, Зеленодольск, Волжск, Васильево, Казань",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 193,
+      "is_public": false,
+      "link": "https://max.ru/join/QRVxp6Bsn_ptRszAaNhtfdnBplw7ZooGrcbw2YF-1NU",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71456471431277,
+      "title": "Казань Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1291,
+      "is_public": false,
+      "link": null,
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69319071228091,
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 330,
+      "is_public": false,
+      "link": "https://max.ru/join/zWItvTTyPcH86TryiudmV0_6O2xH_PHlyZFCoxrzHJU",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 354,
+      "is_public": false,
+      "link": "https://max.ru/join/EDBLc6H1o9Kr0W_NT3ZGrxWZaneLOnawVkdxTq3ori0",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 456,
+      "is_public": false,
+      "link": "https://max.ru/join/g9xvMm6ThlpDIF5M92JPoNGfx6oH93vq1vAcX2i9VSo",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -71062865529556,
+      "title": "НЕДВИЖИМОСТЬ |РЕМОНТ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 214,
+      "is_public": false,
+      "link": "https://max.ru/join/Ji7t17PBVdd0fvsVL36WjVHLfQ9YVsr8tIB-elNc65Y",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68629434012934,
+      "title": "Работа: вакансии и подработка в Казани",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 138,
+      "is_public": false,
+      "link": "https://max.ru/join/jHS5mOVHvrnxj5HWVEF7TeK3ArpgXnIPqY5uop-MF2I",
+      "matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68091549624966,
+      "title": "🏡🌳 Ростовское шоссе дачи/ СНТ все км 🏘️🌳",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 317,
+      "is_public": false,
+      "link": "https://max.ru/join/0CoIEthP-AJlBlgCs2Mq483xX_nmWxJwh56zLe70F48",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -71407162559008,
+      "title": "Барахолка Казань✨",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 31,
+      "is_public": false,
+      "link": "https://max.ru/join/t8CVMd7dORQ7LIiWjfzM8wRyg9k6C0oGAZuovBXFc5U",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69277076163323,
+      "title": "Казань. РТ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 388,
+      "is_public": false,
+      "link": "https://max.ru/join/PD62lekYDxdsgTpBi-0_yUhkCGOBAM8LzZgk0Md3w0Q",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69706588354008,
+      "title": "Работа Казань.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 497,
+      "is_public": false,
+      "link": "https://max.ru/join/ArA-Hk0tp7ThggzEkgEw7sq3r_hrVfTyxLssrRBrTKs",
+      "matched_fields": [
+        "title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "city": "Алтайский край",
+  "category": "недвижимость",
+  "generated_at": "2026-03-07T13:03:10.563Z",
+  "source_report_file": "data/altai_krai_chats_check_live_20260307_153823.json",
+  "matched_chats_count": 0,
+  "source_chats": [],
+  "processed_chats": 0,
+  "failed_chats_count": 0,
+  "unique_ids_count": 0,
+  "per_chat": [],
+  "failed_chats": [],
+  "result_file_txt": "data/altai_krai_nedvizhimost_member_ids_no_bots_no_admins_live_20260307_160250.txt",
+  "result_file_chats": "data/altai_krai_nedvizhimost_chats_live_20260307_160250.json"
+}

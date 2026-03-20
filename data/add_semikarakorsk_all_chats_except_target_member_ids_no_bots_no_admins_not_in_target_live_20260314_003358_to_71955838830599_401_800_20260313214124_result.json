@@ -1,0 +1,348 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358.txt",
+    "total_ids_in_source_file": 4796
+  },
+  "target_chat": {
+    "chat_id": -71955838830599,
+    "title": "Семикаракорск Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 288,
+    "after_participants_count": 553
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773436737213,
+          "permissions": [
+            "add_remove_members",
+            "change_chat_info",
+            "can_call"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773438085214,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 400,
+    "end_index_exclusive_0_based": 800,
+    "range_human": "401-800",
+    "requested_count": 400,
+    "selected_count": 400,
+    "run_to_end": false,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 4200,
+    "pause_jitter_ms": 200,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "run_to_end": false,
+    "wave_active_ms": 180000,
+    "wave_rest_ms": 60000,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 3,
+    "target_snapshot_members_count": 288
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 380,
+  "verified_added_count": 266,
+  "still_not_in_target_from_attempted_count": 134,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 134,
+  "failed_by_code": {
+    "unknown_error": 20
+  },
+  "failed_by_status": {
+    "null": 20
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    15910217,
+    15945175,
+    15949578,
+    15957482,
+    15961488,
+    16146809,
+    16184689,
+    16233049,
+    16246559,
+    16256976,
+    16284787,
+    16294094,
+    16294241,
+    16306278,
+    16308913,
+    16343482,
+    16398227,
+    16422970,
+    16444796,
+    16459994,
+    16514000,
+    16625443,
+    16626700,
+    16824733,
+    16871394,
+    16885685,
+    16935338,
+    16960461,
+    16960817,
+    16984639,
+    17030791,
+    17051351,
+    17051618,
+    17099226,
+    17102320,
+    17151377,
+    17166145,
+    17209033,
+    17237539,
+    17239682,
+    17245320,
+    17281931,
+    17314273,
+    17322689,
+    17376846,
+    17380995,
+    17386211,
+    17472781,
+    17523889,
+    17539237
+  ],
+  "sample_still_missing_ids": [
+    16099609,
+    16252392,
+    16452354,
+    16467249,
+    16488576,
+    16520549,
+    16593302,
+    16629677,
+    16640445,
+    16640621,
+    16653974,
+    16663723,
+    16722483,
+    16732804,
+    16781478,
+    16799411,
+    16801509,
+    16874662,
+    17050922,
+    17059095,
+    17074093,
+    17133494,
+    17143387,
+    17425528,
+    17541364,
+    17565543,
+    17591133,
+    17612164,
+    17790476,
+    17854263,
+    17884826,
+    17906799,
+    17915788,
+    18065092,
+    18160562,
+    18177483,
+    18330527,
+    18337930,
+    18342563,
+    18395574,
+    18870206,
+    18948425,
+    19074095,
+    19080969,
+    19127701,
+    19202744,
+    19307310,
+    19313080,
+    19486007,
+    19502325
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 16629677,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16640445,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16640621,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16653974,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16663723,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16722483,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16732804,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16781478,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16799411,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 16801509,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19805813,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19813306,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19831055,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19846520,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19846623,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19875544,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19894736,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19921939,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19940867,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 19946648,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-03-13T21:45:18.187Z"
+}

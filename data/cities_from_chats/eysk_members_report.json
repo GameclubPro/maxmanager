@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-03-02T14:36:42.306Z",
+  "city": "eysk",
+  "source_chats_count": 23,
+  "processed_chats_count": 23,
+  "failed_chats_count": 0,
+  "unique_ids_count": 6616,
+  "per_chat": [
+    {
+      "chat_id": -71489737820167,
+      "title": "Ейск Объявления | Новости",
+      "pages": 29,
+      "members_fetched": 2897,
+      "kept_non_bot_non_admin": 2890,
+      "skipped_bots": 2,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68298310904490,
+      "title": "Бейский район: купля, продажа, обмен, информация",
+      "pages": 10,
+      "members_fetched": 960,
+      "kept_non_bot_non_admin": 957,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68531970343138,
+      "title": "Барахолка ✅Ейск и ейский район",
+      "pages": 5,
+      "members_fetched": 425,
+      "kept_non_bot_non_admin": 418,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68774665262585,
+      "title": "123. Рынок.Ейск и +300км . Объявления для всего и для всех.",
+      "pages": 5,
+      "members_fetched": 403,
+      "kept_non_bot_non_admin": 396,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70869212809928,
+      "title": "💯✔️💬ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 29,
+      "members_fetched": 2812,
+      "kept_non_bot_non_admin": 2799,
+      "skipped_bots": 9,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70117513166933,
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "pages": 3,
+      "members_fetched": 231,
+      "kept_non_bot_non_admin": 229,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69668861596994,
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "pages": 4,
+      "members_fetched": 365,
+      "kept_non_bot_non_admin": 363,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68841055952945,
+      "title": "Авито Щербиновский и Ейский район",
+      "pages": 4,
+      "members_fetched": 329,
+      "kept_non_bot_non_admin": 327,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69505896431686,
+      "title": "БАРАХОЛКА КРАСНОАРМЕЙСКИЙ РАЙОН г.Волгоград",
+      "pages": 2,
+      "members_fetched": 147,
+      "kept_non_bot_non_admin": 144,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68847757148269,
+      "title": "Ейск(Барахолка)",
+      "pages": 4,
+      "members_fetched": 399,
+      "kept_non_bot_non_admin": 396,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68881312937315,
+      "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+      "pages": 2,
+      "members_fetched": 112,
+      "kept_non_bot_non_admin": 109,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69444648362147,
+      "title": "Барахолка по Бейскому району",
+      "pages": 4,
+      "members_fetched": 317,
+      "kept_non_bot_non_admin": 315,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68260409488820,
+      "title": "ОБЪЯВЛЕНИЯ БЕЙСКИЙ РАЙОН",
+      "pages": 5,
+      "members_fetched": 417,
+      "kept_non_bot_non_admin": 415,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69541859227108,
+      "title": "Ейская ярмарка",
+      "pages": 2,
+      "members_fetched": 106,
+      "kept_non_bot_non_admin": 104,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68302365627786,
+      "title": "Бея и бейский район купи продай с юмором без перекупов!",
+      "pages": 12,
+      "members_fetched": 1178,
+      "kept_non_bot_non_admin": 1175,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71047477567537,
+      "title": "Ейск ,сниму ,сдам ,арендую жилье.",
+      "pages": 1,
+      "members_fetched": 79,
+      "kept_non_bot_non_admin": 77,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68840928616497,
+      "title": "*Реклама Ейск*",
+      "pages": 2,
+      "members_fetched": 124,
+      "kept_non_bot_non_admin": 122,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68834970315332,
+      "title": "Барахолка Ейск , Щербиновий район",
+      "pages": 4,
+      "members_fetched": 372,
+      "kept_non_bot_non_admin": 365,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68311243483803,
+      "title": "Объявления Бейский район",
+      "pages": 5,
+      "members_fetched": 462,
+      "kept_non_bot_non_admin": 459,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "pages": 3,
+      "members_fetched": 251,
+      "kept_non_bot_non_admin": 247,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70087825875083,
+      "title": "ЕЙСК/НОВОСТИ/ОБЪЯВЛЕНИЯ",
+      "pages": 1,
+      "members_fetched": 92,
+      "kept_non_bot_non_admin": 90,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68835995164676,
+      "title": "Доска объявлений Ейск",
+      "pages": 3,
+      "members_fetched": 256,
+      "kept_non_bot_non_admin": 248,
+      "skipped_bots": 5,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71449952971431,
+      "title": "Барахолка Ейск",
+      "pages": 5,
+      "members_fetched": 451,
+      "kept_non_bot_non_admin": 449,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/eysk.txt"
+}

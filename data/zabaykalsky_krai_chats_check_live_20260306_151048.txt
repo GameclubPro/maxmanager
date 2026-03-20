@@ -1,0 +1,138 @@
+checked_at: 2026-03-06T12:10:48.032Z
+bot_user_id: 207300808
+bot_username: id613000010769_bot
+total_chats_seen: 220
+pages: 3
+matched_count: 26
+active_matched_count: 26
+
+1. Работа в Чите и Забайкальском крае Работазабкрай. рф
+   chat_id=-68072174829677 status=active type=chat participants=17485
+   matched_fields=title,description
+   matched_marker_keys=zabaykalsky
+   link=-
+2. Регион 75
+   chat_id=-68076019810506 status=active type=chat participants=3217
+   matched_fields=description
+   matched_marker_keys=chita
+   link=https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk
+3. БАРАХОЛКА 75R
+   chat_id=-68097242792138 status=active type=chat participants=2268
+   matched_fields=description
+   matched_marker_keys=chita
+   link=https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ
+4. Чита 75 🇷🇺RUS
+   chat_id=-68097233289418 status=active type=chat participants=2102
+   matched_fields=title,description
+   matched_marker_keys=chita
+   link=https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw
+5. БАРАХЛЯНДИЯ🇷🇺
+   chat_id=-68212641988810 status=active type=chat participants=1881
+   matched_fields=description
+   matched_marker_keys=chita
+   link=https://max.ru/join/srAq1j6jwW-enxSWrppR16_AC_NZpAA3oy-gyVPgGCs
+6. Объявления г. Чита
+   chat_id=-68117060324043 status=active type=chat participants=1318
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g
+7. Балей объявления
+   chat_id=-68098306149067 status=active type=chat participants=1116
+   matched_fields=title
+   matched_marker_keys=baley
+   link=https://max.ru/join/8LvZzkfsZwBgYdOELXOP9ZxFjfLj6TcJgadXjj28098
+8. Нерчинск объявления
+   chat_id=-68098313423563 status=active type=chat participants=1064
+   matched_fields=title
+   matched_marker_keys=nerchinsk
+   link=https://max.ru/join/e3Vw7unVNJywvx95AOZqknsQNfWWospQH6Q5KYCLOSo
+9. Объявления Читы
+   chat_id=-68106571142598 status=active type=chat participants=939
+   matched_fields=description
+   matched_marker_keys=zabaykalsky
+   link=https://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog
+10. Авито Макс Заб. Край
+   chat_id=-69261328386811 status=active type=chat participants=749
+   matched_fields=title
+   matched_marker_keys=zabaykalsky
+   link=https://max.ru/join/9fQPKvx9e_eZajixthZoQ7OlLGmPgBNo3pvLhzq_tik
+11. ЗАСОПКА
+   chat_id=-68081900483936 status=active type=chat participants=730
+   matched_fields=description
+   matched_marker_keys=zabaykalsky
+   link=https://max.ru/join/xX4n58U2UiKTvJX0RdYFXA-VqZvUjKXdOvtvzFF-2xk
+12. ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ
+   chat_id=-68781077015126 status=active type=chat participants=695
+   matched_fields=title
+   matched_marker_keys=zabaykalsky,chita
+   link=https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ
+13. Недвижимость Чита 75
+   chat_id=-68159689766294 status=active type=chat participants=674
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo
+14. Улёты Чита Объявления
+   chat_id=-69418346537117 status=active type=chat participants=450
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA
+15. Хилок бесплатные обьявления
+   chat_id=-68864688065275 status=active type=chat participants=420
+   matched_fields=title
+   matched_marker_keys=khilok
+   link=https://max.ru/join/6NErPm4siUdZTgX7apUqCaK6XcONF2AscQeRAgi1wOM
+16. Бесплатные обьявления Чита
+   chat_id=-68813462178555 status=active type=chat participants=399
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU
+17. Чита: Доска объявлений
+   chat_id=-68251366847972 status=active type=chat participants=394
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I
+18. Агинское обьявления
+   chat_id=-68957387033339 status=active type=chat participants=392
+   matched_fields=title
+   matched_marker_keys=aginsk
+   link=https://max.ru/join/L8Swu8JRTRa6sIcJq0pqgYAtg5QldNvi8VoZZeqndHM
+19. Барахолка Чита
+   chat_id=-69384543865595 status=active type=chat participants=327
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc
+20. ЧИТА. КУПИ, ПРОДАЙ
+   chat_id=-69351574899433 status=active type=chat participants=219
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8
+21. Цветики-Цветочки (Чита)
+   chat_id=-71408855463348 status=active type=chat participants=181
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/VcNHMLumKLF3IzBGQ-AgFPBMJZHrZj9SgHhR-ZUxUx0
+22. Реклама Забайкалья!
+   chat_id=-68106880791985 status=active type=chat participants=165
+   matched_fields=title
+   matched_marker_keys=zabaykalsky
+   link=https://max.ru/join/YY-NUQAmRCKpptr-o0vIofwD8_LjqU2hCXrRfTECpIc
+23. Цветы. Рассада. Саженцы. Чита
+   chat_id=-71489896106117 status=active type=chat participants=71
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/3FQkuGQMWqR387hhFm7Bq21TsfB6vKWYMSRpqMATkvI
+24. Бесплатные объявления. Забайкалье.
+   chat_id=-71490180745736 status=active type=chat participants=60
+   matched_fields=title
+   matched_marker_keys=zabaykalsky
+   link=https://max.ru/join/BInr4-8hPBxNiDGseT4Qm011p0mOHyHLoAqc8fz1qeM
+25. Фермерский драйв. Чита.
+   chat_id=-71490092468744 status=active type=chat participants=59
+   matched_fields=title
+   matched_marker_keys=chita
+   link=https://max.ru/join/ENagHrk_nLPmDQCEowPYxve3b8Qiel6RZvGkqQjFVN4
+26. Забайкальский край Объявления | Новости
+   chat_id=-71722073753607 status=active type=chat participants=5
+   matched_fields=title
+   matched_marker_keys=zabaykalsky
+   link=-

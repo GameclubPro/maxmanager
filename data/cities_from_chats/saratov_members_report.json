@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-03-02T14:42:22.334Z",
+  "city": "saratov",
+  "source_chats_count": 4,
+  "processed_chats_count": 4,
+  "failed_chats_count": 0,
+  "unique_ids_count": 1737,
+  "per_chat": [
+    {
+      "chat_id": -70903293758152,
+      "title": "💯✔️💬Купи Продай Саратов |Объявления Саратов Live💥",
+      "pages": 15,
+      "members_fetched": 1498,
+      "kept_non_bot_non_admin": 1487,
+      "skipped_bots": 7,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68450426413213,
+      "title": "Торговая Ярмарка Саратов, Энгельс - Объявления",
+      "pages": 5,
+      "members_fetched": 444,
+      "kept_non_bot_non_admin": 441,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68419398394013,
+      "title": "Саратов - Энгельс Объявления Бесплатные",
+      "pages": 5,
+      "members_fetched": 454,
+      "kept_non_bot_non_admin": 451,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71524227844103,
+      "title": "Саратов Объявления | Новости",
+      "pages": 4,
+      "members_fetched": 313,
+      "kept_non_bot_non_admin": 310,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/saratov.txt"
+}

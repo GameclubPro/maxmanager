@@ -1,0 +1,123 @@
+{
+  "city": "Алтайский край",
+  "generated_at": "2026-03-07T12:43:21.752Z",
+  "source_chats_file": "data/altai_krai_chat_ids_live_20260307_153823.txt",
+  "source_chat_ids_count": 11,
+  "processed_chats": 11,
+  "failed_chats_count": 0,
+  "unique_ids_count": 14148,
+  "per_chat": [
+    {
+      "chat_id": -68766764627431,
+      "title": "Районы22: Новости и объявления",
+      "status": "active",
+      "participants_count": 7473,
+      "pages": 75,
+      "members_seen": 7448,
+      "members_kept_non_bot_non_admin_non_owner": 7438,
+      "unique_new_from_chat": 7438
+    },
+    {
+      "chat_id": -68062282577383,
+      "title": "Горняк22 | ЧАТ",
+      "status": "active",
+      "participants_count": 1693,
+      "pages": 17,
+      "members_seen": 1694,
+      "members_kept_non_bot_non_admin_non_owner": 1684,
+      "unique_new_from_chat": 848
+    },
+    {
+      "chat_id": -70269868378839,
+      "title": "Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие",
+      "status": "active",
+      "participants_count": 1550,
+      "pages": 16,
+      "members_seen": 1530,
+      "members_kept_non_bot_non_admin_non_owner": 1521,
+      "unique_new_from_chat": 1506
+    },
+    {
+      "chat_id": -68100590532071,
+      "title": "Рубцовск Онлайн",
+      "status": "active",
+      "participants_count": 1481,
+      "pages": 15,
+      "members_seen": 1480,
+      "members_kept_non_bot_non_admin_non_owner": 1470,
+      "unique_new_from_chat": 697
+    },
+    {
+      "chat_id": -70138755610087,
+      "title": "Алтайский район | Объявления",
+      "status": "active",
+      "participants_count": 1243,
+      "pages": 13,
+      "members_seen": 1244,
+      "members_kept_non_bot_non_admin_non_owner": 1234,
+      "unique_new_from_chat": 1224
+    },
+    {
+      "chat_id": -70138559329767,
+      "title": "АЛТАЙСКОЕ | Новости и объявления",
+      "status": "active",
+      "participants_count": 1240,
+      "pages": 13,
+      "members_seen": 1237,
+      "members_kept_non_bot_non_admin_non_owner": 1227,
+      "unique_new_from_chat": 774
+    },
+    {
+      "chat_id": -70239350557399,
+      "title": "МОЙ БАРНАУЛ | Объявления и новости",
+      "status": "active",
+      "participants_count": 971,
+      "pages": 10,
+      "members_seen": 948,
+      "members_kept_non_bot_non_admin_non_owner": 939,
+      "unique_new_from_chat": 507
+    },
+    {
+      "chat_id": -68107349849575,
+      "title": "Барнаул22",
+      "status": "active",
+      "participants_count": 916,
+      "pages": 10,
+      "members_seen": 924,
+      "members_kept_non_bot_non_admin_non_owner": 914,
+      "unique_new_from_chat": 375
+    },
+    {
+      "chat_id": -68093117986279,
+      "title": "Рубцовск- новости, чат, объявления",
+      "status": "active",
+      "participants_count": 849,
+      "pages": 9,
+      "members_seen": 849,
+      "members_kept_non_bot_non_admin_non_owner": 839,
+      "unique_new_from_chat": 206
+    },
+    {
+      "chat_id": -68107343754727,
+      "title": "Авто Барнаул — Продажа/Покупка",
+      "status": "active",
+      "participants_count": 381,
+      "pages": 4,
+      "members_seen": 381,
+      "members_kept_non_bot_non_admin_non_owner": 371,
+      "unique_new_from_chat": 209
+    },
+    {
+      "chat_id": -71539997208039,
+      "title": "АвтоМотоВело(фото) | Мамонтовский",
+      "status": "active",
+      "participants_count": 360,
+      "pages": 5,
+      "members_seen": 453,
+      "members_kept_non_bot_non_admin_non_owner": 443,
+      "unique_new_from_chat": 364
+    }
+  ],
+  "failed_chats": [],
+  "result_file_txt": "data/altai_krai_all_chats_member_ids_no_bots_no_admins_live_20260307_154321.txt"
+}

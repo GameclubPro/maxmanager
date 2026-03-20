@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-03-16T12:05:57.257Z",
+  "target_chat_id": -71974962891302,
+  "target_chat_title": "СОВЕТСКОЕ:ЧТО?ГДЕ?КОГДА?",
+  "source_file": "data/still_missing_sovetskoe_round1_merged_20260316_150134.txt",
+  "result_files_count": 3,
+  "result_files": [
+    "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_1_400_20260316120354_result.json",
+    "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_401_800_20260316120436_result.json",
+    "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_801_961_20260316120452_result.json"
+  ],
+  "still_missing_files_count": 3,
+  "still_missing_files": [
+    "data/still_missing_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_1_400_20260316120354.txt",
+    "data/still_missing_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_401_800_20260316120436.txt",
+    "data/still_missing_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_801_961_20260316120452.txt"
+  ],
+  "totals": {
+    "processed_count": 961,
+    "already_in_target_count": 0,
+    "attempted_invite_count": 110,
+    "invited_without_immediate_failure_count": 30,
+    "verified_added_count": 4,
+    "still_not_in_target_from_this_chunk_count": 957,
+    "not_attempted_due_to_stop_count": 851,
+    "stop_triggered_ranges": 3,
+    "failed_by_code": {
+      "action_failed": 80
+    }
+  },
+  "merged_still_missing_unique_count": 957,
+  "merged_still_missing_file": "data/still_missing_sovetskoe_round2_merged_20260316_150557.txt",
+  "per_range": [
+    {
+      "result_file": "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_1_400_20260316120354_result.json",
+      "range_human": "1-400",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 70,
+      "invited_without_immediate_failure_count": 30,
+      "verified_added_count": 4,
+      "still_not_in_target_from_this_chunk_count": 396,
+      "not_attempted_due_to_stop_count": 330,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 70,
+        "remaining_count": 330,
+        "last_user_id": 16497655
+      },
+      "failed_by_code": {
+        "action_failed": 40
+      },
+      "before_participants_count": 2531,
+      "after_participants_count": 2534
+    },
+    {
+      "result_file": "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_401_800_20260316120436_result.json",
+      "range_human": "401-800",
+      "processed_count": 400,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 20,
+      "invited_without_immediate_failure_count": 0,
+      "verified_added_count": 0,
+      "still_not_in_target_from_this_chunk_count": 400,
+      "not_attempted_due_to_stop_count": 380,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 380,
+        "last_user_id": 75764815
+      },
+      "failed_by_code": {
+        "action_failed": 20
+      },
+      "before_participants_count": 2534,
+      "after_participants_count": 2534
+    },
+    {
+      "result_file": "data/add_still_missing_sovetskoe_round1_merged_20260316_150134_to_71974962891302_801_961_20260316120452_result.json",
+      "range_human": "801-961",
+      "processed_count": 161,
+      "already_in_target_count": 0,
+      "attempted_invite_count": 20,
+      "invited_without_immediate_failure_count": 0,
+      "verified_added_count": 0,
+      "still_not_in_target_from_this_chunk_count": 161,
+      "not_attempted_due_to_stop_count": 141,
+      "stop_triggered": {
+        "reason": "consecutive_action_failed_limit",
+        "limit": 2,
+        "current_streak": 2,
+        "attempted_count": 20,
+        "remaining_count": 141,
+        "last_user_id": 98164570
+      },
+      "failed_by_code": {
+        "action_failed": 20
+      },
+      "before_participants_count": 2533,
+      "after_participants_count": 2533
+    }
+  ]
+}

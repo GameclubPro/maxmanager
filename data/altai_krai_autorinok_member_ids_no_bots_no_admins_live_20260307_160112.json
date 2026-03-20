@@ -1,0 +1,30 @@
+{
+  "city": "Алтайский край",
+  "category": "авторынок",
+  "generated_at": "2026-03-07T13:01:13.751Z",
+  "matched_chats_count": 1,
+  "source_chats": [
+    {
+      "chat_id": -71539997208039,
+      "title": "АвтоМотоВело(фото) | Мамонтовский",
+      "participants_count": 360
+    }
+  ],
+  "processed_chats": 1,
+  "failed_chats_count": 0,
+  "unique_ids_count": 443,
+  "per_chat": [
+    {
+      "chat_id": -71539997208039,
+      "title": "АвтоМотоВело(фото) | Мамонтовский",
+      "participants_count": 360,
+      "pages": 5,
+      "members_seen": 453,
+      "members_kept_non_bot_non_admin_non_owner": 443,
+      "unique_new_from_chat": 443
+    }
+  ],
+  "failed_chats": [],
+  "result_file_txt": "data/altai_krai_autorinok_member_ids_no_bots_no_admins_live_20260307_160112.txt",
+  "result_file_chats": "data/altai_krai_autorinok_chats_live_20260307_160112.json"
+}

@@ -1,0 +1,12 @@
+checked_at: 2026-03-07T14:13:15.822Z
+bot_user_id: 207300808
+bot_username: id613000010769_bot
+total_chats_seen: 281
+pages: 3
+matched_count: 3
+active_matched_count: 3
+bot_admin_or_owner_count: 1
+
+-71336283338218	active	1540	admin	Родионовка Объявления | Новости	https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU
+-68847603122402	active	726	member	БАРАХОЛКА НЕСВЕТАЯ	https://max.ru/join/kgm19cOy3mg9T-2jhUanACEHJwI_TjuYTgj10njewwo
+-68093793768848	active	305	member	Барахолка Несветай	https://max.ru/join/Xtx8WV1O7E6PUjO5mwbUREiCErFc8cgPvgYg1L_NgBg

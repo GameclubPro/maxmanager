@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-02T14:41:12.742Z",
+  "city": "novorossiysk",
+  "source_chats_count": 3,
+  "processed_chats_count": 3,
+  "failed_chats_count": 0,
+  "unique_ids_count": 1697,
+  "per_chat": [
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "pages": 16,
+      "members_fetched": 1566,
+      "kept_non_bot_non_admin": 1558,
+      "skipped_bots": 4,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70142481943240,
+      "title": "💯✔️Новороссийск Купи Продай | БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 17,
+      "members_fetched": 1658,
+      "kept_non_bot_non_admin": 1647,
+      "skipped_bots": 8,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71144372019249,
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "pages": 1,
+      "members_fetched": 21,
+      "kept_non_bot_non_admin": 19,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/novorossiysk.txt"
+}

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-02T14:57:23.794Z",
+  "source_file": "data/cities_from_chats/krasnodar.txt",
+  "target_chat": {
+    "chat_id": -69067549505002,
+    "title": "Краснодар Объявления | Новости",
+    "members_total": 4296,
+    "pages_fetched": 43
+  },
+  "file_rows_before": 5200,
+  "file_rows_after": 3564,
+  "removed_because_in_target_chat": 1636
+}

@@ -1,0 +1,348 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-13T22:24:58.214Z",
+  "target_chat_id": -71955838830599,
+  "target_chat_title": "Семикаракорск Объявления | Новости",
+  "source_file_initial": "data/semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358.txt",
+  "first_pass": {
+    "source_file": "data/semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358.txt",
+    "before_participants_count": 8,
+    "after_participants_count": 3470,
+    "combined_still_missing_count": 1329,
+    "combined_still_missing_file": "data/still_missing_semikarakorsk_first_pass_20260314_003358.txt",
+    "failed_by_code": {
+      "unknown_error": 40,
+      "action_failed": 16
+    },
+    "failed_by_status": {
+      "200": 16,
+      "null": 40
+    },
+    "batches_completed": 12,
+    "total_processed_count": 4796,
+    "total_attempted_invite_count": 4796,
+    "total_invited_without_immediate_failure_count": 4740,
+    "total_verified_added_count": 3467,
+    "total_still_missing_count": 1329,
+    "total_not_attempted_due_to_stop_count": 0,
+    "result_files": [
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1_400_20260313213746_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_401_800_20260313214124_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_801_1200_20260313214518_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1201_1600_20260313214904_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1601_2000_20260313215240_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2001_2400_20260313215620_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2401_2800_20260313220000_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2801_3200_20260313220337_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3201_3600_20260313220716_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3601_4000_20260313221057_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4001_4400_20260313221438_result.json",
+      "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4401_4796_20260313221817_result.json"
+    ],
+    "still_missing_files": [
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1_400_20260313213746.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_401_800_20260313214124.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_801_1200_20260313214518.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1201_1600_20260313214904.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1601_2000_20260313215240.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2001_2400_20260313215620.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2401_2800_20260313220000.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2801_3200_20260313220337.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3201_3600_20260313220716.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3601_4000_20260313221057.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4001_4400_20260313221438.txt",
+      "data/still_missing_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4401_4796_20260313221817.txt"
+    ],
+    "per_batch": [
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1_400_20260313213746_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 280,
+        "still_not_in_target_from_this_chunk_count": 120,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 8,
+        "after_participants_count": 288,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_401_800_20260313214124_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 380,
+        "verified_added_count": 266,
+        "still_not_in_target_from_this_chunk_count": 134,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 288,
+        "after_participants_count": 553,
+        "stop_triggered": null,
+        "failed_by_code": {
+          "unknown_error": 20
+        }
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_801_1200_20260313214518_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 390,
+        "verified_added_count": 307,
+        "still_not_in_target_from_this_chunk_count": 93,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 553,
+        "after_participants_count": 860,
+        "stop_triggered": null,
+        "failed_by_code": {
+          "unknown_error": 10
+        }
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1201_1600_20260313214904_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 307,
+        "still_not_in_target_from_this_chunk_count": 93,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 860,
+        "after_participants_count": 1166,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_1601_2000_20260313215240_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 390,
+        "verified_added_count": 335,
+        "still_not_in_target_from_this_chunk_count": 65,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 1166,
+        "after_participants_count": 1501,
+        "stop_triggered": null,
+        "failed_by_code": {
+          "unknown_error": 10
+        }
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2001_2400_20260313215620_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 310,
+        "still_not_in_target_from_this_chunk_count": 90,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 1501,
+        "after_participants_count": 1811,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2401_2800_20260313220000_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 318,
+        "still_not_in_target_from_this_chunk_count": 82,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 1811,
+        "after_participants_count": 2128,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_2801_3200_20260313220337_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 305,
+        "still_not_in_target_from_this_chunk_count": 95,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 2128,
+        "after_participants_count": 2433,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3201_3600_20260313220716_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 326,
+        "still_not_in_target_from_this_chunk_count": 74,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 2433,
+        "after_participants_count": 2759,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_3601_4000_20260313221057_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 319,
+        "still_not_in_target_from_this_chunk_count": 81,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 2759,
+        "after_participants_count": 3076,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4001_4400_20260313221438_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 400,
+        "invited_without_immediate_failure_count": 400,
+        "verified_added_count": 268,
+        "still_not_in_target_from_this_chunk_count": 132,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 3076,
+        "after_participants_count": 3344,
+        "stop_triggered": null,
+        "failed_by_code": {}
+      },
+      {
+        "result_file": "data/add_semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_003358_to_71955838830599_4401_4796_20260313221817_result.json",
+        "processed_count": 396,
+        "attempted_invite_count": 396,
+        "invited_without_immediate_failure_count": 380,
+        "verified_added_count": 126,
+        "still_not_in_target_from_this_chunk_count": 270,
+        "not_attempted_due_to_stop_count": 0,
+        "before_participants_count": 3344,
+        "after_participants_count": 3470,
+        "stop_triggered": null,
+        "failed_by_code": {
+          "action_failed": 16
+        }
+      }
+    ]
+  },
+  "retry_wave": {
+    "source_file": "data/still_missing_semikarakorsk_first_pass_20260314_003358.txt",
+    "before_participants_count": 3470,
+    "after_participants_count": 3470,
+    "combined_still_missing_count": 1329,
+    "combined_still_missing_file": "data/still_missing_semikarakorsk_after_retry_20260314_003358.txt",
+    "failed_by_code": {
+      "action_failed": 80
+    },
+    "failed_by_status": {
+      "200": 80
+    },
+    "batches_completed": 4,
+    "total_processed_count": 1329,
+    "total_attempted_invite_count": 80,
+    "total_invited_without_immediate_failure_count": 0,
+    "total_verified_added_count": 0,
+    "total_still_missing_count": 1329,
+    "total_not_attempted_due_to_stop_count": 1249,
+    "result_files": [
+      "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1_400_20260313222312_result.json",
+      "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_401_800_20260313222330_result.json",
+      "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_801_1200_20260313222347_result.json",
+      "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1201_1329_20260313222404_result.json"
+    ],
+    "still_missing_files": [
+      "data/still_missing_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1_400_20260313222312.txt",
+      "data/still_missing_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_401_800_20260313222330.txt",
+      "data/still_missing_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_801_1200_20260313222347.txt",
+      "data/still_missing_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1201_1329_20260313222404.txt"
+    ],
+    "per_batch": [
+      {
+        "result_file": "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1_400_20260313222312_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 20,
+        "invited_without_immediate_failure_count": 0,
+        "verified_added_count": 0,
+        "still_not_in_target_from_this_chunk_count": 400,
+        "not_attempted_due_to_stop_count": 380,
+        "before_participants_count": 3470,
+        "after_participants_count": 3470,
+        "stop_triggered": {
+          "reason": "consecutive_action_failed_limit",
+          "limit": 2,
+          "current_streak": 2,
+          "attempted_count": 20,
+          "remaining_count": 380,
+          "last_user_id": 5596698
+        },
+        "failed_by_code": {
+          "action_failed": 20
+        }
+      },
+      {
+        "result_file": "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_401_800_20260313222330_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 20,
+        "invited_without_immediate_failure_count": 0,
+        "verified_added_count": 0,
+        "still_not_in_target_from_this_chunk_count": 400,
+        "not_attempted_due_to_stop_count": 380,
+        "before_participants_count": 3470,
+        "after_participants_count": 3470,
+        "stop_triggered": {
+          "reason": "consecutive_action_failed_limit",
+          "limit": 2,
+          "current_streak": 2,
+          "attempted_count": 20,
+          "remaining_count": 380,
+          "last_user_id": 43270246
+        },
+        "failed_by_code": {
+          "action_failed": 20
+        }
+      },
+      {
+        "result_file": "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_801_1200_20260313222347_result.json",
+        "processed_count": 400,
+        "attempted_invite_count": 20,
+        "invited_without_immediate_failure_count": 0,
+        "verified_added_count": 0,
+        "still_not_in_target_from_this_chunk_count": 400,
+        "not_attempted_due_to_stop_count": 380,
+        "before_participants_count": 3470,
+        "after_participants_count": 3470,
+        "stop_triggered": {
+          "reason": "consecutive_action_failed_limit",
+          "limit": 2,
+          "current_streak": 2,
+          "attempted_count": 20,
+          "remaining_count": 380,
+          "last_user_id": 112895954
+        },
+        "failed_by_code": {
+          "action_failed": 20
+        }
+      },
+      {
+        "result_file": "data/add_still_missing_semikarakorsk_first_pass_20260314_003358_to_71955838830599_1201_1329_20260313222404_result.json",
+        "processed_count": 129,
+        "attempted_invite_count": 20,
+        "invited_without_immediate_failure_count": 0,
+        "verified_added_count": 0,
+        "still_not_in_target_from_this_chunk_count": 129,
+        "not_attempted_due_to_stop_count": 109,
+        "before_participants_count": 3470,
+        "after_participants_count": 3470,
+        "stop_triggered": {
+          "reason": "consecutive_action_failed_limit",
+          "limit": 2,
+          "current_streak": 2,
+          "attempted_count": 20,
+          "remaining_count": 109,
+          "last_user_id": 202987572
+        },
+        "failed_by_code": {
+          "action_failed": 20
+        }
+      }
+    ]
+  },
+  "final_target_participants_count": 3470,
+  "final_still_missing_count": 1329,
+  "final_still_missing_file": "data/still_missing_semikarakorsk_after_retry_20260314_003358.txt"
+}

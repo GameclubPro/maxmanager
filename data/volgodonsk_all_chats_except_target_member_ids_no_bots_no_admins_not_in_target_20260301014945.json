@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-02-28T22:49:45.167Z",
+  "target_chat": {
+    "chat_id": -71525320394759,
+    "title": "Волгодонск Объявления | Объявления",
+    "participants_count": 4,
+    "status": "active",
+    "type": "chat"
+  },
+  "source_report_file": "data/volgodonsk_tsimlyansk_chats_check_live_20260301_014725.json",
+  "source_chats_count_requested": 3,
+  "source_chat_ids_requested": [
+    -70026839458039,
+    -69296973264293,
+    -70392682673501
+  ],
+  "filters": {
+    "city_match_regex": "/(волгодонск|цимлянск)/iu",
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_users_already_in_target": true,
+    "exclude_target_chat_from_source": true
+  },
+  "stats": {
+    "processed_chats": 3,
+    "failed_chats": 0,
+    "target_members_snapshot_count": 4,
+    "unique_ids_final": 1565,
+    "unique_admin_ids_seen": 5,
+    "unique_bot_ids_seen": 3
+  },
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "participants_count": 354,
+      "members_fetched": 354,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 349,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 3,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 1
+    },
+    {
+      "chat_id": -69296973264293,
+      "title": "❗️🐟СВЕЖАЯ ЦИМЛЯНСКАЯ РЫБКА 🐡ДОСТАВКА❗️",
+      "participants_count": 1106,
+      "members_fetched": 1106,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 1101,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 1,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "participants_count": 123,
+      "members_fetched": 123,
+      "admins_fetched_explicit": 0,
+      "admins_endpoint_restricted": true,
+      "kept_non_bot_non_admin_not_in_target": 117,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 2,
+      "skipped_invalid": 0,
+      "skipped_admins_by_member_flags": 2
+    }
+  ],
+  "result_file_txt": "data/volgodonsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_20260301014945.txt"
+}

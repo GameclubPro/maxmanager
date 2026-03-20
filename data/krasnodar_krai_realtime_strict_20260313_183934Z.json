@@ -1,0 +1,1321 @@
+{
+  "summary": {
+    "checked_at": "2026-03-13T18:39:34.907Z",
+    "total_bot_chats_live": 559,
+    "krasnodar_related_live_count": 83,
+    "known_selected_live_count": 20,
+    "realtime_keyword_live_count": 83,
+    "with_add_remove_members": 2,
+    "with_read_all_messages": 0,
+    "with_can_call": 2,
+    "membership_errors": 0,
+    "by_tag": {
+      "krasnodar": 23,
+      "kuban": 14,
+      "krasnodar_krai": 12,
+      "belorechensk": 7,
+      "armavir": 6,
+      "eysk": 6,
+      "sochi": 5,
+      "labinsk": 5,
+      "novorossiysk": 4,
+      "novokubansk": 3,
+      "anapa": 3,
+      "krymsk": 2,
+      "slavyansk_na_kubani": 2,
+      "ust_labinsk": 2,
+      "prikubansky": 2,
+      "gelendzhik": 2,
+      "timashevsk": 2,
+      "scherbinovsky": 1,
+      "kurganinsk": 1,
+      "kropotkin": 1,
+      "kanevskaya": 1,
+      "dinskoy": 1,
+      "tikhoretsk": 1,
+      "goryachiy_kluch": 1,
+      "temryuk": 1,
+      "tuapse": 1
+    }
+  },
+  "rows": [
+    {
+      "chat_id": -69673344390484,
+      "title": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ И РЕКЛАМ «АРМАВИР+100км»",
+      "status": "active",
+      "participants_count": 12313,
+      "messages_count": 35913,
+      "known_selected": false,
+      "matched_tags": [
+        "armavir"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71207247847485,
+      "title": "Подслушано - чат и знакомства ❤️",
+      "status": "active",
+      "participants_count": 8304,
+      "messages_count": 44189,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "status": "active",
+      "participants_count": 5979,
+      "messages_count": 7894,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [
+        "add_remove_members",
+        "can_call"
+      ],
+      "has_add_remove_members": true,
+      "has_read_all_messages": false,
+      "has_can_call": true
+    },
+    {
+      "chat_id": -70142531685064,
+      "title": "💯✔️💯 Купи Продай Вся Кубань / Барахолка Кубани",
+      "status": "active",
+      "participants_count": 5666,
+      "messages_count": 13783,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70574561315528,
+      "title": "💯✔️💯КУБАНЬ  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "status": "active",
+      "participants_count": 5101,
+      "messages_count": 1620,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69263233818655,
+      "title": "💬НАШ ❤️ СОЧИ - АДЛЕР",
+      "status": "active",
+      "participants_count": 3215,
+      "messages_count": 170,
+      "known_selected": false,
+      "matched_tags": [
+        "sochi"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68223560354342,
+      "title": "АРМАВИР/НОВОКУБАНСК",
+      "status": "active",
+      "participants_count": 3122,
+      "messages_count": 16321,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban",
+        "armavir",
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан чат| Рекомендации Сочи |🌴",
+      "status": "active",
+      "participants_count": 3013,
+      "messages_count": 10399,
+      "known_selected": false,
+      "matched_tags": [
+        "sochi"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71765135362055,
+      "title": "НЕДВИЖИМОСТЬ | Сочи",
+      "status": "active",
+      "participants_count": 2729,
+      "messages_count": 67,
+      "known_selected": false,
+      "matched_tags": [
+        "sochi"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71479873256136,
+      "title": "💯✔️💯ЛАБИНСК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "status": "active",
+      "participants_count": 1910,
+      "messages_count": 910,
+      "known_selected": false,
+      "matched_tags": [
+        "labinsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68891656792692,
+      "title": "Дачники Кубани",
+      "status": "active",
+      "participants_count": 1494,
+      "messages_count": 17524,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69167097140543,
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "status": "active",
+      "participants_count": 1447,
+      "messages_count": 16958,
+      "known_selected": true,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71692807322312,
+      "title": "💯✔️💯КРЫМСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "status": "active",
+      "participants_count": 1421,
+      "messages_count": 765,
+      "known_selected": false,
+      "matched_tags": [
+        "krymsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "status": "active",
+      "participants_count": 1348,
+      "messages_count": 12609,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "status": "active",
+      "participants_count": 1258,
+      "messages_count": 7787,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68907463357729,
+      "title": "Бесплатная Барахолка Староминская Старощербиновская 123",
+      "status": "active",
+      "participants_count": 1202,
+      "messages_count": 12988,
+      "known_selected": false,
+      "matched_tags": [
+        "scherbinovsky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71676689567889,
+      "title": "Объявления Ейск",
+      "status": "active",
+      "participants_count": 1199,
+      "messages_count": 603,
+      "known_selected": false,
+      "matched_tags": [
+        "eysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "status": "active",
+      "participants_count": 1171,
+      "messages_count": 8810,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68847122183661,
+      "title": "Курганинск, Лабинск Объявления работа услуги бесплатно ☘️",
+      "status": "active",
+      "participants_count": 1138,
+      "messages_count": 9638,
+      "known_selected": false,
+      "matched_tags": [
+        "labinsk",
+        "kurganinsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71826646159505,
+      "title": "Объявления Сочи",
+      "status": "active",
+      "participants_count": 1074,
+      "messages_count": 36,
+      "known_selected": false,
+      "matched_tags": [
+        "sochi"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "status": "active",
+      "participants_count": 1071,
+      "messages_count": 10506,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69167372064063,
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "status": "active",
+      "participants_count": 1061,
+      "messages_count": 11990,
+      "known_selected": true,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69565348304329,
+      "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+      "status": "active",
+      "participants_count": 1038,
+      "messages_count": 6111,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban",
+        "slavyansk_na_kubani"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69715418609115,
+      "title": "Рынок Усть-лабинск",
+      "status": "active",
+      "participants_count": 1023,
+      "messages_count": 5086,
+      "known_selected": false,
+      "matched_tags": [
+        "labinsk",
+        "ust_labinsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68089472827498,
+      "title": "Объявления Краснодарский край ЧАСТНОЕ",
+      "status": "active",
+      "participants_count": 925,
+      "messages_count": 6384,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68086289552724,
+      "title": "✅✅✅Купи&Продай Краснодарский край",
+      "status": "active",
+      "participants_count": 850,
+      "messages_count": 9315,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69525922895314,
+      "title": "ГОРОД 23 | ЕЙСК",
+      "status": "active",
+      "participants_count": 819,
+      "messages_count": 5292,
+      "known_selected": false,
+      "matched_tags": [
+        "eysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 767,
+      "messages_count": 2902,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69167327565119,
+      "title": "☘️КУБАНЬ ВСЕ ДЛЯ ВСЕХ ☘️❤",
+      "status": "active",
+      "participants_count": 762,
+      "messages_count": 7356,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69167280772415,
+      "title": "КУБАНЬ ЛУЧШИЙ  РЫНОК",
+      "status": "active",
+      "participants_count": 710,
+      "messages_count": 7998,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68848831728337,
+      "title": "Белореченк Заречный южный родники",
+      "status": "active",
+      "participants_count": 700,
+      "messages_count": 6094,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодар и край ДОСКА ОБЬЯВЛЕНИЙ",
+      "status": "active",
+      "participants_count": 650,
+      "messages_count": 2381,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "status": "active",
+      "participants_count": 638,
+      "messages_count": 4858,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "status": "active",
+      "participants_count": 587,
+      "messages_count": 5428,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "kuban",
+        "prikubansky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70290884116553,
+      "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+      "status": "active",
+      "participants_count": 572,
+      "messages_count": 2489,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68829265182787,
+      "title": "Советская_Армавир",
+      "status": "active",
+      "participants_count": 524,
+      "messages_count": 1934,
+      "known_selected": false,
+      "matched_tags": [
+        "armavir"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69253211095251,
+      "title": "*АЛЕЙСКОЕ ОБОЗРЕНИЕ* Доска бесплатных объявлений",
+      "status": "active",
+      "participants_count": 514,
+      "messages_count": 3416,
+      "known_selected": false,
+      "matched_tags": [
+        "eysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68088151228522,
+      "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+      "status": "active",
+      "participants_count": 513,
+      "messages_count": 5761,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69512589666935,
+      "title": "🍓Пос.Заречный Белореченский район🔥",
+      "status": "active",
+      "participants_count": 500,
+      "messages_count": 3704,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71771644921863,
+      "title": "Кропоткин Объявления | Новости",
+      "status": "active",
+      "participants_count": 499,
+      "messages_count": 238,
+      "known_selected": false,
+      "matched_tags": [
+        "kropotkin"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68087823876196,
+      "title": "\"АВИТО МАЙКОП АДЫГЕЯ КРАСНОДАРСКИЙ КРАЙ\"",
+      "status": "active",
+      "participants_count": 495,
+      "messages_count": 3156,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70124403985105,
+      "title": "Купи продай Белореченский район",
+      "status": "active",
+      "participants_count": 495,
+      "messages_count": 3385,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70138734873297,
+      "title": "Строительство Белореченск майкоп",
+      "status": "active",
+      "participants_count": 478,
+      "messages_count": 1822,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70219090392413,
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "status": "active",
+      "participants_count": 476,
+      "messages_count": 2750,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69802721225380,
+      "title": "Строительство ремонт Геленджик",
+      "status": "active",
+      "participants_count": 474,
+      "messages_count": 871,
+      "known_selected": false,
+      "matched_tags": [
+        "gelendzhik"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69668861596994,
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "status": "active",
+      "participants_count": 471,
+      "messages_count": 2356,
+      "known_selected": true,
+      "matched_tags": [
+        "eysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68934856949866,
+      "title": "🟠🟠🟠Белореченский район БАРАХОЛОЧКА",
+      "status": "active",
+      "participants_count": 430,
+      "messages_count": 2256,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68829228220483,
+      "title": "Юла_Советская_Армавир",
+      "status": "active",
+      "participants_count": 419,
+      "messages_count": 1882,
+      "known_selected": false,
+      "matched_tags": [
+        "armavir"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68087937414568,
+      "title": "🌟🌟🌟Краснодарский Край: ОБЪЯВЛЕНИЯ и ВЗАИМНЫЕ ссылки",
+      "status": "active",
+      "participants_count": 396,
+      "messages_count": 11756,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai",
+        "anapa"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71391335011794,
+      "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+      "status": "active",
+      "participants_count": 387,
+      "messages_count": 473,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69214609096810,
+      "title": "Реклама Краснодар. Частное.",
+      "status": "active",
+      "participants_count": 381,
+      "messages_count": 2593,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68296062066833,
+      "title": "Алейский район объявления",
+      "status": "active",
+      "participants_count": 372,
+      "messages_count": 1632,
+      "known_selected": false,
+      "matched_tags": [
+        "eysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "status": "active",
+      "participants_count": 367,
+      "messages_count": 1975,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "status": "active",
+      "participants_count": 352,
+      "messages_count": 867,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880883873123,
+      "title": "🔥🔥АРМАВИР ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 335,
+      "messages_count": 2472,
+      "known_selected": false,
+      "matched_tags": [
+        "armavir"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "status": "active",
+      "participants_count": 331,
+      "messages_count": 145,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban",
+        "armavir",
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69653199481469,
+      "title": "📡КОПЕЙКА🪙₽ПОКУПАЕМ ПРОДАЕМ₽КАНЕВСКОЙ РАЙОН",
+      "status": "active",
+      "participants_count": 314,
+      "messages_count": 1767,
+      "known_selected": false,
+      "matched_tags": [
+        "kanevskaya"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68879815177571,
+      "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 302,
+      "messages_count": 2261,
+      "known_selected": false,
+      "matched_tags": [
+        "labinsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70847853010993,
+      "title": "Барахолочка Анапа",
+      "status": "active",
+      "participants_count": 282,
+      "messages_count": 1179,
+      "known_selected": true,
+      "matched_tags": [
+        "anapa"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69792544669802,
+      "title": "🟠🟠🟠ДИНСКОЙ РАЙОН БАРАХОЛОЧКА",
+      "status": "active",
+      "participants_count": 263,
+      "messages_count": 2225,
+      "known_selected": false,
+      "matched_tags": [
+        "dinskoy"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69311486550191,
+      "title": "4️⃣📣 Прикубанка авито",
+      "status": "active",
+      "participants_count": 259,
+      "messages_count": 2164,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban",
+        "prikubansky"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70117513166933,
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "status": "active",
+      "participants_count": 252,
+      "messages_count": 881,
+      "known_selected": true,
+      "matched_tags": [
+        "eysk",
+        "slavyansk_na_kubani"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70623036145896,
+      "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+      "status": "active",
+      "participants_count": 228,
+      "messages_count": 702,
+      "known_selected": true,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880889312611,
+      "title": "🔥🔥БЕЛОРЕЧЕНСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 227,
+      "messages_count": 1717,
+      "known_selected": false,
+      "matched_tags": [
+        "belorechensk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881445451107,
+      "title": "🔥🔥УСТЬ-ЛАБИНСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 221,
+      "messages_count": 1988,
+      "known_selected": false,
+      "matched_tags": [
+        "labinsk",
+        "ust_labinsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71415547221458,
+      "title": "ГОРОД 23 | НОВОРОССИЙСК",
+      "status": "active",
+      "participants_count": 200,
+      "messages_count": 361,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881430771043,
+      "title": "🔥🔥ТИМАШЕВСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 195,
+      "messages_count": 1417,
+      "known_selected": false,
+      "matched_tags": [
+        "timashevsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881434441059,
+      "title": "🔥🔥ТИХОРЕЦК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 188,
+      "messages_count": 1565,
+      "known_selected": false,
+      "matched_tags": [
+        "tikhoretsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880950916451,
+      "title": "🔥🔥ГОРЯЧИЙ КЛЮЧ ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 187,
+      "messages_count": 1104,
+      "known_selected": false,
+      "matched_tags": [
+        "goryachiy_kluch"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68880944231779,
+      "title": "🔥🔥ГЕЛЕНДЖИК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 186,
+      "messages_count": 1105,
+      "known_selected": false,
+      "matched_tags": [
+        "gelendzhik"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71391301457362,
+      "title": "ГОРОД 23 | СОЧИ",
+      "status": "active",
+      "participants_count": 184,
+      "messages_count": 302,
+      "known_selected": false,
+      "matched_tags": [
+        "sochi"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881389155683,
+      "title": "🔥🔥НОВОРОССИЙСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 167,
+      "messages_count": 922,
+      "known_selected": false,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881384502627,
+      "title": "🔥🔥НОВОКУБАНСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 157,
+      "messages_count": 1203,
+      "known_selected": false,
+      "matched_tags": [
+        "kuban",
+        "novokubansk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70847951773745,
+      "title": "Доска объявлений Анапа",
+      "status": "active",
+      "participants_count": 156,
+      "messages_count": 801,
+      "known_selected": false,
+      "matched_tags": [
+        "anapa"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881342690659,
+      "title": "🔥🔥КРЫМСК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 152,
+      "messages_count": 816,
+      "known_selected": false,
+      "matched_tags": [
+        "krymsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -69535701813777,
+      "title": "⚡2 Краснодарский край  ‼️ объявления  ‼️",
+      "status": "active",
+      "participants_count": 143,
+      "messages_count": 567,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881416942947,
+      "title": "🔥🔥ТЕМРЮК ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 135,
+      "messages_count": 827,
+      "known_selected": false,
+      "matched_tags": [
+        "temryuk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71357769162801,
+      "title": "Ярмарка кубани",
+      "status": "active",
+      "participants_count": 134,
+      "messages_count": 865,
+      "known_selected": true,
+      "matched_tags": [
+        "kuban"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71473051428192,
+      "title": "БАРАХОЛКА КРАЯ",
+      "status": "active",
+      "participants_count": 132,
+      "messages_count": 300,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -68881482872163,
+      "title": "🔥🔥ТУАПСЕ ОБЪЯВЛЕНИЯ",
+      "status": "active",
+      "participants_count": 128,
+      "messages_count": 798,
+      "known_selected": false,
+      "matched_tags": [
+        "tuapse"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -70455232645661,
+      "title": "Мой Тимашевск 23 регион",
+      "status": "active",
+      "participants_count": 103,
+      "messages_count": 69,
+      "known_selected": false,
+      "matched_tags": [
+        "timashevsk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71144372019249,
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "status": "active",
+      "participants_count": 47,
+      "messages_count": 132,
+      "known_selected": true,
+      "matched_tags": [
+        "novorossiysk"
+      ],
+      "permissions": [],
+      "has_add_remove_members": false,
+      "has_read_all_messages": false,
+      "has_can_call": false
+    },
+    {
+      "chat_id": -71952970123271,
+      "title": "Недвижимость | Краснодарский край",
+      "status": "active",
+      "participants_count": 8,
+      "messages_count": 0,
+      "known_selected": false,
+      "matched_tags": [
+        "krasnodar",
+        "krasnodar_krai"
+      ],
+      "permissions": [
+        "add_remove_members",
+        "change_chat_info",
+        "can_call"
+      ],
+      "has_add_remove_members": true,
+      "has_read_all_messages": false,
+      "has_can_call": true
+    }
+  ]
+}

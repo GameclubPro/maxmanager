@@ -1,0 +1,44 @@
+city=Алтай
+filter=/(алтай|altai|altay|алтайск|алтайский\s*край|горно[-\s]?алтайск)/iu on title|description|link
+total_chats_seen=277
+matched_city_chats_count=3
+
+1. Районы22: Новости и объявления
+   chat_id=-68766764627431 | type=chat | status=active | participants=7479
+   city_matched_fields=description
+   link=https://max.ru/join/avJsXZIc6_nrGrhUmj28dEm569JRM6okpqWyqDFeaUo
+   description=🫶Живете в Алтайском крае? Станьте ближе друг к другу!
+♻️Мы создали эту площадку, чтобы сблизить соседей
+💬Здесь можно общаться, продавать свои вещи,слушать музыку и делиться новостями.
+💯Нельзя:
+рекламировать сомнительные услуги гадания, рассылки, карты, займы и тп 
+📎Вступай в наши группы sibir2.ru/connect 
+💸Реклама sibir2.ru/lending
+🧲Ссылки только через админа
+
+2. Алтайский район | Объявления
+   chat_id=-70138755610087 | type=chat | status=active | participants=1243
+   city_matched_fields=title,description
+   link=https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w
+   description=📋 ПРАВИЛА ГРУППЫ: Алтайский район | Объявления
+🔗 Ссылка: https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+
+3. АЛТАЙСКОЕ | Новости и объявления
+   chat_id=-70138559329767 | type=chat | status=active | participants=1240
+   city_matched_fields=title,description
+   link=https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164
+   description=📋 ПРАВИЛА ГРУППЫ: АЛТАЙСКОЕ | Новости и объявления
+🔗 Ссылка: https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164
+Приветствуем!
+Обязательно:
+• Уважение к участникам
+• Соблюдение тематики
+• Привлечь внимание админа - пишите в группу !АДМИН
+• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!
+

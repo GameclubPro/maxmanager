@@ -1,0 +1,981 @@
+{
+  "generated_at": "2026-03-03T20:45:21.436Z",
+  "source_file": "data/cities_from_chats/krasnodar_krai_chats_selected_20260303.json",
+  "note": "Probe by getChatMembership + getMessages(count=100)",
+  "stats": {
+    "total_chats": 94,
+    "with_read_all_messages": 2,
+    "without_read_all_messages": 92,
+    "with_any_messages_100": 2,
+    "with_zero_messages_100": 92,
+    "get_messages_errors": 0,
+    "membership_errors": 4
+  },
+  "results": [
+    {
+      "chat_id": -71503740725915,
+      "title": "Всё всем Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71489737820167,
+      "title": "Ейск Объявления | Новости",
+      "source_city": "eysk",
+      "permissions": [
+        "can_call"
+      ],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71489685325831,
+      "title": "Анапа Объявление | Новости",
+      "source_city": "anapa",
+      "permissions": [
+        "change_chat_info",
+        "pin_message",
+        "write",
+        "add_admins",
+        "read_all_messages",
+        "can_call",
+        "edit_link",
+        "add_remove_members"
+      ],
+      "has_read_all_messages": true,
+      "messages_count_100": 43,
+      "sample_latest_mid": "mid.ffffbefb02b377f9019cb5496e486e64",
+      "sample_latest_ts": 1772568014408
+    },
+    {
+      "chat_id": -71472908166496,
+      "title": "БАРАХОЛКА КРАСНОДАР И ПРИГОРОД",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71472856393056,
+      "title": "Барахолка Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "source_city": "novorossiysk",
+      "permissions": [
+        "can_call"
+      ],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "source_city": "kuban",
+      "permissions": [
+        "can_call"
+      ],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71449952971431,
+      "title": "Барахолка Ейск",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71387750754881,
+      "title": "🧲АВТОРЫНОК /КУБАНЬ/",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71368101388433,
+      "title": "Объявления Краснодар и область",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71357769162801,
+      "title": "Ярмарка Кубани",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71180410175594,
+      "title": "🟠🟠🟠 КРАСНОДАРСКИЙ КРАЙ БАРАХОЛОЧКА",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71174884270129,
+      "title": "Недвижимость Краснодара",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71144372019249,
+      "title": "Новороссийск сниму, сдам, арендую жилье.",
+      "source_city": "novorossiysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71098790478056,
+      "title": "🇷🇺РАБОТА\"КРАСНОДАРСКИЙ КРАЙ\"",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71047477567537,
+      "title": "Ейск ,сниму ,сдам ,арендую жилье.",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71045173663186,
+      "title": "АНАПА Live | Работа • Вакансии",
+      "source_city": "anapa",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71045166650834,
+      "title": "АНАПА Live | Куплю • Продам",
+      "source_city": "anapa",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -71045154657746,
+      "title": "АНАПА Live | Новости • Общение",
+      "source_city": "anapa",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70884682094034,
+      "title": "ГОРОД 23 | КРАСНОДАР",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70869212809928,
+      "title": "💯✔️💬ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70847853010993,
+      "title": "Барахолочка Анапа",
+      "source_city": "anapa",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70758535785115,
+      "title": "Работа Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70718121110135,
+      "title": "☀️Краснодар Объявления",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70704271488349,
+      "title": "06/Анапа",
+      "source_city": "anapa",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70631557084569,
+      "title": "Доска Объявлений Краснодара и Краснодарского края",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70623036145896,
+      "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70566794081716,
+      "title": "Краснодар объявления",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70470873991928,
+      "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70251957253619,
+      "title": "🟡КРАСНОДАР🟡",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70222863491226,
+      "title": "🦉КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70219438716253,
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70219090392413,
+      "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70142481943240,
+      "title": "💯✔️Новороссийск Купи Продай | БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "source_city": "novorossiysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70126306413268,
+      "title": "🆑🛑БАРАХОЛКА 🛑 КРАСНОДАР🛑",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70117513166933,
+      "title": "Объявления Славянский и Красноармейский районы.",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -70087825875083,
+      "title": "ЕЙСК/НОВОСТИ/ОБЪЯВЛЕНИЯ",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69876047066548,
+      "title": "2. Объявления Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69682024117594,
+      "title": "Барахолка Краснодар 23",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69668861596994,
+      "title": "Дешевле всех Ейск, Старая,Новая",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69541859227108,
+      "title": "Ейская ярмарка",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69507303000794,
+      "title": "Реклама , Краснадар -Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69502081556637,
+      "title": "🦋🦋(4)КРАСНОДАР. Бесплатное размещение ваших объявлений📱",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69462975690164,
+      "title": "1. Объявления Краснодара",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69428622557416,
+      "title": "АВИТО. Краснодарский  край.",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69362989115966,
+      "title": "БАРАХОЛКА КРАСНОДАРСКОГО КРАЯ!!!",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69310347468975,
+      "title": "2️⃣📣 Российский Краснодар",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69270980889297,
+      "title": "❤️Краснодар ❤️ и соседи",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69240023558784,
+      "title": "5 ✔Краснодар барахолка",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69239817988733,
+      "title": "Ростовской шоссе(Краснодар)",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69167372064063,
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69167263667519,
+      "title": "☘️КУБАНЬ КУПИ, ПРОДАЙ ☘️❤",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69167097140543,
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69089338780315,
+      "title": "КРАСНОДАР. КУПИ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "source_city": "krasnodar",
+      "permissions": [
+        "can_call"
+      ],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68883132399692,
+      "title": "КРАСНОДАР И КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68881312937315,
+      "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68873495194228,
+      "title": "Краснодар Пригород Купи-продай",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68856764983945,
+      "title": "ПРОДАЙ ОБМЕНЯЙ КУПИ ОТДАЙ(Краснодарский край)",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68847757148269,
+      "title": "Ейск(Барахолка)",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68841807727334,
+      "title": "Барахолка Краснодар-И Рядом",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68841055952945,
+      "title": "Авито Щербиновский и Ейский район",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68840928616497,
+      "title": "*Реклама Ейск*",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68835995164676,
+      "title": "Доска объявлений Ейск",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68834970315332,
+      "title": "Барахолка Ейск , Щербиновий район",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68774665262585,
+      "title": "123. Рынок.Ейск и +300км . Объявления для всего и для всех.",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68556814142194,
+      "title": "Авито Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68531970343138,
+      "title": "Барахолка ✅Ейск и ейский район",
+      "source_city": "eysk",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68526337212525,
+      "title": "ЧАСТНЫЕ ДОМА г. КРАСНОДАР",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68312673026271,
+      "title": "РАБОТА и ВАКАНСИИ по Динскому району, р. Южный, Витамин, г . Краснодар",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68289681519968,
+      "title": "Рыбка даром Краснодар ❤️",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68172673335372,
+      "title": "Краснодар реклама",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68114329580833,
+      "title": "🧲(9)КРАСНОДАРСКИЙ КРАЙ",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68100394819585,
+      "title": "🌀10🌀🛍️БАРАХОЛКА🛍️ Краснодар и пригород",
+      "source_city": "krasnodar",
+      "membership_error": "chat.denied 403: Bot is not a chat member",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68100350713857,
+      "title": "🌀12🌀💥КУПИ/ПРОДАЙ💥 Краснодар и пригород",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68100097351681,
+      "title": "🌀1🌀♦️РАБОТА/УСЛУГИ♦️ Краснодар и пригород",
+      "source_city": "krasnodar",
+      "membership_error": "chat.denied 403: Bot is not a chat member",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68093914529898,
+      "title": "Отдам даром и обмен Краснодар",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "source_city": "eysk",
+      "permissions": [
+        "can_call",
+        "read_all_messages",
+        "write"
+      ],
+      "has_read_all_messages": true,
+      "messages_count_100": 71,
+      "sample_latest_mid": "mid.ffffc2123422557a019cb5442d076d81",
+      "sample_latest_ts": 1772567670023
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68089749776976,
+      "title": "꧁✰КРАСНОДАР ОБЪЯВЛЕНИЯ✰꧂",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "source_city": "krasnodar,kuban",
+      "membership_error": "chat.denied 403: Bot is not a chat member",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68088873631850,
+      "title": "🟠🟠🟠Горхутор Краснодар п. Северный Баскетхол",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68086289552724,
+      "title": "✅✅✅Купи&Продай Краснодарский край",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68085948104810,
+      "title": "Работа Краснодарский край",
+      "source_city": "krasnodar",
+      "membership_error": "chat.denied 403: Bot is not a chat member",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68081294633531,
+      "title": "1️⃣💖 ВСЕ ЧАСТНЫЕ ОБЪЯВЛЕНИЯ БЕСПЛАТНО КРАСНОДАР И КРАЙ💖",
+      "source_city": "krasnodar",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    },
+    {
+      "chat_id": -68081225258303,
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "source_city": "kuban",
+      "permissions": [],
+      "has_read_all_messages": false,
+      "messages_count_100": 0,
+      "sample_latest_mid": null,
+      "sample_latest_ts": null
+    }
+  ]
+}

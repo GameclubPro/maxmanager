@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-03-05T10:53:02.652Z",
+  "started_at": "2026-03-05T10:52:14.567Z",
+  "city": "Сочи",
+  "city_filter": "title|description|link contains /(сочи|sochi)/iu",
+  "target_chat_id": -71689972988013,
+  "target_chat_title": "Сочи Объявления | Новости",
+  "all_visible_chats_count": 523,
+  "all_visible_chats_pages": 6,
+  "city_chats_count": 5,
+  "city_chats": [
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан Сочи Чат",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 2879
+    },
+    {
+      "chat_id": -71689972988013,
+      "title": "Сочи Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 6
+    },
+    {
+      "chat_id": -68955564013043,
+      "title": "Афиша || Сочи 🇷🇺",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 10295
+    },
+    {
+      "chat_id": -71391301457362,
+      "title": "ГОРОД 23 | СОЧИ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 77
+    },
+    {
+      "chat_id": -68081178345722,
+      "title": "Сочи группа объявлений",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 364
+    }
+  ],
+  "source_chats_count_requested": 4,
+  "source_chats_processed": 4,
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "target_members_scanned_count": 6,
+  "target_members_pages": 1,
+  "result_ids_count": 11814,
+  "result_file_txt": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260305_105214.txt",
+  "source_chats_report": [
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан Сочи Чат",
+      "participants_count_hint": 2879,
+      "scanned_members_count": 2882,
+      "pagination_pages": 29,
+      "filtered_bots": 2,
+      "filtered_admins_or_owners": 3,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 2875,
+      "kept_unique_for_this_chat": 2875
+    },
+    {
+      "chat_id": -68955564013043,
+      "title": "Афиша || Сочи 🇷🇺",
+      "participants_count_hint": 10295,
+      "scanned_members_count": 10295,
+      "pagination_pages": 103,
+      "filtered_bots": 6,
+      "filtered_admins_or_owners": 3,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 10285,
+      "kept_unique_for_this_chat": 10285
+    },
+    {
+      "chat_id": -71391301457362,
+      "title": "ГОРОД 23 | СОЧИ",
+      "participants_count_hint": 77,
+      "scanned_members_count": 77,
+      "pagination_pages": 1,
+      "filtered_bots": 6,
+      "filtered_admins_or_owners": 1,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 68,
+      "kept_unique_for_this_chat": 68
+    },
+    {
+      "chat_id": -68081178345722,
+      "title": "Сочи группа объявлений",
+      "participants_count_hint": 364,
+      "scanned_members_count": 364,
+      "pagination_pages": 4,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 2,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 360,
+      "kept_unique_for_this_chat": 360
+    }
+  ]
+}

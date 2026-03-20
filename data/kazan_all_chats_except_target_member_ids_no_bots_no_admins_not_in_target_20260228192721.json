@@ -1,0 +1,302 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-28T19:27:21.977Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 289,
+  "city_filter": "title|description|link contains /(казан|kazan)/i",
+  "city_chats_count": 21,
+  "target_chat": {
+    "chat_id": -71456471431277,
+    "title": "Казань Объявления | Новости",
+    "participants_count": 1291,
+    "target_members_scanned": 1288
+  },
+  "source_chats_count": 20,
+  "source_chats": [
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "participants_count": 536
+    },
+    {
+      "chat_id": -69676614216239,
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "participants_count": 781
+    },
+    {
+      "chat_id": -69301439133036,
+      "title": "Барахолка Казань",
+      "participants_count": 113
+    },
+    {
+      "chat_id": -69283529547963,
+      "title": "24/7💸7️⃣КУПИ💰ПРОДАЙ💰Казань",
+      "participants_count": 346
+    },
+    {
+      "chat_id": -69285311602875,
+      "title": "24/7💸1️⃣1️⃣БАРАХОЛКА💰КАЗАНЬ",
+      "participants_count": 294
+    },
+    {
+      "chat_id": -69286625012271,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 724
+    },
+    {
+      "chat_id": -68872233527870,
+      "title": "Доска объявлений Казань Татарстан",
+      "participants_count": 408
+    },
+    {
+      "chat_id": -69286682356271,
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "participants_count": 734
+    },
+    {
+      "chat_id": -69286691990063,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 756
+    },
+    {
+      "chat_id": -71055055579695,
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "participants_count": 286
+    },
+    {
+      "chat_id": -70060640479806,
+      "title": "ТВОИ ОБЪЯВЛЕНИЯ, Зеленодольск, Волжск, Васильево, Казань",
+      "participants_count": 193
+    },
+    {
+      "chat_id": -69319071228091,
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "participants_count": 330
+    },
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "participants_count": 354
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "participants_count": 456
+    },
+    {
+      "chat_id": -71062865529556,
+      "title": "НЕДВИЖИМОСТЬ |РЕМОНТ",
+      "participants_count": 214
+    },
+    {
+      "chat_id": -68629434012934,
+      "title": "Работа: вакансии и подработка в Казани",
+      "participants_count": 138
+    },
+    {
+      "chat_id": -68091549624966,
+      "title": "🏡🌳 Ростовское шоссе дачи/ СНТ все км 🏘️🌳",
+      "participants_count": 317
+    },
+    {
+      "chat_id": -71407162559008,
+      "title": "Барахолка Казань✨",
+      "participants_count": 31
+    },
+    {
+      "chat_id": -69277076163323,
+      "title": "Казань. РТ",
+      "participants_count": 388
+    },
+    {
+      "chat_id": -69706588354008,
+      "title": "Работа Казань.",
+      "participants_count": 497
+    }
+  ],
+  "per_chat": [
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "participants_count": 536,
+      "members_scanned": 536,
+      "non_bots_non_admins": 533,
+      "after_excluding_target_members": 326,
+      "unique_new_from_chat": 326
+    },
+    {
+      "chat_id": -69676614216239,
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "participants_count": 781,
+      "members_scanned": 781,
+      "non_bots_non_admins": 777,
+      "after_excluding_target_members": 498,
+      "unique_new_from_chat": 421
+    },
+    {
+      "chat_id": -69301439133036,
+      "title": "Барахолка Казань",
+      "participants_count": 113,
+      "members_scanned": 113,
+      "non_bots_non_admins": 111,
+      "after_excluding_target_members": 72,
+      "unique_new_from_chat": 53
+    },
+    {
+      "chat_id": -69283529547963,
+      "title": "24/7💸7️⃣КУПИ💰ПРОДАЙ💰Казань",
+      "participants_count": 346,
+      "members_scanned": 346,
+      "non_bots_non_admins": 343,
+      "after_excluding_target_members": 228,
+      "unique_new_from_chat": 151
+    },
+    {
+      "chat_id": -69285311602875,
+      "title": "24/7💸1️⃣1️⃣БАРАХОЛКА💰КАЗАНЬ",
+      "participants_count": 294,
+      "members_scanned": 294,
+      "non_bots_non_admins": 291,
+      "after_excluding_target_members": 191,
+      "unique_new_from_chat": 78
+    },
+    {
+      "chat_id": -69286625012271,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 724,
+      "members_scanned": 724,
+      "non_bots_non_admins": 721,
+      "after_excluding_target_members": 414,
+      "unique_new_from_chat": 86
+    },
+    {
+      "chat_id": -68872233527870,
+      "title": "Доска объявлений Казань Татарстан",
+      "participants_count": 408,
+      "members_scanned": 408,
+      "non_bots_non_admins": 406,
+      "after_excluding_target_members": 177,
+      "unique_new_from_chat": 86
+    },
+    {
+      "chat_id": -69286682356271,
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "participants_count": 734,
+      "members_scanned": 734,
+      "non_bots_non_admins": 732,
+      "after_excluding_target_members": 430,
+      "unique_new_from_chat": 67
+    },
+    {
+      "chat_id": -69286691990063,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "participants_count": 756,
+      "members_scanned": 756,
+      "non_bots_non_admins": 753,
+      "after_excluding_target_members": 448,
+      "unique_new_from_chat": 60
+    },
+    {
+      "chat_id": -71055055579695,
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "participants_count": 286,
+      "members_scanned": 286,
+      "non_bots_non_admins": 283,
+      "after_excluding_target_members": 155,
+      "unique_new_from_chat": 29
+    },
+    {
+      "chat_id": -70060640479806,
+      "title": "ТВОИ ОБЪЯВЛЕНИЯ, Зеленодольск, Волжск, Васильево, Казань",
+      "participants_count": 193,
+      "members_scanned": 193,
+      "non_bots_non_admins": 191,
+      "after_excluding_target_members": 103,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -69319071228091,
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "participants_count": 330,
+      "members_scanned": 330,
+      "non_bots_non_admins": 327,
+      "after_excluding_target_members": 191,
+      "unique_new_from_chat": 59
+    },
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "participants_count": 354,
+      "members_scanned": 354,
+      "non_bots_non_admins": 352,
+      "after_excluding_target_members": 349,
+      "unique_new_from_chat": 347
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "participants_count": 456,
+      "members_scanned": 456,
+      "non_bots_non_admins": 453,
+      "after_excluding_target_members": 429,
+      "unique_new_from_chat": 382
+    },
+    {
+      "chat_id": -71062865529556,
+      "title": "НЕДВИЖИМОСТЬ |РЕМОНТ",
+      "participants_count": 214,
+      "members_scanned": 214,
+      "non_bots_non_admins": 210,
+      "after_excluding_target_members": 207,
+      "unique_new_from_chat": 199
+    },
+    {
+      "chat_id": -68629434012934,
+      "title": "Работа: вакансии и подработка в Казани",
+      "participants_count": 138,
+      "members_scanned": 138,
+      "non_bots_non_admins": 133,
+      "after_excluding_target_members": 63,
+      "unique_new_from_chat": 48
+    },
+    {
+      "chat_id": -68091549624966,
+      "title": "🏡🌳 Ростовское шоссе дачи/ СНТ все км 🏘️🌳",
+      "participants_count": 317,
+      "members_scanned": 317,
+      "non_bots_non_admins": 313,
+      "after_excluding_target_members": 313,
+      "unique_new_from_chat": 313
+    },
+    {
+      "chat_id": -71407162559008,
+      "title": "Барахолка Казань✨",
+      "participants_count": 31,
+      "members_scanned": 31,
+      "non_bots_non_admins": 28,
+      "after_excluding_target_members": 13,
+      "unique_new_from_chat": 6
+    },
+    {
+      "chat_id": -69277076163323,
+      "title": "Казань. РТ",
+      "participants_count": 388,
+      "members_scanned": 388,
+      "non_bots_non_admins": 384,
+      "after_excluding_target_members": 242,
+      "unique_new_from_chat": 96
+    },
+    {
+      "chat_id": -69706588354008,
+      "title": "Работа Казань.",
+      "participants_count": 497,
+      "members_scanned": 497,
+      "non_bots_non_admins": 495,
+      "after_excluding_target_members": 161,
+      "unique_new_from_chat": 85
+    }
+  ],
+  "unique_ids_count": 2910,
+  "result_file_txt": "data/kazan_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_20260228192721.txt"
+}

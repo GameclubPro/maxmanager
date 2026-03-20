@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-28T20:46:30.264Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 301,
+  "city_filter": "title|description|link contains /(краснодар|krasnodar|краснодарск)/i",
+  "city_chats_count": 13,
+  "target_chat": {
+    "chat_id": -69067549505002,
+    "title": "Краснодар Объявления | Новости",
+    "participants_count": 2830,
+    "target_members_scanned": 2830
+  },
+  "source_chats_count": 12,
+  "source_chats": [
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "participants_count": 753
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "participants_count": 1041
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "participants_count": 1273
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "participants_count": 94
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 994
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "participants_count": 473
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 634
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "participants_count": 483
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "participants_count": 780
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "participants_count": 239
+    },
+    {
+      "chat_id": -68091509516934,
+      "title": "🌸Женский клуб🌸",
+      "participants_count": 333
+    },
+    {
+      "chat_id": -68092439931526,
+      "title": "Я 💓 п. Южный 🏡",
+      "participants_count": 348
+    }
+  ],
+  "per_chat": [
+    {
+      "chat_id": -70212504234582,
+      "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+      "participants_count": 753,
+      "members_scanned": 753,
+      "non_bots_non_admins": 750,
+      "after_excluding_target_members": 513,
+      "unique_new_from_chat": 513
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "participants_count": 1041,
+      "members_scanned": 1041,
+      "non_bots_non_admins": 1039,
+      "after_excluding_target_members": 683,
+      "unique_new_from_chat": 517
+    },
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "participants_count": 1273,
+      "members_scanned": 1273,
+      "non_bots_non_admins": 1269,
+      "after_excluding_target_members": 777,
+      "unique_new_from_chat": 591
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "participants_count": 94,
+      "members_scanned": 94,
+      "non_bots_non_admins": 92,
+      "after_excluding_target_members": 86,
+      "unique_new_from_chat": 41
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 994,
+      "members_scanned": 994,
+      "non_bots_non_admins": 991,
+      "after_excluding_target_members": 781,
+      "unique_new_from_chat": 481
+    },
+    {
+      "chat_id": -68090640452119,
+      "title": "➰💚КРАСНОДАР💚➰",
+      "participants_count": 473,
+      "members_scanned": 473,
+      "non_bots_non_admins": 470,
+      "after_excluding_target_members": 318,
+      "unique_new_from_chat": 181
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодарский край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 634,
+      "members_scanned": 634,
+      "non_bots_non_admins": 631,
+      "after_excluding_target_members": 560,
+      "unique_new_from_chat": 510
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "participants_count": 483,
+      "members_scanned": 483,
+      "non_bots_non_admins": 481,
+      "after_excluding_target_members": 328,
+      "unique_new_from_chat": 172
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "participants_count": 780,
+      "members_scanned": 780,
+      "non_bots_non_admins": 773,
+      "after_excluding_target_members": 748,
+      "unique_new_from_chat": 714
+    },
+    {
+      "chat_id": -68091536845446,
+      "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+      "participants_count": 239,
+      "members_scanned": 239,
+      "non_bots_non_admins": 235,
+      "after_excluding_target_members": 225,
+      "unique_new_from_chat": 219
+    },
+    {
+      "chat_id": -68091509516934,
+      "title": "🌸Женский клуб🌸",
+      "participants_count": 333,
+      "members_scanned": 333,
+      "non_bots_non_admins": 329,
+      "after_excluding_target_members": 323,
+      "unique_new_from_chat": 315
+    },
+    {
+      "chat_id": -68092439931526,
+      "title": "Я 💓 п. Южный 🏡",
+      "participants_count": 348,
+      "members_scanned": 348,
+      "non_bots_non_admins": 345,
+      "after_excluding_target_members": 339,
+      "unique_new_from_chat": 266
+    }
+  ],
+  "unique_ids_count": 4520,
+  "result_file_txt": "data/krasnodar_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_20260228204630.txt"
+}

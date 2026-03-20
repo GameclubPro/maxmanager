@@ -1,0 +1,96 @@
+{
+  "checked_at": "2026-02-28T22:32:08.817Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 305,
+  "pages": 4,
+  "filter": "title|description|link contains /(анап|anapa)/i",
+  "matched_count": 7,
+  "active_matched_count": 7,
+  "chats": [
+    {
+      "chat_id": -70847853010993,
+      "title": "Барахолочка Анапа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 177,
+      "is_public": false,
+      "link": "https://max.ru/join/xgzAcX1aI8YsmAqHcj3SsHS6VPZtu79xKN02WN64jyE",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71489685325831,
+      "title": "Анапа Объявление | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 236,
+      "is_public": false,
+      "link": null,
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71045154657746,
+      "title": "АНАПА Live | Новости • Общение",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 46,
+      "is_public": false,
+      "link": "https://max.ru/join/OsUmIUSeKRSF9iM7A20v97YYAgpL5GyoYvw0ELRPZUk",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71045166650834,
+      "title": "АНАПА Live | Куплю • Продам",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 39,
+      "is_public": false,
+      "link": "https://max.ru/join/-bkdKwUqet8mZYvzIzNcqZ2HtpZ7yeX1wKVG7Of6PJ4",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70704271488349,
+      "title": "06/Анапа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 94,
+      "is_public": false,
+      "link": "https://max.ru/join/07OnQRfTPTLBsW5v5Ts5kBkQFG8KlvJRJAEllLD6EWc",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71045173663186,
+      "title": "АНАПА Live | Работа • Вакансии",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 23,
+      "is_public": false,
+      "link": "https://max.ru/join/0BZYT2AItZ-cpPMfCmFA1KpxmLWsWLlmocthsMP_4ww",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68837922534767,
+      "title": "ОКЕАН магазин рыбы и морепродуктов",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 423,
+      "is_public": false,
+      "link": "https://max.ru/join/pmJJNYu14upjscDYbdjDw4Mg7GTcOjFUcReUNmCeNBE",
+      "matched_fields": [
+        "description"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "checked_at": "2026-03-04T21:46:17.478Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 497,
+  "pages": 5,
+  "filter": "title|description|link contains Rostov oblast markers",
+  "marker_keys": [
+    "rostov_core",
+    "rostov_oblast",
+    "volgodonsk",
+    "shahty",
+    "novoshahtinsk",
+    "novocherkassk",
+    "taganrog",
+    "bataysk",
+    "azov",
+    "salsk",
+    "kamensk_shahtinsky",
+    "gukovo",
+    "zverevo",
+    "tskimlyansk",
+    "millerovo",
+    "morozovsk",
+    "semikarakorsk",
+    "belaya_kalitva",
+    "aksay",
+    "zernograd",
+    "donetsk_rostov",
+    "rodionovo_nesvetay",
+    "proletarsk",
+    "konstantinovsk",
+    "zimovniki",
+    "vesyolyy"
+  ],
+  "matched_count": 34,
+  "active_matched_count": 34,
+  "bot_admin_or_owner_count": 4,
+  "bot_membership_errors_count": 0,
+  "chats": [
+    {
+      "chat_id": -69049244448234,
+      "type": "chat",
+      "status": "active",
+      "title": "Ростов-на-Дону Объявления | Новости",
+      "participants_count": 6379,
+      "is_public": false,
+      "link": "https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0",
+      "description": "Лучший чат города Ростов-на-Дону для общения и объявлений.\n\nРазмещение объявлений — бесплатно.\nПубликация любых ссылок (сайты, соцсети, мессенджеры и т.д.) — только платно, иначе сообщение удаляется.\n\nФото отправляйте одним сообщением, можно альбомом или коллажом. Серии фото отдельными сообщениями удаляются.\n\nРеклама:\nhttps://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_core"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": true,
+        "permissions": [
+          "can_call"
+        ]
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71491907173064,
+      "type": "chat",
+      "status": "active",
+      "title": "💯✔️💬ТАГАНРОГ | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 2194,
+      "is_public": false,
+      "link": null,
+      "description": "💯По вопросу рекламы в группе писать👉 \nMax  https://vk.cc/cURN1v\nWA   https://golnk.ru/Yw9OR\nTG     t.me/Reklama_tg123\n❗️Любые предоставляемые услуги, это коммерческая реклама (платная)❗️\nДОСКА ОБЪЯВЛЕНИЙ\nгруппа для бесплатного размещения исключительно частных объявлений, нашего города и региона Недвижимость, Авто, Услуги, и.т д, всего, что не нарушает законодательство РФ",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "taganrog"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70933000194781,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Новошахтинск",
+      "participants_count": 2029,
+      "is_public": false,
+      "link": "https://max.ru/join/L2Ur-XxwIeTtlEti1lIGN--rx_PtujpOiwMDrrOTXJQ",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "shahty",
+        "novoshahtinsk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71289129525393,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Ростов На Дону",
+      "participants_count": 1541,
+      "is_public": false,
+      "link": "https://max.ru/join/aFqtC3bQfFdPjJ0ulJIB46KaXiNVGA8cC6zvKPg8Uo8",
+      "description": "Ссылки идут в спам\nНарушители в бан\nПо рекламе https://max.ru/join/ultE-gUW7qN5uwGLAW6OFaqOytfCzDs13--FN4HWYUU",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71336283338218,
+      "type": "chat",
+      "status": "active",
+      "title": "Родионовка Объявления | Новости",
+      "participants_count": 1526,
+      "is_public": false,
+      "link": "https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU",
+      "description": "Лучший чат Родионово-Несветайского района для общения и объявлений.\n\nРазмещение объявлений — бесплатно.",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rodionovo_nesvetay"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": true,
+        "permissions": [
+          "can_call"
+        ]
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71620804360904,
+      "type": "chat",
+      "status": "active",
+      "title": "ВОЛГОДОНСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 1441,
+      "is_public": false,
+      "link": "https://max.ru/join/3ij1H1JqjdqtIBJbSdZqFAJdDnxLkSD6RRcCsMUshzw",
+      "description": "ДОСКА ОБЪЯВЛЕНИЙ\nгруппа для бесплатного размещения исключительно частных объявлений, нашего города и региона Недвижимость, Авто, Услуги, и.т д, всего, что не нарушает законодательство РФ",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "volgodonsk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68081225258303,
+      "type": "chat",
+      "status": "active",
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "participants_count": 1427,
+      "is_public": false,
+      "link": "https://max.ru/join/IravQf-XmMrwncDvfGTANXgiHD5p5hJ3oYAAbMea0_8",
+      "description": "!Группа Для Продаж и Предоставления Услуг Объявления в Группе Платные!!! По Вопросам Развития Вашей Рекламы Пишите  по тел 89298297088 Предоставлю Очень Большой Потребительский Рынок Тысячи Клиентов Для Ваших Товаров и Услуг!!! Разовое Размещение Вашего Объявления 100 руб Этот Номер Привязан К Карте Сбербанка 89298297088 Чек Об Оплате В Личные Сообщения!!! ",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "azov"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68298113990735,
+      "type": "chat",
+      "status": "active",
+      "title": "Ростов объявления.песчанокопск. Сальск.  . Батайск Аксай..",
+      "participants_count": 1153,
+      "is_public": false,
+      "link": "https://max.ru/join/G6wcgs5Eod1KGYvkuBQPdp49FWti-UQRgLfT1nsDp8c",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core",
+        "bataysk",
+        "salsk",
+        "aksay"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69296973264293,
+      "type": "chat",
+      "status": "active",
+      "title": "❗️🐟СВЕЖАЯ ЦИМЛЯНСКАЯ РЫБКА 🐡ДОСТАВКА❗️",
+      "participants_count": 1035,
+      "is_public": false,
+      "link": "https://max.ru/join/tHDvquEF-BJ15jjCXAXFow-hUq3OyZe9Fgaj58fJtEc",
+      "description": "Любые ссылки запрещены ❌\nВсе с разрешения админа!\nНаш ассортимент : \nСазан,Сом,Судак,Карп ,Белый Амур,Кефаль,Карась,Налим. БАЛЫК🐟\nФарш сазан + щука\nДля заказа пишите администратору группы или по тел89375492683",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "tskimlyansk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69239822428800,
+      "type": "chat",
+      "status": "active",
+      "title": "1 ✔Купи-продай Ростов Аксай Батайск",
+      "participants_count": 957,
+      "is_public": false,
+      "link": "https://max.ru/join/KWBTD30kI37hTHlUtmnt6K7lNUBPJ9sALbL5M7hZv7s",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core",
+        "bataysk",
+        "aksay"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69241399380653,
+      "type": "chat",
+      "status": "active",
+      "title": "Аксай,  Ростов-на-Дону,  Уборка квартир, домов 🤝",
+      "participants_count": 814,
+      "is_public": false,
+      "link": "https://max.ru/join/shS6Y3MSnnqbsosXLAp_m0RMo-o66egHV2FqT008DhE",
+      "description": "Предлагаю вам свои услуги:\n✅Поддерживающая уборка\n✅Генеральная уборка\n✅Уборка после сдачи в аренду\n✅Уборка для продажи\n✅Уборка до и после переезда\n✅Мытьё окон \n✅Мытьё холодильника, духовых шкафов, бытовой техники\n✅Уборка офисов \nУборка после ремонта.\nРаботаю без посредников. \nБез выходных  и праздников. \n89844575131\nРостов-на-Дону,  Ростовская обл.\nАксай, Б.Лог, ближайшие",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_core",
+        "aksay"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68841488834705,
+      "type": "chat",
+      "status": "active",
+      "title": "Каменоломни-Шахты.Объявления, Куплю, Продам,Отдам даром",
+      "participants_count": 705,
+      "is_public": false,
+      "link": "https://max.ru/join/uKokNZNX0CYcCHgS5OV759twHwOqqxdYuTeNfvOZFVI",
+      "description": "🔊Объявление выкладываем один раз в день❗\n🔊❌ЗАПРЕЩЕНО:Приглашение на работу, розыгрыши, гадания, магия, сбор денег,лотереи , оружие,похудение,оформление документов,знакомство.Ссылки на сторонние сайты ЗАПРЕЩЕНО❌ или ПЛАТНО, По согласованию с Админами❗\n🔊Всё что противоречит законам РФ. За нарушение правил, удаление из группы без предупреждения.❗\n🔊❗Админ не несёт ответственность за информацию❗",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "shahty"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69199655897845,
+      "type": "chat",
+      "status": "active",
+      "title": "ПОДСЛУШАНО НОВОШАХТИНСК",
+      "participants_count": 675,
+      "is_public": false,
+      "link": "https://max.ru/join/cSvHbiskl8x1KTzQk8TY6YoA95IYpTykvmkxoqEeYu8",
+      "description": "Объявления общения новости \nсообщения с матоми будут удаляться \nссылки на всякую Чушь будут удалены",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "shahty",
+        "novoshahtinsk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68843386612370,
+      "type": "chat",
+      "status": "active",
+      "title": "Купи-продай город Миллерово и близ находящиеся районы",
+      "participants_count": 610,
+      "is_public": false,
+      "link": "https://max.ru/join/4HjqugFDanft2TuRNThevzpmaUUn8Mh9617Lbv960jk",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "millerovo"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68895829702041,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Ростова-на-Дону и Ростовской области)",
+      "participants_count": 559,
+      "is_public": false,
+      "link": "https://max.ru/join/DgcwEG3r5Re9Z-me4Rqcij3WBwMzhi-N4mZWourt_mY",
+      "description": "Правила группы !!!Объявления по Ростову-на-Дону и Ростовской обл. Группа для размещения объявлений о покупке, продаже , услугах ,бартера и т.п.Объявления  частного характера  .\nОбъявления о любой коммерции , о том, что приносит доход нельзя, только после согласования с админом. Ссылки   взаимообмен от 400 участников .\nЗапрещено! Гадания, вакансии, сборы и всё что запрещено законодательством РФ!!",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69292363478500,
+      "type": "chat",
+      "status": "active",
+      "title": "Авторынок Ростовская область",
+      "participants_count": 544,
+      "is_public": false,
+      "link": "https://max.ru/join/xbSHTD1-HIhfWEB5Szvyvi3fGBMY4DQOuZnJQQrP4UA",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71644395571207,
+      "type": "chat",
+      "status": "active",
+      "title": "АВТОРЫНОК | Ростовская область",
+      "participants_count": 450,
+      "is_public": false,
+      "link": null,
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": true,
+        "permissions": [
+          "read_all_messages",
+          "change_chat_info",
+          "can_call",
+          "add_remove_members"
+        ]
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68086355053079,
+      "type": "chat",
+      "status": "active",
+      "title": "➰💙РОСТОВ-НА-ДОНУ💙➰",
+      "participants_count": 442,
+      "is_public": false,
+      "link": "https://max.ru/join/6ZYpN4GACTQ42pghsSaZkemAN0IRnsZGs4GSP_OCO-s",
+      "description": "Группа для ваших объявлений\nЧастота размещения не более 2х раз в день",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68692638881207,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка ЮГ ♥️",
+      "participants_count": 394,
+      "is_public": false,
+      "link": "https://max.ru/join/uf_YIpVs0MBEjkVJCzgGU6pR35awZ09V--pzfScWnVA",
+      "description": "Ростовская область\nБесплатные объявления\n\nОбмен ссылками взаимный!",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71525320394759,
+      "type": "chat",
+      "status": "active",
+      "title": "Волгодонск Объявления | Объявления",
+      "participants_count": 370,
+      "is_public": false,
+      "link": null,
+      "description": "Объявления в чате размещаются бесплатно.\nПубликация любых ссылок (сайты/соцсети/мессенджеры и т.п.) — только платно, иначе сообщение будет удалено.\nФото отправляйте одним сообщением или коллажом; серии фото отдельными сообщениями также удаляются.\nПо поводу рекламы\n👇 https://max.ru/join/pgwSRjGbOCcwHyT0U2nckeFIl-xpwlv_7Iy5UArer6o",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "volgodonsk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": true,
+        "permissions": [
+          "read_all_messages",
+          "change_chat_info",
+          "add_admins",
+          "can_call",
+          "write",
+          "edit_link",
+          "add_remove_members",
+          "pin_message"
+        ]
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69317248912081,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления Набережные Челны",
+      "participants_count": 365,
+      "is_public": false,
+      "link": "https://max.ru/join/GvJo393TPGlhK62GOXQX68CrJ3JrYIiAElQ0NxMTh-E",
+      "description": "Любые объявления только платно.\nЛюбые Ссылки на группы только ВЗАИМНО, если группа такой же тематики, по согласованию с админом, все остальные группы платно. \n100 руб разовое \n250 руб 2 дня\n450 руб в неделю. \n650 руб в неделю\n750 руб в месяц. \n1100 два месяца  в 4 моих группах вацап + 1 в Максе + 1 в Телеграм",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "azov"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69502470482581,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "participants_count": 361,
+      "is_public": false,
+      "link": "https://max.ru/join/LFc5JwENtEyL9kC_roJWi3fZbriJpiCllPaQ69t3GwY",
+      "description": "ПРАВИЛА РАЗМЕЩЕНИЯ ОБЪЯВЛЕНИЯ Данная группа предназначена для бесплатного  размещения объявлений. Одно    объявления без ссылок, разрешается   ежедневно. ОБМЕН  ссылками по   СРЕДАМ. ❌Нарушения ведёт   исключением из группы. Группы  розыгрышей,худеющих❌ ",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "shahty",
+        "novoshahtinsk",
+        "novocherkassk"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -69168150800991,
+      "type": "chat",
+      "status": "active",
+      "title": "Обьявление Родионово-Несветайская",
+      "participants_count": 310,
+      "is_public": false,
+      "link": "https://max.ru/join/K1PgFinW5zm7uU8ZUSuRegLnpOuv-gFNTjEgYJrO3ZQ",
+      "description": "чат создан для общения,бесплатных обьявлений.",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rodionovo_nesvetay"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70194260101808,
+      "type": "chat",
+      "status": "active",
+      "title": "БОКОВСКАЯ МОЛВА - ИНФО Новости объявления",
+      "participants_count": 280,
+      "is_public": false,
+      "link": "https://max.ru/join/qFDzebNacUl1jPLItv-7DWIXeAUs7c0DzOwT-tYTKDE",
+      "description": "#Боклвская#Новости #Объявления #Купить #Продать #Услуги #Ремонт #Работа #Ростовскаяобласть #Реклама #Боковская\nБесплатная подача объявлений\n#МолваИнфо",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70194307484336,
+      "type": "chat",
+      "status": "active",
+      "title": "ДОНЕЦК МОЛВА - ИНФО Новости объявления",
+      "participants_count": 262,
+      "is_public": false,
+      "link": "https://max.ru/join/5GyiIVyGsrswJlLcCc5Nsmz0aGAMBPctLLwZF1kv5pg",
+      "description": "#Донецк #Новости #Объявления #Купить #Продать #Услуги #Ремонт #Работа #Ростовскаяобласть #Реклама #Донецк \nБесплатная подача объявлений\n#МолваИнфо",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "donetsk_rostov",
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68192117342284,
+      "type": "chat",
+      "status": "active",
+      "title": "1🌟 РОСТОВ ▪️УСЛУГИ▪️ПРОДАЖИ",
+      "participants_count": 247,
+      "is_public": false,
+      "link": "https://max.ru/join/w-vkQMgWbPZheOo85nSuf-z0bZ0Aqe2aFUA2Y73H6ZA",
+      "description": "Объявления по Ростову и Ростовской области\nСсылки на группы взаимные только на MAX",
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_core",
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70194751228592,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЛИВСКАЯ МОЛВА - ИНФО Новости объявления",
+      "participants_count": 205,
+      "is_public": false,
+      "link": "https://max.ru/join/4fp68U60TvLaS3RimM32mkAlVG0WBu9aTdRLkJO0XBM",
+      "description": "#Обливская #Новости #Объявления #Купить #Продать #Услуги #Ремонт #Работа #Ростовскаяобласть #Реклама #Обливская\nБесплатная подача объявлений\n#МолваИнфо",
+      "matched_fields": [
+        "description"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71117429031018,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска Бесплатных объявлений Таганрог",
+      "participants_count": 150,
+      "is_public": false,
+      "link": "https://max.ru/join/V3W-yGu9KWD0ujO5qW9Uwradz_QR-KMlJ7gAwow5ynk",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "taganrog"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68092403600060,
+      "type": "chat",
+      "status": "active",
+      "title": "☀️🌹☀️НЕДВИЖИМОСТЬ.КРАСНОДАРСКИЙ КРАЙ . РОСТОВСКАЯ  ОБЛАСТЬ",
+      "participants_count": 132,
+      "is_public": false,
+      "link": "https://max.ru/join/9Vj86gy7Q3hYZ75UIyRVqAZBl7HuD8qGBr6-V5tW3w8",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68945220515228,
+      "type": "chat",
+      "status": "active",
+      "title": "Суворовский Ростов",
+      "participants_count": 126,
+      "is_public": false,
+      "link": "https://max.ru/join/b1XDDTpUO0IZ-UaKpKRT5i2evU3wbkKU3UQlHgloKEc",
+      "description": "📢 Бесплатная реклама и объявления\n🚫 Без спама, обмана, 18+, политики и оскорблений\n⚠️ Нарушителей блокирую без предупреждения\n💬 Админы не несут ответственности за публикации участников❗️",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70392682673501,
+      "type": "chat",
+      "status": "active",
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "participants_count": 124,
+      "is_public": false,
+      "link": "https://max.ru/join/azn8VlvwP_rWf2IlSVbs6-Jl29L3OkDV0W0vi0Hn8wY",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_oblast",
+        "volgodonsk",
+        "shahty"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68945209636252,
+      "type": "chat",
+      "status": "active",
+      "title": "Северный Ростов",
+      "participants_count": 121,
+      "is_public": false,
+      "link": "https://max.ru/join/n7Kdo7B99pCIXfFnd16wSSHntq0MlL1W1jADVgSwvw0",
+      "description": "📢 Бесплатная реклама и объявления\n🚫 Без спама, обмана, 18+, политики и оскорблений\n⚠️ Нарушителей блокирую без предупреждения\n💬 Админы не несут ответственности за публикации участников❗️",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "rostov_core"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -70760660205767,
+      "type": "chat",
+      "status": "active",
+      "title": "Кондитерские изделия оптом г.Шахты пер.Комиссаровский 37",
+      "participants_count": 74,
+      "is_public": false,
+      "link": "https://max.ru/join/4y7qJds9rOXdB1yLyLc5A6oBM-MfonLhMIkSs9TeUhc",
+      "description": "Продажа кондитерских изделий по оптовым ценам!!!!",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "shahty"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -71144355504177,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолочка Таганрог",
+      "participants_count": 58,
+      "is_public": false,
+      "link": "https://max.ru/join/Pj6IEkEKd6oA7cQNDtnD0FltG3BiAEUS4GKw8wCvINc",
+      "description": null,
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "taganrog"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    }
+  ]
+}

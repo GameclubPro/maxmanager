@@ -1,0 +1,534 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/no_city_all_chats_member_ids_no_bots_live_20260319_232738.txt --target-chat-id -72257711042026 --start 0 --count 400 --invite-batch-size 10 --run-to-end --max-retries 3 --retry-action-failed --stop-when-target-count-reaches 20000 --result-file data/invite_piar_reklama_rf_target_20260320_002457/run_result.json --missing-file data/invite_piar_reklama_rf_target_20260320_002457/run_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 396 members across 4 pages
+[run] Inviting 286223 users to chat -72257711042026 in batches of 10 (28623 calls)...
+[run] Wave mode enabled: 400 users per wave, 120000ms active window, 30000ms rest
+[run] Wave 1 started
+[run] Progress: 50/286223 users
+[run] Progress: 100/286223 users
+[run] Progress: 150/286223 users
+[run] Progress: 200/286223 users
+[run] Progress: 250/286223 users
+[run] Progress: 300/286223 users
+[run] Progress: 350/286223 users
+[run] Progress: 400/286223 users
+[run] Wave 1 reached 400 users (elapsed 135165ms, rest 30000ms)
+[run] Wave 2 started
+[run] Progress: 450/286223 users
+[run] Progress: 500/286223 users
+[run] Progress: 550/286223 users
+[run] Progress: 600/286223 users
+[run] Progress: 650/286223 users
+[run] Progress: 700/286223 users
+[run] Progress: 750/286223 users
+[run] Progress: 800/286223 users
+[run] Wave 2 reached 400 users (elapsed 126519ms, rest 30000ms)
+[run] Wave 3 started
+[run] Progress: 850/286223 users
+[run] Progress: 900/286223 users
+[run] Progress: 950/286223 users
+[run] Progress: 1000/286223 users
+[run] Progress: 1050/286223 users
+[run] Progress: 1100/286223 users
+[run] Progress: 1150/286223 users
+[run] Progress: 1200/286223 users
+[run] Wave 3 reached 400 users (elapsed 126818ms, rest 30000ms)
+[run] Wave 4 started
+[run] Progress: 1250/286223 users
+[run] Progress: 1300/286223 users
+[run] Progress: 1350/286223 users
+[run] Progress: 1400/286223 users
+[run] Progress: 1450/286223 users
+[run] Progress: 1500/286223 users
+[run] Progress: 1550/286223 users
+[run] Progress: 1600/286223 users
+[run] Wave 4 reached 400 users (elapsed 126284ms, rest 30000ms)
+[run] Wave 5 started
+[run] Progress: 1650/286223 users
+[run] Progress: 1700/286223 users
+[run] Progress: 1750/286223 users
+[run] Progress: 1800/286223 users
+[run] Progress: 1850/286223 users
+[run] Progress: 1900/286223 users
+[run] Progress: 1950/286223 users
+[run] Progress: 2000/286223 users
+[run] Wave 5 reached 400 users (elapsed 126491ms, rest 30000ms)
+[run] Wave 6 started
+[run] Progress: 2050/286223 users
+[run] Progress: 2100/286223 users
+[run] Progress: 2150/286223 users
+[run] Progress: 2200/286223 users
+[run] Progress: 2250/286223 users
+[run] Progress: 2300/286223 users
+[run] Progress: 2350/286223 users
+[run] Progress: 2400/286223 users
+[run] Wave 6 reached 400 users (elapsed 126122ms, rest 30000ms)
+[run] Wave 7 started
+[run] Progress: 2450/286223 users
+[run] Progress: 2500/286223 users
+[run] Progress: 2550/286223 users
+[run] Progress: 2600/286223 users
+[run] Progress: 2650/286223 users
+[run] Progress: 2700/286223 users
+[run] Progress: 2750/286223 users
+[run] Progress: 2800/286223 users
+[run] Wave 7 reached 400 users (elapsed 126919ms, rest 30000ms)
+[run] Wave 8 started
+[run] Progress: 2850/286223 users
+[run] Progress: 2900/286223 users
+[run] Progress: 2950/286223 users
+[run] Progress: 3000/286223 users
+[run] Progress: 3050/286223 users
+[run] Progress: 3100/286223 users
+[run] Progress: 3150/286223 users
+[run] Progress: 3200/286223 users
+[run] Wave 8 reached 400 users (elapsed 127061ms, rest 30000ms)
+[run] Wave 9 started
+[run] Progress: 3250/286223 users
+[run] Progress: 3300/286223 users
+[run] Progress: 3350/286223 users
+[run] Progress: 3400/286223 users
+[run] Progress: 3450/286223 users
+[run] Progress: 3500/286223 users
+[run] Progress: 3550/286223 users
+[run] Progress: 3600/286223 users
+[run] Wave 9 reached 400 users (elapsed 126141ms, rest 30000ms)
+[run] Wave 10 started
+[run] Progress: 3650/286223 users
+[run] Progress: 3700/286223 users
+[run] Progress: 3750/286223 users
+[run] Progress: 3800/286223 users
+[run] Progress: 3850/286223 users
+[run] Progress: 3900/286223 users
+[run] Progress: 3950/286223 users
+[run] Progress: 4000/286223 users
+[run] Wave 10 reached 400 users (elapsed 126879ms, rest 30000ms)
+[run] Wave 11 started
+[run] Progress: 4050/286223 users
+[run] Progress: 4100/286223 users
+[run] Progress: 4150/286223 users
+[run] Progress: 4200/286223 users
+[run] Progress: 4250/286223 users
+[run] Progress: 4300/286223 users
+[run] Progress: 4350/286223 users
+[run] Progress: 4400/286223 users
+[run] Wave 11 reached 400 users (elapsed 126279ms, rest 30000ms)
+[run] Wave 12 started
+[run] Progress: 4450/286223 users
+[run] Progress: 4500/286223 users
+[run] Progress: 4550/286223 users
+[run] Progress: 4600/286223 users
+[run] Progress: 4650/286223 users
+[run] Progress: 4700/286223 users
+[run] Progress: 4750/286223 users
+[run] Progress: 4800/286223 users
+[run] Wave 12 reached 400 users (elapsed 126764ms, rest 30000ms)
+[run] Wave 13 started
+[run] Progress: 4850/286223 users
+[run] Progress: 4900/286223 users
+[run] Progress: 4950/286223 users
+[run] Progress: 5000/286223 users
+[run] Progress: 5050/286223 users
+[run] Progress: 5100/286223 users
+[run] Progress: 5150/286223 users
+[run] Progress: 5200/286223 users
+[run] Wave 13 reached 400 users (elapsed 127911ms, rest 30000ms)
+[run] Wave 14 started
+[run] Progress: 5250/286223 users
+[run] Progress: 5300/286223 users
+[run] Progress: 5350/286223 users
+[run] Progress: 5400/286223 users
+[run] Progress: 5450/286223 users
+[run] Progress: 5500/286223 users
+[run] Progress: 5550/286223 users
+[run] Progress: 5600/286223 users
+[run] Wave 14 reached 400 users (elapsed 126729ms, rest 30000ms)
+[run] Wave 15 started
+[run] Progress: 5650/286223 users
+[run] Progress: 5700/286223 users
+[run] Progress: 5750/286223 users
+[run] Progress: 5800/286223 users
+[run] Progress: 5850/286223 users
+[run] Progress: 5900/286223 users
+[run] Progress: 5950/286223 users
+[run] Progress: 6000/286223 users
+[run] Wave 15 reached 400 users (elapsed 128565ms, rest 30000ms)
+[run] Wave 16 started
+[run] Progress: 6050/286223 users
+[run] Progress: 6100/286223 users
+[run] Progress: 6150/286223 users
+[run] Progress: 6200/286223 users
+[run] Progress: 6250/286223 users
+[run] Progress: 6300/286223 users
+[run] Progress: 6350/286223 users
+[run] Progress: 6400/286223 users
+[run] Wave 16 reached 400 users (elapsed 127014ms, rest 30000ms)
+[run] Wave 17 started
+[run] Progress: 6450/286223 users
+[run] Progress: 6500/286223 users
+[run] Progress: 6550/286223 users
+[run] Progress: 6600/286223 users
+[run] Progress: 6650/286223 users
+[run] Progress: 6700/286223 users
+[run] Progress: 6750/286223 users
+[run] Progress: 6800/286223 users
+[run] Wave 17 reached 400 users (elapsed 126915ms, rest 30000ms)
+[run] Wave 18 started
+[run] Progress: 6850/286223 users
+[run] Progress: 6900/286223 users
+[run] Progress: 6950/286223 users
+[run] Progress: 7000/286223 users
+[run] Progress: 7050/286223 users
+[run] Progress: 7100/286223 users
+[run] Progress: 7150/286223 users
+[run] Progress: 7200/286223 users
+[run] Wave 18 reached 400 users (elapsed 126648ms, rest 30000ms)
+[run] Wave 19 started
+[run] Progress: 7250/286223 users
+[run] Progress: 7300/286223 users
+[run] Progress: 7350/286223 users
+[run] Progress: 7400/286223 users
+[run] Progress: 7450/286223 users
+[run] Progress: 7500/286223 users
+[run] Progress: 7550/286223 users
+[run] Progress: 7600/286223 users
+[run] Wave 19 reached 400 users (elapsed 127238ms, rest 30000ms)
+[run] Wave 20 started
+[run] Progress: 7650/286223 users
+[run] Progress: 7700/286223 users
+[run] Progress: 7750/286223 users
+[run] Progress: 7800/286223 users
+[run] Progress: 7850/286223 users
+[run] Progress: 7900/286223 users
+[run] Progress: 7950/286223 users
+[run] Progress: 8000/286223 users
+[run] Wave 20 reached 400 users (elapsed 131052ms, rest 30000ms)
+[run] Wave 21 started
+[run] Progress: 8050/286223 users
+[run] Progress: 8100/286223 users
+[run] Progress: 8150/286223 users
+[run] Progress: 8200/286223 users
+[run] Progress: 8250/286223 users
+[run] Progress: 8300/286223 users
+[run] Progress: 8350/286223 users
+[run] Progress: 8400/286223 users
+[run] Wave 21 reached 400 users (elapsed 126230ms, rest 30000ms)
+[run] Wave 22 started
+[run] Progress: 8450/286223 users
+[run] Progress: 8500/286223 users
+[run] Progress: 8550/286223 users
+[run] Progress: 8600/286223 users
+[run] Progress: 8650/286223 users
+[run] Progress: 8700/286223 users
+[run] Progress: 8750/286223 users
+[run] Progress: 8800/286223 users
+[run] Wave 22 reached 400 users (elapsed 126837ms, rest 30000ms)
+[run] Wave 23 started
+[run] Progress: 8850/286223 users
+[run] Progress: 8900/286223 users
+[run] Progress: 8950/286223 users
+[run] Progress: 9000/286223 users
+[run] Progress: 9050/286223 users
+[run] Progress: 9100/286223 users
+[run] Progress: 9150/286223 users
+[run] Progress: 9200/286223 users
+[run] Wave 23 reached 400 users (elapsed 126275ms, rest 30000ms)
+[run] Wave 24 started
+[run] Progress: 9250/286223 users
+[run] Progress: 9300/286223 users
+[run] Progress: 9350/286223 users
+[run] Progress: 9400/286223 users
+[run] Progress: 9450/286223 users
+[run] Progress: 9500/286223 users
+[run] Progress: 9550/286223 users
+[run] Progress: 9600/286223 users
+[run] Wave 24 reached 400 users (elapsed 128848ms, rest 30000ms)
+[run] Wave 25 started
+[run] Progress: 9650/286223 users
+[run] Progress: 9700/286223 users
+[run] Progress: 9750/286223 users
+[run] Progress: 9800/286223 users
+[run] Progress: 9850/286223 users
+[run] Progress: 9900/286223 users
+[run] Progress: 9950/286223 users
+[run] Progress: 10000/286223 users
+[run] Wave 25 reached 400 users (elapsed 126993ms, rest 30000ms)
+[run] Wave 26 started
+[run] Progress: 10050/286223 users
+[run] Progress: 10100/286223 users
+[run] Progress: 10150/286223 users
+[run] Progress: 10200/286223 users
+[run] Progress: 10250/286223 users
+[run] Progress: 10300/286223 users
+[run] Progress: 10350/286223 users
+[run] Progress: 10400/286223 users
+[run] Wave 26 reached 400 users (elapsed 126858ms, rest 30000ms)
+[run] Wave 27 started
+[run] Progress: 10450/286223 users
+[run] Progress: 10500/286223 users
+[run] Progress: 10550/286223 users
+[run] Progress: 10600/286223 users
+[run] Progress: 10650/286223 users
+[run] Progress: 10700/286223 users
+[run] Progress: 10750/286223 users
+[run] Progress: 10800/286223 users
+[run] Wave 27 reached 400 users (elapsed 127077ms, rest 30000ms)
+[run] Wave 28 started
+[run] Progress: 10850/286223 users
+[run] Progress: 10900/286223 users
+[run] Progress: 10950/286223 users
+[run] Progress: 11000/286223 users
+[run] Progress: 11050/286223 users
+[run] Progress: 11100/286223 users
+[run] Progress: 11150/286223 users
+[run] Progress: 11200/286223 users
+[run] Wave 28 reached 400 users (elapsed 127084ms, rest 30000ms)
+[run] Wave 29 started
+[run] Progress: 11250/286223 users
+[run] Progress: 11300/286223 users
+[run] Progress: 11350/286223 users
+[run] Progress: 11400/286223 users
+[run] Progress: 11450/286223 users
+[run] Progress: 11500/286223 users
+[run] Progress: 11550/286223 users
+[run] Progress: 11600/286223 users
+[run] Wave 29 reached 400 users (elapsed 125579ms, rest 30000ms)
+[run] Wave 30 started
+[run] Progress: 11650/286223 users
+[run] Progress: 11700/286223 users
+[run] Progress: 11750/286223 users
+[run] Progress: 11800/286223 users
+[run] Progress: 11850/286223 users
+[run] Progress: 11900/286223 users
+[run] Progress: 11950/286223 users
+[run] Progress: 12000/286223 users
+[run] Wave 30 reached 400 users (elapsed 127560ms, rest 30000ms)
+[run] Wave 31 started
+[run] Progress: 12050/286223 users
+[run] Progress: 12100/286223 users
+[run] Progress: 12150/286223 users
+[run] Progress: 12200/286223 users
+[run] Progress: 12250/286223 users
+[run] Progress: 12300/286223 users
+[run] Progress: 12350/286223 users
+[run] Progress: 12400/286223 users
+[run] Wave 31 reached 400 users (elapsed 125776ms, rest 30000ms)
+[run] Wave 32 started
+[run] Progress: 12450/286223 users
+[run] Progress: 12500/286223 users
+[run] Progress: 12550/286223 users
+[run] Progress: 12600/286223 users
+[run] Progress: 12650/286223 users
+[run] Progress: 12700/286223 users
+[run] Progress: 12750/286223 users
+[run] Progress: 12800/286223 users
+[run] Wave 32 reached 400 users (elapsed 126438ms, rest 30000ms)
+[run] Wave 33 started
+[run] Progress: 12850/286223 users
+[run] Progress: 12900/286223 users
+[run] Progress: 12950/286223 users
+[run] Progress: 13000/286223 users
+[run] Progress: 13050/286223 users
+[run] Progress: 13100/286223 users
+[run] Progress: 13150/286223 users
+[run] Progress: 13200/286223 users
+[run] Wave 33 reached 400 users (elapsed 126479ms, rest 30000ms)
+[run] Wave 34 started
+[run] Progress: 13250/286223 users
+[run] Progress: 13300/286223 users
+[run] Progress: 13350/286223 users
+[run] Progress: 13400/286223 users
+[run] Progress: 13450/286223 users
+[run] Progress: 13500/286223 users
+[run] Progress: 13550/286223 users
+[run] Progress: 13600/286223 users
+[run] Wave 34 reached 400 users (elapsed 126257ms, rest 30000ms)
+[run] Wave 35 started
+[run] Progress: 13650/286223 users
+[run] Progress: 13700/286223 users
+[run] Progress: 13750/286223 users
+[run] Progress: 13800/286223 users
+[run] Progress: 13850/286223 users
+[run] Progress: 13900/286223 users
+[run] Progress: 13950/286223 users
+[run] Progress: 14000/286223 users
+[run] Wave 35 reached 400 users (elapsed 126905ms, rest 30000ms)
+[run] Wave 36 started
+[run] Progress: 14050/286223 users
+[run] Progress: 14100/286223 users
+[run] Progress: 14150/286223 users
+[run] Progress: 14200/286223 users
+[run] Progress: 14250/286223 users
+[run] Progress: 14300/286223 users
+[run] Progress: 14350/286223 users
+[run] Progress: 14400/286223 users
+[run] Wave 36 reached 400 users (elapsed 126212ms, rest 30000ms)
+[run] Wave 37 started
+[run] Progress: 14450/286223 users
+[run] Progress: 14500/286223 users
+[run] Progress: 14550/286223 users
+[run] Progress: 14600/286223 users
+[run] Progress: 14650/286223 users
+[run] Progress: 14700/286223 users
+[run] Progress: 14750/286223 users
+[run] Progress: 14800/286223 users
+[run] Wave 37 reached 400 users (elapsed 126382ms, rest 30000ms)
+[run] Wave 38 started
+[run] Progress: 14850/286223 users
+[run] Progress: 14900/286223 users
+[run] Progress: 14950/286223 users
+[run] Progress: 15000/286223 users
+[run] Progress: 15050/286223 users
+[run] Progress: 15100/286223 users
+[run] Progress: 15150/286223 users
+[run] Progress: 15200/286223 users
+[run] Wave 38 reached 400 users (elapsed 126529ms, rest 30000ms)
+[run] Wave 39 started
+[run] Progress: 15250/286223 users
+[run] Progress: 15300/286223 users
+[run] Progress: 15350/286223 users
+[run] Progress: 15400/286223 users
+[run] Progress: 15450/286223 users
+[run] Progress: 15500/286223 users
+[run] Progress: 15550/286223 users
+[run] Progress: 15600/286223 users
+[run] Wave 39 reached 400 users (elapsed 126686ms, rest 30000ms)
+[run] Wave 40 started
+[run] Progress: 15650/286223 users
+[run] Progress: 15700/286223 users
+[run] Progress: 15750/286223 users
+[run] Progress: 15800/286223 users
+[run] Progress: 15850/286223 users
+[run] Progress: 15900/286223 users
+[run] Progress: 15950/286223 users
+[run] Progress: 16000/286223 users
+[run] Wave 40 reached 400 users (elapsed 127625ms, rest 30000ms)
+[run] Wave 41 started
+[run] Progress: 16050/286223 users
+[run] Progress: 16100/286223 users
+[run] Progress: 16150/286223 users
+[run] Progress: 16200/286223 users
+[run] Progress: 16250/286223 users
+[run] Progress: 16300/286223 users
+[run] Progress: 16350/286223 users
+[run] Progress: 16400/286223 users
+[run] Wave 41 reached 400 users (elapsed 126672ms, rest 30000ms)
+[run] Wave 42 started
+[run] Progress: 16450/286223 users
+[run] Progress: 16500/286223 users
+[run] Progress: 16550/286223 users
+[run] Progress: 16600/286223 users
+[run] Progress: 16650/286223 users
+[run] Progress: 16700/286223 users
+[run] Progress: 16750/286223 users
+[run] Progress: 16800/286223 users
+[run] Wave 42 reached 400 users (elapsed 126259ms, rest 30000ms)
+[run] Wave 43 started
+[run] Progress: 16850/286223 users
+[run] Progress: 16900/286223 users
+[run] Progress: 16950/286223 users
+[run] Progress: 17000/286223 users
+[run] Progress: 17050/286223 users
+[run] Progress: 17100/286223 users
+[run] Progress: 17150/286223 users
+[run] Progress: 17200/286223 users
+[run] Wave 43 reached 400 users (elapsed 126960ms, rest 30000ms)
+[run] Wave 44 started
+[run] Progress: 17250/286223 users
+[run] Progress: 17300/286223 users
+[run] Progress: 17350/286223 users
+[run] Progress: 17400/286223 users
+[run] Progress: 17450/286223 users
+[run] Progress: 17500/286223 users
+[run] Progress: 17550/286223 users
+[run] Progress: 17600/286223 users
+[run] Wave 44 reached 400 users (elapsed 127074ms, rest 30000ms)
+[run] Wave 45 started
+[run] Progress: 17650/286223 users
+[run] Progress: 17700/286223 users
+[run] Progress: 17750/286223 users
+[run] Progress: 17800/286223 users
+[run] Progress: 17850/286223 users
+[run] Progress: 17900/286223 users
+[run] Progress: 17950/286223 users
+[run] Progress: 18000/286223 users
+[run] Wave 45 reached 400 users (elapsed 129068ms, rest 30000ms)
+[run] Wave 46 started
+[run] Progress: 18050/286223 users
+[run] Progress: 18100/286223 users
+[run] Progress: 18150/286223 users
+[run] Progress: 18200/286223 users
+[run] Progress: 18250/286223 users
+[run] Progress: 18300/286223 users
+[run] Progress: 18350/286223 users
+[run] Progress: 18400/286223 users
+[run] Wave 46 reached 400 users (elapsed 127890ms, rest 30000ms)
+[run] Wave 47 started
+[run] Progress: 18450/286223 users
+[run] Progress: 18500/286223 users
+[run] Progress: 18550/286223 users
+[run] Progress: 18600/286223 users
+[run] Progress: 18650/286223 users
+[run] Progress: 18700/286223 users
+[run] Progress: 18750/286223 users
+[run] Progress: 18800/286223 users
+[run] Wave 47 reached 400 users (elapsed 126626ms, rest 30000ms)
+[run] Wave 48 started
+[run] Progress: 18850/286223 users
+[run] Progress: 18900/286223 users
+[run] Progress: 18950/286223 users
+[run] Progress: 19000/286223 users
+[run] Progress: 19050/286223 users
+[run] Progress: 19100/286223 users
+[run] Progress: 19150/286223 users
+[run] Progress: 19200/286223 users
+[run] Wave 48 reached 400 users (elapsed 127107ms, rest 30000ms)
+[run] Wave 49 started
+[run] Progress: 19250/286223 users
+[run] Progress: 19300/286223 users
+[run] Progress: 19350/286223 users
+[run] Progress: 19400/286223 users
+[run] Progress: 19450/286223 users
+[run] Progress: 19500/286223 users
+[run] Progress: 19550/286223 users
+[run] Progress: 19600/286223 users
+[run] Wave 49 reached 400 users (elapsed 127180ms, rest 30000ms)
+[run] Wave 50 started
+[run] Progress: 19650/286223 users
+[run] Progress: 19700/286223 users
+[run] Progress: 19750/286223 users
+[run] Progress: 19800/286223 users
+[run] Progress: 19850/286223 users
+[run] Progress: 19900/286223 users
+[run] Progress: 19950/286223 users
+[run] Progress: 20000/286223 users
+[run] Wave 50 reached 400 users (elapsed 126469ms, rest 30000ms)
+[run] Wave 51 started
+[run] Progress: 20050/286223 users
+[run] Progress: 20100/286223 users
+[run] Progress: 20150/286223 users
+[run] Progress: 20200/286223 users
+[run] Progress: 20250/286223 users
+[run] Progress: 20300/286223 users
+[run] Progress: 20350/286223 users
+[run] Stop triggered: target chat reached 20000 members (goal 20000)
+[run] Verifying membership for 286616 users...
+{
+  "ok": true,
+  "source_file": "data/no_city_all_chats_member_ids_no_bots_live_20260319_232738.txt",
+  "target_chat_id": -72257711042026,
+  "processed_count": 286616,
+  "already_in_target_count": 393,
+  "attempted_invite_count": 20350,
+  "invited_without_immediate_failure_count": 20310,
+  "verified_added_count": 19599,
+  "still_not_in_target_from_this_chunk_count": 266621,
+  "before_participants_count": 396,
+  "after_participants_count": 19978,
+  "result_file": "data/invite_piar_reklama_rf_target_20260320_002457/run_result.json",
+  "still_missing_file": "data/invite_piar_reklama_rf_target_20260320_002457/run_missing.txt"
+}

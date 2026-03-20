@@ -1,0 +1,11 @@
+checked_at: 2026-03-07T14:07:19.341Z
+bot_user_id: 207300808
+bot_username: id613000010769_bot
+total_chats_seen: 280
+pages: 3
+matched_count: 2
+active_matched_count: 2
+bot_admin_or_owner_count: 0
+
+-68847603122402	active	726	member	БАРАХОЛКА НЕСВЕТАЯ
+-68093793768848	active	305	member	Барахолка Несветай

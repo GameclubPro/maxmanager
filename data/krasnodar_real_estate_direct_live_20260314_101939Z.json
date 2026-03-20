@@ -1,0 +1,227 @@
+{
+  "checked_at": "2026-03-14T10:19:51.510Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 591,
+  "active_chat_count": 589,
+  "matched_count": 9,
+  "filters": {
+    "real_estate": "/(недвиж|жиль[еёя]|аренд|сниму|снимем|сда[мт]|квартир|комнат|апартамент|апарт|студи[яи]|ипотек|новострой|застройщик|ри[еэ]лт|риелтор|коттедж|таунхаус|дуплекс|участ(?:ок|ки)?|земл[яи]|коммерческ|посуточн|купл[яию]\\s+кварт|прода[мт]\\s+кварт|прода[мт]\\s+дом|купл[яию]\\s+дом)/iu",
+    "geo": "/(краснодар(?:ский|ского|ском|ская|ские|ских)?(?:\\s+кра[йяе])?|кубан(?:ь|и|ью))/iu",
+    "scope": "direct mentions of Krasnodar / Krasnodar Krai / Kuban plus real-estate terms"
+  },
+  "chats": [
+    {
+      "chat_id": -71952970123271,
+      "type": "chat",
+      "status": "active",
+      "title": "Недвижимость | Краснодарский край",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T31LKheciowoeBLjcPzETABdEU8UaVU6QpWEk-jea1dNeT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773483289752,
+      "participants_count": 3021,
+      "is_public": false,
+      "description": "Недвижимость Краснодарского края — чат для публикации бесплатных объявлений о покупке, продаже, аренде и сдаче недвижимости. Первое слово в больших объявлениях — «Недвижимость».",
+      "owner_id": 98315271,
+      "messages_count": 98,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "bot_membership": {
+        "is_admin": true,
+        "is_owner": false,
+        "permissions": [
+          "change_chat_info",
+          "add_remove_members",
+          "can_call"
+        ]
+      }
+    },
+    {
+      "chat_id": -71607014142034,
+      "type": "chat",
+      "status": "active",
+      "title": "НЕДВИЖИМОСТЬ КРАСНОДАРА",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3NFiGft_xaQEgILG0tppdl2QYcy8ijglVCk1IwoG0nsWT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773483352382,
+      "participants_count": 1496,
+      "is_public": false,
+      "description": "✅ГРУППА ДЛЯ ПОКУПАТЕЛЕЙ, не для РИЕЛТЕРОВ❗️❗️❗️❗️ \n✅КВАРТИРЫ только ОТ ЗАСТРОЙЩИКОВ❗️\n✅Открытие ипотеки и юридическое сопровождение сделки❗️\n#ипотека #дети #недвижимость #квартира\n89121705111 Сергей \n89184543856 Юлия",
+      "link": "https://max.ru/join/1hs_Ou5-nxNAsWgix-VhXIWiMTtLAFEfoTfA33LneHY",
+      "messages_count": 90,
+      "matched_fields": [
+        "title"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -69642926347721,
+      "type": "chat",
+      "status": "active",
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3mphdVh6LVB9tZ7A0Z4VlJnKI-QZFflTVqki5bod1p6uT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773483544078,
+      "participants_count": 1261,
+      "is_public": false,
+      "description": "✅Продам, куплю, отдам. БЕСПЛАТНОЕ  размещение объявления одного и того же 1 раз в сутки. От 3 фото делаем коллаж. Цена и Пункт.\n✅Коммерция, Гадания, Металлолом, Худение, Недвижимость, Тур агентство и так далее. Услуга ПЛАТНАЯ в личку к АДМИНУ ❗\n❌Запрещены объявления не по теме.\n❌Спам, Сборы, Розыгрыши, Политика\n❌Флуд,  Оскорбление, Хамство.\n✅Ссылки взаимные  БЕСПЛАТНО с согласованием АДМИНА❗❗❗",
+      "link": "https://max.ru/join/hb0zybWg0AOuHvUdT92aoV3faOjMa-SPyzefVvwunE4",
+      "messages_count": 7839,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -68100891214071,
+      "type": "chat",
+      "status": "active",
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3SuIvIrByRP_m-GB8k-9v12pajA0E0dACjLMWJFbJBV-T97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773482479936,
+      "participants_count": 1076,
+      "is_public": false,
+      "description": "🆘ВСТУПАЯ В ГРУППУ, ЧИТАЕМ ВНИМАТЕЛЬНО ПРАВИЛО ГРУППЫ🆘РАЗРЕШЕНО БЕЗ СОГЛАСОВАНИЯ С АДМИНОМ‼️Куплю, продажа, отдам в дар, обменяю, сдам, ищу, сниму, поиск работы‼️ОБЪЯВЛЕНИЯ КОТОРЫЕ НУЖНО СОГЛАСОВЫВАТЬ С АДМИНОМ ГРУППЫ ПЛАТНЫЕ‼️\nОПЛАЧИВАЕМЫЕ ОБЪЯВЛЕНИЯ-ССЫЛКИ‼️Коммерчиская реклама,розыгрышы,онлайн работа,водительское удостоверение, вахта,приглашение в экскурсию,похуделки,продажа сим карт, продажа",
+      "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ",
+      "messages_count": 10536,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -69565348304329,
+      "type": "chat",
+      "status": "active",
+      "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T34secOP9Z1DFCFRX1EpTvGl39d4jYBLXYbqLPNWR1atOT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773483527479,
+      "participants_count": 1043,
+      "is_public": false,
+      "description": "✅Продам, куплю, отдам.БЕСПЛАТНОЕ размещение  объявления одного и того же 1 раз в сутки. От 3 фото делаем коллаж. Цена и Пункт.\n✅Коммерция, Гадания, Металлолом, Худение, Недвижимость, Тур агентство и так далее. Услуга ПЛАТНАЯ в личку к АДМИНУ❗\n❌Запрещены объявление не по теме.\n❌Спам, Сборы,Розыгрыши,Политика.\n❌Флуд, Оскорбление, Хамство.\n✅Ссылки взаимные  БЕСПЛАТНО с согласованием АДМИНА❗❗❗",
+      "link": "https://max.ru/join/_Hlto2ylrWLlrU-mqk2-9sx3EVaSJxxrvAZwalQyK14",
+      "messages_count": 6195,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -68089471451242,
+      "type": "chat",
+      "status": "active",
+      "title": "Авито Прикубанский округ Краснодар",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3J0GHKpKBM34rr9hbG0Has6d7ErckY2P4UOibWVsYLkaT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773483219621,
+      "participants_count": 590,
+      "is_public": false,
+      "description": "Группа объявлений. Частные объявления бесплатно. \nКоммерческая реклама на платной основе.",
+      "link": "https://max.ru/join/Hw8AlQjLLFRVhvR64VJ2qL5eKcycz8smbW01ZOGHBJ8",
+      "messages_count": 5469,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -71391335011794,
+      "type": "chat",
+      "status": "active",
+      "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3BE1Gn7tEBfVybAzlaJFtcEtPgIDnrGDxfAm_na3J53iT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773482179071,
+      "participants_count": 387,
+      "is_public": false,
+      "description": "Товары • Услуги • Авто • Недвижимость • Работа\nГородская площадка объявлений для частных лиц и бизнеса. Успейте разместиться бесплатно до роста аудитории.\n\nДо 300 участников реклама бесплатно.\nПосле 300 — коммерческие публикации платные\n\nПо вопросам-админу",
+      "link": "https://max.ru/join/OtDJENy81_TMFaJm8zEXRxBNC9Eq7PwzAGZ8KJyooMA",
+      "messages_count": 503,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -70795135000625,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Краснодар",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3gH3My4zq1lozll9V5N0CrV9FHWWhhPDxkDC2Vivw2KeT97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773482739389,
+      "participants_count": 369,
+      "is_public": false,
+      "description": "Дорогие участники  рада приветствовать вас в группе,объявления и рекламму выставляем не более 1раза в день ,коммерческие объявления на платной основе .Ссылки только на взаимной основе.\nЗапрещено: Удаление сразу ,без восстановления \nСпам .\nГадание.\nТаро и т д все что запрещено законом",
+      "link": "https://max.ru/join/lXYISgHsZYGeEZtB2tjAh6WWz9V69SfGw1Den_UnwUE",
+      "messages_count": 2064,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    },
+    {
+      "chat_id": -70758535785115,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа Краснодарский край",
+      "icon": {
+        "url": "https://i.oneme.ru/i?r=BUFxtygYfQ8hp8NJRyp5v4T3eYmQM1QJjcWhZpjqTa3qN4UoQneMJv-IrtZh-JsHyzST97bn-G2kSB5bBbDau4yD&fn=w_1440"
+      },
+      "last_event_time": 1773478809418,
+      "participants_count": 355,
+      "is_public": false,
+      "description": "Обращаем ваше внимание ‼️\nВсе ссылки:\nлюбая коммерческая реклама - размещается только через Администратора на платной основе. Исключением считается работа, работа онлайн. Все остальные кто размещает объявления платные.\n❌ ЗАПРЕЩЕНО: СПАМ, ХАМСТВО, ОРУЖИЕ, АЛКО-НАРКОТИЧЕСКИЕ ВЕЩЕСТВА. \nАдминистратор: 8(912)774-63-17 Лана\nПо вопросам рекламы пишите мне в лс : https://max.ru/u/f9LHodD0cO",
+      "link": "https://max.ru/join/J1K306Z80mNClUYEIXFsxnS-wA9NRGLdgL9NgDvJ5dU",
+      "messages_count": 859,
+      "matched_fields": [
+        "combined"
+      ],
+      "bot_membership": {
+        "is_admin": false,
+        "is_owner": false,
+        "permissions": []
+      }
+    }
+  ]
+}

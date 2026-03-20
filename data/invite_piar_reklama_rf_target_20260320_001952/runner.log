@@ -1,0 +1,26 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/no_city_all_chats_member_ids_no_bots_live_20260319_232738.txt --target-chat-id -72257711042026 --start 0 --count 400 --invite-batch-size 10 --run-to-end --stop-when-target-count-reaches 20000 --result-file data/invite_piar_reklama_rf_target_20260320_001952/run_result.json --missing-file data/invite_piar_reklama_rf_target_20260320_001952/run_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 7 members across 1 pages
+[run] Inviting 286612 users to chat -72257711042026 in batches of 10 (28662 calls)...
+[run] Wave mode enabled: 400 users per wave, 120000ms active window, 30000ms rest
+[run] Wave 1 started
+[run] Progress: 50/286612 users
+[run] Progress: 100/286612 users
+[run] Progress: 150/286612 users
+[run] Progress: 200/286612 users
+[run] Progress: 250/286612 users
+[run] Progress: 300/286612 users
+[run] Progress: 350/286612 users
+[run] Progress: 400/286612 users
+[run] Wave 1 reached 400 users (elapsed 125755ms, rest 30000ms)
+[run] Wave 2 started
+{
+  "ok": false,
+  "error": "fetch failed",
+  "code": "unknown_error",
+  "status": null
+}

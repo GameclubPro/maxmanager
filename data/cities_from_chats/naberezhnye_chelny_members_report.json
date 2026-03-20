@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-03-02T14:41:02.918Z",
+  "city": "naberezhnye_chelny",
+  "source_chats_count": 11,
+  "processed_chats_count": 11,
+  "failed_chats_count": 0,
+  "unique_ids_count": 2082,
+  "per_chat": [
+    {
+      "chat_id": -69336818117251,
+      "title": "Барахолка Набережные Челны",
+      "pages": 6,
+      "members_fetched": 584,
+      "kept_non_bot_non_admin": 581,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69339284900603,
+      "title": "Аренда квартир в г Набережные Челны",
+      "pages": 9,
+      "members_fetched": 851,
+      "kept_non_bot_non_admin": 845,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71555053434989,
+      "title": "Набережные Челны Объявления | Новости",
+      "pages": 12,
+      "members_fetched": 1102,
+      "kept_non_bot_non_admin": 1097,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69362966203131,
+      "title": "Авито г.Набережные Челны",
+      "pages": 11,
+      "members_fetched": 1035,
+      "kept_non_bot_non_admin": 1032,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68325432817115,
+      "title": "НАБЕРЕЖНЫЕ ЧЕЛНЫ - ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 3,
+      "members_fetched": 258,
+      "kept_non_bot_non_admin": 255,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70870813133512,
+      "title": "💯✔️💬Набережные Челны ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 12,
+      "members_fetched": 1139,
+      "kept_non_bot_non_admin": 1129,
+      "skipped_bots": 6,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69365231520507,
+      "title": "РАБОТА г.Набережные Челны",
+      "pages": 3,
+      "members_fetched": 298,
+      "kept_non_bot_non_admin": 296,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69319071228091,
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "pages": 4,
+      "members_fetched": 332,
+      "kept_non_bot_non_admin": 329,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69310843032958,
+      "title": "Объявление Набережные челны",
+      "pages": 3,
+      "members_fetched": 265,
+      "kept_non_bot_non_admin": 263,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69317248912081,
+      "title": "Объявления Набережные Челны",
+      "pages": 4,
+      "members_fetched": 369,
+      "kept_non_bot_non_admin": 367,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69365609204475,
+      "title": "Недвижимость продажа г.Набережные Челны",
+      "pages": 2,
+      "members_fetched": 167,
+      "kept_non_bot_non_admin": 165,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/naberezhnye_chelny.txt"
+}

@@ -1,0 +1,69 @@
+[start] run_dir=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853 source=/home/denis/maxmanager/data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt target=-71506932434951
+[round 1] source=/home/denis/maxmanager/data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt total=7078
+[batch start] round=1 batch=1 range=1-400 count=400
+[batch done] verified_added=269 already_in_target=0 still_missing=131 attempted=400 stop=no
+[batch start] round=1 batch=2 range=401-800 count=400
+[batch done] verified_added=295 already_in_target=0 still_missing=105 attempted=400 stop=no
+[batch start] round=1 batch=3 range=801-1200 count=400
+[batch done] verified_added=311 already_in_target=0 still_missing=89 attempted=400 stop=no
+[batch start] round=1 batch=4 range=1201-1600 count=400
+[batch done] verified_added=333 already_in_target=0 still_missing=67 attempted=400 stop=no
+[batch start] round=1 batch=5 range=1601-2000 count=400
+[batch done] verified_added=342 already_in_target=0 still_missing=58 attempted=400 stop=no
+[batch start] round=1 batch=6 range=2001-2400 count=400
+[batch done] verified_added=317 already_in_target=0 still_missing=83 attempted=400 stop=no
+[batch start] round=1 batch=7 range=2401-2800 count=400
+[batch done] verified_added=256 already_in_target=0 still_missing=144 attempted=400 stop=no
+[batch start] round=1 batch=8 range=2801-3200 count=400
+[batch done] verified_added=334 already_in_target=0 still_missing=66 attempted=400 stop=no
+[batch start] round=1 batch=9 range=3201-3600 count=400
+[batch done] verified_added=325 already_in_target=0 still_missing=75 attempted=400 stop=no
+[batch start] round=1 batch=10 range=3601-4000 count=400
+[batch done] verified_added=320 already_in_target=0 still_missing=80 attempted=400 stop=no
+[batch start] round=1 batch=11 range=4001-4400 count=400
+[batch done] verified_added=303 already_in_target=0 still_missing=97 attempted=400 stop=no
+[batch start] round=1 batch=12 range=4401-4800 count=400
+[batch done] verified_added=325 already_in_target=0 still_missing=75 attempted=400 stop=no
+[batch start] round=1 batch=13 range=4801-5200 count=400
+[batch done] verified_added=290 already_in_target=0 still_missing=110 attempted=400 stop=no
+[batch start] round=1 batch=14 range=5201-5600 count=400
+[batch done] verified_added=228 already_in_target=0 still_missing=172 attempted=400 stop=no
+[batch start] round=1 batch=15 range=5601-6000 count=400
+[batch done] verified_added=205 already_in_target=0 still_missing=195 attempted=400 stop=no
+[batch start] round=1 batch=16 range=6001-6400 count=400
+[batch done] verified_added=152 already_in_target=0 still_missing=248 attempted=400 stop=no
+[batch start] round=1 batch=17 range=6401-6800 count=400
+[batch done] verified_added=128 already_in_target=0 still_missing=272 attempted=400 stop=no
+[batch start] round=1 batch=18 range=6801-7078 count=278
+[batch done] verified_added=94 already_in_target=0 still_missing=184 attempted=278 stop=no
+[round merged] round=1 unique_still_missing=2251 file=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round1_merged_still_missing.txt
+[round 2] source=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round1_merged_still_missing.txt total=2251
+[batch start] round=2 batch=1 range=1-400 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=2 batch=2 range=401-800 count=400
+[batch done] verified_added=0 already_in_target=89 still_missing=311 attempted=20 stop=yes
+[batch start] round=2 batch=3 range=801-1200 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=2 batch=4 range=1201-1600 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=2 batch=5 range=1601-2000 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=2 batch=6 range=2001-2251 count=251
+[batch done] verified_added=0 already_in_target=0 still_missing=251 attempted=20 stop=yes
+[round merged] round=2 unique_still_missing=2162 file=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round2_merged_still_missing.txt
+[round 3] source=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round2_merged_still_missing.txt total=2162
+[batch start] round=3 batch=1 range=1-400 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=3 batch=2 range=401-800 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=3 batch=3 range=801-1200 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=3 batch=4 range=1201-1600 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch start] round=3 batch=5 range=1601-2000 count=400
+[batch fail] round=3 batch=5 log=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round3_batch005_1601_2000.log
+[batch restart] round=3 batch=005 range=1601-2000 count=400
+[batch done] verified_added=0 already_in_target=0 still_missing=400 attempted=20 stop=yes
+[batch restart] round=3 batch=006 range=2001-2162 count=162
+[batch done] verified_added=0 already_in_target=0 still_missing=162 attempted=20 stop=yes
+[round merged] round=3 unique_still_missing=2162 file=/home/denis/maxmanager/data/invite_krasnoyarsk_target_20260314_205853/round3_merged_still_missing.txt

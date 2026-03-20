@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-10T19:24:51.607Z",
+  "city": "Сочи",
+  "source_chats_file": "data/sochi_all_chats_live_20260310_221906.json",
+  "target_chat": {
+    "chat_id": -71765135362055,
+    "title": "НЕДВИЖИМОСТЬ | Сочи",
+    "type": "chat",
+    "status": "active"
+  },
+  "all_visible_chats_count": 360,
+  "all_visible_chats_pages": 4,
+  "city_chats_count_including_target": 4,
+  "source_chats_count_requested": 3,
+  "source_chats_processed": 3,
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "target_members_scanned_count": 8,
+  "target_members_pages": 1,
+  "result_ids_count": 4170,
+  "result_file_txt": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260310_222451.txt",
+  "source_chats_report": [
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан чат| Рекомендации Сочи |🌴",
+      "participants_count_hint": 2957,
+      "scanned_members_count": 2974,
+      "pagination_pages": 30,
+      "filtered_bots": 2,
+      "filtered_admins_or_owners": 3,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 2968,
+      "kept_unique_for_this_chat": 2968
+    },
+    {
+      "chat_id": -69263233818655,
+      "title": "💬НАШ ❤️ СОЧИ - АДЛЕР",
+      "participants_count_hint": 1802,
+      "scanned_members_count": 1801,
+      "pagination_pages": 19,
+      "filtered_bots": 3,
+      "filtered_admins_or_owners": 3,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 1794,
+      "kept_unique_for_this_chat": 1794
+    },
+    {
+      "chat_id": -71826646159505,
+      "title": "Объявления Сочи",
+      "participants_count_hint": 261,
+      "scanned_members_count": 264,
+      "pagination_pages": 3,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 1,
+      "filtered_already_in_target": 0,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 262,
+      "kept_unique_for_this_chat": 262
+    }
+  ]
+}

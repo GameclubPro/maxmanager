@@ -1,0 +1,9 @@
+[start] 2026-03-14T18:39:05+03:00 retry1_dir=/home/denis/maxmanager/data/invite_khakasia_target_20260314_172358/retry1
+[start] 2026-03-14T18:39:05+03:00 source_file=/home/denis/maxmanager/data/invite_khakasia_target_20260314_172358/first_pass_merged_still_missing.txt total_ids=1191 target_chat_id=-71975853328391
+[batch] 2026-03-14T18:39:05+03:00 retry1_batch001 start=0 count=400
+[batch-end] 2026-03-14T19:02:44+03:00 retry1_batch001 exit_status=0
+[batch] 2026-03-14T19:02:44+03:00 retry1_batch002 start=400 count=400
+[batch-end] 2026-03-14T19:37:20+03:00 retry1_batch002 exit_status=0
+[batch] 2026-03-14T19:37:20+03:00 retry1_batch003 start=800 count=391
+[batch-end] 2026-03-14T19:50:16+03:00 retry1_batch003 exit_status=0
+[done] 2026-03-14T19:50:16+03:00 retry1_completed batches=3 total_ids=1191

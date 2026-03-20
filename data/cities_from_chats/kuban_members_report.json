@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-03-02T14:40:43.963Z",
+  "city": "kuban",
+  "source_chats_count": 9,
+  "processed_chats_count": 9,
+  "failed_chats_count": 0,
+  "unique_ids_count": 6376,
+  "per_chat": [
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "pages": 44,
+      "members_fetched": 4394,
+      "kept_non_bot_non_admin": 4386,
+      "skipped_bots": 3,
+      "skipped_admins": 5,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69167372064063,
+      "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+      "pages": 11,
+      "members_fetched": 1039,
+      "kept_non_bot_non_admin": 1035,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68081225258303,
+      "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+      "pages": 15,
+      "members_fetched": 1435,
+      "kept_non_bot_non_admin": 1431,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "pages": 6,
+      "members_fetched": 525,
+      "kept_non_bot_non_admin": 523,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69167097140543,
+      "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+      "pages": 15,
+      "members_fetched": 1434,
+      "kept_non_bot_non_admin": 1430,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71357769162801,
+      "title": "Ярмарка Кубани",
+      "pages": 1,
+      "members_fetched": 81,
+      "kept_non_bot_non_admin": 79,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70219438716253,
+      "title": "04/Кубань ссылки взаимны, рекламы бесплатные",
+      "pages": 3,
+      "members_fetched": 225,
+      "kept_non_bot_non_admin": 221,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69167263667519,
+      "title": "☘️КУБАНЬ КУПИ, ПРОДАЙ ☘️❤",
+      "pages": 4,
+      "members_fetched": 347,
+      "kept_non_bot_non_admin": 343,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71387750754881,
+      "title": "🧲АВТОРЫНОК /КУБАНЬ/",
+      "pages": 2,
+      "members_fetched": 122,
+      "kept_non_bot_non_admin": 118,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/kuban.txt"
+}

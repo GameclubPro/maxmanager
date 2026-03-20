@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-03-13T15:22:51.895Z",
+  "city": "novocherkassk",
+  "search_regex": "/новочеркас/u",
+  "discovery_passes": 3,
+  "all_chats_total_raw": 1661,
+  "all_chats_total_unique": 554,
+  "active_chats_total": 552,
+  "matched_city_chats_count": 5,
+  "matched_city_chats": [
+    {
+      "chat_id": -71807522061000,
+      "title": "💯✔️💯Новочеркасск и окрестности | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 1427
+    },
+    {
+      "chat_id": -68702358211092,
+      "title": "Разный Хлам",
+      "participants_count": 837
+    },
+    {
+      "chat_id": -71461224335496,
+      "title": "Вся реклама по Новочеркасску",
+      "participants_count": 218
+    },
+    {
+      "chat_id": -69730055310000,
+      "title": "Новочеркасск МОЛВА - ИНФО Новости объявления.",
+      "participants_count": 497
+    },
+    {
+      "chat_id": -69716190639384,
+      "title": "1. Объявления Новочеркасска",
+      "participants_count": 167
+    }
+  ],
+  "processed_chats_count": 5,
+  "failed_chats_count": 0,
+  "unique_ids_count": 2457,
+  "per_chat": [
+    {
+      "chat_id": -71807522061000,
+      "title": "💯✔️💯Новочеркасск и окрестности | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "pages": 15,
+      "members_fetched": 1419,
+      "kept_non_bot_non_admin": 1409,
+      "skipped_bots": 6,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68702358211092,
+      "title": "Разный Хлам",
+      "pages": 9,
+      "members_fetched": 837,
+      "kept_non_bot_non_admin": 830,
+      "skipped_bots": 5,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71461224335496,
+      "title": "Вся реклама по Новочеркасску",
+      "pages": 3,
+      "members_fetched": 218,
+      "kept_non_bot_non_admin": 216,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69730055310000,
+      "title": "Новочеркасск МОЛВА - ИНФО Новости объявления.",
+      "pages": 5,
+      "members_fetched": 497,
+      "kept_non_bot_non_admin": 494,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69716190639384,
+      "title": "1. Объявления Новочеркасска",
+      "pages": 2,
+      "members_fetched": 167,
+      "kept_non_bot_non_admin": 165,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/novocherkassk.txt"
+}

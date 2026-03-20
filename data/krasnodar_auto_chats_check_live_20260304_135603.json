@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-03-04T10:56:03.998Z",
+  "source": "live_max_api",
+  "total_chats_seen": 490,
+  "pages": 5,
+  "filter_city_regex": "/(краснодар|краснодарский\\s*край|krasnodar|кубан[ьеи]|kuban)/iu",
+  "filter_auto_regex": "/(авторынок|авто\\s*рынок|продажа\\s+авто|продам\\s+авто|куплю\\s+авто|автомоб|машин(а|ы|у|е|ой|\\b)|автозапчаст|автосалон|\\bавто\\b|autorinok|auto\\s*market)/iu",
+  "matched_chats_count": 4,
+  "chats": [
+    {
+      "chat_id": -71643054114823,
+      "title": "АВТОРЫНОК | Краснодарский край",
+      "participants_count": 352,
+      "type": "chat",
+      "status": "active",
+      "link": null,
+      "description": "Авторынок Краснодарский край 🚗🇷🇺\n\nПокупка/продажа авто, мото, спецтехники, запчастей и услуг по Краснодарскому краю.\n\n📌 Правила чата:\n\nОбъявления бесплатны.\n\nПубликация не чаще 1 раза в 6 часов (на один товар/услугу).\n\nСсылки не выкладывать (Avito/Drive/Telegram/WhatsApp и т.п.).\n\nТолько реальная информация: цена, город, состояние, контакты.",
+      "city_matched_fields": [
+        "title",
+        "description"
+      ],
+      "auto_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68833332322440,
+      "title": "Andrei_avto_krasnodar.Юг.РФ",
+      "participants_count": 181,
+      "type": "chat",
+      "status": "active",
+      "link": "https://max.ru/join/KTyp-xieu7aUX6vrt3o_QWGyy6d_GTTIIAV7rru_-0s",
+      "description": "‎Приветствуем! ✅ ТОЛЬКО ЧЕСТНЫЕ АВТО!\n🎁 АВТОМОБИЛИ ПО НИЗУ РЫНКА!\nПокупка-продажа автомобилей.\nКуча сладких вариантов, строго по низу рынка.\nБыстрый выкуп по всей.\nВыкупаем все - что движется.",
+      "city_matched_fields": [
+        "title"
+      ],
+      "auto_matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -71387750754881,
+      "title": "🧲АВТОРЫНОК /КУБАНЬ/",
+      "participants_count": 133,
+      "type": "chat",
+      "status": "active",
+      "link": "https://max.ru/join/uxYsZXhUr7-Fe78qGFnGlaeHdeZ2LRTOr82VBmCqdW0",
+      "description": "Ссылки по согласованию и на взаимных условиях!\nГруппа для частных объявлений! \nМожно;\n Продавать,покупать.\nОбщения и обсуждения товара и цены в личке.\nФотографии одного и того же товара собираем в коллаж и не более пяти разных объявлений в день.\nЗапрещено! \nЛекарственные препараты, табачные и алкогольные изделия,оружие,гадание.\nСпам, видео не по теме группы,поздравительные открытки,стикеры.",
+      "city_matched_fields": [
+        "title"
+      ],
+      "auto_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71174925623345,
+      "title": "Авторынок  Краснодарский край",
+      "participants_count": 102,
+      "type": "chat",
+      "status": "active",
+      "link": "https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0",
+      "description": null,
+      "city_matched_fields": [
+        "title"
+      ],
+      "auto_matched_fields": [
+        "title"
+      ]
+    }
+  ]
+}

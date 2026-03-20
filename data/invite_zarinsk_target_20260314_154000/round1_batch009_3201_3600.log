@@ -1,0 +1,39 @@
+> npm run members:add -- --source-file /home/denis/maxmanager/data/zarinsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_152344.txt --target-chat-id -71972126230535 --start 3200 --count 400 --invite-batch-size 10 --result-file /home/denis/maxmanager/data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_result.json --missing-file /home/denis/maxmanager/data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_missing.txt
+
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file /home/denis/maxmanager/data/zarinsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_152344.txt --target-chat-id -71972126230535 --start 3200 --count 400 --invite-batch-size 10 --result-file /home/denis/maxmanager/data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_result.json --missing-file /home/denis/maxmanager/data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2205 members across 23 pages
+[run] Inviting 400 users to chat -71972126230535 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/zarinsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_152344.txt",
+  "target_chat_id": -71972126230535,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 400,
+  "verified_added_count": 288,
+  "still_not_in_target_from_this_chunk_count": 112,
+  "before_participants_count": 2205,
+  "after_participants_count": 2488,
+  "result_file": "data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_result.json",
+  "still_missing_file": "data/invite_zarinsk_target_20260314_154000/round1_batch009_3201_3600_missing.txt"
+}
+
+
+exit_status=0
+signal=null
+duration_sec=221

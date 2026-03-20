@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-03-02T14:46:11.115Z",
+  "cities_total": 23,
+  "cities": [
+    {
+      "city": "anapa",
+      "unique_ids_count": 419,
+      "source_chats_count": 6,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/anapa.txt",
+      "report_file": "data/cities_from_chats/anapa_members_report.json"
+    },
+    {
+      "city": "angarsk",
+      "unique_ids_count": 455,
+      "source_chats_count": 1,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/angarsk.txt",
+      "report_file": "data/cities_from_chats/angarsk_members_report.json"
+    },
+    {
+      "city": "chita",
+      "unique_ids_count": 11592,
+      "source_chats_count": 26,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/chita.txt",
+      "report_file": "data/cities_from_chats/chita_members_report.json"
+    },
+    {
+      "city": "ekaterinburg",
+      "unique_ids_count": 624,
+      "source_chats_count": 4,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/ekaterinburg.txt",
+      "report_file": "data/cities_from_chats/ekaterinburg_members_report.json"
+    },
+    {
+      "city": "eysk",
+      "unique_ids_count": 6616,
+      "source_chats_count": 23,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/eysk.txt",
+      "report_file": "data/cities_from_chats/eysk_members_report.json"
+    },
+    {
+      "city": "irkutsk",
+      "unique_ids_count": 4858,
+      "source_chats_count": 10,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/irkutsk.txt",
+      "report_file": "data/cities_from_chats/irkutsk_members_report.json"
+    },
+    {
+      "city": "kazan",
+      "unique_ids_count": 3308,
+      "source_chats_count": 17,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/kazan.txt",
+      "report_file": "data/cities_from_chats/kazan_members_report.json"
+    },
+    {
+      "city": "khabarovsk",
+      "unique_ids_count": 4010,
+      "source_chats_count": 18,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/khabarovsk.txt",
+      "report_file": "data/cities_from_chats/khabarovsk_members_report.json"
+    },
+    {
+      "city": "krasnodar",
+      "unique_ids_count": 11599,
+      "source_chats_count": 60,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/krasnodar.txt",
+      "report_file": "data/cities_from_chats/krasnodar_members_report.json"
+    },
+    {
+      "city": "krasnoyarsk",
+      "unique_ids_count": 6133,
+      "source_chats_count": 22,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/krasnoyarsk.txt",
+      "report_file": "data/cities_from_chats/krasnoyarsk_members_report.json"
+    },
+    {
+      "city": "kuban",
+      "unique_ids_count": 6376,
+      "source_chats_count": 9,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/kuban.txt",
+      "report_file": "data/cities_from_chats/kuban_members_report.json"
+    },
+    {
+      "city": "naberezhnye_chelny",
+      "unique_ids_count": 2082,
+      "source_chats_count": 11,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/naberezhnye_chelny.txt",
+      "report_file": "data/cities_from_chats/naberezhnye_chelny_members_report.json"
+    },
+    {
+      "city": "novorossiysk",
+      "unique_ids_count": 1697,
+      "source_chats_count": 3,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/novorossiysk.txt",
+      "report_file": "data/cities_from_chats/novorossiysk_members_report.json"
+    },
+    {
+      "city": "novoshakhtinsk",
+      "unique_ids_count": 2776,
+      "source_chats_count": 4,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/novoshakhtinsk.txt",
+      "report_file": "data/cities_from_chats/novoshakhtinsk_members_report.json"
+    },
+    {
+      "city": "rodionovka",
+      "unique_ids_count": 1583,
+      "source_chats_count": 2,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/rodionovka.txt",
+      "report_file": "data/cities_from_chats/rodionovka_members_report.json"
+    },
+    {
+      "city": "rostov",
+      "unique_ids_count": 9093,
+      "source_chats_count": 9,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/rostov.txt",
+      "report_file": "data/cities_from_chats/rostov_members_report.json"
+    },
+    {
+      "city": "saratov",
+      "unique_ids_count": 1737,
+      "source_chats_count": 4,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/saratov.txt",
+      "report_file": "data/cities_from_chats/saratov_members_report.json"
+    },
+    {
+      "city": "stavropol",
+      "unique_ids_count": 2530,
+      "source_chats_count": 7,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/stavropol.txt",
+      "report_file": "data/cities_from_chats/stavropol_members_report.json"
+    },
+    {
+      "city": "tsimlyansk",
+      "unique_ids_count": 1049,
+      "source_chats_count": 1,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/tsimlyansk.txt",
+      "report_file": "data/cities_from_chats/tsimlyansk_members_report.json"
+    },
+    {
+      "city": "tyumen",
+      "unique_ids_count": 7800,
+      "source_chats_count": 13,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/tyumen.txt",
+      "report_file": "data/cities_from_chats/tyumen_members_report.json"
+    },
+    {
+      "city": "ufa",
+      "unique_ids_count": 14055,
+      "source_chats_count": 19,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/ufa.txt",
+      "report_file": "data/cities_from_chats/ufa_members_report.json"
+    },
+    {
+      "city": "volgodonsk",
+      "unique_ids_count": 707,
+      "source_chats_count": 3,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/volgodonsk.txt",
+      "report_file": "data/cities_from_chats/volgodonsk_members_report.json"
+    },
+    {
+      "city": "volgograd",
+      "unique_ids_count": 11779,
+      "source_chats_count": 23,
+      "failed_chats_count": 0,
+      "txt_file": "data/cities_from_chats/volgograd.txt",
+      "report_file": "data/cities_from_chats/volgograd_members_report.json"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "ok": true,
+  "checked_at": "2026-03-13T14:04:44.185Z",
+  "bot_scope_total_visible_chats": 539,
+  "bot_scope_total_active_group_chats": 537,
+  "all_chats_pages": 6,
+  "city_scope": "Краснодар",
+  "city_scope_rule": "explicit Краснодар in title/description excluding Краснодарский край and Кубань, plus manual include for Прикубанка",
+  "target_chat": {
+    "chat_id": -69067549505002,
+    "title": "Краснодар Объявления | Новости",
+    "participants_count": 5318,
+    "target_members_scanned": 5318,
+    "target_member_pages": 54
+  },
+  "source_chats_count_requested": 10,
+  "source_chat_ids_requested": [
+    -68085382572711,
+    -69642926347721,
+    -69543456850047,
+    -70808431293915,
+    -69128643766909,
+    -68089471451242,
+    -68088151228522,
+    -69214609096810,
+    -70795135000625,
+    -69311486550191
+  ],
+  "source_chats": [
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "participants_count": 1346,
+      "link": "https://max.ru/join/zm30qsewNYvVjYD2rc9v2jQzaHjSopdwgWGDTVzlTJM"
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "participants_count": 1258,
+      "link": "https://max.ru/join/hb0zybWg0AOuHvUdT92aoV3faOjMa-SPyzefVvwunE4"
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "participants_count": 1174,
+      "link": "https://max.ru/join/tIGhNdZ3kXl0_qp94XMZWjuSJ2CuSBR8EHfcn5Ev6so"
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодар и край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 651,
+      "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28"
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "participants_count": 638,
+      "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY"
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "participants_count": 586,
+      "link": "https://max.ru/join/Hw8AlQjLLFRVhvR64VJ2qL5eKcycz8smbW01ZOGHBJ8"
+    },
+    {
+      "chat_id": -68088151228522,
+      "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+      "participants_count": 512,
+      "link": "https://max.ru/join/Z6aPZIdLF-AHg1zJKj1SR29hfncPjqk7cs8yR3ywz0Q"
+    },
+    {
+      "chat_id": -69214609096810,
+      "title": "Реклама Краснодар. Частное.",
+      "participants_count": 381,
+      "link": "https://max.ru/join/lhSdSF8zV6xPVZXLs-M7PgKWkH1nxvRf0FTvVpq9Qd8"
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "participants_count": 370,
+      "link": "https://max.ru/join/lXYISgHsZYGeEZtB2tjAh6WWz9V69SfGw1Den_UnwUE"
+    },
+    {
+      "chat_id": -69311486550191,
+      "title": "4️⃣📣 Прикубанка авито",
+      "participants_count": 257,
+      "link": "https://max.ru/join/df2rtOfLpNWvoTSJv7LEdukQF0R8WLGEexhfAV0Yyo0"
+    }
+  ],
+  "processed_chats": 10,
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "filters": {
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_owners": true,
+    "exclude_anyone_already_in_target_chat": true,
+    "exclude_anyone_seen_as_bot_admin_or_owner_in_any_source_chat": true
+  },
+  "per_chat": [
+    {
+      "chat_id": -68085382572711,
+      "title": "🪗Краснодар и рядом🪗купи продай🪗",
+      "participants_count": 1346,
+      "members_scanned": 1346,
+      "pages": 14,
+      "bot_or_admin_or_owner_filtered": 4,
+      "non_bots_non_admins": 1342,
+      "after_excluding_target_members": 872,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 869,
+      "unique_new_from_chat": 869
+    },
+    {
+      "chat_id": -69642926347721,
+      "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+      "participants_count": 1258,
+      "members_scanned": 1258,
+      "pages": 13,
+      "bot_or_admin_or_owner_filtered": 2,
+      "non_bots_non_admins": 1256,
+      "after_excluding_target_members": 889,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 888,
+      "unique_new_from_chat": 716
+    },
+    {
+      "chat_id": -69543456850047,
+      "title": "Юла Краснодар",
+      "participants_count": 1174,
+      "members_scanned": 1174,
+      "pages": 12,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 1171,
+      "after_excluding_target_members": 704,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 702,
+      "unique_new_from_chat": 476
+    },
+    {
+      "chat_id": -70808431293915,
+      "title": "Краснодар и край ДОСКА ОБЬЯВЛЕНИЙ",
+      "participants_count": 651,
+      "members_scanned": 651,
+      "pages": 7,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 648,
+      "after_excluding_target_members": 275,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 275,
+      "unique_new_from_chat": 205
+    },
+    {
+      "chat_id": -69128643766909,
+      "title": "Краснодар объявления",
+      "participants_count": 638,
+      "members_scanned": 638,
+      "pages": 7,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 635,
+      "after_excluding_target_members": 408,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 403,
+      "unique_new_from_chat": 215
+    },
+    {
+      "chat_id": -68089471451242,
+      "title": "Авито Прикубанский округ Краснодар",
+      "participants_count": 586,
+      "members_scanned": 586,
+      "pages": 6,
+      "bot_or_admin_or_owner_filtered": 2,
+      "non_bots_non_admins": 584,
+      "after_excluding_target_members": 418,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 418,
+      "unique_new_from_chat": 222
+    },
+    {
+      "chat_id": -68088151228522,
+      "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+      "participants_count": 512,
+      "members_scanned": 512,
+      "pages": 6,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 509,
+      "after_excluding_target_members": 348,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 346,
+      "unique_new_from_chat": 171
+    },
+    {
+      "chat_id": -69214609096810,
+      "title": "Реклама Краснодар. Частное.",
+      "participants_count": 381,
+      "members_scanned": 381,
+      "pages": 4,
+      "bot_or_admin_or_owner_filtered": 2,
+      "non_bots_non_admins": 379,
+      "after_excluding_target_members": 268,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 268,
+      "unique_new_from_chat": 73
+    },
+    {
+      "chat_id": -70795135000625,
+      "title": "Барахолка Краснодар",
+      "participants_count": 370,
+      "members_scanned": 370,
+      "pages": 4,
+      "bot_or_admin_or_owner_filtered": 6,
+      "non_bots_non_admins": 364,
+      "after_excluding_target_members": 287,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 287,
+      "unique_new_from_chat": 106
+    },
+    {
+      "chat_id": -69311486550191,
+      "title": "4️⃣📣 Прикубанка авито",
+      "participants_count": 257,
+      "members_scanned": 257,
+      "pages": 3,
+      "bot_or_admin_or_owner_filtered": 2,
+      "non_bots_non_admins": 255,
+      "after_excluding_target_members": 174,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 172,
+      "unique_new_from_chat": 56
+    }
+  ],
+  "unique_ids_count": 3109,
+  "files": {
+    "txt": "data/krasnodar_all_other_city_chats_member_ids_no_bots_no_admins_not_in_target_live_20260313_170444.txt",
+    "json": "data/krasnodar_all_other_city_chats_member_ids_no_bots_no_admins_not_in_target_live_20260313_170444.json"
+  }
+}

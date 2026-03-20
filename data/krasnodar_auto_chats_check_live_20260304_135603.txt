@@ -1,0 +1,25 @@
+checked_at: 2026-03-04T10:56:03.998Z
+total_chats_seen: 490
+pages: 5
+matched_chats_count: 4
+
+1. АВТОРЫНОК | Краснодарский край
+   chat_id=-71643054114823 participants=352 status=active
+   city_matched_fields=title,description
+   auto_matched_fields=title,description
+   link=-
+2. Andrei_avto_krasnodar.Юг.РФ
+   chat_id=-68833332322440 participants=181 status=active
+   city_matched_fields=title
+   auto_matched_fields=description
+   link=https://max.ru/join/KTyp-xieu7aUX6vrt3o_QWGyy6d_GTTIIAV7rru_-0s
+3. 🧲АВТОРЫНОК /КУБАНЬ/
+   chat_id=-71387750754881 participants=133 status=active
+   city_matched_fields=title
+   auto_matched_fields=title
+   link=https://max.ru/join/uxYsZXhUr7-Fe78qGFnGlaeHdeZ2LRTOr82VBmCqdW0
+4. Авторынок  Краснодарский край
+   chat_id=-71174925623345 participants=102 status=active
+   city_matched_fields=title
+   auto_matched_fields=title
+   link=https://max.ru/join/D_bSoCvIxn9MJOAzcQpQ-58lrMu7RqOWnGvM299Uqk0

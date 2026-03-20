@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-03-02T14:42:34.276Z",
+  "city": "stavropol",
+  "source_chats_count": 7,
+  "processed_chats_count": 7,
+  "failed_chats_count": 0,
+  "unique_ids_count": 2530,
+  "per_chat": [
+    {
+      "chat_id": -71489688733703,
+      "title": "Ставрополь Объявления | Новости",
+      "pages": 16,
+      "members_fetched": 1593,
+      "kept_non_bot_non_admin": 1587,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69240100563584,
+      "title": "6 ✔Ставропольский край Барахолка",
+      "pages": 7,
+      "members_fetched": 700,
+      "kept_non_bot_non_admin": 698,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69070458290408,
+      "title": "АВИТО Ставропольский край",
+      "pages": 9,
+      "members_fetched": 881,
+      "kept_non_bot_non_admin": 879,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69708585345037,
+      "title": "7 Инкубатор и птицы Ставрополья",
+      "pages": 4,
+      "members_fetched": 360,
+      "kept_non_bot_non_admin": 357,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70219252856157,
+      "title": "02/Ставропольский край реклама бесплатная, ссылки взаимны",
+      "pages": 2,
+      "members_fetched": 103,
+      "kept_non_bot_non_admin": 99,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71524644008027,
+      "title": "🌹КУПИ ПРОДАЙ СТАВРОПОЛЬСКИЙ КРАЙ",
+      "pages": 1,
+      "members_fetched": 72,
+      "kept_non_bot_non_admin": 69,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70541657656056,
+      "title": "🔥🔥СТАВРОПОЛЬСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+      "pages": 5,
+      "members_fetched": 418,
+      "kept_non_bot_non_admin": 415,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/stavropol.txt"
+}

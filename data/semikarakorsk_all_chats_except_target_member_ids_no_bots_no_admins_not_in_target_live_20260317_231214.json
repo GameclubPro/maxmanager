@@ -1,0 +1,375 @@
+{
+  "checked_at": "2026-03-17T20:12:14.173Z",
+  "city": "Семикаракорск",
+  "city_slug": "semikarakorsk",
+  "city_report_file": "data/bot_chats_by_city_20260317_231018.json",
+  "target_chat": {
+    "chat_id": -71955838830599,
+    "title": "Семикаракорск Объявления | Новости",
+    "type": "chat",
+    "status_live": "active",
+    "participants_count_report": 2855,
+    "participants_count_live": 2855,
+    "target_snapshot_member_count": 2855,
+    "target_snapshot_pages": 29
+  },
+  "source_chat_count": 18,
+  "source_chat_failures_count": 0,
+  "unique_ids_count": 7985,
+  "files": {
+    "txt": "data/semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260317_231214.txt",
+    "json": "data/semikarakorsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260317_231214.json"
+  },
+  "source_chats": [
+    {
+      "chat_id": -68075808713365,
+      "title": "Багаевская, Семикаракорск",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 7212,
+      "participants_count_live": 7212,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 72,
+      "members_seen_total": 7184,
+      "bots_count": 3,
+      "admin_or_owner_count": 11,
+      "eligible_non_bot_non_admin_count": 7170,
+      "excluded_already_in_target_count": 646,
+      "duplicate_across_source_chats_count": 0,
+      "unique_ids_added_count": 6524
+    },
+    {
+      "chat_id": -69170700072363,
+      "title": "СЕМИКАРАКОРСК И РАЙОН",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 1524,
+      "participants_count_live": 1524,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 16,
+      "members_seen_total": 1524,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 1521,
+      "excluded_already_in_target_count": 1040,
+      "duplicate_across_source_chats_count": 62,
+      "unique_ids_added_count": 419
+    },
+    {
+      "chat_id": -68919147828489,
+      "title": "\"Из рук-в-руки\" Семикаракорск",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 839,
+      "participants_count_live": 839,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 9,
+      "members_seen_total": 839,
+      "bots_count": 5,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 832,
+      "excluded_already_in_target_count": 606,
+      "duplicate_across_source_chats_count": 110,
+      "unique_ids_added_count": 116
+    },
+    {
+      "chat_id": -68635593957554,
+      "title": "ПУСТЬ ГОВОРЯТ СМК",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 623,
+      "participants_count_live": 623,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 7,
+      "members_seen_total": 623,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 620,
+      "excluded_already_in_target_count": 383,
+      "duplicate_across_source_chats_count": 139,
+      "unique_ids_added_count": 98
+    },
+    {
+      "chat_id": -68769109398844,
+      "title": "Бесплатные объявления Семикаракорск и ближайшие районы РО",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 602,
+      "participants_count_live": 602,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 7,
+      "members_seen_total": 602,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 599,
+      "excluded_already_in_target_count": 348,
+      "duplicate_across_source_chats_count": 124,
+      "unique_ids_added_count": 127
+    },
+    {
+      "chat_id": -69204264659506,
+      "title": "Семикаракорск-район. Шабашки, подработки, купи-продай и тд.",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 520,
+      "participants_count_live": 520,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 6,
+      "members_seen_total": 520,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 517,
+      "excluded_already_in_target_count": 258,
+      "duplicate_across_source_chats_count": 104,
+      "unique_ids_added_count": 155
+    },
+    {
+      "chat_id": -69406356004997,
+      "title": "\"СЕМИКАРАКОРСК\"161\"..",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 517,
+      "participants_count_live": 517,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 6,
+      "members_seen_total": 517,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 515,
+      "excluded_already_in_target_count": 324,
+      "duplicate_across_source_chats_count": 116,
+      "unique_ids_added_count": 75
+    },
+    {
+      "chat_id": -69887546520922,
+      "title": "Подслушано Семикаракорск и районы",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 475,
+      "participants_count_live": 475,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 5,
+      "members_seen_total": 475,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 471,
+      "excluded_already_in_target_count": 313,
+      "duplicate_across_source_chats_count": 93,
+      "unique_ids_added_count": 65
+    },
+    {
+      "chat_id": -69630261843383,
+      "title": "Семикаракорск Молва Инфо Новости Объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 387,
+      "participants_count_live": 387,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 387,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 384,
+      "excluded_already_in_target_count": 183,
+      "duplicate_across_source_chats_count": 69,
+      "unique_ids_added_count": 132
+    },
+    {
+      "chat_id": -68148345550254,
+      "title": "Семикаракорск",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 362,
+      "participants_count_live": 362,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 362,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 359,
+      "excluded_already_in_target_count": 222,
+      "duplicate_across_source_chats_count": 95,
+      "unique_ids_added_count": 42
+    },
+    {
+      "chat_id": -69218939974960,
+      "title": "РАБОТА и УСЛУГИ.",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 328,
+      "participants_count_live": 328,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 328,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 323,
+      "excluded_already_in_target_count": 167,
+      "duplicate_across_source_chats_count": 87,
+      "unique_ids_added_count": 69
+    },
+    {
+      "chat_id": -69887563232602,
+      "title": "Семикаракорск и район",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 294,
+      "participants_count_live": 294,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 294,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 291,
+      "excluded_already_in_target_count": 180,
+      "duplicate_across_source_chats_count": 90,
+      "unique_ids_added_count": 21
+    },
+    {
+      "chat_id": -68837898619430,
+      "title": "Всё для дома",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 256,
+      "participants_count_live": 256,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 256,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 251,
+      "excluded_already_in_target_count": 139,
+      "duplicate_across_source_chats_count": 79,
+      "unique_ids_added_count": 33
+    },
+    {
+      "chat_id": -70763942726356,
+      "title": "СЕМИКАРАКОРСК LIVE",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 242,
+      "participants_count_live": 242,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 242,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 239,
+      "excluded_already_in_target_count": 188,
+      "duplicate_across_source_chats_count": 23,
+      "unique_ids_added_count": 28
+    },
+    {
+      "chat_id": -68837819648550,
+      "title": "Продукты из дома.  Семикаракорск  и соседи",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 223,
+      "participants_count_live": 223,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 223,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 218,
+      "excluded_already_in_target_count": 139,
+      "duplicate_across_source_chats_count": 52,
+      "unique_ids_added_count": 27
+    },
+    {
+      "chat_id": -68838106630694,
+      "title": "Домашние животные СМК",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 186,
+      "participants_count_live": 186,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 186,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 181,
+      "excluded_already_in_target_count": 98,
+      "duplicate_across_source_chats_count": 48,
+      "unique_ids_added_count": 35
+    },
+    {
+      "chat_id": -68838055250470,
+      "title": "Говорит и показывает Семикаракорск и Ростовская область",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 144,
+      "participants_count_live": 144,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 144,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 140,
+      "excluded_already_in_target_count": 74,
+      "duplicate_across_source_chats_count": 53,
+      "unique_ids_added_count": 13
+    },
+    {
+      "chat_id": -68837761911334,
+      "title": "Недвижимость СМК",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 80,
+      "participants_count_live": 80,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 80,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 76,
+      "excluded_already_in_target_count": 39,
+      "duplicate_across_source_chats_count": 31,
+      "unique_ids_added_count": 6
+    }
+  ],
+  "failed_source_chats": []
+}

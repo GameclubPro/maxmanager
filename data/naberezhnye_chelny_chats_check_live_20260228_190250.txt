@@ -1,0 +1,35 @@
+checked_at: 2026-02-28T19:02:50.784Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 289
+matched_count: 7
+active_matched_count: 7
+
+1. Набережные Челны Объявления | Новости
+   chat_id=-71555053434989 status=active type=chat participants=4
+   matched_fields=title
+   link=-
+2. Авито г.Набережные Челны
+   chat_id=-69362966203131 status=active type=chat participants=1045
+   matched_fields=title,description
+   link=https://max.ru/join/LncXGWj08je54BZor6775_7hc1aA6p2t090LorHg7pA
+3. Барахолка Набережные Челны
+   chat_id=-69336818117251 status=active type=chat participants=581
+   matched_fields=title
+   link=https://max.ru/join/UZqc3gHPOVSkRMDW4qPXIJDnFkfvloq289U_GtUnlHs
+4. Объявления Набережные Челны
+   chat_id=-69317248912081 status=active type=chat participants=366
+   matched_fields=title
+   link=https://max.ru/join/GvJo393TPGlhK62GOXQX68CrJ3JrYIiAElQ0NxMTh-E
+5. 24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ
+   chat_id=-69319071228091 status=active type=chat participants=330
+   matched_fields=title
+   link=https://max.ru/join/zWItvTTyPcH86TryiudmV0_6O2xH_PHlyZFCoxrzHJU
+6. НАБЕРЕЖНЫЕ ЧЕЛНЫ - ДОСКА ОБЪЯВЛЕНИЙ
+   chat_id=-68325432817115 status=active type=chat participants=260
+   matched_fields=title
+   link=https://max.ru/join/vkvAkky3N49itlbZeQ6OLhfBVRJ0PtgNjvT5rDO2wXA
+7. Объявление Набережные челны
+   chat_id=-69310843032958 status=active type=chat participants=264
+   matched_fields=title
+   link=https://max.ru/join/8grJeDJ6vnK3--UdG-amAtzK6LvoHXLvl4bFeGgMsIU

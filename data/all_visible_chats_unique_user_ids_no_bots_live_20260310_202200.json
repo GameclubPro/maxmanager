@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-03-10T20:22:00.902Z",
+  "bot": {
+    "user_id": 219708220,
+    "name": "Чатен",
+    "username": "id613000010769_2_bot"
+  },
+  "total_visible_active_chats": 7,
+  "total_unique_human_user_ids": 3519,
+  "chats": [
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "participants_count": 333,
+      "fetched_members": 333,
+      "human_members": 331,
+      "bot_members": 2,
+      "pages": 4
+    },
+    {
+      "chat_id": -69666988100275,
+      "title": "АНТИ ДПС БЕССКОРБНАЯ-СОВЕТСКАЯ😎",
+      "participants_count": 1040,
+      "fetched_members": 1040,
+      "human_members": 1038,
+      "bot_members": 2,
+      "pages": 11
+    },
+    {
+      "chat_id": -69375202506029,
+      "title": "Светофор станица Советская",
+      "participants_count": 1148,
+      "fetched_members": 1148,
+      "human_members": 1146,
+      "bot_members": 2,
+      "pages": 12
+    },
+    {
+      "chat_id": -68829265182787,
+      "title": "Советская_Армавир",
+      "participants_count": 528,
+      "fetched_members": 528,
+      "human_members": 526,
+      "bot_members": 2,
+      "pages": 6
+    },
+    {
+      "chat_id": -68829228220483,
+      "title": "Юла_Советская_Армавир",
+      "participants_count": 421,
+      "fetched_members": 421,
+      "human_members": 419,
+      "bot_members": 2,
+      "pages": 5
+    },
+    {
+      "chat_id": -68829256990787,
+      "title": "СТАНИЧНИКИ_Советская",
+      "participants_count": 944,
+      "fetched_members": 944,
+      "human_members": 942,
+      "bot_members": 2,
+      "pages": 10
+    },
+    {
+      "chat_id": -69489977928320,
+      "title": "Советская - Бесскорбная ОБЪЯВЛЕНИЯ",
+      "participants_count": 2364,
+      "fetched_members": 2364,
+      "human_members": 2362,
+      "bot_members": 2,
+      "pages": 24
+    }
+  ],
+  "output_txt": "data/all_visible_chats_unique_user_ids_no_bots_live_20260310_202200.txt"
+}

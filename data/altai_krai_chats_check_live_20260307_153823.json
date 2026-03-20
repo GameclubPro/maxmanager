@@ -1,0 +1,193 @@
+{
+  "city": "Алтайский край",
+  "city_filter": "strict expanded filter: explicit Altai Krai markers + Altai word marker + Altai Krai cities + unique district markers, with Republic Altai exclusion",
+  "checked_at_local": "2026-03-07T12:38:23.098Z",
+  "total_chats_seen": 278,
+  "pages": 3,
+  "matched_city_chats_count": 11,
+  "matched_city_chats": [
+    {
+      "chat_id": -68766764627431,
+      "title": "Районы22: Новости и объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 7473,
+      "link": "https://max.ru/join/avJsXZIc6_nrGrhUmj28dEm569JRM6okpqWyqDFeaUo",
+      "description": "🫶Живете в Алтайском крае? Станьте ближе друг к другу!\n♻️Мы создали эту площадку, чтобы сблизить соседей\n💬Здесь можно общаться, продавать свои вещи,слушать музыку и делиться новостями.\n💯Нельзя:\nрекламировать сомнительные услуги гадания, рассылки, карты, займы и тп \n📎Вступай в наши группы sibir2.ru/connect \n💸Реклама sibir2.ru/lending\n🧲Ссылки только через админа",
+      "match_confidence": "high",
+      "match_reasons": [
+        "explicit_altai_krai_marker",
+        "altai_word_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68062282577383,
+      "title": "Горняк22 | ЧАТ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1693,
+      "link": "https://max.ru/join/k8YCa_Gf-xSQI68IBfZQYiIp8Qxm6W3yZv1ioWf-avw",
+      "description": "❄️Новости и объявления Горняка\n👁️‍🗨️Чат модерируется , ссылки удаляются вместе с авторами.\n\nВсе что не запрещено правилами, нормами этики и Российским законодательством- разрешено.\n\n📣Новости в телеграм t.me/gornyak22ru\n🗞️Реклама sibir2.ru/lending\n🔌Наши группы sibir2.ru/connect",
+      "match_confidence": "high",
+      "match_reasons": [
+        "explicit_altai_krai_marker",
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -70269868378839,
+      "title": "Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1550,
+      "link": "https://max.ru/join/hrSLuR7lgUqQiOBDRlL9OW0KTDFp0E0rq5ZYk0x2lqE",
+      "description": "📋 ПРАВИЛА ГРУППЫ: Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие\n🔗 Ссылка: https://max.ru/join/hrSLuR7lgUqQiOBDRlL9OW0KTDFp0E0rq5ZYk0x2lqE\nПриветствуем!\nОбязательно:\n• Уважение к участникам\n• Соблюдение тематики\n• Привлечь внимание админа - пишите в группу !АДМИН\n• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68100590532071,
+      "title": "Рубцовск Онлайн",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1481,
+      "link": "https://max.ru/join/E3Ohu-ZYHTnwcl1FqVWSAYoINpL5GlKEX0cyaPPkqZc",
+      "description": "",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70138755610087,
+      "title": "Алтайский район | Объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1243,
+      "link": "https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w",
+      "description": "📋 ПРАВИЛА ГРУППЫ: Алтайский район | Объявления\n🔗 Ссылка: https://max.ru/join/8WyCff16tHcwamI1HVjPaf-7TlCfCXzDJErNlWiVZ7w\nПриветствуем!\nОбязательно:\n• Уважение к участникам\n• Соблюдение тематики\n• Привлечь внимание админа - пишите в группу !АДМИН\n• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_word_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -70138559329767,
+      "title": "АЛТАЙСКОЕ | Новости и объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1240,
+      "link": "https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164",
+      "description": "📋 ПРАВИЛА ГРУППЫ: АЛТАЙСКОЕ | Новости и объявления\n🔗 Ссылка: https://max.ru/join/I9iM_KVBhOU3_e4srlntytxdfLABAktC0AgcrQdw164\nПриветствуем!\nОбязательно:\n• Уважение к участникам\n• Соблюдение тематики\n• Привлечь внимание админа - пишите в группу !АДМИН\n• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_word_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -70239350557399,
+      "title": "МОЙ БАРНАУЛ | Объявления и новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 971,
+      "link": "https://max.ru/join/vJY2QQA4oKXvrjMtOTRUFtJlrqJ23TgUCy2mGSPar1k",
+      "description": "📋 ПРАВИЛА ГРУППЫ: ОБЪЯВЛЕНИЯ БАРНАУЛ\n🔗 Ссылка: https://max.ru/join/mlA9u6tz0mN5u9WzMVhHPLTJ64lOWr4bISVu7ECLwFw\nПриветствуем!\nОбязательно:\n• Уважение к участникам\n• Соблюдение тематики\n• Привлечь внимание админа - пишите в группу !АДМИН\n• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68107349849575,
+      "title": "Барнаул22",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 916,
+      "link": "https://max.ru/join/wbi2gYhfBGLDb7Yu_qpeo8PbnYde4EhOUOwedtCd7sA",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68093117986279,
+      "title": "Рубцовск- новости, чат, объявления",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 849,
+      "link": "https://max.ru/join/sAyBUZcTmxx9qmMxWy3sNTk6g7sl1L3CblA4h5VMgAg",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68107343754727,
+      "title": "Авто Барнаул — Продажа/Покупка",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 381,
+      "link": "https://max.ru/join/hByTBfz76XEbcucu_BeTILn8svcF1EweL1l0-U95CT8",
+      "description": "",
+      "match_confidence": "high",
+      "match_reasons": [
+        "altai_krai_city_marker"
+      ],
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71539997208039,
+      "title": "АвтоМотоВело(фото) | Мамонтовский",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 360,
+      "link": "https://max.ru/join/yWdOBxG6Dp04jh-FVuHaKc1S27pPo0zVDnZ_eh2JHVo",
+      "description": "📋 ПРАВИЛА ГРУППЫ: АвтоМотоВело(фото) | Мамонтовский\n🔗 Ссылка: https://max.ru/join/yWdOBxG6Dp04jh-FVuHaKc1S27pPo0zVDnZ_eh2JHVo\nПриветствуем!\nОбязательно:\n• Уважение к участникам\n• Соблюдение тематики\n• Привлечь внимание админа - пишите в группу !АДМИН\n• Ссылки - только через админа, их вместе с авторами модер удалит автоматически!",
+      "match_confidence": "medium",
+      "match_reasons": [
+        "altai_krai_unique_district_marker"
+      ],
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    }
+  ]
+}

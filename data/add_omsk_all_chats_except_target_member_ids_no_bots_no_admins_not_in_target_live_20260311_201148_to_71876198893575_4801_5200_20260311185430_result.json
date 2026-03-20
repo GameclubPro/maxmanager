@@ -1,0 +1,274 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148.txt",
+    "total_ids_in_source_file": 6431
+  },
+  "target_chat": {
+    "chat_id": -71876198893575,
+    "title": "Омск Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 3482,
+    "after_participants_count": 3802
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1773249533843,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773236933241,
+          "permissions": [
+            "change_chat_info",
+            "can_call",
+            "add_remove_members"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773255272889,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 4800,
+    "end_index_exclusive_0_based": 5200,
+    "range_human": "4801-5200",
+    "requested_count": 400,
+    "selected_count": 400,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 5200,
+    "pause_jitter_ms": 300,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 35,
+    "target_snapshot_members_count": 3482
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 390,
+  "verified_added_count": 321,
+  "still_not_in_target_from_attempted_count": 79,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 79,
+  "failed_by_code": {
+    "unknown_error": 10
+  },
+  "failed_by_status": {
+    "null": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    118697541,
+    118716834,
+    118772416,
+    118801021,
+    118804934,
+    118815380,
+    118841671,
+    118854981,
+    118867464,
+    118874307,
+    118879047,
+    118882587,
+    118890588,
+    118900159,
+    118955490,
+    118955681,
+    118957418,
+    119008542,
+    119023681,
+    119039546,
+    119048054,
+    119071171,
+    119151120,
+    119153181,
+    119202625,
+    119244874,
+    119248333,
+    119275359,
+    119277217,
+    119279899,
+    119318333,
+    119356476,
+    119372088,
+    119403364,
+    119591941,
+    119598076,
+    119640099,
+    119644188,
+    119674376,
+    119675549,
+    119683863,
+    119701318,
+    119724667,
+    119726506,
+    119728189,
+    119736992,
+    119753214,
+    119757412,
+    119797189,
+    119809875
+  ],
+  "sample_still_missing_ids": [
+    118691945,
+    118749440,
+    119005352,
+    119206600,
+    119258141,
+    119314136,
+    119442753,
+    119453094,
+    119466984,
+    119473251,
+    119485658,
+    119496023,
+    119513350,
+    119552768,
+    119564711,
+    119587713,
+    119768480,
+    119933499,
+    119982074,
+    120007543,
+    120127130,
+    120329536,
+    120336870,
+    120480897,
+    120791775,
+    120876474,
+    121001157,
+    121618695,
+    121712645,
+    122109923,
+    122120899,
+    122169422,
+    122170912,
+    122173091,
+    122311501,
+    122404354,
+    122461278,
+    122652002,
+    122656995,
+    123144255,
+    123185948,
+    123403220,
+    123448697,
+    123575331,
+    123819887,
+    123838912,
+    123925978,
+    123941420,
+    124061361,
+    124091112
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 119442753,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119453094,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119466984,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119473251,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119485658,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119496023,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119513350,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119552768,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119564711,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 119587713,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-03-11T18:59:06.486Z"
+}

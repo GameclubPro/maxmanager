@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-03-09T08:23:23.545Z",
+  "source_file": "data/altai_krai_all_chats_member_ids_no_bots_no_admins_live_20260307_154321.txt",
+  "target_chat": {
+    "chat_id": -71759588984839,
+    "title": "Алтайский край Объявления | Новости",
+    "participants_count": 5974
+  },
+  "target_members_snapshot": {
+    "unique_member_ids": 5974,
+    "pages": 60
+  },
+  "source_ids_before": 14148,
+  "removed_as_already_in_target": 5215,
+  "source_ids_after": 8933,
+  "backup_file": "data/altai_krai_all_chats_member_ids_no_bots_no_admins_live_20260307_154321_backup_before_prune_20260309_112323.txt",
+  "removed_file": "data/removed_already_in_target_71759588984839_20260309_112323.txt"
+}

@@ -1,0 +1,35 @@
+checked_at: 2026-02-28T22:32:08.817Z
+bot_user_id: 213352639
+bot_username: id613002203036_3_bot
+total_chats_seen: 305
+matched_count: 7
+active_matched_count: 7
+
+1. Барахолочка Анапа
+   chat_id=-70847853010993 status=active type=chat participants=177
+   matched_fields=title
+   link=https://max.ru/join/xgzAcX1aI8YsmAqHcj3SsHS6VPZtu79xKN02WN64jyE
+2. Анапа Объявление | Новости
+   chat_id=-71489685325831 status=active type=chat participants=236
+   matched_fields=title
+   link=-
+3. АНАПА Live | Новости • Общение
+   chat_id=-71045154657746 status=active type=chat participants=46
+   matched_fields=title
+   link=https://max.ru/join/OsUmIUSeKRSF9iM7A20v97YYAgpL5GyoYvw0ELRPZUk
+4. АНАПА Live | Куплю • Продам
+   chat_id=-71045166650834 status=active type=chat participants=39
+   matched_fields=title
+   link=https://max.ru/join/-bkdKwUqet8mZYvzIzNcqZ2HtpZ7yeX1wKVG7Of6PJ4
+5. 06/Анапа
+   chat_id=-70704271488349 status=active type=chat participants=94
+   matched_fields=title
+   link=https://max.ru/join/07OnQRfTPTLBsW5v5Ts5kBkQFG8KlvJRJAEllLD6EWc
+6. АНАПА Live | Работа • Вакансии
+   chat_id=-71045173663186 status=active type=chat participants=23
+   matched_fields=title
+   link=https://max.ru/join/0BZYT2AItZ-cpPMfCmFA1KpxmLWsWLlmocthsMP_4ww
+7. ОКЕАН магазин рыбы и морепродуктов
+   chat_id=-68837922534767 status=active type=chat participants=423
+   matched_fields=description
+   link=https://max.ru/join/pmJJNYu14upjscDYbdjDw4Mg7GTcOjFUcReUNmCeNBE

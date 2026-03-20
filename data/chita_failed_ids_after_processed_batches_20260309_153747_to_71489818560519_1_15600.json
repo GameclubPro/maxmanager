@@ -1,0 +1,10 @@
+{
+  "source_file": "data/chita_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260309_153747.txt",
+  "target_chat_id": -71489818560519,
+  "based_on_result_files_count": 0,
+  "processed_ranges": [],
+  "missing_ids_raw_total_from_all_still_missing_files": 0,
+  "missing_ids_unique_count": 0,
+  "output_txt_file": "data/chita_failed_ids_after_processed_batches_20260309_153747_to_71489818560519_1_15600.txt",
+  "output_txt_scope": "IDs that were not added in processed batches (aggregated still_missing)"
+}

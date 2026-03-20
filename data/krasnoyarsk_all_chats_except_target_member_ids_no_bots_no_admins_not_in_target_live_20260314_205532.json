@@ -1,0 +1,436 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-14T17:55:32.158Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "city": "Красноярск",
+  "city_filter": "title|description|link contains /(краснояр)/iu",
+  "target_chat": {
+    "chat_id": -71506932434951,
+    "title": "Красноярск Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "participants_count": 1788,
+    "target_members_scanned": 1788,
+    "target_members_pages": 18
+  },
+  "total_chats_seen": 642,
+  "total_chats_pages": 7,
+  "city_chats_count_including_target": 21,
+  "source_chats_count_requested": 20,
+  "source_chat_ids_requested": [
+    -68455183114412,
+    -68050433045850,
+    -69367809466498,
+    -68996152265254,
+    -71875032526942,
+    -68770566548054,
+    -69530820763778,
+    -68210864777817,
+    -69576572493954,
+    -68874138462806,
+    -69039900344396,
+    -70236965442831,
+    -69571714769026,
+    -68852049668697,
+    -69672071618690,
+    -69530304405634,
+    -69443650570775,
+    -69410480564786,
+    -70115421547097,
+    -68717273423882
+  ],
+  "source_chats_count_processed": 20,
+  "source_chats": [
+    {
+      "chat_id": -68455183114412,
+      "title": "Доска объявлений/Недвижимость/Работа/Услуги/Реклама/г.Красноярск",
+      "participants_count": 4689
+    },
+    {
+      "chat_id": -68050433045850,
+      "title": "Объявления Красноярск",
+      "participants_count": 1217
+    },
+    {
+      "chat_id": -69367809466498,
+      "title": "БАРАХОЛКА. КРАСНОЯРСК И КРАЙ. ХАКАСИЯ",
+      "participants_count": 1178
+    },
+    {
+      "chat_id": -68996152265254,
+      "title": "КРАСНОЯРСК и КРАЙ - 24 РЕГИОН",
+      "participants_count": 1015
+    },
+    {
+      "chat_id": -71875032526942,
+      "title": "Красноярск Объявления | Работа |Вакансии",
+      "participants_count": 881
+    },
+    {
+      "chat_id": -68770566548054,
+      "title": "КРАСНОЯРСК ПРАВЫЙ БЕРЁГ",
+      "participants_count": 687
+    },
+    {
+      "chat_id": -69530820763778,
+      "title": "КРАСНОЯРСК И ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 672
+    },
+    {
+      "chat_id": -68210864777817,
+      "title": "ВЕСЬ‼️КРАСНОЯРСК‼️ЗДЕСЬ",
+      "participants_count": 643
+    },
+    {
+      "chat_id": -69576572493954,
+      "title": "Объявления и ССЫЛКИ КРАСНОЯРСК, КР. КРАЙ И ХАКАСИЯ (max)",
+      "participants_count": 583
+    },
+    {
+      "chat_id": -68874138462806,
+      "title": "ЛЕНИНСКИЙ СОЛНЕЧНЫЙ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 580
+    },
+    {
+      "chat_id": -69039900344396,
+      "title": "ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 577
+    },
+    {
+      "chat_id": -70236965442831,
+      "title": "Торговая Площадка Берёзовка, Красноярский Край",
+      "participants_count": 530
+    },
+    {
+      "chat_id": -69571714769026,
+      "title": "ОКТЯБРЬСКИЙ РАЙОН. КРАСНОЯРСК",
+      "participants_count": 488
+    },
+    {
+      "chat_id": -68852049668697,
+      "title": "БАРАХОЛКА🛍️ЛЕВЫЙ БЕРЕГ🛍️КРАСНОЯРСК",
+      "participants_count": 461
+    },
+    {
+      "chat_id": -69672071618690,
+      "title": "НЕДВИЖИМОСТЬ КРАСНОЯРСК и КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 453
+    },
+    {
+      "chat_id": -69530304405634,
+      "title": "ЛЕВЫЙ БЕРЕГ. КРАСНОЯРСК",
+      "participants_count": 412
+    },
+    {
+      "chat_id": -69443650570775,
+      "title": "ОБЪЯВЛЕНИЯ Дрокино-Емельяново-Солонцы-Борцы-Красноярск",
+      "participants_count": 344
+    },
+    {
+      "chat_id": -69410480564786,
+      "title": "ПОКУПАЕМ-ПРОДАЁМ. Респ. Хакасия и юг края.",
+      "participants_count": 329
+    },
+    {
+      "chat_id": -70115421547097,
+      "title": "ТОЛЬКО ССЫЛКИ! КРАСНОЯРСКИЙ КРАЙ!",
+      "participants_count": 242
+    },
+    {
+      "chat_id": -68717273423882,
+      "title": "АвтоБарахолка Красноярского края",
+      "participants_count": 173
+    }
+  ],
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -68455183114412,
+      "title": "Доска объявлений/Недвижимость/Работа/Услуги/Реклама/г.Красноярск",
+      "participants_count": 4689,
+      "members_scanned": 4689,
+      "pagination_pages": 47,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 887,
+      "skipped_duplicates_across_source": 0,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 3798,
+      "unique_new_from_chat": 3798
+    },
+    {
+      "chat_id": -68050433045850,
+      "title": "Объявления Красноярск",
+      "participants_count": 1217,
+      "members_scanned": 1217,
+      "pagination_pages": 13,
+      "skipped_bots": 5,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 333,
+      "skipped_duplicates_across_source": 142,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 876,
+      "unique_new_from_chat": 734
+    },
+    {
+      "chat_id": -69367809466498,
+      "title": "БАРАХОЛКА. КРАСНОЯРСК И КРАЙ. ХАКАСИЯ",
+      "participants_count": 1178,
+      "members_scanned": 1178,
+      "pagination_pages": 12,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 359,
+      "skipped_duplicates_across_source": 156,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 815,
+      "unique_new_from_chat": 659
+    },
+    {
+      "chat_id": -68996152265254,
+      "title": "КРАСНОЯРСК и КРАЙ - 24 РЕГИОН",
+      "participants_count": 1015,
+      "members_scanned": 1015,
+      "pagination_pages": 11,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 361,
+      "skipped_duplicates_across_source": 252,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 651,
+      "unique_new_from_chat": 399
+    },
+    {
+      "chat_id": -71875032526942,
+      "title": "Красноярск Объявления | Работа |Вакансии",
+      "participants_count": 881,
+      "members_scanned": 881,
+      "pagination_pages": 9,
+      "skipped_bots": 4,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 353,
+      "skipped_duplicates_across_source": 197,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 522,
+      "unique_new_from_chat": 325
+    },
+    {
+      "chat_id": -68770566548054,
+      "title": "КРАСНОЯРСК ПРАВЫЙ БЕРЁГ",
+      "participants_count": 687,
+      "members_scanned": 687,
+      "pagination_pages": 7,
+      "skipped_bots": 2,
+      "skipped_admins": 5,
+      "skipped_already_in_target": 267,
+      "skipped_duplicates_across_source": 228,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 413,
+      "unique_new_from_chat": 185
+    },
+    {
+      "chat_id": -69530820763778,
+      "title": "КРАСНОЯРСК И ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 672,
+      "members_scanned": 672,
+      "pagination_pages": 7,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 184,
+      "skipped_duplicates_across_source": 374,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 484,
+      "unique_new_from_chat": 110
+    },
+    {
+      "chat_id": -68210864777817,
+      "title": "ВЕСЬ‼️КРАСНОЯРСК‼️ЗДЕСЬ",
+      "participants_count": 643,
+      "members_scanned": 643,
+      "pagination_pages": 7,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 201,
+      "skipped_duplicates_across_source": 292,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 438,
+      "unique_new_from_chat": 146
+    },
+    {
+      "chat_id": -69576572493954,
+      "title": "Объявления и ССЫЛКИ КРАСНОЯРСК, КР. КРАЙ И ХАКАСИЯ (max)",
+      "participants_count": 583,
+      "members_scanned": 583,
+      "pagination_pages": 6,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 110,
+      "skipped_duplicates_across_source": 395,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 469,
+      "unique_new_from_chat": 74
+    },
+    {
+      "chat_id": -68874138462806,
+      "title": "ЛЕНИНСКИЙ СОЛНЕЧНЫЙ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 580,
+      "members_scanned": 580,
+      "pagination_pages": 6,
+      "skipped_bots": 1,
+      "skipped_admins": 5,
+      "skipped_already_in_target": 216,
+      "skipped_duplicates_across_source": 303,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 358,
+      "unique_new_from_chat": 55
+    },
+    {
+      "chat_id": -69039900344396,
+      "title": "ВЕСЬ КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 577,
+      "members_scanned": 577,
+      "pagination_pages": 6,
+      "skipped_bots": 1,
+      "skipped_admins": 4,
+      "skipped_already_in_target": 196,
+      "skipped_duplicates_across_source": 334,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 376,
+      "unique_new_from_chat": 42
+    },
+    {
+      "chat_id": -70236965442831,
+      "title": "Торговая Площадка Берёзовка, Красноярский Край",
+      "participants_count": 530,
+      "members_scanned": 530,
+      "pagination_pages": 6,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 128,
+      "skipped_duplicates_across_source": 179,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 400,
+      "unique_new_from_chat": 221
+    },
+    {
+      "chat_id": -69571714769026,
+      "title": "ОКТЯБРЬСКИЙ РАЙОН. КРАСНОЯРСК",
+      "participants_count": 488,
+      "members_scanned": 488,
+      "pagination_pages": 5,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 114,
+      "skipped_duplicates_across_source": 349,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 370,
+      "unique_new_from_chat": 21
+    },
+    {
+      "chat_id": -68852049668697,
+      "title": "БАРАХОЛКА🛍️ЛЕВЫЙ БЕРЕГ🛍️КРАСНОЯРСК",
+      "participants_count": 461,
+      "members_scanned": 461,
+      "pagination_pages": 5,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_already_in_target": 145,
+      "skipped_duplicates_across_source": 258,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 312,
+      "unique_new_from_chat": 54
+    },
+    {
+      "chat_id": -69672071618690,
+      "title": "НЕДВИЖИМОСТЬ КРАСНОЯРСК и КРАСНОЯРСКИЙ КРАЙ",
+      "participants_count": 453,
+      "members_scanned": 453,
+      "pagination_pages": 5,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 61,
+      "skipped_duplicates_across_source": 357,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 388,
+      "unique_new_from_chat": 31
+    },
+    {
+      "chat_id": -69530304405634,
+      "title": "ЛЕВЫЙ БЕРЕГ. КРАСНОЯРСК",
+      "participants_count": 412,
+      "members_scanned": 412,
+      "pagination_pages": 5,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 93,
+      "skipped_duplicates_across_source": 304,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 315,
+      "unique_new_from_chat": 11
+    },
+    {
+      "chat_id": -69443650570775,
+      "title": "ОБЪЯВЛЕНИЯ Дрокино-Емельяново-Солонцы-Борцы-Красноярск",
+      "participants_count": 344,
+      "members_scanned": 344,
+      "pagination_pages": 4,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_already_in_target": 134,
+      "skipped_duplicates_across_source": 158,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 207,
+      "unique_new_from_chat": 49
+    },
+    {
+      "chat_id": -69410480564786,
+      "title": "ПОКУПАЕМ-ПРОДАЁМ. Респ. Хакасия и юг края.",
+      "participants_count": 329,
+      "members_scanned": 329,
+      "pagination_pages": 4,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 68,
+      "skipped_duplicates_across_source": 154,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 259,
+      "unique_new_from_chat": 105
+    },
+    {
+      "chat_id": -70115421547097,
+      "title": "ТОЛЬКО ССЫЛКИ! КРАСНОЯРСКИЙ КРАЙ!",
+      "participants_count": 242,
+      "members_scanned": 242,
+      "pagination_pages": 3,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 73,
+      "skipped_duplicates_across_source": 145,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 167,
+      "unique_new_from_chat": 22
+    },
+    {
+      "chat_id": -68717273423882,
+      "title": "АвтоБарахолка Красноярского края",
+      "participants_count": 173,
+      "members_scanned": 173,
+      "pagination_pages": 2,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_already_in_target": 26,
+      "skipped_duplicates_across_source": 108,
+      "skipped_invalid": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 145,
+      "unique_new_from_chat": 37
+    }
+  ],
+  "stats": {
+    "unique_ids_final": 7078,
+    "unique_admin_ids_seen": 24,
+    "unique_bot_ids_seen": 8
+  },
+  "output_txt_file": "data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt"
+}

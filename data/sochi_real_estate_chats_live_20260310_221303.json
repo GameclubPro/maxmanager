@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-10T19:13:03.596Z",
+  "city": "Сочи",
+  "scope": "all chats visible to bot token via getAllChats()",
+  "city_filter": "title|description|link contains /(сочи|sochi)/iu",
+  "real_estate_filter": "strict title match or description/link match on real estate keywords",
+  "total_visible_chats": 361,
+  "total_pages": 4,
+  "city_chats_count": 4,
+  "matched_chats_count": 1,
+  "matched_chats": [
+    {
+      "chat_id": -71765135362055,
+      "title": "НЕДВИЖИМОСТЬ | Сочи",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 8,
+      "is_public": false,
+      "link": null,
+      "description": "Чат о недвижимости Сочи. Публикуем только темы по недвижимости: покупка, продажа, аренда, новостройки, инвестиции. Спам и ссылки запрещены.",
+      "matched_by": [
+        "title"
+      ]
+    }
+  ],
+  "city_chats_preview": [
+    {
+      "chat_id": -68064217716160,
+      "title": "Сарафан чат| Рекомендации Сочи |🌴",
+      "participants_count": 2955,
+      "status": "active",
+      "link": "https://max.ru/join/aRnO3Ix-Qke8rpt_JONWfAQPxQ3vaoJNwWKFwQtbAeo"
+    },
+    {
+      "chat_id": -69263233818655,
+      "title": "💬НАШ ❤️ СОЧИ - АДЛЕР",
+      "participants_count": 1801,
+      "status": "active",
+      "link": "https://max.ru/join/bawAmq0PM8qYkGyi-Ho0fjQ0EwEYqVtnnEp67d6s0Gc"
+    },
+    {
+      "chat_id": -71826646159505,
+      "title": "Объявления Сочи",
+      "participants_count": 258,
+      "status": "active",
+      "link": "https://max.ru/join/TPUMXCgbdpk6lpyyGJWh-3bQHOx2aoFdvu4OvaqKv8Y"
+    },
+    {
+      "chat_id": -71765135362055,
+      "title": "НЕДВИЖИМОСТЬ | Сочи",
+      "participants_count": 8,
+      "status": "active",
+      "link": null
+    }
+  ]
+}

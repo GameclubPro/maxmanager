@@ -1,0 +1,283 @@
+[loop] started_at=2026-03-11 18:56:07 MSK
+[loop] source_file=data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt
+[loop] target_chat_id=-71765135362055
+[loop] total_ids=4181
+[loop] first_start=1200
+[loop] batch_size=400 invite_batch_size=10 sleep_between_batches_sec=60
+[loop] log_file=data/sochi_autorun_20260311_185607.log
+[loop] batch_begin range=1201-1600 start=1200 count=400 at 2026-03-11 18:56:07 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 1200 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 910 members across 10 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 270,
+  "verified_added_count": 239,
+  "still_not_in_target_from_this_chunk_count": 161,
+  "before_participants_count": 910,
+  "after_participants_count": 1149,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_1201_1600_20260311155608_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_1201_1600_20260311155608.txt"
+}
+[loop] batch_end range=1201-1600 exit_status=0 at 2026-03-11 19:02:57 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:02:57 MSK
+[loop] batch_begin range=1601-2000 start=1600 count=400 at 2026-03-11 19:03:57 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 1600 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1149 members across 12 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 340,
+  "verified_added_count": 300,
+  "still_not_in_target_from_this_chunk_count": 100,
+  "before_participants_count": 1149,
+  "after_participants_count": 1448,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_1601_2000_20260311160357_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_1601_2000_20260311160357.txt"
+}
+[loop] batch_end range=1601-2000 exit_status=0 at 2026-03-11 19:09:14 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:09:14 MSK
+[loop] batch_begin range=2001-2400 start=2000 count=400 at 2026-03-11 19:10:14 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 2000 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1448 members across 15 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 360,
+  "verified_added_count": 323,
+  "still_not_in_target_from_this_chunk_count": 77,
+  "before_participants_count": 1448,
+  "after_participants_count": 1771,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2001_2400_20260311161014_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2001_2400_20260311161014.txt"
+}
+[loop] batch_end range=2001-2400 exit_status=0 at 2026-03-11 19:15:35 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:15:35 MSK
+[loop] batch_begin range=2401-2800 start=2400 count=400 at 2026-03-11 19:16:35 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 2400 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1767 members across 18 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 390,
+  "verified_added_count": 346,
+  "still_not_in_target_from_this_chunk_count": 54,
+  "before_participants_count": 1767,
+  "after_participants_count": 2103,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2401_2800_20260311161635_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2401_2800_20260311161635.txt"
+}
+[loop] batch_end range=2401-2800 exit_status=0 at 2026-03-11 19:21:16 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:21:16 MSK
+[loop] batch_begin range=2801-3200 start=2800 count=400 at 2026-03-11 19:22:16 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 2800 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2102 members across 22 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 350,
+  "verified_added_count": 235,
+  "still_not_in_target_from_this_chunk_count": 165,
+  "before_participants_count": 2102,
+  "after_participants_count": 2400,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2801_3200_20260311162216_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_2801_3200_20260311162216.txt"
+}
+[loop] batch_end range=2801-3200 exit_status=0 at 2026-03-11 19:27:57 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:27:57 MSK
+[loop] batch_begin range=3201-3600 start=3200 count=400 at 2026-03-11 19:28:57 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 3200 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2400 members across 24 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 340,
+  "verified_added_count": 309,
+  "still_not_in_target_from_this_chunk_count": 91,
+  "before_participants_count": 2400,
+  "after_participants_count": 2707,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_3201_3600_20260311162858_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_3201_3600_20260311162858.txt"
+}
+[loop] batch_end range=3201-3600 exit_status=0 at 2026-03-11 19:34:17 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:34:17 MSK
+[loop] batch_begin range=3601-4000 start=3600 count=400 at 2026-03-11 19:35:17 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 3600 --count 400 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2707 members across 28 pages
+[run] Inviting 400 users to chat -71765135362055 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Progress: 400/400 users
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 370,
+  "verified_added_count": 323,
+  "still_not_in_target_from_this_chunk_count": 77,
+  "before_participants_count": 2707,
+  "after_participants_count": 3030,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_3601_4000_20260311163517_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_3601_4000_20260311163517.txt"
+}
+[loop] batch_end range=3601-4000 exit_status=0 at 2026-03-11 19:40:10 MSK
+[loop] sleeping_seconds=60 before_next_batch at 2026-03-11 19:40:10 MSK
+[loop] batch_begin range=4001-4181 start=4000 count=181 at 2026-03-11 19:41:10 MSK
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt --target-chat-id -71765135362055 --start 4000 --count 181 --invite-batch-size 10
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3030 members across 31 pages
+[run] Inviting 181 users to chat -71765135362055 in batches of 10 (19 calls)...
+[run] Progress: 50/181 users
+[run] Progress: 100/181 users
+[run] Progress: 150/181 users
+[run] Progress: 181/181 users
+[run] Verifying membership for 181 users...
+{
+  "ok": true,
+  "source_file": "data/sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805.txt",
+  "target_chat_id": -71765135362055,
+  "processed_count": 181,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 181,
+  "invited_without_immediate_failure_count": 131,
+  "verified_added_count": 48,
+  "still_not_in_target_from_this_chunk_count": 133,
+  "before_participants_count": 3030,
+  "after_participants_count": 3142,
+  "result_file": "data/add_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_4001_4181_20260311164111_result.json",
+  "still_missing_file": "data/still_missing_sochi_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_175805_to_71765135362055_4001_4181_20260311164111.txt"
+}
+[loop] batch_end range=4001-4181 exit_status=0 at 2026-03-11 19:44:40 MSK
+[loop] completed_at=2026-03-11 19:44:40 MSK

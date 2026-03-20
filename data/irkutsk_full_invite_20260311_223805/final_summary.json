@@ -1,0 +1,227 @@
+{
+  "ok": true,
+  "run_dir": "data/irkutsk_full_invite_20260311_223805",
+  "source_file": "data/irkutsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_223327.txt",
+  "target_chat_id": -71456680806407,
+  "started_at": "2026-03-11T22:38:05+03:00",
+  "finished_at": "2026-03-12T00:26:57+03:00",
+  "total_runtime_minutes": 108.87,
+  "batches_total": 20,
+  "transient_command_failures_recovered": 1,
+  "aborted_events_seen": 1,
+  "target_chat_participants_before_first_batch": 2468,
+  "target_chat_participants_after_last_batch": 8185,
+  "target_chat_participants_delta_by_counter": 5717,
+  "totals": {
+    "source_ids_total": 7704,
+    "attempted_invite_count": 7704,
+    "invited_without_immediate_failure_count": 7564,
+    "immediate_failures_count": 140,
+    "verified_added_count": 5724,
+    "still_missing_count": 1980,
+    "already_in_target_count": 0
+  },
+  "combined_still_missing_file": "data/irkutsk_full_invite_20260311_223805/still_missing_all.txt",
+  "per_batch": [
+    {
+      "range": "1-400",
+      "processed_count": 400,
+      "verified_added_count": 291,
+      "still_missing_count": 109,
+      "immediate_failures_count": 0,
+      "before_participants_count": 2468,
+      "after_participants_count": 2759,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/0_400"
+    },
+    {
+      "range": "401-800",
+      "processed_count": 400,
+      "verified_added_count": 327,
+      "still_missing_count": 73,
+      "immediate_failures_count": 0,
+      "before_participants_count": 2759,
+      "after_participants_count": 3086,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/400_800"
+    },
+    {
+      "range": "801-1200",
+      "processed_count": 400,
+      "verified_added_count": 357,
+      "still_missing_count": 43,
+      "immediate_failures_count": 0,
+      "before_participants_count": 3086,
+      "after_participants_count": 3442,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/800_1200"
+    },
+    {
+      "range": "1201-1600",
+      "processed_count": 400,
+      "verified_added_count": 354,
+      "still_missing_count": 46,
+      "immediate_failures_count": 0,
+      "before_participants_count": 3442,
+      "after_participants_count": 3795,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/1200_1600"
+    },
+    {
+      "range": "1601-2000",
+      "processed_count": 400,
+      "verified_added_count": 366,
+      "still_missing_count": 34,
+      "immediate_failures_count": 0,
+      "before_participants_count": 3795,
+      "after_participants_count": 4161,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/1600_2000"
+    },
+    {
+      "range": "2001-2400",
+      "processed_count": 400,
+      "verified_added_count": 359,
+      "still_missing_count": 41,
+      "immediate_failures_count": 0,
+      "before_participants_count": 4161,
+      "after_participants_count": 4520,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/2000_2400"
+    },
+    {
+      "range": "2401-2800",
+      "processed_count": 400,
+      "verified_added_count": 359,
+      "still_missing_count": 41,
+      "immediate_failures_count": 0,
+      "before_participants_count": 4520,
+      "after_participants_count": 4879,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/2400_2800"
+    },
+    {
+      "range": "2801-3200",
+      "processed_count": 400,
+      "verified_added_count": 355,
+      "still_missing_count": 45,
+      "immediate_failures_count": 0,
+      "before_participants_count": 4879,
+      "after_participants_count": 5234,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/2800_3200"
+    },
+    {
+      "range": "3201-3600",
+      "processed_count": 400,
+      "verified_added_count": 331,
+      "still_missing_count": 69,
+      "immediate_failures_count": 10,
+      "before_participants_count": 5234,
+      "after_participants_count": 5565,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/3200_3600"
+    },
+    {
+      "range": "3601-4000",
+      "processed_count": 400,
+      "verified_added_count": 308,
+      "still_missing_count": 92,
+      "immediate_failures_count": 20,
+      "before_participants_count": 5565,
+      "after_participants_count": 5873,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/3600_4000"
+    },
+    {
+      "range": "4001-4400",
+      "processed_count": 400,
+      "verified_added_count": 340,
+      "still_missing_count": 60,
+      "immediate_failures_count": 0,
+      "before_participants_count": 5873,
+      "after_participants_count": 6210,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/4000_4400"
+    },
+    {
+      "range": "4401-4800",
+      "processed_count": 400,
+      "verified_added_count": 356,
+      "still_missing_count": 44,
+      "immediate_failures_count": 0,
+      "before_participants_count": 6210,
+      "after_participants_count": 6566,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/4400_4800"
+    },
+    {
+      "range": "4801-5200",
+      "processed_count": 400,
+      "verified_added_count": 287,
+      "still_missing_count": 113,
+      "immediate_failures_count": 30,
+      "before_participants_count": 6566,
+      "after_participants_count": 6853,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/4800_5200"
+    },
+    {
+      "range": "5201-5600",
+      "processed_count": 400,
+      "verified_added_count": 250,
+      "still_missing_count": 150,
+      "immediate_failures_count": 20,
+      "before_participants_count": 6853,
+      "after_participants_count": 7102,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/5200_5600"
+    },
+    {
+      "range": "5601-6000",
+      "processed_count": 400,
+      "verified_added_count": 226,
+      "still_missing_count": 174,
+      "immediate_failures_count": 0,
+      "before_participants_count": 7102,
+      "after_participants_count": 7328,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/5600_6000"
+    },
+    {
+      "range": "6001-6400",
+      "processed_count": 400,
+      "verified_added_count": 191,
+      "still_missing_count": 209,
+      "immediate_failures_count": 10,
+      "before_participants_count": 7328,
+      "after_participants_count": 7519,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/6000_6400"
+    },
+    {
+      "range": "6401-6800",
+      "processed_count": 400,
+      "verified_added_count": 228,
+      "still_missing_count": 172,
+      "immediate_failures_count": 0,
+      "before_participants_count": 7519,
+      "after_participants_count": 7747,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/6400_6800"
+    },
+    {
+      "range": "6801-7200",
+      "processed_count": 400,
+      "verified_added_count": 203,
+      "still_missing_count": 197,
+      "immediate_failures_count": 20,
+      "before_participants_count": 7746,
+      "after_participants_count": 7949,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/6800_7200"
+    },
+    {
+      "range": "7201-7600",
+      "processed_count": 400,
+      "verified_added_count": 191,
+      "still_missing_count": 209,
+      "immediate_failures_count": 20,
+      "before_participants_count": 7949,
+      "after_participants_count": 8140,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/7200_7600"
+    },
+    {
+      "range": "7601-7704",
+      "processed_count": 104,
+      "verified_added_count": 45,
+      "still_missing_count": 59,
+      "immediate_failures_count": 10,
+      "before_participants_count": 8140,
+      "after_participants_count": 8185,
+      "result_file": "data/irkutsk_full_invite_20260311_223805/7600_7704"
+    }
+  ]
+}

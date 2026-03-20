@@ -1,0 +1,277 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/krasnoyarsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_205532.txt",
+    "total_ids_in_source_file": 7078
+  },
+  "target_chat": {
+    "chat_id": -71506932434951,
+    "title": "Красноярск Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 2352,
+    "after_participants_count": 2663
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773510457744,
+          "permissions": [
+            "add_remove_members",
+            "can_call"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773511580459,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 800,
+    "end_index_exclusive_0_based": 1200,
+    "range_human": "801-1200",
+    "requested_count": 400,
+    "selected_count": 400,
+    "run_to_end": false,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 4200,
+    "pause_jitter_ms": 200,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": true,
+    "split_action_failed_batch": true,
+    "stop_on_consecutive_action_failed": 2,
+    "run_to_end": false,
+    "wave_active_ms": 180000,
+    "wave_rest_ms": 60000,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 24,
+    "target_snapshot_members_count": 2352
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 390,
+  "verified_added_count": 311,
+  "still_not_in_target_from_attempted_count": 89,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 89,
+  "failed_by_code": {
+    "unknown_error": 10
+  },
+  "failed_by_status": {
+    "null": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    18606118,
+    18607493,
+    18618145,
+    18711566,
+    18712215,
+    18733373,
+    18757139,
+    18759579,
+    18784866,
+    18818726,
+    18834296,
+    18859690,
+    18871509,
+    18872480,
+    18881901,
+    18888278,
+    18891161,
+    18951215,
+    18951244,
+    18965377,
+    18991697,
+    19033953,
+    19042076,
+    19047110,
+    19061659,
+    19068263,
+    19131275,
+    19168670,
+    19168724,
+    19203211,
+    19208716,
+    19246986,
+    19252470,
+    19286141,
+    19330197,
+    19335174,
+    19424848,
+    19428473,
+    19459966,
+    19495596,
+    19540602,
+    19549411,
+    19577387,
+    19612380,
+    19634254,
+    19733394,
+    19748347,
+    19748899,
+    19755316,
+    19755614
+  ],
+  "sample_still_missing_ids": [
+    18670702,
+    18738965,
+    18780153,
+    18977556,
+    19012600,
+    19078235,
+    19082578,
+    19130092,
+    19268051,
+    19319504,
+    19433313,
+    19671131,
+    19685270,
+    19846520,
+    19949264,
+    20088186,
+    20247566,
+    20329524,
+    20345758,
+    20426361,
+    20514223,
+    20629474,
+    20667569,
+    20669859,
+    20772634,
+    20775473,
+    20780384,
+    21009246,
+    21071432,
+    21215141,
+    21493941,
+    21517669,
+    21792787,
+    21814896,
+    21847483,
+    22123844,
+    22210600,
+    22253393,
+    22311060,
+    22312645,
+    22493950,
+    22673801,
+    22721395,
+    22724502,
+    22761796,
+    22764343,
+    22924100,
+    22930095,
+    23624938,
+    23721253
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 24836406,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24849639,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24905002,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24918813,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24928487,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24943511,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24975487,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 24978420,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 25039666,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 25064822,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-03-14T18:10:03.603Z"
+}

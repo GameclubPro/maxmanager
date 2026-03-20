@@ -1,0 +1,540 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-16T17:48:15.759Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 662,
+  "total_active_chats_seen": 660,
+  "chats_pages_fetched": 7,
+  "city_filter": "live title/description match /(^|[^а-яa-z0-9])омск[а-я]*([^а-яa-z0-9]|$)/iu",
+  "target_chat": {
+    "chat_id": -71876198893575,
+    "title": "Омск Объявления | Новости",
+    "participants_count": 3555,
+    "target_members_scanned": 3555,
+    "target_members_pages_scanned": 36,
+    "target_unique_member_ids_count": 3555
+  },
+  "source_chats_count_requested": 30,
+  "source_chat_ids_requested": [
+    -71956885551816,
+    -69134722902638,
+    -69223321542705,
+    -69402140377284,
+    -68822639042717,
+    -69390694484512,
+    -69212160535120,
+    -69376942470631,
+    -69351270208831,
+    -68934223669840,
+    -69223080091820,
+    -69383366702567,
+    -69407787423099,
+    -70379046212990,
+    -69403964047556,
+    -69669233664013,
+    -69410613990779,
+    -70589779970733,
+    -69539111160355,
+    -69424664726051,
+    -70156709612268,
+    -69430072822307,
+    -69466345646672,
+    -69429733214755,
+    -68179256271005,
+    -69424590932515,
+    -70850277526051,
+    -69193941480794,
+    -71566525529596,
+    -68112658972751
+  ],
+  "source_chats_count_processed": 30,
+  "failed_chats_count": 0,
+  "source_chats": [
+    {
+      "chat_id": -71956885551816,
+      "title": "💯👋💯ОМСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 4999,
+      "link": null
+    },
+    {
+      "chat_id": -69134722902638,
+      "title": "Омск объявления",
+      "participants_count": 1061,
+      "link": "https://max.ru/join/2an3XzcZQP1PWDcGeXtcVUZxnqlHqRWjZZNco2rHJNo"
+    },
+    {
+      "chat_id": -69223321542705,
+      "title": "Объявления по Омску и Омской области.",
+      "participants_count": 975,
+      "link": "https://max.ru/join/ebJkbv_BDctZUjOtPMT92q8esnfmcrifmDOxeRjcQqU"
+    },
+    {
+      "chat_id": -69402140377284,
+      "title": "🐷Поросята🐷 Омск и область",
+      "participants_count": 544,
+      "link": "https://max.ru/join/a4j1N4jVhWGuOlPr9w9nyoXbbHqCqWeQOtbsTKxqeFo"
+    },
+    {
+      "chat_id": -68822639042717,
+      "title": "🔴🔵ОМСК+ОБЛАСТЬ. БАРАХОЛКА. Покупаем, продаём.",
+      "participants_count": 438,
+      "link": "https://max.ru/join/1wZX-EDN8wdZQTzeKWT8evTrNVMvOjYNKemxe9B2Pz8"
+    },
+    {
+      "chat_id": -69390694484512,
+      "title": "Барахолка Омск - Саргатское- Большеречье - Тара - Знаменка",
+      "participants_count": 421,
+      "link": "https://max.ru/join/e0ImTA_aeCYmWtvHQguqcwMbBh0Q4LzXbisZA8UH0Ok"
+    },
+    {
+      "chat_id": -69212160535120,
+      "title": "Объявления ОМСКА и Омской области 💬👊🛍️💥❤️‍🔥",
+      "participants_count": 402,
+      "link": "https://max.ru/join/dljjtlHIYRIrukgdCuqwPzpZb6cSKe8dQD8t1ELxhmc"
+    },
+    {
+      "chat_id": -69376942470631,
+      "title": "🔥Омская Барахолка🔥",
+      "participants_count": 398,
+      "link": "https://max.ru/join/MK9WA3f8oZRsyosH-Xxc7-L0QjhodD5iHXlQt5nsGQg"
+    },
+    {
+      "chat_id": -69351270208831,
+      "title": "Г. Омск Мир рукоделия 🔥🔥🔥",
+      "participants_count": 367,
+      "link": "https://max.ru/join/6pAI-cK9p08wQJxAosUerI2oKOER5rrssGsAGeDI7j0"
+    },
+    {
+      "chat_id": -68934223669840,
+      "title": "📣 🌷❤️‍🔥Московка Омск❤️‍🔥❤️‍🔥❤️‍🔥",
+      "participants_count": 354,
+      "link": "https://max.ru/join/TsYO3x341xKRycyw1k6TJA5sv1EoQRF7mtOjq0slahI"
+    },
+    {
+      "chat_id": -69223080091820,
+      "title": "Авторынок Омской области",
+      "participants_count": 353,
+      "link": "https://max.ru/join/t2ItJZ7yVcEr_lUTFBJ6oz_pOTmF2igyUwF6ycScKso"
+    },
+    {
+      "chat_id": -69383366702567,
+      "title": "🔥Тут Дешевле🔥 Омск",
+      "participants_count": 324,
+      "link": "https://max.ru/join/27LXgFgz8a3lRufbjVbhSK7q7yCX-OBdYBzMpihijAI"
+    },
+    {
+      "chat_id": -69407787423099,
+      "title": "Омск все районы бесплатные объявления",
+      "participants_count": 306,
+      "link": "https://max.ru/join/woM_4sNvhOwBgy-NZ7Tu5zclFdLjM7XEGbi6LRL6qBY"
+    },
+    {
+      "chat_id": -70379046212990,
+      "title": "Барахолка Омск",
+      "participants_count": 301,
+      "link": "https://max.ru/join/Q0TSoBQnGJl7jt5IKZrbwEptblWaUH6c4FV4VurJlbo"
+    },
+    {
+      "chat_id": -69403964047556,
+      "title": "Авторынок омск",
+      "participants_count": 281,
+      "link": "https://max.ru/join/3m5Y3L-59_kVweITC0bO62cDq7tvA-nNTg61jTZaJ2k"
+    },
+    {
+      "chat_id": -69669233664013,
+      "title": "Хитрый рынок Омска и Омской области",
+      "participants_count": 280,
+      "link": "https://max.ru/join/XzK4lUohkDbPkQEaDwFlxiZWPDKJeMEIcxW9_QTN2iU"
+    },
+    {
+      "chat_id": -69410613990779,
+      "title": "Недвижимость Омск-продажа, аренда",
+      "participants_count": 274,
+      "link": "https://max.ru/join/EMKwDY-qsiKvtNFJNYff3s2qlVLpIZoRmIPJWAeRvnw"
+    },
+    {
+      "chat_id": -70589779970733,
+      "title": "Корма в Омской области",
+      "participants_count": 225,
+      "link": "https://max.ru/join/McPhb4qKjUjClmxQK5VKfnWrPI80NRt4uAGbnYUMJww"
+    },
+    {
+      "chat_id": -69539111160355,
+      "title": "Объявление Регион 55 Омск",
+      "participants_count": 222,
+      "link": "https://max.ru/join/-xhEf8kFRrk1_M6CGPto-xn8ES2K6TfjZ02Y9O8twOg"
+    },
+    {
+      "chat_id": -69424664726051,
+      "title": "По Карману Омск",
+      "participants_count": 211,
+      "link": "https://max.ru/join/pbhyZveWfl5ZrwoteGLE3gDfZHVqQYlHdfe3DzEphd4"
+    },
+    {
+      "chat_id": -70156709612268,
+      "title": "Омск и Омская область купи продай!!!",
+      "participants_count": 199,
+      "link": "https://max.ru/join/Dko8ca2BS-7uXEiIo1rkSZUh_0YXwUOtW9Jne8CngNA"
+    },
+    {
+      "chat_id": -69430072822307,
+      "title": "Недвижимость Омск и Омская область.",
+      "participants_count": 191,
+      "link": "https://max.ru/join/SARhRi6Q4WzIPqoZ3ixY4yM821ZOWZcRm65F52sAeJY"
+    },
+    {
+      "chat_id": -69466345646672,
+      "title": "❤️‍🔥❤️‍🔥❤️‍🔥 Услуги Омск и омская область❤️‍🔥",
+      "participants_count": 176,
+      "link": "https://max.ru/join/_QWCkA3EI6rOR407jk0Hp1y_wkzGjxuxPhYCkwxcMUw"
+    },
+    {
+      "chat_id": -69429733214755,
+      "title": "Купить Продать Омск",
+      "participants_count": 164,
+      "link": "https://max.ru/join/fptnxV0k1OXtwdMIFOPXcoMycfcoBRTABS0IPtS6JK4"
+    },
+    {
+      "chat_id": -68179256271005,
+      "title": "🔴🔵Левый берег Омск и пригород. Объявления.",
+      "participants_count": 159,
+      "link": "https://max.ru/join/izGZIewSdETW_3p-rmtVTfPaQrisj00W7Zybjxqk5OI"
+    },
+    {
+      "chat_id": -69424590932515,
+      "title": "Автопроспект Омск и Омская область",
+      "participants_count": 146,
+      "link": "https://max.ru/join/d_ERmF5og-TIZRPCGaakbRu3CNEoc9Lb747_hML9_Ik"
+    },
+    {
+      "chat_id": -70850277526051,
+      "title": "Сельхоз Техника Омск и Омская область",
+      "participants_count": 92,
+      "link": "https://max.ru/join/nWQj87RYYAA0K_AjMe0BY6__E8w2rVW1xUKgqXFavfA"
+    },
+    {
+      "chat_id": -69193941480794,
+      "title": "@ОМСК@КУПИ@ПРОДАЙ@",
+      "participants_count": 79,
+      "link": "https://max.ru/join/5a1XNJbCgdN1UMxT0J-k_ugO3TrmHcC0OortgMwWykE"
+    },
+    {
+      "chat_id": -71566525529596,
+      "title": "Снять, сдать, продать недвижимость Омск и Омская область",
+      "participants_count": 53,
+      "link": "https://max.ru/join/iqmfdsvSoimGu1K80E2EuX_PX6hsEv2o57n104jnuUU"
+    },
+    {
+      "chat_id": -68112658972751,
+      "title": "АРЕНДА КВАРТИР | ОМСК | Посуточно и на длительный срок | Сниму | Сдам | Аренда жилья",
+      "participants_count": 46,
+      "link": "https://max.ru/join/pJKxBLOqxEEzgMouj2J4UKw2_Re2dsd_-LJSu3FduXg"
+    }
+  ],
+  "failed_chats": [],
+  "per_chat": [
+    {
+      "chat_id": -71956885551816,
+      "title": "💯👋💯ОМСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 4999,
+      "members_scanned": 4996,
+      "pages_scanned": 50,
+      "non_bots_non_admins": 4981,
+      "after_excluding_target_members": 3564,
+      "unique_new_from_chat": 3564
+    },
+    {
+      "chat_id": -69134722902638,
+      "title": "Омск объявления",
+      "participants_count": 1061,
+      "members_scanned": 1061,
+      "pages_scanned": 11,
+      "non_bots_non_admins": 1054,
+      "after_excluding_target_members": 392,
+      "unique_new_from_chat": 328
+    },
+    {
+      "chat_id": -69223321542705,
+      "title": "Объявления по Омску и Омской области.",
+      "participants_count": 975,
+      "members_scanned": 975,
+      "pages_scanned": 10,
+      "non_bots_non_admins": 972,
+      "after_excluding_target_members": 494,
+      "unique_new_from_chat": 373
+    },
+    {
+      "chat_id": -69402140377284,
+      "title": "🐷Поросята🐷 Омск и область",
+      "participants_count": 544,
+      "members_scanned": 544,
+      "pages_scanned": 6,
+      "non_bots_non_admins": 542,
+      "after_excluding_target_members": 367,
+      "unique_new_from_chat": 260
+    },
+    {
+      "chat_id": -68822639042717,
+      "title": "🔴🔵ОМСК+ОБЛАСТЬ. БАРАХОЛКА. Покупаем, продаём.",
+      "participants_count": 438,
+      "members_scanned": 438,
+      "pages_scanned": 5,
+      "non_bots_non_admins": 435,
+      "after_excluding_target_members": 244,
+      "unique_new_from_chat": 90
+    },
+    {
+      "chat_id": -69390694484512,
+      "title": "Барахолка Омск - Саргатское- Большеречье - Тара - Знаменка",
+      "participants_count": 421,
+      "members_scanned": 421,
+      "pages_scanned": 5,
+      "non_bots_non_admins": 419,
+      "after_excluding_target_members": 275,
+      "unique_new_from_chat": 118
+    },
+    {
+      "chat_id": -69212160535120,
+      "title": "Объявления ОМСКА и Омской области 💬👊🛍️💥❤️‍🔥",
+      "participants_count": 402,
+      "members_scanned": 402,
+      "pages_scanned": 5,
+      "non_bots_non_admins": 400,
+      "after_excluding_target_members": 217,
+      "unique_new_from_chat": 56
+    },
+    {
+      "chat_id": -69376942470631,
+      "title": "🔥Омская Барахолка🔥",
+      "participants_count": 398,
+      "members_scanned": 398,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 396,
+      "after_excluding_target_members": 244,
+      "unique_new_from_chat": 63
+    },
+    {
+      "chat_id": -69351270208831,
+      "title": "Г. Омск Мир рукоделия 🔥🔥🔥",
+      "participants_count": 367,
+      "members_scanned": 367,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 364,
+      "after_excluding_target_members": 298,
+      "unique_new_from_chat": 220
+    },
+    {
+      "chat_id": -68934223669840,
+      "title": "📣 🌷❤️‍🔥Московка Омск❤️‍🔥❤️‍🔥❤️‍🔥",
+      "participants_count": 354,
+      "members_scanned": 354,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 352,
+      "after_excluding_target_members": 200,
+      "unique_new_from_chat": 53
+    },
+    {
+      "chat_id": -69223080091820,
+      "title": "Авторынок Омской области",
+      "participants_count": 353,
+      "members_scanned": 353,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 345,
+      "after_excluding_target_members": 219,
+      "unique_new_from_chat": 120
+    },
+    {
+      "chat_id": -69383366702567,
+      "title": "🔥Тут Дешевле🔥 Омск",
+      "participants_count": 324,
+      "members_scanned": 324,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 322,
+      "after_excluding_target_members": 202,
+      "unique_new_from_chat": 12
+    },
+    {
+      "chat_id": -69407787423099,
+      "title": "Омск все районы бесплатные объявления",
+      "participants_count": 306,
+      "members_scanned": 306,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 301,
+      "after_excluding_target_members": 177,
+      "unique_new_from_chat": 36
+    },
+    {
+      "chat_id": -70379046212990,
+      "title": "Барахолка Омск",
+      "participants_count": 301,
+      "members_scanned": 301,
+      "pages_scanned": 4,
+      "non_bots_non_admins": 299,
+      "after_excluding_target_members": 184,
+      "unique_new_from_chat": 38
+    },
+    {
+      "chat_id": -69403964047556,
+      "title": "Авторынок омск",
+      "participants_count": 281,
+      "members_scanned": 281,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 276,
+      "after_excluding_target_members": 170,
+      "unique_new_from_chat": 41
+    },
+    {
+      "chat_id": -69669233664013,
+      "title": "Хитрый рынок Омска и Омской области",
+      "participants_count": 280,
+      "members_scanned": 280,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 277,
+      "after_excluding_target_members": 213,
+      "unique_new_from_chat": 68
+    },
+    {
+      "chat_id": -69410613990779,
+      "title": "Недвижимость Омск-продажа, аренда",
+      "participants_count": 274,
+      "members_scanned": 274,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 269,
+      "after_excluding_target_members": 160,
+      "unique_new_from_chat": 31
+    },
+    {
+      "chat_id": -70589779970733,
+      "title": "Корма в Омской области",
+      "participants_count": 225,
+      "members_scanned": 225,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 222,
+      "after_excluding_target_members": 164,
+      "unique_new_from_chat": 31
+    },
+    {
+      "chat_id": -69539111160355,
+      "title": "Объявление Регион 55 Омск",
+      "participants_count": 222,
+      "members_scanned": 222,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 219,
+      "after_excluding_target_members": 110,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -69424664726051,
+      "title": "По Карману Омск",
+      "participants_count": 211,
+      "members_scanned": 211,
+      "pages_scanned": 3,
+      "non_bots_non_admins": 208,
+      "after_excluding_target_members": 126,
+      "unique_new_from_chat": 5
+    },
+    {
+      "chat_id": -70156709612268,
+      "title": "Омск и Омская область купи продай!!!",
+      "participants_count": 199,
+      "members_scanned": 199,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 196,
+      "after_excluding_target_members": 92,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -69430072822307,
+      "title": "Недвижимость Омск и Омская область.",
+      "participants_count": 191,
+      "members_scanned": 191,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 188,
+      "after_excluding_target_members": 129,
+      "unique_new_from_chat": 21
+    },
+    {
+      "chat_id": -69466345646672,
+      "title": "❤️‍🔥❤️‍🔥❤️‍🔥 Услуги Омск и омская область❤️‍🔥",
+      "participants_count": 176,
+      "members_scanned": 176,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 174,
+      "after_excluding_target_members": 98,
+      "unique_new_from_chat": 5
+    },
+    {
+      "chat_id": -69429733214755,
+      "title": "Купить Продать Омск",
+      "participants_count": 164,
+      "members_scanned": 164,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 161,
+      "after_excluding_target_members": 102,
+      "unique_new_from_chat": 10
+    },
+    {
+      "chat_id": -68179256271005,
+      "title": "🔴🔵Левый берег Омск и пригород. Объявления.",
+      "participants_count": 159,
+      "members_scanned": 159,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 156,
+      "after_excluding_target_members": 88,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -69424590932515,
+      "title": "Автопроспект Омск и Омская область",
+      "participants_count": 146,
+      "members_scanned": 146,
+      "pages_scanned": 2,
+      "non_bots_non_admins": 144,
+      "after_excluding_target_members": 95,
+      "unique_new_from_chat": 8
+    },
+    {
+      "chat_id": -70850277526051,
+      "title": "Сельхоз Техника Омск и Омская область",
+      "participants_count": 92,
+      "members_scanned": 92,
+      "pages_scanned": 1,
+      "non_bots_non_admins": 89,
+      "after_excluding_target_members": 58,
+      "unique_new_from_chat": 10
+    },
+    {
+      "chat_id": -69193941480794,
+      "title": "@ОМСК@КУПИ@ПРОДАЙ@",
+      "participants_count": 79,
+      "members_scanned": 79,
+      "pages_scanned": 1,
+      "non_bots_non_admins": 76,
+      "after_excluding_target_members": 34,
+      "unique_new_from_chat": 4
+    },
+    {
+      "chat_id": -71566525529596,
+      "title": "Снять, сдать, продать недвижимость Омск и Омская область",
+      "participants_count": 53,
+      "members_scanned": 53,
+      "pages_scanned": 1,
+      "non_bots_non_admins": 51,
+      "after_excluding_target_members": 17,
+      "unique_new_from_chat": 3
+    },
+    {
+      "chat_id": -68112658972751,
+      "title": "АРЕНДА КВАРТИР | ОМСК | Посуточно и на длительный срок | Сниму | Сдам | Аренда жилья",
+      "participants_count": 46,
+      "members_scanned": 46,
+      "pages_scanned": 1,
+      "non_bots_non_admins": 41,
+      "after_excluding_target_members": 34,
+      "unique_new_from_chat": 33
+    }
+  ],
+  "unique_ids_count": 5655,
+  "result_file_txt": "data/omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_204815.txt"
+}

@@ -1,0 +1,245 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/no_city_promo_member_ids_no_bots_no_admins_live_20260319_142852.txt",
+    "total_ids_in_source_file": 50263
+  },
+  "target_chat": {
+    "chat_id": -72096079967602,
+    "title": "ВЗАИМКА",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 4350,
+    "after_participants_count": 4728
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773936978647,
+          "permissions": [
+            "read_all_messages",
+            "pin_message",
+            "change_chat_info",
+            "add_admins",
+            "write",
+            "add_remove_members",
+            "can_call"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773949628942,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 14400,
+    "end_index_exclusive_0_based": 14800,
+    "range_human": "14401-14800",
+    "requested_count": 400,
+    "selected_count": 400,
+    "run_to_end": false,
+    "skipped_bot_self_count": 0,
+    "processed_count": 400,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 4200,
+    "pause_jitter_ms": 200,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "run_to_end": false,
+    "wave_active_ms": 180000,
+    "wave_rest_ms": 60000,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 44,
+    "target_snapshot_members_count": 4351
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 400,
+  "invited_without_immediate_failure_count": 390,
+  "verified_added_count": 387,
+  "still_not_in_target_from_attempted_count": 13,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 13,
+  "failed_by_code": {
+    "unknown_error": 10
+  },
+  "failed_by_status": {
+    "null": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    79178422,
+    79177678,
+    79171435,
+    79153177,
+    79131232,
+    79069139,
+    79035850,
+    78967400,
+    78950038,
+    78914148,
+    78894964,
+    78879585,
+    78873520,
+    78822003,
+    78751446,
+    78735689,
+    78718890,
+    78694363,
+    78678024,
+    78665354,
+    78621426,
+    78620572,
+    78613580,
+    78545190,
+    78520594,
+    78494321,
+    78419953,
+    78387232,
+    78375239,
+    78369376,
+    78314351,
+    78310995,
+    78310589,
+    78286851,
+    78253184,
+    78237898,
+    78188152,
+    78181364,
+    78138556,
+    78122353,
+    78118243,
+    78109639,
+    78102737,
+    78074655,
+    78054860,
+    78017646,
+    78000879,
+    77901297,
+    77894654,
+    77849945
+  ],
+  "sample_still_missing_ids": [
+    78626289,
+    77501174,
+    73088661,
+    69594729,
+    69589092,
+    69578196,
+    69560333,
+    69552187,
+    69543874,
+    69476541,
+    69424774,
+    69265617,
+    69260685
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 69594729,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69589092,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69578196,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69560333,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69552187,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69543874,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69476541,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69424774,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69265617,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 69260685,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-03-19T19:51:10.322Z"
+}

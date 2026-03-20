@@ -1,0 +1,13 @@
+{
+  "source_file": "data/chita_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260309_153747.txt",
+  "target_chat_id": -71489818560519,
+  "result_files_found": 39,
+  "processed_ranges_unique": 39,
+  "still_missing_files_used": 39,
+  "first_range": "1-400",
+  "last_range": "15201-15600",
+  "not_used_ids_raw_total": 2519,
+  "not_used_ids_unique_count": 2519,
+  "output_txt_file": "data/chita_not_used_ids_from_processed_batches_1_15600_20260309_153747.txt",
+  "note": "Aggregated union of still_missing IDs across processed ranges"
+}

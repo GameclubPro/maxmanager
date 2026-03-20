@@ -1,0 +1,32 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/krasnodar_all_other_city_chats_member_ids_no_bots_no_admins_not_in_target_live_20260313_170444.txt --target-chat-id -69067549505002 --start 1200 --count 400 --invite-batch-size 10 --result-file data/krasnodar_full_invite_20260313_170658/batch_1200_1600_result.json --missing-file data/krasnodar_full_invite_20260313_170658/batch_1200_1600_still_missing.txt
+
+[dotenv@17.3.1] injecting env (12) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5827 members across 59 pages
+[run] Inviting 400 users to chat -69067549505002 in batches of 10 (40 calls)...
+[run] Progress: 50/400 users
+[run] Progress: 100/400 users
+[run] Progress: 150/400 users
+[run] Progress: 200/400 users
+[run] Progress: 250/400 users
+[run] Progress: 300/400 users
+[run] Progress: 350/400 users
+[run] Stop triggered: 2 consecutive action_failed (limit 2)
+[run] Verifying membership for 400 users...
+{
+  "ok": true,
+  "source_file": "data/krasnodar_all_other_city_chats_member_ids_no_bots_no_admins_not_in_target_live_20260313_170444.txt",
+  "target_chat_id": -69067549505002,
+  "processed_count": 400,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 370,
+  "invited_without_immediate_failure_count": 320,
+  "verified_added_count": 95,
+  "still_not_in_target_from_this_chunk_count": 305,
+  "before_participants_count": 5827,
+  "after_participants_count": 5920,
+  "result_file": "data/krasnodar_full_invite_20260313_170658/batch_1200_1600_result.json",
+  "still_missing_file": "data/krasnodar_full_invite_20260313_170658/batch_1200_1600_still_missing.txt"
+}

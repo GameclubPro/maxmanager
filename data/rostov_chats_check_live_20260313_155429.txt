@@ -1,0 +1,33 @@
+fetched_at=2026-03-13T12:54:29.674Z
+total_visible_chats=521
+pages=6
+broad_matched_count=20
+exact_matched_count=4
+
+[exact_matched]
+-69049244448234	5798	Ростов-на-Дону Объявления | Новости	https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0
+-69241399380653	868	Аксай,  Ростов-на-Дону,  Уборка квартир, домов 🤝	https://max.ru/join/shS6Y3MSnnqbsosXLAp_m0RMo-o66egHV2FqT008DhE
+-69159496644059	730	Ростов-на-Дону+ВЕСЬ Юг- КУПИ-ПрОдай!	https://max.ru/join/RldQx9K7KyjUm6P85IHCUON7cToTqtrYGvwnPxhYUYQ
+-69309736460349	516	ОБЪЯВЛЕНИЯ,  Ростов-на-Дону, Батайск,  Аксай, Азов ➡️	https://max.ru/join/SPRu0NvGz73ySsNgUoz-vjiA3zszsSUXDm8FfJkRwVs
+
+[broad_matched]
+-69049244448234	5798	Ростов-на-Дону Объявления | Новости	https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0
+-69744406304246	3877	Из рук в руки (Ростовская область)	https://max.ru/join/RHGiisLWlOJIWU5n3TC6wg1IsNxDIxTvZ3UC-0K3-7c
+-69187199879862	1622	Объявления в Ростове-на-Дону	https://max.ru/join/7NvWYuneCaPUpUyjhX0VK_5rcg5MaCkUL5dXNnBdvAc
+-68100891214071	1068	ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ	https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ
+-69241399380653	868	Аксай,  Ростов-на-Дону,  Уборка квартир, домов 🤝	https://max.ru/join/shS6Y3MSnnqbsosXLAp_m0RMo-o66egHV2FqT008DhE
+-69239992953472	795	3 ✔ Барахолка Ростовская область	https://max.ru/join/Jq67Rgt96mdfGKvG7pxk46MAbCaWlGQsQrKmtrgyvMs
+-68085969319411	733	Ростов и область	https://max.ru/join/icnyCJwv1v4toDmrbXxEP16ZoNtQzhQro26uw0qioOY
+-69159496644059	730	Ростов-на-Дону+ВЕСЬ Юг- КУПИ-ПрОдай!	https://max.ru/join/RldQx9K7KyjUm6P85IHCUON7cToTqtrYGvwnPxhYUYQ
+-68094901963452	634	☀️🌹☀️РОСТОВ.ОБЛАСТЬ.	https://max.ru/join/vw9XkIvm8qXs1gt_K-AvKvrVxJLq7eho93feg6aA0bo
+-70466221198072	541	🔥🔥РОСТОВСКАЯ ОБЛ ОБЪЯВЛЕНИЯ	https://max.ru/join/51Y3Zo4gOVNFTItJanTxEE2ESmT5r13egZFICc57KYM
+-70112575889460	517	Фермерская Ярмарка... Ростовская обл. Город Таганрог.🦢🐔	https://max.ru/join/ArhedVp_0zWCW1Ht8agbyEs7SFQY4PiG_LOUwBaG2ro
+-69309736460349	516	ОБЪЯВЛЕНИЯ,  Ростов-на-Дону, Батайск,  Аксай, Азов ➡️	https://max.ru/join/SPRu0NvGz73ySsNgUoz-vjiA3zszsSUXDm8FfJkRwVs
+-69763044887216	479	Таганрог МОЛВА - ИНФО Новости объявления.	https://max.ru/join/X0k2fPYaYRIE2Y0YAYT_o5ED4L371qlFDUPYQnL1wCA
+-68692638881207	462	Барахолка ЮГ ♥️	https://max.ru/join/uf_YIpVs0MBEjkVJCzgGU6pR35awZ09V--pzfScWnVA
+-69730475854512	461	Шахты МОЛВА - ИНФО Новости объявления.	https://max.ru/join/AUDsl7spp_8sFJUICCf4Dn5koj_CVdenGQIFGo0Z7Ho
+-69144204574946	454	Ростов_Волгодонск_Шахты	https://max.ru/join/OqZj0StCg2CdEYDGQROtshhhBZ1HqgdYuvFxsvMuPTI
+-69817454171401	284	РОСТОВСКИЙ РЫНОК	https://max.ru/join/CYRcT93fN6_NDMIc3DhB6ih3eLR92b7ZQkYLMFXAheA
+-70796931080241	274	Ростов -на-Дону Барахолка	https://max.ru/join/RnUiE8uI8wmlL_MUYLKEDiJvrylF360pt_SR2BpvUX8
+-69185145126991	265	ЧАЛТЫРЬ-КРЫМ-РОСТОВ-ОБЛАСТЬ-БЕСПЛАТНАЯ ГРУППА ОБЪЯВЛЕНИЙ	https://max.ru/join/pL_z6vZZ-jqWSPNqqvppxYbaJWZrsImXGk19SbM-v1U
+-70276165886118	249	Чат-Общение-Знакомства Ростов обл	https://max.ru/join/K5VV2T3-h6NNRVebia_lU4ahQqsBCZU1PzyhEFXZ9TE

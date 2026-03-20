@@ -1,0 +1,354 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/barnaul_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_220457.txt",
+    "total_ids_in_source_file": 9792
+  },
+  "target_chat": {
+    "chat_id": -71934616766471,
+    "title": "Барнаул Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 7964,
+    "after_participants_count": 8013
+  },
+  "bot": {
+    "user_id": 209468578,
+    "name": "Beautera",
+    "username": "id613002203036_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1773398553658,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1773397709378,
+          "permissions": [
+            "change_chat_info",
+            "can_call",
+            "add_remove_members"
+          ],
+          "user_id": 209468578,
+          "first_name": "Beautera",
+          "username": "id613002203036_bot",
+          "is_bot": true,
+          "last_activity_time": 1773692925764,
+          "description": "Оформление заказов \n",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiY1X5djLJ9iN4Yni7aZa9LGvGPdxS9sOWIqUW770RGt0",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiuOImY5yUOE2dMD0GUkmAvWvGPdxS9sOWIqUW770RGt0",
+          "name": "Beautera"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 9600,
+    "end_index_exclusive_0_based": 9792,
+    "range_human": "9601-9792",
+    "requested_count": 192,
+    "selected_count": 192,
+    "run_to_end": false,
+    "skipped_bot_self_count": 0,
+    "processed_count": 192,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 4200,
+    "pause_jitter_ms": 200,
+    "safe_min_pause_per_user_ms": 220,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "run_to_end": false,
+    "wave_active_ms": 180000,
+    "wave_rest_ms": 60000,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 80,
+    "target_snapshot_members_count": 7964
+  },
+  "stop_triggered": {
+    "reason": "consecutive_action_failed_limit",
+    "limit": 2,
+    "current_streak": 2,
+    "attempted_count": 120,
+    "remaining_count": 72,
+    "last_user_id": 191594897
+  },
+  "already_in_target_count": 0,
+  "attempted_invite_count": 120,
+  "invited_without_immediate_failure_count": 100,
+  "verified_added_count": 49,
+  "still_not_in_target_from_attempted_count": 71,
+  "not_attempted_due_to_stop_count": 72,
+  "still_not_in_target_from_this_chunk_count": 143,
+  "failed_by_code": {
+    "action_failed": 20
+  },
+  "failed_by_status": {
+    "200": 20
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    87486622,
+    81842935,
+    78892435,
+    76538892,
+    73395725,
+    71333977,
+    64580746,
+    64020729,
+    63337405,
+    63202919,
+    52238720,
+    38817751,
+    27112924,
+    19508175,
+    16845458,
+    16265254,
+    12822203,
+    121470078,
+    116324671,
+    115112473,
+    107473766,
+    92960070,
+    88400291,
+    87298246,
+    86976106,
+    82978731,
+    79162681,
+    78855973,
+    78135409,
+    70687604,
+    60266922,
+    56018457,
+    52372475,
+    48973442,
+    46653844,
+    40161259,
+    37785037,
+    32183712,
+    29733707,
+    29618633,
+    27241057,
+    18238884,
+    17119539,
+    16212306,
+    8334626,
+    65082950,
+    59029867,
+    30020793,
+    28960758
+  ],
+  "sample_still_missing_ids": [
+    88324197,
+    81530073,
+    79409562,
+    69013330,
+    68416480,
+    66570336,
+    66349223,
+    55731521,
+    54084746,
+    51210896,
+    50995474,
+    50206142,
+    43917796,
+    23963972,
+    23028792,
+    20029673,
+    18090934,
+    12920663,
+    118196959,
+    111676713,
+    110362887,
+    85625228,
+    78440726,
+    77903065,
+    75947338,
+    68400122,
+    67657150,
+    67490405,
+    56355204,
+    55416588,
+    53840070,
+    39633512,
+    29687103,
+    25433285,
+    24179491,
+    18148153,
+    17851385,
+    13462819,
+    13133213,
+    7904542,
+    7070045,
+    138253386,
+    135663833,
+    105715927,
+    57584926,
+    47652190,
+    43376945,
+    17623209,
+    13838879,
+    218794781
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 217019838,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 215887297,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 214360060,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 211711289,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 211601189,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 208806210,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 208366116,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 204655176,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 203155131,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 202436630,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 200919309,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 200604078,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 200552395,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 198915818,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 198693161,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 197123925,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 196836501,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 196526676,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 193014224,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 191594897,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    }
+  ],
+  "generated_at_iso": "2026-03-16T20:30:06.347Z"
+}

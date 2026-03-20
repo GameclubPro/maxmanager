@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-03-14T10:36:33.182Z",
+  "source_chat": {
+    "chat_id": -71607014142034,
+    "title": "НЕДВИЖИМОСТЬ КРАСНОДАРА",
+    "participants_count": 1492,
+    "status": "active",
+    "type": "chat",
+    "link": "https://max.ru/join/1hs_Ou5-nxNAsWgix-VhXIWiMTtLAFEfoTfA33LneHY"
+  },
+  "target_chat": {
+    "chat_id": -71952970123271,
+    "title": "Недвижимость | Краснодарский край",
+    "participants_count": 3017,
+    "status": "active",
+    "type": "chat"
+  },
+  "stats": {
+    "source_members_fetched": 1437,
+    "source_pages": 15,
+    "target_members_snapshot_count": 3017,
+    "skipped_bots": 11,
+    "skipped_admins": 2,
+    "skipped_already_in_target": 38,
+    "skipped_invalid": 0,
+    "unique_ids_final": 1386
+  },
+  "result_file_txt": "data/krasnodar_from_chat_71607014142034_no_bots_no_admins_not_in_target_71952970123271_20260314_103632Z.txt"
+}

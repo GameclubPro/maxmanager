@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-03-02T19:23:00.808Z",
+  "city": "shahty",
+  "search_regex": "/(^|[^а-яё])шахт(ы|ах|ам|ами|е)?([^а-яё]|$)/i",
+  "all_chats_total": 418,
+  "all_chats_pages": 5,
+  "active_chats_total": 414,
+  "matched_city_chats_count": 4,
+  "matched_city_chats": [
+    {
+      "chat_id": -70760660205767,
+      "title": "Кондитерские изделия оптом г.Шахты пер.Комиссаровский 37",
+      "participants_count": 74
+    },
+    {
+      "chat_id": -68841488834705,
+      "title": "Каменоломни-Шахты.Объявления, Куплю, Продам,Отдам даром",
+      "participants_count": 699
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "participants_count": 123
+    },
+    {
+      "chat_id": -69502470482581,
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "participants_count": 331
+    }
+  ],
+  "processed_chats_count": 4,
+  "failed_chats_count": 0,
+  "unique_ids_count": 1059,
+  "per_chat": [
+    {
+      "chat_id": -70760660205767,
+      "title": "Кондитерские изделия оптом г.Шахты пер.Комиссаровский 37",
+      "pages": 1,
+      "members_fetched": 74,
+      "kept_non_bot_non_admin": 71,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68841488834705,
+      "title": "Каменоломни-Шахты.Объявления, Куплю, Продам,Отдам даром",
+      "pages": 7,
+      "members_fetched": 699,
+      "kept_non_bot_non_admin": 695,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "pages": 2,
+      "members_fetched": 123,
+      "kept_non_bot_non_admin": 119,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69502470482581,
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "pages": 4,
+      "members_fetched": 331,
+      "kept_non_bot_non_admin": 327,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/shahty.txt"
+}

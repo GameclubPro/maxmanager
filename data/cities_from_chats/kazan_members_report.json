@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-03-02T14:37:39.469Z",
+  "city": "kazan",
+  "source_chats_count": 17,
+  "processed_chats_count": 17,
+  "failed_chats_count": 0,
+  "unique_ids_count": 3308,
+  "per_chat": [
+    {
+      "chat_id": -69286691990063,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "pages": 8,
+      "members_fetched": 768,
+      "kept_non_bot_non_admin": 765,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69706588354008,
+      "title": "Работа Казань.",
+      "pages": 5,
+      "members_fetched": 496,
+      "kept_non_bot_non_admin": 494,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71456471431277,
+      "title": "Казань Объявления | Новости",
+      "pages": 19,
+      "members_fetched": 1853,
+      "kept_non_bot_non_admin": 1845,
+      "skipped_bots": 2,
+      "skipped_admins": 6,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69286625012271,
+      "title": "🏦🏦🏦Доска объявлений Казань",
+      "pages": 8,
+      "members_fetched": 736,
+      "kept_non_bot_non_admin": 733,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68872233527870,
+      "title": "Доска объявлений Казань Татарстан",
+      "pages": 5,
+      "members_fetched": 410,
+      "kept_non_bot_non_admin": 408,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69286682356271,
+      "title": "🏦🏦🏦 Доска объявлений Казань",
+      "pages": 8,
+      "members_fetched": 744,
+      "kept_non_bot_non_admin": 742,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71055055579695,
+      "title": "🏦🏦🏦КАЗАНЬ ОБЪЯВЛЕНИЕ",
+      "pages": 4,
+      "members_fetched": 304,
+      "kept_non_bot_non_admin": 301,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69676614216239,
+      "title": "🏦🏦🏦Солнечный город Казань",
+      "pages": 9,
+      "members_fetched": 803,
+      "kept_non_bot_non_admin": 799,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "pages": 6,
+      "members_fetched": 545,
+      "kept_non_bot_non_admin": 542,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69301439133036,
+      "title": "Барахолка Казань",
+      "pages": 2,
+      "members_fetched": 112,
+      "kept_non_bot_non_admin": 110,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69283529547963,
+      "title": "24/7💸7️⃣КУПИ💰ПРОДАЙ💰Казань",
+      "pages": 4,
+      "members_fetched": 347,
+      "kept_non_bot_non_admin": 344,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69277076163323,
+      "title": "Казань. РТ",
+      "pages": 4,
+      "members_fetched": 387,
+      "kept_non_bot_non_admin": 383,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70060640479806,
+      "title": "ТВОИ ОБЪЯВЛЕНИЯ, Зеленодольск, Волжск, Васильево, Казань",
+      "pages": 2,
+      "members_fetched": 194,
+      "kept_non_bot_non_admin": 192,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69319071228091,
+      "title": "24/7💸1️⃣0️⃣АВИТО💰КАЗАНЬ-ЧЕЛНЫ",
+      "pages": 4,
+      "members_fetched": 332,
+      "kept_non_bot_non_admin": 329,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71407162559008,
+      "title": "Барахолка Казань✨",
+      "pages": 1,
+      "members_fetched": 33,
+      "kept_non_bot_non_admin": 30,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69285311602875,
+      "title": "24/7💸1️⃣1️⃣БАРАХОЛКА💰КАЗАНЬ",
+      "pages": 3,
+      "members_fetched": 294,
+      "kept_non_bot_non_admin": 291,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68629434012934,
+      "title": "Работа: вакансии и подработка в Казани",
+      "pages": 2,
+      "members_fetched": 139,
+      "kept_non_bot_non_admin": 134,
+      "skipped_bots": 3,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/kazan.txt"
+}

@@ -1,0 +1,312 @@
+{
+  "checked_at": "2026-02-28T21:07:35.809Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 305,
+  "pages": 4,
+  "filter": "title|description|link contains /(уфа|ufa)/i",
+  "matched_count": 25,
+  "active_matched_count": 25,
+  "chats": [
+    {
+      "chat_id": -70376433653010,
+      "title": "🟣Купи/продай/отдай Затон Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 235,
+      "is_public": false,
+      "link": "https://max.ru/join/zcK50YRjPQTm5G07ve-LjOsj6X8jQhueMgZXTcTjv3k",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69374225604759,
+      "title": "Купи, продай, объявления РБУфа+",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 554,
+      "is_public": false,
+      "link": "https://max.ru/join/AZsdVaDJG-fTkht9swLrrzAqUNzTJP4YG-s5bEWxT1Q",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69910624854167,
+      "title": "Барахолочка Демы Уфа+ РБ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 475,
+      "is_public": false,
+      "link": "https://max.ru/join/_yQjczIjak0qWhALnBVeVW_cTpWB1_tVekKPsQYwsAg",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68169010394410,
+      "title": "💸Уфа ЗАТОН купи-продай",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 233,
+      "is_public": false,
+      "link": "https://max.ru/join/7_5OcaA3Gp5suE6RjOfSCzmE6izc2aPYfbNttr_Gfp4",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69246620008641,
+      "title": "Объявления Уфа-Рб",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 212,
+      "is_public": false,
+      "link": "https://max.ru/join/lX406pNjx2gbml095YcCq8nkbXwyZ5CoBVuRRU1vwP8",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70376382403858,
+      "title": "🟣Купи/продай/отдай Сипа Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 243,
+      "is_public": false,
+      "link": "https://max.ru/join/TvG9Dp6I-jjEBdGd8MLhIsvasggrnMswFhFksL6FCl8",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70376393151762,
+      "title": "🟣Купи/продай/отдай Зеленка Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 240,
+      "is_public": false,
+      "link": "https://max.ru/join/MwwnfTm1mh0gEmyXTmmpEH4Finh0106vmZDhwHCQeGM",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70376225707282,
+      "title": "🟣Купи/продай/отдай Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 329,
+      "is_public": false,
+      "link": "https://max.ru/join/sRhwFosXzBbDivcw-OZAtAeLbBnRNqOrXj6cC2ND5z8",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68168007103786,
+      "title": "Уфа из рук в руки",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 859,
+      "is_public": false,
+      "link": "https://max.ru/join/oEstPxPJ2yxaHJVy6ZlHYUGmwoOOZdfdRhV3S6_26Lc",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71371013227776,
+      "title": "Перекуп_102RUS УФА ЧАТ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 155,
+      "is_public": false,
+      "link": "https://max.ru/join/cMKotojgGQb61uiEQoaWcNCJ9V4zdUuC-P5U2WdW1dA",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71308037502364,
+      "title": "Уфа: Отдам, Куплю, Продам",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 2763,
+      "is_public": false,
+      "link": "https://max.ru/join/_1wxE_uXI3Ji9nrKR9UFu2gl-hzlqO3ews2ffdaspRc",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 924,
+      "is_public": false,
+      "link": "https://max.ru/join/nSwl2CaZxpa09ZjGy6tJIKvC1wNE9KwZrGmUwy2T-ZY",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68150989154923,
+      "title": "ОБЪЯВЛЕНИЯ УФА,РБ📣🛍️",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 169,
+      "is_public": false,
+      "link": "https://max.ru/join/JQDU5nZm9R9uoItDjCMl9GKZWHWq7uNH1NARVx0eGN4",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 463,
+      "is_public": false,
+      "link": "https://max.ru/join/rhycdLm6cYladzdJqxW7un3wJK1F_L3HDST5KFOAZ_w",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68787063649632,
+      "title": "Халтура, Объявления, Уфа.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 387,
+      "is_public": false,
+      "link": "https://max.ru/join/v2Uo5YnP0W4s1Ri78eX82w63p2hPLVGCjIm0fr5I-dI",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 10495,
+      "is_public": false,
+      "link": null,
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 236,
+      "is_public": false,
+      "link": "https://max.ru/join/A2GY2BKM0Jc5c6l1jo94yheOcCLzhkdaoTKzRSXH93w",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -70664496835137,
+      "title": "🥇АВИТО /ЮЛА УФА",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 211,
+      "is_public": false,
+      "link": "https://max.ru/join/0ZrK8aktUvk-mp9B88Bw2PvusoCf6RjYr0GYfvnYZOA",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Бесплатные Объявления Уфа Online",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 611,
+      "is_public": false,
+      "link": "https://max.ru/join/P6ZjfF8e48BzyMpPwEXFs7K8YdcQBFnrYoIZ0HJgDp0",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 458,
+      "is_public": false,
+      "link": "https://max.ru/join/g9xvMm6ThlpDIF5M92JPoNGfx6oH93vq1vAcX2i9VSo",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68436056569184,
+      "title": "Ссылки . Объявления Уфа.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 504,
+      "is_public": false,
+      "link": "https://max.ru/join/kF32xgiWnYdvTorKW2IHU379WXDy1rZrKwzQonw2JNE",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69319118189929,
+      "title": "💥РынокУфаРб",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 379,
+      "is_public": false,
+      "link": "https://max.ru/join/c3AydzYe2zYYQHHHrZa8qghymE15Zcn7FjsaWgSmcs8",
+      "matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69741457694871,
+      "title": "Рыбка Даром🐟",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 550,
+      "is_public": false,
+      "link": "https://max.ru/join/ELdOZbW2FwHv-w2J0YD6qAW1Fnluauv82YSNE77vdKk",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68903220177578,
+      "title": "РЫБНЫЙ ЦЕНТР",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 780,
+      "is_public": false,
+      "link": "https://max.ru/join/d1r3iH-HhHpRNH-VAum5ll1xRjGODMCv_RmoXXD1k3s",
+      "matched_fields": [
+        "description"
+      ]
+    },
+    {
+      "chat_id": -69292491631169,
+      "title": "🌹🌞БАРАХОЛКА УФА, РБ",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 300,
+      "is_public": false,
+      "link": "https://max.ru/join/WuNaA4_fN1rsYiQiBUb1VN338_ikei0aqgvlW5g8znw",
+      "matched_fields": [
+        "title"
+      ]
+    }
+  ]
+}

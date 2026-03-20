@@ -1,0 +1,540 @@
+{
+  "ok": true,
+  "generated_at": "2026-02-28T21:53:59.072Z",
+  "bot_user_id": 213352639,
+  "bot_username": "id613002203036_3_bot",
+  "total_chats_seen": 305,
+  "city_filter": "title|description|link contains /(чита|chita)/i",
+  "city_chats_count": 38,
+  "target_chat": {
+    "chat_id": -71489818560519,
+    "title": "Чита Объявления | Новости",
+    "participants_count": 5055,
+    "target_members_scanned": 5047
+  },
+  "source_chats_count": 37,
+  "source_chats": [
+    {
+      "chat_id": -68419398394013,
+      "title": "Саратов - Энгельс Объявления Бесплатные",
+      "participants_count": 418
+    },
+    {
+      "chat_id": -71361110024232,
+      "title": "Объявления📋 Услуги🚚ЧИТА",
+      "participants_count": 74
+    },
+    {
+      "chat_id": -68076019810506,
+      "title": "Регион 75",
+      "participants_count": 2950
+    },
+    {
+      "chat_id": -68097233289418,
+      "title": "Чита 75 🇷🇺RUS",
+      "participants_count": 1940
+    },
+    {
+      "chat_id": -68097242792138,
+      "title": "БАРАХОЛКА 75R",
+      "participants_count": 2092
+    },
+    {
+      "chat_id": -68097564521878,
+      "title": "Животный мир Чита 75R",
+      "participants_count": 553
+    },
+    {
+      "chat_id": -68084149212488,
+      "title": "г. ЧИТА И ЗАБ. КРАЙ",
+      "participants_count": 1121
+    },
+    {
+      "chat_id": -68251366847972,
+      "title": "Чита: Доска объявлений",
+      "participants_count": 381
+    },
+    {
+      "chat_id": -68080824287443,
+      "title": "НОВАЯ АДЫГЕЯ🟢ЯБЛОНОВСКИЙ🔴КОЗЕТ🟣ЭНЕМ",
+      "participants_count": 468
+    },
+    {
+      "chat_id": -68813462178555,
+      "title": "Бесплатные обьявления Чита",
+      "participants_count": 668
+    },
+    {
+      "chat_id": -68450426413213,
+      "title": "Торговая Ярмарка Саратов, Энгельс - Объявления",
+      "participants_count": 409
+    },
+    {
+      "chat_id": -68081902581088,
+      "title": "ЯРМАРКА⚜️ЧИТА",
+      "participants_count": 656
+    },
+    {
+      "chat_id": -69384543865595,
+      "title": "Барахолка Чита",
+      "participants_count": 392
+    },
+    {
+      "chat_id": -71497466657480,
+      "title": "Чита и Забайкальский край  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 7778
+    },
+    {
+      "chat_id": -69418346537117,
+      "title": "Улёты Чита Объявления",
+      "participants_count": 422
+    },
+    {
+      "chat_id": -68097532540310,
+      "title": "Барахолка Чита 75R",
+      "participants_count": 732
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 994
+    },
+    {
+      "chat_id": -69351574899433,
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "participants_count": 213
+    },
+    {
+      "chat_id": -70856936647323,
+      "title": "Работа Москва и Московская область",
+      "participants_count": 124
+    },
+    {
+      "chat_id": -69176331537147,
+      "title": "Чита. ru",
+      "participants_count": 335
+    },
+    {
+      "chat_id": -69280214209975,
+      "title": "Дром 03/38/75",
+      "participants_count": 977
+    },
+    {
+      "chat_id": -68159689766294,
+      "title": "Недвижимость Чита 75",
+      "participants_count": 624
+    },
+    {
+      "chat_id": -68968482701562,
+      "title": "Ручная работа г Чита. Мастера заб. края",
+      "participants_count": 140
+    },
+    {
+      "chat_id": -68117060324043,
+      "title": "Объявления г. Чита",
+      "participants_count": 1214
+    },
+    {
+      "chat_id": -69487005562223,
+      "title": "ЧИТА- Забайкальская МЕГА барахолка",
+      "participants_count": 521
+    },
+    {
+      "chat_id": -68080718165398,
+      "title": "ЦветоМикс.Чита75R",
+      "participants_count": 618
+    },
+    {
+      "chat_id": -68927094568342,
+      "title": "Купи-Продай Чита75",
+      "participants_count": 569
+    },
+    {
+      "chat_id": -68159930414486,
+      "title": "Рынок Чита75R",
+      "participants_count": 694
+    },
+    {
+      "chat_id": -68847757148269,
+      "title": "Ейск(Барахолка)",
+      "participants_count": 402
+    },
+    {
+      "chat_id": -69440469183098,
+      "title": "🔷 КУПЛЮ 7 🔷АДЫГЕЯ - РАЙОНЫ 🔷",
+      "participants_count": 433
+    },
+    {
+      "chat_id": -68102758249896,
+      "title": "Подслушано ЧИТА",
+      "participants_count": 577
+    },
+    {
+      "chat_id": -68022921197022,
+      "title": "ЧИТА БАРАХОЛКА",
+      "participants_count": 1383
+    },
+    {
+      "chat_id": -68091581672070,
+      "title": "👩‍👦‍👦🌸 МАМОЧКИ МКР МОЛОДЁЖНЫЙ и СОСЕДИ 🌸👩‍👧‍👧",
+      "participants_count": 180
+    },
+    {
+      "chat_id": -68159753074070,
+      "title": "Авто Чита 75R",
+      "participants_count": 556
+    },
+    {
+      "chat_id": -68100164725322,
+      "title": "Здесь ваша реклама Чита и Забайкальский край",
+      "participants_count": 587
+    },
+    {
+      "chat_id": -69401173246022,
+      "title": "ЧЕРНОВСКИЙ РАЙОН, ЧИТА",
+      "participants_count": 274
+    },
+    {
+      "chat_id": -70423011440022,
+      "title": "Работа Чита75",
+      "participants_count": 284
+    }
+  ],
+  "per_chat": [
+    {
+      "chat_id": -68419398394013,
+      "title": "Саратов - Энгельс Объявления Бесплатные",
+      "participants_count": 418,
+      "members_scanned": 418,
+      "non_bots_non_admins": 415,
+      "after_excluding_target_members": 399,
+      "unique_new_from_chat": 399
+    },
+    {
+      "chat_id": -71361110024232,
+      "title": "Объявления📋 Услуги🚚ЧИТА",
+      "participants_count": 74,
+      "members_scanned": 74,
+      "non_bots_non_admins": 71,
+      "after_excluding_target_members": 36,
+      "unique_new_from_chat": 35
+    },
+    {
+      "chat_id": -68076019810506,
+      "title": "Регион 75",
+      "participants_count": 2950,
+      "members_scanned": 2950,
+      "non_bots_non_admins": 2944,
+      "after_excluding_target_members": 1377,
+      "unique_new_from_chat": 1344
+    },
+    {
+      "chat_id": -68097233289418,
+      "title": "Чита 75 🇷🇺RUS",
+      "participants_count": 1940,
+      "members_scanned": 1940,
+      "non_bots_non_admins": 1934,
+      "after_excluding_target_members": 919,
+      "unique_new_from_chat": 176
+    },
+    {
+      "chat_id": -68097242792138,
+      "title": "БАРАХОЛКА 75R",
+      "participants_count": 2092,
+      "members_scanned": 2092,
+      "non_bots_non_admins": 2086,
+      "after_excluding_target_members": 975,
+      "unique_new_from_chat": 164
+    },
+    {
+      "chat_id": -68097564521878,
+      "title": "Животный мир Чита 75R",
+      "participants_count": 553,
+      "members_scanned": 553,
+      "non_bots_non_admins": 549,
+      "after_excluding_target_members": 313,
+      "unique_new_from_chat": 128
+    },
+    {
+      "chat_id": -68084149212488,
+      "title": "г. ЧИТА И ЗАБ. КРАЙ",
+      "participants_count": 1121,
+      "members_scanned": 1120,
+      "non_bots_non_admins": 1114,
+      "after_excluding_target_members": 502,
+      "unique_new_from_chat": 185
+    },
+    {
+      "chat_id": -68251366847972,
+      "title": "Чита: Доска объявлений",
+      "participants_count": 381,
+      "members_scanned": 381,
+      "non_bots_non_admins": 379,
+      "after_excluding_target_members": 167,
+      "unique_new_from_chat": 77
+    },
+    {
+      "chat_id": -68080824287443,
+      "title": "НОВАЯ АДЫГЕЯ🟢ЯБЛОНОВСКИЙ🔴КОЗЕТ🟣ЭНЕМ",
+      "participants_count": 468,
+      "members_scanned": 468,
+      "non_bots_non_admins": 463,
+      "after_excluding_target_members": 448,
+      "unique_new_from_chat": 389
+    },
+    {
+      "chat_id": -68813462178555,
+      "title": "Бесплатные обьявления Чита",
+      "participants_count": 668,
+      "members_scanned": 668,
+      "non_bots_non_admins": 661,
+      "after_excluding_target_members": 455,
+      "unique_new_from_chat": 174
+    },
+    {
+      "chat_id": -68450426413213,
+      "title": "Торговая Ярмарка Саратов, Энгельс - Объявления",
+      "participants_count": 409,
+      "members_scanned": 410,
+      "non_bots_non_admins": 407,
+      "after_excluding_target_members": 387,
+      "unique_new_from_chat": 127
+    },
+    {
+      "chat_id": -68081902581088,
+      "title": "ЯРМАРКА⚜️ЧИТА",
+      "participants_count": 656,
+      "members_scanned": 656,
+      "non_bots_non_admins": 650,
+      "after_excluding_target_members": 328,
+      "unique_new_from_chat": 64
+    },
+    {
+      "chat_id": -69384543865595,
+      "title": "Барахолка Чита",
+      "participants_count": 392,
+      "members_scanned": 392,
+      "non_bots_non_admins": 386,
+      "after_excluding_target_members": 218,
+      "unique_new_from_chat": 26
+    },
+    {
+      "chat_id": -71497466657480,
+      "title": "Чита и Забайкальский край  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 7778,
+      "members_scanned": 7776,
+      "non_bots_non_admins": 7763,
+      "after_excluding_target_members": 3468,
+      "unique_new_from_chat": 3362
+    },
+    {
+      "chat_id": -69418346537117,
+      "title": "Улёты Чита Объявления",
+      "participants_count": 422,
+      "members_scanned": 422,
+      "non_bots_non_admins": 420,
+      "after_excluding_target_members": 197,
+      "unique_new_from_chat": 65
+    },
+    {
+      "chat_id": -68097532540310,
+      "title": "Барахолка Чита 75R",
+      "participants_count": 732,
+      "members_scanned": 732,
+      "non_bots_non_admins": 728,
+      "after_excluding_target_members": 401,
+      "unique_new_from_chat": 55
+    },
+    {
+      "chat_id": -68100891214071,
+      "title": "ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ",
+      "participants_count": 994,
+      "members_scanned": 994,
+      "non_bots_non_admins": 991,
+      "after_excluding_target_members": 919,
+      "unique_new_from_chat": 622
+    },
+    {
+      "chat_id": -69351574899433,
+      "title": "ЧИТА. КУПИ, ПРОДАЙ",
+      "participants_count": 213,
+      "members_scanned": 213,
+      "non_bots_non_admins": 209,
+      "after_excluding_target_members": 104,
+      "unique_new_from_chat": 22
+    },
+    {
+      "chat_id": -70856936647323,
+      "title": "Работа Москва и Московская область",
+      "participants_count": 124,
+      "members_scanned": 124,
+      "non_bots_non_admins": 122,
+      "after_excluding_target_members": 98,
+      "unique_new_from_chat": 57
+    },
+    {
+      "chat_id": -69176331537147,
+      "title": "Чита. ru",
+      "participants_count": 335,
+      "members_scanned": 335,
+      "non_bots_non_admins": 328,
+      "after_excluding_target_members": 115,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -69280214209975,
+      "title": "Дром 03/38/75",
+      "participants_count": 977,
+      "members_scanned": 977,
+      "non_bots_non_admins": 969,
+      "after_excluding_target_members": 876,
+      "unique_new_from_chat": 513
+    },
+    {
+      "chat_id": -68159689766294,
+      "title": "Недвижимость Чита 75",
+      "participants_count": 624,
+      "members_scanned": 624,
+      "non_bots_non_admins": 620,
+      "after_excluding_target_members": 326,
+      "unique_new_from_chat": 49
+    },
+    {
+      "chat_id": -68968482701562,
+      "title": "Ручная работа г Чита. Мастера заб. края",
+      "participants_count": 140,
+      "members_scanned": 140,
+      "non_bots_non_admins": 137,
+      "after_excluding_target_members": 72,
+      "unique_new_from_chat": 21
+    },
+    {
+      "chat_id": -68117060324043,
+      "title": "Объявления г. Чита",
+      "participants_count": 1214,
+      "members_scanned": 1214,
+      "non_bots_non_admins": 1211,
+      "after_excluding_target_members": 516,
+      "unique_new_from_chat": 112
+    },
+    {
+      "chat_id": -69487005562223,
+      "title": "ЧИТА- Забайкальская МЕГА барахолка",
+      "participants_count": 521,
+      "members_scanned": 521,
+      "non_bots_non_admins": 515,
+      "after_excluding_target_members": 426,
+      "unique_new_from_chat": 198
+    },
+    {
+      "chat_id": -68080718165398,
+      "title": "ЦветоМикс.Чита75R",
+      "participants_count": 618,
+      "members_scanned": 618,
+      "non_bots_non_admins": 614,
+      "after_excluding_target_members": 360,
+      "unique_new_from_chat": 27
+    },
+    {
+      "chat_id": -68927094568342,
+      "title": "Купи-Продай Чита75",
+      "participants_count": 569,
+      "members_scanned": 569,
+      "non_bots_non_admins": 565,
+      "after_excluding_target_members": 306,
+      "unique_new_from_chat": 18
+    },
+    {
+      "chat_id": -68159930414486,
+      "title": "Рынок Чита75R",
+      "participants_count": 694,
+      "members_scanned": 694,
+      "non_bots_non_admins": 690,
+      "after_excluding_target_members": 370,
+      "unique_new_from_chat": 19
+    },
+    {
+      "chat_id": -68847757148269,
+      "title": "Ейск(Барахолка)",
+      "participants_count": 402,
+      "members_scanned": 402,
+      "non_bots_non_admins": 399,
+      "after_excluding_target_members": 378,
+      "unique_new_from_chat": 261
+    },
+    {
+      "chat_id": -69440469183098,
+      "title": "🔷 КУПЛЮ 7 🔷АДЫГЕЯ - РАЙОНЫ 🔷",
+      "participants_count": 433,
+      "members_scanned": 433,
+      "non_bots_non_admins": 427,
+      "after_excluding_target_members": 395,
+      "unique_new_from_chat": 232
+    },
+    {
+      "chat_id": -68102758249896,
+      "title": "Подслушано ЧИТА",
+      "participants_count": 577,
+      "members_scanned": 577,
+      "non_bots_non_admins": 574,
+      "after_excluding_target_members": 299,
+      "unique_new_from_chat": 45
+    },
+    {
+      "chat_id": -68022921197022,
+      "title": "ЧИТА БАРАХОЛКА",
+      "participants_count": 1383,
+      "members_scanned": 1383,
+      "non_bots_non_admins": 1379,
+      "after_excluding_target_members": 559,
+      "unique_new_from_chat": 130
+    },
+    {
+      "chat_id": -68091581672070,
+      "title": "👩‍👦‍👦🌸 МАМОЧКИ МКР МОЛОДЁЖНЫЙ и СОСЕДИ 🌸👩‍👧‍👧",
+      "participants_count": 180,
+      "members_scanned": 180,
+      "non_bots_non_admins": 176,
+      "after_excluding_target_members": 173,
+      "unique_new_from_chat": 173
+    },
+    {
+      "chat_id": -68159753074070,
+      "title": "Авто Чита 75R",
+      "participants_count": 556,
+      "members_scanned": 556,
+      "non_bots_non_admins": 552,
+      "after_excluding_target_members": 299,
+      "unique_new_from_chat": 35
+    },
+    {
+      "chat_id": -68100164725322,
+      "title": "Здесь ваша реклама Чита и Забайкальский край",
+      "participants_count": 587,
+      "members_scanned": 587,
+      "non_bots_non_admins": 584,
+      "after_excluding_target_members": 357,
+      "unique_new_from_chat": 27
+    },
+    {
+      "chat_id": -69401173246022,
+      "title": "ЧЕРНОВСКИЙ РАЙОН, ЧИТА",
+      "participants_count": 274,
+      "members_scanned": 274,
+      "non_bots_non_admins": 272,
+      "after_excluding_target_members": 196,
+      "unique_new_from_chat": 117
+    },
+    {
+      "chat_id": -70423011440022,
+      "title": "Работа Чита75",
+      "participants_count": 284,
+      "members_scanned": 284,
+      "non_bots_non_admins": 280,
+      "after_excluding_target_members": 121,
+      "unique_new_from_chat": 12
+    }
+  ],
+  "unique_ids_count": 9478,
+  "result_file_txt": "data/chita_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_20260228215359.txt"
+}

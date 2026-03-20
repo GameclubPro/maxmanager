@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-03-07T14:07:19.341Z",
+  "bot_user_id": 207300808,
+  "bot_username": "id613000010769_bot",
+  "total_chats_seen": 280,
+  "pages": 3,
+  "filter": "title|description|link contains rodion/nesvet markers",
+  "marker_keys": [
+    "rodion",
+    "nesvet",
+    "rodionovo_nesvetaysky"
+  ],
+  "matched_count": 2,
+  "active_matched_count": 2,
+  "bot_admin_or_owner_count": 0,
+  "bot_membership_errors_count": 0,
+  "chats": [
+    {
+      "chat_id": -68847603122402,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА НЕСВЕТАЯ",
+      "participants_count": 726,
+      "is_public": false,
+      "link": "https://max.ru/join/kgm19cOy3mg9T-2jhUanACEHJwI_TjuYTgj10njewwo",
+      "description": "Администрация группы не несет никакой финансовой выгоды и оставляет за собой право заносить в БАН пользователей не соблюдающих правила группы.\nВ группы запрещены❌\nссылки на сомнительные сайты\nконфликты\nмат",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "nesvet"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    },
+    {
+      "chat_id": -68093793768848,
+      "type": "chat",
+      "status": "active",
+      "title": "Барахолка Несветай",
+      "participants_count": 305,
+      "is_public": false,
+      "link": "https://max.ru/join/Xtx8WV1O7E6PUjO5mwbUREiCErFc8cgPvgYg1L_NgBg",
+      "description": "https://max.ru/join/Xtx8WV1O7E6PUjO5mwbUREiCErFc8cgPvgYg1L_NgBg\nСсылка на вступление",
+      "matched_fields": [
+        "title"
+      ],
+      "matched_marker_keys": [
+        "nesvet"
+      ],
+      "bot_membership": {
+        "is_owner": false,
+        "is_admin": false,
+        "permissions": []
+      },
+      "bot_membership_error": null
+    }
+  ]
+}

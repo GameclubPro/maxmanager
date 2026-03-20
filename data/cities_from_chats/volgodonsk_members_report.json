@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-02T14:44:41.166Z",
+  "city": "volgodonsk",
+  "source_chats_count": 3,
+  "processed_chats_count": 3,
+  "failed_chats_count": 0,
+  "unique_ids_count": 707,
+  "per_chat": [
+    {
+      "chat_id": -70026839458039,
+      "title": "Барахолка Волгодонска Чат",
+      "pages": 4,
+      "members_fetched": 362,
+      "kept_non_bot_non_admin": 360,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71525320394759,
+      "title": "Волгодонск Объявления | Объявления",
+      "pages": 5,
+      "members_fetched": 459,
+      "kept_non_bot_non_admin": 454,
+      "skipped_bots": 2,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70392682673501,
+      "title": "07/Зимовки, Волгодонск, Шахты Ростовской области",
+      "pages": 2,
+      "members_fetched": 121,
+      "kept_non_bot_non_admin": 117,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/volgodonsk.txt"
+}

@@ -1,0 +1,10 @@
+generated_at: 2026-03-04T21:57:58.360Z
+total_chats_seen: 497
+unique_chats_count: 497
+pages: 5
+
+[strict] /(лнр|\blnr\b)/iu
+none
+
+[broad_luhansk] /(луган|lugansk)/iu
+none

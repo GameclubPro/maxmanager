@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "checked_at": "2026-03-16T11:18:43.960Z",
+  "bot_user_id": 219708220,
+  "bot_name": "Чатен",
+  "bot_scope_total_visible_chats": 13,
+  "bot_scope_total_active_group_chats": 13,
+  "all_chats_pages": 1,
+  "city_scope": "Советская / Бесскорбная / Советское",
+  "city_scope_rule": "all visible active chats except target where title matches /(советск|бесскорб)/iu",
+  "target_chat": {
+    "chat_id": -71974962891302,
+    "title": "СОВЕТСКОЕ:ЧТО?ГДЕ?КОГДА?",
+    "expected_title_from_request": "СОВЕТСКОЕ:ЧТО?ГДЕ?КОГДА?",
+    "participants_count": 6,
+    "target_members_scanned": 6,
+    "target_member_pages": 1
+  },
+  "source_chats_count_requested": 7,
+  "source_chat_ids_requested": [
+    -69489977928320,
+    -69375202506029,
+    -69666988100275,
+    -68829256990787,
+    -68829265182787,
+    -68829228220483,
+    -68835305308227
+  ],
+  "source_chats": [
+    {
+      "chat_id": -69489977928320,
+      "title": "Советская - Бесскорбная ОБЪЯВЛЕНИЯ",
+      "participants_count": 2332,
+      "link": "https://max.ru/join/p3l2N8vYRIH6uWiklyP9M8ai6mBUL6-VSy803thGai0"
+    },
+    {
+      "chat_id": -69375202506029,
+      "title": "Светофор станица Советская",
+      "participants_count": 1183,
+      "link": "https://max.ru/join/pX3XAowF91P3BXuw6X7atkVHX9DIVLzjbzwuXy3ZxCg"
+    },
+    {
+      "chat_id": -69666988100275,
+      "title": "АНТИ ДПС БЕССКОРБНАЯ-СОВЕТСКАЯ😎",
+      "participants_count": 1078,
+      "link": "https://max.ru/join/q71ciu_vCcYZW4jH1MhLDUNRA6unny9dUD9bfee7Slo"
+    },
+    {
+      "chat_id": -68829256990787,
+      "title": "СТАНИЧНИКИ_Советская",
+      "participants_count": 942,
+      "link": "https://max.ru/join/0AXuLMPnyu3pkBFmNBOa7Ym_9wXSBZCJIUExRKkAA6M"
+    },
+    {
+      "chat_id": -68829265182787,
+      "title": "Советская_Армавир",
+      "participants_count": 524,
+      "link": "https://max.ru/join/6X1_Tf1wd9ChDNvQ_T7bWGCTbXxa5YkdJ7bELHS-NNw"
+    },
+    {
+      "chat_id": -68829228220483,
+      "title": "Юла_Советская_Армавир",
+      "participants_count": 415,
+      "link": "https://max.ru/join/zWrb7XaB7QEJfInFmPxezrDXwKh9ccT7bnbla3ucRGU"
+    },
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "participants_count": 330,
+      "link": "https://max.ru/join/jSpeH6E7kfCUUuFqLzkwvZDxF3ydrTwMSKuGfPuRYFs"
+    }
+  ],
+  "processed_chats": 7,
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "filters": {
+    "exclude_bots": true,
+    "exclude_admins": true,
+    "exclude_owners": true,
+    "exclude_anyone_already_in_target_chat": true,
+    "exclude_anyone_seen_as_bot_admin_or_owner_in_any_source_chat": true
+  },
+  "excluded_target_member_ids_count": 6,
+  "globally_excluded_bot_admin_owner_ids_count": 10,
+  "per_chat": [
+    {
+      "chat_id": -69489977928320,
+      "title": "Советская - Бесскорбная ОБЪЯВЛЕНИЯ",
+      "participants_count": 2332,
+      "members_scanned": 2332,
+      "pages": 24,
+      "bot_or_admin_or_owner_filtered": 6,
+      "non_bots_non_admins": 2326,
+      "after_excluding_target_members": 2324,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 2320,
+      "unique_new_from_chat": 2320
+    },
+    {
+      "chat_id": -69375202506029,
+      "title": "Светофор станица Советская",
+      "participants_count": 1183,
+      "members_scanned": 1183,
+      "pages": 12,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 1180,
+      "after_excluding_target_members": 1178,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 1178,
+      "unique_new_from_chat": 641
+    },
+    {
+      "chat_id": -69666988100275,
+      "title": "АНТИ ДПС БЕССКОРБНАЯ-СОВЕТСКАЯ😎",
+      "participants_count": 1078,
+      "members_scanned": 1078,
+      "pages": 11,
+      "bot_or_admin_or_owner_filtered": 4,
+      "non_bots_non_admins": 1074,
+      "after_excluding_target_members": 1072,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 1070,
+      "unique_new_from_chat": 332
+    },
+    {
+      "chat_id": -68829256990787,
+      "title": "СТАНИЧНИКИ_Советская",
+      "participants_count": 942,
+      "members_scanned": 942,
+      "pages": 10,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 939,
+      "after_excluding_target_members": 937,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 935,
+      "unique_new_from_chat": 146
+    },
+    {
+      "chat_id": -68829265182787,
+      "title": "Советская_Армавир",
+      "participants_count": 524,
+      "members_scanned": 524,
+      "pages": 6,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 521,
+      "after_excluding_target_members": 519,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 519,
+      "unique_new_from_chat": 26
+    },
+    {
+      "chat_id": -68829228220483,
+      "title": "Юла_Советская_Армавир",
+      "participants_count": 415,
+      "members_scanned": 415,
+      "pages": 5,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 412,
+      "after_excluding_target_members": 410,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 410,
+      "unique_new_from_chat": 22
+    },
+    {
+      "chat_id": -68835305308227,
+      "title": "Работа_Подработка_Советская",
+      "participants_count": 330,
+      "members_scanned": 330,
+      "pages": 4,
+      "bot_or_admin_or_owner_filtered": 3,
+      "non_bots_non_admins": 327,
+      "after_excluding_target_members": 325,
+      "final_ids_from_chat_after_global_bot_admin_exclusion": 325,
+      "unique_new_from_chat": 41
+    }
+  ],
+  "unique_ids_count": 3528,
+  "result_file_txt": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt"
+}

@@ -1,0 +1,32 @@
+checked_at: 2026-03-09T12:32:37.469Z
+bot_username: id613000010769_bot
+total_chats_seen: 343
+pages: 4
+filter: title|description|link contains /(чита|chita)/i
+matched_count: 24
+active_matched_count: 24
+
+-71711706414456	active	19210	Chat75.ru	[description]
+-71489818560519	active	7302	Чита Объявления | Новости	[title,description]
+-68076019810506	active	3287	Регион 75	[description]
+-68097242792138	active	2338	БАРАХОЛКА 75R	[description]
+-68097233289418	active	2146	Чита 75 🇷🇺RUS	[title,description]
+-68845329787436	active	2100	ДРУЖНЫЙ СОЛЗАН	[description]
+-68246190656209	active	1940	Авторынок Волгоград объявления	[description]
+-68212641988810	active	1927	БАРАХЛЯНДИЯ🇷🇺	[description]
+-68117060324043	active	1350	Объявления г. Чита	[title]
+-68100891214071	active	1053	ОБЪЯВЛЕНИЕ! РОСТОВСКАЯ ОБЛ КРАСНОДАРСКИЙ КРАЙ	[description]
+-68597066702870	active	886	Общество охотников и рыболовов	[description]
+-68781077015126	active	718	ЧИТА. ЗАБАЙКАЛЬСКИЙ КРАЙ	[title]
+-68159689766294	active	701	Недвижимость Чита 75	[title]
+-68360003051677	active	496	Энгельс Купи - Продай - Реклама Бесплатно	[description]
+-69418346537117	active	479	Улёты Чита Объявления	[title]
+-68813462178555	active	418	Бесплатные обьявления Чита	[title]
+-68251366847972	active	402	Чита: Доска объявлений	[title]
+-69384543865595	active	377	Барахолка Чита	[title]
+-70758535785115	active	329	Работа Краснодарский край	[description]
+-69351574899433	active	219	ЧИТА. КУПИ, ПРОДАЙ	[title]
+-71408855463348	active	208	Цветики-Цветочки (Чита)	[title]
+-70856936647323	active	181	Работа Москва и Московская область	[description]
+-71489896106117	active	94	Цветы. Рассада. Саженцы. Чита	[title]
+-71490092468744	active	82	Фермерский драйв. Чита.	[title]

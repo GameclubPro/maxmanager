@@ -1,0 +1,450 @@
+{
+  "checked_at": "2026-03-16T20:35:39.409Z",
+  "city": "Астрахань",
+  "city_slug": "astrakhan",
+  "city_report_file": "data/bot_chats_by_city_20260316_233512.json",
+  "target_chat": {
+    "chat_id": -72094430562311,
+    "title": "Астрахань Объявления | Новости",
+    "type": "chat",
+    "status_live": "active",
+    "participants_count_report": 9,
+    "participants_count_live": 9,
+    "target_snapshot_member_count": 9,
+    "target_snapshot_pages": 1
+  },
+  "source_chat_count": 22,
+  "source_chat_failures_count": 0,
+  "unique_ids_count": 5194,
+  "files": {
+    "txt": "data/astrakhan_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_233539.txt",
+    "json": "data/astrakhan_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_233539.json"
+  },
+  "source_chats": [
+    {
+      "chat_id": -70751287659208,
+      "title": "3️⃣0️⃣💯👋💯 Астрахань и Астраханская обл ДОСКА ОБЪЯВЛЕНИЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 3463,
+      "participants_count_live": 3463,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 35,
+      "members_seen_total": 3456,
+      "bots_count": 9,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 3443,
+      "excluded_already_in_target_count": 2,
+      "duplicate_across_source_chats_count": 0,
+      "unique_ids_added_count": 3441
+    },
+    {
+      "chat_id": -68130657829102,
+      "title": "Астраханские Новости 18+",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 1599,
+      "participants_count_live": 1599,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 16,
+      "members_seen_total": 1599,
+      "bots_count": 2,
+      "admin_or_owner_count": 16,
+      "eligible_non_bot_non_admin_count": 1581,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 944,
+      "unique_ids_added_count": 636
+    },
+    {
+      "chat_id": -68183554954616,
+      "title": "🚨Трусово, купи, продай.🚨 Астрахани и АО🚨",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 579,
+      "participants_count_live": 579,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 6,
+      "members_seen_total": 579,
+      "bots_count": 1,
+      "admin_or_owner_count": 7,
+      "eligible_non_bot_non_admin_count": 571,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 277,
+      "unique_ids_added_count": 293
+    },
+    {
+      "chat_id": -69295205509703,
+      "title": "🚗 Автозвук_30_Автомир",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 377,
+      "participants_count_live": 377,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 377,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 374,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 163,
+      "unique_ids_added_count": 210
+    },
+    {
+      "chat_id": -69463512866976,
+      "title": "🤩Все ссылки/реклама Астрахани/АО",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 346,
+      "participants_count_live": 346,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 346,
+      "bots_count": 3,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 342,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 232,
+      "unique_ids_added_count": 109
+    },
+    {
+      "chat_id": -69414134718477,
+      "title": "Астраханский край !!!!Обьяления и личные продажи!!!!",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 316,
+      "participants_count_live": 316,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 316,
+      "bots_count": 1,
+      "admin_or_owner_count": 5,
+      "eligible_non_bot_non_admin_count": 310,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 233,
+      "unique_ids_added_count": 76
+    },
+    {
+      "chat_id": -68782663188571,
+      "title": "Все Услуги Астрахань",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 307,
+      "participants_count_live": 307,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 307,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 304,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 263,
+      "unique_ids_added_count": 40
+    },
+    {
+      "chat_id": -70001839407342,
+      "title": "Мамочки👣АСТРАХАНИ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 290,
+      "participants_count_live": 290,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 290,
+      "bots_count": 1,
+      "admin_or_owner_count": 8,
+      "eligible_non_bot_non_admin_count": 281,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 186,
+      "unique_ids_added_count": 94
+    },
+    {
+      "chat_id": -69452032679949,
+      "title": "ПОДСЛУШАНО АСТРАХАНЬ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 283,
+      "participants_count_live": 283,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 283,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 278,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 252,
+      "unique_ids_added_count": 25
+    },
+    {
+      "chat_id": -69210880319501,
+      "title": "БОЛЬШАЯ ДОСКА  ОБЬЯВЛЕНИЙ АСТРАХАНЬ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 234,
+      "participants_count_live": 234,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 234,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 230,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 188,
+      "unique_ids_added_count": 41
+    },
+    {
+      "chat_id": -69920749035533,
+      "title": "АСТРАХАНСКАЯ ВОЛНА ОБЬЯВЛЕНИЙ И НОВОСТЕЙ!!!",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 231,
+      "participants_count_live": 231,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 231,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 228,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 196,
+      "unique_ids_added_count": 31
+    },
+    {
+      "chat_id": -70157560422413,
+      "title": "КИРОВСКИЙ РАЙОН!!!БЕСПЛАТНЫЕ ОБЬЯВЛЕНИЯ!!!!.АСТРАХАНЬ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 184,
+      "participants_count_live": 184,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 184,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 180,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 176,
+      "unique_ids_added_count": 3
+    },
+    {
+      "chat_id": -69346271073653,
+      "title": "🚨КУПИ🚨ПРОДАЙ🚨ОБМЕН 🚨 Астрахани бот",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 156,
+      "participants_count_live": 156,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 156,
+      "bots_count": 1,
+      "admin_or_owner_count": 7,
+      "eligible_non_bot_non_admin_count": 148,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 120,
+      "unique_ids_added_count": 27
+    },
+    {
+      "chat_id": -71106825052320,
+      "title": "🛒БАРАХОЛКА АСТРАХАНЬ 🛒",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 155,
+      "participants_count_live": 155,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 155,
+      "bots_count": 3,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 151,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 133,
+      "unique_ids_added_count": 17
+    },
+    {
+      "chat_id": -69302143590413,
+      "title": "АВИТО АСТРАХАНЬ РЕКЛАМА",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 144,
+      "participants_count_live": 144,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 144,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 141,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 120,
+      "unique_ids_added_count": 20
+    },
+    {
+      "chat_id": -71517620426065,
+      "title": "Реклама Астрахань",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 142,
+      "participants_count_live": 142,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 142,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 140,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 112,
+      "unique_ids_added_count": 27
+    },
+    {
+      "chat_id": -70499165686472,
+      "title": "РОЗ Тортов и Десертов  Астрахань",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 136,
+      "participants_count_live": 136,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 136,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 134,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 91,
+      "unique_ids_added_count": 42
+    },
+    {
+      "chat_id": -69389702960501,
+      "title": "🚨РАБОТЯГИ 🚨Астрахань и АО🚨",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 111,
+      "participants_count_live": 111,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 111,
+      "bots_count": 1,
+      "admin_or_owner_count": 6,
+      "eligible_non_bot_non_admin_count": 104,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 81,
+      "unique_ids_added_count": 22
+    },
+    {
+      "chat_id": -70355447747960,
+      "title": "🚨 ОБЪЯВЛЕНИЯ 3 интернационала🚨 Астрахани и АО🚨",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 82,
+      "participants_count_live": 82,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 82,
+      "bots_count": 1,
+      "admin_or_owner_count": 6,
+      "eligible_non_bot_non_admin_count": 75,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 68,
+      "unique_ids_added_count": 6
+    },
+    {
+      "chat_id": -71904282595911,
+      "title": "Объявления Астрахань",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 67,
+      "participants_count_live": 67,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 67,
+      "bots_count": 1,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 64,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 46,
+      "unique_ids_added_count": 17
+    },
+    {
+      "chat_id": -70322319758712,
+      "title": "🚨ЮЛА🚨Объявления🚨Астрахани и АО🚨",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 61,
+      "participants_count_live": 61,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 61,
+      "bots_count": 3,
+      "admin_or_owner_count": 7,
+      "eligible_non_bot_non_admin_count": 51,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 40,
+      "unique_ids_added_count": 10
+    },
+    {
+      "chat_id": -69517391336824,
+      "title": "🚨ПРОДАЖИ в Астрахани🚨бот",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 45,
+      "participants_count_live": 45,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 45,
+      "bots_count": 2,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 39,
+      "excluded_already_in_target_count": 1,
+      "duplicate_across_source_chats_count": 31,
+      "unique_ids_added_count": 7
+    }
+  ],
+  "failed_source_chats": []
+}

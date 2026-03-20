@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-03-02T14:23:46.174Z",
+  "run_timestamp": "20260302172346",
+  "source_files_scanned": 27,
+  "cities_generated": 14,
+  "output_dir": "data/city_member_ids",
+  "cities": [
+    {
+      "city": "anapa",
+      "ids_count": 707,
+      "source_files_count": 3,
+      "json_file": "data/city_member_ids/anapa_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/anapa_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "chita",
+      "ids_count": 14805,
+      "source_files_count": 4,
+      "json_file": "data/city_member_ids/chita_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/chita_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "ekaterinburg",
+      "ids_count": 599,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/ekaterinburg_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/ekaterinburg_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "eysk",
+      "ids_count": 4373,
+      "source_files_count": 2,
+      "json_file": "data/city_member_ids/eysk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/eysk_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "irkutsk",
+      "ids_count": 5104,
+      "source_files_count": 3,
+      "json_file": "data/city_member_ids/irkutsk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/irkutsk_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "kazan",
+      "ids_count": 4197,
+      "source_files_count": 3,
+      "json_file": "data/city_member_ids/kazan_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/kazan_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "khabarovsk",
+      "ids_count": 1888,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/khabarovsk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/khabarovsk_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "krasnodar",
+      "ids_count": 6152,
+      "source_files_count": 2,
+      "json_file": "data/city_member_ids/krasnodar_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/krasnodar_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "krasnoyarsk",
+      "ids_count": 1873,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/krasnoyarsk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/krasnoyarsk_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "kuban",
+      "ids_count": 2876,
+      "source_files_count": 2,
+      "json_file": "data/city_member_ids/kuban_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/kuban_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "novoshakhtinsk",
+      "ids_count": 593,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/novoshakhtinsk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/novoshakhtinsk_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "rostov",
+      "ids_count": 4381,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/rostov_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/rostov_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "ufa",
+      "ids_count": 7524,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/ufa_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/ufa_all_chats_member_ids_no_bots_no_admins.txt"
+    },
+    {
+      "city": "volgodonsk",
+      "ids_count": 1565,
+      "source_files_count": 1,
+      "json_file": "data/city_member_ids/volgodonsk_all_chats_member_ids_no_bots_no_admins.json",
+      "txt_file": "data/city_member_ids/volgodonsk_all_chats_member_ids_no_bots_no_admins.txt"
+    }
+  ],
+  "warnings": [
+    {
+      "source": "data/irkutsk_all_other_chats_member_ids_no_bots_no_admins_live_20260227_024718.json",
+      "message": "no ids found in json.ids and related txt files"
+    }
+  ]
+}

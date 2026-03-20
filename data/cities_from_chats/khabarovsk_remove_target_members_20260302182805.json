@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-02T15:28:05.794Z",
+  "source_file": "data/cities_from_chats/khabarovsk.txt",
+  "target_chat": {
+    "chat_id": -71506814142471,
+    "title": "Хабаровск Объявления | Новости",
+    "members_total": 998,
+    "pages_fetched": 10
+  },
+  "file_rows_before": 2961,
+  "file_rows_after": 2140,
+  "removed_because_in_target_chat": 821
+}

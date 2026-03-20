@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-03-02T14:44:38.153Z",
+  "city": "ufa",
+  "source_chats_count": 19,
+  "processed_chats_count": 19,
+  "failed_chats_count": 0,
+  "unique_ids_count": 14055,
+  "per_chat": [
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "pages": 121,
+      "members_fetched": 12092,
+      "kept_non_bot_non_admin": 12076,
+      "skipped_bots": 9,
+      "skipped_admins": 7,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71308037502364,
+      "title": "Уфа: Отдам, Куплю, Продам",
+      "pages": 38,
+      "members_fetched": 3712,
+      "kept_non_bot_non_admin": 3702,
+      "skipped_bots": 7,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71371013227776,
+      "title": "Перекуп_102RUS УФА ЧАТ",
+      "pages": 5,
+      "members_fetched": 498,
+      "kept_non_bot_non_admin": 489,
+      "skipped_bots": 8,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Бесплатные Объявления Уфа Online",
+      "pages": 7,
+      "members_fetched": 618,
+      "kept_non_bot_non_admin": 616,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "pages": 10,
+      "members_fetched": 923,
+      "kept_non_bot_non_admin": 921,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69910624854167,
+      "title": "Барахолочка Демы Уфа+ РБ",
+      "pages": 5,
+      "members_fetched": 482,
+      "kept_non_bot_non_admin": 479,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "pages": 3,
+      "members_fetched": 245,
+      "kept_non_bot_non_admin": 242,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69246620008641,
+      "title": "Объявления Уфа-Рб",
+      "pages": 3,
+      "members_fetched": 226,
+      "kept_non_bot_non_admin": 223,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70376382403858,
+      "title": "🟣Купи/продай/отдай Сипа Уфа",
+      "pages": 3,
+      "members_fetched": 255,
+      "kept_non_bot_non_admin": 253,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70376393151762,
+      "title": "🟣Купи/продай/отдай Зеленка Уфа",
+      "pages": 3,
+      "members_fetched": 253,
+      "kept_non_bot_non_admin": 251,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70376433653010,
+      "title": "🟣Купи/продай/отдай Затон Уфа",
+      "pages": 3,
+      "members_fetched": 251,
+      "kept_non_bot_non_admin": 249,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70376225707282,
+      "title": "🟣Купи/продай/отдай Уфа",
+      "pages": 4,
+      "members_fetched": 342,
+      "kept_non_bot_non_admin": 340,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69374225604759,
+      "title": "Купи, продай, объявления РБУфа+",
+      "pages": 6,
+      "members_fetched": 568,
+      "kept_non_bot_non_admin": 565,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа",
+      "pages": 5,
+      "members_fetched": 474,
+      "kept_non_bot_non_admin": 471,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68787063649632,
+      "title": "Халтура, Объявления, Уфа.",
+      "pages": 4,
+      "members_fetched": 396,
+      "kept_non_bot_non_admin": 394,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68436056569184,
+      "title": "Ссылки . Объявления Уфа.",
+      "pages": 5,
+      "members_fetched": 496,
+      "kept_non_bot_non_admin": 494,
+      "skipped_bots": 1,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69319118189929,
+      "title": "💥РынокУфаРб",
+      "pages": 4,
+      "members_fetched": 382,
+      "kept_non_bot_non_admin": 374,
+      "skipped_bots": 6,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -68307287671031,
+      "title": "ХАЛТУРА , ПОДРАБОТКА УФА И ПРИГОРОД",
+      "pages": 5,
+      "members_fetched": 468,
+      "kept_non_bot_non_admin": 465,
+      "skipped_bots": 1,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70638512603368,
+      "title": "Авито -Барахолка Уфа и ближайшие районы!",
+      "pages": 3,
+      "members_fetched": 229,
+      "kept_non_bot_non_admin": 225,
+      "skipped_bots": 3,
+      "skipped_admins": 1,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/ufa.txt"
+}

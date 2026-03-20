@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-03-14T14:16:43.722Z",
+  "city": "Хакасия",
+  "selection_note": "Included active chats matching Хакасия/Абакан; excluded target chat and mixed chats with explicit Красноярск mention.",
+  "source_chats_from_live_scan": true,
+  "target_chat": {
+    "chat_id": -71975853328391,
+    "title": "Хакасия Объявления | Новости",
+    "type": "chat",
+    "status": "active",
+    "participants_count": 10
+  },
+  "all_visible_chats_count": 597,
+  "all_visible_chats_pages": 6,
+  "matched_related_chats_count_including_target_and_mixed": 8,
+  "excluded_mixed_chats_count": 3,
+  "excluded_mixed_chats": [
+    {
+      "chat_id": -69410480564786,
+      "title": "ПОКУПАЕМ-ПРОДАЁМ. Респ. Хакасия и юг края.",
+      "participants_count": 328
+    },
+    {
+      "chat_id": -69576572493954,
+      "title": "Объявления и ССЫЛКИ КРАСНОЯРСК, КР. КРАЙ И ХАКАСИЯ (max)",
+      "participants_count": 582
+    },
+    {
+      "chat_id": -69367809466498,
+      "title": "БАРАХОЛКА. КРАСНОЯРСК И КРАЙ. ХАКАСИЯ",
+      "participants_count": 1178
+    }
+  ],
+  "city_chats_count_including_target_after_excluding_mixed": 5,
+  "source_chats_count_requested": 4,
+  "source_chats_processed": 4,
+  "source_chat_ids_requested": [
+    -71600539122376,
+    -68055942340621,
+    -68874544824396,
+    -69369400740528
+  ],
+  "failed_chats_count": 0,
+  "failed_chats": [],
+  "target_members_scanned_count": 10,
+  "target_members_pages": 1,
+  "result_ids_count": 8103,
+  "result_file_txt": "data/khakasia_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_171613.txt",
+  "source_chats_report": [
+    {
+      "chat_id": -71600539122376,
+      "title": "Хакасия I Объявления I Реклама",
+      "participants_count_hint": 6938,
+      "scanned_members_count": 6939,
+      "pagination_pages": 70,
+      "filtered_bots": 14,
+      "filtered_admins_or_owners": 1,
+      "filtered_already_in_target": 3,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 6921,
+      "kept_unique_for_this_chat": 6921
+    },
+    {
+      "chat_id": -68055942340621,
+      "title": "Автобарахолка Хакасии. Покупка,продажа,запчасти,ремонт.",
+      "participants_count_hint": 1453,
+      "scanned_members_count": 1453,
+      "pagination_pages": 15,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 1,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 1449,
+      "kept_unique_for_this_chat": 766
+    },
+    {
+      "chat_id": -68874544824396,
+      "title": "АБАКАН ХАКАСИЯ КРАСН. КРАЯ",
+      "participants_count_hint": 614,
+      "scanned_members_count": 614,
+      "pagination_pages": 7,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 5,
+      "filtered_already_in_target": 2,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 606,
+      "kept_unique_for_this_chat": 329
+    },
+    {
+      "chat_id": -69369400740528,
+      "title": "Барахолка Хакасия по всем районам",
+      "participants_count_hint": 316,
+      "scanned_members_count": 316,
+      "pagination_pages": 4,
+      "filtered_bots": 1,
+      "filtered_admins_or_owners": 2,
+      "filtered_already_in_target": 1,
+      "filtered_invalid_user_id": 0,
+      "kept_non_bot_non_admin_not_in_target_before_global_dedupe": 312,
+      "kept_unique_for_this_chat": 87
+    }
+  ]
+}

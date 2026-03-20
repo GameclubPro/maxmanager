@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-14T16:50:42.086Z",
+  "source_file": "data/khakasia_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260314_171613.txt",
+  "target_chat_id": -71975853328391,
+  "target_chat_title": "Хакасия Объявления | Новости",
+  "first_pass": {
+    "batches": 21,
+    "already_in_target_count": 2,
+    "attempted_invite_count": 7768,
+    "invited_without_immediate_failure_count": 7648,
+    "verified_added_count": 6910,
+    "still_missing_count": 1191,
+    "merged_still_missing_file": "data/invite_khakasia_target_20260314_172358/first_pass_merged_still_missing.txt"
+  },
+  "retry1": {
+    "batches": 3,
+    "attempted_invite_count": 1191,
+    "invited_without_immediate_failure_count": 460,
+    "verified_added_count": 150,
+    "still_missing_count": 1041,
+    "merged_still_missing_file": "data/invite_khakasia_target_20260314_172358/retry1_merged_still_missing.txt"
+  },
+  "final": {
+    "total_verified_added_count": 7060,
+    "remaining_after_retry1_count": 1041,
+    "current_target_participants_count_live": 6635
+  }
+}

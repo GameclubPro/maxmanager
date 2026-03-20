@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-03-02T14:41:28.200Z",
+  "city": "novoshakhtinsk",
+  "source_chats_count": 4,
+  "processed_chats_count": 4,
+  "failed_chats_count": 0,
+  "unique_ids_count": 2776,
+  "per_chat": [
+    {
+      "chat_id": -69199655897845,
+      "title": "ПОДСЛУШАНО НОВОШАХТИНСК",
+      "pages": 7,
+      "members_fetched": 678,
+      "kept_non_bot_non_admin": 674,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -71489753942023,
+      "title": "Новошахтинск Объявления | Новости",
+      "pages": 23,
+      "members_fetched": 2297,
+      "kept_non_bot_non_admin": 2291,
+      "skipped_bots": 2,
+      "skipped_admins": 4,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -70933000194781,
+      "title": "Объявления Новошахтинск",
+      "pages": 21,
+      "members_fetched": 2061,
+      "kept_non_bot_non_admin": 2057,
+      "skipped_bots": 2,
+      "skipped_admins": 2,
+      "skipped_invalid": 0
+    },
+    {
+      "chat_id": -69502470482581,
+      "title": "Объявления и услуги. г Шахты/ Каменоломни/ Новошахтинск/ Новочеркасск/ прилегающие территории.",
+      "pages": 4,
+      "members_fetched": 329,
+      "kept_non_bot_non_admin": 325,
+      "skipped_bots": 1,
+      "skipped_admins": 3,
+      "skipped_invalid": 0
+    }
+  ],
+  "failed_chats": [],
+  "output_txt_file": "data/cities_from_chats/novoshakhtinsk.txt"
+}

@@ -1,0 +1,170 @@
+{
+  "city": "Заринск",
+  "scope": "all chats visible to bot token via getAllChats()",
+  "city_filter": "title|description|link contains /(заринск|zarinsk)/iu",
+  "checked_at": "2026-03-13T17:03:12.643Z",
+  "total_visible_chats": 557,
+  "matched_chats_count": 12,
+  "matched_chats": [
+    {
+      "chat_id": -68119260670598,
+      "title": "Кинотеатр Северный г.Заринск",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1847,
+      "is_public": false,
+      "link": "https://max.ru/join/czFzUby1OByoa0NcVWB8wDYOHjJY5ou1Aa0Opss4EXs",
+      "description": "🚨Группа Кинотеатр Северный Комсомольская 13\n Тел :8(983)3865660 \n\nhttps://widget.p24.app/1cbe01e1-d91c-4383-9bb5-bc491be30e14/cinema\nПокупка билетов онлайн \n\n🚨Здесь вы можете узнать расписание сеансов,узнать новости кинопроката, посмотреть трейлеры к фильмам, купить билеты онлайн. \n\n⛔Зарещены все претензии, и любое проявление негатива. \n\n🚨РЕКЛАМА ЗАПРЕЩЕНА!!!",
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68287982643846,
+      "title": "Барахолка - Заринск, Заринский район!",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1404,
+      "is_public": false,
+      "link": "https://max.ru/join/qMxdgKoIWnJl5N6YEjgKLP2gcERaJEjkOLcR3HZpGIk",
+      "description": "🚨Группа для всех видов объявлений. \n-Купить\n-Продать\n-Обменять\n-Подарить\n-Предоставление услуг \n-Аренда \n-Реклама \n-Работа\n\n⛔Запрещено оскорблять и критиковать кого бы то не было.\n\n⛔Зарещены финансовые сборы лотереи и розыгрыши.\n\n🚨Администрация не несёт ответственность за совершенные вами сделки и переводы денежных средств на счёт других лиц. Будьте внимательны, убедитесь ,что это не мошенники",
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68338530211138,
+      "title": "КУПИ ПРОДАЙ г.ЗАРИНСК",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 799,
+      "is_public": false,
+      "link": "https://max.ru/join/DybLnNxlpQkQkyXr4VTMKqHHWKJOxkiy58zgw6Pa0C0",
+      "description": null,
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -68186296265350,
+      "title": "Лавка фермера(Заринск и близлежайшие районы )",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1360,
+      "is_public": false,
+      "link": "https://max.ru/join/02uCLksVDdHUj6_pe_OJa1fe3BUglNFijoJKYLOSvGU",
+      "description": "🚨Группа для рекламы, покупки, продажи сельхозпродуктов, оборудования и всего, что связанно с сельским хозяйством!\nА так же для продажи даров леса. \n\n⛔Запрещается\n-оскорблять, обсуждать и критиковать людей, товар и их услуги. \nАвтоматическое удаление! \nАдмин всегда прав!\n\n🚨Комерческая реклама и ссылки на группы, только с разрешения администратрации! ",
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69343222737542,
+      "title": "Доска объявлений г.Заринск #1",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1582,
+      "is_public": false,
+      "link": "https://max.ru/join/hRQ_PCg-SU8IHlPw0vM90Duh181v8pHtTRKIZG_hpj4",
+      "description": "🚨Группа объявлений г. Заринск\n\n-Куплю\n-Продам\n-Обменяю\n\n⛔ЗАПРЕЩАЕТСЯ оскорблять и критиковать кого бы то ни было, устраивать дисскусии, обсуждения.\n\n⛔ ЗАПРЕЩЕНЫ \nЛЮБЫЕ денежные  сборы, розыгрыши и лотереи \n\n🚨Администрация  не несёт ответственность за совершенные вами сделки и переводы денежных средств. Будьте внимательны, прежде чем перевести деньги убедитесь,что это не мошенники",
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68147749825158,
+      "title": "Работа ,подработка г.Заринск и не только!",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1715,
+      "is_public": false,
+      "link": "https://max.ru/join/BgCrIQxsamrdBeSYcT7_RnGUC-Sz-47Te3c06uHQ6Is",
+      "description": "🏪Группа для поиска и предоставления постоянной работы, а так же для подработки в различных сферах для жителей г. Заринска и других близлежащих районов \n\n⛔Запрещается \n-оскорблять и обсуждать людей, организации и предоставляемые услуги.\n\n🚨Все подробности о предоставляемой работе в группе, узнаем в личке или звоним по указанному номеру телефона, чтобы не засорять чат!",
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -69223403063822,
+      "title": "Купи , Продай, Обменяй в Заринске",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 536,
+      "is_public": false,
+      "link": "https://max.ru/join/J7Bf9pnXnSSUW55I6bEaG7p7s4EvLgKluh4I1Gm74iI",
+      "description": null,
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69308605573766,
+      "title": "Популярные услуги г.Заринск",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1259,
+      "is_public": false,
+      "link": "https://max.ru/join/IMtCnqQsfZNtF4rGhUug9y_-3fkNBxmppBc0ECR_hDM",
+      "description": "🏪В этой группе вы можете предоставить свои услуги в различных сферах \n Так же можете написать кому какие услуги необходимы \n\n-Электрик \n-Сантехник \n-Уборка \n-Чистка \n-Различные виды ремонта, строительства\n-Профессиональный фотограф \n-Различные мастера салонов красоты \n-И другие услуги необходимые жителям нашего города.\n⛔Запрещается \n-Оскорблять,обсуждать людей и предоставляемые услуги \n",
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -71491721940425,
+      "title": "❤️❤️❤️ЗОЛОТАЯ РЫБКА ❤️❤️❤️!!! ГОРОД ЗАРИНСК, БАРНАУЛ.",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 180,
+      "is_public": false,
+      "link": "https://max.ru/join/35OaLDcf01N3qlz7thHIHisevZH8DZO2VkZeKTDyTJs",
+      "description": null,
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69224202152582,
+      "title": "Аренда ,недвижимость. Заринск и близлежайшие районы!",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1260,
+      "is_public": false,
+      "link": "https://max.ru/join/EMjVfg9wm-ViV0cl_MEzvEIKYBZh5xGDcpUI-0JvZNA",
+      "description": "🌇-Сниму\n-Сдам\n-Куплю\n-Продам\nЖильё, гаражи, дачи и другая недвижимость!\n\n⛔В группе запрещено\n-обсуждать или оскорблять кого либо!\nАвтоматическое удаление из группы \n-Админ всегда прав!\n\n🚨-Ссылки на группы и коммеческая реклама только с разрешения администратора!",
+      "city_matched_fields": [
+        "title"
+      ]
+    },
+    {
+      "chat_id": -69246531709574,
+      "title": "Анонсы мероприятий ,новости г.Заринск",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1821,
+      "is_public": false,
+      "link": "https://max.ru/join/HM_ShAwb-kYfG4bf8-O6ILaNJH1Q67-331uGW7L9TJ8",
+      "description": "🚨Группа для информации жителей Заринска и других близлежащих районов, о проведении в городе концертов, спектаклей, показов фильмов, и других различных мероприятий.\n\n🚨Местные новости и достижения жителей г. Заринска\n\n⛔Запрещается слать спам, оскорблять и критиковать кого бы то ни было.\n\n⛔РЕКЛАМА ЗАПРЕЩЕНА!",
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    },
+    {
+      "chat_id": -68319525513862,
+      "title": "\"Потеряшки\" г.Заринск и близлежайшие районы",
+      "type": "chat",
+      "status": "active",
+      "participants_count": 1332,
+      "is_public": false,
+      "link": "https://max.ru/join/ckx_0j7xziDGn9NUrYsyHycvD85cg0CfY5ImPTERvEs",
+      "description": "🚨В этой группе вы можете написать о найденных или потерянных вещах. \n🚨Заринск и близлежайшие районы.\n\n⛔Запрещается\n оскорблять и критиковать кого бы то не было. \nАвтоматическое удаление из группы. \n\n🚨Размещение ссылок на группы, коммерческая реклама только с разрешения администратора!\n\n🚨Поможем друг другу найти потерянные вещи!",
+      "city_matched_fields": [
+        "title",
+        "description"
+      ]
+    }
+  ]
+}

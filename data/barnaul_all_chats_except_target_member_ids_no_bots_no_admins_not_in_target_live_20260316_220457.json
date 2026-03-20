@@ -1,0 +1,371 @@
+{
+  "checked_at": "2026-03-16T19:04:57.929Z",
+  "city": "Барнаул",
+  "city_slug": "barnaul",
+  "city_report_file": "data/bot_chats_by_city_20260316_220055.json",
+  "target_chat": {
+    "chat_id": -71934616766471,
+    "title": "Барнаул Объявления | Новости",
+    "type": "chat",
+    "status_live": "active",
+    "participants_count_report": 1760,
+    "participants_count_live": 1760,
+    "target_snapshot_member_count": 1760,
+    "target_snapshot_pages": 18
+  },
+  "source_chat_count": 18,
+  "source_chat_failures_count": 0,
+  "unique_ids_count": 9792,
+  "files": {
+    "txt": "data/barnaul_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_220457.txt",
+    "json": "data/barnaul_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260316_220457.json"
+  },
+  "source_chats": [
+    {
+      "chat_id": -68871262683239,
+      "title": "🍓БАРНАУЛ «ЯгодНик»🍓",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 7170,
+      "participants_count_live": 7171,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 72,
+      "members_seen_total": 7170,
+      "bots_count": 6,
+      "admin_or_owner_count": 5,
+      "eligible_non_bot_non_admin_count": 7159,
+      "excluded_already_in_target_count": 312,
+      "duplicate_across_source_chats_count": 0,
+      "unique_ids_added_count": 6847
+    },
+    {
+      "chat_id": -69250063622316,
+      "title": "💫Объявления 💫Алтайский край💫",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 1066,
+      "participants_count_live": 1066,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 11,
+      "members_seen_total": 1066,
+      "bots_count": 2,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 1061,
+      "excluded_already_in_target_count": 285,
+      "duplicate_across_source_chats_count": 47,
+      "unique_ids_added_count": 729
+    },
+    {
+      "chat_id": -69385126193810,
+      "title": "Продам, куплю, обмен. Барнаул, авито",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 838,
+      "participants_count_live": 838,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 9,
+      "members_seen_total": 838,
+      "bots_count": 2,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 835,
+      "excluded_already_in_target_count": 314,
+      "duplicate_across_source_chats_count": 77,
+      "unique_ids_added_count": 444
+    },
+    {
+      "chat_id": -69435946868791,
+      "title": "БАРНАУЛ 22",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 762,
+      "participants_count_live": 762,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 8,
+      "members_seen_total": 761,
+      "bots_count": 6,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 754,
+      "excluded_already_in_target_count": 327,
+      "duplicate_across_source_chats_count": 130,
+      "unique_ids_added_count": 297
+    },
+    {
+      "chat_id": -68847716253817,
+      "title": "Барахолка Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 730,
+      "participants_count_live": 730,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 8,
+      "members_seen_total": 730,
+      "bots_count": 3,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 726,
+      "excluded_already_in_target_count": 390,
+      "duplicate_across_source_chats_count": 159,
+      "unique_ids_added_count": 177
+    },
+    {
+      "chat_id": -69293268161867,
+      "title": "Народный базар",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 702,
+      "participants_count_live": 702,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 8,
+      "members_seen_total": 702,
+      "bots_count": 2,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 698,
+      "excluded_already_in_target_count": 193,
+      "duplicate_across_source_chats_count": 186,
+      "unique_ids_added_count": 319
+    },
+    {
+      "chat_id": -69289290132081,
+      "title": "Объявления | Барахолка БАРНАУЛ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 664,
+      "participants_count_live": 664,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 7,
+      "members_seen_total": 664,
+      "bots_count": 2,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 660,
+      "excluded_already_in_target_count": 318,
+      "duplicate_across_source_chats_count": 226,
+      "unique_ids_added_count": 116
+    },
+    {
+      "chat_id": -68842229440549,
+      "title": "Объявления Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 578,
+      "participants_count_live": 578,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 6,
+      "members_seen_total": 578,
+      "bots_count": 2,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 575,
+      "excluded_already_in_target_count": 312,
+      "duplicate_across_source_chats_count": 146,
+      "unique_ids_added_count": 117
+    },
+    {
+      "chat_id": -70189789036614,
+      "title": "Купи_Продай_Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 548,
+      "participants_count_live": 548,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 6,
+      "members_seen_total": 548,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 546,
+      "excluded_already_in_target_count": 258,
+      "duplicate_across_source_chats_count": 128,
+      "unique_ids_added_count": 160
+    },
+    {
+      "chat_id": -68843271659557,
+      "title": "Мамули в Барнауле",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 449,
+      "participants_count_live": 449,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 5,
+      "members_seen_total": 449,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 447,
+      "excluded_already_in_target_count": 77,
+      "duplicate_across_source_chats_count": 153,
+      "unique_ids_added_count": 217
+    },
+    {
+      "chat_id": -69353317321446,
+      "title": "Купи Продай Барнаул ( все районы)",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 364,
+      "participants_count_live": 364,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 364,
+      "bots_count": 2,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 361,
+      "excluded_already_in_target_count": 193,
+      "duplicate_across_source_chats_count": 107,
+      "unique_ids_added_count": 61
+    },
+    {
+      "chat_id": -71469727285951,
+      "title": "Купи/Продай Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 290,
+      "participants_count_live": 290,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 290,
+      "bots_count": 1,
+      "admin_or_owner_count": 3,
+      "eligible_non_bot_non_admin_count": 286,
+      "excluded_already_in_target_count": 146,
+      "duplicate_across_source_chats_count": 39,
+      "unique_ids_added_count": 101
+    },
+    {
+      "chat_id": -71684138087728,
+      "title": "Барнаул: Спутник, Авиатор, Октябрьский, Власиха",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 248,
+      "participants_count_live": 248,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 248,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 246,
+      "excluded_already_in_target_count": 130,
+      "duplicate_across_source_chats_count": 66,
+      "unique_ids_added_count": 50
+    },
+    {
+      "chat_id": -69396250217190,
+      "title": "РЕМОНТ и СТРОЙКА Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 217,
+      "participants_count_live": 217,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 3,
+      "members_seen_total": 217,
+      "bots_count": 2,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 214,
+      "excluded_already_in_target_count": 110,
+      "duplicate_across_source_chats_count": 53,
+      "unique_ids_added_count": 51
+    },
+    {
+      "chat_id": -68410215803442,
+      "title": "Барнаул. Железнодорожный район.",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 184,
+      "participants_count_live": 184,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 184,
+      "bots_count": 2,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 181,
+      "excluded_already_in_target_count": 99,
+      "duplicate_across_source_chats_count": 70,
+      "unique_ids_added_count": 12
+    },
+    {
+      "chat_id": -69582134774475,
+      "title": "\"АЛТАЙФЛОРА Барнаул\". Продукты из чистого природного сырья.",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 160,
+      "participants_count_live": 160,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 160,
+      "bots_count": 1,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 155,
+      "excluded_already_in_target_count": 73,
+      "duplicate_across_source_chats_count": 32,
+      "unique_ids_added_count": 50
+    },
+    {
+      "chat_id": -68909213414890,
+      "title": "Аренда 22регион",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 133,
+      "participants_count_live": 133,
+      "matched_fields": [
+        "description"
+      ],
+      "pages_fetched": 2,
+      "members_seen_total": 133,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 131,
+      "excluded_already_in_target_count": 43,
+      "duplicate_across_source_chats_count": 45,
+      "unique_ids_added_count": 43
+    },
+    {
+      "chat_id": -69841086433974,
+      "title": "Мир Строительства Барнаул",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 42,
+      "participants_count_live": 42,
+      "matched_fields": [
+        "title",
+        "description"
+      ],
+      "pages_fetched": 1,
+      "members_seen_total": 42,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 40,
+      "excluded_already_in_target_count": 14,
+      "duplicate_across_source_chats_count": 25,
+      "unique_ids_added_count": 1
+    }
+  ],
+  "failed_source_chats": []
+}

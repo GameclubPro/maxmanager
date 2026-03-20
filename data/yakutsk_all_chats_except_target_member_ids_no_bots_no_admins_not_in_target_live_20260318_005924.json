@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-03-17T21:59:24.454Z",
+  "city": "Якутск",
+  "city_slug": "yakutsk",
+  "city_report_file": "data/bot_chats_by_city_20260318_005719.json",
+  "target_chat": {
+    "chat_id": -72155689814023,
+    "title": "Якутск Объявления | Новости",
+    "type": "chat",
+    "status_live": "active",
+    "participants_count_report": 8,
+    "participants_count_live": 8,
+    "target_snapshot_member_count": 8,
+    "target_snapshot_pages": 1
+  },
+  "source_chat_count": 4,
+  "source_chat_failures_count": 0,
+  "unique_ids_count": 7063,
+  "files": {
+    "txt": "data/yakutsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260318_005924.txt",
+    "json": "data/yakutsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260318_005924.json"
+  },
+  "source_chats": [
+    {
+      "chat_id": -71888717757128,
+      "title": "ЯКУТСК  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 6592,
+      "participants_count_live": 6592,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 66,
+      "members_seen_total": 6569,
+      "bots_count": 3,
+      "admin_or_owner_count": 2,
+      "eligible_non_bot_non_admin_count": 6564,
+      "excluded_already_in_target_count": 2,
+      "duplicate_across_source_chats_count": 0,
+      "unique_ids_added_count": 6562
+    },
+    {
+      "chat_id": -71921664277192,
+      "title": "💯👋💯ЯКУТСК УСЛУГИ ВАКАНСИИ И ПОДРАБОТКА",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 6541,
+      "participants_count_live": 6541,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 66,
+      "members_seen_total": 6511,
+      "bots_count": 6,
+      "admin_or_owner_count": 5,
+      "eligible_non_bot_non_admin_count": 6500,
+      "excluded_already_in_target_count": 2,
+      "duplicate_across_source_chats_count": 6231,
+      "unique_ids_added_count": 267
+    },
+    {
+      "chat_id": -71921937365704,
+      "title": "💯👋💯ЯКУТСК | Большая ДОСКА ОБЪЯВЛЕНИЙ РС (Я)",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 6302,
+      "participants_count_live": 6302,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 63,
+      "members_seen_total": 6270,
+      "bots_count": 6,
+      "admin_or_owner_count": 4,
+      "eligible_non_bot_non_admin_count": 6260,
+      "excluded_already_in_target_count": 2,
+      "duplicate_across_source_chats_count": 6181,
+      "unique_ids_added_count": 77
+    },
+    {
+      "chat_id": -69970067966475,
+      "title": "ВСЕ УСЛУГИ ЯКУТСК",
+      "type": "chat",
+      "status": "active",
+      "participants_count_report": 371,
+      "participants_count_live": 371,
+      "matched_fields": [
+        "title"
+      ],
+      "pages_fetched": 4,
+      "members_seen_total": 371,
+      "bots_count": 1,
+      "admin_or_owner_count": 1,
+      "eligible_non_bot_non_admin_count": 369,
+      "excluded_already_in_target_count": 2,
+      "duplicate_across_source_chats_count": 210,
+      "unique_ids_added_count": 157
+    }
+  ],
+  "failed_source_chats": []
+}

@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-03-13T12:37:58.288Z",
+  "run_dir": "data/ekaterinburg_invite_20260313_144822",
+  "source_file": "data/ekaterinburg_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260313144457.txt",
+  "target_chat_id": -71489692010503,
+  "target_chat_title": "Екатеринбург Объявления | Новости",
+  "batches_total": 15,
+  "processed_count_total": 5777,
+  "requested_count_total": 5777,
+  "attempted_invite_count_total": 5187,
+  "invited_without_immediate_failure_count_total": 5107,
+  "verified_added_count_total": 4612,
+  "still_not_in_target_from_this_chunk_count_total": 1165,
+  "not_attempted_due_to_stop_count_total": 590,
+  "first_before_participants_count": 263,
+  "last_after_participants_count": 4845,
+  "net_participants_growth_by_chat_counter": 4582,
+  "unique_still_missing_count": 1165,
+  "combined_still_missing_file": "data/ekaterinburg_invite_20260313_144822/retry_all_still_missing.txt",
+  "batches_with_stop_triggered_count": 2,
+  "stop_triggered_batches": [
+    {
+      "result_file": "data/ekaterinburg_invite_20260313_144822/batch_13_start_4800_count_400_result.json",
+      "reason": "consecutive_action_failed_limit",
+      "attempted_count": 70,
+      "remaining_count": 330,
+      "not_attempted_due_to_stop_count": 330,
+      "failed_by_code": {
+        "action_failed": 20
+      }
+    },
+    {
+      "result_file": "data/ekaterinburg_invite_20260313_144822/batch_14_start_5200_count_400_result.json",
+      "reason": "consecutive_action_failed_limit",
+      "attempted_count": 140,
+      "remaining_count": 260,
+      "not_attempted_due_to_stop_count": 260,
+      "failed_by_code": {
+        "action_failed": 30
+      }
+    }
+  ],
+  "result_files": [
+    "data/ekaterinburg_invite_20260313_144822/batch_1_start_0_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_2_start_400_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_3_start_800_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_4_start_1200_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_5_start_1600_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_6_start_2000_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_7_start_2400_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_8_start_2800_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_9_start_3200_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_10_start_3600_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_11_start_4000_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_12_start_4400_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_13_start_4800_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_14_start_5200_count_400_result.json",
+    "data/ekaterinburg_invite_20260313_144822/batch_15_start_5600_count_177_result.json"
+  ],
+  "missing_files": [
+    "data/ekaterinburg_invite_20260313_144822/batch_1_start_0_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_2_start_400_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_3_start_800_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_4_start_1200_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_5_start_1600_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_6_start_2000_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_7_start_2400_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_8_start_2800_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_9_start_3200_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_10_start_3600_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_11_start_4000_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_12_start_4400_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_13_start_4800_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_14_start_5200_count_400_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/batch_15_start_5600_count_177_still_missing.txt",
+    "data/ekaterinburg_invite_20260313_144822/retry_all_still_missing.txt"
+  ]
+}

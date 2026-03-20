@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-16T11:45:39.060Z",
+  "source_file": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_live_20260316_141843.txt",
+  "source_ids_count": 3528,
+  "excluded_chats": [
+    {
+      "chat_id": -69477729348158,
+      "title": "🚦Светофор🚦Заринск"
+    },
+    {
+      "chat_id": -71956067878919,
+      "title": "Миллерово Объявления | Новости"
+    },
+    {
+      "chat_id": -68186296265350,
+      "title": "Лавка фермера(Заринск и близлежайшие районы )"
+    },
+    {
+      "chat_id": -71972126230535,
+      "title": "Заринск Объявления | Новости"
+    }
+  ],
+  "excluded_unique_member_ids_from_source_count": 1,
+  "filtered_ids_count": 3527,
+  "result_file_txt": "data/sovetskoe_all_other_chats_member_ids_no_bots_no_admins_not_in_target_excluding_zarinsk_millerovo_live_20260316_144539.txt",
+  "per_chat": [
+    {
+      "chat_id": -69477729348158,
+      "title": "🚦Светофор🚦Заринск",
+      "members_scanned": 1642,
+      "pages": 17,
+      "overlap_with_source_count": 0,
+      "overlap_sample_ids": []
+    },
+    {
+      "chat_id": -71956067878919,
+      "title": "Миллерово Объявления | Новости",
+      "members_scanned": 2536,
+      "pages": 26,
+      "overlap_with_source_count": 1,
+      "overlap_sample_ids": [
+        144638120
+      ]
+    },
+    {
+      "chat_id": -68186296265350,
+      "title": "Лавка фермера(Заринск и близлежайшие районы )",
+      "members_scanned": 1361,
+      "pages": 14,
+      "overlap_with_source_count": 0,
+      "overlap_sample_ids": []
+    },
+    {
+      "chat_id": -71972126230535,
+      "title": "Заринск Объявления | Новости",
+      "members_scanned": 3099,
+      "pages": 31,
+      "overlap_with_source_count": 1,
+      "overlap_sample_ids": [
+        144638120
+      ]
+    }
+  ]
+}

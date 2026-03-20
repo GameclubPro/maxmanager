@@ -1,0 +1,207 @@
+{
+  "ok": true,
+  "generated_at": "2026-03-11T19:22:02.691Z",
+  "target_chat_id": null,
+  "source_file": null,
+  "batches_completed": 17,
+  "total_processed_count": 0,
+  "total_attempted_invite_count": 6431,
+  "total_invited_without_immediate_failure_count": 5760,
+  "total_verified_added_count": 3720,
+  "total_still_missing_count": 2711,
+  "before_participants_count": null,
+  "after_participants_count": null,
+  "result_files": [
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1_400_20260311171728_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1201_1600_20260311173557_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1601_2000_20260311174126_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2001_2400_20260311174813_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2401_2800_20260311181545_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2801_3200_20260311182202_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_3201_3600_20260311182902_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_3601_4000_20260311183552_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4001_4400_20260311184201_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_401_800_20260311172420_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4401_4800_20260311184805_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4801_5200_20260311185430_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_5201_5600_20260311190053_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_5601_6000_20260311190837_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_6001_6400_20260311191450_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_6401_6431_20260311192027_result.json",
+    "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_801_1200_20260311173007_result.json"
+  ],
+  "still_missing_files": [],
+  "combined_still_missing_file": "data/still_missing_omsk_full_invite_20260311_222101.txt",
+  "per_batch": [
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1_400_20260311171728_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 320,
+      "verified_added_count": 118,
+      "still_not_in_target_from_this_chunk_count": 282,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1201_1600_20260311173557_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 314,
+      "still_not_in_target_from_this_chunk_count": 86,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_1601_2000_20260311174126_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 330,
+      "verified_added_count": 110,
+      "still_not_in_target_from_this_chunk_count": 290,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2001_2400_20260311174813_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 340,
+      "verified_added_count": 115,
+      "still_not_in_target_from_this_chunk_count": 285,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2401_2800_20260311181545_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 350,
+      "verified_added_count": 300,
+      "still_not_in_target_from_this_chunk_count": 100,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_2801_3200_20260311182202_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 350,
+      "verified_added_count": 291,
+      "still_not_in_target_from_this_chunk_count": 109,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_3201_3600_20260311182902_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 360,
+      "verified_added_count": 302,
+      "still_not_in_target_from_this_chunk_count": 98,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_3601_4000_20260311183552_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 360,
+      "verified_added_count": 301,
+      "still_not_in_target_from_this_chunk_count": 99,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4001_4400_20260311184201_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 360,
+      "verified_added_count": 294,
+      "still_not_in_target_from_this_chunk_count": 106,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_401_800_20260311172420_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 370,
+      "verified_added_count": 288,
+      "still_not_in_target_from_this_chunk_count": 112,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4401_4800_20260311184805_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 370,
+      "verified_added_count": 165,
+      "still_not_in_target_from_this_chunk_count": 235,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_4801_5200_20260311185430_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 390,
+      "verified_added_count": 321,
+      "still_not_in_target_from_this_chunk_count": 79,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_5201_5600_20260311190053_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 340,
+      "verified_added_count": 247,
+      "still_not_in_target_from_this_chunk_count": 153,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_5601_6000_20260311190837_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 350,
+      "verified_added_count": 145,
+      "still_not_in_target_from_this_chunk_count": 255,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_6001_6400_20260311191450_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 380,
+      "verified_added_count": 97,
+      "still_not_in_target_from_this_chunk_count": 303,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_6401_6431_20260311192027_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 31,
+      "invited_without_immediate_failure_count": 30,
+      "verified_added_count": 4,
+      "still_not_in_target_from_this_chunk_count": 27,
+      "before_participants_count": null,
+      "after_participants_count": null
+    },
+    {
+      "result_file": "data/add_omsk_all_chats_except_target_member_ids_no_bots_no_admins_not_in_target_live_20260311_201148_to_71876198893575_801_1200_20260311173007_result.json",
+      "processed_count": 0,
+      "attempted_invite_count": 400,
+      "invited_without_immediate_failure_count": 370,
+      "verified_added_count": 308,
+      "still_not_in_target_from_this_chunk_count": 92,
+      "before_participants_count": null,
+      "after_participants_count": null
+    }
+  ]
+}
