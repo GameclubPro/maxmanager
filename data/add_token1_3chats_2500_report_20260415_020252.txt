@@ -1,0 +1,8 @@
+Token1 add report (3 chats x 2500 new unmarked)
+ok=true
+processed=7500 verified_added=6939 still_missing=561 waves=9
+
+Per chat:
+- chat=-73514830535957 waves=3 processed=2500 added=2315 still_missing=185 exit_nonzero=0
+- chat=-73514823458069 waves=3 processed=2500 added=2329 still_missing=171 exit_nonzero=0
+- chat=-73514810350869 waves=3 processed=2500 added=2295 still_missing=205 exit_nonzero=0

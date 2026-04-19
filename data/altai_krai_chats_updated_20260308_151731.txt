@@ -1,0 +1,16 @@
+# Updated Altai Krai chats (2026-03-08T12:17:31.334Z)
+# total_visible=320 matched=14 included=14
+-68766764627431	Районы22: Новости и объявления	target_confirmed	phrase:Алтайский край
+-68062282577383	Горняк22 | ЧАТ	target_confirmed	city:Горняк
+-70269868378839	Обмен Купля Продажа Рубцовск  Веселоярск и близлежащие	target_confirmed	city:Рубцовск
+-68100590532071	Рубцовск Онлайн	target_confirmed	city:Рубцовск
+-68063637796327	Горняк Онлайн чат	target_confirmed	city:Горняк
+-70138755610087	Алтайский район | Объявления	target_probable	phrase:Алтайский район
+-71239042962835	Купи-Продай весь Алтайский край	target_mixed_with_republic_altai	phrase:Алтайский край;phrase:Республика Алтай
+-70239350557399	МОЙ БАРНАУЛ | Объявления и новости	target_confirmed	city:Барнаул
+-68107349849575	Барнаул22	target_confirmed	city:Барнаул
+-68114718258663	Змеиногорск Онлайн	target_confirmed	city:Змеиногорск
+-68093117986279	Рубцовск- новости, чат, объявления	target_confirmed	city:Рубцовск
+-70237310085703	Форель - Горняк	target_confirmed	city:Горняк
+-68107343754727	Авто Барнаул — Продажа/Покупка	target_confirmed	city:Барнаул
+-71469727285951	Купи/Продай Барнаул	target_confirmed	city:Барнаул

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "created_at": "2026-04-17T22:42:27.872091Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/казик",
+  "token_env": "BOT_TOKEN1",
+  "task_marker": "2026-04-18T00:36:40+03:00",
+  "reserved_range_0_based": {
+    "from_inclusive": 4000,
+    "to_exclusive": 13214
+  },
+  "reserved_range_human": "4001-13214",
+  "reserved_count": 9214,
+  "note": "Includes conservative reserved chunk 6070-7069 due interrupted run, to avoid reusing possibly touched IDs.",
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_kazik_to_5k_4bonus_token1_4001_13214_20260418_014225.txt",
+  "result_files_count": 0,
+  "result_files": [],
+  "per_chat_totals": {},
+  "final_live_counts": {
+    "-73653132442330": {
+      "participants_count": 4998,
+      "title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ "
+    },
+    "-73652908047066": {
+      "participants_count": 5002,
+      "title": "ХВАТАЙ БЕЗДЕП БОНУСЫ"
+    },
+    "-73653253225178": {
+      "participants_count": 4999,
+      "title": "ЛОВИ БЕЗДЕП БОНУСЯКИ "
+    },
+    "-73653365816026": {
+      "participants_count": 5003,
+      "title": "БОНУСЫ ИГРОКАМ "
+    }
+  }
+}

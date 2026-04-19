@@ -1,0 +1,276 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "трупы",
+    "total_ids_in_source_file": 20000
+  },
+  "target_chat": {
+    "chat_id": -73653365816026,
+    "title": "БОНУСЫ ИГРОКАМ ",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 992,
+    "after_participants_count": 1632
+  },
+  "bot": {
+    "user_id": 269932414,
+    "name": "Интелликс",
+    "username": "id613070470872_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1776452605910,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1776449749598,
+          "permissions": [
+            "read_all_messages",
+            "add_remove_members",
+            "write",
+            "pin_message",
+            "change_chat_info",
+            "can_call"
+          ],
+          "user_id": 269932414,
+          "first_name": "Интелликс",
+          "username": "id613070470872_bot",
+          "is_bot": true,
+          "last_activity_time": 1776460479902,
+          "description": "Интелликс — умный чат-бот для быстрых ответов, идей и помощи в повседневных задачах.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi8qZRFpjsW-cdEBxfPSRmW34BN_hBExMnnFcFEy-tCzo",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi40nY5-QvEnF9U6GjKypVHH4BN_hBExMnnFcFEy-tCzo",
+          "name": "Интелликс"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 7500,
+    "end_index_exclusive_0_based": 8500,
+    "range_human": "7501-8500",
+    "requested_count": 1000,
+    "selected_count": 1000,
+    "skipped_bot_self_count": 0,
+    "processed_count": 1000,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 3000,
+    "throttle_7m": false,
+    "max_retries": 0,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 0,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 10,
+    "target_snapshot_members_count": 990
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 990,
+  "verified_added_count": 694,
+  "still_not_in_target_from_attempted_count": 306,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 306,
+  "failed_by_code": {
+    "action_failed": 10
+  },
+  "failed_by_status": {
+    "200": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    28315761,
+    28293345,
+    28247383,
+    28142548,
+    28063389,
+    27971145,
+    27861549,
+    27840791,
+    27745190,
+    27702948,
+    27621654,
+    27554349,
+    27549840,
+    27346896,
+    27280721,
+    27117747,
+    27113331,
+    27002042,
+    26929838,
+    26878561,
+    26857865,
+    26762516,
+    26663237,
+    26658790,
+    26401851,
+    26398841,
+    26353722,
+    26311340,
+    26259244,
+    26235025,
+    26227379,
+    26185008,
+    26146929,
+    26092032,
+    26077061,
+    26058866,
+    25976544,
+    25917697,
+    25902037,
+    25843848,
+    25822287,
+    25748986,
+    25678987,
+    25599084,
+    25586771,
+    25481160,
+    25450146,
+    25426538,
+    25371072,
+    25251419
+  ],
+  "sample_still_missing_ids": [
+    27898282,
+    27837028,
+    27835932,
+    27750104,
+    26913525,
+    26671260,
+    26433277,
+    26418468,
+    26215361,
+    24987426,
+    24938937,
+    24575039,
+    24472170,
+    23637097,
+    22540358,
+    22081261,
+    21904739,
+    21383289,
+    21246809,
+    21203588,
+    20170089,
+    19973556,
+    19638167,
+    19240745,
+    18041181,
+    17621044,
+    17412295,
+    17034812,
+    16048838,
+    15916027,
+    15836999,
+    11216604,
+    8714460,
+    8507021,
+    4510801,
+    4108811,
+    3898134,
+    255052223,
+    254955580,
+    247634395,
+    235967002,
+    231344097,
+    231214912,
+    230964666,
+    229749422,
+    228678082,
+    228157180,
+    226376131,
+    225343553,
+    225062397
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 224812358,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224478364,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224373767,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223977280,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223412728,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223159899,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222804825,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222623581,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222389764,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222071650,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    }
+  ],
+  "generated_at_iso": "2026-04-17T21:20:22.240Z"
+}

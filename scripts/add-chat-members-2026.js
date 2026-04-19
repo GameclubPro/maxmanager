@@ -11,9 +11,7 @@ const DEFAULTS = {
   start: 0,
   count: 300,
   inviteBatchSize: 1,
-  // Tuned for a 2-minute active wave on 400 users with invite-batch-size=10.
-  pauseMs: 4200,
-  pauseJitterMs: 200,
+  pauseMs: 180,
   verifyChunkSize: 100,
   verifyPauseMs: 80,
   maxRetries: 1,
@@ -24,16 +22,11 @@ const DEFAULTS = {
   failureSampleSize: 200,
   skipExistingScan: false,
   dryRun: false,
-  targetParticipantsGoal: null,
   retryActionFailed: false,
   splitActionFailedBatch: false,
   stopOnConsecutiveActionFailed: 2,
-  runToEnd: false,
-  waveActiveMs: 2 * 60 * 1000,
-  waveRestMs: 30 * 1000,
+  throttle7m: false,
 };
-
-const SAFE_MIN_PAUSE_PER_USER_MS = 220;
 
 function printHelp() {
   const text = `
@@ -52,10 +45,9 @@ Optional:
   --env-file <path>            Env file path (default: .env)
   --source-chat-id <id>        Override source chat id in report
   --start <n>                  0-based start index (default: 0)
-  --count <n>                  Number of ids to process (default: 300; with --run-to-end = users per wave)
+  --count <n>                  Number of ids to process (default: 300)
   --invite-batch-size <n>      Add N users per API call (default: 1, max: 100)
-  --pause-ms <n>               Base delay between invite attempts (default: 4200)
-  --pause-jitter-ms <n>        Random jitter added to pause (default: 200)
+  --pause-ms <n>               Delay between invite attempts (default: 180)
   --verify-chunk-size <n>      Chunk size for verification (default: 100)
   --verify-pause-ms <n>        Delay between verify chunks (default: 80)
   --max-retries <n>            Retries for transient errors (default: 1)
@@ -64,11 +56,7 @@ Optional:
   --retry-action-failed        Retry when API returns success=false
   --split-action-failed-batch  On action_failed for batch>1, retry users one-by-one
   --stop-on-action-failed <n>  Stop run after N consecutive action_failed (default: 2, 0=off)
-  --stop-when-target-count-reaches <n>
-                               Stop once target chat participants_count reaches N
-  --run-to-end                 Continue wave-by-wave until source ids end
-  --wave-active-ms <n>         Active invite window per wave (default: 120000)
-  --wave-rest-ms <n>           Rest after each full wave (default: 30000)
+  --throttle-7m                Auto-calculate pause so invite batches are spread over ~7 minutes
   --skip-existing-scan         Skip full pre-scan of target members
   --progress-every <n>         Print progress every N attempts (default: 25)
   --result-file <path>         Output result json path
@@ -86,11 +74,6 @@ Examples:
     --source-file data/avtorynok_volgogradskaya_oblast_member_ids.txt \\
     --target-chat-id 71313986483690 \\
     --start 300 --count 300 --pause-ms 350 --max-retries 2
-
-  node scripts/add-chat-members-2026.js \\
-    --source-file data/source_member_ids.txt \\
-    --target-chat-id -71313986483690 \\
-    --start 0 --count 400 --invite-batch-size 10 --run-to-end
 `.trim();
 
   console.log(text);
@@ -105,7 +88,7 @@ function parseArgs(argv) {
     resultFile: '',
     missingFile: '',
     help: false,
-    stopOnActionFailedExplicit: false,
+    pauseMsProvided: false,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -136,8 +119,8 @@ function parseArgs(argv) {
       continue;
     }
 
-    if (arg === '--run-to-end') {
-      options.runToEnd = true;
+    if (arg === '--throttle-7m') {
+      options.throttle7m = true;
       continue;
     }
 
@@ -179,21 +162,13 @@ function parseArgs(argv) {
         break;
       case '--pause-ms':
         options.pauseMs = parseInteger('pause-ms', value, 0);
-        break;
-      case '--pause-jitter-ms':
-        options.pauseJitterMs = parseInteger('pause-jitter-ms', value, 0);
+        options.pauseMsProvided = true;
         break;
       case '--verify-chunk-size':
         options.verifyChunkSize = parseInteger('verify-chunk-size', value, 1);
         break;
       case '--verify-pause-ms':
         options.verifyPauseMs = parseInteger('verify-pause-ms', value, 0);
-        break;
-      case '--wave-active-ms':
-        options.waveActiveMs = parseInteger('wave-active-ms', value, 0);
-        break;
-      case '--wave-rest-ms':
-        options.waveRestMs = parseInteger('wave-rest-ms', value, 0);
         break;
       case '--max-retries':
         options.maxRetries = parseInteger('max-retries', value, 0);
@@ -209,10 +184,6 @@ function parseArgs(argv) {
         break;
       case '--stop-on-action-failed':
         options.stopOnConsecutiveActionFailed = parseInteger('stop-on-action-failed', value, 0);
-        options.stopOnActionFailedExplicit = true;
-        break;
-      case '--stop-when-target-count-reaches':
-        options.targetParticipantsGoal = parseInteger('stop-when-target-count-reaches', value, 1);
         break;
       case '--result-file':
         options.resultFile = value;
@@ -241,8 +212,8 @@ function parseArgs(argv) {
     ? null
     : normalizeChatId(options.sourceChatIdRaw, 'source-chat-id');
 
-  if (options.runToEnd && !options.stopOnActionFailedExplicit) {
-    options.stopOnConsecutiveActionFailed = 0;
+  if (options.throttle7m && options.pauseMsProvided) {
+    throw new Error('--throttle-7m cannot be used together with --pause-ms');
   }
 
   return options;
@@ -289,40 +260,6 @@ function normalizeChatId(raw, fieldName) {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function randomInt(maxInclusive) {
-  if (!Number.isInteger(maxInclusive) || maxInclusive <= 0) {
-    return 0;
-  }
-  return Math.floor(Math.random() * (maxInclusive + 1));
-}
-
-function resolveInvitePauseMs(options, batchSize) {
-  const safeFloorMs = Math.max(0, batchSize) * SAFE_MIN_PAUSE_PER_USER_MS;
-  const baseMs = Math.max(options.pauseMs, safeFloorMs);
-  return baseMs + randomInt(options.pauseJitterMs);
-}
-
-function resolveWavePacedPauseMs(options, batchSize, waveStartedAtMs, remainingBatchesInWave) {
-  const basePauseMs = resolveInvitePauseMs(options, batchSize);
-
-  if (
-    !options.runToEnd
-    || waveStartedAtMs === null
-    || !Number.isInteger(remainingBatchesInWave)
-    || remainingBatchesInWave <= 0
-    || options.waveActiveMs <= 0
-  ) {
-    return basePauseMs;
-  }
-
-  const safeFloorMs = Math.max(0, batchSize) * SAFE_MIN_PAUSE_PER_USER_MS;
-  const elapsedMs = Math.max(0, Date.now() - waveStartedAtMs);
-  const remainingActiveMs = Math.max(0, options.waveActiveMs - elapsedMs);
-  const evenSplitPauseMs = Math.floor(remainingActiveMs / remainingBatchesInWave);
-
-  return Math.max(safeFloorMs, Math.min(basePauseMs, evenSplitPauseMs));
 }
 
 function dedupeNumericIds(values) {
@@ -421,6 +358,7 @@ function isRetryableError(parsedError) {
     'timed out',
     'tempor',
     'network',
+    'fetch failed',
     'unavailable',
     'econnreset',
     'etimedout',
@@ -437,11 +375,12 @@ function backoffDelayMs(baseMs, backoff, attemptNumber) {
   return scaled + jitter;
 }
 
-async function callApiWithRetry(fn, options, label) {
+async function callApiWithRetry(label, fn, options) {
   let attempt = 0;
 
   while (true) {
     attempt += 1;
+
     try {
       return await fn();
     } catch (error) {
@@ -451,11 +390,10 @@ async function callApiWithRetry(fn, options, label) {
         throw error;
       }
 
-      const delayMs = backoffDelayMs(options.retryDelayMs, options.retryBackoff, attempt);
       console.log(
-        `[run] Retry ${label}: attempt ${attempt}/${options.maxRetries}, waiting ${delayMs}ms (${parsed.code}, status ${parsed.status ?? 'null'})`,
+        `[run] Retry ${label}: attempt ${attempt}/${options.maxRetries + 1} after ${parsed.code} (${parsed.message})`,
       );
-      await sleep(delayMs);
+      await sleep(backoffDelayMs(options.retryDelayMs, options.retryBackoff, attempt));
     }
   }
 }
@@ -468,6 +406,15 @@ function chunkArray(values, chunkSize) {
   return chunks;
 }
 
+function computeThrottle7mPauseMs(batchCount) {
+  const targetWindowMs = 7 * 60 * 1000;
+  if (batchCount <= 1) {
+    return 0;
+  }
+  const pauseSlots = batchCount - 1;
+  return Math.ceil(targetWindowMs / pauseSlots);
+}
+
 async function fetchAllChatMemberIds(api, chatId, options) {
   const memberIds = new Set();
   let marker = null;
@@ -475,10 +422,11 @@ async function fetchAllChatMemberIds(api, chatId, options) {
   let pages = 0;
 
   while (firstRequest || marker !== null) {
+    const params = firstRequest ? { count: 100 } : { count: 100, marker };
     const response = await callApiWithRetry(
-      () => api.getChatMembers(chatId, firstRequest ? { count: 100 } : { count: 100, marker }),
+      `getChatMembers snapshot chat=${chatId} page=${pages + 1}`,
+      () => api.getChatMembers(chatId, params),
       options,
-      `getChatMembers snapshot chat ${chatId} page ${pages + 1}`,
     );
     for (const member of response.members || []) {
       if (typeof member.user_id === 'number') {
@@ -502,9 +450,9 @@ async function verifyMembershipByIds(api, chatId, ids, chunkSize, pauseMs, optio
     const chunk = chunks[i];
     try {
       const response = await callApiWithRetry(
+        `getChatMembers verify chat=${chatId} chunk=${i + 1}/${chunks.length}`,
         () => api.getChatMembers(chatId, { user_ids: chunk }),
         options,
-        `verifyMembers chat ${chatId} chunk ${i + 1}/${chunks.length}`,
       );
       for (const member of response.members || []) {
         if (typeof member.user_id === 'number') {
@@ -619,21 +567,7 @@ async function addMembersBatchWithRetry(api, chatId, userIds, options) {
   }
 }
 
-function finishFullWaveMessage(waveNumber, waveUserLimit, waveActiveMs, waveRestMs, elapsedMs) {
-  const activeWaitMs = Math.max(0, waveActiveMs - elapsedMs);
-  const details = [`elapsed ${elapsedMs}ms`];
-
-  if (activeWaitMs > 0) {
-    details.push(`active_wait ${activeWaitMs}ms`);
-  }
-  if (waveRestMs > 0) {
-    details.push(`rest ${waveRestMs}ms`);
-  }
-
-  return `[run] Wave ${waveNumber} reached ${waveUserLimit} users (${details.join(', ')})`;
-}
-
-async function resolveSourceChat(api, sourceMeta, sourceChatIdOption) {
+async function resolveSourceChat(api, sourceMeta, sourceChatIdOption, options) {
   const fallback = {
     chat_id: sourceMeta?.chat_id ?? sourceChatIdOption ?? null,
     title: sourceMeta?.title ?? null,
@@ -647,7 +581,11 @@ async function resolveSourceChat(api, sourceMeta, sourceChatIdOption) {
   }
 
   try {
-    const live = await api.getChat(candidateId);
+    const live = await callApiWithRetry(
+      `getChat source=${candidateId}`,
+      () => api.getChat(candidateId),
+      options,
+    );
     return {
       chat_id: live.chat_id,
       title: live.title,
@@ -677,9 +615,7 @@ async function main() {
   const source = loadSourceIds(options.sourceFile);
   const totalSourceIds = source.ids.length;
   const startIndex = Math.min(options.start, totalSourceIds);
-  const endIndex = options.runToEnd
-    ? totalSourceIds
-    : Math.min(startIndex + options.count, totalSourceIds);
+  const endIndex = Math.min(startIndex + options.count, totalSourceIds);
   const sourceSliceAll = source.ids.slice(startIndex, endIndex);
   if (!sourceSliceAll.length) {
     throw new Error(`Selected range is empty: start=${startIndex}, count=${options.count}, source_total=${totalSourceIds}`);
@@ -690,22 +626,22 @@ async function main() {
   ensureParentDir(outputPaths.missingFile);
 
   const bot = new Bot(token);
-  const botInfo = await callApiWithRetry(
-    () => bot.api.getMyInfo(),
-    options,
-    'getMyInfo',
-  );
+  const botInfo = await callApiWithRetry('getMyInfo', () => bot.api.getMyInfo(), options);
 
   const targetBefore = await callApiWithRetry(
+    `getChat target=${options.targetChatId}`,
     () => bot.api.getChat(options.targetChatId),
     options,
-    `getChat target ${options.targetChatId} before run`,
   );
-  const sourceChat = await resolveSourceChat(bot.api, source.meta, options.sourceChatId);
+  const sourceChat = await resolveSourceChat(bot.api, source.meta, options.sourceChatId, options);
 
   let botMembershipInTarget;
   try {
-    const response = await bot.api.getChatMembers(options.targetChatId, { user_ids: [botInfo.user_id] });
+    const response = await callApiWithRetry(
+      `getChatMembers self-check chat=${options.targetChatId}`,
+      () => bot.api.getChatMembers(options.targetChatId, { user_ids: [botInfo.user_id] }),
+      options,
+    );
     botMembershipInTarget = {
       status: 200,
       data: response,
@@ -737,10 +673,14 @@ async function main() {
     ? sourceSlice.slice()
     : sourceSlice.filter((id) => !existingInTarget.has(id));
   const inviteBatches = chunkArray(inviteQueue, options.inviteBatchSize);
-  const safePauseFloorForBatchMs = options.inviteBatchSize * SAFE_MIN_PAUSE_PER_USER_MS;
-  if (options.pauseMs < safePauseFloorForBatchMs) {
+  const invitePauseMs = options.throttle7m
+    ? computeThrottle7mPauseMs(inviteBatches.length)
+    : options.pauseMs;
+
+  if (options.throttle7m) {
+    const estimatedPauseOnlySec = Math.round((Math.max(0, inviteBatches.length - 1) * invitePauseMs) / 1000);
     console.log(
-      `[run] Safety pause floor applied: base ${options.pauseMs}ms -> ${safePauseFloorForBatchMs}ms (batch size ${options.inviteBatchSize})`,
+      `[run] throttle-7m enabled: batches=${inviteBatches.length}, pause=${invitePauseMs}ms, estimated pause-only duration=${estimatedPauseOnlySec}s`,
     );
   }
 
@@ -749,45 +689,13 @@ async function main() {
   const attemptedUserIds = [];
   let consecutiveActionFailed = 0;
   let stopTriggered = null;
-  let targetCountReachedSnapshot = null;
 
-  if (
-    typeof options.targetParticipantsGoal === 'number'
-    && targetBefore.participants_count >= options.targetParticipantsGoal
-  ) {
-    stopTriggered = {
-      reason: 'target_participants_goal_already_reached',
-      target_participants_goal: options.targetParticipantsGoal,
-      current_target_participants_count: targetBefore.participants_count,
-      attempted_count: 0,
-      remaining_count: inviteQueue.length,
-      checked_at_iso: new Date().toISOString(),
-    };
-    console.log(
-      `[run] Target chat already has ${targetBefore.participants_count} members, goal ${options.targetParticipantsGoal} reached before invites`,
-    );
-  }
-
-  if (!options.dryRun && stopTriggered === null) {
+  if (!options.dryRun) {
     console.log(
       `[run] Inviting ${inviteQueue.length} users to chat ${options.targetChatId} in batches of ${options.inviteBatchSize} (${inviteBatches.length} calls)...`,
     );
-    if (options.runToEnd) {
-      console.log(
-        `[run] Wave mode enabled: ${options.count} users per wave, ${options.waveActiveMs}ms active window, ${options.waveRestMs}ms rest`,
-      );
-    }
-
-    let waveNumber = 1;
-    let usersInCurrentWave = 0;
-    let waveStartedAtMs = null;
-
     for (let i = 0; i < inviteBatches.length; i += 1) {
       const batchUserIds = inviteBatches[i];
-      if (options.runToEnd && waveStartedAtMs === null) {
-        waveStartedAtMs = Date.now();
-        console.log(`[run] Wave ${waveNumber} started`);
-      }
       attemptedUserIds.push(...batchUserIds);
       const inviteResult = await addMembersBatchWithRetry(bot.api, options.targetChatId, batchUserIds, options);
 
@@ -823,8 +731,8 @@ async function main() {
             }
           }
 
-          if (j < batchUserIds.length - 1) {
-            await sleep(resolveInvitePauseMs(options, 1));
+          if (invitePauseMs > 0 && j < batchUserIds.length - 1) {
+            await sleep(invitePauseMs);
           }
         }
 
@@ -852,9 +760,6 @@ async function main() {
       }
 
       const processed = attemptedUserIds.length;
-      if (options.runToEnd) {
-        usersInCurrentWave += batchUserIds.length;
-      }
       if (processed % options.progressEvery === 0 || processed === inviteQueue.length) {
         console.log(`[run] Progress: ${processed}/${inviteQueue.length} users`);
       }
@@ -877,62 +782,8 @@ async function main() {
         break;
       }
 
-      if (typeof options.targetParticipantsGoal === 'number') {
-        const targetCountSnapshot = await callApiWithRetry(
-          () => bot.api.getChat(options.targetChatId),
-          options,
-          `getChat target ${options.targetChatId} goal check`,
-        );
-        if (targetCountSnapshot.participants_count >= options.targetParticipantsGoal) {
-          targetCountReachedSnapshot = targetCountSnapshot;
-          stopTriggered = {
-            reason: 'target_participants_goal_reached',
-            target_participants_goal: options.targetParticipantsGoal,
-            current_target_participants_count: targetCountSnapshot.participants_count,
-            attempted_count: attemptedUserIds.length,
-            remaining_count: inviteQueue.length - attemptedUserIds.length,
-            last_user_id: batchUserIds[batchUserIds.length - 1],
-            checked_at_iso: new Date().toISOString(),
-          };
-          console.log(
-            `[run] Stop triggered: target chat reached ${targetCountSnapshot.participants_count} members (goal ${options.targetParticipantsGoal})`,
-          );
-          break;
-        }
-      }
-
-      if (processed < inviteQueue.length) {
-        const isWaveBoundary = options.runToEnd && usersInCurrentWave >= options.count;
-        if (isWaveBoundary) {
-          const elapsedMs = waveStartedAtMs === null
-            ? 0
-            : Date.now() - waveStartedAtMs;
-          console.log(
-            finishFullWaveMessage(
-              waveNumber,
-              options.count,
-              options.waveActiveMs,
-              options.waveRestMs,
-              elapsedMs,
-            ),
-          );
-
-          const activeWaitMs = Math.max(0, options.waveActiveMs - elapsedMs);
-          if (activeWaitMs > 0) {
-            await sleep(activeWaitMs);
-          }
-          if (options.waveRestMs > 0) {
-            await sleep(options.waveRestMs);
-          }
-
-          waveNumber += 1;
-          usersInCurrentWave = 0;
-          waveStartedAtMs = null;
-        } else {
-          const remainingUsersInWave = Math.max(0, options.count - usersInCurrentWave);
-          const remainingBatchesInWave = Math.ceil(remainingUsersInWave / options.inviteBatchSize);
-          await sleep(resolveWavePacedPauseMs(options, batchUserIds.length, waveStartedAtMs, remainingBatchesInWave));
-        }
+      if (invitePauseMs > 0 && processed < inviteQueue.length) {
+        await sleep(invitePauseMs);
       }
     }
   } else {
@@ -956,9 +807,9 @@ async function main() {
   const stillMissingAttemptedIds = attemptedUserIds.filter((id) => !verifiedInTargetSet.has(id));
   const stillMissingIds = inviteQueue.filter((id) => !verifiedInTargetSet.has(id));
   const targetAfter = await callApiWithRetry(
+    `getChat target=${options.targetChatId} after-run`,
     () => bot.api.getChat(options.targetChatId),
     options,
-    `getChat target ${options.targetChatId} after run`,
   );
 
   const result = {
@@ -991,7 +842,6 @@ async function main() {
       range_human: `${startIndex + 1}-${endIndex}`,
       requested_count: options.count,
       selected_count: sourceSliceAll.length,
-      run_to_end: options.runToEnd,
       skipped_bot_self_count: skippedBotSelfCount,
       processed_count: sourceSlice.length,
       invite_batch_size: options.inviteBatchSize,
@@ -999,19 +849,14 @@ async function main() {
     run_options: {
       dry_run: options.dryRun,
       invite_batch_size: options.inviteBatchSize,
-      pause_ms: options.pauseMs,
-      pause_jitter_ms: options.pauseJitterMs,
-      safe_min_pause_per_user_ms: SAFE_MIN_PAUSE_PER_USER_MS,
+      pause_ms: invitePauseMs,
+      throttle_7m: options.throttle7m,
       max_retries: options.maxRetries,
       retry_delay_ms: options.retryDelayMs,
       retry_backoff: options.retryBackoff,
       retry_action_failed: options.retryActionFailed,
       split_action_failed_batch: options.splitActionFailedBatch,
       stop_on_consecutive_action_failed: options.stopOnConsecutiveActionFailed,
-      stop_when_target_count_reaches: options.targetParticipantsGoal,
-      run_to_end: options.runToEnd,
-      wave_active_ms: options.waveActiveMs,
-      wave_rest_ms: options.waveRestMs,
       skip_existing_scan: options.skipExistingScan,
       verify_chunk_size: options.verifyChunkSize,
       verify_pause_ms: options.verifyPauseMs,
@@ -1020,15 +865,6 @@ async function main() {
       target_snapshot_pages: targetSnapshot?.pages ?? null,
       target_snapshot_members_count: targetSnapshot?.memberIds?.size ?? null,
     },
-    target_count_goal_reached_snapshot: targetCountReachedSnapshot
-      ? {
-          chat_id: targetCountReachedSnapshot.chat_id,
-          participants_count: targetCountReachedSnapshot.participants_count,
-          title: targetCountReachedSnapshot.title,
-          type: targetCountReachedSnapshot.type,
-          status: targetCountReachedSnapshot.status,
-        }
-      : null,
     stop_triggered: stopTriggered,
     already_in_target_count: alreadyInTargetIds.length,
     attempted_invite_count: attemptedInviteCount,

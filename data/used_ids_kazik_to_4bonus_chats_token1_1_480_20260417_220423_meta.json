@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "created_at": "2026-04-17T19:04:23.245367Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/казик",
+  "token_env": "BOT_TOKEN1",
+  "chat_count": 4,
+  "start_index_0_based": 0,
+  "count_total": 480,
+  "range_human": "1-480",
+  "marked_used_ids_count": 480,
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_kazik_to_4bonus_chats_token1_1_480_20260417_220423.txt",
+  "results": [
+    {
+      "target_chat_id": -73653132442330,
+      "target_title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "range_human": "1-120",
+      "processed_count": 120,
+      "verified_added_count": 107,
+      "still_missing_count": 13,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_1_120_20260417190031_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_members_to_73653132442330_1_120_20260417190031.txt"
+    },
+    {
+      "target_chat_id": -73652908047066,
+      "target_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "range_human": "121-240",
+      "processed_count": 120,
+      "verified_added_count": 112,
+      "still_missing_count": 8,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_121_240_20260417190123_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_members_to_73652908047066_121_240_20260417190123.txt"
+    },
+    {
+      "target_chat_id": -73653253225178,
+      "target_title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "range_human": "241-360",
+      "processed_count": 120,
+      "verified_added_count": 102,
+      "still_missing_count": 18,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_241_360_20260417190214_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_members_to_73653253225178_241_360_20260417190214.txt"
+    },
+    {
+      "target_chat_id": -73653365816026,
+      "target_title": "БОНУСЫ ИГРОКАМ ",
+      "range_human": "361-480",
+      "processed_count": 120,
+      "verified_added_count": 111,
+      "still_missing_count": 9,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_361_480_20260417190306_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_members_to_73653365816026_361_480_20260417190306.txt"
+    }
+  ],
+  "totals": {
+    "verified_added_count": 432,
+    "still_missing_count": 48
+  }
+}

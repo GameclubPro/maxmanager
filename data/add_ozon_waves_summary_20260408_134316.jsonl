@@ -1,0 +1,2 @@
+{"wave":1,"start":0,"count":400,"attempted":400,"verified_added":349,"still_missing":51,"before":3,"after":352,"result_file":"data/add_ozon_wave_1_start_0_count_400_result.json","missing_file":"data/still_missing_ozon_wave_1_start_0_count_400.txt"}
+{"wave":2,"start":400,"count":400,"attempted":400,"verified_added":349,"still_missing":51,"before":351,"after":689,"result_file":"data/add_ozon_wave_2_start_400_count_400_result.json","missing_file":"data/still_missing_ozon_wave_2_start_400_count_400.txt"}

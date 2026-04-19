@@ -1,0 +1,66 @@
+Generated: 2026-04-15T20:49:40.312Z
+Tokens: BOT_TOKEN3, BOT_TOKEN4
+Filter: title ends with "Объявления | Новости"
+Unique chats: 61
+
+Абакан Объявления | Новости | -73258936416365 | link=- | tokens=BOT_TOKEN3
+Азов Объявления | Новости | -72989350877359 | link=- | tokens=BOT_TOKEN3
+Аксай Объявления | Новости | -73102803130543 | link=https://max.ru/join/0kS3kvjV383kCI0nQNu6B8AZJusgfzv8dx5U4Y9y-MM | tokens=BOT_TOKEN3
+Алдан Объявления | Новости | -73294877931629 | link=- | tokens=BOT_TOKEN3
+Алтайский край Объявления | Новости | -71759588984839 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Армавир Объявления | Новости | -72552012320009 | link=https://max.ru/join/MSm8q4fvj5CL--HQn3WM0F58kDbHJm0gpBdq_WQv9bg | tokens=BOT_TOKEN3
+Армавир Объявления | Новости | -72381146194551 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Астрахань Объявления | Новости | -72094430562311 | link=https://max.ru/join/D8r24NwuRDUfSooMCSBaH_IT0kli5v0ALJBlW_Y0_C0 | tokens=BOT_TOKEN3,BOT_TOKEN4
+Барнаул Объявления | Новости | -71934616766471 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Батайск Объявления | Новости | -72989579532463 | link=- | tokens=BOT_TOKEN3
+Волгоград Объявления | Новости | -71313986483690 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Волгодонск Объявления | Новости | -71525320394759 | link=https://max.ru/join/hEbrCdQ_IzgVFcBDaPV8Cz4Vwuwzd-sogiUO3vZ_dK8 | tokens=BOT_TOKEN3,BOT_TOKEN4
+Геленджик Объявления | Новости | -73408736901229 | link=https://max.ru/join/xr_94WBs2mVYmpVpLN0o-yu0a1tAlvpv5EJUbGWIIU4 | tokens=BOT_TOKEN3
+Донецк РО Объявления | Новости | -73102645647535 | link=https://max.ru/join/oBIXIbsJ7vLARyzAjaa3_6RRLesHpt6rOLe1WobBGx8 | tokens=BOT_TOKEN3
+Ейск Объявления | Новости | -71489737820167 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Екатеринбург Объявления | Новости | -71489692010503 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Забайкальский край Объявления | Новости | -71722073753607 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Заринск Объявления | Новости | -71972126230535 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Зерноград Объявления | Новости | -73102657902767 | link=- | tokens=BOT_TOKEN3
+Иркутск Объявления | Новости | -71456680806407 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Казань Объявления | Новости | -71456471431277 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Константиновск Объявления | Новости | -73102674352303 | link=- | tokens=BOT_TOKEN3
+Краснодар Объявления | Новости | -72548525214985 | link=https://max.ru/join/9Vpd07Q_KVrSLSspRUieVzq0Rn1KFXr79bj1plyB6EE | tokens=BOT_TOKEN3
+Краснодар Объявления | Новости | -69067549505002 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Красноярск Объявления | Новости | -71506932434951 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Кропоткин Объявления | Новости | -72551988792585 | link=https://max.ru/join/OUjUd34Km2dtIDrdd4v75LXaYwhBvUVdylSr3rE3quY | tokens=BOT_TOKEN3
+Кропоткин Объявления | Новости | -71771644921863 | link=https://max.ru/join/VrF1vU-CMGeYtgiUVJNEBT1Od6JOwyWtKMbZfU5lY24 | tokens=BOT_TOKEN3,BOT_TOKEN4
+Крым Объявления |  Новости | -73467869182061 | link=https://max.ru/join/uyEcHqeMpvuhQSdMKfrj_SuYsZYxtMFWc4ipoYZASu0 | tokens=BOT_TOKEN3
+Кубань Объявления | Новости | -71456678709255 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Курганинский р-он Объявления | Новости | -72551957662985 | link=https://max.ru/join/4d200NgxMaKUzFD5wgXwAya-Oymgti-xkn7CqDOX1Mw | tokens=BOT_TOKEN3
+Лабинск Объявления | Новости | -73416381413485 | link=https://max.ru/join/iUI7hD9TbcwdBbtSrF_Yj-Gn7qQxZDwT7LuMkcblcvU | tokens=BOT_TOKEN3
+Лабинск Объявления | Новости | -72726252162313 | link=https://max.ru/join/FseqVU2XHWN30Xgoyzd5zBKHRrGkK5D0pghMmp3W_fs | tokens=BOT_TOKEN3
+Матвеев Курган Объявления | Новости | -73345194637421 | link=https://max.ru/join/R7zl8rSrzm8GEvwxV1g7swwk6ggjcXmnNq53DsLp4Gs | tokens=BOT_TOKEN3
+Миллерово Объявления | Новости | -71956067878919 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Набережные Челны Объявления | Новости | -71555053434989 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Новокубанск Объявления |  Новости | -73422617622637 | link=- | tokens=BOT_TOKEN3
+Новороссийск Объявления | Новости | -71456683034631 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Новосибирск Объявления | Новости | -71596633222634 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Новочеркасск Объявления | Новости | -71946379114605 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Новошахтинск Объявления | Новости | -71489753942023 | link=https://max.ru/join/StZFlAEzlKC5A1SZcoJvVXvZ4XTmS9h0jNeY4RJkxIU | tokens=BOT_TOKEN3,BOT_TOKEN4
+Омск Объявления | Новости | -71876198893575 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Отрадненский р-он Объявления | Новости | -72552130481417 | link=https://max.ru/join/C-UxhCmKLfthH9SN96WVr3sIdbA0-DWfpAjtnixVwFw | tokens=BOT_TOKEN3
+Родионовка Объявления | Новости | -71336283338218 | link=https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU | tokens=BOT_TOKEN3,BOT_TOKEN4
+Ростов 161 Объявления | Новости | -73367869634669 | link=https://max.ru/join/yOH5o0eKdW0k5IdibEAiBJO2mYGljSRIzd2JBK-3VxU | tokens=BOT_TOKEN3
+Ростов-на-Дону Объявления | Новости | -69049244448234 | link=https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0 | tokens=BOT_TOKEN3,BOT_TOKEN4
+Сальск Объявления | Новости | -73102663604399 | link=- | tokens=BOT_TOKEN3
+Саратов Объявления | Новости | -71524227844103 | link=- | tokens=BOT_TOKEN3
+Семикаракорск Объявления | Новости | -71955838830599 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Сочи Объявления | Новости | -71689972988013 | link=https://max.ru/join/UHrHdgzQzNLaT_uW61c_78xF-xesoMyvwXgsBmfr7_c | tokens=BOT_TOKEN3,BOT_TOKEN4
+Ставрополь Объявления | Новости | -71489688733703 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Таганрог Объявления | Новости | -71744884226157 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Тбилисский р-он Объявления | Новости | -72726177844489 | link=https://max.ru/join/GWz9dHmiSXIbl2MAUQE5HsZafHIbhx8w_jtjIEfakoc | tokens=BOT_TOKEN3
+Тюмень Объявления | Новости | -71520449562631 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Усть-Лабинск Объявления | Новости | -72552168099081 | link=https://max.ru/join/Ix51KE0kXZqJELoF4TMRNzl9SwPJKFDjb_4jFRZ2eaE | tokens=BOT_TOKEN3
+Уфа Объявления | Новости | -71443525791210 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Хабаровск Объявления |  Новости | -71506814142471 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Хакасия Объявления | Новости | -71975853328391 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Чалтырь Объявления | Новости | -73378711451757 | link=https://max.ru/join/zKkl6xRQUomrKOH5AkNU8lI3hd65CDP3HlaCPaFKseE | tokens=BOT_TOKEN3
+Чита Объявления | Новости | -71489818560519 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Шахты Объявления | Новости | -71931314931719 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4
+Якутск Объявления | Новости | -72155689814023 | link=- | tokens=BOT_TOKEN3,BOT_TOKEN4

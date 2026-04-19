@@ -1,0 +1,338 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "трупы",
+    "total_ids_in_source_file": 20000
+  },
+  "target_chat": {
+    "chat_id": -73587194528495,
+    "title": "Лабинск Мостовской  Псебай",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 3841,
+    "after_participants_count": 4608
+  },
+  "bot": {
+    "user_id": 269932414,
+    "name": "Интелликс",
+    "username": "id613070470872_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1776347561824,
+          "is_owner": false,
+          "is_admin": false,
+          "join_time": 1776346975328,
+          "user_id": 269932414,
+          "first_name": "Интелликс",
+          "username": "id613070470872_bot",
+          "is_bot": true,
+          "last_activity_time": 1776350327938,
+          "description": "Интелликс — умный чат-бот для быстрых ответов, идей и помощи в повседневных задачах.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi8qZRFpjsW-cdEBxfPSRmW34BN_hBExMnnFcFEy-tCzo",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi40nY5-QvEnF9U6GjKypVHH4BN_hBExMnnFcFEy-tCzo",
+          "name": "Интелликс"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 9250,
+    "end_index_exclusive_0_based": 10250,
+    "range_human": "9251-10250",
+    "requested_count": 1000,
+    "selected_count": 1000,
+    "skipped_bot_self_count": 0,
+    "processed_count": 1000,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 3000,
+    "throttle_7m": false,
+    "max_retries": 0,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 0,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 39,
+    "target_snapshot_members_count": 3841
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 4,
+  "attempted_invite_count": 996,
+  "invited_without_immediate_failure_count": 976,
+  "verified_added_count": 814,
+  "still_not_in_target_from_attempted_count": 182,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 182,
+  "failed_by_code": {
+    "action_failed": 20
+  },
+  "failed_by_status": {
+    "200": 20
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    80911310,
+    80805044,
+    80612962,
+    80531703,
+    80490621,
+    80485838,
+    80413890,
+    80332161,
+    80259455,
+    80201619,
+    80176351,
+    80149068,
+    80130662,
+    79883892,
+    79810286,
+    79734947,
+    79722237,
+    79521179,
+    79469684,
+    79440148,
+    79389167,
+    79171593,
+    79161824,
+    79099591,
+    78912587,
+    78892595,
+    78848883,
+    78722126,
+    78584347,
+    78569071,
+    78563962,
+    78543439,
+    78466727,
+    78281047,
+    78275185,
+    78245551,
+    78193978,
+    78111545,
+    78074655,
+    78018374,
+    78001803,
+    77930189,
+    77790135,
+    77556079,
+    77449518,
+    77411609,
+    77385009,
+    77282748,
+    77165058,
+    77043967
+  ],
+  "sample_still_missing_ids": [
+    79839190,
+    76753762,
+    61652403,
+    59232058,
+    42531648,
+    24789584,
+    235549089,
+    230078917,
+    227769057,
+    227692705,
+    227551041,
+    227489858,
+    226825338,
+    226570433,
+    226349377,
+    226074851,
+    226042306,
+    225831805,
+    225788515,
+    225578563,
+    225370110,
+    225193731,
+    224585155,
+    224541636,
+    224357152,
+    224045955,
+    224023425,
+    223579484,
+    223493922,
+    223335839,
+    223296572,
+    223290552,
+    223100543,
+    222980504,
+    222871679,
+    221758117,
+    221511290,
+    221494853,
+    221202523,
+    221122971,
+    220621062,
+    220527227,
+    220444733,
+    220351484,
+    220044769,
+    219940802,
+    219798686,
+    218266592,
+    218077859,
+    217520192
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 225831805,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 225788515,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 225578563,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 225370110,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 225193731,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224585155,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224541636,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224357152,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224045955,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 224023425,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223579484,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223493922,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223335839,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223296572,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223290552,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 223100543,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222980504,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 222871679,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 221758117,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    },
+    {
+      "user_id": 221511290,
+      "attempts": 1,
+      "status": 200,
+      "code": "action_failed",
+      "message": "API returned success=false"
+    }
+  ],
+  "generated_at_iso": "2026-04-16T14:44:28.645Z"
+}

@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-04-15T18:43:08.140Z",
+  "started_at": "2026-04-15T18:28:40.351Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_all_chats_by_region_live_20260414_231255.json",
+  "state_file": "/home/alex/projects/ryslanchik/maxmanager/data/trupyy_build_state.json",
+  "token_scope": [
+    "BOT_TOKEN3",
+    "BOT_TOKEN4"
+  ],
+  "inactivity_days_threshold": 30,
+  "cutoff_ts": 1773685720310,
+  "cutoff_iso": "2026-03-16T18:28:40.310Z",
+  "requested_ids": 20000,
+  "selected_ids": 20000,
+  "chats_total": 1454,
+  "chats_processed": 22,
+  "failed_chats_count": 1,
+  "output_file": "/home/alex/projects/ryslanchik/maxmanager/трупыы",
+  "stats": {
+    "chats_processed": 22,
+    "members_seen": 259575,
+    "bots_skipped": 100,
+    "admins_skipped": 121,
+    "no_last_activity_skipped": 0
+  }
+}

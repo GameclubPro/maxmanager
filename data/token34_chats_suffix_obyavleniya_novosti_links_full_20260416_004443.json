@@ -1,0 +1,825 @@
+{
+  "generated_at": "2026-04-15T21:44:43.493Z",
+  "source_tokens": [
+    "BOT_TOKEN3",
+    "BOT_TOKEN4"
+  ],
+  "source_filter": "title ends with \"Объявления | Новости\"",
+  "stats": {
+    "source_live_counts": {
+      "BOT_TOKEN3": 61,
+      "BOT_TOKEN4": 36
+    },
+    "unique_chats": 61,
+    "with_link": 26,
+    "without_link": 35,
+    "scanned_json_files": 878
+  },
+  "chats": [
+    {
+      "chat_id": -73258936416365,
+      "title": "Абакан Объявления | Новости",
+      "participants_count": 6059,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72989350877359,
+      "title": "Азов Объявления | Новости",
+      "participants_count": 3051,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -73102803130543,
+      "title": "Аксай Объявления | Новости",
+      "participants_count": 1229,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/0kS3kvjV383kCI0nQNu6B8AZJusgfzv8dx5U4Y9y-MM",
+      "all_links": [
+        "https://max.ru/join/0kS3kvjV383kCI0nQNu6B8AZJusgfzv8dx5U4Y9y-MM"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/0kS3kvjV383kCI0nQNu6B8AZJusgfzv8dx5U4Y9y-MM"
+      ]
+    },
+    {
+      "chat_id": -73294877931629,
+      "title": "Алдан Объявления | Новости",
+      "participants_count": 4558,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71759588984839,
+      "title": "Алтайский край Объявления | Новости",
+      "participants_count": 6944,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/dJwTDEqOJOfShvOwLiQO1iQ-ee9l2kDBu2p-SzAfv34",
+      "all_links": [
+        "https://max.ru/join/dJwTDEqOJOfShvOwLiQO1iQ-ee9l2kDBu2p-SzAfv34"
+      ],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72552012320009,
+      "title": "Армавир Объявления | Новости",
+      "participants_count": 84,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/MSm8q4fvj5CL--HQn3WM0F58kDbHJm0gpBdq_WQv9bg",
+      "all_links": [
+        "https://max.ru/join/MSm8q4fvj5CL--HQn3WM0F58kDbHJm0gpBdq_WQv9bg"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/MSm8q4fvj5CL--HQn3WM0F58kDbHJm0gpBdq_WQv9bg"
+      ]
+    },
+    {
+      "chat_id": -72381146194551,
+      "title": "Армавир Объявления | Новости",
+      "participants_count": 7375,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72094430562311,
+      "title": "Астрахань Объявления | Новости",
+      "participants_count": 2795,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/D8r24NwuRDUfSooMCSBaH_IT0kli5v0ALJBlW_Y0_C0",
+      "all_links": [
+        "https://max.ru/join/D8r24NwuRDUfSooMCSBaH_IT0kli5v0ALJBlW_Y0_C0"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/D8r24NwuRDUfSooMCSBaH_IT0kli5v0ALJBlW_Y0_C0"
+      ]
+    },
+    {
+      "chat_id": -71934616766471,
+      "title": "Барнаул Объявления | Новости",
+      "participants_count": 4294,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72989579532463,
+      "title": "Батайск Объявления | Новости",
+      "participants_count": 1620,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71313986483690,
+      "title": "Волгоград Объявления | Новости",
+      "participants_count": 4826,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71525320394759,
+      "title": "Волгодонск Объявления | Новости",
+      "participants_count": 1041,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/hEbrCdQ_IzgVFcBDaPV8Cz4Vwuwzd-sogiUO3vZ_dK8",
+      "all_links": [
+        "https://max.ru/join/hEbrCdQ_IzgVFcBDaPV8Cz4Vwuwzd-sogiUO3vZ_dK8"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/hEbrCdQ_IzgVFcBDaPV8Cz4Vwuwzd-sogiUO3vZ_dK8"
+      ]
+    },
+    {
+      "chat_id": -73408736901229,
+      "title": "Геленджик Объявления | Новости",
+      "participants_count": 4581,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/xr_94WBs2mVYmpVpLN0o-yu0a1tAlvpv5EJUbGWIIU4",
+      "all_links": [
+        "https://max.ru/join/xr_94WBs2mVYmpVpLN0o-yu0a1tAlvpv5EJUbGWIIU4"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/xr_94WBs2mVYmpVpLN0o-yu0a1tAlvpv5EJUbGWIIU4"
+      ]
+    },
+    {
+      "chat_id": -73102645647535,
+      "title": "Донецк РО Объявления | Новости",
+      "participants_count": 5914,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/oBIXIbsJ7vLARyzAjaa3_6RRLesHpt6rOLe1WobBGx8",
+      "all_links": [
+        "https://max.ru/join/oBIXIbsJ7vLARyzAjaa3_6RRLesHpt6rOLe1WobBGx8"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/oBIXIbsJ7vLARyzAjaa3_6RRLesHpt6rOLe1WobBGx8"
+      ]
+    },
+    {
+      "chat_id": -71489737820167,
+      "title": "Ейск Объявления | Новости",
+      "participants_count": 2052,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71489692010503,
+      "title": "Екатеринбург Объявления | Новости",
+      "participants_count": 3497,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71722073753607,
+      "title": "Забайкальский край Объявления | Новости",
+      "participants_count": 5895,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71972126230535,
+      "title": "Заринск Объявления | Новости",
+      "participants_count": 2955,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -73102657902767,
+      "title": "Зерноград Объявления | Новости",
+      "participants_count": 819,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71456680806407,
+      "title": "Иркутск Объявления | Новости",
+      "participants_count": 9558,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71456471431277,
+      "title": "Казань Объявления | Новости",
+      "participants_count": 3131,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -73102674352303,
+      "title": "Константиновск Объявления | Новости",
+      "participants_count": 1615,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72548525214985,
+      "title": "Краснодар Объявления | Новости",
+      "participants_count": 221,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/9Vpd07Q_KVrSLSspRUieVzq0Rn1KFXr79bj1plyB6EE",
+      "all_links": [
+        "https://max.ru/join/9Vpd07Q_KVrSLSspRUieVzq0Rn1KFXr79bj1plyB6EE"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/9Vpd07Q_KVrSLSspRUieVzq0Rn1KFXr79bj1plyB6EE"
+      ]
+    },
+    {
+      "chat_id": -69067549505002,
+      "title": "Краснодар Объявления | Новости",
+      "participants_count": 5993,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM",
+      "all_links": [
+        "https://max.ru/join/ryXTqT9B5VN1RxRVUp5sTykBjnHapmBA22aeDBr2wAM"
+      ],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71506932434951,
+      "title": "Красноярск Объявления | Новости",
+      "participants_count": 5160,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72551988792585,
+      "title": "Кропоткин Объявления | Новости",
+      "participants_count": 59,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/OUjUd34Km2dtIDrdd4v75LXaYwhBvUVdylSr3rE3quY",
+      "all_links": [
+        "https://max.ru/join/OUjUd34Km2dtIDrdd4v75LXaYwhBvUVdylSr3rE3quY"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/OUjUd34Km2dtIDrdd4v75LXaYwhBvUVdylSr3rE3quY"
+      ]
+    },
+    {
+      "chat_id": -71771644921863,
+      "title": "Кропоткин Объявления | Новости",
+      "participants_count": 454,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/VrF1vU-CMGeYtgiUVJNEBT1Od6JOwyWtKMbZfU5lY24",
+      "all_links": [
+        "https://max.ru/join/VrF1vU-CMGeYtgiUVJNEBT1Od6JOwyWtKMbZfU5lY24"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/VrF1vU-CMGeYtgiUVJNEBT1Od6JOwyWtKMbZfU5lY24"
+      ]
+    },
+    {
+      "chat_id": -73467869182061,
+      "title": "Крым Объявления |  Новости",
+      "participants_count": 4505,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/uyEcHqeMpvuhQSdMKfrj_SuYsZYxtMFWc4ipoYZASu0",
+      "all_links": [
+        "https://max.ru/join/uyEcHqeMpvuhQSdMKfrj_SuYsZYxtMFWc4ipoYZASu0"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/uyEcHqeMpvuhQSdMKfrj_SuYsZYxtMFWc4ipoYZASu0"
+      ]
+    },
+    {
+      "chat_id": -71456678709255,
+      "title": "Кубань Объявления | Новости",
+      "participants_count": 2817,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72551957662985,
+      "title": "Курганинский р-он Объявления | Новости",
+      "participants_count": 95,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/4d200NgxMaKUzFD5wgXwAya-Oymgti-xkn7CqDOX1Mw",
+      "all_links": [
+        "https://max.ru/join/4d200NgxMaKUzFD5wgXwAya-Oymgti-xkn7CqDOX1Mw"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/4d200NgxMaKUzFD5wgXwAya-Oymgti-xkn7CqDOX1Mw"
+      ]
+    },
+    {
+      "chat_id": -73416381413485,
+      "title": "Лабинск Объявления | Новости",
+      "participants_count": 3907,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/iUI7hD9TbcwdBbtSrF_Yj-Gn7qQxZDwT7LuMkcblcvU",
+      "all_links": [
+        "https://max.ru/join/iUI7hD9TbcwdBbtSrF_Yj-Gn7qQxZDwT7LuMkcblcvU"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/iUI7hD9TbcwdBbtSrF_Yj-Gn7qQxZDwT7LuMkcblcvU"
+      ]
+    },
+    {
+      "chat_id": -72726252162313,
+      "title": "Лабинск Объявления | Новости",
+      "participants_count": 33,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/FseqVU2XHWN30Xgoyzd5zBKHRrGkK5D0pghMmp3W_fs",
+      "all_links": [
+        "https://max.ru/join/FseqVU2XHWN30Xgoyzd5zBKHRrGkK5D0pghMmp3W_fs"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/FseqVU2XHWN30Xgoyzd5zBKHRrGkK5D0pghMmp3W_fs"
+      ]
+    },
+    {
+      "chat_id": -73345194637421,
+      "title": "Матвеев Курган Объявления | Новости",
+      "participants_count": 5042,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/R7zl8rSrzm8GEvwxV1g7swwk6ggjcXmnNq53DsLp4Gs",
+      "all_links": [
+        "https://max.ru/join/R7zl8rSrzm8GEvwxV1g7swwk6ggjcXmnNq53DsLp4Gs"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/R7zl8rSrzm8GEvwxV1g7swwk6ggjcXmnNq53DsLp4Gs"
+      ]
+    },
+    {
+      "chat_id": -71956067878919,
+      "title": "Миллерово Объявления | Новости",
+      "participants_count": 5253,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71555053434989,
+      "title": "Набережные Челны Объявления | Новости",
+      "participants_count": 932,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -73422617622637,
+      "title": "Новокубанск Объявления |  Новости",
+      "participants_count": 5767,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71456683034631,
+      "title": "Новороссийск Объявления | Новости",
+      "participants_count": 1392,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71596633222634,
+      "title": "Новосибирск Объявления | Новости",
+      "participants_count": 613,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71946379114605,
+      "title": "Новочеркасск Объявления | Новости",
+      "participants_count": 1285,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71489753942023,
+      "title": "Новошахтинск Объявления | Новости",
+      "participants_count": 2737,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/StZFlAEzlKC5A1SZcoJvVXvZ4XTmS9h0jNeY4RJkxIU",
+      "all_links": [
+        "https://max.ru/join/StZFlAEzlKC5A1SZcoJvVXvZ4XTmS9h0jNeY4RJkxIU"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/StZFlAEzlKC5A1SZcoJvVXvZ4XTmS9h0jNeY4RJkxIU"
+      ]
+    },
+    {
+      "chat_id": -71876198893575,
+      "title": "Омск Объявления | Новости",
+      "participants_count": 4973,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72552130481417,
+      "title": "Отрадненский р-он Объявления | Новости",
+      "participants_count": 71,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/C-UxhCmKLfthH9SN96WVr3sIdbA0-DWfpAjtnixVwFw",
+      "all_links": [
+        "https://max.ru/join/C-UxhCmKLfthH9SN96WVr3sIdbA0-DWfpAjtnixVwFw"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/C-UxhCmKLfthH9SN96WVr3sIdbA0-DWfpAjtnixVwFw"
+      ]
+    },
+    {
+      "chat_id": -71336283338218,
+      "title": "Родионовка Объявления | Новости",
+      "participants_count": 2456,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU",
+      "all_links": [
+        "https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/OI1sjU_bbDeqdI7HWT28A2EFukTzm3fqPVfUamw5nBU"
+      ]
+    },
+    {
+      "chat_id": -73367869634669,
+      "title": "Ростов 161 Объявления | Новости",
+      "participants_count": 7222,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/yOH5o0eKdW0k5IdibEAiBJO2mYGljSRIzd2JBK-3VxU",
+      "all_links": [
+        "https://max.ru/join/yOH5o0eKdW0k5IdibEAiBJO2mYGljSRIzd2JBK-3VxU"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/yOH5o0eKdW0k5IdibEAiBJO2mYGljSRIzd2JBK-3VxU"
+      ]
+    },
+    {
+      "chat_id": -69049244448234,
+      "title": "Ростов-на-Дону Объявления | Новости",
+      "participants_count": 9269,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0",
+      "all_links": [
+        "https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/ieZhnlGcVoKzXOmBI4v1ds2L8Fn3l2hL6qJGCYX6GQ0"
+      ]
+    },
+    {
+      "chat_id": -73102663604399,
+      "title": "Сальск Объявления | Новости",
+      "participants_count": 1635,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71524227844103,
+      "title": "Саратов Объявления | Новости",
+      "participants_count": 246,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71955838830599,
+      "title": "Семикаракорск Объявления | Новости",
+      "participants_count": 5868,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71689972988013,
+      "title": "Сочи Объявления | Новости",
+      "participants_count": 5537,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/UHrHdgzQzNLaT_uW61c_78xF-xesoMyvwXgsBmfr7_c",
+      "all_links": [
+        "https://max.ru/join/UHrHdgzQzNLaT_uW61c_78xF-xesoMyvwXgsBmfr7_c"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/UHrHdgzQzNLaT_uW61c_78xF-xesoMyvwXgsBmfr7_c"
+      ]
+    },
+    {
+      "chat_id": -71489688733703,
+      "title": "Ставрополь Объявления | Новости",
+      "participants_count": 4188,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71744884226157,
+      "title": "Таганрог Объявления | Новости",
+      "participants_count": 2174,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72726177844489,
+      "title": "Тбилисский р-он Объявления | Новости",
+      "participants_count": 35,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/GWz9dHmiSXIbl2MAUQE5HsZafHIbhx8w_jtjIEfakoc",
+      "all_links": [
+        "https://max.ru/join/GWz9dHmiSXIbl2MAUQE5HsZafHIbhx8w_jtjIEfakoc"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/GWz9dHmiSXIbl2MAUQE5HsZafHIbhx8w_jtjIEfakoc"
+      ]
+    },
+    {
+      "chat_id": -71520449562631,
+      "title": "Тюмень Объявления | Новости",
+      "participants_count": 5024,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72552168099081,
+      "title": "Усть-Лабинск Объявления | Новости",
+      "participants_count": 143,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/Ix51KE0kXZqJELoF4TMRNzl9SwPJKFDjb_4jFRZ2eaE",
+      "all_links": [
+        "https://max.ru/join/Ix51KE0kXZqJELoF4TMRNzl9SwPJKFDjb_4jFRZ2eaE"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/Ix51KE0kXZqJELoF4TMRNzl9SwPJKFDjb_4jFRZ2eaE"
+      ]
+    },
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "participants_count": 11865,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71506814142471,
+      "title": "Хабаровск Объявления |  Новости",
+      "participants_count": 1947,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71975853328391,
+      "title": "Хакасия Объявления | Новости",
+      "participants_count": 4020,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -73378711451757,
+      "title": "Чалтырь Объявления | Новости",
+      "participants_count": 4083,
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ],
+      "link": "https://max.ru/join/zKkl6xRQUomrKOH5AkNU8lI3hd65CDP3HlaCPaFKseE",
+      "all_links": [
+        "https://max.ru/join/zKkl6xRQUomrKOH5AkNU8lI3hd65CDP3HlaCPaFKseE"
+      ],
+      "live_links_token34": [
+        "https://max.ru/join/zKkl6xRQUomrKOH5AkNU8lI3hd65CDP3HlaCPaFKseE"
+      ]
+    },
+    {
+      "chat_id": -71489818560519,
+      "title": "Чита Объявления | Новости",
+      "participants_count": 14511,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": "https://max.ru/join/FYyWQHM0hBeVhS1MsGITM3m5pPeGGlkIaBwF_Vr4dp0",
+      "all_links": [
+        "https://max.ru/join/FYyWQHM0hBeVhS1MsGITM3m5pPeGGlkIaBwF_Vr4dp0"
+      ],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -71931314931719,
+      "title": "Шахты Объявления | Новости",
+      "participants_count": 3575,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    },
+    {
+      "chat_id": -72155689814023,
+      "title": "Якутск Объявления | Новости",
+      "participants_count": 4315,
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ],
+      "link": null,
+      "all_links": [],
+      "live_links_token34": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "created_at": "2026-04-18T07:55:40.985773Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/казик",
+  "token_env": "BOT_TOKEN1",
+  "target_chat_id": -73663753502009,
+  "target_chat_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+  "note": "Initial run to old chat_id -73652908047066 failed with chat.not.found; continued with active chat_id -73663753502009 discovered via BOT_TOKEN1.",
+  "start_index_0_based": 13222,
+  "count": 1500,
+  "range_human": "13223-14722",
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_kazik_to_73663753502009_token1_13223_14722_20260418_105539.txt",
+  "result_files": [
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73663753502009_13223_14222_20260418074532_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73663753502009_14223_14722_20260418075220_result.json"
+  ],
+  "totals": {
+    "processed_count": 1500,
+    "attempted_invite_count": 1500,
+    "verified_added_count": 1382,
+    "still_missing_count": 118
+  },
+  "live_participants_count": 1375
+}

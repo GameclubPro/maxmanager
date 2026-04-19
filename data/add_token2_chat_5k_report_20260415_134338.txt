@@ -1,0 +1,8 @@
+Token2 add report (single chat, 5000 new unmarked IDs)
+ok=true
+processed=5000 verified_added=4577 still_missing=423 waves=5 nonzero_exit=0
+- wave start=0 count=1000 added=921 still_missing=79 exit=0
+- wave start=1000 count=1000 added=895 still_missing=105 exit=0
+- wave start=2000 count=1000 added=923 still_missing=77 exit=0
+- wave start=3000 count=1000 added=918 still_missing=82 exit=0
+- wave start=4000 count=1000 added=920 still_missing=80 exit=0

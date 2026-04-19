@@ -1,0 +1,199 @@
+{
+  "ok": true,
+  "source_log": "/home/alex/projects/ryslanchik/maxmanager/data/add_token1_3chats_5k_20260415_001052.log",
+  "summary_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_token1_3chats_5k_summary_20260415_001052.tsv",
+  "mapping_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_15k_chat_mapping_20260415_5k_split.tsv",
+  "assigned_files": [
+    "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_73514830535957_5k_20260415_5k_split.txt",
+    "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_73514823458069_5k_20260415_5k_split.txt",
+    "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_73514810350869_5k_20260415_5k_split.txt"
+  ],
+  "result_files_count": 15,
+  "missing_files_count": 15,
+  "totals": {
+    "processed_count": 15000,
+    "verified_added_count": 12627,
+    "still_missing_count": 2373
+  },
+  "per_chat": [
+    {
+      "target_chat_id": -73514830535957,
+      "waves": 5,
+      "processed": 5000,
+      "verified_added": 3776,
+      "still_missing": 1224,
+      "before_min": 5,
+      "after_max": 3731
+    },
+    {
+      "target_chat_id": -73514823458069,
+      "waves": 5,
+      "processed": 5000,
+      "verified_added": 4295,
+      "still_missing": 705,
+      "before_min": 5,
+      "after_max": 4287
+    },
+    {
+      "target_chat_id": -73514810350869,
+      "waves": 5,
+      "processed": 5000,
+      "verified_added": 4556,
+      "still_missing": 444,
+      "before_min": 5,
+      "after_max": 4553
+    }
+  ],
+  "per_wave": [
+    {
+      "file": "data/add_token34_nonlocal_ads_73514810350869_5k_20260415_5k_split_to_73514810350869_1_1000_20260414221651_result.json",
+      "target_chat_id": -73514810350869,
+      "range": "1-1000",
+      "processed_count": 1000,
+      "verified_added_count": 878,
+      "still_missing_count": 122,
+      "before_participants_count": 5,
+      "after_participants_count": 883
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514810350869_5k_20260415_5k_split_to_73514810350869_1001_2000_20260414222838_result.json",
+      "target_chat_id": -73514810350869,
+      "range": "1001-2000",
+      "processed_count": 1000,
+      "verified_added_count": 915,
+      "still_missing_count": 85,
+      "before_participants_count": 883,
+      "after_participants_count": 1798
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514810350869_5k_20260415_5k_split_to_73514810350869_2001_3000_20260414223512_result.json",
+      "target_chat_id": -73514810350869,
+      "range": "2001-3000",
+      "processed_count": 1000,
+      "verified_added_count": 922,
+      "still_missing_count": 78,
+      "before_participants_count": 1798,
+      "after_participants_count": 2691
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514810350869_5k_20260415_5k_split_to_73514810350869_3001_4000_20260414224146_result.json",
+      "target_chat_id": -73514810350869,
+      "range": "3001-4000",
+      "processed_count": 1000,
+      "verified_added_count": 922,
+      "still_missing_count": 78,
+      "before_participants_count": 2699,
+      "after_participants_count": 3608
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514810350869_5k_20260415_5k_split_to_73514810350869_4001_5000_20260414224823_result.json",
+      "target_chat_id": -73514810350869,
+      "range": "4001-5000",
+      "processed_count": 1000,
+      "verified_added_count": 919,
+      "still_missing_count": 81,
+      "before_participants_count": 3638,
+      "after_participants_count": 4553
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514823458069_5k_20260415_5k_split_to_73514823458069_1_1000_20260414214327_result.json",
+      "target_chat_id": -73514823458069,
+      "range": "1-1000",
+      "processed_count": 1000,
+      "verified_added_count": 979,
+      "still_missing_count": 21,
+      "before_participants_count": 5,
+      "after_participants_count": 984
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514823458069_5k_20260415_5k_split_to_73514823458069_1001_2000_20260414214958_result.json",
+      "target_chat_id": -73514823458069,
+      "range": "1001-2000",
+      "processed_count": 1000,
+      "verified_added_count": 810,
+      "still_missing_count": 190,
+      "before_participants_count": 984,
+      "after_participants_count": 1794
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514823458069_5k_20260415_5k_split_to_73514823458069_2001_3000_20260414215635_result.json",
+      "target_chat_id": -73514823458069,
+      "range": "2001-3000",
+      "processed_count": 1000,
+      "verified_added_count": 815,
+      "still_missing_count": 185,
+      "before_participants_count": 1794,
+      "after_participants_count": 2561
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514823458069_5k_20260415_5k_split_to_73514823458069_3001_4000_20260414220319_result.json",
+      "target_chat_id": -73514823458069,
+      "range": "3001-4000",
+      "processed_count": 1000,
+      "verified_added_count": 840,
+      "still_missing_count": 160,
+      "before_participants_count": 2609,
+      "after_participants_count": 3387
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514823458069_5k_20260415_5k_split_to_73514823458069_4001_5000_20260414221003_result.json",
+      "target_chat_id": -73514823458069,
+      "range": "4001-5000",
+      "processed_count": 1000,
+      "verified_added_count": 851,
+      "still_missing_count": 149,
+      "before_participants_count": 3447,
+      "after_participants_count": 4287
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514830535957_5k_20260415_5k_split_to_73514830535957_1_1000_20260414211052_result.json",
+      "target_chat_id": -73514830535957,
+      "range": "1-1000",
+      "processed_count": 1000,
+      "verified_added_count": 737,
+      "still_missing_count": 263,
+      "before_participants_count": 5,
+      "after_participants_count": 742
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514830535957_5k_20260415_5k_split_to_73514830535957_1001_2000_20260414211719_result.json",
+      "target_chat_id": -73514830535957,
+      "range": "1001-2000",
+      "processed_count": 1000,
+      "verified_added_count": 729,
+      "still_missing_count": 271,
+      "before_participants_count": 742,
+      "after_participants_count": 1471
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514830535957_5k_20260415_5k_split_to_73514830535957_2001_3000_20260414212350_result.json",
+      "target_chat_id": -73514830535957,
+      "range": "2001-3000",
+      "processed_count": 1000,
+      "verified_added_count": 746,
+      "still_missing_count": 254,
+      "before_participants_count": 1400,
+      "after_participants_count": 2201
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514830535957_5k_20260415_5k_split_to_73514830535957_3001_4000_20260414213023_result.json",
+      "target_chat_id": -73514830535957,
+      "range": "3001-4000",
+      "processed_count": 1000,
+      "verified_added_count": 762,
+      "still_missing_count": 238,
+      "before_participants_count": 2208,
+      "after_participants_count": 2970
+    },
+    {
+      "file": "data/add_token34_nonlocal_ads_73514830535957_5k_20260415_5k_split_to_73514830535957_4001_5000_20260414213655_result.json",
+      "target_chat_id": -73514830535957,
+      "range": "4001-5000",
+      "processed_count": 1000,
+      "verified_added_count": 802,
+      "still_missing_count": 198,
+      "before_participants_count": 2957,
+      "after_participants_count": 3731
+    }
+  ]
+}

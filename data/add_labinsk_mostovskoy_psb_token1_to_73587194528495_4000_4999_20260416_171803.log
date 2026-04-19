@@ -1,0 +1,45 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.uXLU9oyihX --source-file data/labinsk_mostovskoy_selected_chats_member_ids_no_bots_no_admins_token1_20260416_161134.txt --target-chat-id -73587194528495 --start 4000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0
+
+[dotenv@17.3.1] injecting env (1) from ../../../../../tmp/tmp.uXLU9oyihX -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2586 members across 26 pages
+[run] Inviting 998 users to chat -73587194528495 in batches of 10 (100 calls)...
+[run] Progress: 50/998 users
+[run] Progress: 100/998 users
+[run] Progress: 150/998 users
+[run] Progress: 200/998 users
+[run] Progress: 250/998 users
+[run] Progress: 300/998 users
+[run] Progress: 350/998 users
+[run] Progress: 400/998 users
+[run] Progress: 450/998 users
+[run] Progress: 500/998 users
+[run] Progress: 550/998 users
+[run] Progress: 600/998 users
+[run] Progress: 650/998 users
+[run] Progress: 700/998 users
+[run] Progress: 750/998 users
+[run] Progress: 800/998 users
+[run] Progress: 850/998 users
+[run] Progress: 900/998 users
+[run] Progress: 950/998 users
+[run] Progress: 998/998 users
+[run] Stop triggered: 2 consecutive action_failed (limit 2)
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/labinsk_mostovskoy_selected_chats_member_ids_no_bots_no_admins_token1_20260416_161134.txt",
+  "target_chat_id": -73587194528495,
+  "processed_count": 1000,
+  "already_in_target_count": 2,
+  "attempted_invite_count": 998,
+  "invited_without_immediate_failure_count": 930,
+  "verified_added_count": 271,
+  "still_not_in_target_from_this_chunk_count": 727,
+  "before_participants_count": 2587,
+  "after_participants_count": 2849,
+  "result_file": "data/add_labinsk_mostovskoy_selected_chats_member_ids_no_bots_no_admins_token1_20260416_161134_to_73587194528495_4001_5000_20260416141803_result.json",
+  "still_missing_file": "data/still_missing_labinsk_mostovskoy_selected_chats_member_ids_no_bots_no_admins_token1_20260416_161134_to_73587194528495_4001_5000_20260416141803.txt"
+}

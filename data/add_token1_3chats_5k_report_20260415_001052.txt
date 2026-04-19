@@ -1,0 +1,25 @@
+Token1 add report (3 chats x 5k)
+results=15 missing_files=15
+processed=15000 verified_added=12627 still_missing=2373
+
+Per chat:
+- chat=-73514830535957 waves=5 processed=5000 added=3776 still_missing=1224 before_min=5 after_max=3731
+- chat=-73514823458069 waves=5 processed=5000 added=4295 still_missing=705 before_min=5 after_max=4287
+- chat=-73514810350869 waves=5 processed=5000 added=4556 still_missing=444 before_min=5 after_max=4553
+
+Per wave:
+- chat=-73514810350869 range=1-1000 processed=1000 added=878 still_missing=122 before=5 after=883
+- chat=-73514810350869 range=1001-2000 processed=1000 added=915 still_missing=85 before=883 after=1798
+- chat=-73514810350869 range=2001-3000 processed=1000 added=922 still_missing=78 before=1798 after=2691
+- chat=-73514810350869 range=3001-4000 processed=1000 added=922 still_missing=78 before=2699 after=3608
+- chat=-73514810350869 range=4001-5000 processed=1000 added=919 still_missing=81 before=3638 after=4553
+- chat=-73514823458069 range=1-1000 processed=1000 added=979 still_missing=21 before=5 after=984
+- chat=-73514823458069 range=1001-2000 processed=1000 added=810 still_missing=190 before=984 after=1794
+- chat=-73514823458069 range=2001-3000 processed=1000 added=815 still_missing=185 before=1794 after=2561
+- chat=-73514823458069 range=3001-4000 processed=1000 added=840 still_missing=160 before=2609 after=3387
+- chat=-73514823458069 range=4001-5000 processed=1000 added=851 still_missing=149 before=3447 after=4287
+- chat=-73514830535957 range=1-1000 processed=1000 added=737 still_missing=263 before=5 after=742
+- chat=-73514830535957 range=1001-2000 processed=1000 added=729 still_missing=271 before=742 after=1471
+- chat=-73514830535957 range=2001-3000 processed=1000 added=746 still_missing=254 before=1400 after=2201
+- chat=-73514830535957 range=3001-4000 processed=1000 added=762 still_missing=238 before=2208 after=2970
+- chat=-73514830535957 range=4001-5000 processed=1000 added=802 still_missing=198 before=2957 after=3731

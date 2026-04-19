@@ -1,0 +1,15 @@
+[run] log=data/add_k1504_21k_token1_5k_20260415_175837.log
+[run] summary=data/add_k1504_21k_token1_5k_summary_20260415_175837.tsv
+[run] wave start=0 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_0_1000_20260415_175837_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_0_1000_20260415_175837.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+{
+  "ok": false,
+  "error": "Cannot convert argument to a ByteString because the character at index 53 has a value of 9881 which is greater than 255.",
+  "code": "unknown_error",
+  "status": null
+}
+[fatal] wave failed at start=0 exit=1

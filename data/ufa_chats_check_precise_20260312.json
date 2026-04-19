@@ -1,0 +1,371 @@
+{
+  "generated_at": "2026-03-12T17:27:29.529Z",
+  "per_token": [
+    {
+      "token_env": "BOT_TOKEN",
+      "matched_chats": [
+        {
+          "chat_id": -71443525791210,
+          "title": "Уфа Объявления | Новости",
+          "participants_count": 11205,
+          "matched_terms": [
+            "уфа"
+          ]
+        }
+      ]
+    },
+    {
+      "token_env": "BOT_TOKEN2",
+      "matched_chats": [
+        {
+          "chat_id": -70082485679591,
+          "title": "Барахолка Благовещенкв",
+          "participants_count": 1735,
+          "matched_terms": [
+            "благовещенск"
+          ]
+        },
+        {
+          "chat_id": -69238086478410,
+          "title": "Барахолка уфа",
+          "participants_count": 1115,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -69299405043118,
+          "title": "Барахолка. Нагаево, Алаторка , Иглино, Нуриман , Павловка",
+          "participants_count": 1012,
+          "matched_terms": [
+            "нагаево",
+            "иглино"
+          ]
+        },
+        {
+          "chat_id": -69901374745189,
+          "title": "Объявления Уфа Online",
+          "participants_count": 750,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68522576964179,
+          "title": "Уфа. ЧАСТНЫЕ ОБЪЯВЛЕНИЯ ✅",
+          "participants_count": 746,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -70557308706976,
+          "title": "Барахолка БЛАГОВАРСКИЙ район",
+          "participants_count": 733,
+          "matched_terms": [
+            "благовар"
+          ]
+        },
+        {
+          "chat_id": -69453917642903,
+          "title": "Авито  РБ, РТ  Уфв-Казань",
+          "participants_count": 649,
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -69455378374807,
+          "title": "Работа, подработка для всех РБ",
+          "participants_count": 578,
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -68449615115616,
+          "title": "Халтура Уфа.",
+          "participants_count": 542,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68096774275292,
+          "title": "Услуги и товары Уфа",
+          "participants_count": 388,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68316535259383,
+          "title": "ЛЮБИМЫЙ ГОРОД ДАВЛЕКАНОВО.🌍",
+          "participants_count": 306,
+          "matched_terms": [
+            "давлеканово"
+          ]
+        },
+        {
+          "chat_id": -70856370891308,
+          "title": "Авито Уфа",
+          "participants_count": 278,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -70557934147014,
+          "title": "УФА РАБОТА, ПОДРАБОТКА",
+          "participants_count": 251,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68169065379114,
+          "title": "💸Уфимский р-он: Зубово - Чесноковка-Булгаково",
+          "participants_count": 223,
+          "matched_terms": [
+            "уфим",
+            "зубово",
+            "чесноковка",
+            "булгаково"
+          ]
+        },
+        {
+          "chat_id": -68798876251488,
+          "title": "Ссылки, Реклама Уфа.",
+          "participants_count": 193,
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -69752807025271,
+          "title": "УФА,поселок 8 марта, жк Сосны,жк 8 марта,Затон",
+          "participants_count": 193,
+          "matched_terms": [
+            "уфа",
+            "затон",
+            "8 марта"
+          ]
+        },
+        {
+          "chat_id": -71391539505708,
+          "title": "Авито Башкортостан",
+          "participants_count": 171,
+          "matched_terms": [
+            "башкортостан"
+          ]
+        }
+      ]
+    }
+  ],
+  "combined_chats": [
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "participants_count": 11205,
+      "visible_in_tokens": [
+        "BOT_TOKEN"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -70082485679591,
+      "title": "Барахолка Благовещенкв",
+      "participants_count": 1735,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "благовещенск"
+      ]
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "participants_count": 1115,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69299405043118,
+      "title": "Барахолка. Нагаево, Алаторка , Иглино, Нуриман , Павловка",
+      "participants_count": 1012,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "иглино",
+        "нагаево"
+      ]
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Объявления Уфа Online",
+      "participants_count": 750,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -68522576964179,
+      "title": "Уфа. ЧАСТНЫЕ ОБЪЯВЛЕНИЯ ✅",
+      "participants_count": 746,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -70557308706976,
+      "title": "Барахолка БЛАГОВАРСКИЙ район",
+      "participants_count": 733,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "благовар"
+      ]
+    },
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "participants_count": 649,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -69455378374807,
+      "title": "Работа, подработка для всех РБ",
+      "participants_count": 578,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа.",
+      "participants_count": 542,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -68096774275292,
+      "title": "Услуги и товары Уфа",
+      "participants_count": 388,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -68316535259383,
+      "title": "ЛЮБИМЫЙ ГОРОД ДАВЛЕКАНОВО.🌍",
+      "participants_count": 306,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "давлеканово"
+      ]
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "participants_count": 278,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -70557934147014,
+      "title": "УФА РАБОТА, ПОДРАБОТКА",
+      "participants_count": 251,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -68169065379114,
+      "title": "💸Уфимский р-он: Зубово - Чесноковка-Булгаково",
+      "participants_count": 223,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "булгаково",
+        "зубово",
+        "уфим",
+        "чесноковка"
+      ]
+    },
+    {
+      "chat_id": -68798876251488,
+      "title": "Ссылки, Реклама Уфа.",
+      "participants_count": 193,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69752807025271,
+      "title": "УФА,поселок 8 марта, жк Сосны,жк 8 марта,Затон",
+      "participants_count": 193,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "8 марта",
+        "затон",
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -71391539505708,
+      "title": "Авито Башкортостан",
+      "participants_count": 171,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "башкортостан"
+      ]
+    }
+  ]
+}

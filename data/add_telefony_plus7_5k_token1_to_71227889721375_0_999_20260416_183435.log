@@ -1,0 +1,6 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.PgunSO0W9H --source-file data/telefony_plus7_member_ids_from_xlsx.txt --target-chat-id -71227889721375 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+[dotenv@17.3.1] injecting env (1) from ../../../../../tmp/tmp.PgunSO0W9H -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[run] Loading target member snapshot...

@@ -1,0 +1,14 @@
+[run] start=20260414_171207 total=15195 target=-73500089757096 source=Все мясо.txt
+[wave] #1 start=0 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5 members across 1 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users

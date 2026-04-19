@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "marked_at": "2026-04-16T20:17:27.083Z",
+  "source_manifest": "/home/alex/projects/ryslanchik/maxmanager/data/b2b_2024_unused_5k_for_73557708909196_token1_20260416_224126.manifest.json",
+  "source_xlsx": "/home/alex/projects/ryslanchik/maxmanager/data/B2B_2024.xlsx",
+  "backup_file": "/home/alex/projects/ryslanchik/maxmanager/data/B2B_2024.backup_20260416_231726.xlsx",
+  "sheet": "Лист1",
+  "used_column_index_0_based": 3,
+  "marker": "used_token1_73557708909196_20260416_231726",
+  "marked_used_ids_count": 5000,
+  "marked_used_source_indexes_1_based": {
+    "first": 9002,
+    "last": 14001
+  },
+  "touched_cells_count": 5000,
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_b2b_2024_to_73557708909196_token1_1_5000_20260416_231726.txt"
+}

@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "created_at": "2026-04-17T20:20:43.929003Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/казик",
+  "token_env": "BOT_TOKEN1",
+  "chat_count": 4,
+  "start_index_0_based": 0,
+  "count_total": 4000,
+  "range_human": "1-4000",
+  "marked_used_ids_count": 4000,
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_kazik_to_4bonus_chats_token1_1_4000_20260417_232043.txt",
+  "results": [
+    {
+      "target_chat_id": -73653132442330,
+      "target_title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "range_human": "1-1000",
+      "processed_count": 1000,
+      "verified_added_count": 936,
+      "still_missing_count": 64,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_1_1000_20260417195422_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager"
+    },
+    {
+      "target_chat_id": -73652908047066,
+      "target_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "range_human": "1001-2000",
+      "processed_count": 1000,
+      "verified_added_count": 925,
+      "still_missing_count": 75,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_1001_2000_20260417200108_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager"
+    },
+    {
+      "target_chat_id": -73653253225178,
+      "target_title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "range_human": "2001-3000",
+      "processed_count": 1000,
+      "verified_added_count": 932,
+      "still_missing_count": 68,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_2001_3000_20260417200747_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager"
+    },
+    {
+      "target_chat_id": -73653365816026,
+      "target_title": "БОНУСЫ ИГРОКАМ ",
+      "range_human": "3001-4000",
+      "processed_count": 1000,
+      "verified_added_count": 937,
+      "still_missing_count": 63,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_3001_4000_20260417201431_result.json",
+      "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager"
+    }
+  ],
+  "totals": {
+    "verified_added_count": 3730,
+    "still_missing_count": 270
+  }
+}

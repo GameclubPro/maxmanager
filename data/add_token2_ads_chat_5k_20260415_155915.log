@@ -1,0 +1,240 @@
+[run] log=data/add_token2_ads_chat_5k_20260415_155915.log
+[run] summary=data/add_token2_ads_chat_5k_summary_20260415_155915.tsv
+[run] progress=data/token34_nonlocal_ads_5000_marked_progress_20260415_155915.tsv
+[run] (1/5) chat=-73543079047868 wave=1 start=0 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt --target-chat-id -73543079047868 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 4 members across 1 pages
+[run] Inviting 1000 users to chat -73543079047868 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+  "target_chat_id": -73543079047868,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 910,
+  "still_not_in_target_from_this_chunk_count": 90,
+  "before_participants_count": 4,
+  "after_participants_count": 914,
+  "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1_1000_20260415125915_result.json",
+  "still_missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1_1000_20260415125915.txt"
+}
+[run] done (1/5) exit=0 verified_added=910 still_missing=90
+[run] sleep 60s between waves
+[run] (2/5) chat=-73543079047868 wave=2 start=1000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt --target-chat-id -73543079047868 --start 1000 --count 1000 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 914 members across 10 pages
+[run] Inviting 1000 users to chat -73543079047868 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+  "target_chat_id": -73543079047868,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 906,
+  "still_not_in_target_from_this_chunk_count": 94,
+  "before_participants_count": 914,
+  "after_participants_count": 1815,
+  "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1001_2000_20260415130605_result.json",
+  "still_missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1001_2000_20260415130605.txt"
+}
+[run] done (2/5) exit=0 verified_added=906 still_missing=94
+[run] sleep 60s between waves
+[run] (3/5) chat=-73543079047868 wave=3 start=2000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt --target-chat-id -73543079047868 --start 2000 --count 1000 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1815 members across 19 pages
+[run] Inviting 1000 users to chat -73543079047868 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+  "target_chat_id": -73543079047868,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 899,
+  "still_not_in_target_from_this_chunk_count": 101,
+  "before_participants_count": 1815,
+  "after_participants_count": 2712,
+  "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_2001_3000_20260415131252_result.json",
+  "still_missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_2001_3000_20260415131252.txt"
+}
+[run] done (3/5) exit=0 verified_added=899 still_missing=101
+[run] sleep 60s between waves
+[run] (4/5) chat=-73543079047868 wave=4 start=3000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt --target-chat-id -73543079047868 --start 3000 --count 1000 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2712 members across 28 pages
+[run] Inviting 1000 users to chat -73543079047868 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+  "target_chat_id": -73543079047868,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 898,
+  "still_not_in_target_from_this_chunk_count": 102,
+  "before_participants_count": 2712,
+  "after_participants_count": 3590,
+  "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_3001_4000_20260415131942_result.json",
+  "still_missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_3001_4000_20260415131942.txt"
+}
+[run] done (4/5) exit=0 verified_added=898 still_missing=102
+[run] sleep 60s between waves
+[run] (5/5) chat=-73543079047868 wave=5 start=4000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt --target-chat-id -73543079047868 --start 4000 --count 1000 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3605 members across 37 pages
+[run] Inviting 1000 users to chat -73543079047868 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+  "target_chat_id": -73543079047868,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 915,
+  "still_not_in_target_from_this_chunk_count": 85,
+  "before_participants_count": 3606,
+  "after_participants_count": 4511,
+  "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_4001_5000_20260415132635_result.json",
+  "still_missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_4001_5000_20260415132635.txt"
+}
+[run] done (5/5) exit=0 verified_added=915 still_missing=85
+[done] summary=data/add_token2_ads_chat_5k_summary_20260415_155915.tsv
+[done] progress=data/token34_nonlocal_ads_5000_marked_progress_20260415_155915.tsv
+[done] log=data/add_token2_ads_chat_5k_20260415_155915.log

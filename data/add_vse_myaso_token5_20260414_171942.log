@@ -1,0 +1,524 @@
+[run] start=20260414_171942 total=15195 target=-73500089757096 source=Все мясо.txt
+[wave] #1 start=0 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 196 members across 2 pages
+[run] Inviting 809 users to chat -73500089757096 in batches of 10 (81 calls)...
+[run] Progress: 50/809 users
+[run] Progress: 100/809 users
+[run] Progress: 150/809 users
+[run] Progress: 200/809 users
+[run] Progress: 250/809 users
+[run] Progress: 300/809 users
+[run] Progress: 350/809 users
+[run] Progress: 400/809 users
+[run] Progress: 450/809 users
+[run] Progress: 500/809 users
+[run] Progress: 550/809 users
+[run] Progress: 600/809 users
+[run] Progress: 650/809 users
+[run] Progress: 700/809 users
+[run] Progress: 750/809 users
+[run] Progress: 800/809 users
+[run] Progress: 809/809 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 191,
+  "attempted_invite_count": 809,
+  "invited_without_immediate_failure_count": 809,
+  "verified_added_count": 726,
+  "still_not_in_target_from_this_chunk_count": 83,
+  "before_participants_count": 196,
+  "after_participants_count": 922,
+  "result_file": "data/add_members_to_73500089757096_1_1000_20260414141942_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_1_1000_20260414141942.txt"
+}
+[wave] pause 60s before next wave
+[wave] #2 start=1000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 1000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 917 members across 10 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 920,
+  "still_not_in_target_from_this_chunk_count": 80,
+  "before_participants_count": 917,
+  "after_participants_count": 1831,
+  "result_file": "data/add_members_to_73500089757096_1001_2000_20260414142238_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_1001_2000_20260414142238.txt"
+}
+[wave] pause 60s before next wave
+[wave] #3 start=2000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 2000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 1823 members across 19 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 928,
+  "still_not_in_target_from_this_chunk_count": 72,
+  "before_participants_count": 1823,
+  "after_participants_count": 2570,
+  "result_file": "data/add_members_to_73500089757096_2001_3000_20260414142613_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_2001_3000_20260414142613.txt"
+}
+[wave] pause 60s before next wave
+[wave] #4 start=3000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 3000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2717 members across 28 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 921,
+  "still_not_in_target_from_this_chunk_count": 79,
+  "before_participants_count": 2725,
+  "after_participants_count": 3464,
+  "result_file": "data/add_members_to_73500089757096_3001_4000_20260414142952_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_3001_4000_20260414142952.txt"
+}
+[wave] pause 60s before next wave
+[wave] #5 start=4000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 4000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3612 members across 37 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 925,
+  "still_not_in_target_from_this_chunk_count": 75,
+  "before_participants_count": 3616,
+  "after_participants_count": 4513,
+  "result_file": "data/add_members_to_73500089757096_4001_5000_20260414143329_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_4001_5000_20260414143329.txt"
+}
+[wave] pause 60s before next wave
+[wave] #6 start=5000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 5000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 4504 members across 46 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 928,
+  "still_not_in_target_from_this_chunk_count": 72,
+  "before_participants_count": 4505,
+  "after_participants_count": 5296,
+  "result_file": "data/add_members_to_73500089757096_5001_6000_20260414143709_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_5001_6000_20260414143709.txt"
+}
+[wave] pause 60s before next wave
+[wave] #7 start=6000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 6000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5385 members across 54 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 931,
+  "still_not_in_target_from_this_chunk_count": 69,
+  "before_participants_count": 5391,
+  "after_participants_count": 6232,
+  "result_file": "data/add_members_to_73500089757096_6001_7000_20260414144052_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_6001_7000_20260414144052.txt"
+}
+[wave] pause 60s before next wave
+[wave] #8 start=7000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 7000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 6266 members across 63 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 928,
+  "still_not_in_target_from_this_chunk_count": 72,
+  "before_participants_count": 6273,
+  "after_participants_count": 7016,
+  "result_file": "data/add_members_to_73500089757096_7001_8000_20260414144437_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_7001_8000_20260414144437.txt"
+}
+[wave] pause 60s before next wave
+[wave] #9 start=8000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 8000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 7137 members across 72 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 930,
+  "still_not_in_target_from_this_chunk_count": 70,
+  "before_participants_count": 7147,
+  "after_participants_count": 7989,
+  "result_file": "data/add_members_to_73500089757096_8001_9000_20260414144828_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_8001_9000_20260414144828.txt"
+}
+[wave] pause 60s before next wave
+[wave] #10 start=9000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 9000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 8016 members across 81 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 923,
+  "still_not_in_target_from_this_chunk_count": 77,
+  "before_participants_count": 8019,
+  "after_participants_count": 8802,
+  "result_file": "data/add_members_to_73500089757096_9001_10000_20260414145221_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_9001_10000_20260414145221.txt"
+}
+[wave] pause 60s before next wave
+[wave] #11 start=10000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 10000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 8863 members across 89 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Все мясо.txt",
+  "target_chat_id": -73500089757096,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 842,
+  "still_not_in_target_from_this_chunk_count": 158,
+  "before_participants_count": 8882,
+  "after_participants_count": 9641,
+  "result_file": "data/add_members_to_73500089757096_10001_11000_20260414145615_result.json",
+  "still_missing_file": "data/still_missing_members_to_73500089757096_10001_11000_20260414145615.txt"
+}
+[wave] pause 60s before next wave
+[wave] #12 start=11000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Все мясо.txt --target-chat-id -73500089757096 --start 11000 --count 1000 --invite-batch-size 10 --pause-ms 1000
+
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 9604 members across 97 pages
+[run] Inviting 1000 users to chat -73500089757096 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users

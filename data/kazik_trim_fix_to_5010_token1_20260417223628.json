@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "generated_at": "2026-04-17T22:36:28.939Z",
+  "summary": [
+    {
+      "chat_id": -73653253225178,
+      "before": 5013,
+      "removed": 5,
+      "after": 5010,
+      "target": 5010
+    },
+    {
+      "chat_id": -73653365816026,
+      "before": 5020,
+      "removed": 39,
+      "after": 5010,
+      "target": 5010
+    }
+  ]
+}

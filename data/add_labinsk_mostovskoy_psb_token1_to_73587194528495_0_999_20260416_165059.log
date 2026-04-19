@@ -1,0 +1,5 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file data/labinsk_mostovskoy_selected_chats_member_ids_no_bots_no_admins_token1_20260416_161134.txt --target-chat-id -73587194528495 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }

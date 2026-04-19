@@ -1,0 +1,154 @@
+Забайкальский край: чаты по городам и поселкам
+Сгенерировано: 2026-04-12T22:43:57.545Z
+Целевой чат: -71489818560519
+Токены с доступом к целевому чату: BOT_TOKEN2, BOT_TOKEN3, BOT_TOKEN4
+Всего релевантных чатов: 99
+Совпадение по title: 96
+Совпадение по description: 20
+Совпадение по link: 0
+
+Чита (55)
+- Работа в Чите и Забайкальском крае Работазабкрай. рф | -68072174829677 | users=18449 | via=title,description | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Недвижимость Чита и Забайкальский край | -72031139969133 | users=17492 | via=title,description | tokens=BOT_TOKEN3
+- Сельхоз ярмарка  Чита и Забайкальский край | -71430376503405 | users=16648 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Чита Объявления | Новости | -71489818560519 | users=14967 | via=title,description | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Чита реклама | -72618162632813 | users=12207 | via=title,description | tokens=BOT_TOKEN3,BOT_TOKEN4
+- DROM "75" Покупка, продажа АВТО "Забайкальский край г. Чита | -68103459930308 | users=10981 | via=title | tokens=BOT_TOKEN2
+- Чита💤Купи-Продай"Online" | -68103706017988 | users=8083 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN3
+- Домашняя продукция г. Чита и районы "75" | -69498657472708 | users=5474 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- РАБОТА В ЧИТЕ | -68097318690817 | users=5263 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Регион 75 | -68076019810506 | users=5220 | via=title,description | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- ✔️5️⃣4️⃣💯Чита и Забайкальский кр | Большая ДОСКА ОБЪЯВЛЕНИЙ | -71497466657480 | users=4503 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- БАРАХОЛКА 75R | -68097242792138 | users=3550 | via=title,description | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Мастера и Услуги Забайкальский край. | -73264703125613 | users=3480 | via=title,description | tokens=BOT_TOKEN3,BOT_TOKEN4
+- ✔️3️⃣9️⃣ 💯👋💯Чита и Забайкальский край ДОСКА ОБЪЯВЛЕНИЙ | -70392244619976 | users=3235 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Чита 75 🇷🇺RUS | -68097233289418 | users=3220 | via=title,description | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- «УЮТНЫЙ ДОМ» ЧИТА |ЗАБ.КРАЙ | -68306988190444 | users=3025 | via=title,description | tokens=BOT_TOKEN2
+- БАРАХЛЯНДИЯ🇷🇺 | -68212641988810 | users=2746 | via=description | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Чита и Забайкальский край | -68084149212488 | users=2193 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- ПТИЧИЙ ДВОРИК ЧИТА | -68094771513867 | users=2003 | via=title | tokens=BOT_TOKEN2
+- Объявления г.Чита | -68117060324043 | users=1895 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+- ЧИТА БАРАХОЛКА | -68022921197022 | users=1793 | via=title,description | tokens=BOT_TOKEN2
+- Объявления Чита 75R | -68081984386454 | users=1232 | via=title | tokens=BOT_TOKEN2
+- Объявления Читы | -68106571142598 | users=1227 | via=title,description | tokens=BOT_TOKEN2
+- ЧИТА- Забайкальская МЕГА барахолка | -69487005562223 | users=1219 | via=title | tokens=BOT_TOKEN2
+- ЯРМАРКА⚜️ЧИТА | -68081902581088 | users=1214 | via=title,description | tokens=BOT_TOKEN2
+- Барахолка Чита 75R | -68097532540310 | users=1153 | via=title | tokens=BOT_TOKEN2
+- Недвижимость Чита 75 | -68159689766294 | users=1122 | via=title | tokens=BOT_TOKEN2
+- Продам, куплю Чита | -68110614233296 | users=1114 | via=title | tokens=BOT_TOKEN3
+- Здесь ваша реклама Забайкальский край и Чита | -68100202932810 | users=1080 | via=title | tokens=BOT_TOKEN2
+- Животный мир Чита 75R | -68097564521878 | users=1039 | via=title | tokens=BOT_TOKEN2
+- Авто Чита 75R | -68159753074070 | users=960 | via=title | tokens=BOT_TOKEN2
+- Каштак, мкр. Солнечный | -68562711232630 | users=951 | via=description | tokens=BOT_TOKEN2
+- ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ | -68781077015126 | users=852 | via=title | tokens=BOT_TOKEN2
+- Черновские Чита | -68900040805115 | users=776 | via=title | tokens=BOT_TOKEN2
+- Барахолка Чита  Забайкальский край | -69524089763165 | users=759 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Купи.Продай.Чита ! | -68106874697137 | users=714 | via=title | tokens=BOT_TOKEN2
+- Объявления Чита | -71749451829393 | users=674 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+- Бесплатные обьявления Чита | -68813462178555 | users=639 | via=title | tokens=BOT_TOKEN2
+- Чита объявления | -68078827525574 | users=624 | via=title | tokens=BOT_TOKEN2
+- Барахолка Чита | -69384543865595 | users=586 | via=title | tokens=BOT_TOKEN2
+- Чита Частный сектор:Купля продажа | -70979649279238 | users=519 | via=title | tokens=BOT_TOKEN2
+- Детская барахолка Чита. Мамочки Читы. Объявления Чита | -72265386047588 | users=495 | via=title | tokens=BOT_TOKEN4
+- Цветики-Цветочки (Чита) | -71408855463348 | users=457 | via=title | tokens=BOT_TOKEN2
+- Куплю продам Чита | -70543572882751 | users=453 | via=title | tokens=BOT_TOKEN2
+- Чита: Доска объявлений | -68251366847972 | users=439 | via=title | tokens=BOT_TOKEN2
+- ЧИТА. КУПИ, ПРОДАЙ | -69351574899433 | users=390 | via=title | tokens=BOT_TOKEN2
+- Царство цветов. Чита | -68248241692805 | users=375 | via=title | tokens=BOT_TOKEN2
+- Цветочный дворик г. ЧИТА | -68088551200072 | users=326 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- ПОПУТКА-ЧИТА🚖🚕 | -69438124015686 | users=324 | via=title | tokens=BOT_TOKEN4
+- Цветы. Рассада. Саженцы. Чита | -71489896106117 | users=314 | via=title | tokens=BOT_TOKEN2
+- Фермерский драйв. Чита. | -71490092468744 | users=243 | via=title | tokens=BOT_TOKEN2
+- Мастер и Модель Чита. Чат | -72267692980324 | users=166 | via=title | tokens=BOT_TOKEN4
+- Детская Чита🤱Беседа. Вопросы-Ответ. Мамы Чита. Мамочки Чита. | -72264548694116 | users=126 | via=title,description | tokens=BOT_TOKEN4
+- АВТОРЫНОК ЧИТА | ПРОДАТЬ КУПИТЬ АВТО В ЧИТЕ | Дром 75 | -72267625674852 | users=68 | via=title,description | tokens=BOT_TOKEN4
+- ОТДАМ/ОБМЕНЯЮ/ПРОДАМ  Мамы Чита | -72330726688904 | users=55 | via=title | tokens=BOT_TOKEN3
+
+Забайкальский край / общие (11)
+- Вакансии, работа Заб., край + Общепит 75 + Вахта | -68103495909572 | users=18832 | via=title | tokens=BOT_TOKEN2
+- Подслушано Забайкалье | -72216337401992 | users=11047 | via=title | tokens=BOT_TOKEN4
+- Забайкальский край Объявления | Новости | -71722073753607 | users=6061 | via=title,description | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Строительство, ремонт | Забайкальский край | -69511642579140 | users=4662 | via=title | tokens=BOT_TOKEN2
+- ВЕСЬ ЗАБ КРАЙ!  ОБЪЯВЛЕНИЯ ✅️ | -69486127614667 | users=1390 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+- ИРКУТСК ЗАБАЙКАЛЬЕ | -68052711590612 | users=1374 | via=title | tokens=BOT_TOKEN2
+- Авито Макс Заб. Край | -69261328386811 | users=1061 | via=title | tokens=BOT_TOKEN2
+- 📢Объявления Забайкальский край 📢 | -69295882368499 | users=905 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Барахолка РФ🇷🇺 Заб. край | -69433029293528 | users=823 | via=title | tokens=BOT_TOKEN2
+- Все объявления Заб. Край | -70291264730461 | users=438 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Бесплатные объявления. Забайкалье. | -71490180745736 | users=278 | via=title | tokens=BOT_TOKEN2
+
+Краснокаменск (4)
+- ✔️1️⃣7️⃣3️⃣🌍 Краснокаменск | Большая ДОСКА ОБЪЯВЛЕНИЙ | -71491430922952 | users=6425 | via=title | tokens=BOT_TOKEN3
+- ✔️1️⃣2️⃣1️⃣💯 Краснокаменск | Большая ДОСКА ОБЪЯВЛЕНИЙ | -70189889374920 | users=3748 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+- Объявления Краснокаменска | -73398123487851 | users=1200 | via=title | tokens=BOT_TOKEN3
+- Краснокаменский БАЗАР | -72341447083396 | users=949 | via=title | tokens=BOT_TOKEN3
+
+Хилок (3)
+- Хилок бесплатные обьявления | -68864688065275 | users=644 | via=title | tokens=BOT_TOKEN2
+- Объявления Хилок. Заб.край. | -71590446891255 | users=642 | via=title | tokens=BOT_TOKEN2
+- ДОСКА БЕСПЛАТНЫХ ОБЪЯВЛЕНИЙ г. ХИЛОК И ХИЛОКСКИЙ РАЙОН | -68113554511251 | users=618 | via=title | tokens=BOT_TOKEN3
+
+Борзя (2)
+- ✔️1️⃣8️⃣5️⃣🌍БОРЗЯ и БОРЗИНСКИЙ РН  ДОСКА ОБЪЯВЛЕНИЙ | -72887649188552 | users=2714 | via=title | tokens=BOT_TOKEN3
+- ✔️7️⃣1️⃣Борзя | Большая ДОСКА ОБЪЯВЛЕНИЙ | -70484917504712 | users=2591 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+
+Домна (2)
+- Домна, обьявления | -68957535341307 | users=738 | via=title | tokens=BOT_TOKEN2
+- ДОМНА ОБЪЯВЛЕНИЯ✅ | -69395913916486 | users=237 | via=title | tokens=BOT_TOKEN4
+
+Забайкальск (2)
+- ТАКСИ ЗАБАЙКАЛЬСК | -68187955800620 | users=2091 | via=title,description | tokens=BOT_TOKEN2,BOT_TOKEN3
+- Такси «Поехали» | -68147338657889 | users=1952 | via=description | tokens=BOT_TOKEN2,BOT_TOKEN3
+
+Нерчинск (2)
+- ✔️1️⃣7️⃣9️⃣🌍Нерчинск  | Большая ДОСКА ОБЪЯВЛЕНИЙ | -72976805935816 | users=2215 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN3,BOT_TOKEN4
+- Нерчинск объявления | -68098313423563 | users=1580 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+
+Приаргунск (2)
+- ✔️1️⃣8️⃣8️⃣🌍 Приаргунский муниципальный ок ДОСКА ОБЪЯВЛЕНИЙ | -72990537300680 | users=1616 | via=title | tokens=BOT_TOKEN3
+- ✔️1️⃣1️⃣4️⃣💯Приаргунск Заб. Край | Большая ДОСКА ОБЪЯВЛЕНИЙ | -71940952701640 | users=1373 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+
+Черновский район (Чита) (2)
+- ЧЕРНОВСКИЙ РАЙОН, ЧИТА | -69401173246022 | users=1180 | via=title,description | tokens=BOT_TOKEN4
+- Черновский район | -72258967652488 | users=62 | via=title | tokens=BOT_TOKEN4
+
+Чернышевск (2)
+- Чернышевск объявления | -68117110590155 | users=1267 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+- Чернышевск объявления | -68181685163462 | users=194 | via=title | tokens=BOT_TOKEN2
+
+Агинское (1)
+- Агинское обьявления | -68957387033339 | users=525 | via=title | tokens=BOT_TOKEN2
+
+Акша (1)
+- Акша объявления | -68117153319627 | users=1062 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+
+Балей (1)
+- Балей объявления | -68098306149067 | users=1702 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+
+Борзя / Балей / Оловянная (1)
+- Балей 💤 Оловянная 💤 Борзя | Объявления | -68103712571588 | users=5207 | via=title | tokens=BOT_TOKEN2
+
+ГРЭС (Чита) (1)
+- ГРЭС ЧИТА | -72331746879558 | users=534 | via=title | tokens=BOT_TOKEN4
+
+Дарасун (1)
+- Дарасун объявления | -69402284264139 | users=1554 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+
+Карымское (1)
+- ПГТ. Карымское объявления | -68117146110667 | users=1490 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+
+Могоча (1)
+- >> Могоча объявления📎 | -69479727551942 | users=214 | via=title | tokens=BOT_TOKEN2
+
+Улёты (1)
+- Улёты и ближайшие районы  | Большая ДОСКА ОБЪЯВЛЕНИЙ | -73150746280453 | users=2032 | via=title | tokens=BOT_TOKEN3,BOT_TOKEN4
+
+Чита / Улёты (1)
+- Улёты Чита Объявления | -69418346537117 | users=791 | via=title | tokens=BOT_TOKEN2
+
+Читинский район (1)
+- Читинский район | -72259018639496 | users=53 | via=title | tokens=BOT_TOKEN4
+
+Шилка (1)
+- Шилка объявления | -68117120420555 | users=1973 | via=title | tokens=BOT_TOKEN2,BOT_TOKEN4
+

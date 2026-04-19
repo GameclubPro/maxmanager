@@ -1,0 +1,229 @@
+[run] log=data/add_k1504_21k_token1_5k_20260415_175922.log
+[run] summary=data/add_k1504_21k_token1_5k_summary_20260415_175922.tsv
+[run] wave start=0 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_0_1000_20260415_175922_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_0_1000_20260415_175922.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2154 members across 22 pages
+[run] Inviting 985 users to chat -71195382773235 in batches of 10 (99 calls)...
+[run] Progress: 50/985 users
+[run] Progress: 100/985 users
+[run] Progress: 150/985 users
+[run] Progress: 200/985 users
+[run] Progress: 250/985 users
+[run] Progress: 300/985 users
+[run] Progress: 350/985 users
+[run] Progress: 400/985 users
+[run] Progress: 450/985 users
+[run] Progress: 500/985 users
+[run] Progress: 550/985 users
+[run] Progress: 600/985 users
+[run] Progress: 650/985 users
+[run] Progress: 700/985 users
+[run] Progress: 750/985 users
+[run] Progress: 800/985 users
+[run] Progress: 850/985 users
+[run] Progress: 900/985 users
+[run] Progress: 950/985 users
+[run] Progress: 985/985 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "К.15.04. 21к.txt",
+  "target_chat_id": -71195382773235,
+  "processed_count": 1000,
+  "already_in_target_count": 15,
+  "attempted_invite_count": 985,
+  "invited_without_immediate_failure_count": 985,
+  "verified_added_count": 711,
+  "still_not_in_target_from_this_chunk_count": 274,
+  "before_participants_count": 2154,
+  "after_participants_count": 2861,
+  "result_file": "data/add_k1504_21k_to_71195382773235_0_1000_20260415_175922_result.json",
+  "still_missing_file": "data/still_missing_k1504_21k_to_71195382773235_0_1000_20260415_175922.txt"
+}
+[run] sleeping 60s between waves
+[run] wave start=1000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 1000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_1000_2000_20260415_175922_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_1000_2000_20260415_175922.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2865 members across 29 pages
+[run] Inviting 999 users to chat -71195382773235 in batches of 10 (100 calls)...
+[run] Progress: 50/999 users
+[run] Progress: 100/999 users
+[run] Progress: 150/999 users
+[run] Progress: 200/999 users
+[run] Progress: 250/999 users
+[run] Progress: 300/999 users
+[run] Progress: 350/999 users
+[run] Progress: 400/999 users
+[run] Progress: 450/999 users
+[run] Progress: 500/999 users
+[run] Progress: 550/999 users
+[run] Progress: 600/999 users
+[run] Progress: 650/999 users
+[run] Progress: 700/999 users
+[run] Progress: 750/999 users
+[run] Progress: 800/999 users
+[run] Progress: 850/999 users
+[run] Progress: 900/999 users
+[run] Progress: 950/999 users
+[run] Progress: 999/999 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "К.15.04. 21к.txt",
+  "target_chat_id": -71195382773235,
+  "processed_count": 1000,
+  "already_in_target_count": 1,
+  "attempted_invite_count": 999,
+  "invited_without_immediate_failure_count": 999,
+  "verified_added_count": 791,
+  "still_not_in_target_from_this_chunk_count": 208,
+  "before_participants_count": 2865,
+  "after_participants_count": 3608,
+  "result_file": "data/add_k1504_21k_to_71195382773235_1000_2000_20260415_175922_result.json",
+  "still_missing_file": "data/still_missing_k1504_21k_to_71195382773235_1000_2000_20260415_175922.txt"
+}
+[run] sleeping 60s between waves
+[run] wave start=2000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 2000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_2000_3000_20260415_175922_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_2000_3000_20260415_175922.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3651 members across 37 pages
+[run] Inviting 994 users to chat -71195382773235 in batches of 10 (100 calls)...
+[run] Progress: 50/994 users
+[run] Progress: 100/994 users
+[run] Progress: 150/994 users
+[run] Progress: 200/994 users
+[run] Progress: 250/994 users
+[run] Progress: 300/994 users
+[run] Progress: 350/994 users
+[run] Progress: 400/994 users
+[run] Progress: 450/994 users
+[run] Progress: 500/994 users
+[run] Progress: 550/994 users
+[run] Progress: 600/994 users
+[run] Progress: 650/994 users
+[run] Progress: 700/994 users
+[run] Progress: 750/994 users
+[run] Progress: 800/994 users
+[run] Progress: 850/994 users
+[run] Progress: 900/994 users
+[run] Progress: 950/994 users
+[run] Progress: 994/994 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "К.15.04. 21к.txt",
+  "target_chat_id": -71195382773235,
+  "processed_count": 1000,
+  "already_in_target_count": 6,
+  "attempted_invite_count": 994,
+  "invited_without_immediate_failure_count": 994,
+  "verified_added_count": 817,
+  "still_not_in_target_from_this_chunk_count": 177,
+  "before_participants_count": 3651,
+  "after_participants_count": 4451,
+  "result_file": "data/add_k1504_21k_to_71195382773235_2000_3000_20260415_175922_result.json",
+  "still_missing_file": "data/still_missing_k1504_21k_to_71195382773235_2000_3000_20260415_175922.txt"
+}
+[run] sleeping 60s between waves
+[run] wave start=3000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 3000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_3000_4000_20260415_175922_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_3000_4000_20260415_175922.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 4457 members across 45 pages
+[run] Inviting 993 users to chat -71195382773235 in batches of 10 (100 calls)...
+[run] Progress: 50/993 users
+[run] Progress: 100/993 users
+[run] Progress: 150/993 users
+[run] Progress: 200/993 users
+[run] Progress: 250/993 users
+[run] Progress: 300/993 users
+[run] Progress: 350/993 users
+[run] Progress: 400/993 users
+[run] Progress: 450/993 users
+[run] Progress: 500/993 users
+[run] Progress: 550/993 users
+[run] Progress: 600/993 users
+[run] Progress: 650/993 users
+[run] Progress: 700/993 users
+[run] Progress: 750/993 users
+[run] Progress: 800/993 users
+[run] Progress: 850/993 users
+[run] Progress: 900/993 users
+[run] Progress: 950/993 users
+[run] Progress: 993/993 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "К.15.04. 21к.txt",
+  "target_chat_id": -71195382773235,
+  "processed_count": 1000,
+  "already_in_target_count": 7,
+  "attempted_invite_count": 993,
+  "invited_without_immediate_failure_count": 993,
+  "verified_added_count": 738,
+  "still_not_in_target_from_this_chunk_count": 255,
+  "before_participants_count": 4457,
+  "after_participants_count": 5128,
+  "result_file": "data/add_k1504_21k_to_71195382773235_3000_4000_20260415_175922_result.json",
+  "still_missing_file": "data/still_missing_k1504_21k_to_71195382773235_3000_4000_20260415_175922.txt"
+}
+[run] sleeping 60s between waves
+[run] wave start=4000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file К.15.04. 21к.txt --target-chat-id -71195382773235 --start 4000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --result-file data/add_k1504_21k_to_71195382773235_4000_5000_20260415_175922_result.json --missing-file data/still_missing_k1504_21k_to_71195382773235_4000_5000_20260415_175922.txt
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5190 members across 52 pages
+[run] Inviting 761 users to chat -71195382773235 in batches of 10 (77 calls)...
+[run] Progress: 50/761 users
+[run] Progress: 100/761 users
+[run] Progress: 150/761 users
+[run] Progress: 200/761 users
+[run] Progress: 250/761 users
+[run] Progress: 300/761 users
+[run] Progress: 350/761 users
+[run] Progress: 400/761 users
+[run] Progress: 450/761 users
+[run] Progress: 500/761 users
+[run] Progress: 550/761 users
+[run] Progress: 600/761 users
+[run] Progress: 650/761 users
+[run] Progress: 700/761 users
+[run] Progress: 750/761 users
+[run] Progress: 761/761 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "К.15.04. 21к.txt",
+  "target_chat_id": -71195382773235,
+  "processed_count": 1000,
+  "already_in_target_count": 239,
+  "attempted_invite_count": 761,
+  "invited_without_immediate_failure_count": 761,
+  "verified_added_count": 722,
+  "still_not_in_target_from_this_chunk_count": 39,
+  "before_participants_count": 5192,
+  "after_participants_count": 5841,
+  "result_file": "data/add_k1504_21k_to_71195382773235_4000_5000_20260415_175922_result.json",
+  "still_missing_file": "data/still_missing_k1504_21k_to_71195382773235_4000_5000_20260415_175922.txt"
+}
+[done] summary=data/add_k1504_21k_token1_5k_summary_20260415_175922.tsv
+[done] log=data/add_k1504_21k_token1_5k_20260415_175922.log

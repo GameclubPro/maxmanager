@@ -1,0 +1,276 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "пак1-11514.txt",
+    "total_ids_in_source_file": 11513
+  },
+  "target_chat": {
+    "chat_id": -73543575285031,
+    "title": "Деньги до зарплаты",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 3695,
+    "after_participants_count": 4587
+  },
+  "bot": {
+    "user_id": 269932414,
+    "name": "Интелликс",
+    "username": "id613070470872_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 0,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1776519847306,
+          "permissions": [
+            "pin_message",
+            "can_call",
+            "add_admins",
+            "change_chat_info",
+            "write",
+            "edit_link",
+            "read_all_messages",
+            "add_remove_members"
+          ],
+          "user_id": 269932414,
+          "first_name": "Интелликс",
+          "username": "id613070470872_bot",
+          "is_bot": true,
+          "last_activity_time": 1776521693368,
+          "description": "Интелликс — умный чат-бот для быстрых ответов, идей и помощи в повседневных задачах.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi8qZRFpjsW-cdEBxfPSRmW34BN_hBExMnnFcFEy-tCzo",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5Hi40nY5-QvEnF9U6GjKypVHH4BN_hBExMnnFcFEy-tCzo",
+          "name": "Интелликс"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 4000,
+    "end_index_exclusive_0_based": 5000,
+    "range_human": "4001-5000",
+    "requested_count": 1000,
+    "selected_count": 1000,
+    "skipped_bot_self_count": 0,
+    "processed_count": 1000,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 3000,
+    "throttle_7m": false,
+    "max_retries": 0,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 0,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 37,
+    "target_snapshot_members_count": 3686
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 990,
+  "verified_added_count": 952,
+  "still_not_in_target_from_attempted_count": 48,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 48,
+  "failed_by_code": {
+    "unknown_error": 10
+  },
+  "failed_by_status": {
+    "null": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    131509786,
+    132134417,
+    132424644,
+    132568330,
+    132604826,
+    132692045,
+    133994409,
+    136146211,
+    136818228,
+    137264968,
+    137268009,
+    137294991,
+    138058633,
+    138310767,
+    139244102,
+    139326561,
+    140702160,
+    140854132,
+    141698481,
+    142166473,
+    143150765,
+    143346002,
+    143363662,
+    143958941,
+    144252984,
+    144422476,
+    144587055,
+    145259327,
+    146185286,
+    146187540,
+    146523862,
+    146797238,
+    147180954,
+    147650141,
+    147722578,
+    147929317,
+    149235928,
+    149517984,
+    151834635,
+    152512793,
+    152869795,
+    153330054,
+    153509423,
+    154206827,
+    155487783,
+    156525033,
+    156572277,
+    156701909,
+    157324166,
+    158145440
+  ],
+  "sample_still_missing_ids": [
+    136669828,
+    143930398,
+    149578870,
+    150298011,
+    156402908,
+    156580956,
+    175620321,
+    224684057,
+    240515837,
+    258240802,
+    14891601,
+    22236991,
+    24243260,
+    39408510,
+    40116543,
+    41112636,
+    42457239,
+    43048630,
+    44201693,
+    44480898,
+    44646754,
+    44833511,
+    46521266,
+    47810489,
+    49116219,
+    49235488,
+    53848358,
+    54013562,
+    56185414,
+    115051105,
+    131035881,
+    135229739,
+    241634557,
+    7329894,
+    13821179,
+    15588232,
+    17971069,
+    22339143,
+    24476557,
+    25930101,
+    29294749,
+    36307973,
+    53638915,
+    66016720,
+    75366173,
+    97792507,
+    146655807,
+    160798121
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 42457239,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 43048630,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 44201693,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 44480898,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 44646754,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 44833511,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 46521266,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 47810489,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 49116219,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 49235488,
+      "attempts": 1,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-04-18T14:22:58.722Z"
+}

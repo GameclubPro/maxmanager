@@ -1,0 +1,231 @@
+[2026-04-18 19:53:12] START 5k-from-20k run source=data/telefony_mobilnye_111_member_ids_from_xlsx.txt
+[2026-04-18 19:53:12] RUN chat=-72507370332350 start=20000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.pFwCfJh9aY --source-file data/telefony_mobilnye_111_member_ids_from_xlsx.txt --target-chat-id -72507370332350 --start 20000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.pFwCfJh9aY // tip: ⌁ auth for agents [www.vestauth.com]
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 4727 members across 48 pages
+[run] Inviting 1000 users to chat -72507370332350 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/telefony_mobilnye_111_member_ids_from_xlsx.txt",
+  "target_chat_id": -72507370332350,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 898,
+  "still_not_in_target_from_this_chunk_count": 102,
+  "before_participants_count": 4739,
+  "after_participants_count": 5632,
+  "result_file": "data/add_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_20001_21000_20260418165312_result.json",
+  "still_missing_file": "data/still_missing_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_20001_21000_20260418165312.txt"
+}
+[2026-04-18 19:59:09] PAUSE 60s before next wave
+[2026-04-18 20:00:06] RUN chat=-72507370332350 start=21000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.pFwCfJh9aY --source-file data/telefony_mobilnye_111_member_ids_from_xlsx.txt --target-chat-id -72507370332350 --start 21000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.pFwCfJh9aY // tip: ⌁ auth for agents [www.vestauth.com]
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5619 members across 57 pages
+[run] Inviting 1000 users to chat -72507370332350 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/telefony_mobilnye_111_member_ids_from_xlsx.txt",
+  "target_chat_id": -72507370332350,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 917,
+  "still_not_in_target_from_this_chunk_count": 83,
+  "before_participants_count": 5632,
+  "after_participants_count": 6530,
+  "result_file": "data/add_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_21001_22000_20260418170007_result.json",
+  "still_missing_file": "data/still_missing_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_21001_22000_20260418170007.txt"
+}
+[2026-04-18 20:06:03] PAUSE 60s before next wave
+[2026-04-18 20:07:02] RUN chat=-72507370332350 start=22000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.pFwCfJh9aY --source-file data/telefony_mobilnye_111_member_ids_from_xlsx.txt --target-chat-id -72507370332350 --start 22000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.pFwCfJh9aY // tip: ⌘ enable debugging { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 6511 members across 66 pages
+[run] Inviting 1000 users to chat -72507370332350 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/telefony_mobilnye_111_member_ids_from_xlsx.txt",
+  "target_chat_id": -72507370332350,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 936,
+  "still_not_in_target_from_this_chunk_count": 64,
+  "before_participants_count": 6524,
+  "after_participants_count": 7416,
+  "result_file": "data/add_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_22001_23000_20260418170702_result.json",
+  "still_missing_file": "data/still_missing_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_22001_23000_20260418170702.txt"
+}
+[2026-04-18 20:13:01] PAUSE 60s before next wave
+[2026-04-18 20:14:00] RUN chat=-72507370332350 start=23000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.pFwCfJh9aY --source-file data/telefony_mobilnye_111_member_ids_from_xlsx.txt --target-chat-id -72507370332350 --start 23000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.pFwCfJh9aY // tip: ◈ secrets for agents [www.dotenvx.com]
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 7392 members across 74 pages
+[run] Inviting 1000 users to chat -72507370332350 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/telefony_mobilnye_111_member_ids_from_xlsx.txt",
+  "target_chat_id": -72507370332350,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 917,
+  "still_not_in_target_from_this_chunk_count": 83,
+  "before_participants_count": 7409,
+  "after_participants_count": 8220,
+  "result_file": "data/add_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_23001_24000_20260418171400_result.json",
+  "still_missing_file": "data/still_missing_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_23001_24000_20260418171400.txt"
+}
+[2026-04-18 20:20:01] PAUSE 60s before next wave
+[2026-04-18 20:20:58] RUN chat=-72507370332350 start=24000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.pFwCfJh9aY --source-file data/telefony_mobilnye_111_member_ids_from_xlsx.txt --target-chat-id -72507370332350 --start 24000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.pFwCfJh9aY // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 8260 members across 83 pages
+[run] Inviting 1000 users to chat -72507370332350 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 950/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "data/telefony_mobilnye_111_member_ids_from_xlsx.txt",
+  "target_chat_id": -72507370332350,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 909,
+  "still_not_in_target_from_this_chunk_count": 91,
+  "before_participants_count": 8278,
+  "after_participants_count": 9087,
+  "result_file": "data/add_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_24001_25000_20260418172058_result.json",
+  "still_missing_file": "data/still_missing_telefony_mobilnye_111_member_ids_from_xlsx_to_72507370332350_24001_25000_20260418172058.txt"
+}
+[2026-04-18 20:27:04] DONE 5k-from-20k run

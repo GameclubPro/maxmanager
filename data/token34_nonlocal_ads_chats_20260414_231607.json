@@ -1,0 +1,1377 @@
+{
+  "ok": true,
+  "generated_at": "2026-04-14T20:16:07.659Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_all_chats_by_region_live_20260414_231255.json",
+  "token_scope": [
+    "BOT_TOKEN3",
+    "BOT_TOKEN4"
+  ],
+  "filters": {
+    "must_regex": "(\\bрф\\b|росси|max|макс|продвиж|пиар|ссылоч|реклам)",
+    "exclude_locality_regex": "(москв|питер|спб|санкт|казан|татарстан|краснодар|сочи|анап|гелендж|ейск|ростов|таганрог|чита|забайкал|иркут|краснояр|хабаров|алтай|барнаул|омск|самар|тюм|волгоград|астрахан|саратов|воронеж|екатерин|свердлов|новосибир|уфа|башкорт|бурят|якут|хакас|тыв|примор|сахалин|оренбург|ульянов|луган|донец|днр|лнр|армавир|абакан|семикаракорск|новокубанск|пестравк|безенчук|хомутов|чалтыр|лабинск|краснокаменск|шахт|азов|чадаан|новошахтинск|родионов|ул[её]т|балей|сальск|барабинск|учалы|карасук|купино|котово|шилка|нерчинск|карымск|светлый|георгиевк|новоузенск|корнилово|каменолом|ялуторовск|докучаевск|саган|крым|пенз|новороссийск|волчих|учхоз|матвеев|крд|кск|энгельс|миллерово|пос[её]л|поселок|село|деревн|район|город|округ|область|край|республика|регион\\s*\\d+)",
+    "high_priority_min_participants": 1000
+  },
+  "total_chats_scanned": 1454,
+  "matched_chats_count": 68,
+  "high_priority_count": 27,
+  "chats": [
+    {
+      "chat_id": -72257711042026,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления | Реклама РФ",
+      "participants_count": 10968,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71832077992021,
+      "type": "chat",
+      "status": "active",
+      "title": "Ваша реклама по России!",
+      "participants_count": 10817,
+      "link": "https://max.ru/join/aNMo8_f_O7i1EOA2FARqG5HQ1nKAV9J34gYfDRE2pQM",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71046431271537,
+      "type": "chat",
+      "status": "active",
+      "title": "РЕЙТИНГ ТОП-10 ОНЛАЙН ПРОЕКТОВ РОССИИ",
+      "participants_count": 8377,
+      "link": "https://max.ru/join/wKHahZNICE76cN8ErwkDQj8tT8Ru4cfAJ_OQPXyqEC4",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71695209559410,
+      "type": "chat",
+      "status": "active",
+      "title": "Пиар чатов/каналов Max",
+      "participants_count": 7690,
+      "link": "https://max.ru/join/BvYoWMiC1M9x7cQzYQrypay6r9Lb_4Ri5vk9k9hsfHk",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -68082736057032,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣1️⃣2️⃣🌍 Авторынок РОССИИ | авто/мото/ водный транспорт",
+      "participants_count": 7475,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72139289191031,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылочная MAX РФ",
+      "participants_count": 5918,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71933988438269,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение в MAX",
+      "participants_count": 5681,
+      "link": "https://max.ru/join/uc11dVhsJtIIPNeS4HHECRhmFUlIjRoha04NYuLGitw",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71833856667862,
+      "type": "chat",
+      "status": "active",
+      "title": "Клиенты из MAX",
+      "participants_count": 5191,
+      "link": "https://max.ru/join/BG8DfWEvivk2ge8CqT7e4TDVptg3H4B-2JhpZ8abTqQ",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72750363746938,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа без опыта ®️ Россия",
+      "participants_count": 5032,
+      "link": "https://max.ru/join/ytGgnEdvxPZbrsU35JBduNY7y16OqBn5RuJoiCs2wjs",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72018069321074,
+      "type": "chat",
+      "status": "active",
+      "title": "ПИАР ЧАТ",
+      "participants_count": 4658,
+      "link": "https://max.ru/join/TPJtghANBtOtwevkoJXvoIivllAF8F2O-rMYxbZSe6w",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71713884894578,
+      "type": "chat",
+      "status": "active",
+      "title": "PR MAX (пиар чат)",
+      "participants_count": 4519,
+      "link": "https://max.ru/join/AA0sS2lNZJYJIjRR_aqLeYaNza9A7l8XmQhgL5tTu3Y",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71576025184980,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение в Max",
+      "participants_count": 4176,
+      "link": "https://max.ru/join/DyeXagF3CfcHRknqvbC6ICWqfDKIokG-UpADtnf85ao",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -68023281066006,
+      "type": "chat",
+      "status": "active",
+      "title": "Комьюнити MAX",
+      "participants_count": 4025,
+      "link": "https://max.ru/join/SiMTVUrzyKIQJAIypXtEiT2wsoIAc32OvzG28lu3HWM",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71590105053911,
+      "type": "chat",
+      "status": "active",
+      "title": "Привлечение Аудитории Max",
+      "participants_count": 3296,
+      "link": "https://max.ru/join/nlYoN4BWEHlR4a2A726v_2I5by1wneCzjlqJ954elA0",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71228106861199,
+      "type": "chat",
+      "status": "active",
+      "title": "Витрина MAX | Коммерческие объявления",
+      "participants_count": 3278,
+      "link": "https://max.ru/join/deg1VAxgrmZ60q5Jtm_eFbhuKlIqR-MzRz2vstLkz50",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70785058294472,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣3️⃣8️⃣🌍Реклама РОССИИ/ БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 3063,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70758814272200,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣2️⃣9️⃣🌍Недвижимость РОССИИ",
+      "participants_count": 3047,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71987105183850,
+      "type": "chat",
+      "status": "active",
+      "title": "РАБОТА--НА СТРОЙКЕ ВСЯ РОССИЯ",
+      "participants_count": 2651,
+      "link": "https://max.ru/join/5rKahxyFJzxftn9eGffoU_vsQuZh9IVdL_9JPxZ-S7Y",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69353724638680,
+      "type": "chat",
+      "status": "active",
+      "title": "РЕКЛАМА ОБЪЯВЛЕНИЯ",
+      "participants_count": 2425,
+      "link": "https://max.ru/join/xepK8vK-7If8UBFrZLJBHGsFKJ0Qjmc9TM1V1LSuBvo",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71441101007482,
+      "type": "chat",
+      "status": "active",
+      "title": "Заявки из MAX’a",
+      "participants_count": 2189,
+      "link": "https://max.ru/join/yxnsQMTSoWAhaZ1e38DTWdWt7L9ZkvA8wfxgsYFMG6k",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72209126208816,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение, рассылка MAX",
+      "participants_count": 1993,
+      "link": "https://max.ru/join/lursSHKioDy7LmFD-iAbTqLazms8LfOnWuHZF45Hb1E",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72548180086941,
+      "type": "chat",
+      "status": "active",
+      "title": "МАМОЧКИ РОССИИ",
+      "participants_count": 1912,
+      "link": "https://max.ru/join/r0102SUzoVpc8L-H8dJjt3Ylzvfmcll2Wdbpo6fAzCw",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70910801627848,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️2️⃣1️⃣2️⃣🌍САМАЯ Большая ДОСКА ОБЪЯВЛЕНИЙ РОССИИ",
+      "participants_count": 1688,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72301270628578,
+      "type": "chat",
+      "status": "active",
+      "title": "Клиенты из MAX",
+      "participants_count": 1552,
+      "link": "https://max.ru/join/bKankKfktxbW1DktWVBQ23ibvizak8thOT5IWz_Ri40",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72543938295914,
+      "type": "chat",
+      "status": "active",
+      "title": "Запуск и Продвижение Max",
+      "participants_count": 1095,
+      "link": "https://max.ru/join/_c_tDxmM9TC9AR-y7E1_7LDZz1BS3hlh-uWR4iVTpao",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70870486469374,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА/ОБЪЯВЛЕНИЯ Россия 🇷🇺",
+      "participants_count": 1077,
+      "link": "https://max.ru/join/zaSqZui1PSdc3z5TxnQpLzHFbzjv_jIYpOjNyw7Cong",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -73447375757493,
+      "type": "chat",
+      "status": "active",
+      "title": "Эффективное продвижение в MAX",
+      "participants_count": 1018,
+      "link": "https://max.ru/join/BWDfeuqc9G3k_gIUqKdh4MBzs8DkKQqyamIzagGAjB0",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -69240141195904,
+      "type": "chat",
+      "status": "active",
+      "title": "7 ✔РОССИЯ ОБЪЯВЛЕНИЯ",
+      "participants_count": 960,
+      "link": "https://max.ru/join/6qkBuuFW8-uSGnqDXbl9l2fzPmzxX0CV4y699If2urE",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71550454898073,
+      "type": "chat",
+      "status": "active",
+      "title": "Селлеры в Max. Помощь с маркетплейсами: Wildberries, Ozon, Яндекс.Маркет",
+      "participants_count": 865,
+      "link": "https://max.ru/join/P2JyDV_zHsXVEe4vTmpU286uGW7O3Q8Eri95MLIwM4Q",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71763090109810,
+      "type": "chat",
+      "status": "active",
+      "title": "Пиар каналов",
+      "participants_count": 431,
+      "link": "https://max.ru/join/JeS1yaunsKNRCpZR9QSBi-xly6IyZa2qLZdOdCcNfDs",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71583403182087,
+      "type": "chat",
+      "status": "active",
+      "title": "Поддержка Майор Максимов",
+      "participants_count": 416,
+      "link": "https://max.ru/join/qX7U_Hj-L-xMJG8V7wlF6dD-6a6cXIzTBGRtU2mRMzk",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72541914093740,
+      "type": "chat",
+      "status": "active",
+      "title": "🇷🇺 РЕКЛАМА РФ (Биржа/Трафик)",
+      "participants_count": 339,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70192474551789,
+      "type": "chat",
+      "status": "active",
+      "title": "(3) Цветочки всей России 🌸🦋",
+      "participants_count": 296,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71839606797682,
+      "type": "chat",
+      "status": "active",
+      "title": "Чат Продвижения Вашего Бизнеса",
+      "participants_count": 296,
+      "link": "https://max.ru/join/XHuJCrcDhvaJ1QtDFKp7EKZm8gOp1_EiRYvuLqdMcLI",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -72401611491854,
+      "type": "chat",
+      "status": "active",
+      "title": "ВзаимоПиар 💜 реакции подписки",
+      "participants_count": 254,
+      "link": "https://max.ru/join/jU6HD5LP0E8P4yxfxXmZz6Dqqp3I5lC5Y8aZ15PYIF4",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69535093274018,
+      "type": "chat",
+      "status": "active",
+      "title": "🛒Реклама РОССИИ+ССЫЛКИ🛒",
+      "participants_count": 234,
+      "link": "https://max.ru/join/H43vlvKRsqjJC8blo9bn81ivPymeSGwldu8qMy_-I-Q",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70275146741091,
+      "type": "chat",
+      "status": "active",
+      "title": "1🔝БарахолкаРекламаНовости",
+      "participants_count": 197,
+      "link": "https://max.ru/join/yQfoMjLS0SelJcQ7S816Qwkq_LrKNyx6EjCLdBnNRog",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70729420791944,
+      "type": "chat",
+      "status": "active",
+      "title": "📸Ссылочная «МАХ в сарафане» 😎",
+      "participants_count": 196,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69170623452548,
+      "type": "chat",
+      "status": "active",
+      "title": "💕💥💕ССЫЛОЧНАЯ ЛЬВИЦА  ЦАРИЦА     МАХ  💞💥💞",
+      "participants_count": 159,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69151756834252,
+      "type": "chat",
+      "status": "active",
+      "title": "🐺🐺🐺Ссылочная🐺🐺🐺 волчонок🐺🐺🐺",
+      "participants_count": 150,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -68112908137905,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылочная Max",
+      "participants_count": 132,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70016640251232,
+      "type": "chat",
+      "status": "active",
+      "title": "💥🔥⚡️🔥⚡️ ССЫЛОЧНАЯ*ПИКОВАЯ ДАМА  МАХ *💥🔥⚡️🔥⚡️💥",
+      "participants_count": 88,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70517819725125,
+      "type": "chat",
+      "status": "active",
+      "title": "🌈🌈🌈ССЫЛОЧНАЯ ГРУПА   ВСЕ СОЦСЕТИ 🌈🌈🌈",
+      "participants_count": 74,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70663683872132,
+      "type": "chat",
+      "status": "active",
+      "title": "💥⚡️💥🔥 ССЫЛОЧНАЯ ГРУПА  НА ВСЕ СОЦСЕТИ 💥⚡️💥🔥🔥",
+      "participants_count": 63,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69733321255570,
+      "type": "chat",
+      "status": "active",
+      "title": "Общалочка Для Всех Регионов России",
+      "participants_count": 59,
+      "link": "https://max.ru/join/oe1CmHSrUliPUAEidExSbzr5MB6Mdcrh-sDfVyBjxtk",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69508648236402,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылочная, Стрелец",
+      "participants_count": 57,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69701631926435,
+      "type": "chat",
+      "status": "active",
+      "title": "👹👹👹 моя ярость ссылочная 👹👹👹",
+      "participants_count": 54,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69177392496845,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылочная  Кадетство",
+      "participants_count": 53,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70019185565859,
+      "type": "chat",
+      "status": "active",
+      "title": "🐉🐉🐉КИТАЙСКИЙ 🐉ДРАКОН 🐉🐉🐉 ССЫЛОЧНАЯ",
+      "participants_count": 52,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70665890805154,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥Ссылочная ВЛ-ОК🔥",
+      "participants_count": 40,
+      "link": "https://max.ru/join/URN4JSwrbGHDeFkSjya_L6KCjsKhITIBmmvlMiGuquk",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -68023279924657,
+      "type": "chat",
+      "status": "active",
+      "title": "АДМИНСКАЯ MAX",
+      "participants_count": 39,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -72045828926828,
+      "type": "chat",
+      "status": "active",
+      "title": "Взаимная подписка и пиар",
+      "participants_count": 38,
+      "link": "https://max.ru/join/CkGudEjOQwNVm9qSX5hKdT2f8kc2Lf1q9a_2lG2ONOY",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72248234123910,
+      "type": "chat",
+      "status": "active",
+      "title": "👹ССЫЛОЧНАЯ👹 👹ГРУППА👹 👹MAKC👹",
+      "participants_count": 34,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71863559137956,
+      "type": "chat",
+      "status": "active",
+      "title": "💔💘💘 ССЫЛОЧНАЯ ГРУППА ОДИНОКИЕ СЕРДЦА   В МАХЕ💔💘💘",
+      "participants_count": 32,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69784178297577,
+      "type": "chat",
+      "status": "active",
+      "title": "🌿🌹ССЫЛОЧНАЯ 🐎2026🌹🌿",
+      "participants_count": 29,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -72650939598212,
+      "type": "chat",
+      "status": "active",
+      "title": "💫🌏🪐💫 ССЫЛОЧНАЯ ГРУППА ПЛАНЕТА МАХ 💫🌏🪐💫",
+      "participants_count": 28,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69776525003497,
+      "type": "chat",
+      "status": "active",
+      "title": "🐈‍⬛🐈ССЫЛОЧНАЯ ПУЛЬХЕРИЯ🐈🐈‍⬛",
+      "participants_count": 26,
+      "link": "https://max.ru/join/4R-03H7JtC9caXdV26C23O3dlOIvONBR0qodfg5onbQ",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69777034021609,
+      "type": "chat",
+      "status": "active",
+      "title": "🔥ССЫЛОЧНАЯ ВУЛКАН🔥",
+      "participants_count": 26,
+      "link": "https://max.ru/join/RiSvuYO9wcp_oWu9pA6CrJhokPqDt0_8hTjvj_sME28",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69811687295721,
+      "type": "chat",
+      "status": "active",
+      "title": "😈ССЫЛОЧНЫЕ👹СТРАСТИ😈",
+      "participants_count": 22,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -72819234805133,
+      "type": "chat",
+      "status": "active",
+      "title": "ССЫЛОЧНАЯ ЗВЁЗДНОЕ НЕБО🌠🌠🌠🌠🌠☁☁⛅⛅",
+      "participants_count": 22,
+      "link": "https://max.ru/join/AVXwaw1Agtu_nUX5Rv09HbPTYGK_hS6zOCOHxbwlVQI",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69818250332905,
+      "type": "chat",
+      "status": "active",
+      "title": "🦉ССЫЛОЧНАЯ🔮КОПИЛКА🦉",
+      "participants_count": 20,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69812117998313,
+      "type": "chat",
+      "status": "active",
+      "title": "⚜️ССЫЛОЧНАЯ💫АСКОЛЬДА⚜️",
+      "participants_count": 19,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69812406684393,
+      "type": "chat",
+      "status": "active",
+      "title": "🌿🌹ВОСТОЧНАЯ ССЫЛОЧНАЯ🌹🌿",
+      "participants_count": 19,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69804261608169,
+      "type": "chat",
+      "status": "active",
+      "title": "👑ССЫЛОЧНАЯ👑КОРОЛЕВЫ👑",
+      "participants_count": 19,
+      "link": "https://max.ru/join/Hd7Jl6_mYwSt8od3ORHCi629WN65jii-2UyNMQxZrvE",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69811337726697,
+      "type": "chat",
+      "status": "active",
+      "title": "💞ССЫЛОЧНОЕ💞НАСЛАЖДЕНИЕ💞",
+      "participants_count": 19,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69818777897705,
+      "type": "chat",
+      "status": "active",
+      "title": "☃️❄️ССЫЛОЧНАЯ 🌪️СНЕЖНОЙ 🌪️КОРОЛЕВЫ ❄️☃️",
+      "participants_count": 15,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69818292865769,
+      "type": "chat",
+      "status": "active",
+      "title": "🦅ССЫЛОЧНАЯ КАВКАЗА🦅",
+      "participants_count": 15,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69733370260057,
+      "type": "chat",
+      "status": "active",
+      "title": "Общение Россия 🇷🇺",
+      "participants_count": 10,
+      "link": "https://max.ru/join/AdE578aGFexeBQnmfXjLAb6F-SBLnzwVdOW6aRl4h7s",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    }
+  ],
+  "high_priority_chats": [
+    {
+      "chat_id": -72257711042026,
+      "type": "chat",
+      "status": "active",
+      "title": "Объявления | Реклама РФ",
+      "participants_count": 10968,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71832077992021,
+      "type": "chat",
+      "status": "active",
+      "title": "Ваша реклама по России!",
+      "participants_count": 10817,
+      "link": "https://max.ru/join/aNMo8_f_O7i1EOA2FARqG5HQ1nKAV9J34gYfDRE2pQM",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71046431271537,
+      "type": "chat",
+      "status": "active",
+      "title": "РЕЙТИНГ ТОП-10 ОНЛАЙН ПРОЕКТОВ РОССИИ",
+      "participants_count": 8377,
+      "link": "https://max.ru/join/wKHahZNICE76cN8ErwkDQj8tT8Ru4cfAJ_OQPXyqEC4",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71695209559410,
+      "type": "chat",
+      "status": "active",
+      "title": "Пиар чатов/каналов Max",
+      "participants_count": 7690,
+      "link": "https://max.ru/join/BvYoWMiC1M9x7cQzYQrypay6r9Lb_4Ri5vk9k9hsfHk",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -68082736057032,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣1️⃣2️⃣🌍 Авторынок РОССИИ | авто/мото/ водный транспорт",
+      "participants_count": 7475,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72139289191031,
+      "type": "chat",
+      "status": "active",
+      "title": "Ссылочная MAX РФ",
+      "participants_count": 5918,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71933988438269,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение в MAX",
+      "participants_count": 5681,
+      "link": "https://max.ru/join/uc11dVhsJtIIPNeS4HHECRhmFUlIjRoha04NYuLGitw",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71833856667862,
+      "type": "chat",
+      "status": "active",
+      "title": "Клиенты из MAX",
+      "participants_count": 5191,
+      "link": "https://max.ru/join/BG8DfWEvivk2ge8CqT7e4TDVptg3H4B-2JhpZ8abTqQ",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72750363746938,
+      "type": "chat",
+      "status": "active",
+      "title": "Работа без опыта ®️ Россия",
+      "participants_count": 5032,
+      "link": "https://max.ru/join/ytGgnEdvxPZbrsU35JBduNY7y16OqBn5RuJoiCs2wjs",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72018069321074,
+      "type": "chat",
+      "status": "active",
+      "title": "ПИАР ЧАТ",
+      "participants_count": 4658,
+      "link": "https://max.ru/join/TPJtghANBtOtwevkoJXvoIivllAF8F2O-rMYxbZSe6w",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71713884894578,
+      "type": "chat",
+      "status": "active",
+      "title": "PR MAX (пиар чат)",
+      "participants_count": 4519,
+      "link": "https://max.ru/join/AA0sS2lNZJYJIjRR_aqLeYaNza9A7l8XmQhgL5tTu3Y",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71576025184980,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение в Max",
+      "participants_count": 4176,
+      "link": "https://max.ru/join/DyeXagF3CfcHRknqvbC6ICWqfDKIokG-UpADtnf85ao",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -68023281066006,
+      "type": "chat",
+      "status": "active",
+      "title": "Комьюнити MAX",
+      "participants_count": 4025,
+      "link": "https://max.ru/join/SiMTVUrzyKIQJAIypXtEiT2wsoIAc32OvzG28lu3HWM",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71590105053911,
+      "type": "chat",
+      "status": "active",
+      "title": "Привлечение Аудитории Max",
+      "participants_count": 3296,
+      "link": "https://max.ru/join/nlYoN4BWEHlR4a2A726v_2I5by1wneCzjlqJ954elA0",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71228106861199,
+      "type": "chat",
+      "status": "active",
+      "title": "Витрина MAX | Коммерческие объявления",
+      "participants_count": 3278,
+      "link": "https://max.ru/join/deg1VAxgrmZ60q5Jtm_eFbhuKlIqR-MzRz2vstLkz50",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70785058294472,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣3️⃣8️⃣🌍Реклама РОССИИ/ БОЛЬШАЯ  ДОСКА ОБЪЯВЛЕНИЙ",
+      "participants_count": 3063,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70758814272200,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️1️⃣2️⃣9️⃣🌍Недвижимость РОССИИ",
+      "participants_count": 3047,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -71987105183850,
+      "type": "chat",
+      "status": "active",
+      "title": "РАБОТА--НА СТРОЙКЕ ВСЯ РОССИЯ",
+      "participants_count": 2651,
+      "link": "https://max.ru/join/5rKahxyFJzxftn9eGffoU_vsQuZh9IVdL_9JPxZ-S7Y",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -69353724638680,
+      "type": "chat",
+      "status": "active",
+      "title": "РЕКЛАМА ОБЪЯВЛЕНИЯ",
+      "participants_count": 2425,
+      "link": "https://max.ru/join/xepK8vK-7If8UBFrZLJBHGsFKJ0Qjmc9TM1V1LSuBvo",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -71441101007482,
+      "type": "chat",
+      "status": "active",
+      "title": "Заявки из MAX’a",
+      "participants_count": 2189,
+      "link": "https://max.ru/join/yxnsQMTSoWAhaZ1e38DTWdWt7L9ZkvA8wfxgsYFMG6k",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72209126208816,
+      "type": "chat",
+      "status": "active",
+      "title": "Продвижение, рассылка MAX",
+      "participants_count": 1993,
+      "link": "https://max.ru/join/lursSHKioDy7LmFD-iAbTqLazms8LfOnWuHZF45Hb1E",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72548180086941,
+      "type": "chat",
+      "status": "active",
+      "title": "МАМОЧКИ РОССИИ",
+      "participants_count": 1912,
+      "link": "https://max.ru/join/r0102SUzoVpc8L-H8dJjt3Ylzvfmcll2Wdbpo6fAzCw",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -70910801627848,
+      "type": "chat",
+      "status": "active",
+      "title": "✔️2️⃣1️⃣2️⃣🌍САМАЯ Большая ДОСКА ОБЪЯВЛЕНИЙ РОССИИ",
+      "participants_count": 1688,
+      "link": null,
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72301270628578,
+      "type": "chat",
+      "status": "active",
+      "title": "Клиенты из MAX",
+      "participants_count": 1552,
+      "link": "https://max.ru/join/bKankKfktxbW1DktWVBQ23ibvizak8thOT5IWz_Ri40",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -72543938295914,
+      "type": "chat",
+      "status": "active",
+      "title": "Запуск и Продвижение Max",
+      "participants_count": 1095,
+      "link": "https://max.ru/join/_c_tDxmM9TC9AR-y7E1_7LDZz1BS3hlh-uWR4iVTpao",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3"
+      ]
+    },
+    {
+      "chat_id": -70870486469374,
+      "type": "chat",
+      "status": "active",
+      "title": "БАРАХОЛКА/ОБЪЯВЛЕНИЯ Россия 🇷🇺",
+      "participants_count": 1077,
+      "link": "https://max.ru/join/zaSqZui1PSdc3z5TxnQpLzHFbzjv_jIYpOjNyw7Cong",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN3",
+        "BOT_TOKEN4"
+      ]
+    },
+    {
+      "chat_id": -73447375757493,
+      "type": "chat",
+      "status": "active",
+      "title": "Эффективное продвижение в MAX",
+      "participants_count": 1018,
+      "link": "https://max.ru/join/BWDfeuqc9G3k_gIUqKdh4MBzs8DkKQqyamIzagGAjB0",
+      "region": "Не распределено",
+      "subject_type": null,
+      "matched_regions": [],
+      "visible_via_tokens": [
+        "BOT_TOKEN4"
+      ]
+    }
+  ]
+}

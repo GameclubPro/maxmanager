@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "summary_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_token2_piar_chat_5k_summary_20260415_145547.tsv",
+  "progress_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_marked_progress_20260415_145547.tsv",
+  "assignment_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_assignment_20260415_token2_piar_5k_split.tsv",
+  "combined_mapping_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_32500_marked_combined_20260415_145547.tsv",
+  "totals": {
+    "waves": 5,
+    "processed": 5000,
+    "verified_added": 4568,
+    "still_missing": 432,
+    "nonzero_exit": 0
+  },
+  "per_wave": [
+    {
+      "ts_start": "2026-04-15T14:55:47+03:00",
+      "ts_end": "2026-04-15T15:01:24+03:00",
+      "chat_id": -73539161567932,
+      "source_file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+      "start": 0,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 925,
+      "still_missing": 75,
+      "result_file": "data/add_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_1_1000_20260415115547_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_1_1000_20260415115547.txt"
+    },
+    {
+      "ts_start": "2026-04-15T15:02:21+03:00",
+      "ts_end": "2026-04-15T15:08:04+03:00",
+      "chat_id": -73539161567932,
+      "source_file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+      "start": 1000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 914,
+      "still_missing": 86,
+      "result_file": "data/add_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_1001_2000_20260415120222_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_1001_2000_20260415120222.txt"
+    },
+    {
+      "ts_start": "2026-04-15T15:09:02+03:00",
+      "ts_end": "2026-04-15T15:14:42+03:00",
+      "chat_id": -73539161567932,
+      "source_file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+      "start": 2000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 919,
+      "still_missing": 81,
+      "result_file": "data/add_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_2001_3000_20260415120902_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_2001_3000_20260415120902.txt"
+    },
+    {
+      "ts_start": "2026-04-15T15:15:39+03:00",
+      "ts_end": "2026-04-15T15:21:22+03:00",
+      "chat_id": -73539161567932,
+      "source_file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+      "start": 3000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 915,
+      "still_missing": 85,
+      "result_file": "data/add_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_3001_4000_20260415121540_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_3001_4000_20260415121540.txt"
+    },
+    {
+      "ts_start": "2026-04-15T15:22:19+03:00",
+      "ts_end": "2026-04-15T15:28:47+03:00",
+      "chat_id": -73539161567932,
+      "source_file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+      "start": 4000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 895,
+      "still_missing": 105,
+      "result_file": "data/add_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_4001_5000_20260415122219_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split_to_73539161567932_4001_5000_20260415122219.txt"
+    }
+  ]
+}

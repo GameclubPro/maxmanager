@@ -9,7 +9,7 @@ import {
 } from './bot-message-autodelete';
 
 const REJOIN_BATCH_SIZE = 100;
-const REJOIN_RETRY_DELAY_MS = 10 * 60 * 1000;
+const REJOIN_RETRY_DELAY_MS = 7 * 60 * 1000;
 const REJOIN_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
 const PHOTO_WINDOW_MS = 60 * 60 * 1000;
 const BOT_MESSAGE_DELETE_BATCH_SIZE = 200;

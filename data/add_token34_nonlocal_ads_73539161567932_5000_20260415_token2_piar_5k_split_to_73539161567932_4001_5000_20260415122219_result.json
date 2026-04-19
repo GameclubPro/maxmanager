@@ -1,0 +1,272 @@
+{
+  "ok": true,
+  "source_chat": {
+    "chat_id": null,
+    "title": null,
+    "type": null,
+    "status": null,
+    "file": "data/token34_nonlocal_ads_73539161567932_5000_20260415_token2_piar_5k_split.txt",
+    "total_ids_in_source_file": 5000
+  },
+  "target_chat": {
+    "chat_id": -73539161567932,
+    "title": "Бесплатный Пиар",
+    "type": "chat",
+    "status": "active",
+    "before_participants_count": 3638,
+    "after_participants_count": 4464
+  },
+  "bot": {
+    "user_id": 262287366,
+    "name": "Говорун",
+    "username": "id613070470872_1_bot"
+  },
+  "bot_membership_in_target": {
+    "status": 200,
+    "data": {
+      "members": [
+        {
+          "last_access_time": 1776254179286,
+          "is_owner": false,
+          "is_admin": true,
+          "join_time": 1776253576123,
+          "permissions": [
+            "can_call",
+            "add_remove_members"
+          ],
+          "user_id": 262287366,
+          "first_name": "Говорун",
+          "username": "id613070470872_1_bot",
+          "is_bot": true,
+          "last_activity_time": 1776255740467,
+          "description": "Говорун — дружелюбный чат-бот для общения, быстрых ответов и помощи каждый день.",
+          "avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HiQ1EEWris2Jvu1LhbAX9Pfr79z2cGwSHrbd78aLXZF3w",
+          "full_avatar_url": "https://i.oneme.ru/i?r=BTFjO43w8Yr1OSJ4tcurq5HicI3JzF11OXjLCXelRk93qb79z2cGwSHrbd78aLXZF3w",
+          "name": "Говорун"
+        }
+      ]
+    }
+  },
+  "source_slice": {
+    "start_index_0_based": 4000,
+    "end_index_exclusive_0_based": 5000,
+    "range_human": "4001-5000",
+    "requested_count": 1000,
+    "selected_count": 1000,
+    "skipped_bot_self_count": 0,
+    "processed_count": 1000,
+    "invite_batch_size": 10
+  },
+  "run_options": {
+    "dry_run": false,
+    "invite_batch_size": 10,
+    "pause_ms": 3000,
+    "throttle_7m": false,
+    "max_retries": 1,
+    "retry_delay_ms": 1200,
+    "retry_backoff": 2,
+    "retry_action_failed": false,
+    "split_action_failed_batch": false,
+    "stop_on_consecutive_action_failed": 2,
+    "skip_existing_scan": false,
+    "verify_chunk_size": 100,
+    "verify_pause_ms": 80
+  },
+  "precheck": {
+    "target_snapshot_pages": 37,
+    "target_snapshot_members_count": 3637
+  },
+  "stop_triggered": null,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 990,
+  "verified_added_count": 895,
+  "still_not_in_target_from_attempted_count": 105,
+  "not_attempted_due_to_stop_count": 0,
+  "still_not_in_target_from_this_chunk_count": 105,
+  "failed_by_code": {
+    "unknown_error": 10
+  },
+  "failed_by_status": {
+    "null": 10
+  },
+  "verification_errors_count": 0,
+  "verification_errors_sample": [],
+  "sample_verified_added_ids": [
+    66827505,
+    66827814,
+    66831628,
+    66832135,
+    66834669,
+    66835517,
+    66835602,
+    66839052,
+    66841416,
+    66843737,
+    66843784,
+    66845437,
+    66846953,
+    66858272,
+    66858669,
+    66864297,
+    66864899,
+    66869586,
+    66877267,
+    66883283,
+    66883872,
+    66888140,
+    66888794,
+    66890240,
+    66892470,
+    66898380,
+    66911010,
+    66913159,
+    66918197,
+    66918443,
+    66923671,
+    66925743,
+    66930183,
+    66932137,
+    66932509,
+    66936531,
+    66937095,
+    66940355,
+    66944756,
+    66949783,
+    66959218,
+    66964932,
+    66969184,
+    66970211,
+    66974051,
+    66979141,
+    66984890,
+    66987577,
+    66989635,
+    66990110
+  ],
+  "sample_still_missing_ids": [
+    66945293,
+    66947230,
+    67045968,
+    67048807,
+    67074629,
+    67113404,
+    67215067,
+    67219422,
+    67263404,
+    67276154,
+    67280043,
+    67359783,
+    67375423,
+    67416021,
+    67443095,
+    67456028,
+    67507748,
+    67535995,
+    67543403,
+    67573341,
+    67580096,
+    67611462,
+    67649697,
+    67662754,
+    67705103,
+    67706448,
+    67712281,
+    67720081,
+    67728115,
+    67729815,
+    67756812,
+    67771253,
+    67775489,
+    67846329,
+    67904409,
+    67928217,
+    67960101,
+    68012062,
+    68035632,
+    68086197,
+    68096399,
+    68141962,
+    68155936,
+    68175079,
+    68181243,
+    68232514,
+    68233365,
+    68237411,
+    68238358,
+    68239714
+  ],
+  "failed_details_sample": [
+    {
+      "user_id": 68232514,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68233365,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68237411,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68238358,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68239714,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68241024,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68244014,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68244977,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68247091,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    },
+    {
+      "user_id": 68248910,
+      "attempts": 2,
+      "status": null,
+      "code": "unknown_error",
+      "message": "fetch failed"
+    }
+  ],
+  "generated_at_iso": "2026-04-15T12:28:47.043Z"
+}

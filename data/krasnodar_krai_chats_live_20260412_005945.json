@@ -1,0 +1,3272 @@
+{
+  "ok": true,
+  "generated_at": "2026-04-11T21:59:45.851Z",
+  "env_file": "/home/alex/projects/ryslanchik/maxmanager/.env",
+  "token_envs": [
+    "BOT_TOKEN",
+    "BOT_TOKEN2",
+    "BOT_TOKEN3",
+    "BOT_TOKEN4"
+  ],
+  "filter": "(кубан|kuban|краснодар|краснодарск|краснодарский\\s*край|новороссийск|сочи|анапа|геленджик|армавир|туапсе|ейск|тимаш[её]вск|кропоткин|славянск|крымск|белореченск|лабинск|кореновск|темрюк|горячий\\s*ключ|щербинов|красноармейск)",
+  "scan_results": [
+    {
+      "token_env": "BOT_TOKEN",
+      "bot": {
+        "user_id": 246655255,
+        "username": "id613000010769_4_bot",
+        "name": "ДиалогПро"
+      },
+      "all_chats_visible_to_bot": 1,
+      "active_target_type_chats": 1,
+      "pages": 1,
+      "matched_chats_count": 0
+    },
+    {
+      "token_env": "BOT_TOKEN2",
+      "bot": {
+        "user_id": 207300808,
+        "username": "id613000010769_bot",
+        "name": "Руслан"
+      },
+      "all_chats_visible_to_bot": 1000,
+      "active_target_type_chats": 1000,
+      "pages": 10,
+      "matched_chats_count": 112
+    },
+    {
+      "token_env": "BOT_TOKEN3",
+      "bot": {
+        "user_id": 209468578,
+        "username": "id613002203036_bot",
+        "name": "Майор Максимов"
+      },
+      "all_chats_visible_to_bot": 1000,
+      "active_target_type_chats": 978,
+      "pages": 10,
+      "matched_chats_count": 122
+    },
+    {
+      "token_env": "BOT_TOKEN4",
+      "bot": {
+        "user_id": 214634783,
+        "username": "id613002203036_4_bot",
+        "name": "Майор Максимова"
+      },
+      "all_chats_visible_to_bot": 1000,
+      "active_target_type_chats": 961,
+      "pages": 10,
+      "matched_chats_count": 109
+    }
+  ],
+  "unique_krasnodar_krai_chats_count": 259,
+  "grouped_by_locality": {
+    "Не распределено": {
+      "chats_count": 194,
+      "chats": [
+        {
+          "chat_id": -68955564013043,
+          "type": "chat",
+          "status": "active",
+          "title": "Афиша || Сочи 🇷🇺",
+          "participants_count": 14509,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72812423192625,
+          "type": "chat",
+          "status": "active",
+          "title": "Сочи Объявления",
+          "participants_count": 12234,
+          "link": "https://max.ru/join/e2O3UXezZplGgpsNAeLe5iQ-5N27XweeT7oitOa6x5E",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69673344390484,
+          "type": "chat",
+          "status": "active",
+          "title": "БЕСПЛАТНАЯ ДОСКА ОБЪЯВЛЕНИЙ И РЕКЛАМ «АРМАВИР+100км»",
+          "participants_count": 10663,
+          "link": "https://max.ru/join/iukrNkSQnIuavsz8ybLERWKRUpjnFA-YCMeog4OCdnw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70132677298888,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️4️⃣7️⃣💯👋💯СОЧИ БОЛЬШАЯ ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 8009,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72381146194551,
+          "type": "chat",
+          "status": "active",
+          "title": "Армавир Объявления | Новости",
+          "participants_count": 7691,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72937344571990,
+          "type": "chat",
+          "status": "active",
+          "title": "Новороссийск Объявления",
+          "participants_count": 7414,
+          "link": "https://max.ru/join/4mN7qglyIyCe8I_2_Q85_S_zSBcYEQmd85L0BEck3Mw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -73068227346949,
+          "type": "chat",
+          "status": "active",
+          "title": "НЕДВИЖИМОСТЬ КРАСНОДАР",
+          "participants_count": 7261,
+          "link": "https://max.ru/join/7WUmycNNbbU8dnxIe5KO5dOEGifUbh11TZjKht1KDrc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68082735073992,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️5️⃣7️⃣💯👋💯Сочи Купи Продай . Сириус Красная поляна",
+          "participants_count": 7158,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68082620320456,
+          "type": "chat",
+          "status": "active",
+          "title": "КРАСНОДАР НЕДВИЖИМОСТЬ",
+          "participants_count": 7103,
+          "link": "https://max.ru/join/wNJofyni9oUWajnx38z3kL2bjqEBILQ7ryNuVAnokAU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72714855244407,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар Купи-Продай",
+          "participants_count": 6953,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -73068170396165,
+          "type": "chat",
+          "status": "active",
+          "title": "НЕДВИЖИМОСТЬ СОЧИ",
+          "participants_count": 6399,
+          "link": "https://max.ru/join/GvZv6_zBK0G05EUdoPVNztq0mEC-Fmt2p0dzRPCMsnA",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -69067549505002,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар Объявления | Новости",
+          "participants_count": 6179,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71689972988013,
+          "type": "chat",
+          "status": "active",
+          "title": "Сочи Объявления | Новости",
+          "participants_count": 5766,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69204920765179,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣ Каталог групп | Риэлторы Краснодар 🔥",
+          "participants_count": 5715,
+          "link": "https://max.ru/join/6FXEfB2LaGiru4qYjllt1YraZ2RIRzSgXP-oUNu0OVY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69202557471483,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣ Срочные продажи Краснодар🔥",
+          "participants_count": 5468,
+          "link": "https://max.ru/join/F9EKWvqsGtuJHblHn9SloLr6gCp2x5dDrMwfRjYlPAA",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69203611093755,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣ Дома/Участки Краснодар🔥",
+          "participants_count": 5191,
+          "link": "https://max.ru/join/2KdOeEeLeG0ck7YwRNDWtySDXC9xtRJ6o_yu5vqDI6E",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68065821717976,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Кореновского района",
+          "participants_count": 4920,
+          "link": "https://max.ru/join/V6nfpCuUK_5p__4XCv4F2JZ5RtLtsaWW8cidZ0nzBTE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68926801092639,
+          "type": "chat",
+          "status": "active",
+          "title": "【﻿Аренда🏠Лазаревское/Сочи】",
+          "participants_count": 4898,
+          "link": "https://max.ru/join/TVlx00R7JQnMOAkemSdKxY3tG8MSbEA_pMDny_onI6k",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70679518530248,
+          "type": "chat",
+          "status": "active",
+          "title": "2️⃣3️⃣💯👋💯 Сочи  ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 4559,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68082735008456,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️8️⃣6️⃣💯👋💯Большая доска объявлений 💥❤️Любимый Сочи💯💥",
+          "participants_count": 4534,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68082735467208,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣0️⃣💯 👋💯Краснодар Купи Продай / Доска объявлений",
+          "participants_count": 4531,
+          "link": "https://max.ru/join/POrcdpvFs1k0xQuR6buAHKOrrWBOW5oMQ7EyR0wgku0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69263233818655,
+          "type": "chat",
+          "status": "active",
+          "title": "НАШ ❤️ СОЧИ - АДЛЕР",
+          "participants_count": 4313,
+          "link": "https://max.ru/join/bawAmq0PM8qYkGyi-Ho0fjQ0EwEYqVtnnEp67d6s0Gc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71227294709082,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар | Объявления | Реклама",
+          "participants_count": 3593,
+          "link": "https://max.ru/join/A6MrxRfSGoWKoSTcY-eMb_HU7S0j0Gyg52vn4uHsjKo",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -73185865654456,
+          "type": "chat",
+          "status": "active",
+          "title": "Ейск Объявления",
+          "participants_count": 3398,
+          "link": "https://max.ru/join/HfxOeDPI8YwPVCcBZ7fF5sRcRUvQMZ5aDXhu6bUuHes",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70790706973384,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️3️⃣7️⃣💯👋💯ДОСКА ОБЪЯВЛЕНИЙ СТАНИЦЫ И ХУТОРА КРАСНОДАР КР",
+          "participants_count": 3065,
+          "link": "https://max.ru/join/s417ZoPFOQN7toNuBSG5ljTrC_0_UQ3Egf5yRlk8i9U",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71458414152392,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️4️⃣2️⃣Енисейск Красноярский край  Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 2861,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68064217716160,
+          "type": "chat",
+          "status": "active",
+          "title": "Сарафан чат| Рекомендации Сочи |🌴",
+          "participants_count": 2573,
+          "link": "https://max.ru/join/aRnO3Ix-Qke8rpt_JONWfAQPxQ3vaoJNwWKFwQtbAeo",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70179942910712,
+          "type": "chat",
+          "status": "active",
+          "title": "ЖИВЕМ В НОВОРОССИЙСКЕ",
+          "participants_count": 2285,
+          "link": "https://max.ru/join/WwKVmWbkaPXEQHXPjar-TUXLXs8H9aknrxLpp8ygd2U",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72494856198313,
+          "type": "chat",
+          "status": "active",
+          "title": "Авто на заказ | Краснодар GP Car",
+          "participants_count": 2227,
+          "link": "https://max.ru/join/wkffUHW1c5O8yvj7zttawh5YORkvy4LxrTnMp8L6NQQ",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68082735205064,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣0️⃣3️⃣Анапа  Купи Продай / Доска объявлений Анапа",
+          "participants_count": 2183,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71615370509000,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣9️⃣3️⃣ЖУРАВСКАЯ \\ КОРЕНОВСК\\ВЫСЕЛКИ  | ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 2142,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70790646549192,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣1️⃣3️⃣ВЫСЕЛКИ и КОРЕНОВСК станицы края ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 2125,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71489737820167,
+          "type": "chat",
+          "status": "active",
+          "title": "Ейск Объявления | Новости",
+          "participants_count": 2102,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68243796317650,
+          "type": "chat",
+          "status": "active",
+          "title": "Армавир+",
+          "participants_count": 2055,
+          "link": "https://max.ru/join/uom6MV7fs4vUr_C7jV93s65Tev84ytj0-jw724kEpZQ",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70869212809928,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️5️⃣0️⃣💯👋💯ЕЙСК и Ейский район ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 2011,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70301158768840,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️6️⃣7️⃣КРЫМСКИЙ РАЙОН ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1979,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70591045782216,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️9️⃣3️⃣💯Анапа /Новороссийск/ Геленджик/ ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1946,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71765135362055,
+          "type": "chat",
+          "status": "active",
+          "title": "НЕДВИЖИМОСТЬ | Сочи",
+          "participants_count": 1944,
+          "link": "https://max.ru/join/57roR8X-3UR466R7ESu0LBtGr7-aHey9XA7xKqw50BY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71483099856188,
+          "type": "chat",
+          "status": "active",
+          "title": "КРАСНОАРМЕЙСКИЙ РАЙОН❤️ ОБЪЯВЛЕНИЯ",
+          "participants_count": 1852,
+          "link": "https://max.ru/join/pGQ4pVHZ3YkZeaA0AtkDpo9HKvU-IMJPu9E3eiyCbAc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70142481943240,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣3️⃣2️⃣Новороссийск Купи Продай |   ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1817,
+          "link": "https://max.ru/join/GFn7aP9XYks9E6HSnP5FfcGX_FZ1_gjZwI7F15TbhQw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69642926347721,
+          "type": "chat",
+          "status": "active",
+          "title": "Продам Куплю Отдам  г. КРАСНОДАР.",
+          "participants_count": 1755,
+          "link": "https://max.ru/join/hb0zybWg0AOuHvUdT92aoV3faOjMa-SPyzefVvwunE4",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -73293066843566,
+          "type": "chat",
+          "status": "active",
+          "title": "ЮГПРОФНЕДВИЖИМОСТЬ | КРАСНОДАР",
+          "participants_count": 1707,
+          "link": "https://max.ru/join/gF9QgcCPokLOChm7sKUYziXcYeU_I2I7kzFwn7DLdrs",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68959045702990,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Лабинск ...",
+          "participants_count": 1613,
+          "link": "https://max.ru/join/yLLw76bJAylim54sEcJq7PRiIOQNrVKWOJu6wEcdAxg",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69543456850047,
+          "type": "chat",
+          "status": "active",
+          "title": "Юла Краснодар",
+          "participants_count": 1596,
+          "link": "https://max.ru/join/tIGhNdZ3kXl0_qp94XMZWjuSJ2CuSBR8EHfcn5Ev6so",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68907463357729,
+          "type": "chat",
+          "status": "active",
+          "title": "Бесплатная Барахолка Староминская Старощербиновская 123",
+          "participants_count": 1592,
+          "link": "https://max.ru/join/nhU5Opg8Pg0O1s_HgvqhKa6V5vzbGh1x61Cd6Vc96Qc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68302365627786,
+          "type": "chat",
+          "status": "active",
+          "title": "Бея и бейский район купи продай с юмором без перекупов!",
+          "participants_count": 1589,
+          "link": "https://max.ru/join/kO5G8uVkCDIYKum56PeDEZkPjAds6OYfY86DLOWoafc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70748542552776,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️4️⃣9️⃣💯👋💯Белореченск Купи Продай",
+          "participants_count": 1535,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71620448107208,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️7️⃣2️⃣💯👋💯ЕЙСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1478,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68568353325177,
+          "type": "chat",
+          "status": "active",
+          "title": "Свежая рыба Новороссийск🐳",
+          "participants_count": 1454,
+          "link": "https://max.ru/join/MCUsZe0JyH-PfSDN59LkgglcMLcg61vwzfrApcmhxHY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71456683034631,
+          "type": "chat",
+          "status": "active",
+          "title": "Новороссийск Объявления | Новости",
+          "participants_count": 1420,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71479873256136,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️4️⃣3️⃣💯👋💯ЛАБИНСК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1329,
+          "link": "https://max.ru/join/1AjidRct4--oMkYx4vlyZ4OU6pdO1_04ZVEbhYF8hnM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71388710849224,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣0️⃣4️⃣ ТИМАШЕВСК | Большая ДОСКА ОБЪЯВЛЕНИЙ Кр края",
+          "participants_count": 1317,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71384347134664,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣0️⃣6️⃣ ГЕЛЕНДЖИК Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1295,
+          "link": "https://max.ru/join/wJfGBrZvzm0JC_nKfQugwGyhIrPhoTVDL-dDYZTJ3LE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71388586068680,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️8️⃣7️⃣УСТЬ ЛАБИНСК | Большая ДОСКА ОБЪЯВЛЕНИЙ Кр края",
+          "participants_count": 1284,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68847122183661,
+          "type": "chat",
+          "status": "active",
+          "title": "Курганинск, Лабинск Объявления работа услуги бесплатно ☘️",
+          "participants_count": 1221,
+          "link": "https://max.ru/join/DdTK3-ONhVF-v-nXfbIwtsA-diSYtpEUj7K_nxVrGiA",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69715418609115,
+          "type": "chat",
+          "status": "active",
+          "title": "Рынок Усть-лабинск",
+          "participants_count": 1201,
+          "link": "https://max.ru/join/poBzQzI-L5lXcvOLZYAAjSdTbIysH2lEycVk-IajtWc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72978330102436,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснодар",
+          "participants_count": 1157,
+          "link": "https://max.ru/join/NaTNmQvdahORDCvW01JHTiwJNhbulUDCYRXpFAnbbnk",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68085382572711,
+          "type": "chat",
+          "status": "active",
+          "title": "🪗КРАСНОДАР И РЯДОМ🪗",
+          "participants_count": 1156,
+          "link": "https://max.ru/join/zm30qsewNYvVjYD2rc9v2jQzaHjSopdwgWGDTVzlTJM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71826646159505,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Сочи",
+          "participants_count": 1146,
+          "link": "https://max.ru/join/TPUMXCgbdpk6lpyyGJWh-3bQHOx2aoFdvu4OvaqKv8Y",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72978335804068,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснодар/Сочи",
+          "participants_count": 1129,
+          "link": "https://max.ru/join/TIx9hiBekeLKGRGJJ-JbC112S6fPKzVf1XZQpmMKGvU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71692807322312,
+          "type": "chat",
+          "status": "active",
+          "title": "💯👋💯КРЫМСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1125,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69525922895314,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | ЕЙСК",
+          "participants_count": 1082,
+          "link": "https://max.ru/join/e06sBAY1exeHeo1MBcs8K76aAZz5bRmx_gDoY9NBi9I",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70867291097800,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣8️⃣7️⃣Крымский полуостров ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1050,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70212504234582,
+          "type": "chat",
+          "status": "active",
+          "title": "🌞КРАСНОДАР бесплатная реклама, объявления",
+          "participants_count": 1037,
+          "link": "https://max.ru/join/hE6ijT-mPZs0CWI8tN4hG912XfknokeWA554z49FKNE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70884682094034,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | КРАСНОДАР",
+          "participants_count": 1032,
+          "link": "https://max.ru/join/yUpB0el0AN9sCMR4K4H9BsN-GAJ2JMjDSMbbiVTow-E",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68841807727334,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Краснодар-И Рядом",
+          "participants_count": 1000,
+          "link": "https://max.ru/join/2SvqT94jkuPUXfotsRBEFXgBV-IvxFhFkiI9YRIyH5Q",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69240023558784,
+          "type": "chat",
+          "status": "active",
+          "title": "5 ✔Краснодар барахолка",
+          "participants_count": 998,
+          "link": "https://max.ru/join/G4-lNO7ww-1R-3xF0Arvzxo2HEHkFsqjnFgB8XCuNl8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71676689567889,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Ейск",
+          "participants_count": 988,
+          "link": "https://max.ru/join/NMRSYiLCMHipHPgUiYJQB5a2hLXHsSakcVv8BeMvUcw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69360184347384,
+          "type": "chat",
+          "status": "active",
+          "title": "ОБРАЗОВАНИЕ НОВОРОССИЙСКА",
+          "participants_count": 920,
+          "link": "https://max.ru/join/dUBdhD_0CjPeqhkVYBu7p8Z4tj0Y-yVma29-yI5LUeg",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70808431293915,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар и край ДОСКА обьявлений",
+          "participants_count": 913,
+          "link": "https://max.ru/join/a9St79U3VqV8iu0VdGxrwKiUrKZZbHsf4y6vPQhco28",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71663289364697,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар доска бесплатных обьявлений",
+          "participants_count": 900,
+          "link": "https://max.ru/join/UVF_4s6AVbz7zXtDXPoKrYNo_vwAJPlCVKdjWGXBlo0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69128643766909,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар объявления",
+          "participants_count": 892,
+          "link": "https://max.ru/join/GHLX7Z_U2BtNVaeVbsRN7mP8hNDZBreEVgiu26VZKWY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71143777782472,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️3️⃣3️⃣💯👋💯АРМАВИР и близлежащие районы  ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 885,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71590511459016,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️7️⃣3️⃣ АНАПА / НОВОРОССИЙСК | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 831,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71584414776008,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣2️⃣2️⃣Кропоткин и район | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 817,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68444985403990,
+          "type": "chat",
+          "status": "active",
+          "title": "Ейская Ярмарка",
+          "participants_count": 810,
+          "link": "https://max.ru/join/CRoOmxqq0ehXKAWO4zzc91foFfpM0Db57ykx2M7djQU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68080824287443,
+          "type": "chat",
+          "status": "active",
+          "title": "Новая Адыгея | Яблоновский | Краснодар",
+          "participants_count": 805,
+          "link": "https://max.ru/join/uqvvZhPEhmVh_2tPJl8JXz_5VtcIH46WaJA4qEw5e40",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72765719961787,
+          "type": "chat",
+          "status": "active",
+          "title": "Помощь Ветеринара Анапа",
+          "participants_count": 776,
+          "link": "https://max.ru/join/vsqheHde3OEwJSVTx90r-5Xm594ANXo5jn2L5H6sjBc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71613987633864,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣9️⃣💯👋💯КРОПОТКИН ГУЛЬКЕВИЧ АРМАВИР ДОСКА ОБЪЯВЛЕНИЯ",
+          "participants_count": 774,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70319926326693,
+          "type": "chat",
+          "status": "active",
+          "title": "Новостройки Краснодара | Недвижимость | Квартиры",
+          "participants_count": 770,
+          "link": "https://max.ru/join/4O5rKcAhQWREW3ihEwm_Q0XIVS3SGJarH4SxLBrW3k0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69462975690164,
+          "type": "chat",
+          "status": "active",
+          "title": "1. Объявления Краснодара",
+          "participants_count": 758,
+          "link": "https://max.ru/join/gwl9OsSEscybm0vrJve-C0GeftWzRTU2I3LV9iJ-NOI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68306631182859,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Гулькевичи-Кропоткин",
+          "participants_count": 734,
+          "link": "https://max.ru/join/sySv4sLOIOkNPjIHwI1Xtu_7ykFre5vqUmcwZ-NnxEM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72231658604674,
+          "type": "chat",
+          "status": "active",
+          "title": "МАКСИМУС | Новороссийск",
+          "participants_count": 722,
+          "link": "https://max.ru/join/SiU9oTAU0EdooYGTg6UM8EScK_SBMaWxxAGVRYClpYs",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70290884116553,
+          "type": "chat",
+          "status": "active",
+          "title": "📰Обьявления 🔗Ссылки   БЕЛОРЕЧЕНСК",
+          "participants_count": 675,
+          "link": "https://max.ru/join/Cw6XFyL-PSbjryoRx-ICfGmc5JWsiaYpIi5wJO45udM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68296062066833,
+          "type": "chat",
+          "status": "active",
+          "title": "Алейский район объявления",
+          "participants_count": 672,
+          "link": "https://max.ru/join/udu6P9O4hu0Wm36T0fwARVL0YK_C5pLvrmmcjM1FsaE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69278429091321,
+          "type": "chat",
+          "status": "active",
+          "title": "123. Старощербиновская и район. Барахолка.",
+          "participants_count": 670,
+          "link": "https://max.ru/join/AK0XaijJLY4UWXjmBNOi_hCIrADaEhoj1ehgZJArM2s",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70124403985105,
+          "type": "chat",
+          "status": "active",
+          "title": "Купи продай Белореченский район",
+          "participants_count": 668,
+          "link": "https://max.ru/join/2dbxteEQaZEwqwnoUSMlOuxVz_wdquXMueLxTA4HTI4",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69512589666935,
+          "type": "chat",
+          "status": "active",
+          "title": "🍓Пос.Заречный Белореченский район🔥",
+          "participants_count": 664,
+          "link": "https://max.ru/join/PFW34HDJ8dSnT_DhLkbA1QxlkozTnf8vabXlDpGaboU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68088151228522,
+          "type": "chat",
+          "status": "active",
+          "title": "🟠🟠🟠 КРАСНОДАР  БАРАХОЛОЧКА",
+          "participants_count": 662,
+          "link": "https://max.ru/join/Z6aPZIdLF-AHg1zJKj1SR29hfncPjqk7cs8yR3ywz0Q",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70138734873297,
+          "type": "chat",
+          "status": "active",
+          "title": "Строительство Белореченск майкоп",
+          "participants_count": 642,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70126306413268,
+          "type": "chat",
+          "status": "active",
+          "title": "🆑🛑БАРАХОЛКА 🛑 КРАСНОДАР🛑",
+          "participants_count": 627,
+          "link": "https://max.ru/join/ZKBgoc0-8xF72uKKlXXydR_M72IP38hxn9-bTHZnNp8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71415547221458,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | НОВОРОССИЙСК",
+          "participants_count": 626,
+          "link": "https://max.ru/join/TxKX2xMz0VfTqUfOmHkMfJ8UxmQO2QEMPkB3_9GM6TY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69668861596994,
+          "type": "chat",
+          "status": "active",
+          "title": "Дешевле всех Ейск, Старая,Новая",
+          "participants_count": 616,
+          "link": "https://max.ru/join/pjHLZ7Eugmd13EkiOnlYbh0ShkrifZW_6GT5WzUKmQ8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71761081833509,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар и край | Объявления",
+          "participants_count": 585,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68081178345722,
+          "type": "chat",
+          "status": "active",
+          "title": "Сочинская группа (размещений объявлений)",
+          "participants_count": 571,
+          "link": "https://max.ru/join/qxfwDd9AH4M5CkVlmyoPvPDcY1QhZoxsFfz9GWpKnMo",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71391301457362,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | СОЧИ",
+          "participants_count": 547,
+          "link": "https://max.ru/join/Nzms8syqLIGshtKdfauGqPfp50BROIM4Gc8hbFCrq0A",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71354877496056,
+          "type": "chat",
+          "status": "active",
+          "title": "ГДЕ ОТДОХНУТЬ / НОВОРОССИЙСК",
+          "participants_count": 529,
+          "link": "https://max.ru/join/jU-1XYAV_5CEkBAtpL7pPDhonWpRQbMWkKcWpOv0SF8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68934856949866,
+          "type": "chat",
+          "status": "active",
+          "title": "🟠🟠🟠Белореченский район БАРАХОЛОЧКА",
+          "participants_count": 528,
+          "link": "https://max.ru/join/hDcou3nxs-GRM6luXyV7ejiH6cmFyot4sdOLHsV9REw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70795135000625,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Краснодар",
+          "participants_count": 523,
+          "link": "https://max.ru/join/lXYISgHsZYGeEZtB2tjAh6WWz9V69SfGw1Den_UnwUE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69802721225380,
+          "type": "chat",
+          "status": "active",
+          "title": "Строительство ремонт Геленджик",
+          "participants_count": 520,
+          "link": "https://max.ru/join/vXUSSTwz0uszwWXoMgxVAA_sGKFNMpmlOz2P5v1Hufo",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71414294959570,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | АНАПА",
+          "participants_count": 510,
+          "link": "https://max.ru/join/mecdm_HhnYKCdtxLWc8EemurTfoO8sDiY0NxLJibckM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71391315416530,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | АРМАВИР",
+          "participants_count": 502,
+          "link": "https://max.ru/join/tzDokcc3wXHDh7CFox1z1K-iu0nFwpmLefkVshYPe3o",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68834970315332,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣Барахолка Ейск , Щербиновий район",
+          "participants_count": 493,
+          "link": "https://max.ru/join/mQU1Q4r4ZcIE5G7ureyHqYBuXh1CKyNd3FIK26wbSOM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68880883873123,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥АРМАВИР ОБЪЯВЛЕНИЯ",
+          "participants_count": 488,
+          "link": "https://max.ru/join/pmq5FkMoM--hnJ0kcthDrRozmiKo-MJmV_vfy8bI5EI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70231487403465,
+          "type": "chat",
+          "status": "active",
+          "title": "Торговый рынок г. Крымск и ближайшие населения.",
+          "participants_count": 460,
+          "link": "https://max.ru/join/DbS-pG5Fo23OB0coTumW7_xJv9d4nI-X0015vzHIjoE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71771644921863,
+          "type": "chat",
+          "status": "active",
+          "title": "Кропоткин Объявления | Новости",
+          "participants_count": 457,
+          "link": "https://max.ru/join/VrF1vU-CMGeYtgiUVJNEBT1Od6JOwyWtKMbZfU5lY24",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71488595504426,
+          "type": "chat",
+          "status": "active",
+          "title": "Доска Объявления Ейск, Ейский район.",
+          "participants_count": 418,
+          "link": "https://max.ru/join/8oBpZl463ECn4ccYO9u5tTF-_v5dV8EDbPKgFFHJtkE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68095333132937,
+          "type": "chat",
+          "status": "active",
+          "title": "ВСЁ ДАРОМ ГЕЛЕНДЖИК",
+          "participants_count": 394,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68829228220483,
+          "type": "chat",
+          "status": "active",
+          "title": "Юла_Советская_Армавир",
+          "participants_count": 394,
+          "link": "https://max.ru/join/zWrb7XaB7QEJfInFmPxezrDXwKh9ccT7bnbla3ucRGU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71486599933226,
+          "type": "chat",
+          "status": "active",
+          "title": "Работа Ейск",
+          "participants_count": 393,
+          "link": "https://max.ru/join/uVxYSXwoBWzlVWAzmzU8hwE3XDzXyqgj8dZgIeUzcCc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68881445451107,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥УСТЬ-ЛАБИНСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 379,
+          "link": "https://max.ru/join/mIwa5UUaOBwlZXOEaBKfFiBUJIpnGM2D_QxfDwQVJFU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70847853010993,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолочка Анапа",
+          "participants_count": 377,
+          "link": "https://max.ru/join/xgzAcX1aI8YsmAqHcj3SsHS6VPZtu79xKN02WN64jyE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68880889312611,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥БЕЛОРЕЧЕНСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 366,
+          "link": "https://max.ru/join/A0StveCsyY-9ABannZsb4qOBC7Fbq_udXo2S86SkcSQ",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69205858650875,
+          "type": "chat",
+          "status": "active",
+          "title": "Южный/Ейское шоссе КРД",
+          "participants_count": 366,
+          "link": "https://max.ru/join/A8blD8nBCrbiY3SGUeHcEyWehVlDcMvuO8TAwLbOGVc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68879815177571,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 362,
+          "link": "https://max.ru/join/55lz7lR9EFccDDvOx0_3WB5GEGhHPw4hSiUSNZsvVFc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68091536845446,
+          "type": "chat",
+          "status": "active",
+          "title": "🏘️ Жители Ейского шоссе и окрестности 🏡",
+          "participants_count": 356,
+          "link": "https://max.ru/join/kQn4j2rpC3ntgpvw9a_eH4WRgW3aVj2aD5GvlbOewDE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095867644553,
+          "type": "chat",
+          "status": "active",
+          "title": "ЖИЛЬЁ В ГЕЛЕНДЖИКЕ. СДАМ, ПРОДАМ, СНИМУ. ЖИЛЬЁ ПОСУТОЧНО И НА КРУГЛЫЙ ГОД. ОТДЫХ НА МОРЕ. ⛵ 🐬🌴",
+          "participants_count": 331,
+          "link": "https://max.ru/join/ALPIhBu033CkYaCL4HjgkKSc3unbdEuVc5wqHy1c8-A",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68881430771043,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ТИМАШЕВСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 323,
+          "link": "https://max.ru/join/uk11lCpumPf8Xpy0HjCPHlsRj9ShO02gv12zcJDhBh8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70117513166933,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Славянский и Красноармейский районы.",
+          "participants_count": 313,
+          "link": "https://max.ru/join/yK4zMwhEhc2RobCBKavqqvzoz0vbiiKcqnZDlHEFgOw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68095347616393,
+          "type": "chat",
+          "status": "active",
+          "title": "ИЩУ РАБОТУ, УСЛУГИ ГЕЛЕНДЖИК",
+          "participants_count": 296,
+          "link": "https://max.ru/join/n0T5L7YTg6GYIFiI_38bgeUqoM1CPnBcdpeviQD58Os",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68880944231779,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ГЕЛЕНДЖИК ОБЪЯВЛЕНИЯ",
+          "participants_count": 280,
+          "link": "https://max.ru/join/qm0d_dqfMfWAxuUHQeWM8xxpt5BV7qckLUMOfDW0DXM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68089215819813,
+          "type": "chat",
+          "status": "active",
+          "title": "🛑🛑🛑1️⃣ДОСКА ОБЪЯВЛЕНИЙ ЛАБИНСК И ЛАБИНСКИЙ РАЙОН",
+          "participants_count": 270,
+          "link": "https://max.ru/join/fHoi_CDkhkIPn1g-aNgF3KIR0OuhGvK5SJWJBE5N52c",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68881389155683,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥НОВОРОССИЙСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 267,
+          "link": "https://max.ru/join/flfFB05k-nielvYn8RoxlnH2whEt35d5hLZk2ok_HAI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68881312937315,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ЕЙСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 246,
+          "link": "https://max.ru/join/bBSUcPborguq45KIIIJti25MAheYSaiapm2r71fwUUI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70649133757792,
+          "type": "chat",
+          "status": "active",
+          "title": "🌸Цветы для Дома и Сада🌸Усть-Лабинск и район🌸",
+          "participants_count": 233,
+          "link": "https://max.ru/join/uNsMqEBjg0dsMcHTBY-mixBfgNVjXe-6b4lAs7abMVY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68881482872163,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ТУАПСЕ ОБЪЯВЛЕНИЯ",
+          "participants_count": 232,
+          "link": "https://max.ru/join/aF3rZMSLnGeDnJn7fBAcWxbX0xYNDEXpXJSOmLy3Gwo",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72548525214985,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар Объявления | Новости",
+          "participants_count": 229,
+          "link": "https://max.ru/join/9Vpd07Q_KVrSLSspRUieVzq0Rn1KFXr79bj1plyB6EE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70847951773745,
+          "type": "chat",
+          "status": "active",
+          "title": "Доска объявлений Анапа",
+          "participants_count": 225,
+          "link": "https://max.ru/join/Yi-J1HN0DTgQ20TGA00cfsXyGZM9DlYFVC7yKJgsAFw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71061049485874,
+          "type": "chat",
+          "status": "active",
+          "title": "НА ДОРОГЕ БЕЛОРЕЧЕНСК И РАЙОН",
+          "participants_count": 225,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69632783261745,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Ейск",
+          "participants_count": 218,
+          "link": "https://max.ru/join/DciAi379NO5-4e0LiENMMQam-I_FvW--N4ao8l02SKM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68881416942947,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ТЕМРЮК ОБЪЯВЛЕНИЯ",
+          "participants_count": 212,
+          "link": "https://max.ru/join/cgvmXF_Lin0Eqs79BlufUBPi4D2ktI8otgmpe0B4v7A",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69541859227108,
+          "type": "chat",
+          "status": "active",
+          "title": "Ейская ярмарка",
+          "participants_count": 212,
+          "link": "https://max.ru/join/kpX3rMPtVUhusxp8Li4zd7PPvdtpKdjkqQ-cwoZz4x0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68881342690659,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥КРЫМСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 209,
+          "link": "https://max.ru/join/t8qscvTOmMPnv-8vgLXcjPd3z4IEzXh5hD9f9dHWVnk",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68111599930059,
+          "type": "chat",
+          "status": "active",
+          "title": "Шабашка Геленджик",
+          "participants_count": 198,
+          "link": "https://max.ru/join/lNZILw4itODo5HgMCnocu_SAUy2Usgt7j6eWS2cd2sI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70455232645661,
+          "type": "chat",
+          "status": "active",
+          "title": "Мой Тимашевск 23 регион",
+          "participants_count": 194,
+          "link": "https://max.ru/join/_vfOL6-pysCEU7C-wSbB9-roLGbfxEltg7p769xN8Ys",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68095348927113,
+          "type": "chat",
+          "status": "active",
+          "title": "ЖИТЬ В КАЙФ (МЕРОПРИЯТИЯ) ГЕЛЕНДЖИК",
+          "participants_count": 190,
+          "link": "https://max.ru/join/ZLEWx183Akp3fibmcwFy4Hrwzc8ceUG3gDv7ni--k0k",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70454926330397,
+          "type": "chat",
+          "status": "active",
+          "title": "КУПИ ПРОДАЙ ОТДАЙ ТИМАШЕВСКИЙ РАЙОН",
+          "participants_count": 184,
+          "link": "https://max.ru/join/TJneTVCyNBisivIbzrvSW-KFHlw1x0umoxLy9hj7cUA",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72257507854886,
+          "type": "chat",
+          "status": "active",
+          "title": "АРМАВИР БЛИЖАЙШИЕ РАЙОНЫ",
+          "participants_count": 175,
+          "link": "https://max.ru/join/kO19xGHhmU-tfsd_-enctOKmtn4B7Nor0efsuhJvaYU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095341718153,
+          "type": "chat",
+          "status": "active",
+          "title": "АВИТО ГЕЛЕНДЖИК",
+          "participants_count": 173,
+          "link": "https://max.ru/join/deC0rmYHrweS4cqY2RGV-jZZlr7ndQICkW2Q9XQNf_c",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095335885449,
+          "type": "chat",
+          "status": "active",
+          "title": "НАШ ГЕЛЕНДЖИК",
+          "participants_count": 173,
+          "link": "https://max.ru/join/CDCZbjORUvtg3e2WSCz5LkWMA1Ej_pGhO-GO19Sqvs0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68063806947551,
+          "type": "chat",
+          "status": "active",
+          "title": "Купи продай КРАСНОДАР",
+          "participants_count": 169,
+          "link": "https://max.ru/join/Zy57A0Wxx_AiuKrEnXBlZHnsXblNkCx-THM9Pv4QtOY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095570635401,
+          "type": "chat",
+          "status": "active",
+          "title": "УСЛУГИ ГЕЛЕНДЖИК",
+          "participants_count": 168,
+          "link": "https://max.ru/join/gSAo-c4YwIiHSyukkL1KZtxLKjPNHPE-cTO2IoPnXJQ",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71489685325831,
+          "type": "chat",
+          "status": "active",
+          "title": "Анапа Объявление | Новости",
+          "participants_count": 165,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095858469513,
+          "type": "chat",
+          "status": "active",
+          "title": "ИЗ РУК В РУКИ ГЕЛЕНДЖИК",
+          "participants_count": 157,
+          "link": "https://max.ru/join/Z7s2fKGRDeCIImMErkBoKtnHLbk3QnDOtjia9gToOoY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68862714145417,
+          "type": "chat",
+          "status": "active",
+          "title": "МНОГОДЕТКИ ГЕЛЕНДЖИК",
+          "participants_count": 156,
+          "link": "https://max.ru/join/8ZdsLWhMLHU6B52sgxsC65z926pCqE35O1Eg9vx4ftc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68862775028361,
+          "type": "chat",
+          "status": "active",
+          "title": "ВЕСЬ ГЕЛЕНДЖИК",
+          "participants_count": 147,
+          "link": "https://max.ru/join/cCzdg74xE15oXs6i8Z1Kfg2hJPn3vhpmc1O8ofCzK70",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71571642228121,
+          "type": "chat",
+          "status": "active",
+          "title": "ВАКАНСИИ СОЧИ.                        УСЛУГА СОЧИ",
+          "participants_count": 139,
+          "link": "https://max.ru/join/6KUyGZkqrVEq82XruVvAn5a46q4Qkc9EqbHqmt887s0",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72552168099081,
+          "type": "chat",
+          "status": "active",
+          "title": "Усть-Лабинск Объявления | Новости",
+          "participants_count": 139,
+          "link": "https://max.ru/join/Ix51KE0kXZqJELoF4TMRNzl9SwPJKFDjb_4jFRZ2eaE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095844903561,
+          "type": "chat",
+          "status": "active",
+          "title": "ВЕЩЕВОРОТ ГЕЛЕНДЖИК",
+          "participants_count": 127,
+          "link": "https://max.ru/join/kzNrdtab92mC6m1HC_ImyoT5_MB4kQFoYd3PcqBDDtQ",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095857486473,
+          "type": "chat",
+          "status": "active",
+          "title": "КУПИ - ПРОДАЙ ГЕЛЕНДЖИК",
+          "participants_count": 127,
+          "link": "https://max.ru/join/JAPoA8qYm8NlPvfXirA4GPVhFZNq0cT2kiuX0ASVEAE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71994312371495,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар! Разнорабочие.",
+          "participants_count": 126,
+          "link": "https://max.ru/join/liCxwr-0L_eqTNONGRDQWLdSSvPBUmlvw7b5_nR3884",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095847131785,
+          "type": "chat",
+          "status": "active",
+          "title": "ОБЪЯВЛЕНИЯ ГЕЛЕНДЖИК",
+          "participants_count": 124,
+          "link": "https://max.ru/join/_H2ymVYCb2CnuTCyf1fJfc-jpMh6EOxCxo9noT6QYPE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095865547401,
+          "type": "chat",
+          "status": "active",
+          "title": "ПОМОЩЬ, ДАР, ОБМЕН, ОБЩЕНИЕ ГЕЛЕНДЖИК",
+          "participants_count": 116,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095845886601,
+          "type": "chat",
+          "status": "active",
+          "title": "ЮЛА ГЕЛЕНДЖИК",
+          "participants_count": 116,
+          "link": "https://max.ru/join/9oH6m0UEg5goTqoYWn-UraML9C0ZsPAVut5Yckskc6g",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095848114825,
+          "type": "chat",
+          "status": "active",
+          "title": "БАРАХОЛКА ГЕЛЕНДЖИК",
+          "participants_count": 115,
+          "link": "https://max.ru/join/lw9U-KeqaSXwSMpeEXMfhmZKHGo6dHyF4Fs3jAaPnoI",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -72377417286380,
+          "type": "chat",
+          "status": "active",
+          "title": "Реклама Юг Белореченский район🌞",
+          "participants_count": 109,
+          "link": "https://max.ru/join/igA-nFEIf5KWo7nBgVHWJK-3tshYpycvL2TCgYqveqc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095868955273,
+          "type": "chat",
+          "status": "active",
+          "title": "ПОДСЛУШАНО ГЕЛЕНДЖИК",
+          "participants_count": 107,
+          "link": "https://max.ru/join/AQYREwekhZomBs4vt7g1h6mqC0R0a9xKTlzAQwAJA2k",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095855389321,
+          "type": "chat",
+          "status": "active",
+          "title": "🚢🚣‍♂️🐬ГЕЛЕНДЖИК - ГОРОД МЕЧТЫ 🌴🐬⛴️",
+          "participants_count": 103,
+          "link": "https://max.ru/join/ytt-7oxfwa1M8dUiPmCJQwSTxLe7MkB1QPZy6UKN5uM",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095864171145,
+          "type": "chat",
+          "status": "active",
+          "title": "РЕКЛАМА БЕСПЛАТНО ГЕЛЕНДЖИК",
+          "participants_count": 100,
+          "link": "https://max.ru/join/dp7cVCBro43O4NHMKCmrvh7IsAC2byhJSz7I-y5z0Xg",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095346240137,
+          "type": "chat",
+          "status": "active",
+          "title": "ГЕЛЕНДЖИК - ГОРОД ДОБРА",
+          "participants_count": 89,
+          "link": "https://max.ru/join/4KNfhdio3mqX6ri8FOGlmJqbePTPl5CWd_XvczSv60c",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095853292169,
+          "type": "chat",
+          "status": "active",
+          "title": "ДЕТСКОЕ АВИТО ГЕЛЕНДЖИК",
+          "participants_count": 86,
+          "link": "https://max.ru/join/ecS1Bu65ta16Eqdh8UR5c8lCKCEsxL69Xdddmfpayrg",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095859976841,
+          "type": "chat",
+          "status": "active",
+          "title": "КУПИ - ПРОДАЙ 2 ГЕЛЕНДЖИК",
+          "participants_count": 81,
+          "link": "https://max.ru/join/zB2iGbHUbSOjWOeOtWu56ng0CtGh6oYmL1pkNPsx3Q4",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095854209673,
+          "type": "chat",
+          "status": "active",
+          "title": "ПРОДУКТЫ ГЕЛЕНДЖИК",
+          "participants_count": 77,
+          "link": "https://max.ru/join/Pz9OUkDQ7AD9iof8vyQH277e3YMIQrMDEhT-BfOH26c",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095852178057,
+          "type": "chat",
+          "status": "active",
+          "title": "ВСЯ РЕКЛАМА ТУТ ГЕЛЕНДЖИК",
+          "participants_count": 76,
+          "link": "https://max.ru/join/3-3Wyk5hIjgcYrjkabk3jZn6WcbWK_x2bkflpJMmtdg",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71826802864345,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар доска объявлений",
+          "participants_count": 70,
+          "link": "https://max.ru/join/OpB_6GxjQ8VIgVlvxGUomBmqTcwtvFXPNpv4KXk74hc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095862401673,
+          "type": "chat",
+          "status": "active",
+          "title": "РЕКЛАМА ГЕЛЕНДЖИК",
+          "participants_count": 69,
+          "link": "https://max.ru/join/pwvQRDkOmIWB0nmKDPsXvvSkwesW6EjYYCO8p7rXQtk",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095869872777,
+          "type": "chat",
+          "status": "active",
+          "title": "КРАСОТА И ЗДОРОВЬЕ ГЕЛЕНДЖИК",
+          "participants_count": 68,
+          "link": "https://max.ru/join/GNGQhSUroGMyxW-vyc0deH2BgbvBlViSgbdub-xf2Oc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095850998409,
+          "type": "chat",
+          "status": "active",
+          "title": "МАМОЧКИ ГЕЛЕНДЖИК",
+          "participants_count": 68,
+          "link": "https://max.ru/join/zcxrCS8uIBm3Y-M6aJDhy2Ucx8zMuSgfCnUq5xEU3b8",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095568865929,
+          "type": "chat",
+          "status": "active",
+          "title": "1000 МЕЛОЧЕЙ ГЕЛЕНДЖИК",
+          "participants_count": 64,
+          "link": "https://max.ru/join/Yb_i6KlU1hKmy14LdnZAZMju-QncAC6x2rp3o4yb-wc",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68095856568969,
+          "type": "chat",
+          "status": "active",
+          "title": "РУЧНАЯ РАБОТА ГЕЛЕНДЖИК",
+          "participants_count": 62,
+          "link": "https://max.ru/join/lQY8ySN8wd1ShsJuzOTHh6jDeR-cobd7Ay309uQBNhE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -72551988792585,
+          "type": "chat",
+          "status": "active",
+          "title": "Кропоткин Объявления | Новости",
+          "participants_count": 61,
+          "link": "https://max.ru/join/OUjUd34Km2dtIDrdd4v75LXaYwhBvUVdylSr3rE3quY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68958547203517,
+          "type": "chat",
+          "status": "active",
+          "title": "Копчёности Армавир",
+          "participants_count": 54,
+          "link": "https://max.ru/join/xO6g83cRbBo2ornC2_gPDKyv3xTyI91NbUwBew377Ow",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71818904826553,
+          "type": "chat",
+          "status": "active",
+          "title": "❇️Зелёный ЧАТ (Краснодар)❇️",
+          "participants_count": 36,
+          "link": "https://max.ru/join/s7xrSHLoX5TuBlikanMcGaA_lhBV6imziJSlQ4Jy0XY",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71819327206073,
+          "type": "chat",
+          "status": "active",
+          "title": "❗Максимальный ЧАТ Краснодара❗",
+          "participants_count": 35,
+          "link": "https://max.ru/join/f67FHnd-P3z_KGmRGbAs_wKgwI2vprBHZTTIpznmCKE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72594706033289,
+          "type": "chat",
+          "status": "active",
+          "title": "\"АРТПОСТЕЛЬ\"  ГЕЛЕНДЖИК",
+          "participants_count": 34,
+          "link": "https://max.ru/join/dQY7uFeX9UO7z7sqmEWCTSDCIFWQl5mnAJSZxmsIgHE",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71928549258676,
+          "type": "chat",
+          "status": "active",
+          "title": "3. Объявления Карасунский округ Краснодар",
+          "participants_count": 32,
+          "link": "https://max.ru/join/S5Mw5IDpTxblbu-FWEieCYSrt2UVuoh7Wjjv8S83ljw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -72322884790921,
+          "type": "chat",
+          "status": "active",
+          "title": "РОДНЫЕ СИБИРЯКИ В ГЕЛЕНДЖИКЕ",
+          "participants_count": 29,
+          "link": "https://max.ru/join/emp8ugeIGckcNRST1h9cKZO6wxGGClOyRXSOVv8VzfU",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71752875676210,
+          "type": "chat",
+          "status": "active",
+          "title": "Гайя Центр Эзотерики г.Сочи",
+          "participants_count": 19,
+          "link": "https://max.ru/join/LqK3LHPLdnJv-po1KX8AWj3UX-BwkfqSCHGIWmuQHmw",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72978810249850,
+          "type": "chat",
+          "status": "active",
+          "title": "Работа без опыта ®️ Краснодар",
+          "participants_count": 15,
+          "link": "https://max.ru/join/FyS0YxPhZ3e7AQGqUa849z5vDM8O-pYquVWlAjs8kNk",
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173612490969,
+          "type": "chat",
+          "status": "active",
+          "title": "Анапа доска бесплатных обьявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173064282329,
+          "type": "chat",
+          "status": "active",
+          "title": "Армавир доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173098623193,
+          "type": "chat",
+          "status": "active",
+          "title": "Геленджик доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173429776601,
+          "type": "chat",
+          "status": "active",
+          "title": "Кореновск доска бесплатных обьявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73172768846041,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар  доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73197760343527,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодар доска бесплатных обьявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73174746656985,
+          "type": "chat",
+          "status": "active",
+          "title": "Кропоткин доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73174441980121,
+          "type": "chat",
+          "status": "active",
+          "title": "Крымск доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73174520099033,
+          "type": "chat",
+          "status": "active",
+          "title": "Лабинск доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173146792153,
+          "type": "chat",
+          "status": "active",
+          "title": "Новороссийск доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173035774169,
+          "type": "chat",
+          "status": "active",
+          "title": "Сочи доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73173005037785,
+          "type": "chat",
+          "status": "active",
+          "title": "Тимашевск доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73174480842969,
+          "type": "chat",
+          "status": "active",
+          "title": "Туапсе доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73172896510169,
+          "type": "chat",
+          "status": "active",
+          "title": "Усть-лабинск доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73197767749095,
+          "type": "chat",
+          "status": "active",
+          "title": "Усть-лабинск доска бесплатных обьявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Не распределено",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        }
+      ]
+    },
+    "Краснодарский край / общие": {
+      "chats_count": 62,
+      "chats": [
+        {
+          "chat_id": -68223560354342,
+          "type": "chat",
+          "status": "active",
+          "title": "АРМАВИР/НОВОКУБАНСК",
+          "participants_count": 7583,
+          "link": "https://max.ru/join/myUKJTIyfFzdZ333k7w7J5E-5I9u89xPJRmZHnd93gs",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73119027060920,
+          "type": "chat",
+          "status": "active",
+          "title": "Славянск на Кубани Объявления",
+          "participants_count": 5308,
+          "link": "https://max.ru/join/pF1fW_Y7K_XDqZKECSidGb9rNwMJDg_S0bQUx3fd6-o",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71111891831496,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️6️⃣5️⃣💯НОВОКУБАНСК /АРМАВИР   ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 5164,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69205136509691,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣ Юг/Краснодарский край🔥",
+          "participants_count": 4956,
+          "link": "https://max.ru/join/nuy41KjOCoyUVvpX-_225RZBriv7nbDxTwJy7nhABp0",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70142531685064,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️3️⃣2️⃣💯👋💯 Купи Продай Вся Кубань / Барахолка Кубани",
+          "participants_count": 4333,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71984751084929,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснодарского края",
+          "participants_count": 3590,
+          "link": "https://max.ru/join/kHXBb4_yil6NTmW_Af-Jk8KPIj1WRn6tIH_TcXl78mQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70574561315528,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣2️⃣4️⃣💯👋💯КУБАНЬ  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 3498,
+          "link": "https://max.ru/join/YYcFonHhLlse2KG_Ip6KlMKnnm6IEq3SRxEpUVTCvkI",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71456678709255,
+          "type": "chat",
+          "status": "active",
+          "title": "Кубань Объявления | Новости",
+          "participants_count": 2870,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71952970123271,
+          "type": "chat",
+          "status": "active",
+          "title": "Недвижимость | Краснодарский край",
+          "participants_count": 2596,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72399785032419,
+          "type": "chat",
+          "status": "active",
+          "title": "Авторынок Краснодарский край",
+          "participants_count": 2195,
+          "link": "https://max.ru/join/JstAFTgSV_Bk6jnCTbAVh-oQ_uPTJ7KUDjujEo370xQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -70823603555016,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️9️⃣2️⃣💯КУБАНЬ Большая ДОСКА ОБЪЯВЛЕНИЙ Краснодарский край",
+          "participants_count": 1996,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68891656792692,
+          "type": "chat",
+          "status": "active",
+          "title": "Дачники Кубани",
+          "participants_count": 1632,
+          "link": "https://max.ru/join/0rAHq0RZWEShlEncv4cF3mEI_pp2PeVVapweEupOiJE",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68081225258303,
+          "type": "chat",
+          "status": "active",
+          "title": "☘️ТОРГОВЫЙ МИР КУБАНИ ☘️",
+          "participants_count": 1489,
+          "link": "https://max.ru/join/IravQf-XmMrwncDvfGTANXgiHD5p5hJ3oYAAbMea0_8",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69167097140543,
+          "type": "chat",
+          "status": "active",
+          "title": "☘️КУБАНЬ СЕГОДНЯ ☘️❤",
+          "participants_count": 1448,
+          "link": "https://max.ru/join/O6YnA01ED3LW3DjdVPsfivt8AdViZFbepxKmmHHwC0E",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69565348304329,
+          "type": "chat",
+          "status": "active",
+          "title": "Доска объявлений Славянск на Кубани и ближайшие населения.",
+          "participants_count": 1391,
+          "link": "https://max.ru/join/_Hlto2ylrWLlrU-mqk2-9sx3EVaSJxxrvAZwalQyK14",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69565851227593,
+          "type": "chat",
+          "status": "active",
+          "title": "Оптовая торговля Славянск-на-Кубани  и Славянский район.",
+          "participants_count": 1355,
+          "link": "https://max.ru/join/CUU5RTmY2zYysHKRttSiPO4_xcxZLV4KoQkAx6hpEv8",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68100891214071,
+          "type": "chat",
+          "status": "active",
+          "title": "1️⃣🇷🇺КРАСНОДАРСКИЙ КРАЙ, РОСТОВСКАЯ ОБЛ",
+          "participants_count": 1217,
+          "link": "https://max.ru/join/P5o1ACzqLHNSquX15zZuR5-g0jTzaKyun3Rx5NdaguQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72978357103268,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснодарский Край",
+          "participants_count": 1174,
+          "link": "https://max.ru/join/KNg_VQLnN_jwyGeeEubu6TB2rCCLkRrmlGE_y64gTJY",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -72978350615204,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснодарский Край",
+          "participants_count": 1139,
+          "link": "https://max.ru/join/e6hpwAmwaT5AxT9Y0aTeLpJx-2uvlDmXJWIrCY1cTKU",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72978345568932,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Краснодарский Край",
+          "participants_count": 1107,
+          "link": "https://max.ru/join/tmzQfqb3LoWxhv9vcVuz39Xh3FSUWTjmNOsQL9TDBHU",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71878678836594,
+          "type": "chat",
+          "status": "active",
+          "title": "🌴 Краснодарский край",
+          "participants_count": 1101,
+          "link": "https://max.ru/join/EF1D2J9IAl8ZSC7qDSc-fXZO_GOXza13iYPG_W1SRpI",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69167372064063,
+          "type": "chat",
+          "status": "active",
+          "title": "☘️КУБАНЬ ВСË ЗДЕСЬ ☘️❤",
+          "participants_count": 1083,
+          "link": "https://max.ru/join/Y4RDxgbxFuqw_2_HH273eSsst2jSCi4qN5fg364_r6I",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68086289552724,
+          "type": "chat",
+          "status": "active",
+          "title": "✅✅✅Купи&Продай Краснодарский край",
+          "participants_count": 965,
+          "link": "https://max.ru/join/tn0oK5v2XkOAkOAfEhiuLGoIKwN_T4S20k5G1koYggA",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70588794189209,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснодарский край КУПИ-ПРОДАЙ УСЛУГА",
+          "participants_count": 963,
+          "link": "https://max.ru/join/mAH8u6LTSonhmhygHHMH104-zXBZyyq_hAv4jq9gTBA",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71388550941384,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️3️⃣ДИНСКАЯ | Большая ДОСКА ОБЪЯВЛЕНИЙ Краснодарского края",
+          "participants_count": 961,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -70470873991928,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥КРАСНОДАРСКИЙ КРАЙ ОБЪЯВЛЕНИЯ",
+          "participants_count": 923,
+          "link": "https://max.ru/join/C8uS43daWFPtabGH0B71Jor0ZBp8pejuuqIzt5aGLeQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71388673559240,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️2️⃣0️⃣5️⃣ МАЙКОП  ДОСКА ОБЪЯВЛЕНИЙ Краснодарского края",
+          "participants_count": 911,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69240058620544,
+          "type": "chat",
+          "status": "active",
+          "title": "4 ✔КУБАНЬ ОБЪЯВЛЕНИЯ",
+          "participants_count": 896,
+          "link": "https://max.ru/join/dUg6z206y36SgpfG2Sf9-7f-CgzByspCDUpo5bLsJuA",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -68082735663816,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️5️⃣9️⃣💯👋💯АВТОРЫНОК СОЧИ Краснодар и Краснодарского Края",
+          "participants_count": 867,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -71391335011794,
+          "type": "chat",
+          "status": "active",
+          "title": "ГОРОД 23 | КРАСНОДАРСКИЙ КРАЙ",
+          "participants_count": 845,
+          "link": "https://max.ru/join/OtDJENy81_TMFaJm8zEXRxBNC9Eq7PwzAGZ8KJyooMA",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69273303127305,
+          "type": "chat",
+          "status": "active",
+          "title": "РЫНОК 🌻 РОССИИ И ВСЕЙ КУБАНИ",
+          "participants_count": 831,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69167327565119,
+          "type": "chat",
+          "status": "active",
+          "title": "☘️КУБАНЬ ВСЕ ДЛЯ ВСЕХ ☘️❤",
+          "participants_count": 772,
+          "link": "https://max.ru/join/cuUSnW3rfmvmcCkQUEwGaZXST89FlfgUqoJ_BkB9aVk",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69167280772415,
+          "type": "chat",
+          "status": "active",
+          "title": "КУБАНЬ ЛУЧШИЙ  РЫНОК",
+          "participants_count": 726,
+          "link": "https://max.ru/join/o4ewPzDxVIkvTvtbSumapPaRd4gRL8ftIZKWpkLHSrM",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70631557084569,
+          "type": "chat",
+          "status": "active",
+          "title": "Доска Объявлений Краснодара и Краснодарского края",
+          "participants_count": 721,
+          "link": "https://max.ru/join/oNlHECZdhVWOEphk4CMqrukKf6j9BIQOavQaKNbigVo",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68087823876196,
+          "type": "chat",
+          "status": "active",
+          "title": "🟢АВИТО 🟢МАЙКОП & АДЫГЕЯ КРАСНОДАРСКИЙ КРАЙ",
+          "participants_count": 649,
+          "link": "https://max.ru/join/JWPC0HtbBO_1Dz9vd_qRHIdNPclX51CB4uQgE1k78zQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70219090392413,
+          "type": "chat",
+          "status": "active",
+          "title": "01/Краснодарский край БЕСПЛАТНАЯ реклама, ссылки взаимны",
+          "participants_count": 585,
+          "link": "https://max.ru/join/LffwcC3_wu9kWuQcxbJ5mHuYEGeayHr3SPKsNOtns90",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69203671911163,
+          "type": "chat",
+          "status": "active",
+          "title": "Прикубанский округ КРД",
+          "participants_count": 580,
+          "link": "https://max.ru/join/zjRqQbVq5ZpVaEQ_kELNnu2cBg06LG3Ym_Yf_KidetA",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68087937414568,
+          "type": "chat",
+          "status": "active",
+          "title": "🌟🌟🌟Краснодарский Край: ОБЪЯВЛЕНИЯ и ВЗАИМНЫЕ ссылки",
+          "participants_count": 548,
+          "link": "https://max.ru/join/j2t5XeqaMNH33he1s4K8QDXNOdhB-zUuxiYG3HroqPQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68114329580833,
+          "type": "chat",
+          "status": "active",
+          "title": "🧲(9)КРАСНОДАРСКИЙ КРАЙ",
+          "participants_count": 535,
+          "link": "https://max.ru/join/t-rSewbKHojyP_IqsTQFv9602Iqy_JzMfT8j5j7eVO0",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69640364823817,
+          "type": "chat",
+          "status": "active",
+          "title": "БАРАХОЛКА КРАСНОДАРА И ВСЕЙ КУБАНИ 🌻🌻🌻",
+          "participants_count": 535,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69876047066548,
+          "type": "chat",
+          "status": "active",
+          "title": "2. Объявления Краснодарский край",
+          "participants_count": 478,
+          "link": "https://max.ru/join/-Vw9x_BXkkq2MommX35C43bPRQoZjBX0M5k6xM6hyEQ",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71521872907529,
+          "type": "chat",
+          "status": "active",
+          "title": "НОВОРОССИЙСК ❤️ И ВСЯ КУБАНЬ 🌻🌻🌻",
+          "participants_count": 465,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70758535785115,
+          "type": "chat",
+          "status": "active",
+          "title": "Работа Краснодарский край",
+          "participants_count": 408,
+          "link": "https://max.ru/join/J1K306Z80mNClUYEIXFsxnS-wA9NRGLdgL9NgDvJ5dU",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69205378337531,
+          "type": "chat",
+          "status": "active",
+          "title": "Российский/Краснодарский КРД",
+          "participants_count": 400,
+          "link": "https://max.ru/join/Xa8IjnCstb1j6wBT_XMIVPk8szVIL899sGiaUzX2VGs",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68080684892383,
+          "type": "chat",
+          "status": "active",
+          "title": "📌 БАРАХОЛКА ПРИКУБАНСКИЙ",
+          "participants_count": 398,
+          "link": "https://max.ru/join/VXOWsHYDItcDpw8CkABVD0KO3SsW1it_ecPvlOD7Rnk",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68089616900157,
+          "type": "chat",
+          "status": "active",
+          "title": "Новости по Краснодарскому краю",
+          "participants_count": 377,
+          "link": "https://max.ru/join/h6czZRLm6DIjvJx1nSqptvRoTRqQPO3gZNz50_If9RY",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69311486550191,
+          "type": "chat",
+          "status": "active",
+          "title": "4️⃣📣 Прикубанка авито",
+          "participants_count": 345,
+          "link": "https://max.ru/join/df2rtOfLpNWvoTSJv7LEdukQF0R8WLGEexhfAV0Yyo0",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -69535701813777,
+          "type": "chat",
+          "status": "active",
+          "title": "⚡2 Краснодарский край  ‼️ объявления  ‼️",
+          "participants_count": 320,
+          "link": "https://max.ru/join/-F94YYMZr14zqxV37_ybVwVJdQG9LGJt-xW3_zt2oZ0",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71643054114823,
+          "type": "chat",
+          "status": "active",
+          "title": "АВТОРЫНОК | Краснодарский край",
+          "participants_count": 316,
+          "link": "https://max.ru/join/zfEhhRvNFcJsexUB0BJuXvY24GF3QOpOfJwIYbIHpe4",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68881384502627,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥НОВОКУБАНСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 309,
+          "link": "https://max.ru/join/Bi3iU2cWZyyV7OUjGeVEe9MW85ym8xFpQCcfPXlMQ7c",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -72803170471237,
+          "type": "chat",
+          "status": "active",
+          "title": "СК Комфорт|строительство и ремонт Краснодарский Край",
+          "participants_count": 302,
+          "link": "https://max.ru/join/4S-gZuM0KvPm0gfB0f5LGMbDlrFLPp7aNM0sBdsdL7s",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -69276141068301,
+          "type": "chat",
+          "status": "active",
+          "title": "АСТРАХАНЬ УЛ КУБАНСКАЯ .КУБАНСКИЙ МОСТ",
+          "participants_count": 261,
+          "link": "https://max.ru/join/2d5KfJDBWuA_Z52mReuhDOTapQ676ZCmu2tvXgZPU9o",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -70623036145896,
+          "type": "chat",
+          "status": "active",
+          "title": "🇷🇺БАРАХОЛКА (СТАНИЦЫ,РАЙОНЫ,ХУТОРА)КРАСНОДАРСКИЙ КРАЙ",
+          "participants_count": 243,
+          "link": "https://max.ru/join/7weNWL790iFNjMysL19BvbD_yJlJ4gOhebcYJvayxL8",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -71357769162801,
+          "type": "chat",
+          "status": "active",
+          "title": "Ярмарка кубани",
+          "participants_count": 216,
+          "link": "https://max.ru/join/HZy7_Hv8BKJbtZRM3e8VF1ksrwgyCNkH0SZOOTY8MeU",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -68690666220202,
+          "type": "chat",
+          "status": "active",
+          "title": "Прикубанка-лучшая!",
+          "participants_count": 188,
+          "link": "https://max.ru/join/ctb7WTo77zmM19H7f2oRiVGd2lIiTjEyvdFwvrh3m3s",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68214451563178,
+          "type": "chat",
+          "status": "active",
+          "title": "Прикубанский до 6 млн",
+          "participants_count": 187,
+          "link": "https://max.ru/join/I7_lbjzPmICcLqBxSlgtx3w3ymfz1I9-Tj3UfxqOiIs",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68095843068553,
+          "type": "chat",
+          "status": "active",
+          "title": "РАБОТА И УСЛУГИ КРАСНОДАРСКИЙ КРАЙ",
+          "participants_count": 183,
+          "link": "https://max.ru/join/AYHl2lpdrdAmxoL3YvHFUP_ImO751JEFcsfjgNcscTY",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71679134214796,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявление краснодарский край Адыгея",
+          "participants_count": 106,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -72243783458264,
+          "type": "chat",
+          "status": "active",
+          "title": "Недвижимость краснодарского края",
+          "participants_count": 71,
+          "link": "https://max.ru/join/6HKKNisQ0NYXsVDWSzoCxNPabWQ1uTKLTTM58cGosM0",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -69749953678048,
+          "type": "chat",
+          "status": "active",
+          "title": "Кубанские деликатесы!!!! Домашнее копчение!!!!",
+          "participants_count": 53,
+          "link": "https://max.ru/join/xMO7WalH-2TphCqEEEnqAXat4LSPV-HVqtD3kjbLoRg",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN3"
+          ]
+        },
+        {
+          "chat_id": -71976624976089,
+          "type": "chat",
+          "status": "active",
+          "title": "Рай это краснодарский край",
+          "participants_count": 33,
+          "link": "https://max.ru/join/CNJ4WIEU6b4eO73RXv9HvDu_sVymu78w06DgIMAO5PU",
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -73174309138649,
+          "type": "chat",
+          "status": "active",
+          "title": "Славянск-на-кубани доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Краснодарский край / общие",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        }
+      ]
+    },
+    "Горячий Ключ": {
+      "chats_count": 3,
+      "chats": [
+        {
+          "chat_id": -71493145672392,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣1️⃣8️⃣💯👋💯Горячий Ключ  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "participants_count": 1516,
+          "link": null,
+          "locality": "Горячий Ключ",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        },
+        {
+          "chat_id": -68880950916451,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ГОРЯЧИЙ КЛЮЧ ОБЪЯВЛЕНИЯ",
+          "participants_count": 270,
+          "link": "https://max.ru/join/8fjHSHGnCamMSbW1VP8Z_uBNLD96Noju5XPTUxfyLGY",
+          "locality": "Горячий Ключ",
+          "visible_via_tokens": [
+            "BOT_TOKEN2"
+          ]
+        },
+        {
+          "chat_id": -73174159651033,
+          "type": "chat",
+          "status": "active",
+          "title": "Горячий Ключ доска бесплатных объявлений",
+          "participants_count": 3,
+          "link": null,
+          "locality": "Горячий Ключ",
+          "visible_via_tokens": [
+            "BOT_TOKEN4"
+          ]
+        }
+      ]
+    }
+  }
+}

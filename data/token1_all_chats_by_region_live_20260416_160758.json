@@ -1,0 +1,525 @@
+{
+  "ok": true,
+  "generated_at": "2026-04-16T13:07:58.531Z",
+  "env_file": "/tmp/tmp.8bHVfQZcCY",
+  "token_envs": [
+    "BOT_TOKEN"
+  ],
+  "failed_tokens": [],
+  "scan_results": [
+    {
+      "token_env": "BOT_TOKEN",
+      "bot": {
+        "user_id": 269932414,
+        "username": "id613070470872_bot",
+        "name": "Интелликс"
+      },
+      "all_chats_visible_to_bot": 39,
+      "active_target_type_chats": 33,
+      "pages": 1
+    }
+  ],
+  "unique_chats_count": 33,
+  "classified_chats_count": 9,
+  "unclassified_chats_count": 24,
+  "grouped_by_region": {
+    "Не распределено": {
+      "subject_type": null,
+      "chats_count": 24,
+      "chats": [
+        {
+          "chat_id": -73509988855274,
+          "type": "chat",
+          "status": "active",
+          "title": "Рыба и морепродукты 1",
+          "participants_count": 6896,
+          "link": null,
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73479063303535,
+          "type": "chat",
+          "status": "active",
+          "title": "Финансы поют романсы",
+          "participants_count": 5668,
+          "link": "https://max.ru/join/Zo0LsHWMQtvwP_xdmrO75ZHzfiL131H_IbMuO8sHK50",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -72669169736293,
+          "type": "chat",
+          "status": "active",
+          "title": "Быстрые деньги",
+          "participants_count": 3882,
+          "link": "https://max.ru/join/yA1rkv6vAMGWD1r8qdXkO9FqCrnAU1z6GwTGsv0frfE",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73511362489834,
+          "type": "chat",
+          "status": "active",
+          "title": "Говядина оптом 2",
+          "participants_count": 2929,
+          "link": null,
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73557264312972,
+          "type": "chat",
+          "status": "active",
+          "title": "Смарт Синтез",
+          "participants_count": 2906,
+          "link": "https://max.ru/join/j_obH4PZ9uMFd7f_bGGOa6O9uE8U6mFh5fqP9YzQioI",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73586817772172,
+          "type": "chat",
+          "status": "active",
+          "title": "Бонус",
+          "participants_count": 1980,
+          "link": "https://max.ru/join/6fqrmrtmXyIGWs-zdDc6SiUaRg_hvFeeUfdINfE0r24",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73310779358518,
+          "type": "chat",
+          "status": "active",
+          "title": "Ирина Щербакова",
+          "participants_count": 1760,
+          "link": "https://max.ru/join/ztXGkmFdrR_DVZxAJiumImCvmmdnmzKmF3CgTEZAzsI",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68838439048637,
+          "type": "chat",
+          "status": "active",
+          "title": "МОСТОВСКОЙ РАЙОН",
+          "participants_count": 1051,
+          "link": "https://max.ru/join/kqeYS-CRbMIehDj_SwhV-LdV2u1Ma98Gub-oQNcpsMs",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68841008343692,
+          "type": "chat",
+          "status": "active",
+          "title": "🩵Ст ВЛАДИМИРСКАЯ🩵РОДНАЯ СТАНИЦА🩵",
+          "participants_count": 444,
+          "link": "https://max.ru/join/5DfZ1xJ5E38dKlJaT7d6YjnjneHNyqxl2P7ACt5Fu4Y",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69396984640792,
+          "type": "chat",
+          "status": "active",
+          "title": "Sarafan_fashion_lab",
+          "participants_count": 361,
+          "link": "https://max.ru/join/tOjhZNM56FdUEGhH_L7dBcF7V5-ikz7c1xm88AQrZSY",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68881369560419,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥МОСТОВСКОЙ ОБЪЯВЛЕНИЯ",
+          "participants_count": 281,
+          "link": "https://max.ru/join/zQ71k_8G_fHL5n2sqUSg-P1dp2e1JRauOxOHoYL3Hqs",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -72907270829486,
+          "type": "chat",
+          "status": "active",
+          "title": "ЮЛА Мостовской бесплатные объявления поблизости",
+          "participants_count": 226,
+          "link": "https://max.ru/join/HczZ1bmXXzavT3vRuXYY6d7XeRF2kOAkWIOuZ83AVJw",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69486446805218,
+          "type": "chat",
+          "status": "active",
+          "title": "🔔ПЕРЕПРАВНАЯ, УЗЛОВАЯ, БАГОВСКАЯ  и прлег. районны🔔",
+          "participants_count": 222,
+          "link": "https://max.ru/join/9GxKqcZ7MkAI0FPiEfioNTlVAA3VT0nNt_ua4tcFeXo",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -70189806848520,
+          "type": "chat",
+          "status": "active",
+          "title": "🔴🔴🔴2️⃣ОБЪЯВЛЕНИЯ И ССЫЛКИ",
+          "participants_count": 206,
+          "link": "https://max.ru/join/CFrKbxbVvF_rtPI9GTVa4AS2L15TYDTEbPbVBqW1CUg",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -70878416748644,
+          "type": "chat",
+          "status": "active",
+          "title": "73🔵🔵🔵п.МОСТОВСКОЙ И РАЙОН БАРАХОЛКА,КУПИ -ПРОДАЙ!!!",
+          "participants_count": 174,
+          "link": "https://max.ru/join/Ckd51G0lkKBfzRR0jztRwMJJcC2bcmQCo6mqW2A3kns",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69498874740857,
+          "type": "chat",
+          "status": "active",
+          "title": "Волшебная лавка. Мостовской район.",
+          "participants_count": 164,
+          "link": "https://max.ru/join/VJqiTc5C7WkwL91MklBdDfL62VXE5dfascJliUhT3Zw",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68850480065164,
+          "type": "chat",
+          "status": "active",
+          "title": "🩵МОСТОВСКИЙ,🩵ЗАСОВСКАЯ🩵,ЩЕДОК🩵,ПСЕБАЙ🩵Обявления.услуги",
+          "participants_count": 111,
+          "link": "https://max.ru/join/ghGCHaviU0YAJzhCCiYeFFjyzBqkqY_WHA4dROWCPoQ",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69803346684511,
+          "type": "chat",
+          "status": "active",
+          "title": "Магазин СМАК Псебай",
+          "participants_count": 99,
+          "link": "https://max.ru/join/3JAc5jqQPsEch3Lk2imC1L06QSQwzMqsLY25If3BecU",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68850232863372,
+          "type": "chat",
+          "status": "active",
+          "title": "🩵НАТЫРБОВО🩵,",
+          "participants_count": 59,
+          "link": "https://max.ru/join/eqfr8QDH821mVLXLI0xpbKYrBMYS0dPrmYhXF7VIB1Y",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -70517317681279,
+          "type": "chat",
+          "status": "active",
+          "title": "Всё о комнатных и уличных растениях. Псебай",
+          "participants_count": 38,
+          "link": "https://max.ru/join/JNx2ExOu0-OKlZj_Z4BNYM4UZ6I8myV4y6xmkPwTPzM",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -72762661451185,
+          "type": "chat",
+          "status": "active",
+          "title": "ПРОзапуски | Чат экспертов",
+          "participants_count": 9,
+          "link": "https://max.ru/join/taOryCSphdupT8ukt0pJyevnjeu3wRse8K3z577aeGw",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73511348399594,
+          "type": "chat",
+          "status": "active",
+          "title": "Говядина оптом",
+          "participants_count": 4,
+          "link": "https://max.ru/join/h1dsvs1dKUzH1yuk_SXhA4pZMx_3PVeNx7fQJazNMgg",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73561242318957,
+          "type": "chat",
+          "status": "active",
+          "title": "Тест",
+          "participants_count": 3,
+          "link": "https://max.ru/join/8s6gvah5IakoIMcuntbxwYYnRP2yXcOAlxacnSffyvk",
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -73556186638988,
+          "type": "chat",
+          "status": "active",
+          "title": "Интересно 1",
+          "participants_count": 2,
+          "link": null,
+          "region": "Не распределено",
+          "subject_type": null,
+          "matched_regions": [],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        }
+      ]
+    },
+    "Краснодарский край": {
+      "subject_type": "край",
+      "chats_count": 8,
+      "chats": [
+        {
+          "chat_id": -68959045702990,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Лабинск ...",
+          "participants_count": 1625,
+          "link": "https://max.ru/join/yLLw76bJAylim54sEcJq7PRiIOQNrVKWOJu6wEcdAxg",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69591684224511,
+          "type": "chat",
+          "status": "active",
+          "title": "ЛАБИНСК НАРОДНЫЙ МАГАЗИН",
+          "participants_count": 818,
+          "link": "https://max.ru/join/qAEr3Jcal7pxF0k6FMDi8qc5f7o3_MXz_w7Jrhnz9Sc",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68853767962850,
+          "type": "chat",
+          "status": "active",
+          "title": "🔔СТ. ВЛАДИМИРСКАЯ и ЛАБИНСК 🔔Обьявления и Услуги 🔔",
+          "participants_count": 565,
+          "link": "https://max.ru/join/9RsZC9Uges2mEGVWWjtU0TM8BIg8Lm7RpjU9mQhjZ7U",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68848820344253,
+          "type": "chat",
+          "status": "active",
+          "title": "ЛАБИНСКИЙ РАЙОН",
+          "participants_count": 520,
+          "link": "https://max.ru/join/0D81aAVlITMIDekI2WQwbhybD_m8hw3EA4k_X_K4p5g",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68085416782503,
+          "type": "chat",
+          "status": "active",
+          "title": "🪗ЛАБИНСК🪗",
+          "participants_count": 400,
+          "link": "https://max.ru/join/9Pc1ap5MdaChJLctMKDr9YLKgdOAAzOPn2Etm5UU0VA",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68879815177571,
+          "type": "chat",
+          "status": "active",
+          "title": "🔥🔥ЛАБИНСК ОБЪЯВЛЕНИЯ",
+          "participants_count": 368,
+          "link": "https://max.ru/join/55lz7lR9EFccDDvOx0_3WB5GEGhHPw4hSiUSNZsvVFc",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -68850084424332,
+          "type": "chat",
+          "status": "active",
+          "title": "🩵ПРОДАЖИ🩵ЛАБИНСК🩵Вольное🩵",
+          "participants_count": 273,
+          "link": "https://max.ru/join/GPQRRHOSFhuRsGeS7GCQ4VhY8worzB_BiIimVJxQyUo",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        },
+        {
+          "chat_id": -69648542870156,
+          "type": "chat",
+          "status": "active",
+          "title": "🩵 ВОЛЬНОЕ, 🩵ЛАБИНСК🩵 ,АДЫГЕЯ🩵",
+          "participants_count": 195,
+          "link": "https://max.ru/join/2sZmqOnVLqivtsspANlw_RIIPh9reJJi1iDR1_D_Okc",
+          "region": "Краснодарский край",
+          "subject_type": "край",
+          "matched_regions": [
+            "Краснодарский край"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        }
+      ]
+    },
+    "Республика Татарстан": {
+      "subject_type": "республика",
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -71195382773235,
+          "type": "chat",
+          "status": "active",
+          "title": "Афиша || Казань 🇷🇺",
+          "participants_count": 6386,
+          "link": null,
+          "region": "Республика Татарстан",
+          "subject_type": "республика",
+          "matched_regions": [
+            "Республика Татарстан"
+          ],
+          "visible_via_tokens": [
+            "BOT_TOKEN"
+          ]
+        }
+      ]
+    }
+  }
+}

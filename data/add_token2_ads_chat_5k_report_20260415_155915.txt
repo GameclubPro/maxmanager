@@ -1,0 +1,8 @@
+Token2 add report (Бесплатные объявления, 5000 new unmarked IDs)
+ok=true
+processed=5000 verified_added=4528 still_missing=472 waves=5 nonzero_exit=0
+- wave start=0 count=1000 added=910 still_missing=90 exit=0
+- wave start=1000 count=1000 added=906 still_missing=94 exit=0
+- wave start=2000 count=1000 added=899 still_missing=101 exit=0
+- wave start=3000 count=1000 added=898 still_missing=102 exit=0
+- wave start=4000 count=1000 added=915 still_missing=85 exit=0

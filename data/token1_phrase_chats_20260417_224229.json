@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-04-17T19:42:29.035Z",
+  "token_env": "BOT_TOKEN1",
+  "bot": {
+    "user_id": 269932414,
+    "username": "id613070470872_bot",
+    "name": "Интелликс"
+  },
+  "phrases": [
+    "БЕЗДЕПЫ ДЛЯ ТЕБЯ",
+    "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+    "ЛОВИ БЕЗДЕП БОНУСЯКИ",
+    "БОНУСЫ ИГРОКАМ"
+  ],
+  "total_visible_chats": 46,
+  "total_active_type_chat": 36,
+  "matched_count": 4,
+  "matched": [
+    {
+      "chat_id": -73653365816026,
+      "title": "БОНУСЫ ИГРОКАМ ",
+      "participants_count": 106,
+      "matched_phrases": [
+        "БОНУСЫ ИГРОКАМ"
+      ]
+    },
+    {
+      "chat_id": -73652908047066,
+      "title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "participants_count": 100,
+      "matched_phrases": [
+        "ХВАТАЙ БЕЗДЕП БОНУСЫ"
+      ]
+    },
+    {
+      "chat_id": -73653132442330,
+      "title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "participants_count": 100,
+      "matched_phrases": [
+        "БЕЗДЕПЫ ДЛЯ ТЕБЯ"
+      ]
+    },
+    {
+      "chat_id": -73653253225178,
+      "title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "participants_count": 97,
+      "matched_phrases": [
+        "ЛОВИ БЕЗДЕП БОНУСЯКИ"
+      ]
+    }
+  ]
+}

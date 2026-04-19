@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/трупы",
+  "target_chat_id": -73607469415737,
+  "token_env": "BOT_TOKEN1",
+  "start_index_0_based": 0,
+  "count": 300,
+  "range_human": "1-300",
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_trupy_to_73607469415737_token1_1_300_20260416_223442.txt",
+  "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73607469415737_1_300_20260416193247_result.json",
+  "still_missing_file": "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_members_to_73607469415737_1_300_20260416193247.txt",
+  "created_at": "2026-04-16T19:34:42Z"
+}

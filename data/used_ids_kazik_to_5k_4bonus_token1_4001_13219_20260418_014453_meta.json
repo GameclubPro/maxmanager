@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "created_at": "2026-04-17T22:44:56.519450Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/казик",
+  "token_env": "BOT_TOKEN1",
+  "task_marker": "2026-04-18T00:36:40+03:00",
+  "reserved_range_0_based": {
+    "from_inclusive": 4000,
+    "to_exclusive": 13219
+  },
+  "reserved_range_human": "4001-13219",
+  "reserved_count": 9219,
+  "note": "Range includes conservative reserved interrupted chunk 6070-7069 to avoid possible reuse.",
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_kazik_to_5k_4bonus_token1_4001_13219_20260418_014453.txt",
+  "result_files_count": 26,
+  "result_files": [
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_4001_5000_20260417213708_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_5001_5865_20260417214357_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_5866_6069_20260417214907_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_7070_8069_20260417215241_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_8070_8858_20260417215931_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_8859_9028_20260417220413_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_9029_10028_20260417220523_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_10029_10884_20260417221218_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_10885_11068_20260417221729_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_11069_12068_20260417221847_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_12069_12986_20260417222539_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_12987_13132_20260417223103_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13133_13169_20260417223206_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13170_13174_20260417223231_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13175_13177_20260417223246_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13178_13200_20260417223726_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13201_13205_20260417223818_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13206_13206_20260417223833_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13207_13207_20260417223912_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13208_13209_20260417223945_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13210_13210_20260417224016_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13211_13211_20260417224050_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13212_13214_20260417224122_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13215_13216_20260417224308_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_13217_13217_20260417224322_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_13218_13219_20260417224355_result.json"
+  ],
+  "per_chat_totals": {
+    "-73653132442330": {
+      "runs": [
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_4001_5000_20260417213708_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_5001_5865_20260417214357_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_5866_6069_20260417214907_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13211_13211_20260417224050_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13212_13214_20260417224122_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_13215_13216_20260417224308_result.json"
+      ],
+      "processed_count": 2075,
+      "attempted_invite_count": 2075,
+      "verified_added_count": 1930,
+      "still_missing_count": 145
+    },
+    "-73652908047066": {
+      "runs": [
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_7070_8069_20260417215241_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_8070_8858_20260417215931_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_8859_9028_20260417220413_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13207_13207_20260417223912_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13208_13209_20260417223945_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_13210_13210_20260417224016_result.json"
+      ],
+      "processed_count": 1963,
+      "attempted_invite_count": 1963,
+      "verified_added_count": 1840,
+      "still_missing_count": 123
+    },
+    "-73653253225178": {
+      "runs": [
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_9029_10028_20260417220523_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_10029_10884_20260417221218_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_10885_11068_20260417221729_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_13217_13217_20260417224322_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_13218_13219_20260417224355_result.json"
+      ],
+      "processed_count": 2043,
+      "attempted_invite_count": 2043,
+      "verified_added_count": 1917,
+      "still_missing_count": 126
+    },
+    "-73653365816026": {
+      "runs": [
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_11069_12068_20260417221847_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_12069_12986_20260417222539_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_12987_13132_20260417223103_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13133_13169_20260417223206_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13170_13174_20260417223231_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13175_13177_20260417223246_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13178_13200_20260417223726_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13201_13205_20260417223818_result.json",
+        "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_13206_13206_20260417223833_result.json"
+      ],
+      "processed_count": 2138,
+      "attempted_invite_count": 2138,
+      "verified_added_count": 1996,
+      "still_missing_count": 142
+    }
+  },
+  "final_live_counts": {
+    "-73653132442330": {
+      "participants_count": 4999,
+      "title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ "
+    },
+    "-73652908047066": {
+      "participants_count": 5002,
+      "title": "ХВАТАЙ БЕЗДЕП БОНУСЫ"
+    },
+    "-73653253225178": {
+      "participants_count": 4999,
+      "title": "ЛОВИ БЕЗДЕП БОНУСЯКИ "
+    },
+    "-73653365816026": {
+      "participants_count": 4999,
+      "title": "БОНУСЫ ИГРОКАМ "
+    }
+  }
+}

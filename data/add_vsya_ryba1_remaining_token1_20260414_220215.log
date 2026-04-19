@@ -1,0 +1,150 @@
+[start] 2026-04-14T22:02:15+03:00 source=Вся рыба (1).txt target=-73509988855274 total=5937 start=2000 remaining=3937
+
+[wave 1] 2026-04-14T22:02:15+03:00 start=2000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Вся рыба (1).txt --target-chat-id -73509988855274 --start 2000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --progress-every 100
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 4818 members across 49 pages
+[run] Inviting 1000 users to chat -73509988855274 in batches of 10 (100 calls)...
+[run] Progress: 100/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Вся рыба (1).txt",
+  "target_chat_id": -73509988855274,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 966,
+  "still_not_in_target_from_this_chunk_count": 34,
+  "before_participants_count": 4818,
+  "after_participants_count": 5773,
+  "result_file": "data/add_1_to_73509988855274_2001_3000_20260414190215_result.json",
+  "still_missing_file": "data/still_missing_1_to_73509988855274_2001_3000_20260414190215.txt"
+}
+[pause] 2026-04-14T22:08:32+03:00 sleeping 60s before next wave
+
+[wave 2] 2026-04-14T22:09:32+03:00 start=3000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Вся рыба (1).txt --target-chat-id -73509988855274 --start 3000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --progress-every 100
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 5769 members across 58 pages
+[run] Inviting 1000 users to chat -73509988855274 in batches of 10 (100 calls)...
+[run] Progress: 100/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Вся рыба (1).txt",
+  "target_chat_id": -73509988855274,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 924,
+  "still_not_in_target_from_this_chunk_count": 76,
+  "before_participants_count": 5771,
+  "after_participants_count": 6675,
+  "result_file": "data/add_1_to_73509988855274_3001_4000_20260414190932_result.json",
+  "still_missing_file": "data/still_missing_1_to_73509988855274_3001_4000_20260414190932.txt"
+}
+[pause] 2026-04-14T22:15:52+03:00 sleeping 60s before next wave
+
+[wave 3] 2026-04-14T22:16:52+03:00 start=4000 count=1000
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Вся рыба (1).txt --target-chat-id -73509988855274 --start 4000 --count 1000 --invite-batch-size 10 --pause-ms 3000 --progress-every 100
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 6669 members across 67 pages
+[run] Inviting 1000 users to chat -73509988855274 in batches of 10 (100 calls)...
+[run] Progress: 100/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 900/1000 users
+[run] Progress: 1000/1000 users
+[run] Verifying membership for 1000 users...
+{
+  "ok": true,
+  "source_file": "Вся рыба (1).txt",
+  "target_chat_id": -73509988855274,
+  "processed_count": 1000,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 1000,
+  "invited_without_immediate_failure_count": 1000,
+  "verified_added_count": 927,
+  "still_not_in_target_from_this_chunk_count": 73,
+  "before_participants_count": 6673,
+  "after_participants_count": 7534,
+  "result_file": "data/add_1_to_73509988855274_4001_5000_20260414191652_result.json",
+  "still_missing_file": "data/still_missing_1_to_73509988855274_4001_5000_20260414191652.txt"
+}
+[pause] 2026-04-14T22:23:14+03:00 sleeping 60s before next wave
+
+[wave 4] 2026-04-14T22:24:14+03:00 start=5000 count=937
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file Вся рыба (1).txt --target-chat-id -73509988855274 --start 5000 --count 937 --invite-batch-size 10 --pause-ms 3000 --progress-every 100
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 7572 members across 76 pages
+[run] Inviting 936 users to chat -73509988855274 in batches of 10 (94 calls)...
+[run] Progress: 100/936 users
+[run] Progress: 200/936 users
+[run] Progress: 300/936 users
+[run] Progress: 400/936 users
+[run] Progress: 500/936 users
+[run] Progress: 600/936 users
+[run] Progress: 700/936 users
+[run] Progress: 800/936 users
+[run] Progress: 900/936 users
+[run] Progress: 936/936 users
+[run] Verifying membership for 937 users...
+{
+  "ok": true,
+  "source_file": "Вся рыба (1).txt",
+  "target_chat_id": -73509988855274,
+  "processed_count": 937,
+  "already_in_target_count": 1,
+  "attempted_invite_count": 936,
+  "invited_without_immediate_failure_count": 936,
+  "verified_added_count": 874,
+  "still_not_in_target_from_this_chunk_count": 62,
+  "before_participants_count": 7573,
+  "after_participants_count": 8413,
+  "result_file": "data/add_1_to_73509988855274_5001_5937_20260414192414_result.json",
+  "still_missing_file": "data/still_missing_1_to_73509988855274_5001_5937_20260414192414.txt"
+}
+
+[done] 2026-04-14T22:30:14+03:00 all remaining processed log=data/add_vsya_ryba1_remaining_token1_20260414_220215.log

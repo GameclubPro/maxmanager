@@ -1,0 +1,3 @@
+wave	ts_start	ts_end	start	count	exit_code	processed	already_in_target	attempted	verified_added	still_missing	cum_verified_new	cum_verified_total	result_file	missing_file
+1	2026-04-15T18:39:24+03:00	2026-04-15T18:44:02+03:00	0	1000	0	1000	238	762	713	49	713	4492	data/add_k1504_21k_topup_to_71195382773235_0_1000_20260415_183924_result.json	data/still_missing_k1504_21k_topup_to_71195382773235_0_1000_20260415_183924.txt
+2	2026-04-15T18:45:00+03:00	2026-04-15T18:48:53+03:00	1000	1000	0	1000	373	627	584	43	1297	5076	data/add_k1504_21k_topup_to_71195382773235_1000_2000_20260415_183924_result.json	data/still_missing_k1504_21k_topup_to_71195382773235_1000_2000_20260415_183924.txt

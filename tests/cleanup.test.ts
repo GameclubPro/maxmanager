@@ -73,7 +73,7 @@ describe('cleanup service', () => {
     await cleanup.run(now);
 
     expect(repos.pendingRejoins.listDue(now + 1_000, 10)).toHaveLength(0);
-    const dueAfterRetryDelay = repos.pendingRejoins.listDue(now + 11 * 60 * 1000, 10);
+    const dueAfterRetryDelay = repos.pendingRejoins.listDue(now + 8 * 60 * 1000, 10);
     expect(dueAfterRetryDelay).toHaveLength(1);
     expect(dueAfterRetryDelay[0].chatId).toBe(300);
     expect(dueAfterRetryDelay[0].userId).toBe(400);

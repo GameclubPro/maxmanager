@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "summary_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_token2_chat_5k_summary_20260415_134338.tsv",
+  "progress_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_marked_progress_20260415_134338.tsv",
+  "assignment_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_assignment_20260415_token2_5k_split.tsv",
+  "combined_mapping_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_27500_marked_combined_20260415_134338.tsv",
+  "totals": {
+    "waves": 5,
+    "processed": 5000,
+    "verified_added": 4577,
+    "still_missing": 423,
+    "nonzero_exit": 0
+  },
+  "per_wave": [
+    {
+      "ts_start": "2026-04-15T13:43:38+03:00",
+      "ts_end": "2026-04-15T13:49:17+03:00",
+      "chat_id": -73531404989116,
+      "source_file": "data/token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split.txt",
+      "start": 0,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 921,
+      "still_missing": 79,
+      "result_file": "data/add_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_1_1000_20260415104339_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_1_1000_20260415104339.txt"
+    },
+    {
+      "ts_start": "2026-04-15T13:50:15+03:00",
+      "ts_end": "2026-04-15T13:55:51+03:00",
+      "chat_id": -73531404989116,
+      "source_file": "data/token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split.txt",
+      "start": 1000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 895,
+      "still_missing": 105,
+      "result_file": "data/add_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_1001_2000_20260415105015_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_1001_2000_20260415105015.txt"
+    },
+    {
+      "ts_start": "2026-04-15T13:56:51+03:00",
+      "ts_end": "2026-04-15T14:02:31+03:00",
+      "chat_id": -73531404989116,
+      "source_file": "data/token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split.txt",
+      "start": 2000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 923,
+      "still_missing": 77,
+      "result_file": "data/add_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_2001_3000_20260415105651_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_2001_3000_20260415105651.txt"
+    },
+    {
+      "ts_start": "2026-04-15T14:03:29+03:00",
+      "ts_end": "2026-04-15T14:09:24+03:00",
+      "chat_id": -73531404989116,
+      "source_file": "data/token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split.txt",
+      "start": 3000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 918,
+      "still_missing": 82,
+      "result_file": "data/add_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_3001_4000_20260415110329_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_3001_4000_20260415110329.txt"
+    },
+    {
+      "ts_start": "2026-04-15T14:10:23+03:00",
+      "ts_end": "2026-04-15T14:16:06+03:00",
+      "chat_id": -73531404989116,
+      "source_file": "data/token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split.txt",
+      "start": 4000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 920,
+      "still_missing": 80,
+      "result_file": "data/add_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_4001_5000_20260415111022_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73531404989116_5000_20260415_token2_5k_split_to_73531404989116_4001_5000_20260415111022.txt"
+    }
+  ]
+}

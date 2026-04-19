@@ -1,0 +1,617 @@
+{
+  "generated_at": "2026-03-12T17:26:55.449Z",
+  "search_terms": [
+    "уфа",
+    "уфим",
+    "уфимск",
+    "сипайл",
+    "сипайл",
+    "затон",
+    "дема",
+    "дема",
+    "дёма",
+    "инорс",
+    "черник",
+    "шакш",
+    "нагаев",
+    "зубов",
+    "чеснок",
+    "булгак",
+    "михайл",
+    "авдон",
+    "алексеев",
+    "юмат",
+    "иглин",
+    "иглино",
+    "чишм",
+    "давлек",
+    "раевк",
+    "башкир",
+    "башкор",
+    "рб",
+    "кармаскал",
+    "благовар",
+    "благовещен"
+  ],
+  "total_unique_matched_chats": 26,
+  "per_token": [
+    {
+      "token_env": "BOT_TOKEN",
+      "scanned_chats_count": 16,
+      "scanned_pages": 1,
+      "matched_chats_count": 1,
+      "matched_chats": [
+        {
+          "chat_id": -71443525791210,
+          "title": "Уфа Объявления | Новости",
+          "participants_count": 11205,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        }
+      ]
+    },
+    {
+      "token_env": "BOT_TOKEN2",
+      "scanned_chats_count": 429,
+      "scanned_pages": 5,
+      "matched_chats_count": 25,
+      "matched_chats": [
+        {
+          "chat_id": -69901374745189,
+          "title": "Объявления Уфа Online",
+          "participants_count": 750,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68522576964179,
+          "title": "Уфа. ЧАСТНЫЕ ОБЪЯВЛЕНИЯ ✅",
+          "participants_count": 746,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68798876251488,
+          "title": "Ссылки, Реклама Уфа.",
+          "participants_count": 193,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -69238086478410,
+          "title": "Барахолка уфа",
+          "participants_count": 1115,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -69299405043118,
+          "title": "Барахолка. Нагаево, Алаторка , Иглино, Нуриман , Павловка",
+          "participants_count": 1012,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "нагаев",
+            "иглин",
+            "иглино"
+          ]
+        },
+        {
+          "chat_id": -68907463357729,
+          "title": "Бесплатная Барахолка Староминская Старощербиновская 123",
+          "participants_count": 1164,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -69752807025271,
+          "title": "УФА,поселок 8 марта, жк Сосны,жк 8 марта,Затон",
+          "participants_count": 193,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа",
+            "затон"
+          ]
+        },
+        {
+          "chat_id": -68096774275292,
+          "title": "Услуги и товары Уфа",
+          "participants_count": 388,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -70856370891308,
+          "title": "Авито Уфа",
+          "participants_count": 278,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68169065379114,
+          "title": "💸Уфимский р-он: Зубово - Чесноковка-Булгаково",
+          "participants_count": 223,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфим",
+            "уфимск",
+            "зубов",
+            "чеснок",
+            "булгак"
+          ]
+        },
+        {
+          "chat_id": -70557308706976,
+          "title": "Барахолка БЛАГОВАРСКИЙ район",
+          "participants_count": 733,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "благовар"
+          ]
+        },
+        {
+          "chat_id": -71762258794533,
+          "title": "Санкт-Петербург | Объявления",
+          "participants_count": 68,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -69455378374807,
+          "title": "Работа, подработка для всех РБ",
+          "participants_count": 578,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -69489977928320,
+          "title": "Советская - Бесскорбная ОБЪЯВЛЕНИЯ",
+          "participants_count": 2363,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -71391539505708,
+          "title": "Авито Башкортостан",
+          "participants_count": 171,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "башкор"
+          ]
+        },
+        {
+          "chat_id": -70334192413351,
+          "title": "📚МИХАЙЛОВСКАЯ 📚",
+          "participants_count": 226,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "михайл"
+          ]
+        },
+        {
+          "chat_id": -69985199680053,
+          "title": "Работа по Михайловской.  1",
+          "participants_count": 457,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "михайл"
+          ]
+        },
+        {
+          "chat_id": -69453917642903,
+          "title": "Авито  РБ, РТ  Уфв-Казань",
+          "participants_count": 649,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -69615849534828,
+          "title": "꧁✰ПЕТЕРБУРГ ОБЪЯВЛЕНИЯ✰꧂",
+          "participants_count": 248,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -70557934147014,
+          "title": "УФА РАБОТА, ПОДРАБОТКА",
+          "participants_count": 251,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68449615115616,
+          "title": "Халтура Уфа.",
+          "participants_count": 542,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "уфа"
+          ]
+        },
+        {
+          "chat_id": -68316535259383,
+          "title": "ЛЮБИМЫЙ ГОРОД ДАВЛЕКАНОВО.🌍",
+          "participants_count": 306,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "давлек"
+          ]
+        },
+        {
+          "chat_id": -69666988100275,
+          "title": "АНТИ ДПС БЕССКОРБНАЯ-СОВЕТСКАЯ😎",
+          "participants_count": 1069,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        },
+        {
+          "chat_id": -70082485679591,
+          "title": "Барахолка Благовещенкв",
+          "participants_count": 1735,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "благовещен"
+          ]
+        },
+        {
+          "chat_id": -71397414024496,
+          "title": "Новостройки Петербурга | Бесплатный подбор из 400 ЖК",
+          "participants_count": 336,
+          "type": "chat",
+          "status": "active",
+          "matched_terms": [
+            "рб"
+          ]
+        }
+      ]
+    }
+  ],
+  "combined_chats": [
+    {
+      "chat_id": -71443525791210,
+      "title": "Уфа Объявления | Новости",
+      "participants_count": 11205,
+      "visible_in_tokens": [
+        "BOT_TOKEN"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69489977928320,
+      "title": "Советская - Бесскорбная ОБЪЯВЛЕНИЯ",
+      "participants_count": 2363,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -70082485679591,
+      "title": "Барахолка Благовещенкв",
+      "participants_count": 1735,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "благовещен"
+      ]
+    },
+    {
+      "chat_id": -68907463357729,
+      "title": "Бесплатная Барахолка Староминская Старощербиновская 123",
+      "participants_count": 1164,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -69238086478410,
+      "title": "Барахолка уфа",
+      "participants_count": 1115,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69666988100275,
+      "title": "АНТИ ДПС БЕССКОРБНАЯ-СОВЕТСКАЯ😎",
+      "participants_count": 1069,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -69299405043118,
+      "title": "Барахолка. Нагаево, Алаторка , Иглино, Нуриман , Павловка",
+      "participants_count": 1012,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "иглин",
+        "иглино",
+        "нагаев"
+      ]
+    },
+    {
+      "chat_id": -69901374745189,
+      "title": "Объявления Уфа Online",
+      "participants_count": 750,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -68522576964179,
+      "title": "Уфа. ЧАСТНЫЕ ОБЪЯВЛЕНИЯ ✅",
+      "participants_count": 746,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -70557308706976,
+      "title": "Барахолка БЛАГОВАРСКИЙ район",
+      "participants_count": 733,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "благовар"
+      ]
+    },
+    {
+      "chat_id": -69453917642903,
+      "title": "Авито  РБ, РТ  Уфв-Казань",
+      "participants_count": 649,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -69455378374807,
+      "title": "Работа, подработка для всех РБ",
+      "participants_count": 578,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -68449615115616,
+      "title": "Халтура Уфа.",
+      "participants_count": 542,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69985199680053,
+      "title": "Работа по Михайловской.  1",
+      "participants_count": 457,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "михайл"
+      ]
+    },
+    {
+      "chat_id": -68096774275292,
+      "title": "Услуги и товары Уфа",
+      "participants_count": 388,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -71397414024496,
+      "title": "Новостройки Петербурга | Бесплатный подбор из 400 ЖК",
+      "participants_count": 336,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -68316535259383,
+      "title": "ЛЮБИМЫЙ ГОРОД ДАВЛЕКАНОВО.🌍",
+      "participants_count": 306,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "давлек"
+      ]
+    },
+    {
+      "chat_id": -70856370891308,
+      "title": "Авито Уфа",
+      "participants_count": 278,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -70557934147014,
+      "title": "УФА РАБОТА, ПОДРАБОТКА",
+      "participants_count": 251,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69615849534828,
+      "title": "꧁✰ПЕТЕРБУРГ ОБЪЯВЛЕНИЯ✰꧂",
+      "participants_count": 248,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    },
+    {
+      "chat_id": -70334192413351,
+      "title": "📚МИХАЙЛОВСКАЯ 📚",
+      "participants_count": 226,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "михайл"
+      ]
+    },
+    {
+      "chat_id": -68169065379114,
+      "title": "💸Уфимский р-он: Зубово - Чесноковка-Булгаково",
+      "participants_count": 223,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "булгак",
+        "зубов",
+        "уфим",
+        "уфимск",
+        "чеснок"
+      ]
+    },
+    {
+      "chat_id": -68798876251488,
+      "title": "Ссылки, Реклама Уфа.",
+      "participants_count": 193,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -69752807025271,
+      "title": "УФА,поселок 8 марта, жк Сосны,жк 8 марта,Затон",
+      "participants_count": 193,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "затон",
+        "уфа"
+      ]
+    },
+    {
+      "chat_id": -71391539505708,
+      "title": "Авито Башкортостан",
+      "participants_count": 171,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "башкор"
+      ]
+    },
+    {
+      "chat_id": -71762258794533,
+      "title": "Санкт-Петербург | Объявления",
+      "participants_count": 68,
+      "visible_in_tokens": [
+        "BOT_TOKEN2"
+      ],
+      "matched_terms": [
+        "рб"
+      ]
+    }
+  ]
+}

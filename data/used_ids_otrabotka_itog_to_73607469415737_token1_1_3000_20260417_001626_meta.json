@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "marked_at": "2026-04-16T21:16:26.059Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/data/ОТРАБОТКА ИТОГ.txt",
+  "backup_file": "/home/alex/projects/ryslanchik/maxmanager/data/ОТРАБОТКА ИТОГ.backup_20260417_001626.txt",
+  "source_manifest": "/home/alex/projects/ryslanchik/maxmanager/data/otrabotka_itog_unused_3k_token1_20260416_234652.manifest.json",
+  "target_chat_id": -73607469415737,
+  "token_env": "BOT_TOKEN1",
+  "mark_value": "OK",
+  "marked_used_ids_count": 3000,
+  "touched_lines_count": 3000,
+  "marked_range_1_based": {
+    "first": 5502,
+    "last": 8501
+  },
+  "attempted_invite_count": 3000,
+  "verified_added_count": 2828,
+  "still_missing_count": 172,
+  "result_files": [
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_1_1000_20260416204707_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_1001_2000_20260416205338_result.json",
+    "/home/alex/projects/ryslanchik/maxmanager/data/add_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_2001_3000_20260416210013_result.json"
+  ],
+  "still_missing_files": [
+    "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_1_1000_20260416204707.txt",
+    "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_1001_2000_20260416205338.txt",
+    "/home/alex/projects/ryslanchik/maxmanager/data/still_missing_otrabotka_itog_unused_3k_token1_20260416_234652_to_73607469415737_2001_3000_20260416210013.txt"
+  ],
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_otrabotka_itog_to_73607469415737_token1_1_3000_20260417_001626.txt"
+}

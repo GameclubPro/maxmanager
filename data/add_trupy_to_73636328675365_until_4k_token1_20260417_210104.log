@@ -1,0 +1,97 @@
+[2026-04-17 21:01:05] RUN START log=data/add_trupy_to_73636328675365_until_4k_token1_20260417_210104.log
+[2026-04-17 21:01:05] source=трупы total_ids=20000 target=-73636328675365 current=3683 target_range=4000-4010
+[2026-04-17 21:01:05] START wave=1 start=0 count=327 range=1-327 current=3683
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file трупы --target-chat-id -73636328675365 --start 0 --count 327 --invite-batch-size 10 --pause-ms 3000 --stop-on-action-failed 0
+
+◇ injected env (15) from .env // tip: ⌘ override existing { override: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3683 members across 37 pages
+[run] Inviting 327 users to chat -73636328675365 in batches of 10 (33 calls)...
+[run] Progress: 50/327 users
+[run] Progress: 100/327 users
+[run] Progress: 150/327 users
+[run] Progress: 200/327 users
+[run] Progress: 250/327 users
+[run] Progress: 300/327 users
+[run] Progress: 327/327 users
+[run] Verifying membership for 327 users...
+{
+  "ok": true,
+  "source_file": "трупы",
+  "target_chat_id": -73636328675365,
+  "processed_count": 327,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 327,
+  "invited_without_immediate_failure_count": 327,
+  "verified_added_count": 224,
+  "still_not_in_target_from_this_chunk_count": 103,
+  "before_participants_count": 3683,
+  "after_participants_count": 3883,
+  "result_file": "data/add_members_to_73636328675365_1_327_20260417180105_result.json",
+  "still_missing_file": "data/still_missing_members_to_73636328675365_1_327_20260417180105.txt"
+}
+[2026-04-17 21:03:09] END wave=1 rc=0
+[2026-04-17 21:03:10] AFTER wave participants=3883
+[2026-04-17 21:03:10] PAUSE 60s between waves
+[2026-04-17 21:04:09] START wave=2 start=327 count=127 range=328-454 current=3883
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file трупы --target-chat-id -73636328675365 --start 327 --count 127 --invite-batch-size 10 --pause-ms 3000 --stop-on-action-failed 0
+
+◇ injected env (15) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3904 members across 40 pages
+[run] Inviting 127 users to chat -73636328675365 in batches of 10 (13 calls)...
+[run] Progress: 50/127 users
+[run] Progress: 100/127 users
+[run] Progress: 127/127 users
+[run] Verifying membership for 127 users...
+{
+  "ok": true,
+  "source_file": "трупы",
+  "target_chat_id": -73636328675365,
+  "processed_count": 127,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 127,
+  "invited_without_immediate_failure_count": 127,
+  "verified_added_count": 89,
+  "still_not_in_target_from_this_chunk_count": 38,
+  "before_participants_count": 3904,
+  "after_participants_count": 3993,
+  "result_file": "data/add_members_to_73636328675365_328_454_20260417180410_result.json",
+  "still_missing_file": "data/still_missing_members_to_73636328675365_328_454_20260417180410.txt"
+}
+[2026-04-17 21:05:06] END wave=2 rc=0
+[2026-04-17 21:05:08] AFTER wave participants=3993
+[2026-04-17 21:05:08] PAUSE 60s between waves
+[2026-04-17 21:06:06] START wave=3 start=454 count=17 range=455-471 current=3993
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file трупы --target-chat-id -73636328675365 --start 454 --count 17 --invite-batch-size 10 --pause-ms 3000 --stop-on-action-failed 0
+
+◇ injected env (15) from .env // tip: ⌘ enable debugging { debug: true }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 3992 members across 40 pages
+[run] Inviting 17 users to chat -73636328675365 in batches of 10 (2 calls)...
+[run] Progress: 17/17 users
+[run] Verifying membership for 17 users...
+{
+  "ok": true,
+  "source_file": "трупы",
+  "target_chat_id": -73636328675365,
+  "processed_count": 17,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 17,
+  "invited_without_immediate_failure_count": 17,
+  "verified_added_count": 12,
+  "still_not_in_target_from_this_chunk_count": 5,
+  "before_participants_count": 3992,
+  "after_participants_count": 4004,
+  "result_file": "data/add_members_to_73636328675365_455_471_20260417180607_result.json",
+  "still_missing_file": "data/still_missing_members_to_73636328675365_455_471_20260417180607.txt"
+}
+[2026-04-17 21:06:27] END wave=3 rc=0
+[2026-04-17 21:06:28] AFTER wave participants=4004
+[2026-04-17 21:06:29] RUN FINISHED final_participants=4004

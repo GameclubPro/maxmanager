@@ -1,0 +1,26 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.qD2izIhUMS --source-file трупы --target-chat-id -73607469415737 --start 2300 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.qD2izIhUMS // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 2002 members across 21 pages
+[run] Inviting 1000 users to chat -73607469415737 in batches of 10 (100 calls)...
+[run] Progress: 50/1000 users
+[run] Progress: 100/1000 users
+[run] Progress: 150/1000 users
+[run] Progress: 200/1000 users
+[run] Progress: 250/1000 users
+[run] Progress: 300/1000 users
+[run] Progress: 350/1000 users
+[run] Progress: 400/1000 users
+[run] Progress: 450/1000 users
+[run] Progress: 500/1000 users
+[run] Progress: 550/1000 users
+[run] Progress: 600/1000 users
+[run] Progress: 650/1000 users
+[run] Progress: 700/1000 users
+[run] Progress: 750/1000 users
+[run] Progress: 800/1000 users
+[run] Progress: 850/1000 users
+[run] Progress: 900/1000 users

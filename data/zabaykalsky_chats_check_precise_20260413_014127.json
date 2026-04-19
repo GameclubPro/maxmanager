@@ -1,0 +1,2859 @@
+{
+  "checked_at": "2026-04-12T22:41:27.132Z",
+  "env_file": "/home/alex/projects/ryslanchik/maxmanager/.env",
+  "target_chat_id": -71489818560519,
+  "relevant_tokens": [
+    "BOT_TOKEN2",
+    "BOT_TOKEN3",
+    "BOT_TOKEN4"
+  ],
+  "token_scan": [
+    {
+      "token_env": "BOT_TOKEN",
+      "bot": {
+        "user_id": 246655255,
+        "username": "id613000010769_4_bot",
+        "name": "ДиалогПро"
+      },
+      "pages": 1,
+      "total_visible_active_chats": 1,
+      "sees_target_chat": false
+    },
+    {
+      "token_env": "BOT_TOKEN2",
+      "bot": {
+        "user_id": 207300808,
+        "username": "id613000010769_bot",
+        "name": "Руслан"
+      },
+      "pages": 10,
+      "total_visible_active_chats": 1000,
+      "sees_target_chat": true
+    },
+    {
+      "token_env": "BOT_TOKEN3",
+      "bot": {
+        "user_id": 209468578,
+        "username": "id613002203036_bot",
+        "name": "Майор Максимов"
+      },
+      "pages": 10,
+      "total_visible_active_chats": 978,
+      "sees_target_chat": true
+    },
+    {
+      "token_env": "BOT_TOKEN4",
+      "bot": {
+        "user_id": 214634783,
+        "username": "id613002203036_4_bot",
+        "name": "Майор Максимова"
+      },
+      "pages": 10,
+      "total_visible_active_chats": 930,
+      "sees_target_chat": true
+    }
+  ],
+  "total_unique_visible_chats_in_scope": 2282,
+  "matched_count": 101,
+  "matched_by_field": {
+    "title": 98,
+    "description": 21,
+    "link": 0
+  },
+  "grouped_by_locality": {
+    "Чита": {
+      "chats_count": 37,
+      "chats": [
+        {
+          "chat_id": -71489818560519,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита Объявления | Новости",
+          "description": "Город Чита — чат для общения, объявлений и новостей. Удобная площадка для жителей, где можно делиться информацией, продавать, покупать и обсуждать события города.",
+          "participants_count": 14967,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776031741934,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68103706017988,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита💤Купи-Продай\"Online\"",
+          "description": "📲 Связь с админом, пишите сюда:\n⭐ Жми: 👉 https://vk.cc/cOIuiq\nВсе группы в Телеграмм 75\n🔹Жми: 👉 https://vk.cc/cOYq0Z\nВсе группы в МАХ 75\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 8083,
+          "is_public": false,
+          "link": "https://max.ru/join/IgqyR4z7XXGGdqQwkHLvFq0vWhQrioMb2bfSpGefGc0",
+          "last_event_time": 1776033070592,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69498657472708,
+          "type": "chat",
+          "status": "active",
+          "title": "Домашняя продукция г. Чита и районы \"75\"",
+          "description": "✅ Ссылка на группу:\n👉 https://max.ru/join/Xo5v0SVBLb0aW6GPP-8wgV-_heVt7GAhg75s-bt_wMs\n⭐ Админ: 👉 https://vk.cc/cOIuiq\n👁️Каталог групп 75 в Телеге\n🔹Жми: 👉 https://vk.cc/cOYq0Z\n👁️Каталог групп 75 в МАХ\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 5474,
+          "is_public": false,
+          "link": "https://max.ru/join/Xo5v0SVBLb0aW6GPP-8wgV-_heVt7GAhg75s-bt_wMs",
+          "last_event_time": 1776007540017,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68097318690817,
+          "type": "chat",
+          "status": "active",
+          "title": "РАБОТА В ЧИТЕ",
+          "description": "Присылайте свои посты в готовом виде супер-админу 👇\n\nhttps://max.ru/u/f9LHodD0cOJJOjqrpJEcjSS4gGnfiTsEqTMmcaGEhC8DgrnZtVEiiw32vH8\n\nНаша Telega 👇\nhttps://t.me/rabota_v_chitago",
+          "participants_count": 5262,
+          "is_public": false,
+          "link": "https://max.ru/join/oN-H0LpdvEcNOu2jjCLHZZBqeJc37esnbZx9V5JmsM0",
+          "last_event_time": 1776030640768,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68076019810506,
+          "type": "chat",
+          "status": "active",
+          "title": "Регион 75",
+          "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+          "participants_count": 5220,
+          "is_public": false,
+          "link": "https://max.ru/join/LM6H3SXybiXM4PDnfmrJUPzh1A4-1g2DXv187syaFFk",
+          "last_event_time": 1776033249981,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "description:75 регион",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68097242792138,
+          "type": "chat",
+          "status": "active",
+          "title": "БАРАХОЛКА 75R",
+          "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+          "participants_count": 3550,
+          "is_public": false,
+          "link": "https://max.ru/join/Ued8ObiSvxHSN3rrveRFivDXBLq2OZ9EjiKf1p2BaWQ",
+          "last_event_time": 1776033069773,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "description:75 регион",
+            "description:Чита",
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68097233289418,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита 75 🇷🇺RUS",
+          "description": "Уважаемые участники!!! В этом чате вы можете опубликовать объявление, рекламу, отдать или принять в дар, и просто общаться...\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХОЛКА ССЫЛОК\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\nЧита 75 RUS\nhttps://vk.com/club229066476\n\nЧита",
+          "participants_count": 3220,
+          "is_public": false,
+          "link": "https://max.ru/join/QyIViC90LyrIiB8DSC_7bpj6DT6rSbaheJu34zOqnMw",
+          "last_event_time": 1776033070511,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:75 регион",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68306988190444,
+          "type": "chat",
+          "status": "active",
+          "title": "«УЮТНЫЙ ДОМ» ЧИТА |ЗАБ.КРАЙ",
+          "description": "🛋️МЯГКАЯ  МЕБЕЛЬ В НАЛИЧИИ И ПОД ЗАКАЗ\n 🛏️КОРПУСНАЯ МЕБЕЛЬ\n🚪ДВЕРИ,ОКНА АРКИ\n🛁САНТЕХНИКА\n🧩ВСЕ ВИДЫ НАПОЛЬНЫХ ПОКРЫТИЙ\n☀️ОТОПЛЕНИЕ,ТЕПЛИЦЫ \n🚚БЫСТРАЯ ДОСТАВКА ПО г. ЧИТА И В КАЖДЫЙ РАЙОН ЗАБАЙКАЛЬЯ\n☎️\n89242989373 ОЛЬГА\n89143524849 ЮЛИЯ",
+          "participants_count": 3025,
+          "is_public": false,
+          "link": "https://max.ru/join/RvS29jmS_F1m_3tsgVBcC4AV0QP0wQAXraqlYyiUPqg",
+          "last_event_time": 1776029219857,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Заб. край",
+            "title:Чита",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68212641988810,
+          "type": "chat",
+          "status": "active",
+          "title": "БАРАХЛЯНДИЯ🇷🇺",
+          "description": "⚠️ТЕЛЕГРАММ:\nЧИТА🇷🇺75RUS\nhttps://t.me/ZDQIUgri61JmMTQ6\nБАРАХОЛКА  75R\nhttps://t.me/AaWdXNTOigBkYmIy\nРЕГИОН 75 РУ. СТАР\nhttps://t.me/Ja1jwZTVNxNhZDUy\nБАРАХЛЯНДИЯ🇷🇺\nhttps://t.me/Y5OgfdPK20s4MmQy\nПИАР-РЕКЛАМА\nhttps://t.me/W_zQUchxbPsxYjY6\n\n⚠️ВКОНТАКТЕ:\nЧита 75 RUS\nhttps://vk.com/club229066476\nРегион 75 РУ.\nhttps://vk.com/club229186881\n\n⚠️MAX:\nКуплю-продам\nhttps://max.ru/join/LM6H3SXybiXM4PDnfmrJU",
+          "participants_count": 2746,
+          "is_public": false,
+          "link": "https://max.ru/join/srAq1j6jwW-enxSWrppR16_AC_NZpAA3oy-gyVPgGCs",
+          "last_event_time": 1776032152915,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "description"
+          ],
+          "reasons": [
+            "description:75 регион",
+            "description:Чита"
+          ],
+          "classification": "matched_by_description"
+        },
+        {
+          "chat_id": -68117060324043,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления г.Чита",
+          "description": "Наша ссылка \n\nhttps://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g",
+          "participants_count": 1895,
+          "is_public": false,
+          "link": "https://max.ru/join/h4PXdeEh0_haQ99e50P7jeP4DHQTfTIdBoVfNikdI8g",
+          "last_event_time": 1776032751651,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68081984386454,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Чита 75R",
+          "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️",
+          "participants_count": 1231,
+          "is_public": false,
+          "link": "https://max.ru/join/B0V5SWvar8gOquyn1zhLpidXh7DP1gSVlLHUh7Ic_eQ",
+          "last_event_time": 1776033109087,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68097532540310,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Чита 75R",
+          "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️",
+          "participants_count": 1153,
+          "is_public": false,
+          "link": "https://max.ru/join/Zly54c19UAn1EHV3xMCDCb8DHzxlDa4vDoTgGVuQVzM",
+          "last_event_time": 1776031699296,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68159689766294,
+          "type": "chat",
+          "status": "active",
+          "title": "Недвижимость Чита 75",
+          "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️",
+          "participants_count": 1122,
+          "is_public": false,
+          "link": "https://max.ru/join/ZQeeLn5K147LWgxNw1QHRo7M90FRDw1_5rlfW5lb6bo",
+          "last_event_time": 1776032936314,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68110614233296,
+          "type": "chat",
+          "status": "active",
+          "title": "Продам, куплю Чита",
+          "description": "Быстро продай, легко покупай 👍\nОбъявления - бесплатно ✌️\nСПАМ удаляем🚽 и не пропускаем 🎯.\nСсылки взаимные.\nМы в ТГ\nhttps://t.me/+U0rYIUMif4MyMGFi",
+          "participants_count": 1114,
+          "is_public": false,
+          "link": "https://max.ru/join/L-hoyeUTcn0TVK8cTUt9Z3AHt3J9R6Mcu9hVjnCM4wU",
+          "last_event_time": 1776032729294,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68097564521878,
+          "type": "chat",
+          "status": "active",
+          "title": "Животный мир Чита 75R",
+          "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\nОбъявления с питомников-платно!\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️",
+          "participants_count": 1039,
+          "is_public": false,
+          "link": "https://max.ru/join/m0IRC0u-ADfIz5NLwDWu31WyGHu6aZlEJ-WVWZlmjzc",
+          "last_event_time": 1776031159975,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68159753074070,
+          "type": "chat",
+          "status": "active",
+          "title": "Авто Чита 75R",
+          "description": "Приветствуем в нашей группе\n\nПубликация объявления 1 раз\nв сутки бесплатно\nне более 5 фото делайте коллаж\n\nСсылки только взаимные!\n\nОбъявления с сылками \nпереходящие,в другой месенжер или \nв чужую группу-\n-удаляются❗️",
+          "participants_count": 960,
+          "is_public": false,
+          "link": "https://max.ru/join/VYb8ADpIJbCk6GjiB2kEAojOsplOl85bWVp7QhTTXdM",
+          "last_event_time": 1776024506875,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:75 регион",
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68900040805115,
+          "type": "chat",
+          "status": "active",
+          "title": "Черновские Чита",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 776,
+          "is_public": false,
+          "link": "https://max.ru/join/klQY9OPCZ5DdeJ-K4lQfe0xOOpP9g6ya7QyFWuERrfA",
+          "last_event_time": 1776031606785,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68106874697137,
+          "type": "chat",
+          "status": "active",
+          "title": "Купи.Продай.Чита !",
+          "description": null,
+          "participants_count": 714,
+          "is_public": false,
+          "link": "https://max.ru/join/IE6f03ipRmsedOqd1Xt3HCutnBGn89W7d9toOebIKT8",
+          "last_event_time": 1776031497931,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71749451829393,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Чита",
+          "description": null,
+          "participants_count": 674,
+          "is_public": false,
+          "link": "https://max.ru/join/L5ha5jCHSE5cyJ8vnXRTw3D_pu8zm_8fhMeYC_QWidI",
+          "last_event_time": 1776019501426,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68813462178555,
+          "type": "chat",
+          "status": "active",
+          "title": "Бесплатные обьявления Чита",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 639,
+          "is_public": false,
+          "link": "https://max.ru/join/VOrnpqqUCadRUf4zT7UBWj2SNnqEfz4Z36Sdav2QynU",
+          "last_event_time": 1776028784902,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68078827525574,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита объявления",
+          "description": "Ваши объявления на различные темы в рамках законодательства РФ. Спам, политика, лотереи не приветствуются,",
+          "participants_count": 624,
+          "is_public": false,
+          "link": "https://max.ru/join/GLeOBClbazEe9wWelv49XLiEKmhyHpUG9N7bf9y7tHY",
+          "last_event_time": 1776013596377,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69384543865595,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Чита",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 586,
+          "is_public": false,
+          "link": "https://max.ru/join/eIFvwxktOL2FotOuWpbFqcGUf1TGANmIikePMp0QcFc",
+          "last_event_time": 1776028788970,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -70979649279238,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита Частный сектор:Купля продажа",
+          "description": "Уважаемые участники группы!!! Соблюдайте правила чата!\nТолько реальные объявления о купле продаже, не каких интернет заработков, тарологов, астрологов, водительских прав и прочего!!!  Объявления строго 1 раз в сутки!!!\nЗа несоблюдение БАН! 📵",
+          "participants_count": 519,
+          "is_public": false,
+          "link": "https://max.ru/join/XUNkFa-yt8ATzj1Kq9hW1Pkgaa1Gh9eXkml4r6TD5qY",
+          "last_event_time": 1776032728742,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72265386047588,
+          "type": "chat",
+          "status": "active",
+          "title": "Детская барахолка Чита. Мамочки Читы. Объявления Чита",
+          "description": null,
+          "participants_count": 495,
+          "is_public": false,
+          "link": "https://max.ru/join/V-64f5_QkA-4v1lcH3J6N4niRL4CLGnFWoodH0ullQ0",
+          "last_event_time": 1776006436094,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71408855463348,
+          "type": "chat",
+          "status": "active",
+          "title": "Цветики-Цветочки (Чита)",
+          "description": null,
+          "participants_count": 457,
+          "is_public": false,
+          "link": "https://max.ru/join/VcNHMLumKLF3IzBGQ-AgFPBMJZHrZj9SgHhR-ZUxUx0",
+          "last_event_time": 1776033154476,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -70543572882751,
+          "type": "chat",
+          "status": "active",
+          "title": "Куплю продам Чита",
+          "description": null,
+          "participants_count": 453,
+          "is_public": false,
+          "link": "https://max.ru/join/PmeFSuM3i-zZe2ipVdRPHfuWwVacTQGR1xA9Pdgj9aw",
+          "last_event_time": 1776028785840,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68251366847972,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита: Доска объявлений",
+          "description": null,
+          "participants_count": 439,
+          "is_public": false,
+          "link": "https://max.ru/join/_UvjXI6TkGNd4lRbXXNc41McBYow9i1x9hH1rPgeS7I",
+          "last_event_time": 1776013803582,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69351574899433,
+          "type": "chat",
+          "status": "active",
+          "title": "ЧИТА. КУПИ, ПРОДАЙ",
+          "description": null,
+          "participants_count": 390,
+          "is_public": false,
+          "link": "https://max.ru/join/I_keWImKDp0tMNo7TcR7V7AzjijXOVX696ZiYzu7lJ8",
+          "last_event_time": 1776017377100,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68248241692805,
+          "type": "chat",
+          "status": "active",
+          "title": "Царство цветов. Чита",
+          "description": null,
+          "participants_count": 375,
+          "is_public": false,
+          "link": "https://max.ru/join/bTy7jG5O1cVuZsYhp7PLWXEG9YYBb6qFTLqz2W14YYU",
+          "last_event_time": 1776032773623,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68088551200072,
+          "type": "chat",
+          "status": "active",
+          "title": "Цветочный дворик г. ЧИТА",
+          "description": "🌹Добро пожаловать Цветочный дворик!\nЗдесь вы можете обменять садовые и цветочные растения!🌺\n\nhttps://max.ru/join/ll4zF2TD8YdjTfcTCou1J0TT-oygQoDPi5X6uS2xUjg",
+          "participants_count": 326,
+          "is_public": false,
+          "link": "https://max.ru/join/ll4zF2TD8YdjTfcTCou1J0TT-oygQoDPi5X6uS2xUjg",
+          "last_event_time": 1776027605005,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69438124015686,
+          "type": "chat",
+          "status": "active",
+          "title": "ПОПУТКА-ЧИТА🚖🚕",
+          "description": "🔥НЕ МОЖЕШЬ УЕХАТЬ - ПИШИ, МОЖЕШЬ УВЕЗТИ - УВЕЗИ!🚘\n\n🔥МЫ В ТЕЛЕГРАМ https://t.me/Taxi_chita_75",
+          "participants_count": 324,
+          "is_public": false,
+          "link": "https://max.ru/join/AuNfvuhQGNzS1or71dkw2dTWg3qZjDKjQVQx9QLEEVE",
+          "last_event_time": 1776032347775,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71489896106117,
+          "type": "chat",
+          "status": "active",
+          "title": "Цветы. Рассада. Саженцы. Чита",
+          "description": null,
+          "participants_count": 314,
+          "is_public": false,
+          "link": "https://max.ru/join/3FQkuGQMWqR387hhFm7Bq21TsfB6vKWYMSRpqMATkvI",
+          "last_event_time": 1776032653920,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71490092468744,
+          "type": "chat",
+          "status": "active",
+          "title": "Фермерский драйв. Чита.",
+          "description": null,
+          "participants_count": 243,
+          "is_public": false,
+          "link": "https://max.ru/join/ENagHrk_nLPmDQCEowPYxve3b8Qiel6RZvGkqQjFVN4",
+          "last_event_time": 1776032061534,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72267692980324,
+          "type": "chat",
+          "status": "active",
+          "title": "Мастер и Модель Чита. Чат",
+          "description": "❗❗НИКОГДА❗❗\nНЕ ПЕРЕВОДИТЕ ПРЕДОПЛАТУ НЕЗНАКОМОМУ МАСТЕРУ❗\n\nЕдиная база мастеров красоты и стиля. Задавайте вопросы, пишите отзывы, предлагайте услуги, ищите мастера и советуйтесь вместе с нами!\n\nПриглашаем салоны, мастеров, клиентов оставлять предложения услуг и спросы БЕСПЛАТНО на стене группы!\n\nСсылки ЗАПРЕЩЕНЫ!!!!",
+          "participants_count": 166,
+          "is_public": false,
+          "link": "https://max.ru/join/fVAM_TxK7XpUrNiKqe-4tMVCoP-u2K1rImbvfkbCp38",
+          "last_event_time": 1776002203057,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72264548694116,
+          "type": "chat",
+          "status": "active",
+          "title": "Детская Чита🤱Беседа. Вопросы-Ответ. Мамы Чита. Мамочки Чита.",
+          "description": "Беседа для мамочек Читы и всего Забайкалья\nТолько вопросы и ответы!\n\nЧат объявлений👇\nhttps://max.ru/join/V-64f5_QkA-4v1lcH3J6N4niRL4CLGnFWoodH0ullQ0",
+          "participants_count": 126,
+          "is_public": false,
+          "link": "https://max.ru/join/9veTkaJ3-IBXFAPBoL4LhsQHiUSt2-1s_O0z_fhE6K4",
+          "last_event_time": 1775990125426,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72267625674852,
+          "type": "chat",
+          "status": "active",
+          "title": "АВТОРЫНОК ЧИТА | ПРОДАТЬ КУПИТЬ АВТО В ЧИТЕ | Дром 75",
+          "description": "Предлагайте свои автомобили.\nЧита и Заб. край",
+          "participants_count": 68,
+          "is_public": false,
+          "link": "https://max.ru/join/Kzbjd9T6hzaGqC8ZgW7JoAynMJqifWy15x4gmwIdpI4",
+          "last_event_time": 1776033062808,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Заб. край",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72330726688904,
+          "type": "chat",
+          "status": "active",
+          "title": "ОТДАМ/ОБМЕНЯЮ/ПРОДАМ  Мамы Чита",
+          "description": "Дорогие участники , приветствую вас !\nГруппа для Продажи Обмена или просто Отдачи  вещей  предназначенных для Матери и ребенка!\n\nОчень рады что вы с нами .",
+          "participants_count": 55,
+          "is_public": false,
+          "link": "https://max.ru/join/f3U4lpVB4MivdkkY-ovcIzwctzs_TJI3nJWuJr-zAjA",
+          "last_event_time": 1776007743737,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Чита",
+          "matched_localities": [
+            "Чита"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Чита / Забайкальск": {
+      "chats_count": 17,
+      "chats": [
+        {
+          "chat_id": -68072174829677,
+          "type": "chat",
+          "status": "active",
+          "title": "Работа в Чите и Забайкальском крае Работазабкрай. рф",
+          "description": "Для того чтобы разместить своё объявление вы можете написать администратору \nhttps://707.su/77Ba\n По рекламе к админу https://707.su/NRRE\n❗Внимание переходите\nна основной канал где каждый день новые вакансии\nСсылка для перехода на основной канал⬇️\n👉https://max.ru/ZabRabota\nВсе Вакансии Читы и Забайкальского  края.\n⭐Найти Сотрудника или Хорошую Работу С может каждый.",
+          "participants_count": 18450,
+          "is_public": false,
+          "link": "https://max.ru/join/cThhN6StSjg6vq6AaYjn9xLfxje_-QPu_KP1BbtS13c",
+          "last_event_time": 1776031745362,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита",
+            "title:Забайкальск",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72031139969133,
+          "type": "chat",
+          "status": "active",
+          "title": "Недвижимость Чита и Забайкальский край",
+          "description": "Объявлений размещаете  самостоятельно👉 соблюдаем правила в закрепе группы ⬇️\nИли через сайт https://chat75.ru самостоятельно:  \n👉Рубрика ➡️Продажа бесплатно размещение ЧИТА И ЗАБКРАЙ.",
+          "participants_count": 17492,
+          "is_public": false,
+          "link": "https://max.ru/join/MKVn-iwhUbexxXX-nNMiuxfdifc-WPaI8uhlV98GD8M",
+          "last_event_time": 1776033466431,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "description:Заб. край",
+            "description:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71430376503405,
+          "type": "chat",
+          "status": "active",
+          "title": "Сельхоз ярмарка  Чита и Забайкальский край",
+          "description": "З⛔ВАШ ТОТ САМЫЙ ЧАТ с ТГ⬇️\nhttps://t.me/selchatru\n❤️Добро пожаловать!⚡\n👉в этом чате можно продавать, обмениваться покупать продуктами произведёнными или  выращенными на своих личных,подсобных участках, фермерских хозяйств Забайкалья.\n👉Все размещения  через наш  канал⭐\nhttps://max.ru/join/DVWHwD9CXjhSorLt1cEeWMnIInWLQmKuXgIDxiSb5ng\nПо размещению пишите админу \nhttps://707.su/NRRE",
+          "participants_count": 16648,
+          "is_public": false,
+          "link": "https://max.ru/join/HIKcPTzw0IOspzv38T00OzHA_-TTsfVA01if2F6l20o",
+          "last_event_time": 1776032017207,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72618162632813,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита реклама",
+          "description": "⭐Доска бесплатных объявлений в Чите и Забайкальский край❗",
+          "participants_count": 12207,
+          "is_public": false,
+          "link": "https://max.ru/join/sljxvp1sp9bWH3d7tfhMLxdSA5u3eTikVlhJdDlwPB0",
+          "last_event_time": 1776033070743,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Забайкальский край",
+            "description:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68103459930308,
+          "type": "chat",
+          "status": "active",
+          "title": "DROM \"75\" Покупка, продажа АВТО \"Забайкальский край г. Чита",
+          "description": "✅ Ссылка на группу:\n👉 https://max.ru/join/xhgI7yXEFj2pMFeF-WY1cuXVXpBV87kLFLeGdDNJF8o\n⭐ Админ: 👉 https://vk.cc/cOIuiq\n👁️Каталог групп 75 в Телеге\n🔹Жми: 👉 https://vk.cc/cOYq0Z\n👁️Каталог групп 75 в МАХ\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 10982,
+          "is_public": false,
+          "link": "https://max.ru/join/xhgI7yXEFj2pMFeF-WY1cuXVXpBV87kLFLeGdDNJF8o",
+          "last_event_time": 1776033587689,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71497466657480,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️5️⃣4️⃣💯Чита и Забайкальский кр | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/u/f9LHodD0cOIkxPkJaGGsY8qHcbEz687pZwXl18OdLrYpp8j7_KSwA-kY1_I\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 4503,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776033390063,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -70392244619976,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️3️⃣9️⃣ 💯👋💯Чита и Забайкальский край ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/u/f9LHodD0cOIkxPkJaGGsY8qHcbEz687pZwXl18OdLrYpp8j7_KSwA-kY1_I\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 3235,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776033359378,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68084149212488,
+          "type": "chat",
+          "status": "active",
+          "title": "Чита и Забайкальский край",
+          "description": "Здесь можно продать, купить, обменять, отдать даром или за вкусняшку. Задать вопрос. Дать совет\n\nhttps://max.ru/join/3NENgCwJ8JwuG50o0EUIbZBzdQ4vb0dQzOsuktO0v44",
+          "participants_count": 2193,
+          "is_public": false,
+          "link": "https://max.ru/join/3NENgCwJ8JwuG50o0EUIbZBzdQ4vb0dQzOsuktO0v44",
+          "last_event_time": 1776033586103,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68094771513867,
+          "type": "chat",
+          "status": "active",
+          "title": "ПТИЧИЙ ДВОРИК ЧИТА",
+          "description": "Группа для любителей, фермеров и заводчиков птицы Забайкальского края. Объявления, инкубационное яйцо, розыгрыши и много другое....",
+          "participants_count": 2003,
+          "is_public": false,
+          "link": "https://max.ru/join/igRvBWhlaUS275BkYSa92dSBugWjn9Oh43-yoitR_zU",
+          "last_event_time": 1776032774516,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68022921197022,
+          "type": "chat",
+          "status": "active",
+          "title": "ЧИТА БАРАХОЛКА",
+          "description": "Полезная и удобная группа жителей города Чита и Забайкальского края для публикации разнообразных объявлений!\n\n‼️ВНИМАТЕЛЬНО ЧИТАЙТЕ ПРАВИЛА СООБЩЕСТВА‼️\n\n🚨Коммерческая реклама платно.",
+          "participants_count": 1793,
+          "is_public": false,
+          "link": "https://max.ru/join/bjZPR4lW_K81y4iSxqUFrTw2NIyCPlqnFf5d_C8ENi8",
+          "last_event_time": 1776033182429,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68106571142598,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Читы",
+          "description": "Объявления Читы и Забайкальского края. 🏣 Куплю, продам, обменяю, сдам, сниму и многое другое. ⚠️ У нас вы найдёте всё! ❤️ Присоединяйтесь, с нами супер выгодно 🔥🔥🔥\n\nСсылка на группу в новом мессенджере мах:\n\nhttps://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog",
+          "participants_count": 1227,
+          "is_public": false,
+          "link": "https://max.ru/join/svHSv4RS1DLpgs32Xvi2Ts6DHHKJHrRQ4fMxeROLLog",
+          "last_event_time": 1776030749442,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69487005562223,
+          "type": "chat",
+          "status": "active",
+          "title": "ЧИТА- Забайкальская МЕГА барахолка",
+          "description": "Добро пожаловать в чат объявлений!",
+          "participants_count": 1219,
+          "is_public": false,
+          "link": "https://max.ru/join/R9xqApv_Hmgd4ITqZPP10nSWGkIYo5vnaqs3PmI09qs",
+          "last_event_time": 1776029892491,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68081902581088,
+          "type": "chat",
+          "status": "active",
+          "title": "ЯРМАРКА⚜️ЧИТА",
+          "description": "Добро пожаловать🤝\nЗдесь самые актуальные, интересные и полезные объявления для жителей Читы и Забайкальского края !\nСсылка-приглашение: https://max.ru/join/AMXsAa5LE2r_Qgv6KqSHD2Ac5FiFpNNE-x5tBai5QL4",
+          "participants_count": 1214,
+          "is_public": false,
+          "link": "https://max.ru/join/AMXsAa5LE2r_Qgv6KqSHD2Ac5FiFpNNE-x5tBai5QL4",
+          "last_event_time": 1776031394646,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68100202932810,
+          "type": "chat",
+          "status": "active",
+          "title": "Здесь ваша реклама Забайкальский край и Чита",
+          "description": null,
+          "participants_count": 1080,
+          "is_public": false,
+          "link": "https://max.ru/join/1SviIYKhEyC6zwejELavyepRfvMN0HP1j-STCdTpQrE",
+          "last_event_time": 1776031244261,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68562711232630,
+          "type": "chat",
+          "status": "active",
+          "title": "Каштак, мкр. Солнечный",
+          "description": "Объявления и реклама г. Чита Каштак, мкр Солнечный (Объявления и реклама 1 раз в сутки, только Забайкальский край!)",
+          "participants_count": 951,
+          "is_public": false,
+          "link": "https://max.ru/join/pGR-gDC4ze0LCGYE2Y1l-IE3Itgu80gH4aYPnlVTIzA",
+          "last_event_time": 1776033070878,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "description"
+          ],
+          "reasons": [
+            "description:Забайкальский край",
+            "description:Чита",
+            "description:Забайкальск"
+          ],
+          "classification": "matched_by_description"
+        },
+        {
+          "chat_id": -68781077015126,
+          "type": "chat",
+          "status": "active",
+          "title": "ЧИТА.   ЗАБАЙКАЛЬСКИЙ КРАЙ",
+          "description": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ",
+          "participants_count": 852,
+          "is_public": false,
+          "link": "https://max.ru/join/TFoDceF_uV4dFpdRI0Bpy0wKsTrrFSV8nWsDxXPSkYQ",
+          "last_event_time": 1776028786607,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69524089763165,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка Чита  Забайкальский край",
+          "description": "ДОРОГИЕ УЧАСТНИКИ!! \n\nДОБРО ПОЖАЛОВАТЬ В НАШ ЧАТ БЕСПЛАТНЫХ ОБЪЯВЛЕНИЙ И РЕКЛАМЫ! \n\n❌ЗАПРЕЩЕНО \n\nИСПОЛЬЗОВАТЬ НЕЦЕНЗУРНУЮ ЛЕКСИКУ ОСКОРБЛЯТЬ УЧАСТНИКОВ  СООБЩЕСТВА!!!",
+          "participants_count": 759,
+          "is_public": false,
+          "link": "https://max.ru/join/ufjLA6Z_BBUDrvVEG5StPXY5mcN1Q5UmU9UzEJR2yiw",
+          "last_event_time": 1776031245058,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чита / Забайкальск",
+          "matched_localities": [
+            "Чита",
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Забайкальский край / общие": {
+      "chats_count": 8,
+      "chats": [
+        {
+          "chat_id": -68103495909572,
+          "type": "chat",
+          "status": "active",
+          "title": "Вакансии, работа Заб., край + Общепит 75 + Вахта",
+          "description": "✅ Ссылка на группу:\n👉 https://max.ru/join/p8St0rCPyeWEDECnNjnrtE1HVFUx647KvvchWgxaCrU\n⭐ Админ: 👉 https://vk.cc/cOIuiq\n👁️Каталог групп 75 в Телеге\n🔹Жми: 👉 https://vk.cc/cOYq0Z\n👁️Каталог групп 75 в МАХ\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 18832,
+          "is_public": false,
+          "link": "https://max.ru/join/p8St0rCPyeWEDECnNjnrtE1HVFUx647KvvchWgxaCrU",
+          "last_event_time": 1776032713003,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -72216337401992,
+          "type": "chat",
+          "status": "active",
+          "title": "Подслушано Забайкалье",
+          "description": null,
+          "participants_count": 11047,
+          "is_public": false,
+          "link": "https://max.ru/join/dTbTcncv0kBfkXG3tQ34asJudaBBPCnysQUsVcJr6hs",
+          "last_event_time": 1776014144832,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкалье"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -69486127614667,
+          "type": "chat",
+          "status": "active",
+          "title": "ВЕСЬ ЗАБ КРАЙ!  ОБЪЯВЛЕНИЯ ✅️",
+          "description": "Наша ссылка \n\nhttps://max.ru/join/KBbC6UtBC-93BhTzocEKWbguPb2xJSVqrVXafSqs67Q",
+          "participants_count": 1390,
+          "is_public": false,
+          "link": "https://max.ru/join/KBbC6UtBC-93BhTzocEKWbguPb2xJSVqrVXafSqs67Q",
+          "last_event_time": 1776031670520,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -68052711590612,
+          "type": "chat",
+          "status": "active",
+          "title": "ИРКУТСК ЗАБАЙКАЛЬЕ",
+          "description": "РЕКЛАМА, ССЫЛКИ 24/7",
+          "participants_count": 1374,
+          "is_public": false,
+          "link": "https://max.ru/join/Vr6wIRVP5Zw2v8QxrqOar-ETX-UH9K2Wgyz1Q5LktOs",
+          "last_event_time": 1776032811950,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкалье"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -69261328386811,
+          "type": "chat",
+          "status": "active",
+          "title": "Авито Макс Заб. Край",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 1061,
+          "is_public": false,
+          "link": "https://max.ru/join/9fQPKvx9e_eZajixthZoQ7OlLGmPgBNo3pvLhzq_tik",
+          "last_event_time": 1776031105766,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -69433029293528,
+          "type": "chat",
+          "status": "active",
+          "title": "Барахолка РФ🇷🇺 Заб. край",
+          "description": "Рады приветствовать вас в нашей группе👋\n💯Ваши любимые рубрики тут\n💥Куплю💥продам💥отдам💥меняю💥реклама\nВзаимореклама 🤝\nНаша группа в телеграмм 👇\nhttps://t.me/+p9vI4j4cHb5kMWEy",
+          "participants_count": 823,
+          "is_public": false,
+          "link": "https://max.ru/join/IpKAgQNWnRdcU3nAYl7aBUy-YgjPPxDQnfk5QyK9Ewk",
+          "last_event_time": 1776013545340,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -70291264730461,
+          "type": "chat",
+          "status": "active",
+          "title": "Все объявления Заб. Край",
+          "description": null,
+          "participants_count": 438,
+          "is_public": false,
+          "link": "https://max.ru/join/0GGYIQE8YSrpa1Nhf10PHEkiRuhszrFQqVHWyDc-ET8",
+          "last_event_time": 1776031083602,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край"
+          ],
+          "classification": "broad_region"
+        },
+        {
+          "chat_id": -71490180745736,
+          "type": "chat",
+          "status": "active",
+          "title": "Бесплатные объявления. Забайкалье.",
+          "description": null,
+          "participants_count": 278,
+          "is_public": false,
+          "link": "https://max.ru/join/BInr4-8hPBxNiDGseT4Qm011p0mOHyHLoAqc8fz1qeM",
+          "last_event_time": 1776032049213,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальский край / общие",
+          "matched_localities": [],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкалье"
+          ],
+          "classification": "broad_region"
+        }
+      ]
+    },
+    "Забайкальск": {
+      "chats_count": 6,
+      "chats": [
+        {
+          "chat_id": -71722073753607,
+          "type": "chat",
+          "status": "active",
+          "title": "Забайкальский край Объявления | Новости",
+          "description": "Забайкальский край — чат для общения, объявлений и новостей. Удобная площадка для жителей, где можно делиться информацией, продавать, покупать и обсуждать события города.",
+          "participants_count": 6061,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776009205268,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "description:Забайкальский край",
+            "title:Забайкальск",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69511642579140,
+          "type": "chat",
+          "status": "active",
+          "title": "Строительство, ремонт | Забайкальский край",
+          "description": "✅ Ссылка на группу:\n👉 https://max.ru/join/uIr-g0T3honO3RC1mflrpZa1NOwJ5ManoEHhvJO7Ef8\n⭐ Админ: 👉 https://vk.cc/cOIuiq\n👁️Каталог групп 75 в Телеге\n🔹Жми: 👉 https://vk.cc/cOYq0Z\n👁️Каталог групп 75 в МАХ\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 4662,
+          "is_public": false,
+          "link": "https://max.ru/join/uIr-g0T3honO3RC1mflrpZa1NOwJ5ManoEHhvJO7Ef8",
+          "last_event_time": 1776013023606,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68187955800620,
+          "type": "chat",
+          "status": "active",
+          "title": "ТАКСИ ЗАБАЙКАЛЬСК",
+          "description": "Уважаемые участники группы,в связи с перебоями телеграм,мы создали группу ТАКСИ ЗАБАЙКАЛЬСК в приложении МАХ,переходите по ссылке ниже https://max.ru/join/y7M6AmStORRwO_BTnkKWQ5p-nBWcNogMrLxRt5KPpY4",
+          "participants_count": 2091,
+          "is_public": false,
+          "link": "https://max.ru/join/y7M6AmStORRwO_BTnkKWQ5p-nBWcNogMrLxRt5KPpY4",
+          "last_event_time": 1776033658969,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Забайкальск",
+            "description:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68147338657889,
+          "type": "chat",
+          "status": "active",
+          "title": "Такси «Поехали»",
+          "description": "🚕 Такси \"Поехали\" — всегда рядом, когда нужно доехать! 🚕 📍 пгт. Забайкальск и окрестности ✅ Быстро — Надёжно — По делу!\nСпасибо что вы с нами🤝👏",
+          "participants_count": 1952,
+          "is_public": false,
+          "link": "https://max.ru/join/StPyVUn1-jwnWoaL1IK2aMrD5MK1ySYIUrjtEbS1T4M",
+          "last_event_time": 1776033590782,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "description"
+          ],
+          "reasons": [
+            "description:Забайкальск"
+          ],
+          "classification": "matched_by_description"
+        },
+        {
+          "chat_id": -69295882368499,
+          "type": "chat",
+          "status": "active",
+          "title": "📢Объявления Забайкальский край 📢",
+          "description": "☀️Группа для публикации ваших объявлений по Краю, с номером телефона и адресом.\n☀️3-4 фото, не засоряйте ленту\n🚫ТЕМЫ СВО-ЗАПРЕЩЕНЫ❗\n🚫удалённые вакансии,\n🚫СПАМ, \n🚫рассылки,\n🚫магию, гадания и т.п.\nКоммерческие объявления платные.\n🕙с 22:00 до 06:00 группа отдыхает, просьба в это время ничего в группу не отправлять🤝",
+          "participants_count": 905,
+          "is_public": false,
+          "link": "https://max.ru/join/4PT7bqvPtuRyvVX_CnW7GBx2hXyD58nz5fLVtcMhwZc",
+          "last_event_time": 1776031083556,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72259089942664,
+          "type": "chat",
+          "status": "active",
+          "title": "Районы Забайкальского края",
+          "description": null,
+          "participants_count": 42,
+          "is_public": false,
+          "link": "https://max.ru/join/GOqyNfDGWdck9DC27sxTrV12O_TsvwEkrxh18nKeoWg",
+          "last_event_time": 1776002060310,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальск",
+          "matched_localities": [
+            "Забайкальск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Краснокаменск": {
+      "chats_count": 4,
+      "chats": [
+        {
+          "chat_id": -71491430922952,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣7️⃣3️⃣🌍 Краснокаменск | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/id664001928509_1_bot\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 6425,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776033560821,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Краснокаменск",
+          "matched_localities": [
+            "Краснокаменск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Краснокаменск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -70189889374920,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣2️⃣1️⃣💯 Краснокаменск | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/u/f9LHodD0cOIkxPkJaGGsY8qHcbEz687pZwXl18OdLrYpp8j7_KSwA-kY1_I\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 3748,
+          "is_public": false,
+          "link": "https://max.ru/join/Sduz1QCYB-TWZJfuLcQEIkS9GcfJIkkFpJ3mG8O6e4U",
+          "last_event_time": 1776033626485,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Краснокаменск",
+          "matched_localities": [
+            "Краснокаменск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Краснокаменск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -73398123487851,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Краснокаменска",
+          "description": null,
+          "participants_count": 1200,
+          "is_public": false,
+          "link": "https://max.ru/join/8LhWiNcKOWd2zWzTfs__63gz3OWC3PW8NdLZ3kRXyZM",
+          "last_event_time": 1775995239087,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Краснокаменск",
+          "matched_localities": [
+            "Краснокаменск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Краснокаменск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72341447083396,
+          "type": "chat",
+          "status": "active",
+          "title": "Краснокаменский БАЗАР",
+          "description": "ПРАВИЛА ГРУППЫ:\n- Размещение объявлений БЕСПЛАТНО!\n- Объявления о недвижимости ТОЛЬКО ОТ СОБСТВЕННИКА \n- Одно объявление в день от  пользователя, чтобы не засорять ленту.\n- Ссылки на другие группы - только через администратора\nСПАСИБО ЗА ПОНИМАНИЕ",
+          "participants_count": 949,
+          "is_public": false,
+          "link": "https://max.ru/join/Jz92jkp3Os6dWUG9grb0n9XTDBoQ-_8--I0yU8DJBb8",
+          "last_event_time": 1776032646038,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Краснокаменск",
+          "matched_localities": [
+            "Краснокаменск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Краснокаменск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Хилок": {
+      "chats_count": 3,
+      "chats": [
+        {
+          "chat_id": -68864688065275,
+          "type": "chat",
+          "status": "active",
+          "title": "Хилок бесплатные обьявления",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 644,
+          "is_public": false,
+          "link": "https://max.ru/join/6NErPm4siUdZTgX7apUqCaK6XcONF2AscQeRAgi1wOM",
+          "last_event_time": 1776029150668,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Хилок",
+          "matched_localities": [
+            "Хилок"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Хилок"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71590446891255,
+          "type": "chat",
+          "status": "active",
+          "title": "Объявления Хилок. Заб.край.",
+          "description": "Купи-продай-отдай. \nКоммерческая реклама публикуется платно!\nСсылка для приглашения: https://max.ru/join/ubtKPssEKLwe41fHOVz38wx2fRF9wIveazixNFuiJF8",
+          "participants_count": 642,
+          "is_public": false,
+          "link": "https://max.ru/join/ubtKPssEKLwe41fHOVz38wx2fRF9wIveazixNFuiJF8",
+          "last_event_time": 1776020319972,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Хилок",
+          "matched_localities": [
+            "Хилок"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край",
+            "title:Хилок"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68113554511251,
+          "type": "chat",
+          "status": "active",
+          "title": "ДОСКА БЕСПЛАТНЫХ ОБЪЯВЛЕНИЙ г. ХИЛОК И ХИЛОКСКИЙ РАЙОН",
+          "description": null,
+          "participants_count": 618,
+          "is_public": false,
+          "link": "https://max.ru/join/WdjDMqNrHAyeJ5CUK-6L5JJqRjTrKQ8rHHpzqEp-D5s",
+          "last_event_time": 1776033587849,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Хилок",
+          "matched_localities": [
+            "Хилок"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Хилок"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Борзя": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -72887649188552,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣8️⃣5️⃣🌍БОРЗЯ и БОРЗИНСКИЙ РН  ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/id664001928509_1_bot\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 2714,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776033394134,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Борзя",
+          "matched_localities": [
+            "Борзя"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Борзя"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -70484917504712,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️7️⃣1️⃣Борзя | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/u/f9LHodD0cOIkxPkJaGGsY8qHcbEz687pZwXl18OdLrYpp8j7_KSwA-kY1_I\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 2591,
+          "is_public": false,
+          "link": null,
+          "last_event_time": 1776033450154,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Борзя",
+          "matched_localities": [
+            "Борзя"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Борзя"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Домна": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -68957535341307,
+          "type": "chat",
+          "status": "active",
+          "title": "Домна, обьявления",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 738,
+          "is_public": false,
+          "link": "https://max.ru/join/JVT-gVbv6sc4aqEXvTGyNEnNsPzwOpPRdTBTyFedXNU",
+          "last_event_time": 1776032833725,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Домна",
+          "matched_localities": [
+            "Домна"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Домна"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -69395913916486,
+          "type": "chat",
+          "status": "active",
+          "title": "ДОМНА ОБЪЯВЛЕНИЯ✅",
+          "description": "🧿ВСЕ НОВОСТИ И ИНФОРМАЦИЯ О ЛЮБИМОМ ПОСЕЛКЕ! 💯\n🧿ОБЩЕНИЕ 💯\n🧿ОБЪЯВЛЕНИЯ ТОЛЬКО ЧАСТНОГО ХАРАКТЕРА!",
+          "participants_count": 237,
+          "is_public": false,
+          "link": "https://max.ru/join/LaoRg5W0w5rSHd05Rsh233h4NqGnPhwzXSkzcrpY54A",
+          "last_event_time": 1776032348344,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Домна",
+          "matched_localities": [
+            "Домна"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Домна"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Нерчинск": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -72976805935816,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣7️⃣9️⃣🌍Нерчинск  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/id664001928509_1_bot\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 2215,
+          "is_public": false,
+          "link": "https://max.ru/join/Suzim4uurHInNEimhI7MOQfqZdxbyvO0ar9Nasq95rw",
+          "last_event_time": 1776033385806,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Нерчинск",
+          "matched_localities": [
+            "Нерчинск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Нерчинск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68098313423563,
+          "type": "chat",
+          "status": "active",
+          "title": "Нерчинск объявления",
+          "description": null,
+          "participants_count": 1580,
+          "is_public": false,
+          "link": "https://max.ru/join/e3Vw7unVNJywvx95AOZqknsQNfWWospQH6Q5KYCLOSo",
+          "last_event_time": 1776029881344,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Нерчинск",
+          "matched_localities": [
+            "Нерчинск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Нерчинск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Приаргунск": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -72990537300680,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣8️⃣8️⃣🌍 Приаргунский муниципальный ок ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/id664001928509_1_bot\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 1616,
+          "is_public": false,
+          "link": "https://max.ru/join/teb4W5yU8wQnCrsm-29PD2WoKwv-Gw2FMJ9_SflUJD4",
+          "last_event_time": 1776033392134,
+          "visible_in_tokens": [
+            "BOT_TOKEN3"
+          ],
+          "locality_bucket": "Приаргунск",
+          "matched_localities": [
+            "Приаргунск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Приаргунск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -71940952701640,
+          "type": "chat",
+          "status": "active",
+          "title": "✔️1️⃣1️⃣4️⃣💯Приаргунск Заб. Край | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы  https://max.ru/u/f9LHodD0cOIkxPkJaGGsY8qHcbEz687pZwXl18OdLrYpp8j7_KSwA-kY1_I\n ПРАВИЛА ГРУППЫ  ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 1373,
+          "is_public": false,
+          "link": "https://max.ru/join/y0f8ciaHpnk_5tpPFwovJ9Q0vCSJnCutjchnhmH2JMo",
+          "last_event_time": 1776033448160,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Приаргунск",
+          "matched_localities": [
+            "Приаргунск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Заб. край",
+            "title:Приаргунск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Черновский район (Чита)": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -69401173246022,
+          "type": "chat",
+          "status": "active",
+          "title": "ЧЕРНОВСКИЙ РАЙОН, ЧИТА",
+          "description": "🔴ГРУППА ЧЕРНОВСКОГО РАЙОНА: НОВОСТИ, ЧАТ, ОБЩЕНИЕ, ОБЪЯВЛЕНИЯ!\n🔴МЫ В ТЕЛЕГРАМ https://t.me/chita_75r\n🔴 НАМ ДОВЕРЯЕТ ВЕСЬ РАЙОН!",
+          "participants_count": 1180,
+          "is_public": false,
+          "link": "https://max.ru/join/x3Ddir6mykOx7uZHlAcYO8GRah_s8S2zENjtySOzIkw",
+          "last_event_time": 1776032347476,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Черновский район (Чита)",
+          "matched_localities": [
+            "Черновский район (Чита)"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Чита",
+            "description:75 регион",
+            "title:Черновский район (Чита)",
+            "description:Чита"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -72258967652488,
+          "type": "chat",
+          "status": "active",
+          "title": "Черновский район",
+          "description": null,
+          "participants_count": 62,
+          "is_public": false,
+          "link": "https://max.ru/join/uPpN_W3qITebGn2F17QkytGXXUMZC7dY5UMegxgC4JQ",
+          "last_event_time": 1775983356353,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Черновский район (Чита)",
+          "matched_localities": [
+            "Черновский район (Чита)"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Черновский район (Чита)"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Чернышевск": {
+      "chats_count": 2,
+      "chats": [
+        {
+          "chat_id": -68117110590155,
+          "type": "chat",
+          "status": "active",
+          "title": "Чернышевск объявления",
+          "description": "Можно продать, купить, отдать, обменять\n\nНаша ссылка \n\nhttps://max.ru/join/WOOkT5lhwDuw5ij6f79tl2kek4R-r40Rc0uGjbactwE",
+          "participants_count": 1267,
+          "is_public": false,
+          "link": "https://max.ru/join/WOOkT5lhwDuw5ij6f79tl2kek4R-r40Rc0uGjbactwE",
+          "last_event_time": 1776033666968,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Чернышевск",
+          "matched_localities": [
+            "Чернышевск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чернышевск"
+          ],
+          "classification": "locality_confirmed"
+        },
+        {
+          "chat_id": -68181685163462,
+          "type": "chat",
+          "status": "active",
+          "title": "Чернышевск объявления",
+          "description": null,
+          "participants_count": 194,
+          "is_public": false,
+          "link": "https://max.ru/join/eiFrm6zdUS_sS7sYcNQzqUdJXJ02NavzYu5RKjTAjNg",
+          "last_event_time": 1776033116577,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чернышевск",
+          "matched_localities": [
+            "Чернышевск"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чернышевск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Агинское": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68957387033339,
+          "type": "chat",
+          "status": "active",
+          "title": "Агинское обьявления",
+          "description": "По всем вопросам звонить по ном 89955538410",
+          "participants_count": 525,
+          "is_public": false,
+          "link": "https://max.ru/join/L8Swu8JRTRa6sIcJq0pqgYAtg5QldNvi8VoZZeqndHM",
+          "last_event_time": 1776032124243,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Агинское",
+          "matched_localities": [
+            "Агинское"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Агинское"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Акша": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68117153319627,
+          "type": "chat",
+          "status": "active",
+          "title": "Акша объявления",
+          "description": null,
+          "participants_count": 1062,
+          "is_public": false,
+          "link": "https://max.ru/join/No4dq7Ndvmiv7XKDyFIFhRzSWMWFTyJHJVZuyMGUGiI",
+          "last_event_time": 1776031708708,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Акша",
+          "matched_localities": [
+            "Акша"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Акша"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Балей": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68098306149067,
+          "type": "chat",
+          "status": "active",
+          "title": "Балей объявления",
+          "description": "Купи,продай, отдай, возьми, поделись хорошими новостями✊️\nНаша ссылка \n\nhttps://max.ru/join/8LvZzkfsZwBgYdOELXOP9ZxFjfLj6TcJgadXjj28098",
+          "participants_count": 1702,
+          "is_public": false,
+          "link": "https://max.ru/join/8LvZzkfsZwBgYdOELXOP9ZxFjfLj6TcJgadXjj28098",
+          "last_event_time": 1776033653066,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Балей",
+          "matched_localities": [
+            "Балей"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Балей"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Борзя / Балей / Оловянная": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68103712571588,
+          "type": "chat",
+          "status": "active",
+          "title": "Балей 💤 Оловянная 💤 Борзя | Объявления",
+          "description": "📲 Связь с админом, пишите сюда:\n⭐ Жми: 👉 https://vk.cc/cOIuiq\nВсе группы в Телеграмм 75\n🔹Жми: 👉 https://vk.cc/cOYq0Z\nВсе группы в МАХ 75\n🔸Жми: 👉 https://vk.cc/cOF6pD",
+          "participants_count": 5207,
+          "is_public": false,
+          "link": "https://max.ru/join/qkrqUx7nJ1O7_4UVlGAdDe6FPjb_MWKDpSNJH2JkQvo",
+          "last_event_time": 1776033604633,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Борзя / Балей / Оловянная",
+          "matched_localities": [
+            "Борзя",
+            "Балей",
+            "Оловянная"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Борзя",
+            "title:Балей",
+            "title:Оловянная"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "ГРЭС (Чита)": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -72331746879558,
+          "type": "chat",
+          "status": "active",
+          "title": "ГРЭС ЧИТА",
+          "description": "▶️ВСЕ О НАШЕМ ПОСЕЛКЕ! \nОБЩЕНИЕ, НОВОСТИ, ОБЪЯВЛЕНИЯ! \n🔥НИЧЕГО ЛИШНЕГО!",
+          "participants_count": 534,
+          "is_public": false,
+          "link": "https://max.ru/join/pKgFnZiH0SWPs-OOKHcHp2EXYEcMVfGyxOzxTANsFrA",
+          "last_event_time": 1776032348070,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "ГРЭС (Чита)",
+          "matched_localities": [
+            "ГРЭС (Чита)"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита",
+            "title:ГРЭС (Чита)"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Дарасун": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -69402284264139,
+          "type": "chat",
+          "status": "active",
+          "title": "Дарасун объявления",
+          "description": null,
+          "participants_count": 1554,
+          "is_public": false,
+          "link": "https://max.ru/join/U0jdO4FrfuK6EkCgd8swKel2UeaXbGCvZ-F9rN8L-oM",
+          "last_event_time": 1776029148616,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Дарасун",
+          "matched_localities": [
+            "Дарасун"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Дарасун"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Забайкальск / Чита": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -73264703125613,
+          "type": "chat",
+          "status": "active",
+          "title": "Мастера и Услуги Забайкальский край.",
+          "description": "В группе ⬇️\n✅РАЗМЕЩАТЬ ОБЪЯВЛЕНИЯ ОБ УСЛУГАХ от мастера*1 РАЗ В ДЕНЬ в рабочее время 8.00-21.00\n👉В Объявления указываем какие вы услуги предоставляете (от мастера), район (Чита), номер телефона \n⛔ЗДЕСЬ ЗАПРЕЩЕНО размещать ⬇️\n📌 Спам и не законные услуги в РФ.\n📌 Все что не по теме, от фирм,куплю, ссылки только с согласованием с админом.\nСамостоятельно на сайте ⬇️ \nhttps://chat75.ru",
+          "participants_count": 3480,
+          "is_public": false,
+          "link": "https://max.ru/join/djX1WgPjO4kBGnNkNW0Jb2h2hxnusxNXGc4sxFAp8qs",
+          "last_event_time": 1776007488214,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Забайкальск / Чита",
+          "matched_localities": [
+            "Забайкальск",
+            "Чита"
+          ],
+          "matched_by": [
+            "title",
+            "description"
+          ],
+          "reasons": [
+            "title:Забайкальский край",
+            "description:Чита",
+            "title:Забайкальск"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Карымское": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68117146110667,
+          "type": "chat",
+          "status": "active",
+          "title": "ПГТ. Карымское объявления",
+          "description": "Продажи, покупки, обмены...",
+          "participants_count": 1490,
+          "is_public": false,
+          "link": "https://max.ru/join/yvspNxMhkg5f65u3HkjPGVTBSoH6Qe3fvRRGYppO1e4",
+          "last_event_time": 1776031595911,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Карымское",
+          "matched_localities": [
+            "Карымское"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Карымское"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Могоча": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -69479727551942,
+          "type": "chat",
+          "status": "active",
+          "title": ">> Могоча объявления📎",
+          "description": null,
+          "participants_count": 214,
+          "is_public": false,
+          "link": "https://max.ru/join/W-5N9pFpwVVq9iJAJIqlnRT5XzzfnMI76vDm7I3UWwA",
+          "last_event_time": 1776015264866,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Могоча",
+          "matched_localities": [
+            "Могоча"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Могоча"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Первомайский": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -71179772207153,
+          "type": "chat",
+          "status": "active",
+          "title": "🇷🇺ОБЪЯВЛЕНИЯ ЛНР. Алчевск,Луганск,Стаханов, Первомайск, Кировск",
+          "description": "Правила публикации объявлений в группе: Услуги Продать Снять Купить Сдать\nПри публикации Продам Сдам фото добавлять обязательно.\nБез обсуждения и хамства\nВсе сообщения не по теме удаляются\nКанал в МАХ\nhttps://max.ru/join/eNA_yejbKj9NA7P1WV0mUbAChNKHVKwgrTlPtxTUSX8\nГруппа в МАХ 🇷🇺Аренда-Продажа ЛНР\nhttps://max.ru/join/dNCgTvLpIZvghjdXBXu6jns2mLruMdo5ha-CXoHsyLI",
+          "participants_count": 425,
+          "is_public": false,
+          "link": "https://max.ru/join/Rn9DgnA1Agj57l1BzHaJJfXvgWKz5O1G_YoNIYxGMxM",
+          "last_event_time": 1776021745682,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Первомайский",
+          "matched_localities": [
+            "Первомайский"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Первомайский"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Улёты": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -73150746280453,
+          "type": "chat",
+          "status": "active",
+          "title": "Улёты и ближайшие районы  | Большая ДОСКА ОБЪЯВЛЕНИЙ",
+          "description": "По вопросу рекламы https://max.ru/id664001928509_1_bot\nПРАВИЛА ГРУППЫ ПО ССЫЛКЕ👇\nhttps://max.ru/join/fcg899ueBbNlZawe6eDPbUQALPBuNU6A7OHommknuqI",
+          "participants_count": 2032,
+          "is_public": false,
+          "link": "https://max.ru/join/43mMa7g1DeJMZdmZqYCvc5D-1Zmge9_DSw6Kt3J7f-w",
+          "last_event_time": 1776033560573,
+          "visible_in_tokens": [
+            "BOT_TOKEN3",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Улёты",
+          "matched_localities": [
+            "Улёты"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Улёты"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Чита / Улёты": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -69418346537117,
+          "type": "chat",
+          "status": "active",
+          "title": "Улёты Чита Объявления",
+          "description": "Ссылки разрешены, пиарьтесь)",
+          "participants_count": 791,
+          "is_public": false,
+          "link": "https://max.ru/join/P6Vf9pIJH0TjijHaWWsN13lAKCfyD28QtUavJPk5haA",
+          "last_event_time": 1776029238854,
+          "visible_in_tokens": [
+            "BOT_TOKEN2"
+          ],
+          "locality_bucket": "Чита / Улёты",
+          "matched_localities": [
+            "Чита",
+            "Улёты"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Чита",
+            "title:Улёты"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Читинский район": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -72259018639496,
+          "type": "chat",
+          "status": "active",
+          "title": "Читинский район",
+          "description": null,
+          "participants_count": 53,
+          "is_public": false,
+          "link": "https://max.ru/join/Lw1V6fw2Ustqs0SnFlP9DUcAUTM7lExvJCa710nCJGw",
+          "last_event_time": 1775983352793,
+          "visible_in_tokens": [
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Читинский район",
+          "matched_localities": [
+            "Читинский район"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Читинский район"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    },
+    "Шилка": {
+      "chats_count": 1,
+      "chats": [
+        {
+          "chat_id": -68117120420555,
+          "type": "chat",
+          "status": "active",
+          "title": "Шилка объявления",
+          "description": "Наша ссылка \n\nhttps://max.ru/join/MCR22dJprCiZSMcjsyk7FPVflt7NryTz9eAgAGTsWzk",
+          "participants_count": 1974,
+          "is_public": false,
+          "link": "https://max.ru/join/MCR22dJprCiZSMcjsyk7FPVflt7NryTz9eAgAGTsWzk",
+          "last_event_time": 1776033312777,
+          "visible_in_tokens": [
+            "BOT_TOKEN2",
+            "BOT_TOKEN4"
+          ],
+          "locality_bucket": "Шилка",
+          "matched_localities": [
+            "Шилка"
+          ],
+          "matched_by": [
+            "title"
+          ],
+          "reasons": [
+            "title:Шилка"
+          ],
+          "classification": "locality_confirmed"
+        }
+      ]
+    }
+  }
+}

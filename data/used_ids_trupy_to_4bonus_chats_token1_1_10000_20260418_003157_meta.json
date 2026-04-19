@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "created_at": "2026-04-17T21:31:57.065809Z",
+  "source_file": "/home/alex/projects/ryslanchik/maxmanager/трупы",
+  "token_env": "BOT_TOKEN1",
+  "chat_count": 4,
+  "count_per_chat": 2500,
+  "total_count": 10000,
+  "range_human": "1-10000",
+  "marked_used_ids_count": 10000,
+  "used_ids_file": "/home/alex/projects/ryslanchik/maxmanager/data/used_ids_trupy_to_4bonus_chats_token1_1_10000_20260418_003157.txt",
+  "results": [
+    {
+      "target_chat_id": -73653132442330,
+      "target_title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "range_human": "1-1000",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 803,
+      "still_missing_count": 197,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_1_1000_20260417202533_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653132442330,
+      "target_title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "range_human": "1001-2000",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 911,
+      "still_missing_count": 89,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_1001_2000_20260417203211_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653132442330,
+      "target_title": "БЕЗДЕПЫ ДЛЯ ТЕБЯ ",
+      "range_human": "2001-2500",
+      "processed_count": 500,
+      "attempted_invite_count": 500,
+      "verified_added_count": 441,
+      "still_missing_count": 59,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653132442330_2001_2500_20260417203855_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73652908047066,
+      "target_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "range_human": "2501-3500",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 742,
+      "still_missing_count": 258,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_2501_3500_20260417204151_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73652908047066,
+      "target_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "range_human": "3501-4500",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 846,
+      "still_missing_count": 154,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_3501_4500_20260417204829_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73652908047066,
+      "target_title": "ХВАТАЙ БЕЗДЕП БОНУСЫ",
+      "range_human": "4501-5000",
+      "processed_count": 500,
+      "attempted_invite_count": 500,
+      "verified_added_count": 466,
+      "still_missing_count": 34,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73652908047066_4501_5000_20260417205509_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653253225178,
+      "target_title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "range_human": "5001-6000",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 949,
+      "still_missing_count": 51,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_5001_6000_20260417205806_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653253225178,
+      "target_title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "range_human": "6001-7000",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 755,
+      "still_missing_count": 245,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_6001_7000_20260417210452_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653253225178,
+      "target_title": "ЛОВИ БЕЗДЕП БОНУСЯКИ ",
+      "range_human": "7001-7500",
+      "processed_count": 500,
+      "attempted_invite_count": 500,
+      "verified_added_count": 441,
+      "still_missing_count": 59,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653253225178_7001_7500_20260417211135_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653365816026,
+      "target_title": "БОНУСЫ ИГРОКАМ ",
+      "range_human": "7501-8500",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 694,
+      "still_missing_count": 306,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_7501_8500_20260417211437_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653365816026,
+      "target_title": "БОНУСЫ ИГРОКАМ ",
+      "range_human": "8501-9500",
+      "processed_count": 1000,
+      "attempted_invite_count": 1000,
+      "verified_added_count": 969,
+      "still_missing_count": 31,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_8501_9500_20260417212122_result.json",
+      "still_missing_file": null
+    },
+    {
+      "target_chat_id": -73653365816026,
+      "target_title": "БОНУСЫ ИГРОКАМ ",
+      "range_human": "9501-10000",
+      "processed_count": 500,
+      "attempted_invite_count": 500,
+      "verified_added_count": 424,
+      "still_missing_count": 76,
+      "result_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_members_to_73653365816026_9501_10000_20260417212813_result.json",
+      "still_missing_file": null
+    }
+  ],
+  "totals": {
+    "processed_count": 10000,
+    "attempted_invite_count": 10000,
+    "verified_added_count": 8441,
+    "still_missing_count": 1559
+  }
+}

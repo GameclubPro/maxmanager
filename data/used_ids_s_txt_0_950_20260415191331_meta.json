@@ -1,0 +1,28 @@
+{
+  "source_file": "с.txt",
+  "source_unique_ids": 3529,
+  "run_context": {
+    "target_chat_id": -73557264312972,
+    "start": 0,
+    "count": 1000,
+    "invite_batch_size": 10,
+    "pause_ms": 3000,
+    "interrupted_after_progress": "950/1000",
+    "interrupted_by": "user_request"
+  },
+  "marked_used_ids_count": 950,
+  "marked_used_source_indexes_0_based": {
+    "from": 0,
+    "to_inclusive": 949
+  },
+  "first_wave_pending_count": 50,
+  "first_wave_pending_source_indexes_0_based": {
+    "from": 950,
+    "to_inclusive": 999
+  },
+  "files": {
+    "used_ids_file": "data/used_ids_s_txt_0_950_20260415191331.txt",
+    "pending_ids_file": "data/pending_ids_s_txt_951_1000_20260415191331.txt"
+  },
+  "generated_at_iso": "2026-04-15T19:13:31.887Z"
+}

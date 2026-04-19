@@ -1,0 +1,8 @@
+Token2 add report (Бесплатный Пиар, 5000 new unmarked IDs)
+ok=true
+processed=5000 verified_added=4568 still_missing=432 waves=5 nonzero_exit=0
+- wave start=0 count=1000 added=925 still_missing=75 exit=0
+- wave start=1000 count=1000 added=914 still_missing=86 exit=0
+- wave start=2000 count=1000 added=919 still_missing=81 exit=0
+- wave start=3000 count=1000 added=915 still_missing=85 exit=0
+- wave start=4000 count=1000 added=895 still_missing=105 exit=0

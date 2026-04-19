@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "summary_file": "/home/alex/projects/ryslanchik/maxmanager/data/add_token2_ads_chat_5k_summary_20260415_155915.tsv",
+  "progress_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_marked_progress_20260415_155915.tsv",
+  "assignment_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_5000_assignment_20260415_token2_ads_5k_split.tsv",
+  "combined_mapping_file": "/home/alex/projects/ryslanchik/maxmanager/data/token34_nonlocal_ads_37500_marked_combined_20260415_155915.tsv",
+  "totals": {
+    "waves": 5,
+    "processed": 5000,
+    "verified_added": 4528,
+    "still_missing": 472,
+    "nonzero_exit": 0
+  },
+  "per_wave": [
+    {
+      "ts_start": "2026-04-15T15:59:15+03:00",
+      "ts_end": "2026-04-15T16:05:05+03:00",
+      "chat_id": -73543079047868,
+      "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+      "start": 0,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 910,
+      "still_missing": 90,
+      "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1_1000_20260415125915_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1_1000_20260415125915.txt"
+    },
+    {
+      "ts_start": "2026-04-15T16:06:05+03:00",
+      "ts_end": "2026-04-15T16:11:52+03:00",
+      "chat_id": -73543079047868,
+      "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+      "start": 1000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 906,
+      "still_missing": 94,
+      "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1001_2000_20260415130605_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_1001_2000_20260415130605.txt"
+    },
+    {
+      "ts_start": "2026-04-15T16:12:52+03:00",
+      "ts_end": "2026-04-15T16:18:41+03:00",
+      "chat_id": -73543079047868,
+      "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+      "start": 2000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 899,
+      "still_missing": 101,
+      "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_2001_3000_20260415131252_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_2001_3000_20260415131252.txt"
+    },
+    {
+      "ts_start": "2026-04-15T16:19:41+03:00",
+      "ts_end": "2026-04-15T16:25:35+03:00",
+      "chat_id": -73543079047868,
+      "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+      "start": 3000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 898,
+      "still_missing": 102,
+      "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_3001_4000_20260415131942_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_3001_4000_20260415131942.txt"
+    },
+    {
+      "ts_start": "2026-04-15T16:26:35+03:00",
+      "ts_end": "2026-04-15T16:32:28+03:00",
+      "chat_id": -73543079047868,
+      "source_file": "data/token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split.txt",
+      "start": 4000,
+      "count": 1000,
+      "exit_code": 0,
+      "verified_added": 915,
+      "still_missing": 85,
+      "result_file": "data/add_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_4001_5000_20260415132635_result.json",
+      "missing_file": "data/still_missing_token34_nonlocal_ads_73543079047868_5000_20260415_token2_ads_5k_split_to_73543079047868_4001_5000_20260415132635.txt"
+    }
+  ]
+}

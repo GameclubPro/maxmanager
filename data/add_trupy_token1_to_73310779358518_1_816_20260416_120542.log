@@ -1,0 +1,41 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --source-file трупы --target-chat-id -73310779358518 --start 0 --count 816 --invite-batch-size 10 --pause-ms 3000
+
+[dotenv@17.3.1] injecting env (15) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[run] Loading target member snapshot...
+[run] Snapshot loaded: 984 members across 10 pages
+[run] Inviting 816 users to chat -73310779358518 in batches of 10 (82 calls)...
+[run] Progress: 50/816 users
+[run] Progress: 100/816 users
+[run] Progress: 150/816 users
+[run] Progress: 200/816 users
+[run] Progress: 250/816 users
+[run] Progress: 300/816 users
+[run] Progress: 350/816 users
+[run] Progress: 400/816 users
+[run] Progress: 450/816 users
+[run] Progress: 500/816 users
+[run] Progress: 550/816 users
+[run] Progress: 600/816 users
+[run] Progress: 650/816 users
+[run] Progress: 700/816 users
+[run] Progress: 750/816 users
+[run] Progress: 800/816 users
+[run] Progress: 816/816 users
+[run] Verifying membership for 816 users...
+{
+  "ok": true,
+  "source_file": "трупы",
+  "target_chat_id": -73310779358518,
+  "processed_count": 816,
+  "already_in_target_count": 0,
+  "attempted_invite_count": 816,
+  "invited_without_immediate_failure_count": 816,
+  "verified_added_count": 632,
+  "still_not_in_target_from_this_chunk_count": 184,
+  "before_participants_count": 984,
+  "after_participants_count": 1609,
+  "result_file": "data/add_members_to_73310779358518_1_816_20260416090542_result.json",
+  "still_missing_file": "data/still_missing_members_to_73310779358518_1_816_20260416090542.txt"
+}

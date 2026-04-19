@@ -1,0 +1,5 @@
+
+> max-moderation-bot@1.0.0 members:add
+> node scripts/add-chat-members-2026.js --env-file /tmp/tmp.mGLGpwTX7U --source-file data/b2b_2024_unused_5k_for_73557708909196_token1_20260416_224126.txt --target-chat-id -73557708909196 --start 0 --count 1000 --invite-batch-size 10 --pause-ms 3000 --max-retries 0 --stop-on-action-failed 0
+
+◇ injected env (1) from ../../../../../tmp/tmp.mGLGpwTX7U // tip: ⌁ auth for agents [www.vestauth.com]
